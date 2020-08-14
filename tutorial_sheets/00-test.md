@@ -302,8 +302,7 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 
 (f) Sketch the function, indicating the location of the features listed above
 
-<div class = "answer"><img src="00-test-media\prob10graph.PNG" alt="Function">
-<iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+<div class = "answer"><iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
 
