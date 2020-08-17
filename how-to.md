@@ -109,6 +109,12 @@ $ \boxed{\text{a thing}}$ - puts a box around whatever is inside (used for answe
 * https://detexify.kirelabs.org/classify  - Useful webapp that shows you the closest LaTeX symbol to what you drew.
 * https://mathpix.com/ - Detexify on steroids, a snipping tool/camera phone app that lets you extract LaTeX formulae from images. (Free limit: 100 snips a month)
 
+<br><br>
+
+-----------------------------------------------------------------------------
+<br><br>
+
+
 # Tutorial sheet layout
 ## The "Preamble"
 ([a stolen latex term](https://latex.wikia.org/wiki/LaTeX_preamble)) At the top of each tutorial sheet, there is a section of required imports, which setup MathJax, our custom script (for answer show/hide etc) and a css style sheet.
@@ -147,8 +153,25 @@ $\Rightarrow{} \boxed{\frac{df(x)}{dx} = x^2\exp{(2x)}(3 + 2x)}$
 </div>
 ```
 
-This will render as when the answer is toggled:
+This will render like this when the answer is toggled:
 
 ![rendered problem example](media\how-to_problem-example.PNG)
 
 The final answer to a question should have `\boxed{}` to help point it out to the reader.
+
+
+-----------------------------------------------------------------------------
+
+
+## Copying tutorial sheets from overleaf
+The previous tutorial sheets have some LaTeX document specific formatting that is useful to understand:
+
+* `\section{}` denotes a new problem
+* `\Qpart` denotes a new problem part
+* `\begin{comment} \end{comment}` is used to hide the answer (replace with the answer div)
+* `\ans{}` was the previous way of collecting final answers in problems (replace with boxed)
+
+### Plots
+MathJax does not support LaTeX plots, but since we are working on the internet, there are better options! [Desmos](https://www.desmos.com/) is one of the easiest candidates to make embeddable, interactive plots. To generate a Desmos embed, enter the graph/extra features into Desmos and click the share button. 
+
+![how-to_desmos-embed.PNG](media\how-to_desmos-embed.PNG)
