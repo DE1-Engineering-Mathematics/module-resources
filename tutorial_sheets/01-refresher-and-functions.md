@@ -13,9 +13,9 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-![function](00-test-media/cover.png)
+![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Week 1
-This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the course (and your engineering career). We will then move on to covering the topic of graph sketching, which is also very integral to nearly all other topics in the module.
+This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the course. We will then move on to covering the topic of graph sketching, which is also used in nearly all of
 
 ### Learning targets
 
@@ -46,36 +46,32 @@ This week we will start out by reviewing some important algebra and calculus top
 ### Problem 1.
 Separate the following using the method of partial fractions.
 
-(a) $f(x) = x^3 e^{2x}$
-<div class = "answer">$\Rightarrow{}$ Using product rule $\Rightarrow{} \frac{d}{dx}(uv) = v\frac{du}{dx} + u\frac{dv}{dx}\\ \Rightarrow{} u = x^3,\quad v=\exp{(2x)}$
-$\Rightarrow{} \frac{du}{dx} = 3x^2$
-$\Rightarrow{}$ using chain rule $\frac{d}{dx}v(g(x)) = \frac{dv}{dg}\frac{dg}{dx}$ to solve $\frac{dv}{dx}$ with $g(x) = 2x$
-$\Rightarrow{} \frac{dv}{dx} = 2\exp{(2x)}$
-$\Rightarrow{} \frac{df(x)}{dx} = 3x^2\exp{(2x)} + 2x^3\exp{(2x)}$
-$\Rightarrow{} \boxed{\frac{df(x)}{dx} = x^2\exp{(2x)}(3 + 2x)}$
+(a) $\frac{x^2-6}{x^3-x}$
+<div class = "answer">$\Rightarrow \quad $ factorise the denominator $\Rightarrow{}\ \ x^3-x = x(x+1)(x-1)$
+$\Rightarrow{}\ \ \frac{x^2-6}{x^3-x} = \frac{A}{x} + \frac{B}{(x+1)} + \frac{C}{(x-1)}$
+from numerators  $x^2 - 6 = (A+B+C)x^2 + (C-B)x - A$
+$\Rightarrow \quad A+B+C = 1,\\ \quad C-B = 0,\\ \quad A = 6$
+$\Rightarrow \quad C = B = \frac{-5}{2}$
+$\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} - \frac{5}{2(x-1)}}$
 </div>
 
-(b) $f(x) = \sin{(x^2 + 3x)}$
-<div class = "answer">$\Rightarrow{}$ Using chain rule $\Rightarrow{} \frac{df(x)}{dx}= \cos{(x^2+3x)}\frac{d}{dx}(x^2+3x)$
-$\Rightarrow{}$ Using sum rule $\Rightarrow{} \frac{d}{dx}(g(x)+h(x)) = \frac{dg}{dx} + \frac{dh}{dx}$
-$\Rightarrow{} \frac{d}{dx}(x^2+3x) = 2x + 3$
-$\Rightarrow{} \boxed{ \frac{df(x)}{dx} = \cos{(x^2+3x)}(2x + 3)}$
+(b) $\frac{5(x-7)}{x^2+2x-35}$
+<div class = "answer">$\Rightarrow{}\quad$ factorize the denominator 
+$\Rightarrow \quad x^2+2x-35 = (x+7)(x-5)$
+$\Rightarrow \quad \frac{5(x-7)}{x^2+2x-35} = \frac{A}{x+7} + \frac{B}{x-5}$
+$\Rightarrow \quad $ from numerators  $5x-35 = (A+B)x - 5A + 7B$
+$\Rightarrow \quad A+B = 5,\quad -5A + 7B = -35$
+$\Rightarrow \quad \boxed{A = \frac{35}{6},\quad B=\frac{-5}{6},
+\ \ \frac{5(x-7)}{x^2+2x-35} = \frac{35}{6(x+7)} - \frac{5}{6(x-5)} }$
 </div>
 
-(c) $f(x) = \frac{x^2+2}{3x+1}$
-<div class = "answer">$\Rightarrow{}$ Using product, chain and sum rule 
-$\Rightarrow{} f(x) = (x^2+2)(3x+1)^{-1}$
-$\Rightarrow{} \frac{df(x)}{dx} = 2x(3x+1)^{-1} + (x^2+2)(-3(3x+1)^{-2})$
-$\Rightarrow{} \boxed{\frac{df(x)}{dx} = \frac{3x^2+2x-6}{(3x+1)^{2}}}$
-</div>
-
-(d) $f(x) = x^2 \ln{(4x)}$
-<div class = "answer">$\Rightarrow{} \int{2x\sin{(x)}}dx$
-$\Rightarrow{}$ using integration by parts $\Rightarrow{} \int{udv} = uv -\int{vdu}$
-$\Rightarrow{} u =2x,\quad dv=\sin{(x)dx} \Rightarrow{} du=2dx,\quad v=-\cos{(x)}$
-$\Rightarrow{} \int{2x\sin{(x)}}dx = 2x(-\cos{(x)}) - \int{(-cox(x))2}dx$ 
-$\Rightarrow{} \int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\int{\cos{(x)}}dx$
-$\Rightarrow{} \boxed{\int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\sin{(x)} + c}$
+(c) $\frac{x-1}{(3x+2)^2(2x+3)}$
+<div class = "answer">$\Rightarrow{}\quad$ for linear and repeated factors
+$\Rightarrow{}\ \ \frac{x-1}{(3x+2)^2(2x+3)} = \frac{A}{2x+3} + \frac{B}{3x+2} + \frac{C}{(3x+2)^2}$
+$\Rightarrow{}\quad$from numerators $\Rightarrow{}\quad x-1 = (9A+6B)x^2 + (12A+13B+2C)x + 4A + 6B +3C$
+$\Rightarrow{}\quad 9A+6B = 0,\quad 12A +13B +2C = 1,\quad 4A+6B+3C=-1$
+$\Rightarrow{}\quad A = \frac{-2}{5},\quad B=\frac{3}{5},\quad C=-1$
+$\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \frac{3}{5(3x+2)} - \frac{1}{(3x+2)^2} }$
 </div>
 
 -----------------------------------------------------------------------------------
@@ -166,12 +162,12 @@ $\Rightarrow{}\ \ \boxed{=\frac{PQ^2}{1000K}}$
 
 (b) $\log{R}=1+\frac{1}{3}\log{M}+3\log{S}$
 <div class = "answer">$\Rightarrow{} \log{R=\log{10+\log{M^{\frac{1}{3}}+\log{S^3\ \ }}}}$
-$\Rightarrow{}\ \boxed{R=10S^3.\sqrt[3]{M}}$
+$\Rightarrow{}\ \boxed{R=10 \cdot S^3 \cdot \sqrt[3]{M}}$
 </div>
 
 (c) $\ln{P}=\frac{1}{2}\ln\left(Q+1\right)-3\ln{R}+2$
 <div class = "answer">$\Rightarrow{} \ln{P=\ln{ \left(Q+1\right) }^{\frac{1}{2}}+\ln{e^2-\ln{R^3}}}$
-$\Rightarrow{}\ \ \boxed{$P=\frac{e^2\sqrt{Q+1}}{R^3}}$
+$\Rightarrow{}\ \ \boxed{P=\frac{e^2\sqrt{Q+1}}{R^3}}$
 </div>
 
 -----------------------------------------------------------------------------------
@@ -267,8 +263,7 @@ $\Rightarrow{} \boxed{$\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1
 
 (a) Find the coordinates of the point where the curve crosses the $y$-axis
 
-<div class = "answer"> When $x=0, f(x)=\frac{-12}{-6} \\ \Rightarrow{} f(x) = 2,\ \\ \Rightarrow{} \boxed{(0,2)}$ 
-[1 mark]</div>
+<div class = "answer"> When $x=0, f(x)=\frac{-12}{-6} \\ \Rightarrow{} f(x) = 2,\ \\ \Rightarrow{} \boxed{(0,2)}$ [1 mark]</div>
 
 (b) You are given that the curve has a vertical asymptote at $x=2$. Find the value of $b$ and the equation of the other vertical asymptote.
 
@@ -305,16 +300,36 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 <div class = "answer"><iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
+-----------------------------------------------------------------------------------
 
+### Problem 11.
+[12 marks] A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
 
+(a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
+
+<div class = "answer">$\boxed{x = 1 \\ x = -4 \\ y = 3}$ [3 marks]</div>
+
+(b) State, with justification, how the curve approaches the horizontal asymptote for large positive and large negative values of x.
+
+<div class = "answer">$\text{Large positive}\ x, \boxed{y \ \rightarrow{3} \text{ from below}}$
+$\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
+
+(c) Sketch the curve
+
+<div class = "answer"><iframe src="https://www.desmos.com/calculator/jdzogmrkh8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0> [3 marks]</iframe></div>
+
+(d) Solve the inequality $\frac{3x^2 - 9}{x^2 + 3x -4} \geqslant 0. $
+
+<div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
+[3 marks]</div>
 
 ------------
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 
 <br><br>
 
 # Next week, vectors!
 
-![vectors](00-test-media/nextWeek.png)
+![vectors](01-refersher-and-functions-media/nextWeek.PNG)
