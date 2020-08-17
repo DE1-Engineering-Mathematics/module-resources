@@ -300,16 +300,36 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 <div class = "answer"><iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
+-----------------------------------------------------------------------------------
 
+### Problem 11.
+[12 marks] A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
 
+(a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
+
+<div class = "answer">$\boxed{x = 1 \\ x = -4 \\ y = 3}$ [3 marks]</div>
+
+(b) State, with justification, how the curve approaches the horizontal asymptote for large positive and large negative values of x.
+
+<div class = "answer">$\text{Large positive}\ x, \boxed{y \ \rightarrow{3} \text{ from below}}$
+$\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
+
+(c) Sketch the curve
+
+<div class = "answer"><iframe src="https://www.desmos.com/calculator/jdzogmrkh8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0> [3 marks]</iframe></div>
+
+(d) Solve the inequality $\frac{3x^2 - 9}{x^2 + 3x -4} \geqslant 0. $
+
+<div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
+[3 marks]</div>
 
 ------------
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 
 <br><br>
 
 # Next week, vectors!
 
-![vectors](01-refersher-and-functions-media/nextWeek.png)
+![vectors](01-refersher-and-functions-media/nextWeek.PNG)
