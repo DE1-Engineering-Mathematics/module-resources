@@ -1,0 +1,40 @@
+.answer {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(240,240,240);
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 1px;
+    border-radius: 10px;
+
+    white-space: pre-line;
+    line-height: 3;
+
+    display: none;
+}
+
+.answerButton {
+    color: #16D3EC;
+    background-color: transparent;
+    font-size: 1em;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 1px;
+
+    cursor: pointer;
+
+    display: none;
+}
+
+button{
+    /* background-color: #e7e7e7;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    cursor: pointer; */
+}
