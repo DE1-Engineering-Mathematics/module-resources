@@ -2,17 +2,17 @@
 This document should give a semi-brief (hopefully) intro to how to start creating and editing the tutorial sheets as well as other math documents in this repository. Assumes minimal knowledge of markdown, LaTeX, GitHub etc.
 
 ## Quick edits
-GitHub supports on-site editing of all text files, however the preview will not function so it is only useful for very quick edits. With any markdown file opened, click the pencil on the top right.
+GitHub supports on-site editing of all text files. However, the preview will not render any maths or other embeds so it is only useful for quick edits. With any markdown file opened, click the pencil on the top right.
 
 ![Disable security](media\how-to_github-edit.PNG)
 
-# Setting up the full dev environment
-If you already have VS Code (or an editor of your choice) and GitHub setup, you can skip pretty much all of this except: "Getting the VS Code preview to display math and other embeds".
+# Setting up the full "dev environment"
+If you already have VS Code (or a text editor of your choice that can preview markdown) and GitHub setup, you can skip pretty much all of this except: "Getting the VS Code preview to display math and other embeds".
 
 ## Recommended software: VS Code and GitHub Desktop
-[Visual Studio Code](https://code.visualstudio.com/) is a wonderful free code editor that supports markdown previews (and does much, much more).
+[Visual Studio Code](https://code.visualstudio.com/) is a wonderful free code editor that supports markdown previews (and does a lot more).
 
-[GitHub desktop](https://desktop.github.com/) is a great way to interface with GitHub if you don't want to mess around with the command line.
+[GitHub desktop](https://desktop.github.com/) is a great way to interface with GitHub if you don't want to mess around with the command line (only really useful if you are a mega nerd, or mess something up very badly).
 
 ## (GitHub setup) Clone the repository
 From the [GitHub repository site](https://github.com/DE1-Engineering-Mathematics/module-resources), click the _"open with github desktop"_ option on green code/clone button and follow the resulting prompts.
@@ -20,7 +20,9 @@ From the [GitHub repository site](https://github.com/DE1-Engineering-Mathematics
 ![Disable security](media\how-to_clone-github.PNG)
 
 ### Never work out of the master branch!!
-For a verity of valid reasons, a good Git/GitHub rule is to never work out of your master branch (the main one in this case being all edits to the master branch get published directly to the GitHub pages website). It's good practice to switch to a specific branch or create a new one after cloning. Use the `tutorial-sheets` branch if you do not want to make a new branch for your edits.
+For a verity of good reasons, a great Git/GitHub rule is to never work out of your master branch (the main one in our case being: all edits to the master branch get published directly to the GitHub pages website). It's good practice to switch to a specific branch or create a new one after cloning. Use the `tutorial-sheets` branch if you do not want to make a new branch for your edits.
+
+_TODO: Write tutorial for forking/pull requests_
 
 ![Switch github branch](media\how-to_switch-branch.PNG)
 
@@ -32,11 +34,12 @@ For a verity of valid reasons, a good Git/GitHub rule is to never work out of yo
 ## (VS Code setup) Setting up the markdown preview
 ### Spell check and GitHub markdown plugins
 Two very useful plugins are
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) (pretty self explanatory)
-* [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) (Uses GitHub's markdown styling)
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - pretty self explanatory, we are engineers not english majors after all :)
+* [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) - adds GitHub's markdown styling to the preview
 
 ### Getting the VS code preview to display math and other embeds
-By default, the VS Code will not render math/other embedded content. It will not load an external sources for safety reasons, but as long as you don't open any malicious markdown content there is no need for concern.
+By default, the VS Code will not render math/other embedded content. This is because they require external sources to be loaded and by default VS Code doesn't allow this for safety reasons. We can turn off the security settings that disable this, and as long as you don't open any malicious markdown content there is no need for concern.
+
 ![Content disabled error](media\how-to_content-disabled.PNG)
 
 #### Step 1, change preview security settings (top right)
@@ -46,7 +49,7 @@ By default, the VS Code will not render math/other embedded content. It will not
 ![Disable security](media\how-to_disable-security.PNG)
 
 ___Warning: Now that we have disabled preview security, make sure you trust all the markdown files you open, as well as their content's sources.___
-_(aka: don't forget you left this setting off and then go open up some random file off the internet)_
+_(aka: don't forget you left this setting off and then go preview up some random file off the internet)_
 
 <br><br>
 
@@ -55,7 +58,7 @@ _(aka: don't forget you left this setting off and then go open up some random fi
 
 
 # Basic markdown and LaTeX
-Now that you have access to edit and preview the documents the next thing is to understand what's in them and how they are layed out.
+Now that you have access to edit and preview the documents, the next thing is to understand what's in them and how they are laid out.
 
 ## Quick intro to markdown
 The tutorial sheets (and other documents, such as this one) are written as markdown documents. Markdown is essentially a highly optimized way of writing html that contains all the basic formatting options necessary to write static pages. Any `.md` will be rendered on GitHub as markdown.
@@ -98,15 +101,26 @@ $ \text{text} $ - Renders anything inside the {} as text, not math
 $ \int_{a}^b $ - Integral notation (replace with \sum for sum notation)
 $ \quad $ - 4 spaces (used frequently in the original tutorial sheet notation)
 $ \space $ - Yep, literally a space (also can use "\ ")
+$ \boxed{\text{a thing}}$ - puts a box around whatever is inside (used for answers)
 ```
+### LaTeX resources
 
-https://arachnoid.com/latex/
+* https://arachnoid.com/latex/ - Simple online latex editor (has some example formulae)
+* https://detexify.kirelabs.org/classify  - Useful webapp that shows you the closest LaTeX symbol to what you drew.
+* https://mathpix.com/ - Detexify on steroids, a snipping tool/camera phone app that lets you extract LaTeX formulae from images. (Free limit: 100 snips a month)
 
-# Tutorial sheet structure
-Tutorial sheets have an opening section with: Learning targets, Reading, Lectures and Additional resources. These are meant to help guide a student through the week's content and serve as a place to store review resources as well.
+# Tutorial sheet layout
+## The "Preamble"
+([a stolen latex term](https://latex.wikia.org/wiki/LaTeX_preamble)) At the top of each tutorial sheet, there is a section of required imports, which setup MathJax, our custom script (for answer show/hide etc) and a css style sheet.
+
+Check the template sheet _insert link_ to copy and paste the current version.
+
+
+## Intro / Resources
+After the require imports, tutorial sheets have an opening section with: Learning targets, Reading, Lectures and Additional resources. These are meant to help guide a student through the week's content and serve as a place to store review resources as well.
 
 ## Questions
-The next/main/currently final section in each tutorial sheet are the problems. Each question has parts with answers and is categorized into question types. 
+The next/main/currently final section in each tutorial sheet are the problems. Each question has parts with corresponding answers and is categorized into question types. 
 
 __Question types__ are titled with a level 2 heading (`##` in markdown), there are generaly three sections:
 * Essential Questions
@@ -133,3 +147,8 @@ $\Rightarrow{} \boxed{\frac{df(x)}{dx} = x^2\exp{(2x)}(3 + 2x)}$
 </div>
 ```
 
+This will render as when the answer is toggled:
+
+![rendered problem example](media\how-to_problem-example.PNG)
+
+The final answer to a question should have `\boxed{}` to help point it out to the reader.
