@@ -46,10 +46,16 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 
 -----------------------------------
 
+## Challenging Questions
+### Problem n.
+
+## Answers
+
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
 
+<br><br>
 
-## Challenging Questions
-### Problem n.
+# Next week, another topic!
+![vectors](02-vectors-media/cover.png)
