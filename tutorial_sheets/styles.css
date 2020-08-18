@@ -7,9 +7,10 @@
     border-width: 1px;
     border-radius: 10px;
 
-    white-space: pre-line;
+    /* white-space: pre-line; */
     line-height: 3;
 
+    /* Comment if you want to preview with all answers */
     display: none;
 }
 

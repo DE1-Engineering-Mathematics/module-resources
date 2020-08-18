@@ -15,7 +15,7 @@
 
 ![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Week 1
-This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the course. We will then move on to covering the topic of graph sketching, which is also used in nearly all of
+This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the module. We will then move on to covering the topic of graph sketching, which is also used in nearly all of the topics in this module.
 
 ### Learning targets
 
@@ -332,4 +332,4 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 # Next week, vectors!
 
-![vectors](01-refersher-and-functions-media/nextWeek.PNG)
+![vectors](02-vectors-media/cover.png)
