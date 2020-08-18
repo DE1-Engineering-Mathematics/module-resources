@@ -15,7 +15,7 @@
 
 ![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Week 1
-This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the course. We will then move on to covering the topic of graph sketching, which is also used in nearly all of
+This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the module. We will then move on to covering the topic of graph sketching, which is also used in nearly all of the topics in this module.
 
 ### Learning targets
 
@@ -47,30 +47,30 @@ This week we will start out by reviewing some important algebra and calculus top
 Separate the following using the method of partial fractions.
 
 (a) $\frac{x^2-6}{x^3-x}$
-<div class = "answer">$\Rightarrow \quad $ factorise the denominator $\Rightarrow{}\ \ x^3-x = x(x+1)(x-1)$
-$\Rightarrow{}\ \ \frac{x^2-6}{x^3-x} = \frac{A}{x} + \frac{B}{(x+1)} + \frac{C}{(x-1)}$
-from numerators  $x^2 - 6 = (A+B+C)x^2 + (C-B)x - A$
-$\Rightarrow \quad A+B+C = 1,\\ \quad C-B = 0,\\ \quad A = 6$
-$\Rightarrow \quad C = B = \frac{-5}{2}$
+<div class = "answer">$\Rightarrow \quad $ factorise the denominator $\Rightarrow{}\ \ x^3-x = x(x+1)(x-1)$ <br>
+$\Rightarrow{}\ \ \frac{x^2-6}{x^3-x} = \frac{A}{x} + \frac{B}{(x+1)} + \frac{C}{(x-1)}$ <br>
+from numerators  $x^2 - 6 = (A+B+C)x^2 + (C-B)x - A$ <br>
+$\Rightarrow \quad A+B+C = 1,\\ \quad C-B = 0,\\ \quad A = 6$ <br>
+$\Rightarrow \quad C = B = \frac{-5}{2}$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} - \frac{5}{2(x-1)}}$
 </div>
 
 (b) $\frac{5(x-7)}{x^2+2x-35}$
-<div class = "answer">$\Rightarrow{}\quad$ factorize the denominator 
-$\Rightarrow \quad x^2+2x-35 = (x+7)(x-5)$
-$\Rightarrow \quad \frac{5(x-7)}{x^2+2x-35} = \frac{A}{x+7} + \frac{B}{x-5}$
-$\Rightarrow \quad $ from numerators  $5x-35 = (A+B)x - 5A + 7B$
-$\Rightarrow \quad A+B = 5,\quad -5A + 7B = -35$
+<div class = "answer">$\Rightarrow{}\quad$ factorize the denominator <br>
+$\Rightarrow \quad x^2+2x-35 = (x+7)(x-5)$ <br>
+$\Rightarrow \quad \frac{5(x-7)}{x^2+2x-35} = \frac{A}{x+7} + \frac{B}{x-5}$ <br>
+$\Rightarrow \quad $ from numerators  $5x-35 = (A+B)x - 5A + 7B$ <br>
+$\Rightarrow \quad A+B = 5,\quad -5A + 7B = -35$ <br>
 $\Rightarrow \quad \boxed{A = \frac{35}{6},\quad B=\frac{-5}{6},
 \ \ \frac{5(x-7)}{x^2+2x-35} = \frac{35}{6(x+7)} - \frac{5}{6(x-5)} }$
 </div>
 
 (c) $\frac{x-1}{(3x+2)^2(2x+3)}$
-<div class = "answer">$\Rightarrow{}\quad$ for linear and repeated factors
-$\Rightarrow{}\ \ \frac{x-1}{(3x+2)^2(2x+3)} = \frac{A}{2x+3} + \frac{B}{3x+2} + \frac{C}{(3x+2)^2}$
-$\Rightarrow{}\quad$from numerators $\Rightarrow{}\quad x-1 = (9A+6B)x^2 + (12A+13B+2C)x + 4A + 6B +3C$
-$\Rightarrow{}\quad 9A+6B = 0,\quad 12A +13B +2C = 1,\quad 4A+6B+3C=-1$
-$\Rightarrow{}\quad A = \frac{-2}{5},\quad B=\frac{3}{5},\quad C=-1$
+<div class = "answer">$\Rightarrow{}\quad$ for linear and repeated factors <br>
+$\Rightarrow{}\ \ \frac{x-1}{(3x+2)^2(2x+3)} = \frac{A}{2x+3} + \frac{B}{3x+2} + \frac{C}{(3x+2)^2}$ <br>
+$\Rightarrow{}\quad$from numerators $\Rightarrow{}\quad x-1 = (9A+6B)x^2 + (12A+13B+2C)x + 4A + 6B +3C$ <br>
+$\Rightarrow{}\quad 9A+6B = 0,\quad 12A +13B +2C = 1,\quad 4A+6B+3C=-1$ <br>
+$\Rightarrow{}\quad A = \frac{-2}{5},\quad B=\frac{3}{5},\quad C=-1$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \frac{3}{5(3x+2)} - \frac{1}{(3x+2)^2} }$
 </div>
 
@@ -78,8 +78,8 @@ $\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \fra
 
 ### Problem 2.
 Obtain the derivative of the function, $f(x)=\frac{x+3}{2-x}$, using the definition of derivative (The limit of rise over run or "$\lim{(RoR)}$"
-<div class = "answer">$\Rightarrow{}\quad$ using the expression $$f'(x) = \lim_{\Delta x\to0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$
-$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$
+<div class = "answer">$\Rightarrow{}\quad$ using the expression $$f'(x) = \lim_{\Delta x\to0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$ <br>
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \boxed{ \frac{5}{(2-x)^2} }$
 </div>
 
@@ -89,25 +89,25 @@ $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \bo
 Obtain the derivative of the following functions, using the product, chain and sum rule
 
 (a) $f(x) = x^3 e^{2x}$
-<div class = "answer">$\Rightarrow{}$ Using product rule $\Rightarrow{} \frac{d}{dx}(uv) = v\frac{du}{dx} + u\frac{dv}{dx}\\ \Rightarrow{} u = x^3,\quad v=\exp{(2x)}$
-$\Rightarrow{} \frac{du}{dx} = 3x^2$ 
-$\Rightarrow{}$ using chain rule $\frac{d}{dx}v(g(x)) = \frac{dv}{dg}\frac{dg}{dx}$ to solve $\frac{dv}{dx}$ with $g(x) = 2x $ 
-$\Rightarrow{} \frac{dv}{dx} = 2\exp{(2x)}$ 
+<div class = "answer">$\Rightarrow{}$ Using product rule $\Rightarrow{} \frac{d}{dx}(uv) = v\frac{du}{dx} + u\frac{dv}{dx}\\ \Rightarrow{} u = x^3,\quad v=\exp{(2x)}$ <br>
+$\Rightarrow{} \frac{du}{dx} = 3x^2$ <br>
+$\Rightarrow{}$ using chain rule $\frac{d}{dx}v(g(x)) = \frac{dv}{dg}\frac{dg}{dx}$ to solve $\frac{dv}{dx}$ with $g(x) = 2x $ <br>
+$\Rightarrow{} \frac{dv}{dx} = 2\exp{(2x)}$ <br>
 $\Rightarrow{} \boxed{\frac{df(x)}{dx} = 3x^2\exp{(2x)} + 2x^3\exp{(2x)} \Rightarrow{} \frac{df(x)}{dx} = x^2\exp{(2x)}(3 + 2x)}$
 </div>
 
 (b) $f(x) = \sin{(x^2 + 3x)}$
-<div class = "answer">$\Rightarrow{}$ Using chain rule $\Rightarrow{} \frac{df(x)}{dx}= \cos{(x^2+3x)}\frac{d}{dx}(x^2+3x)$ 
-$\Rightarrow{}$ Using sum rule $\Rightarrow{} \frac{d}{dx}(g(x)+h(x)) = \frac{dg}{dx} + \frac{dh}{dx}$
-$\Rightarrow{} \frac{d}{dx}(x^2+3x) = 2x + 3 $
+<div class = "answer">$\Rightarrow{}$ Using chain rule $\Rightarrow{} \frac{df(x)}{dx}= \cos{(x^2+3x)}\frac{d}{dx}(x^2+3x)$ <br>
+$\Rightarrow{}$ Using sum rule $\Rightarrow{} \frac{d}{dx}(g(x)+h(x)) = \frac{dg}{dx} + \frac{dh}{dx}$ <br>
+$\Rightarrow{} \frac{d}{dx}(x^2+3x) = 2x + 3 $ <br>
 $\Rightarrow{} \boxed{\frac{df(x)}{dx} = \cos{(x^2+3x)}(2x + 3)}$
 </div>
 
 (c) $f(x) = \frac{x^2+2}{3x+1}$
-<div class = "answer">$\Rightarrow{}$ Using product, chain and sum rule
-$\Rightarrow{} f(x) = (x^2+2)(3x+1)^{-1}$ 
-$\Rightarrow{} \frac{df(x)}{dx} = 2x(3x+1)^{-1} + (x^2+2)(-3(3x+1)^{-2})$
-$\Rightarrow{} \boxed{\frac{df(x)}{dx} = \frac{3x^2+2x-6}{(3x+1)^{2}}}$
+<div class = "answer">$\Rightarrow{}$ Using product, chain and sum rule <br>
+$\Rightarrow{} f(x) = (x^2+2)(3x+1)^{-1}$ <br>
+$\Rightarrow{} \frac{df(x)}{dx} = 2x(3x+1)^{-1} + (x^2+2)(-3(3x+1)^{-2})$ <br>
+$\Rightarrow{} \boxed{\frac{df(x)}{dx} = \frac{3x^2+2x-6}{(3x+1)^{2}}}$ <br>
 </div>
 
 -----------------------------------------------------------------------------------
@@ -116,37 +116,37 @@ $\Rightarrow{} \boxed{\frac{df(x)}{dx} = \frac{3x^2+2x-6}{(3x+1)^{2}}}$
 Integrate the following functions, using the power rule, sum rule and integration by parts.
 
 (a) $f(x) = 2x\sin{(x)}$
-<div class = "answer">$\Rightarrow{} \int{2x\sin{(x)}}dx$
-$\Rightarrow{}$ using integration by parts $\Rightarrow{} \int{udv} = uv -\int{vdu}$
-$\Rightarrow{} u =2x,\quad dv=\sin{(x)dx} \Rightarrow{} du=2dx,\quad v=-\cos{(x)}$
-$\Rightarrow{} \int{2x\sin{(x)}}dx = 2x(-\cos{(x)}) - \int{(-cox(x))2}dx$
-$\Rightarrow{} \int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\int{\cos{(x)}}dx$
+<div class = "answer">$\Rightarrow{} \int{2x\sin{(x)}}dx$ <br>
+$\Rightarrow{}$ using integration by parts $\Rightarrow{} \int{udv} = uv -\int{vdu}$ <br>
+$\Rightarrow{} u =2x,\quad dv=\sin{(x)dx} \Rightarrow{} du=2dx,\quad v=-\cos{(x)}$ <br>
+$\Rightarrow{} \int{2x\sin{(x)}}dx = 2x(-\cos{(x)}) - \int{(-cox(x))2}dx$ <br>
+$\Rightarrow{} \int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\int{\cos{(x)}}dx$ <br>
 $\Rightarrow{} \boxed{\int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\sin{(x)} + c}$
 </div>
 
 (b) $f(x) = x^2 \ln{(4x)}$
-<div class = "answer">$\Rightarrow{} \int{x^2 \ln{(4x)}}dx$
-$\Rightarrow{}$ using integration by parts $\Rightarrow{} u =\ln{(4x)},\quad dv=x^2dx \Rightarrow{} du=\frac{1}{x}dx,\quad v=\frac{x^3}{3}$
-$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \ln{(4x)}\frac{x^3}{3} - \int{\frac{x^3}{3}\frac{1}{x}}dx$
-$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$
-$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$
-$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \frac{x^3}{9} + c$
-$\Rightarrow{} \boxed{\int{x^2 \ln{(4x)}}dx = \frac{x^3}{9}{3\ln{(4x)} - 1) + c}}$
+<div class = "answer">$\Rightarrow{} \int{x^2 \ln{(4x)}}dx$ <br>
+$\Rightarrow{}$ using integration by parts $\Rightarrow{} u =\ln{(4x)},\quad dv=x^2dx \Rightarrow{} du=\frac{1}{x}dx,\quad v=\frac{x^3}{3}$ <br>
+$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \ln{(4x)}\frac{x^3}{3} - \int{\frac{x^3}{3}\frac{1}{x}}dx$ <br>
+$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$ <br>
+$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$ <br>
+$\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \frac{x^3}{9} + c$ <br>
+$\Rightarrow{} \boxed{\int{x^2 \ln{(4x)}}dx = \frac{x^3}{9}{3\ln{(4x)} - 1) + c}}$ <br>
 </div>
 
 (c) $f(x) = x^5 e^{x^2}$
-<div class = "answer">$\Rightarrow{} \int{x^5 \exp{(x^2)}}dx$
-$\Rightarrow{}$ substitute $ u =x^2,\quad du=2xdx$
-$\Rightarrow{} \int{x^5 \exp{(x^2)}}dx = \frac{1}{2}\int{u^2 \exp{(u)}}du$
-$\Rightarrow{}$ using integration by parts
-$\Rightarrow{} f =u^2,\quad dg=\exp{(u)}du \\ \Rightarrow{} df=2udu,\quad g=\exp{(u)}$
-$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2} \big[u^2\exp{(u)} - \int{\exp{(u)}2u}du$\big]
-$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - \int{\exp{(u)}u}du$
-$\Rightarrow{}$ using integration by parts $\Rightarrow{} f =u,\quad dg=\exp{(u)}du \Rightarrow{} df=du,\quad g=\exp{(u)}$
-$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - \big[ u\exp{(u)} - \int{\exp{(u)}}du \big]$
-$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - u\exp{(u)} + \exp{(u)} + c$
-$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}\exp{(u)}(u^2 - 2u + 2) + c$
-$\Rightarrow{}$ substitute back for $ u =x^2$
+<div class = "answer">$\Rightarrow{} \int{x^5 \exp{(x^2)}}dx$ <br>
+$\Rightarrow{}$ substitute $ u =x^2,\quad du=2xdx$ <br>
+$\Rightarrow{} \int{x^5 \exp{(x^2)}}dx = \frac{1}{2}\int{u^2 \exp{(u)}}du$ <br>
+$\Rightarrow{}$ using integration by parts <br>
+$\Rightarrow{} f =u^2,\quad dg=\exp{(u)}du \\ \Rightarrow{} df=2udu,\quad g=\exp{(u)}$ <br>
+$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2} \big[u^2\exp{(u)} - \int{\exp{(u)}2u}du \big]$ <br>
+$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - \int{\exp{(u)}u}du$ <br>
+$\Rightarrow{}$ using integration by parts $\Rightarrow{} f =u,\quad dg=\exp{(u)}du \Rightarrow{} df=du,\quad g=\exp{(u)}$ <br>
+$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - \big[ u\exp{(u)} - \int{\exp{(u)}}du \big]$ <br>
+$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}u^2\exp{(u)} - u\exp{(u)} + \exp{(u)} + c$ <br>
+$\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}\exp{(u)}(u^2 - 2u + 2) + c$ <br>
+$\Rightarrow{}$ substitute back for $ u =x^2$ <br>
 $\Rightarrow{} \boxed{\int{x^5 \exp{(x^2)}}dx = \frac{1}{2}\exp{(x^2)}(x^4 - 2x^2 + 2) + c}$
 </div>
 
@@ -156,17 +156,17 @@ $\Rightarrow{} \boxed{\int{x^5 \exp{(x^2)}}dx = \frac{1}{2}\exp{(x^2)}(x^4 - 2x^
 Express the following without logarithms (assume we are working in base 10 unless otherwise stated)
 
 (a) $\log{x}=\log{P}+2\log{Q}-\log{K}-3$
-<div class = "answer">$\log{x}=\log{\frac{PQ^2}{K}}-\log{1000\ \ \ }$
-$\Rightarrow{}\ \ \boxed{=\frac{PQ^2}{1000K}}$
+<div class = "answer">$\log{x}=\log{\frac{PQ^2}{K}}-\log{1000\ \ \ }$ <br>
+$\Rightarrow{}\ \ \boxed{=\frac{PQ^2}{1000K}}$ 
 </div>
 
 (b) $\log{R}=1+\frac{1}{3}\log{M}+3\log{S}$
-<div class = "answer">$\Rightarrow{} \log{R=\log{10+\log{M^{\frac{1}{3}}+\log{S^3\ \ }}}}$
+<div class = "answer">$\Rightarrow{} \log{R=\log{10+\log{M^{\frac{1}{3}}+\log{S^3\ \ }}}}$ <br>
 $\Rightarrow{}\ \boxed{R=10 \cdot S^3 \cdot \sqrt[3]{M}}$
 </div>
 
 (c) $\ln{P}=\frac{1}{2}\ln\left(Q+1\right)-3\ln{R}+2$
-<div class = "answer">$\Rightarrow{} \ln{P=\ln{ \left(Q+1\right) }^{\frac{1}{2}}+\ln{e^2-\ln{R^3}}}$
+<div class = "answer">$\Rightarrow{} \ln{P=\ln{ \left(Q+1\right) }^{\frac{1}{2}}+\ln{e^2-\ln{R^3}}}$ <br>
 $\Rightarrow{}\ \ \boxed{P=\frac{e^2\sqrt{Q+1}}{R^3}}$
 </div>
 
@@ -197,8 +197,8 @@ $\Rightarrow{}\ \ \ x+1=8x-32\ \ \ \Rightarrow{}\ \ \ \boxed{x=\frac{33}{7}=4.71
 </div>
 
 (c) $\log_6{(x+4)}+\log_6{(x-2)}=\log_6{(4x)}$ where $x>0$
-<div class = "answer">$\log_6{\left((x+4).(x-2)\right)}=\log_6{4x}\ \ \Rightarrow{}\ \left(x+4\right)\left(x-2\right)=4x$
-$\Rightarrow{}\ \ x^2-2x-8=0$ 
+<div class = "answer">$\log_6{\left((x+4).(x-2)\right)}=\log_6{4x}\ \ \Rightarrow{}\ \left(x+4\right)\left(x-2\right)=4x$ <br>
+$\Rightarrow{}\ \ x^2-2x-8=0$ <br>
 $\Rightarrow{}\ \ \ (x-4)(x+2)=0\ \ \ x_1=4 \text{ and } x_2=-2\ \ \ \Rightarrow{}\ \ \ \boxed{x=4}$
 </div>
 
@@ -209,32 +209,32 @@ Determine the domain and range of the functions defined below.
 
 (a) $f(x)=\cos^2{(x)}$
 <div class = "answer">$\Rightarrow{}\boxed{
-\text{Domain of } f\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$
+\text{Domain of } f\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$ <br>
 $\Rightarrow{} \boxed{ \text{Range of f }\left(x\right)\Rightarrow{}[0,1].}$
 </div>
 
 (b) $f(x)={-x}^2+5x-6$
-<div class = "answer">$\Rightarrow{}\boxed{\text{Domain of f}\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$
+<div class = "answer">$\Rightarrow{}\boxed{\text{Domain of f}\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$ <br>
 $\Rightarrow{}\boxed{\text{Range of } f(x) \Rightarrow{} \text{, function has one maximum.}
 \Rightarrow{}\quad y\leq \frac{1}{4}}$
 </div>
 
 (c) $f(x)=-x^3+4x^2-4x\ $
 <div class = "answer">$\Rightarrow{}\boxed{\text{
-Domain of f}\left(x\right)\ \Rightarrow{}(-\infty{},\infty{})}$.
+Domain of f}\left(x\right)\ \Rightarrow{}(-\infty{},\infty{})}$. <br>
 $\Rightarrow{}\boxed{\text{Range of f}\left(x\right)\Rightarrow{}\ \ (-\infty{},\infty{})}$
 </div>
 
 (d) $f\left(x\right)=$exp⁡$(1/x)$
 <div class = "answer">$y=e^{\frac{1}{x}}\ \Rightarrow{}$ at  $x=0$, the function is undefined.
-$\Rightarrow{} \boxed{\text{Domain of } f(x)\ \Rightarrow{}(-\infty{},0)\cup{}(0,\infty{})}$.
-$y=e^{\frac{1}{x}}\ \Rightarrow{}$ at $y=1$, the function is undefined.
-$\Rightarrow{} 0 < y < 1 \text{ & } y>1$
+$\Rightarrow{} \boxed{\text{Domain of } f(x)\ \Rightarrow{}(-\infty{},0)\cup{}(0,\infty{})}$. <br>
+$y=e^{\frac{1}{x}}\ \Rightarrow{}$ at $y=1$, the function is undefined. <br>
+$\Rightarrow{} 0 < y < 1 \text{ & } y>1$ <br>
 $ \Rightarrow{}\ \ \boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)\cup{}(1,\infty{})}$</div>
 
 (e) $f\left(x\right)=\frac{1}{e^x+1}$
-<div class = "answer"> $\Rightarrow{} \boxed{\text{Domain of the function} \Rightarrow{}(-\infty{},\infty{})}$.
-$y=\frac{1}{e^x+1}\ \Rightarrow{}$ at $y=0\ \text{ & } y=1$, the function is defined.
+<div class = "answer"> $\Rightarrow{} \boxed{\text{Domain of the function} \Rightarrow{}(-\infty{},\infty{})}$. <br>
+$y=\frac{1}{e^x+1}\ \Rightarrow{}$ at $y=0\ \text{ & } y=1$, the function is defined. <br>
 $\Rightarrow{}\boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)}$.</div>
 
 -----------------------------------------------------------------------------------
@@ -267,22 +267,22 @@ $\Rightarrow{} \boxed{$\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1
 
 (b) You are given that the curve has a vertical asymptote at $x=2$. Find the value of $b$ and the equation of the other vertical asymptote.
 
-<div class = "answer">At $x=2, 4x^2 +bx - 6 = 0$
-$\Rightarrow 4(2)^2 + b(2) - 6 = 0 \Rightarrow \boxed{b = - 5}$
-$\Rightarrow$ Factorise $4x^2 - 5x - 6$
-$\Rightarrow (4x+3)(x-2)$ 
+<div class = "answer">At $x=2, 4x^2 +bx - 6 = 0$ <br>
+$\Rightarrow 4(2)^2 + b(2) - 6 = 0 \Rightarrow \boxed{b = - 5}$ <br>
+$\Rightarrow$ Factorise $4x^2 - 5x - 6$ <br>
+$\Rightarrow (4x+3)(x-2)$  <br>
 $\therefore$ The other asymptote occurs when $4x+3=0 \Rightarrow \boxed{x = -\frac{3}{4}}$
 [3 marks]</div>
 
 (c) You are given that the curve crosses the $x$-axis when $x= \pm{\sqrt{6}}$. Find the value of $a$ and the equation of the horizontal asymptote.
 
-<div class = "answer">When $f(x)=0, x = \pm{\sqrt{6}}$ 
-$\therefore 0 = \frac{ax^2 - 12}{4x^2 + bx - 6}\\ a(6)-12 = 0 $
-$6a = 12 \Rightarrow \boxed{a = 2}$
-Horizontal asymptote occurs when $x \rightarrow{\infty}$ 
-$f(x)$ will tend to the highest powers of x 
-$\Rightarrow f(x) = \frac{ax^2}{4x^2}$ 
-Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
+<div class = "answer">When $f(x)=0, x = \pm{\sqrt{6}}$ <br>
+$\therefore 0 = \frac{ax^2 - 12}{4x^2 + bx - 6}\\ a(6)-12 = 0 $ <br>
+$6a = 12 \Rightarrow \boxed{a = 2}$ <br>
+Horizontal asymptote occurs when $x \rightarrow{\infty}$ <br>
+$f(x)$ will tend to the highest powers of x <br>
+$\Rightarrow f(x) = \frac{ax^2}{4x^2}$ <br>
+Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$ 
 [2 marks]</div>
 
 (d) Find the set of values for which $y \geqslant 0$.
@@ -311,7 +311,7 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 
 (b) State, with justification, how the curve approaches the horizontal asymptote for large positive and large negative values of x.
 
-<div class = "answer">$\text{Large positive}\ x, \boxed{y \ \rightarrow{3} \text{ from below}}$
+<div class = "answer">$\text{Large positive}\ x, \boxed{y \ \rightarrow{3} \text{ from below}}$ <br>
 $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 (c) Sketch the curve
@@ -332,4 +332,4 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 # Next week, vectors!
 
-![vectors](01-refersher-and-functions-media/nextWeek.PNG)
+![vectors](02-vectors-media/cover.png)
