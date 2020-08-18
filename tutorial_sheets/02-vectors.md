@@ -67,7 +67,7 @@ Consider the three vectors $\vec{a}=$ (2,1,0), $\vec{b}=$ (-1,2,3), and $\vec{c}
 ### Problem 2.
 Scalar product calculation
 
-(a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \|\vec{a}| = \|\vec{b}\|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
+(a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \|\vec{a}\| = \|\vec{b}\|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
 
 <div class = "answer">We have $$|\vec{a}|=\sqrt{1^2+2^2}=\sqrt{5}$$ and $$|\vec{b}|=\sqrt{2^2+1^2}=\sqrt{5}$$ So, $$\boxed{|\vec{a}|=|\vec{b}|.}$$ But, the two vectors are <b>not equal</b> since their corresponding components are distinct.</div>
 
