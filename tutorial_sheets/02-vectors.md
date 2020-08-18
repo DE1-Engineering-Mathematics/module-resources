@@ -226,7 +226,7 @@ $$(-10 - 25\lambda) + (-15 - 9\lambda) = 0$$
 $$\lambda = \frac{-25}{34}$$
 We can use the AD gradient with this value of lambda to find the distance between A and D, d:
 $$d^2 = (-2 - 5\lambda)^2 + (-5 - 3\lambda)^2$$
-$$\boxed{{d}={\frac{19}{\sqrt{34}}}}$$</div>
+$$\boxed{ { d } ={\frac{19}{\sqrt{34}}}}$$</div>
 
 (e)  Find the unit vector in the direction of the sum of the vectors, $\vec{a}=2\vec{i}+2\vec{j}-5\vec{k}$ and $\vec{b}=2\vec{i}+\vec{j}+3\vec{k}$.
 <div class = "answer"> The sum of given vector is: $$\vec{a}+\vec{b}(=\vec{c},\text{say})=4\vec{i}+3\vec{j}-2\vec{k}$$
