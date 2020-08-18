@@ -95,7 +95,10 @@ $$\boxed{(\vec{a}-\vec{b})\cdot(\vec{a}+\vec{b}) =(6\hat{i}+2\hat{j}-8\hat{k})\c
 
 (e) Show the points $A(-2\vec{i}+3\vec{j}+5\vec{k})$, $B(\vec{i}+2\vec{j}+3\vec{k})$, and $C(7\vec{i}-\vec{k})$ are collinear (They lie on the same straight line).
 
-<div class = "answer">We have $$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $$\vec{BC}=(7-1)\hat{i}+(0-2)\hat{j}+(-1-3)\hat{k}=6\hat{i}-2\hat{j}-4\hat{k},$$ $$\vec{CA}=(-2-7)\hat{i}+(3-0)\hat{j}+(5+1)\hat{k}=-9\hat{i}+3\hat{j}+6\hat{k},$$ $$|\vec{AB}|=\sqrt{14}, |\vec{BC}|=2\sqrt{14}, $$ and $$|\vec{AC}|=3\sqrt{14},$$
+<div class = "answer">We have 
+$$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $$\vec{BC}=(7-1)\hat{i}+(0-2)\hat{j}+(-1-3)\hat{k}=6\hat{i}-2\hat{j}-4\hat{k},$$ $$\vec{CA}=(-2-7)\hat{i}+(3-0)\hat{j}+(5+1)\hat{k}=-9\hat{i}+3\hat{j}+6\hat{k},$$ $$|\vec{AB}|=\sqrt{14}, |\vec{BC}|=2\sqrt{14}, $$ 
+and 
+$$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 
 (f) Find $|\vec{a}\times\vec{b}|,$ if $\vec{a}=2\vec{i}+\vec{j}+3\vec{k}$ and $\vec{b}=3\vec{i}+5\vec{j}-2\vec{k}$
@@ -105,8 +108,82 @@ $$\vec{a}\times\vec{b}=$$ $$\begin{vmatrix}
 \hat{i} & \hat{j} & \hat{k} \\
 2 & 1 & 3 \\
 3 & 5 & -2 \\
-\end{vmatrix}$$ Therefore, $$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13\hat{j}+7\hat{k}$$
+\end{vmatrix}$$ 
+Therefore, 
+$$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13\hat{j}+7\hat{k}$$
 Hence, $$|\vec{a}\times\vec{b}|=\sqrt{(-17)^2+(13)^2+(7)^2}= \boxed{\sqrt{507}.}$$ </div>
+
+(g)  Find the area of a triangle having the points A$(1,1,1)$, B$(1,2,3)$ and C$(2,3,1)$ as its vertices
+
+<div class = "answer">We have
+$$\vec{AB}=\hat{j}+2\hat{k} \text{ and } \vec{AC}=\hat{i}+2\hat{j}$$	
+The area of given triangle is 
+$$\frac{1}{2}|\vec{AB}\times\vec{AC}|$$ Now $$\vec{AB}\times\vec{AC}=
+\begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+0 & 1 & 2 \\
+1 & 2 & 0 \\
+\end{vmatrix}$$
+Therefore $$|\vec{AB}\times\vec{AC}|= \sqrt{16+4+1}=\sqrt{21}$$
+Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21}}$</div>
+
+(h) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
+
+<div class = "answer">We have $\vec{a}+\vec{b}=2\hat{i}+3\hat{j}+4\hat{k}$ and $\vec{a}-\vec{b}=-1\hat{j}-2\hat{k}$. 
+Therefore, a vector is perpendicular to both $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ is given by 
+$$(\vec{a}+\vec{b})\times(\vec{a}-\vec{b})=
+\begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+2 & 3 & 4 \\
+0 & -1 & -2 \\
+\end{vmatrix}=-2\hat{i}+4\hat{j}-2\hat{k}(=\vec{c}, \text{ say})$$
+Now $$|\vec{c}| = \sqrt{4+16+4}=\sqrt{24}=2\sqrt{6}$$
+Therefore, the required unit vector is $$\boxed{\frac{\vec{c}}{|\vec{c}|} =-\frac{1}{\sqrt{6}}\hat{i}+\frac{2}{\sqrt{6}}\hat{j}-\frac{1}{\sqrt{6}}\hat{k}.}$$</div>
+
+(i) Find the area of a parallelogram which adjacent sides are given by the vectors $\vec{a}= 3\hat{i}+\hat{j}+4\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$
+
+<div class = "answer">The area of a parallelogram with $\vec{a}$ and $\vec{b}$ as its adjacent sides is given by $|\vec{a}\times\vec{b}|$
+$$\vec{a}\times\vec{b}=
+\begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+3 & 1 & 4 \\
+1 & -1 & 1 \\
+\end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
+Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
+Hence, the required area is $\boxed{\sqrt{42}.}$</div>
+
+## Problem 3
+Analytical geometry calculation
+
+(a) Find the equation for plane through the point $(0,1,-7)$ perpendicular to the vector $(4,-1,6)$.
+
+<div class = "answer">Let $A=(0,1,-7)$. Let $\vec{n}=(4,-1,6)$. Then, for $P=(x,y,z)$, the equation for the plane is 
+$$\vec{n}.(P-A)= \cos(90^\circ)=0$$
+This becomes 
+$$(4,-1,6)\cdot(x-0,y-1,z+7)=0$$ 
+Or 
+$$4x-(y-1)+6(z+7)=0$$
+Often, we prefer to write this as $\boxed{4x-y+6z+43=0.}$</div>
+
+(b) Find the equation for plane through the points $A=(0,1,-7),B=(3,1,-9), $ and $C=(0,-5,-8)$. 
+
+<div class = "answer">Let $\vec{AB}=\vec{b}=(3,1,-9)-(0,1,-7)=(3,0,-2)$. Let $\vec{AC}=\vec{c}=(0,-5,-8)-(0,1,7)=(0,-6,-1)$. 
+Then, we can find a normal vector by taking their cross product 
+$$\vec{n}=\vec{b}\times\vec{c}=\begin{vmatrix}
+\hat{i}&\hat{j}&\hat{k}\\
+-3&0&2\\
+0&6&1\\
+\end{vmatrix}=\hat{i}(0-12)-\hat{j}(-3-0)+\hat{k}(-18-0)=(-12,3,-18)$$
+We will pick the first point $A=(0,1,-7)$ and we assume a point $P$ is on the plane $P=(x,y,z)$. 
+Let $\vec{a}=\vec{AP}=(x-0,y-1,z+7)$.
+The equation for the plane becomes 
+$$\vec{n}\cdot\vec{a}=(-12,3,-18)\cdot(x,y-1,z+7)=0$$
+Which we rewrite as 
+$$-12x+3(y-1)-18(z+7)=0$$ 
+or 
+$$-12x+3y-18z-129=0$$
+$$\boxed{4x-y+6z+43=0}$$
+</div>
 
 -----------------------------------
 
