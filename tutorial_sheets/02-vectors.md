@@ -45,49 +45,39 @@ This week we will be looking at vectors. Vectors greatly expand our ability to c
 Consider the three vectors $\vec{a}=$ (2,1,0), $\vec{b}=$ (-1,2,3), and $\vec{c}=$ (1,2,1). Calculate the following:
 
 (a) $\vec{a}+\vec{b}=$
-
 <div class = "answer">$\Rightarrow \quad \boxed{\vec{a}+\vec{b}=(1,3,3)}$</div>
 
 (b) $2\vec{a}-\vec{b}=$
-
 <div class = "answer">$2\vec{a}-\vec{b}=(2\times2+1,2\times1-2,2\times0-3) = \boxed{ (5,0,-3)}$</div>
 
 (c) $\vec{a}\circ\vec{b}\circ \vec{c}=$
-
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
 
 (d) Modulus of $\vec{c}$
-
 <div class = "answer">$|c| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
 
 (e) Find the unit vector in direction of c 
-
 <div class = "answer">$\boxed{\hat{c} = \frac{\vec{c}}{|c|} = \left(\frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right)}$</div>
 
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
-
 <div class = "answer">$V=|\vec{a}\cdot(\vec{b}\times\vec{c})|=|(2,1,0)\cdot(-4,4,-4)|=|-4|=\boxed{4 \text{ volume units}}$</div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 2
+### Problem 2.
 Scalar product calculation
 
 (a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ |\vec{a}| = |\vec{b}|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
-
 <div class = "answer">We have $$|\vec{a}|=\sqrt{1^2+2^2}=\sqrt{5}$$ and $$|\vec{b}|=\sqrt{2^2+1^2}=\sqrt{5}$$ So, $$\boxed{|\vec{a}|=|\vec{b}|.}$$ But, the two vectors are <b>not equal</b> since their corresponding components are distinct.</div>
 
 (b) Find the vector from point $P(2, 3, 0)$ to $Q(-1, -2, -4)$:
-
 <div class = "answer">Since the vector is to be directed from P to Q, clearly P is the initial point and Q is the terminal point. So, the required vector joining P and Q is the vector $\vec{PQ}$ given by 
 $$\vec{PQ} = (-1-2)\hat{i}+(-2-3)\hat{j}+(-4-0)\hat{k}$$ $$\boxed{\vec{PQ} = -3\hat{i}-5\hat{j}-4\hat{k}.}$$</div>
 
 (c) Find the angle $\theta$ between the vectors $\vec{a} = \hat{i}+\hat{j}-\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$ :
-
 <div class = "answer">The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by $$\cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$$ $$\vec{a}\cdot\vec{b} = (\hat{i}+\hat{j}-\hat{k})\cdot (\hat{i}-\hat{j}+\hat{k})=-1$$ $$|\vec{a}||\vec{b}|=\sqrt{1^2+1^2+(-1)^2}\sqrt{1^2+(-1)^2+1^2}=\sqrt{3}\times\sqrt{3}=3$$ Therefore, we have $$\cos\mathrm{\theta} = -\frac{1}{3}$$ Hence,the required angle is $$\boxed{ \theta =\cos^{-1}(-\frac{1}{3}) = 109.5^{\circ} .}$$</div>
 
 (d) If $\vec{a} = 5\hat{i}-\hat{j}-3\hat{k}$ and $\vec{b} = \hat{i}+3\hat{j}-5\hat{k}$,  then show that the vectors $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ are perpendicular.
-
 <div class = "answer">Two non-zero vectors are perpendicular if their scalar product is zero. 
 $$\vec{a}+\vec{b} = (5\hat{i}-\hat{j}-3\hat{k})+(\hat{i}+3\hat{j}-5\hat{k})=6\hat{i}+2\hat{j}-8\hat{k}$$
 $$\vec{a}-\vec{b} =(5\hat{i}-\hat{j}-3\hat{k})-(\hat{i}+3\hat{j}-5\hat{k})=4\hat{i}-4\hat{j}+2\hat{k}$$
@@ -95,7 +85,6 @@ Therefore, we have:
 $$\boxed{(\vec{a}-\vec{b})\cdot(\vec{a}+\vec{b}) =(6\hat{i}+2\hat{j}-8\hat{k})\cdot(4\hat{i}-4\hat{j}+2\hat{k})=24-8-16=0}$$</div>
 
 (e) Show the points $A(-2\vec{i}+3\vec{j}+5\vec{k})$, $B(\vec{i}+2\vec{j}+3\vec{k})$, and $C(7\vec{i}-\vec{k})$ are collinear (They lie on the same straight line).
-
 <div class = "answer">We have 
 $$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $$\vec{BC}=(7-1)\hat{i}+(0-2)\hat{j}+(-1-3)\hat{k}=6\hat{i}-2\hat{j}-4\hat{k},$$ $$\vec{CA}=(-2-7)\hat{i}+(3-0)\hat{j}+(5+1)\hat{k}=-9\hat{i}+3\hat{j}+6\hat{k},$$ $$|\vec{AB}|=\sqrt{14}, |\vec{BC}|=2\sqrt{14}, $$ 
 and 
@@ -103,7 +92,6 @@ $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 
 (f) Find $|\vec{a}\times\vec{b}|,$ if $\vec{a}=2\vec{i}+\vec{j}+3\vec{k}$ and $\vec{b}=3\vec{i}+5\vec{j}-2\vec{k}$
-
 <div class = "answer">We have
 $$\vec{a}\times\vec{b}=$$ $$\begin{vmatrix}
 \hat{i} & \hat{j} & \hat{k} \\
@@ -115,7 +103,6 @@ $$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13
 Hence, $$|\vec{a}\times\vec{b}|=\sqrt{(-17)^2+(13)^2+(7)^2}= \boxed{\sqrt{507}.}$$ </div>
 
 (g)  Find the area of a triangle having the points A$(1,1,1)$, B$(1,2,3)$ and C$(2,3,1)$ as its vertices
-
 <div class = "answer">We have
 $$\vec{AB}=\hat{j}+2\hat{k} \text{ and } \vec{AC}=\hat{i}+2\hat{j}$$	
 The area of given triangle is 
@@ -129,7 +116,6 @@ Therefore $$|\vec{AB}\times\vec{AC}|= \sqrt{16+4+1}=\sqrt{21}$$
 Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21}}$</div>
 
 (h) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
-
 <div class = "answer">We have $\vec{a}+\vec{b}=2\hat{i}+3\hat{j}+4\hat{k}$ and $\vec{a}-\vec{b}=-1\hat{j}-2\hat{k}$. 
 Therefore, a vector is perpendicular to both $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ is given by 
 $$(\vec{a}+\vec{b})\times(\vec{a}-\vec{b})=
@@ -155,11 +141,10 @@ Hence, the required area is $\boxed{\sqrt{42}.}$</div>
 
 -----------------------------------------------------------------------------------
 
-## Problem 3
+### Problem 3.
 Analytical geometry calculation
 
 (a) Find the equation for plane through the point $(0,1,-7)$ perpendicular to the vector $(4,-1,6)$.
-
 <div class = "answer">Let $A=(0,1,-7)$. Let $\vec{n}=(4,-1,6)$. Then, for $P=(x,y,z)$, the equation for the plane is 
 $$\vec{n}.(P-A)= \cos(90^\circ)=0$$
 This becomes 
@@ -169,7 +154,6 @@ $$4x-(y-1)+6(z+7)=0$$
 Often, we prefer to write this as $\boxed{4x-y+6z+43=0.}$</div>
 
 (b) Find the equation for plane through the points $A=(0,1,-7),B=(3,1,-9), $ and $C=(0,-5,-8)$. 
-
 <div class = "answer">Let $\vec{AB}=\vec{b}=(3,1,-9)-(0,1,-7)=(3,0,-2)$. Let $\vec{AC}=\vec{c}=(0,-5,-8)-(0,1,7)=(0,-6,-1)$. 
 Then, we can find a normal vector by taking their cross product 
 $$\vec{n}=\vec{b}\times\vec{c}=\begin{vmatrix}
@@ -189,7 +173,6 @@ $$\boxed{4x-y+6z+43=0}$$
 </div>
 
 (c) Find the angle $\theta$ between two lines in the x,y-plane, if they are given by following equations: $3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$
-
 <div class = "answer">Normal vector to the lines are, respectively, $\vec{n_1} = 
 (3 , -4)$  and $\vec{n_2}=(2,1)$. 
 Therefore,
@@ -198,7 +181,6 @@ $$\cos\theta=\frac{3\cdot2+(-4)\cdot1}{\sqrt{3^2+(-4)^2}\sqrt{2^2+1^2}}= \frac{2
 $$\boxed{\theta=\cos^{-1}(\frac{2}{5\sqrt{5}})=79.7^\circ}$$</div>
 
 (d) Let ABC be a triangle in the x,y-plane, with the vertices at the points A $= (2,-1)$, B$=(4,4)$ and C=$(9,7)$. Find the distance from point A normal to line BC:
-
 <div class = "answer">First, we can begin by drawing a diagram of the points:
 <img src = "02-vectors-media\vectors.png" alt="vectors">
 Find the equation of line BC:
@@ -247,7 +229,6 @@ $$d^2 = (-2 - 5\lambda)^2 + (-5 - 3\lambda)^2$$
 $$\boxed{{d}={\frac{19}{\sqrt{34}}}}$$</div>
 
 (e)  Find the unit vector in the direction of the sum of the vectors, $\vec{a}=2\vec{i}+2\vec{j}-5\vec{k}$ and $\vec{b}=2\vec{i}+\vec{j}+3\vec{k}$.
-
 <div class = "answer"> The sum of given vector is: $$\vec{a}+\vec{b}(=\vec{c},\text{say})=4\vec{i}+3\vec{j}-2\vec{k}$$
 And	
 $$|\vec{c}|=\sqrt{4^2+3^2+(-2)^2}=\sqrt{29}$$
@@ -257,9 +238,7 @@ $$\hat{c}=\frac{1}{|\vec{c}|}\vec{c}=\frac{1}{\sqrt{29}} (4\vec{i}+3\vec{j}-2\ve
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
-
 (a) Show that the points A$(2\hat{i},-\hat{j},\hat{k})$, B$(\hat{i},-3\hat{j},-5\hat{k})$ ,C$(3\hat{i},-4\hat{j},-4\hat{k})$ are the vertices of a right angled triangle.
-
 <div class = "answer">We have 
 $\vec{AB}=(1-2)\hat{i}+(-3+1)\hat{j}+(-5-1)\hat{k}=-\hat{i}-2\hat{j}-6\hat{k}$
 $$\vec{BC}=(3-1)\hat{i}+(-4+3)\hat{j}+(-4+5)\hat{k}=2\hat{i}-\hat{j}+\hat{k}$$
@@ -268,10 +247,10 @@ Further, note that
 $$|\vec{AB}|^2=41=6+35=|\vec{BC}|^2+|\vec{CA}|^2$$
 Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</u></div>
 
+-----------------------------------------------------------------------------------
+
 ### Problem 6.
-
 (a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$,are coplanar, that is,they lie in the same plane.
-
 <div class = "answer">We have the volume of parallelepiped (remember the definition of the dot product and cross product)
 Volume = $|a||\cos\phi||b\times c|=\vec{a}\cdot(\vec{b}\times \vec{c})$
 Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
@@ -302,7 +281,6 @@ co-ordinates as follows:
 
 Do the pipes need re-aligning to avoid intersection? _(Assume the origin position O is (0,0,0))_
 
-
 <div class = "answer">For pipe A, the vector form of equation is (the other two forms are Parametric form and Cartesian form): 
 $$\vec{r_A} =\vec{OP}+\lambda'\vec{PQ}= [2,5,3]+\lambda'[5,5,5]=[2,5,3]+\lambda\frac{[1,1,1]}{\sqrt{3}}$$
 $$\vec{r_B} =\vec{OR}+\mu'\vec{RS}= [0,6,3]+\mu'[12,-6,6]=[0,6,3]+\mu\frac{[2,-1,1]}{\sqrt{6}}$$
@@ -318,7 +296,7 @@ $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <u>Hence the pipes need re-aligning to avoid intersection.</u></div>
 
 ## Exam Style Questions
-### Problem 1
+### Problem 8.
 The diagram below shows a cuboid OABCDEFG with coordinates as shown. The point P has coordinates (4,2,0).
 
 ![cuboid](02-vectors-media\cuboid.png)
@@ -327,7 +305,6 @@ The diagram below shows a cuboid OABCDEFG with coordinates as shown. The point P
 <div class = "answer">AG = $\sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$</div>
 
 (b) Show that the vector \textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k} is normal to the plane DPF. Hence find the cartesian equation of this place. 
-
 <div class = "answer">[6 marks] <br>
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
 $\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$$
@@ -339,7 +316,6 @@ $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x
 The diagonal AG intersects the plane DPF at Q.</div>
 
 (c)  Write down a vector equation of the line AG. Hence find the coordinates of the point Q, and the ratio AQ:QG.
-
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
 $\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k})$ <br>
 Substitute the components of the vector equation of the line AG into the equation for the plane DPF. 
@@ -349,13 +325,14 @@ Q is $(2.4, 1.2, 2)$ <br>
 $\boxed{AQ : QG  = 2 : 3}$</div>
 
 (d) Find the acute angle between the line AG and the plane DPF.
-
 <div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k}$ is $\theta$ where <br>
 $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}$ <br> 
 $\theta = 56.0$ or $124.0$ <br>
 $\boxed{\text{Angle between line and plane } = 34.0^\circ}$</div>
 
-### Problem 2
+-----------------------------------------------------------------------------------
+
+### Problem 9.
 A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
     1 \\
@@ -364,7 +341,6 @@ $\begin{pmatrix}
 \end{pmatrix} \text{km/h}$
 
 (a) What is the speed of the fish in km/h to 2 decimal places? 
-
 <div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ <br>
 [2 marks]</div>
 
@@ -389,7 +365,6 @@ $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix
 [2 marks]</div>
 
 (c) What is the minimum distance from the buoy to the mahi-mahi fish? 
-
 <div class = "answer">$\vec{s} = 
 \begin{pmatrix}
 -4\\3\\-2
@@ -411,10 +386,8 @@ $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix
 \\ = 21 - 86t \Rightarrow{t = \frac{21}{86}}
 \\ \\ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
 
------------------------------------
-
 ## Challenging Questions
-### Problem 10
+### Problem 10.
 Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
@@ -433,10 +406,13 @@ Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
 </div>
 
+## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+
+<br><br>
 
 # Next week, Matrices!
 ![vectors](02-vectors-media/cover.png)
