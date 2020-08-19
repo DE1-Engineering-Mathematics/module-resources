@@ -3,6 +3,25 @@ Module resources for the Dyson School of Design Engineering's 1st year undergrad
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script> <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"> </script> <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 
+# Problem sheet
+## Essential Questions
+### Problem 1.
+Problem text $f = (x) \Leftarrow \text{this is some math}$
+
+(a)
+<div class = "answer"> answer </div>
+
+-----------------------------------
+
+## Exam Style Questions
+### Problem n.
+
+-----------------------------------
+
+<button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
+<button type="button" onclick="displayAnswers('block')">Show all answers</button>
+<button type="button" onclick="displayAnswers('none')">hide all answers</button>
+
 # Coursework
 
 ## __Problem__
