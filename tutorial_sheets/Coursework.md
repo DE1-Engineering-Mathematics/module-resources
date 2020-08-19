@@ -59,6 +59,11 @@ There is two ways of solving this, either doing a dot product of two vectors or 
 <button type="button" onclick="displayAnswers('block')">Show hint </button>
 <button type="button" onclick="displayAnswers('none')">Hide hint </button>
 <br>
+<div class = "answer"> ![Torsion Diagram](media/Torsion.PNG)
+</div>
+<button type="button" onclick="displayAnswers('block')">Show hint </button>
+<button type="button" onclick="displayAnswers('none')">Hide hint </button>
+<br>
 <div class = "answer"> Once you find the angle, find a second vector on the circle which snaps to the edge and has an angle $\theta$ to the radius vector.
 </div>
 <button type="button" onclick="displayAnswers('block')">Show hint </button>
