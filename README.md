@@ -47,94 +47,71 @@ Torque equation ($T$ is torque, $r$ is radius, $F$ is force and $\theta$ is angl
 $ T = \vec{r} \times \vec{F} = rFsin(\theta)$
 
 ### __Hints__
-<div class = "hints"> There's no need to know the distance from Earth to the Moon or the price of lumber.
+<div class = "answer"> There's no need to know the distance from Earth to the Moon or the price of lumber.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Start finding the area of a the surface. 
+<div class = "answer"> Start finding the area of a the surface. 
 (Area of a circle equation is 
 $A = r\pi^2$)
 There is two ways of solving this, either doing a dot product of two vectors or finding the magnitude of r. 
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Heads up, there will be a lot of googling. By the way, make an assumption of lumber's Young Modulus by looking it up.
+<div class = "answer"> Heads up, there will be a lot of googling. By the way, make an assumption of lumber's Young Modulus by looking it up.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Keep the length's as vectors. Once you find the change of length, apply this difference to grain position, or don't.
+<div class = "answer"> Keep the length's as vectors. Once you find the change of length, apply this difference to grain position, or don't.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> 1. $ T = \vec{r} \times \vec{F} $ 2. $ arcsin(T) = \theta $ 
+<div class = "answer"> 1. $ T = \vec{r} \times \vec{F} $ 2. $ arcsin(T) = \theta $ 
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Find a second vector on the circle which snaps to the edge and has an angle $\theta$ to the radius vector.
+<div class = "answer"> Find a second vector on the circle which snaps to the edge and has an angle $\theta$ to the radius vector.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> A second way to write the radius vector would be (0, 0.1, 0).
+<div class = "answer"> A second way to write the radius vector would be (0, 0.1, 0).
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> $cos(\theta) = \frac{\vec{u}.\vec{v}}{|u||v|}$
+<div class = "answer"> $cos(\theta) = \frac{\vec{u}.\vec{v}}{|u||v|}$
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> A second way to write the radius vector would be (0, 0.1, 0).
+<div class = "answer"> A second way to write the radius vector would be (0, 0.1, 0).
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Perfect time to sketch out the circle and possible equations.
+<div class = "answer"> Perfect time to sketch out the circle and possible equations.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Now that you found the new point at the end of the beam due to torsion. Why not sketch out position of the grain and the new point.
+<div class = "answer"> Now that you found the new point at the end of the beam due to torsion. Why not sketch out position of the grain and the new point.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Feel free to make assumptions here, there are multiple ways of tackling this.
+<div class = "answer"> Feel free to make assumptions here, there are multiple ways of tackling this.
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-<div class = "hints"> Heads up, did you realise that at the very beginning, it's possible to do make a matrix which would shift all the points and vectors to a simple x,y,z coordinate?
+<div class = "answer"> Heads up, did you realise that at the very beginning, it's possible to do make a matrix which would shift all the points and vectors to a simple x,y,z coordinate?
 </div>
-<button type="button" onclick="displayHints('block')">Show hints </button>
-<button type="button" onclick="displayHints('none')">Hide hints </button>
+<button type="button" onclick="displayAnswers('block')">Show hints </button>
+<button type="button" onclick="displayAnswers('none')">Hide hints </button>
 <br>
-
-# Problem sheet
-## Essential Questions
-### Problem 1.
-Problem text $f = (x) \Leftarrow \text{this is some math}$
-
-(a)
-<div class = "answer"> answer </div>
-
------------------------------------
-
-## Exam Style Questions
-### Problem n.
-
------------------------------------
-
-<button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
-<button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">hide all answers</button>
-
-
-## Challenging Questions
-### Problem n.
