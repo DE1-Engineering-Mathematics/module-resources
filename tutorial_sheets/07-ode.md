@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Tutorial Sheet Title, Week x
+# Ordinary Differential Equations Tutorial Sheet, Week 7
 
 ### Learning targets
 * Identify the auxiliary equation for a differential equation
@@ -126,6 +126,8 @@ $\Rightarrow \boxed{\text{Over-damped}}$
 <div class = "answer">
 <img src="07-ode-media/figure1.PNG">
 </div>
+
+-----------------------------------------------------------------------------------
 
 ### WolframAlpha
 You can generate a limitless suppply of these second order homogeneous ODE questions and answers using WolframAlpha including the various graphs. For example, try typing in: ` 3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0`,
