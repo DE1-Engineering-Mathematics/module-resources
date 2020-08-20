@@ -40,42 +40,42 @@
 
 (a)
 
-![1a](04-eigenproblems-media/1a.png)
+![1a](04B-eigenproblems-media/1a.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = 1}$</div>
 
 (b)
 
-![1b](04-eigenproblems-media/1b.png)
+![1b](04B-eigenproblems-media/1b.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 1}$ appears to be the only eigenvector; however when you do the maths you will see that $\boxed{v_2 = (-1,0), \lambda_2 = 1}$ also appears. These eigenvectors are linearly dependent, so they are considered as a single vector.</div>
 
 (c) 
 
-![1c](04-eigenproblems-media/1c.png)
+![1c](04B-eigenproblems-media/1c.png)
 <div class = "answer">All vectors are eigenvectors for a uniform scaling, all with $\boxed{\lambda=2}$ in this case.</div>
 
 (d)
 
-![1d](04-eigenproblems-media/1d.png)
+![1d](04B-eigenproblems-media/1d.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ appears to be the only eigenvector; however when you do the maths you will see that $\boxed{v_2 = (-1,0), \lambda_2 = 2}$ also appears. These eigenvectors are linearly dependent, so they are considered as a single vector.</div>
 
 (e)
 
-![1e](04-eigenproblems-media/1e.png)
+![1e](04B-eigenproblems-media/1e.png)
 <div class = "answer">$\boxed{v_1 = (0,1), \lambda_1 = 0.5}$ and $\boxed{v_2 = (0,-1), \lambda_2 = 0.5}$. These eigenvectors are linearly dependent, so they are considered as a single vector. </div>
 
 (f)
 
-![1f](04-eigenproblems-media/1f.png)
+![1f](04B-eigenproblems-media/1f.png)
 <div class = "answer">No real eigenvectors, all vectors change span.</div>
 
 (g)
 
-![1g](04-eigenproblems-media/1g.png)
+![1g](04B-eigenproblems-media/1g.png)
 <div class = "answer">No real eigenvectors, all vectors change span.</div>
 
 (h)
 
-![1h](04-eigenproblems-media/1h.png)
+![1h](04B-eigenproblems-media/1h.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = -2}$</div>
 
 -----------------------------------------------------------------------------------
@@ -103,8 +103,8 @@ $\Rightarrow{}\quad \begin{pmatrix}2&3\\\\2&3\end{pmatrix} \begin{pmatrix}x_1\\\
 \Rightarrow{}\quad \text{ if }t=2, \text{ eigenvector of } \lambda_1:\quad (-3,2)$
 
 To summarise: <br>
-For $\boxed{\lambda_1 = 4, \begin{pmatrix}1\\\\1\end{pmatrix}},$ <br>
-For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3\\\\2\end{pmatrix}}.$</div>
+For $\boxed{\lambda_1 = 4, \begin{pmatrix}1\\\1\end{pmatrix}},$ <br>
+For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3\\\2\end{pmatrix}}.$</div>
 
 (b) $\begin{pmatrix}1&-1\\\\1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1&-1\\1&3\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & -1\\ 1 & 3-\lambda\end{pmatrix}$ 
@@ -393,11 +393,11 @@ This is the exam question from the Linear Transforms tutorial sheet with an extr
 (b) On the same axes draw the spans of any eigenvectors of A and label these spans with their corresponding eigenvalues.
 
 
-![7a](04-eigenproblems-media/7a.png)
+![7a](04B-eigenproblems-media/7a.png)
 
 <div class = "answer">
 
-![7aA](04-eigenproblems-media/7aA.png)
+![7aA](04B-eigenproblems-media/7aA.png)
 
 $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 
