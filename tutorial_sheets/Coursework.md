@@ -13,18 +13,20 @@ You are only told:
 * The position of the grain is assumed to be positioned at (-0.72 0.01 0.96)m.
 * The force of the hammer is (120 0 -120)N.
 * The twisting force applied at the edge of the beam (0 82 0)N.
+* Young's Modulus function is a linear function passing through point (475MPa,5$\mu$m) starting at the origin. 
 * The cost of lumber is £16.49 per square meter.
 * The distance from Earth to the moon is 356,000km.
 
 ## __Report__
 Your aim is not only to find the final position but to detail your reasoning in your report  through graph sketching, vectors, matrices and state any assumptions made such as tolerances and probability. \
 This report is not going to be graded. However, the report which finds the final position as accurately as possible while being creative with the mathematical concepts will win the competition, an Empire State Lego Set.
+Don't worry if you don't know immediately the math to solve this, you will quickly learn vectors and functions in the first few weeks of Engineering Mathematics. Although, do start having a think of how to tackle this problem.
 
 ## __Resources__
 Equations you might need to know: \
 Stress equation ($\sigma$ is stress, $F$ is force and $A$ is area)\
 $\sigma = \frac{F}{A} $ \
-Young's Modulus equatoin ($E$ is Young's modulus, $\sigma$ is stess and $\epsilon$ is strain) \
+Young's Modulus equation ($E$ is Young's modulus, $\sigma$ is stess and $\epsilon$ is strain) \
 $E = \frac{\sigma}{\epsilon} $ \
 Strain equation ($\epsilon$ is strain, $L$ is original length and $L_0$) \
 $\epsilon = \frac{L - L_0}{L} $ \
@@ -37,15 +39,10 @@ $ T = \vec{r} \times \vec{F} = rFsin(\theta)$
 <button type="button" onclick="displayAnswers('block')">Show hint </button>
 <button type="button" onclick="displayAnswers('none')">Hide hint </button>
 <br>
-<div class = "answer"> Start finding the area of a the surface. 
-(Area of a circle equation is 
+<div class = "answer"> Start finding the area of the surface. 
+(Area of circle equation is 
 $A = r\pi^2$)
 There is two ways of solving this, either doing a dot product of two vectors or finding the magnitude of r. 
-</div>
-<button type="button" onclick="displayAnswers('block')">Show hint </button>
-<button type="button" onclick="displayAnswers('none')">Hide hint </button>
-<br>
-<div class = "answer"> Heads up, there will be a lot of googling. Start with making an assumption of lumber's Young Modulus.
 </div>
 <button type="button" onclick="displayAnswers('block')">Show hint </button>
 <button type="button" onclick="displayAnswers('none')">Hide hint </button>
