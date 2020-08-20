@@ -115,21 +115,21 @@ $\Rightarrow 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
-<div class = "answer">$\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
+<div class = "answer">$\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{ {\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
 Find the limiting values of the following:
 
-(a) $\frac{{3x}^2+5x-4}{{5x}^2-x+7}\ as\ x\rightarrow{}\infty{}$
+(a) $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\ as\ x\rightarrow{}\infty{}$
 <div class = "answer">
-As $x$ tends to infinity, $\frac{{3x}^2+5x-4}{{5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$ Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
-$\boxed{\frac{{3x}^2+5x-4}{{5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\rightarrow{}\infty{}}$</div>
+As $x$ tends to infinity, $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$ Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
+$\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
-(b) $\frac{x^2+5x-4}{{2x}^2-3x+1}\ as\ x\rightarrow{}\infty{}$
-<div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{{2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$ Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
-$\boxed{\frac{x^2+5x-4}{{2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
+(b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ as\ x\rightarrow{}\infty{}$
+<div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$ Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
+$\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -191,12 +191,12 @@ $$
 {Using the ratio test:}
 
 $$
-\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{{(x}^{n+1}). [ n(n+1) ] }{\left[ \left(n+1\right)(n+2) \right] .x^n}\right\vert{}}=\left\vert{}x\right\vert{}
+\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{ {(x}^{n+1}). [ n(n+1) ] }{\left[ \left(n+1\right)(n+2) \right] .x^n}\right\vert{}}=\left\vert{}x\right\vert{}
 $$
 
 Therefore, converge for $\left\vert{}x\right\vert{}<1$.</div>
 
-(d) $\sum_{n=1}^{\infty{}}\frac{{1+3n}^2}{{1+n}^2}$
+(d) $\sum_{n=1}^{\infty{}}\frac{ {1+3n}^2}{ {1+n}^2}$
 <div class = "answer">
 $\boxed{\text{Diverges}}$
 
@@ -218,7 +218,7 @@ $$
 (e) Find the range of values of $X$ for which the following series is
 absolutely convergent. 
 $$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{{\left(2n+1\right)}^3}+...
+\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
 $$
 
 -----------------------------------------------------------------------------------
@@ -228,7 +228,7 @@ $$
 absolutely convergent. 
 
 $$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{{\left(2n+1\right)}^3}+...
+\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
 $$
 
 <div class = "answer">
@@ -245,11 +245,11 @@ $$
 $$
 
 $$
-=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{X^{(n+1)}}{{(2\left(n+1\right)+1)}^3}\times{}\frac{{(2n+1)}^3}{X^n}\right\vert{}}
+=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{X^{(n+1)}}{ {(2\left(n+1\right)+1)}^3}\times{}\frac{ {(2n+1)}^3}{X^n}\right\vert{}}
 $$
 
 $$
-=\left\vert{}X\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{{(2n+1)}^3}{{(2n+3)}^3}\right\vert{}=\vert{}X\vert{}}
+=\left\vert{}X\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {(2n+1)}^3}{ {(2n+3)}^3}\right\vert{}=\vert{}X\vert{}}
 $$
 
 Convergent for $-1 < X < 1$.
@@ -258,12 +258,12 @@ Now check if the endpoints are converging:
 
 $$	
 \rightarrow{}At\
-X=1,\lim_{n\rightarrow{}1}{\sum_{x=1}^{\infty{}}\frac{X^n}{{(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+X=1,\lim_{n\rightarrow{}1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
 $$
 
 $$
 At\ X=-1,\ \
-\lim_{n\rightarrow{}-1}{\sum_{x=1}^{\infty{}}\frac{X^n}{{(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+\lim_{n\rightarrow{}-1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
 $$</div>
 
 (b) Find the range of values of $x$ for which the following series is
@@ -279,7 +279,7 @@ Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, t
 Using the ratio test:
 
 $$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(n+2\right).X^{(n+1)}}{{(n+1)}^3}\times{}\frac{n^3}{\left(n+1\right).X^n}\right\vert{}}
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(n+2\right).X^{(n+1)}}{ {(n+1)}^3}\times{}\frac{n^3}{\left(n+1\right).X^n}\right\vert{}}
 $$
 
 $$
@@ -317,7 +317,7 @@ Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, t
 Using the ratio test:
 
 $$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{{\ln{\left(n+1\right)}.x}^{n+1}}{\ln{\left(n\right)}{.x}^n}\right\vert{}}=\left\vert{}x\right\vert{}
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {\ln{\left(n+1\right)}.x}^{n+1}}{\ln{\left(n\right)}{.x}^n}\right\vert{}}=\left\vert{}x\right\vert{}
 $$
 
 Therefore, converge for $\left\vert{}x\right\vert{}<1$.
