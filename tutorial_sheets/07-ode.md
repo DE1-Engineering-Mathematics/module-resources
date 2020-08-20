@@ -38,7 +38,7 @@
 ### Problem 1.
 Find the general solutions of the following differential equations:
 
-(a) $\frac{d^2y}{{dx}^2}-3\frac{dy}{dx}+2y=0$
+(a) $\frac{d^2y}{ {dx}^2}-3\frac{dy}{dx}+2y=0$
 <div class = "answer">
 As the equation is a homogeneous ODE:
 
@@ -47,7 +47,7 @@ $\Rightarrow r^2-3r+2=0,\quad r_{1,2}=1, 2$.}
 $\Rightarrow{}$ Therefore, the general solution is: $\boxed{y(x)=C_1e^x+C_2e^{2x}}$
 </div>
 
-(b) $\frac{d^2y}{{dx}^2}+2\frac{dy}{dx}+2y=0$
+(b) $\frac{d^2y}{ {dx}^2}+2\frac{dy}{dx}+2y=0$
 <div class = "answer">
 $\Rightarrow{}\quad$
 $r^2+2r+2=0, \quad r_{1,2}=-1\pm i$
@@ -56,7 +56,7 @@ $\Rightarrow{}\quad\ $Therefore, the general solution is:
 $\boxed{y(x)=e^{-x}(C_1\cos{x}+C_2\sin{x})}$
 </div>
 
-(c) $\frac{d^2y}{{dx}^2}+4\frac{dy}{dx}+4y=0$
+(c) $\frac{d^2y}{ {dx}^2}+4\frac{dy}{dx}+4y=0$
 <div class = "answer">
 $\Rightarrow r^2+4r+4=0, \rightarrow r_{1,2}=-2$
 
