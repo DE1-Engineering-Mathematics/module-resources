@@ -132,6 +132,8 @@ You can generate a limitless suppply of these second order homogeneous ODE quest
 
 [Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=3x%27%27(t)%2B3x%27(t)%2B4x(t)%3D0+where+x(0)%3D3,+x%27(0)%3D0)
 
+<br><br>
+
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
