@@ -131,6 +131,8 @@ $\boxed{\frac{{3x}^2+5x-4}{{5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\ri
 <div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{{2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$ Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{{2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
+-----------------------------------------------------------------------------------
+
 ### Problem 5.
 Determine whether each of the following series converges or diverges.
 
@@ -397,6 +399,7 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
 </div>
 
 -----------------------------------------------------------------------------------
+<br><br>
 
 ## Answers
 
