@@ -25,8 +25,6 @@
 * Two (tuesday)
 
 ### Additional resources
-
-### Additional resources
 *insert links*
 
 <br><br><br><br>
