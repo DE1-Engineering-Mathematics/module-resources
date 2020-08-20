@@ -189,6 +189,8 @@ Plotting the polynomial to check if it is a good approximation to $f(x)=\mathrm{
 Once again, it can be observed that our polynomial (in red) is a good approximation to $\displaystyle f(x)=\mathrm{sin}x$ (in blue) between $[-\pi,+\pi]$.
 </div>
 
+-----------------------------------------------------------------------------------
+
 ### Problem 5.
 Compute the following limits using Taylor and Maclaurin expansions:
 
@@ -244,6 +246,8 @@ Ignoring all negligible summands:
 $$=\boxed{\lim\limits_{x\rightarrow0}\frac{-\frac{9}{5}x^4}{x^4}=-\frac{9}{5}}$$
 </div>
 
+-----------------------------------------------------------------------------------
+
 ### Problem 6.
 (c) Study the local behaviour of function:
 $$f(x) = 	1-(x-2)^2+\frac{1}{4}(x-2)^3+O((x-2)^4),\quad x\rightarrow 2$$
@@ -275,9 +279,6 @@ After finding the values of f'(2) and f''(2), it can be concluded that \ans{$x_0
 </div>
 
 -----------------------------------------------------------------------------------
-
-
------------------------------------
 
 ## Exam Style Questions
 ### Problem 7.
@@ -340,8 +341,7 @@ f(x) = 	x\mathrm{cos}(\frac{x}{\sqrt{3}})-(\alpha-x^3)\mathrm{sin}x \text{ for a
 \end{equation*}
 Using this expansion, find for which $\alpha$ values of the point $x = 0$ is stationary for $f$ and specify of which type.
 
-
-
+<br><br>
 
 ## Answers
 
@@ -351,5 +351,5 @@ Using this expansion, find for which $\alpha$ values of the point $x = 0$ is sta
 
 <br><br>
 
-# Next week, another topic!
+# Next week, ODEs!
 ![vectors](02-vectors-media/cover.png)
