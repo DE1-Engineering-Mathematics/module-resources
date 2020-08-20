@@ -25,8 +25,6 @@
 * Two (tuesday)
 
 ### Additional resources
-
-### Additional resources
 *insert links*
 
 <br><br><br><br>
@@ -38,6 +36,9 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 
 (a)
 <div class = "answer"> answer </div>
+
+-----------------------------------------------------------------------------------
+
 
 -----------------------------------
 
