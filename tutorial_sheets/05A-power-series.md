@@ -186,7 +186,7 @@ Plotting the polynomial to check if it is a good approximation to $f(x)=\mathrm{
 
 <iframe src="https://www.desmos.com/calculator/0755usqlzv" width="100%" height="400px"></iframe>
 
-Once again, it can be observed that our polynomial (in red) is a good approximation to $\displaystyle f(x)=\mathrm{sin}x$ (in blue) between $[-\pi,+\pi]$.
+Once again, it can be observed that our polynomial (in blue) is a good approximation to $\displaystyle f(x)=\mathrm{sin}x$ (in red) between $[-\pi,+\pi]$.
 </div>
 
 -----------------------------------------------------------------------------------
@@ -219,11 +219,11 @@ $$\boxed{\lim\limits_{x\rightarrow0}\frac{x^2}{x^2}=1.}$$
 Find the Maclaurin series for $\sqrt[5]{1+x}$, $x$ will be substituted for $(-5x^2+x^4)$ later:
         
 \begin{align*}
-& n&    f&^{(n)}(x)&       f&^{(n)}(0)&  \\\\[5pt]
-\hline\\\\[-15pt]
-& 0&    &(1+x)^\frac{1}{5}&     &1&    \\\\
-& 1&    \frac{1}{5}&(1+x)^{-\frac{4}{5}}&     &\frac{1}{5}&    \\\\
-& 2&    -\frac{4}{25}&(1+x)^{-\frac{9}{5}}&     -&\frac{4}{25}& \\\\[5pt]
+& n&    f&^{(n)}(x)&       f&^{(n)}(0)&  \newline
+\hline
+& 0&    &(1+x)^\frac{1}{5}&     &1&    \\\ 
+& 1&    \frac{1}{5}&(1+x)^{-\frac{4}{5}}&     &\frac{1}{5}&    \\\ 
+& 2&    -\frac{4}{25}&(1+x)^{-\frac{9}{5}}&     -&\frac{4}{25}& \newline
 \hline
 \end{align*}
 
@@ -262,12 +262,12 @@ f(x)=f(2)+f'(2)(x-2)+\frac{1}{2!}f''(2)(x-2)^2+\frac{1}{3!}f'''(2)(x-2)^3+O\big(
 Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in the question: 
 
 \begin{align*}
-&\textrm{Coefficient  for}&    &\textrm{Question}&       &\textrm{Rewritten}&  \\\\
+&\textrm{Coefficient  for}&    &\textrm{Question}&       &\textrm{Rewritten}&  \\\ 
 \hline
-& f(x-2)&    &1&                 &f(2)&    \\\\
-& f'(x-2)&   &0&                 &f'(2)&    \\\\
-& f''(x-2)&  -&1&                &\frac{1}{2!}f''(2)& \\\\
-& f'''(x-2)& &\frac{1}{4}&       &\frac{1}{3!}f'''(2)& \\\\
+& f(x-2)&    &1&                 &f(2)&    \\\ 
+& f'(x-2)&   &0&                 &f'(2)&    \\\ 
+& f''(x-2)&  -&1&                &\frac{1}{2!}f''(2)& \\\ 
+& f'''(x-2)& &\frac{1}{4}&       &\frac{1}{3!}f'''(2)& \\\ 
 \hline
 \end{align*}
 
@@ -290,13 +290,13 @@ Find the Taylor Expansion of $f(x)=lnx$ near $x=10$ by finding the first, second
 
 Table of $f^{(n)}(0)$ coefficients for this series (Taylor, x=10):
 \begin{align*}
-& n&    f&^{(n)}(x)&       f&^{(n)}(10)&  \\\\
-\hline\\\\
-& 0&    &\mathrm{ln}x&     &2.302585093&    \\\\
-& 1&    &\frac{1}{x}&     &\frac{1}{10}&    \\\\
-& 2&    -&\frac{1}{x^2}&    -&\frac{1}{100}& \\\\
-& 3&    &\frac{2}{x^3}&    &\frac{2}{1000}&    \\\\
-& 4&    &\frac{6}{x^4}&     -&\frac{6}{10000}&  \\\\
+& n&    f&^{(n)}(x)&       f&^{(n)}(10)&  \\\ 
+\hline
+& 0&    &\mathrm{ln}x&     &2.302585093&    \\\ 
+& 1&    &\frac{1}{x}&     &\frac{1}{10}&    \\\ 
+& 2&    -&\frac{1}{x^2}&    -&\frac{1}{100}& \\\ 
+& 3&    &\frac{2}{x^3}&    &\frac{2}{1000}&    \\\ 
+& 4&    &\frac{6}{x^4}&     -&\frac{6}{10000}&  \\\ 
 \hline
 \end{align*}
 
@@ -336,9 +336,7 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 ## Challenging Questions
 ### Problem 8.
 (a)  Write the Maclaurin series expansion of the function up to the $4^{th}$ power:
-\begin{equation*}
-f(x) = 	x\mathrm{cos}(\frac{x}{\sqrt{3}})-(\alpha-x^3)\mathrm{sin}x \text{ for all } \alpha\in\mathbb{R}
-\end{equation*}
+$$f(x) = 	x\mathrm{cos}(\frac{x}{\sqrt{3}})-(\alpha-x^3)\mathrm{sin}x \text{ for all } \alpha\in\mathbb{R}$$
 Using this expansion, find for which $\alpha$ values of the point $x = 0$ is stationary for $f$ and specify of which type.
 
 <br><br>

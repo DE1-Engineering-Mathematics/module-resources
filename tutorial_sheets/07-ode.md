@@ -90,7 +90,8 @@ $ = \sqrt{3}$
 
 ## Exam Style Questions
 ### Problem 3.
-A trolley of mass, $m=$ 5kg, is attached to a wall by a spring of stiffness $k=$ $10Nm^{-1}$ and rolls without friction on the floor.<br>
+A trolley of mass, $m=$ 5kg, is attached to a wall by a spring of stiffness $k=$ $10Nm^{-1}$ and rolls without friction on the floor.
+
 At $x=0$ the spring is in its neutral position (neither extended nor compressed) and the positive $x$ direction is considered to be pointing away from the wall. Air resistance can be neglected.
 
 (a) Write down an expression to model the dynamics of this spring trolley system, relating its location to its acceleration.
@@ -101,15 +102,15 @@ $m\ddot{x}+kx=0 \quad\rightarrow\quad \boxed{5\ddot{x}+10x=0}$
 
 (b) The trolley is located at position x=0 and given an initial velocity of 8 m/s. Using this information, solve your differential equation such that you can write down an expression for location of the trolley as a function of time.
 <div class = "answer">
-$x=A\sin(\omega_{0}t)+B\cos(\omega_{0}t)$
+$x=A\sin(\omega_{0}t)+B\cos(\omega_{0}t)$<br>
 
-At $t=0$,$\quad\dot{x}=8$,$\quad x = 0$,$\quad\omega = \sqrt{\frac{k}{m}}$
+At $t=0$,$\quad\dot{x}=8$,$\quad x = 0$,$\quad\omega = \sqrt{\frac{k}{m}}$<br>
 
-As $x=0$: $B=0$,$\quad x=A\sin(\omega t)$
+As $x=0$: $B=0$,$\quad x=A\sin(\omega t)$<br>
 
 $\dot{x}=A\omega \cos(\omega t)$
-$8=A\omega$
-$A=\frac{8}{\omega}$
+$\Rightarrow 8=A\omega$
+$\Rightarrow A=\frac{8}{\omega}$<br>
 
 $\boxed{x=\frac{8}{\omega}\sin(\omega t)}$
 </div>
@@ -130,7 +131,8 @@ $\Rightarrow \boxed{\text{Over-damped}}$
 -----------------------------------------------------------------------------------
 
 ### WolframAlpha
-You can generate a limitless suppply of these second order homogeneous ODE questions and answers using WolframAlpha including the various graphs. For example, try typing in: ` 3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0`,
+You can generate a limitless suppply of these second order homogeneous ODE questions and answers using WolframAlpha including the various graphs. For example, try typing in: 
+``` 3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0 ```,
 
 [Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=3x%27%27(t)%2B3x%27(t)%2B4x(t)%3D0+where+x(0)%3D3,+x%27(0)%3D0)
 
@@ -144,5 +146,5 @@ You can generate a limitless suppply of these second order homogeneous ODE quest
 
 <br><br>
 
-# Next week, another topic!
+# Next week, Coupled Harmonic Oscillators!
 ![vectors](02-vectors-media/cover.png)

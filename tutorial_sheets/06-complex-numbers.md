@@ -48,7 +48,7 @@ Find the argument $arg(z)$ (angle $\theta$):
 
 $\theta= \text{arg}(z) =\tan^{-1}\frac{\text{imaginary part}}{\text{real part}}= \tan^{-1}\frac{4}{3} = 53.13^\circ$
 
-$\Rightarrow z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$
+$\Rightarrow z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
 $\Rightarrow \boxed{\text{Therefore } z=5(\cos 53.13^\circ+\mathrm{i}\sin 53.13^\circ)}$
 </div>
@@ -59,7 +59,7 @@ $r=|z|=\sqrt{(-3)^2+(-1)^2}=\sqrt{10}=3.16$
 
 Plot $z$ on an Argand diagram: 
 
-<img src = "06-complex-numbers-media\figure1.png">
+<img src = "06-complex-numbers-media\figure1.png" width="50%">
 
 $\alpha=\tan^{-1}\frac{(-1)}{(-3)}=\tan^{-1}\frac{1}{3}=18.43^\circ$}
         
@@ -78,16 +78,16 @@ $r=|z|=\sqrt{(0)^2+(-1)^2}=\sqrt{1}=1$
 Plot $z=-\mathrm{i}$ on an Argand diagram: <br>
 $\theta=\mathrm{arg}(z)=\tan^{-1}\frac{(-1)}{(0)}+180^\circ=\tan^{-1}\infty+180^\circ=90^\circ+180^\circ=270^\circ .$
 
-$\boxed{\text{Therefore }z=1(\cos270^\circ+\mathrm{i}\sin270^\circ)}$
+$\boxed{\text{Therefore }z=1(\cos270^\circ+\mathrm{i}\sin270^\circ)}$ <br>
 
 Alternative answer: $z=1(\cos-90^\circ+\mathrm{i}\sin-90^\circ)$
 </div>
 
 (d) $z=3-4\mathrm{i}$
 <div class = "answer">
-$r=|z|=\sqrt{(3)^2+(4)^2}=\sqrt{25}=5$
+$r=|z|=\sqrt{(3)^2+(4)^2}=\sqrt{25}=5$ <br>
 
-<img src = "06-complex-numbers-media\figure1d.png">
+<img src = "06-complex-numbers-media\figure1d.png" width="50%">
 
 $\alpha = \tan^{-1}\frac{4}{3}=53.13$
 $\theta=\mathrm{arg}(z)=360^\circ-53.13^\circ=306.87^\circ$
@@ -113,7 +113,7 @@ $ z_1+z_2=(2+4\mathrm{i})+(4-7\mathrm{i})=(2+4)+(4-7)\mathrm{i}=\boxed{6-3\mathr
 (c) Find $z_1z_2$
 <div class = "answer">
 Expand the brackets: <br>
-$z_1z_2=(2+4\mathrm{i})(4-7\mathrm{i})=2\times4-2\times7\mathrm{i}+4\times4\mathrm{i}-4\times7\mathrm{i^2}$
+$z_1z_2=(2+4\mathrm{i})(4-7\mathrm{i})=2\times4-2\times7\mathrm{i}+4\times4\mathrm{i}-4\times7\mathrm{i^2}$ <br>
 
 Collect real and complex terms: 
 $8+28-14\mathrm{i}+16\mathrm{i}= \boxed{36+2\mathrm{i}}$
@@ -121,7 +121,7 @@ $8+28-14\mathrm{i}+16\mathrm{i}= \boxed{36+2\mathrm{i}}$
 
 (d) Find $\frac{z_1}{z_2}$
 <div class = "answer">
-$ \frac{z_1}{z_2}=\frac{2+4\mathrm{i}}{4-7\mathrm{i}}=\frac{2+4\mathrm{i}}{4-7\mathrm{i}}\cdot\frac{4+7\mathrm{i}}{4+7\mathrm{i}}=\frac{8+16\mathrm{i}+14\mathrm{i}-28}{16+49}=\frac{-20+30\mathrm{i}}{65}=\boxed{-\frac{4}{13}+\frac{6}{13}\mathrm{i}}$
+$ \frac{z_1}{z_2}=\frac{2+4\mathrm{i}}{4-7\mathrm{i}}=\frac{2+4\mathrm{i}}{4-7\mathrm{i}}\cdot\frac{4+7\mathrm{i}}{4+7\mathrm{i}}=\frac{8+16\mathrm{i}+14\mathrm{i}-28}{16+49}=\frac{-20+30\mathrm{i}}{65}=\boxed{-\frac{4}{13}+\frac{6}{13}\mathrm{i}}$ <br>
         
 Note: <br>
 Simplify a complex fraction $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}$ by multiplying the fraction with the complex conjugate of the denominator over itself (effectively multiplying by $1$), i.e.,
@@ -132,12 +132,12 @@ $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}\cdot\frac{c-d\mathrm{i}}{c-d\mathrm{i}}$
 
 (e)  Find the real and imaginary part of $z = \frac{\mathrm{i}-4}{2\mathrm{i}-3}$
 <div class = "answer">Simplify and collect real and complex terms: <br>
-$z=\frac{\mathrm{i}-4}{2\mathrm{i}-3}=\frac{\mathrm{i}-4}{2\mathrm{i}-3}\cdot\frac{2\mathrm{i}+3}{2\mathrm{i}+3}=\frac{-12-2+3\mathrm{i}-8\mathrm{i}}{-4-9}=\frac{14}{13}+\frac{5}{13}\mathrm{i}$.}
+$z=\frac{\mathrm{i}-4}{2\mathrm{i}-3}=\frac{\mathrm{i}-4}{2\mathrm{i}-3}\cdot\frac{2\mathrm{i}+3}{2\mathrm{i}+3}=\frac{-12-2+3\mathrm{i}-8\mathrm{i}}{-4-9}=\frac{14}{13}+\frac{5}{13}\mathrm{i}$. <br>
 
 Therefore, $\boxed{\mathrm{Re}(z)=\frac{14}{13}}$ and $\boxed{\mathrm{Im}(z)=\frac{5}{13}}$
 </div>
 
-(f) Find the \textbf{absolute value} and the \textbf{conjugate} of $z = (1+\mathrm{i})^6$
+(f) Find the absolute value and the conjugate of $z = (1+\mathrm{i})^6$
 <div class = "answer">
 Express $z$ in polar form:
 $z=(1+\mathrm{i})^6=(\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6$
@@ -148,7 +148,7 @@ $(\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6=8(\cos\frac{3\pi}{2}
 Hence, $\boxed{|z|=8 \text{ and } \overline{z}=8\mathrm{i}}$
 </div>
 
-(g) Find the \textbf{absolute value} and the \textbf{conjugate} of $w = \mathrm{i}^{17}$
+(g) Find the absolute value and the conjugate of $w = \mathrm{i}^{17}$
 <div class = "answer">
 Considering $\mathrm{i}^{4} = 1$ 
 
@@ -184,17 +184,17 @@ Plot the flowing complex numbers on an Argand diagram:
 
 (a) $z=3+2\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure2.png">
+<img src = "06-complex-numbers-media\figure2.png" width = "50%">
 </div>
 
 (b) $z=4-5\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure3.png">
+<img src = "06-complex-numbers-media\figure3.png" width = "50%">
 </div>
 
 (c) $z=-2-\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure4.png">
+<img src = "06-complex-numbers-media\figure4.png" width = "50%">
 </div>
 
 (d)  $\| z \|=3$
@@ -209,7 +209,7 @@ $\sqrt{x^2+y^2}=3$
 $\Rightarrow$ Therefore: $x^2+y^2=9$
 The solution ($x^2+y^2=9$) consists of all the points lying on the circle of radius 3 with center (0,0).
 
-<img src = "06-complex-numbers-media\figure5.png">
+<img src = "06-complex-numbers-media\figure5.png" width = "50%">
 </div>
 
 -----------------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $\| z \|=\sqrt{(\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}=\sqrt{\frac{1}{4}+\frac{3
 From the diagram below: <br>
 $\theta=\tan^{-1}\sqrt{3}=\frac{\pi}{3}$ 
 
-<img src = "06-complex-numbers-media\figure6.png">
+<img src = "06-complex-numbers-media\figure6.png" width = "50%">
 Therefore $\mathrm{arg}(z)=-\frac{\pi}{3}$ or alternatively: $\mathrm{arg}(z)=\frac{5\pi}{3}$
 
 Complex number $z$ in polar form: <br>
@@ -281,7 +281,7 @@ $\|z^5\|=\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=4\sqrt{2}$
 
 Quick sketch of $z^5$ on an Argand diagram:
 
-<img src = "06-complex-numbers-media\figure7.png">
+<img src = "06-complex-numbers-media\figure7.png" width = "50%">
 
 From the Argand diagram above:
 $\mathrm{arg}(z^5)=\mathrm{arg}(4-4\mathrm{i})=-\frac{\pi}{4}$
@@ -289,13 +289,14 @@ or, $\mathrm{arg}(z^5)=\frac{7\pi}{4}$
 
 Therefore, $4-4\mathrm{i}=4\sqrt{2}(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4})$
 or, $4-4\mathrm{i}=4\sqrt{2}(\cos\frac{7\pi}{4}+\mathrm{i}\sin\frac{7\pi}{4})$
+<br><br>
 
 Rewrite the argument for the complex number, $4-4\mathrm{i}$, in its general from: $2n\pi-\frac{\pi}{4}$, where n is an integer.
 Note: For any integer n, $\cos(2n\pi-\frac{\pi}{4})=\cos(-\frac{\pi}{4})$. Likewise for $\sin(-\frac{\pi}{4})$.
 <br>
 
 Now, $z^5=\cos(2\pi-\frac{\pi}{4})+\mathrm{i}\sin(2\pi-\frac{\pi}{4})$
-<br>
+<br><br>
 
 Model the solutions, $z_n$, to $z^5=4-4\mathrm{i}$ as complex numbers in polar form, i.e.:
 $z_n=r(\cos\theta+\mathrm{i}\sin\theta)$
@@ -303,12 +304,15 @@ $z_n=r(\cos\theta+\mathrm{i}\sin\theta)$
 
 If $z_n=r(\cos\theta+\mathrm{i}\sin\theta)$, then by de Moivres theorem: $z^{5}=r^{5}(\cos5\theta+\mathrm{i}\sin5\theta)$
 $=4\sqrt{2}(\cos\frac{\pi}{4}-\mathrm{i}\sin\frac{\pi}{4})$
+<br>
 
 Compare magnitudes:
 $r^5=4\sqrt{2}, r=\sqrt{2}$
+<br>
 
 Compare arguments:
 $5\theta=2n\pi-\frac{\pi}{4}, \theta=(8n-1)\frac{\pi}{20}$
+<br>
 
 For appropriate values of n, so that $\theta$ lies between $-\pi$ and $\pi$:
 
@@ -326,7 +330,7 @@ $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi
 <div class = "answer">
 Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
-$\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
+$\boxed{\mathbb{R} \\\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
 
 

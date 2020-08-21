@@ -53,7 +53,7 @@ Suggest a formula for the $n$th term of the following sequences.
 <div class = "answer">$\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
 
 (e) Find the third, sixth and ninth term of the sequence given by the formula.
-$$\left\\{\frac{n^2-n-6}{n+2}\right\\}_{n=1}^\infty$$
+$$ \left \\{ \frac{n^2-n-6}{n+2} \right \\}_{n=1}^\infty $$
 <div class = "answer">$\Rightarrow \boxed{a_3 = \frac{3^2-3-6}{3+2} = 0 ,\ \ a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=3,\ \ \ a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=6}$</div>
 
 (f) $\left\\{\binom{n}{2}-\binom{n}{3}\right\\}_{n=3}^\infty$  using the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
@@ -171,7 +171,7 @@ Using the ratio test:
 
 $$
 \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{1}{\left(2\left(n+1\right)+1\right)!}\times{}\frac{\left(2n+1\right)!}{1}\right\vert{}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(2n+1\right)!}{\left(2n+3\right)!}\right\vert{}=0}}\
-\rightarrow{}converges\
+\rightarrow{}\text{converges}
 $$</div>
 
 (c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ for-1 < x < +1$
@@ -186,7 +186,7 @@ $$
 \sum_{n=1}^{\infty{}}\frac{x^n}{n(n+1)}
 $$
 
-{Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).}
+Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
 
 {Using the ratio test:}
 
@@ -211,7 +211,6 @@ Using the ratio test:
 $$
 \lim_{n\rightarrow{}\infty{}}{\frac{1+3n^2}{1+n^2}=3}
 $$
-}\end{comment}
 </div>
 
 

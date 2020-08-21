@@ -103,7 +103,7 @@ $\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
 $\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
 
 ### Problem 4.
-From applying a linear transformation, $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$ where $T(\vec{a}) = \vec{b}$. Find the vector $\vec{b}$ resulting when a \underline{clockwise} rotation described by $R(\theta)=\begin{pmatrix}\cos{\theta}&\sin{\theta} \\\ -\sin{\theta}&\cos{\theta}\end{pmatrix}$ is applied to $\vec{a}$. Sketch the vectors $\vec{a}$ and $\vec{b}$ on a Cartesian axes
+From applying a linear transformation, $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$ where $T(\vec{a}) = \vec{b}$. Find the vector $\vec{b}$ resulting when a <u>clockwise</u> rotation described by $R(\theta)=\begin{pmatrix}\cos{\theta}&\sin{\theta} \\\ -\sin{\theta}&\cos{\theta}\end{pmatrix}$ is applied to $\vec{a}$. Sketch the vectors $\vec{a}$ and $\vec{b}$ on a Cartesian axes
 
 (a) $\vec{a}=\begin{pmatrix}2\\\2\end{pmatrix}$ and $\theta=60^{\circ}$
 <div class = "answer">$R(60^{\circ})=\begin{pmatrix}0.5&0.866\\-0.866&0.5\end{pmatrix}$ <br>
@@ -112,7 +112,7 @@ $\Rightarrow{}\quad$ <br>
 <img src = "04A-linear-transforms-media/4a.png"> 
 </div>
 
-(b) $a=\begin{pmatrix}2\\3\end{pmatrix}$ and $\theta=45^{\circ}$
+(b) $a=\begin{pmatrix}2 \newline 3\end{pmatrix}$ and $\theta=45^{\circ}$
 <div class = "answer">$R(45^{\circ})=\begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} = \boxed{ \begin{pmatrix}3.536\\0.7071\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad$ <br>
@@ -167,6 +167,7 @@ From the linear transformations represented in the following figures, obtain the
 (i)
 
 <img src = "04A-linear-transforms-media/5i.png">
+
 NB. Difficult to see exactly in 3D, but each of the scalings are integers.
 
 <div class = "answer">$A = \begin{pmatrix}2&0&0\\0&1&0\\0&0&3\end{pmatrix}$ and $\det(A) = 6$</div>
@@ -178,9 +179,9 @@ For the following linear systems of equations find the null space and the corres
 
 (a) $\Rightarrow{}\quad \begin{pmatrix}1&1 \\\ 2&1\end{pmatrix} \begin{pmatrix}x \\\ y\end{pmatrix} = \begin{pmatrix}2 \\\ 3\end{pmatrix}$
 
-<div class = "answer">$\quad\Rightarrow{}\quad$
+<div class = "answer">$\Rightarrow{}\quad$
 $A^{-1} = \frac{1}{-1} \begin{pmatrix}1&-1\\-2&1\end{pmatrix} = \begin{pmatrix}-1&1\\2&-1\end{pmatrix}$ <br>
-$\quad\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}-1&1\\2&-1\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} \quad\Rightarrow{}\quad \boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}1\\1\end{pmatrix}}$
+$\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}-1&1\\2&-1\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} \quad\Rightarrow{}\quad \boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}1\\1\end{pmatrix}}$
 <img src = "04A-linear-transforms-media/6aA.png">
 </div>
 
@@ -192,11 +193,6 @@ $\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}
 $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\\9\end{pmatrix}}$
 <img src = "04A-linear-transforms-media/6bA.png">
 </div>
-
------------------------------------
-
-## Exam Style Questions
-### Problem n.
 
 -----------------------------------
 
@@ -212,6 +208,8 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
+
+<br><br>
 
 ## Answers
 
