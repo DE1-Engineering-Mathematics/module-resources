@@ -46,22 +46,22 @@ $\Rightarrow$ Although the system is vertical, gravity can be ignored as $x_1$ a
 
 $\Rightarrow$ The equation of motion of the masses are:
 $$2m\ddot{x}_1+2kx_1-kx_2= 0
-\\\\
+\\\ 
 m\ddot{x}_2-kx_1+kx_2= 0$$
 
 $\Rightarrow$ Writing the system in matrix form:
 
 $$
 \boxed{\begin{bmatrix}
--\frac{k}{m} & \frac{k}{2m}\\\\
-\frac{k}{m}   & -\frac{k}{m}\\\\
+-\frac{k}{m} & \frac{k}{2m}\\\ 
+\frac{k}{m}   & -\frac{k}{m}\\\ 
 \end{bmatrix}
 \begin{bmatrix}
-x_1\\\\
+x_1\\\ 
 x_2
 \end{bmatrix} =
 \begin{bmatrix}
-\ddot{x}_1\\\\
+\ddot{x}_1\\\ 
 \ddot{x}_2
 \end{bmatrix}}
 $$
@@ -69,22 +69,22 @@ $$
 $\Rightarrow$ Trial solution for $x_1$ and $x_2$:
 $$ 
 x_1=A_{1}\cos(\omega t),\quad \ddot{x}\_1 = - A\_{1}\omega^{2}\cos (\omega t)
-\\\\
+\\\ 
 x_2=A_{2}\cos(\omega t),\quad \ddot{x}\_2=-A\_{2}\omega^{2}\cos (\omega t)
 $$
 
 $\Rightarrow$ Therefore:
 $$
 \begin{bmatrix}
--\frac{k}{m} & \frac{k}{2m}\\\\
+-\frac{k}{m} & \frac{k}{2m}\\\ 
 \frac{k}{m}   & -\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix} =-\omega ^{2}
 \begin{bmatrix}
-{A}_1\\\\
+{A}_1\\\ 
 {A}_2
 \end{bmatrix}
 $$
@@ -92,7 +92,7 @@ $$
 $\Rightarrow \det(A−\lambda I) = 0$:
 $$
 \begin{vmatrix}
--\frac{k}{m} -\lambda & \frac{k}{2m}\\\\
+-\frac{k}{m} -\lambda & \frac{k}{2m}\\\ 
 \frac{k}{m}   & -\frac{k}{m}-\lambda 
 \end{vmatrix}
 = 0
@@ -107,15 +107,15 @@ $\Rightarrow$ Mode shape for $\omega_1 = \sqrt{\frac{k}{m}-\frac{1}{\sqrt{2}}\fr
 $$
 \boxed{
 \begin{bmatrix}
--\frac{1}{\sqrt{2}}\frac{k}{m} & \frac{k}{2m}\\\\
+-\frac{1}{\sqrt{2}}\frac{k}{m} & \frac{k}{2m}\\\ 
 \frac{k}{m} & -\frac{1}{\sqrt{2}}\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix} =
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -126,15 +126,15 @@ Mode shape for $\omega_2 =\sqrt{\frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m}}$ :
 $$
 \boxed{
 \begin{bmatrix}
-\frac{1}{\sqrt{2}}\frac{k}{m} & \frac{k}{2m}\\\\
+\frac{1}{\sqrt{2}}\frac{k}{m} & \frac{k}{2m}\\\ 
 \frac{k}{m} & \frac{1}{\sqrt{2}}\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix} =
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -150,7 +150,7 @@ $\frac{1}{\sqrt{2}}A_1=-\frac{1}{2}A_2$, masses move in opposite directions.
 $\Rightarrow$ The equation of motion of the masses are:
 $$
 m_1\ddot{x}_1+mg\sin(\theta_1)+(x_{1}-x_2)k= 0
-\\\\
+\\\ 
 m_2\ddot{x}_2+mg\sin(\theta_2)+(x_{2}-x_1)k= 0
 $$
 
@@ -165,16 +165,16 @@ $\Rightarrow$ Writing the system in matrix form:
 $$
 \boxed{
 \begin{bmatrix}
--(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\\
-\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\\
+-(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\ 
+\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\ 
 \end{bmatrix}
 \begin{bmatrix}
-x_1\\\\
+x_1\\\ 
 x_2
 \end{bmatrix}
 =-\omega ^{2}
 \begin{bmatrix}
-\ddot{x}_1\\\\
+\ddot{x}_1\\\ 
 \ddot{x}_2
 \end{bmatrix}}
 $$
@@ -182,16 +182,16 @@ $$
 $\Rightarrow$ Therefore:
 $$
 \begin{bmatrix}
--(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\\
-\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\\
+-(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\ 
+\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\ 
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix}
 =-\omega ^{2}
 \begin{bmatrix}
-{A}_1\\\\
+{A}_1\\\ 
 \ddot{}{A}_2
 \end{bmatrix}
 $$
@@ -199,8 +199,8 @@ $$
 $\Rightarrow \det(A-\lambda I) = 0$:
 $$
 \begin{vmatrix}
--(\frac{g}{L}+\frac{k}{m}) -\lambda& \frac{k}{m}\\\\
-\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})-\lambda\\\\
+-(\frac{g}{L}+\frac{k}{m}) -\lambda& \frac{k}{m}\\\ 
+\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})-\lambda\\\ 
 \end{vmatrix}
 = 0
 $$
@@ -213,15 +213,15 @@ $\Rightarrow$ Mode shape for $ \omega_1 = \sqrt{\frac{g}{L}+2\frac{k}{m}}$:
 $$
 \boxed{
 \begin{bmatrix}
-\frac{k}{m} & \frac{k}{m}\\\\
+\frac{k}{m} & \frac{k}{m}\\\ 
 \frac{k}{m} & \frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix}=
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -232,15 +232,15 @@ $\Rightarrow$ Mode shape for $\omega_2 =\sqrt{\frac{g}{L}}$:
 $$
 \boxed{
 \begin{bmatrix}
--\frac{k}{m} & \frac{k}{m}\\\\
+-\frac{k}{m} & \frac{k}{m}\\\ 
 \frac{k}{m} & -\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix}=
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -260,8 +260,7 @@ Consider the masses $m_1=m_2=m$ and the spring constants $k_1=k_2=k_3=k$
 $\Rightarrow$ The equation of motion of the masses are (mass times acceleration of each mass is equal to the resulting force acting on each mass):
 $$
 m_1\ddot{x}_1+(k_1+k_2)x_1-k_2x_2= 0
-$\\\\ 
-$
+\\\  
 m_{2}\ddot{x}_2+(k_3+k_2)x_2-k_2x_1= 0
 $$
 
@@ -269,38 +268,38 @@ $\Rightarrow$ Writing the system in matrix form:
 $$
 \boxed{
 \begin{bmatrix}
--2\frac{k}{m} & \frac{k}{m}\\\\
-\frac{k}{m}   & -2\frac{k}{m}\\\\
+-2\frac{k}{m} & \frac{k}{m}\\\ 
+\frac{k}{m}   & -2\frac{k}{m}\\\ 
 \end{bmatrix}
 \begin{bmatrix}
-x_1\\\\
+x_1\\\ 
 x_2
 \end{bmatrix} =
 \begin{bmatrix}
-\ddot{x}_1\\\\
+\ddot{x}_1\\\ 
 \ddot{x}_2
 \end{bmatrix}}
 $$
 
 $\Rightarrow$ Trial solution for $x_1$ and $x_2$:
 $$
-x_1=A_{1}\cos(\omega t),\quad \ddot{x}\_1=-A\_{1}\omega^{2}\cos (\omega t) \\\\
+x_1=A_{1}\cos(\omega t),\quad \ddot{x}\_1=-A\_{1}\omega^{2}\cos (\omega t) \\\ 
 x_2=A_{2}\cos(\omega t),\quad \ddot{x}\_2=-A\_{2}\omega^{2}\cos (\omega t)
 $$
 
 $\Rightarrow$ Therefore:
 $$
 \begin{bmatrix}
--2\frac{k}{m} & \frac{k}{m}\\\\
+-2\frac{k}{m} & \frac{k}{m}\\\ 
 \frac{k}{m}   & -2\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix}
 =-\omega ^{2}
 \begin{bmatrix}
-{A}_1\\\\
+{A}_1\\\ 
 {A}_2
 \end{bmatrix}
 $$
@@ -308,7 +307,7 @@ $$
 $\Rightarrow \det(A-\lambda I) = 0$:
 $$
 \begin{vmatrix}
--2\frac{k}{m} -\lambda & \frac{k}{m}\\\\
+-2\frac{k}{m} -\lambda & \frac{k}{m}\\\ 
 \frac{k}{m}   & -2\frac{k}{m}-\lambda 
 \end{vmatrix}
 = 0
@@ -322,15 +321,15 @@ $\Rightarrow$ Mode shape for $\omega_1 = \sqrt{3\frac{k}{m}}\quad$(sub $\lambda_
 $$
 \boxed{
 \begin{bmatrix}
-\frac{k}{m} & \frac{k}{m}\\\\
+\frac{k}{m} & \frac{k}{m}\\\ 
 \frac{k}{m} & \frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix} =
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -341,15 +340,15 @@ Mode shape for $\omega_2 =\sqrt{\frac{k}{m}}\quad$(sub $\lambda_2$ into det$(A-\
 $$
 \boxed{
 \begin{bmatrix}
--\frac{k}{m} & \frac{k}{m}\\\\
+-\frac{k}{m} & \frac{k}{m}\\\ 
 \frac{k}{m} & -\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
-A_1\\\\
+A_1\\\ 
 A_2
 \end{bmatrix} =
 \begin{bmatrix}
-0\\\\
+0\\\ 
 0
 \end{bmatrix}}
 $$
@@ -358,9 +357,6 @@ $A_1=A_2$, masses move in phase with each other, in the same direction.
 </div>
 
 ------------------------------------------------------
-
-## Challenging Questions
-### Problem n.
 
 <br><br>
 
