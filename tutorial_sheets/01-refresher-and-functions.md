@@ -254,7 +254,7 @@ $\Rightarrow{} \boxed{\log_{20}{17}=\frac{\log_{10}{17}}{\log_{10}20}\approx\fra
 
 (c) $\log_3{16}$
 <div class = "answer">$\log_{10}3\times{}\log_3{16}=\log_{10}{16}$ 
-$\Rightarrow{} \boxed{$\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.2}{0.5}=2.40}$
+$\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.2}{0.5}=2.40}$
 </div>
 
 ## Exam Style Questions
