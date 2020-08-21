@@ -305,7 +305,7 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 (a) Find the length of the diagonal $AG$
 <div class = "answer">AG = $\sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$</div>
 
-(b) Show that the vector \textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k} is normal to the plane DPF. Hence find the cartesian equation of this place. 
+(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place. 
 <div class = "answer">[6 marks] <br>
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
 $\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$$
@@ -314,18 +314,18 @@ $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
 $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
 \textbf{r} = 4\textbf{i}}$ <br>
-The diagonal AG intersects the plane DPF at Q.</div>
+The diagonal $AG$ intersects the plane $DPF$ at $Q$.</div>
 
-(c)  Write down a vector equation of the line AG. Hence find the coordinates of the point Q, and the ratio AQ:QG.
+(c)  Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
 $\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k})$ <br>
-Substitute the components of the vector equation of the line AG into the equation for the plane DPF. 
+Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. 
 $15(4 - 4 \lambda) - 20 (3 \lambda) + 4 (5 \lambda) = 20 
 \Rightarrow 40 = 100 \lambda, \lambda = 0.4$ <br>
 Q is $(2.4, 1.2, 2)$ <br>
 $\boxed{AQ : QG  = 2 : 3}$</div>
 
-(d) Find the acute angle between the line AG and the plane DPF.
+(d) Find the acute angle between the line $AG$ and the plane $DPF$.
 <div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k})$ is $\theta$ where <br>
 $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}$ <br> 
 $\theta = 56.0$ or $124.0$ <br>
