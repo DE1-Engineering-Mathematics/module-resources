@@ -42,7 +42,7 @@ This week we will be looking at vectors. Vectors greatly expand our ability to c
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-Consider the three vectors $\vec{a}=$ (2,1,0), $\vec{b}=$ (-1,2,3), and $\vec{c}=$ (1,2,1). Calculate the following:
+Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}= (1,2,1)$. Calculate the following:
 
 (a) $\vec{a}+\vec{b}=$
 <div class = "answer">$\Rightarrow \quad \boxed{\vec{a}+\vec{b}=(1,3,3)}$</div>
@@ -56,7 +56,7 @@ Consider the three vectors $\vec{a}=$ (2,1,0), $\vec{b}=$ (-1,2,3), and $\vec{c}
 (d) Modulus of $\vec{c}$
 <div class = "answer">$|c| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
 
-(e) Find the unit vector in direction of c 
+(e) Find the unit vector in direction of $\vec{c}$ 
 <div class = "answer">$\boxed{\hat{c} = \frac{\vec{c}}{|c|} = \left(\frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right)}$</div>
 
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
@@ -67,7 +67,7 @@ Consider the three vectors $\vec{a}=$ (2,1,0), $\vec{b}=$ (-1,2,3), and $\vec{c}
 ### Problem 2.
 Scalar product calculation
 
-(a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \|\vec{a}| = \|\vec{b}\|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
+(a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \| \vec{a} \| = \| \vec{b} \|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
 
 <div class = "answer">We have $$|\vec{a}|=\sqrt{1^2+2^2}=\sqrt{5}$$ and $$|\vec{b}|=\sqrt{2^2+1^2}=\sqrt{5}$$ So, $$\boxed{|\vec{a}|=|\vec{b}|.}$$ But, the two vectors are <b>not equal</b> since their corresponding components are distinct.</div>
 
@@ -179,47 +179,46 @@ $$\boxed{4x-y+6z+43=0}$$
 Therefore,
 $$\cos\theta=\frac{n_1\cdot n_2}{|n_1|\cdot|n_2|}$$
 $$\cos\theta=\frac{3\cdot2+(-4)\cdot1}{\sqrt{3^2+(-4)^2}\sqrt{2^2+1^2}}= \frac{2}{5\sqrt{5}}$$
-$$\boxed{\theta=\cos^{-1}(\frac{2}{5\sqrt{5}})=79.7^\circ}$$</div>
+$$\boxed{\theta=\cos^{-1}\left(\frac{2}{5\sqrt{5}}\right)=79.7^\circ}$$</div>
 
 (d) Let ABC be a triangle in the x,y-plane, with the vertices at the points A $= (2,-1)$, B$=(4,4)$ and C=$(9,7)$. Find the distance from point A normal to line BC:
 <div class = "answer">First, we can begin by drawing a diagram of the points:
 <img src = "02-vectors-media\vectors.png" alt="vectors">
+
 Find the equation of line BC:
 $$ \text{Gradient} = C - B =
 \begin{bmatrix}
-5\\
+5\\\\
 3
 \end{bmatrix}$$
 $$ \therefore BC = 
 \begin{bmatrix}
-4 \\
+4 \\\\
 4
-\end{bmatrix}
-+ \lambda 
+\end{bmatrix} + \lambda 
 \begin{bmatrix}
-5 \\
+5 \\\\
 3
 \end{bmatrix}$$
 The point D is the perpendicular intersection between line BC and A, where D can be expressed as a point on the line BC with a value of lambda to be found:
 $$D =
 \begin{bmatrix}
-4 + 5\lambda \\
+4 + 5\lambda \\\\
 4 + 3\lambda
 \end{bmatrix}$$
 Therefore, we can form an equation for line AD: 
 $$ \text{Gradient} = A - D =
 \begin{bmatrix}
--2 - 5\lambda\\
+-2 - 5\lambda\\\\
 -5 - 3\lambda
 \end{bmatrix}$$
 $$\therefore AD = 
 \begin{bmatrix}
-2 \\
+2 \\\\
 -1
-\end{bmatrix}
-+ \mu 
+\end{bmatrix} + \mu 
 \begin{bmatrix}
--2 - 5\lambda\\
+-2 - 5\lambda\\\\
 -5 - 3\lambda
 \end{bmatrix} $$
 As we know that lines BC and AD are perpendicular, the dot product of their gradients will be equal to 0:
@@ -251,8 +250,8 @@ Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</u></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$,are coplanar, that is,they lie in the same plane.
-<div class = "answer">We have the volume of parallelepiped (remember the definition of the dot product and cross product)
+(a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$, are coplanar, that is,they lie in the same plane.
+<div class = "answer">We have the volume of parallelepiped (remember the definition of the dot product and cross product) <br>
 Volume = $|a||\cos\phi||b\times c|=\vec{a}\cdot(\vec{b}\times \vec{c})$
 Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
 \begin{vmatrix}
@@ -268,7 +267,7 @@ Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
 \end{vmatrix}\hat{j}+\begin{vmatrix}
 1&-1\\
 7&3\\
-\end{vmatrix}\hat{k}\big)$
+\end{vmatrix}\hat{k}\big)$ <br>
 Volume=$(2,3,1)(-2,-2,10)=-4-6+10=0$
 Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed{\textrm{This means } \vec{a},\vec{b}, \textrm{ and } \vec{c} \textrm{ are coplanar.}}$</div>
 
@@ -277,12 +276,12 @@ Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed
 ### Problem 7.
 (a) The locations of a pair of long straight pipes are specified using Cartesian
 co-ordinates as follows:
-* Pipe A: diameter 0.8; axis through points P (2, 5, 3) and Q (7, 10, 8).
-* Pipe B: diameter 1.0; axis through points R (0, 6, 3) and S (−12, 0, 9).
+* Pipe $A$: diameter 0.8; axis through points $P (2, 5, 3)$ and $Q (7, 10, 8)$.
+* Pipe $B$ diameter 1.0; axis through points $R (0, 6, 3)$ and $S (−12, 0, 9)$.
 
 Do the pipes need re-aligning to avoid intersection? _(Assume the origin position O is (0,0,0))_
 
-<div class = "answer">For pipe A, the vector form of equation is (the other two forms are Parametric form and Cartesian form): 
+<div class = "answer">For pipe $A$, the vector form of equation is (the other two forms are Parametric form and Cartesian form): 
 $$\vec{r_A} =\vec{OP}+\lambda'\vec{PQ}= [2,5,3]+\lambda'[5,5,5]=[2,5,3]+\lambda\frac{[1,1,1]}{\sqrt{3}}$$
 $$\vec{r_B} =\vec{OR}+\mu'\vec{RS}= [0,6,3]+\mu'[12,-6,6]=[0,6,3]+\mu\frac{[2,-1,1]}{\sqrt{6}}$$
 (Non-unit) perpendicular to both their axes is
@@ -291,18 +290,19 @@ $$ p =\begin{vmatrix}
 1 & 1 & 1\\
 2 & -1 & 1\\ 
 \end{vmatrix}=[2,1,-3]$$
-The length of  mutually perpendicular pipe A and B is d. 
+The length of mutually perpendicular pipe $A$ and $B$ is $d$. 
 $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
 \frac{[2,1,-3]}{\sqrt{14}}\Big|=0.8$$
-Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <u>Hence the pipes need re-aligning to avoid intersection.</u></div>
+Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
+Hence, $\boxed{\text{the pipes need re-aligning to avoid intersection.}}$</div>
 
 ## Exam Style Questions
 ### Problem 8.
-The diagram below shows a cuboid OABCDEFG with coordinates as shown. The point P has coordinates (4,2,0).
+The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point P has coordinates $(4,2,0)$.
 
 ![cuboid](02-vectors-media\cuboid.png)
 
-(a) Find the length of the diagonal AG
+(a) Find the length of the diagonal $AG$
 <div class = "answer">AG = $\sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$</div>
 
 (b) Show that the vector \textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k} is normal to the plane DPF. Hence find the cartesian equation of this place. 
@@ -326,7 +326,7 @@ Q is $(2.4, 1.2, 2)$ <br>
 $\boxed{AQ : QG  = 2 : 3}$</div>
 
 (d) Find the acute angle between the line AG and the plane DPF.
-<div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k}$ is $\theta$ where <br>
+<div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k})$ is $\theta$ where <br>
 $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}$ <br> 
 $\theta = 56.0$ or $124.0$ <br>
 $\boxed{\text{Angle between line and plane } = 34.0^\circ}$</div>
@@ -336,9 +336,9 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$</div>
 ### Problem 9.
 A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
-    1 \\
-    7 \\
-    -6 \\
+    1 \\\\
+    7 \\\\
+    -6 \\\\
 \end{pmatrix} \text{km/h}$
 
 (a) What is the speed of the fish in km/h to 2 decimal places? 
@@ -395,6 +395,7 @@ $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 <div class = "answer">
 Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in graph (i) and (ii)
 <img src = "02-vectors-media\prob10.png">
+
 In graph(i)
 $$\vec{a}+\vec{b}=\vec{PQ}+\vec{QR}=\vec{PR}$$
 In graph(ii)
