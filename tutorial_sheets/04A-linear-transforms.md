@@ -196,11 +196,6 @@ $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\
 
 -----------------------------------
 
-## Exam Style Questions
-### Problem n.
-
------------------------------------
-
 ## Challenging Questions
 ### Problem 7.
 The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
@@ -213,6 +208,8 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
+
+<br><br>
 
 ## Answers
 

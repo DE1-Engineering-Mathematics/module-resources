@@ -36,7 +36,7 @@
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-{Find the eigenvalues and the associated eigenvectors for the transformations represented in the following figures. (NB. The red vector shown is the result of transforming the blue vector.
+Find the eigenvalues and the associated eigenvectors for the transformations represented in the following figures. _(NB. The red vector shown is the result of transforming the blue vector.)_
 
 (a)
 
@@ -83,7 +83,7 @@
 ### Problem 2.
 Find the eigenvalues and the associate eigenvectors of the matrices:
 
-(a) $\begin{pmatrix}1&3\\\\2&2\end{pmatrix}$
+(a) $\begin{pmatrix}1&3\\\ 2&2\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B=\begin{pmatrix}1&3\\2&2\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda & 3\\2 & 2 - \lambda\end{pmatrix}$
 
 $\Rightarrow{}\quad det(B) = 0 \quad\Rightarrow{}\quad (1 - \lambda)(2- \lambda) - 6 = 0 \quad\Rightarrow{}\quad \lambda^2 -3\lambda - 4 = 0$
@@ -92,32 +92,32 @@ $\Rightarrow{}\quad \text{eigenvalues}: \lambda_1 = 4, \quad\lambda_2 = -1$
 
 For $\lambda_1 = 4, $
 
-$\Rightarrow{}\quad Bx = 0 \quad\Rightarrow{}\quad \begin{pmatrix}-3&3\\\\2&-2\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\end{pmatrix} = \begin{pmatrix}0\\\\0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} - 3x_1 + 3x_2 =& 0\\\\ 2x_1 - 2x_2 =& 0\end{aligned}\\\\
-\Rightarrow{}\quad x_1 = x_2 \quad\Rightarrow{}\quad \text{ in parametric form } x_1=t,\quad x_2=t\quad \text{ for any t } \in R\\\\
+$\Rightarrow{}\quad Bx = 0 \quad\Rightarrow{}\quad \begin{pmatrix}-3&3\\\ 2&-2\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\end{pmatrix} = \begin{pmatrix}0\\\ 0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} - 3x_1 + 3x_2 =& 0\\\  2x_1 - 2x_2 =& 0\end{aligned}\\\ 
+\Rightarrow{}\quad x_1 = x_2 \quad\Rightarrow{}\quad \text{ in parametric form } x_1=t,\quad x_2=t\quad \text{ for any t } \in R\\\ 
 \Rightarrow{}\quad \text{ if } t=1, \text{ eigenvector of } \lambda_1:\quad (1,1)$
 
 For $\lambda_2 = -1, $
 
-$\Rightarrow{}\quad \begin{pmatrix}2&3\\\\2&3\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\end{pmatrix} = \begin{pmatrix}0\\\\0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} 2x_1 + 3x_2 =& 0\\\\ 2x_1 + 3x_2 =& 0\end{aligned} \quad\Rightarrow{}\quad x_1 = -\frac{3x_2}{2}\\\\
-\Rightarrow{}\quad \text{ in parametric form } x_1=-\frac{3t}{2},\quad x_2=t\quad \text{ for any } t \in R\\\\
+$\Rightarrow{}\quad \begin{pmatrix}2&3\\\ 2&3\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\end{pmatrix} = \begin{pmatrix}0\\\ 0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} 2x_1 + 3x_2 =& 0\\\  2x_1 + 3x_2 =& 0\end{aligned} \quad\Rightarrow{}\quad x_1 = -\frac{3x_2}{2}\\\ 
+\Rightarrow{}\quad \text{ in parametric form } x_1=-\frac{3t}{2},\quad x_2=t\quad \text{ for any } t \in R\\\ 
 \Rightarrow{}\quad \text{ if }t=2, \text{ eigenvector of } \lambda_1:\quad (-3,2)$
 
 To summarise: <br>
 For $\boxed{\lambda_1 = 4, \begin{pmatrix}1\\\1\end{pmatrix}},$ <br>
 For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3\\\2\end{pmatrix}}.$</div>
 
-(b) $\begin{pmatrix}1&-1\\\\1&3\end{pmatrix}$
+(b) $\begin{pmatrix}1&-1\\\ 1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1&-1\\1&3\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & -1\\ 1 & 3-\lambda\end{pmatrix}$ 
 
 $\Rightarrow{}\quad det(B) = (1 - \lambda)(3 - \lambda)- -1 = 0 \quad\Rightarrow{}\quad \lambda_1 = 2,\quad \lambda_2 = 2$
 
-$\Rightarrow{}\quad \begin{pmatrix}-1&-1\\\\1&1\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\end{pmatrix} = \begin{pmatrix}0\\\\0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} -x_1 -x_2 =& 0\\\\ x_1 +x_2 =& 0\end{aligned}$
+$\Rightarrow{}\quad \begin{pmatrix}-1&-1\\\ 1&1\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\end{pmatrix} = \begin{pmatrix}0\\\ 0\end{pmatrix} \quad\Rightarrow{}\quad \begin{aligned} -x_1 -x_2 =& 0\\\  x_1 +x_2 =& 0\end{aligned}$
 
-$\Rightarrow{}\quad \text{ in parametric form } x_1=t,\quad x_2=-t,\quad \text{ for any } t \in R\\\\
-\Rightarrow{}\quad \boxed{\text{ if } t=1, \text{ eigenvector of } \lambda_1:\quad (1,-1)}\\\\
+$\Rightarrow{}\quad \text{ in parametric form } x_1=t,\quad x_2=-t,\quad \text{ for any } t \in R\\\ 
+\Rightarrow{}\quad \boxed{\text{ if } t=1, \text{ eigenvector of } \lambda_1:\quad (1,-1)}\\\ 
 \Rightarrow{}\quad \boxed{\text{ if } t=2, \text{ eigenvector of } \lambda_2:\quad (2,-2)}$</div>
 
-(c) $\begin{pmatrix}1&3&1\\\\0&5&0\\\\1&3&0\end{pmatrix}$
+(c) $\begin{pmatrix}1&3&1\\\ 0&5&0\\\ 1&3&0\end{pmatrix}$
 <div class = "answer">
 $\Rightarrow{}\quad B = \begin{pmatrix}1&3&1\\0&5&0\\1&3&0\end{pmatrix} - \lambda \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & 3 & 1\\ 0 & 5-\lambda & 0\\ 1 & 3 & -\lambda\end{pmatrix}$
 $\Rightarrow{}\quad det(B) = (1-\lambda)(5-\lambda)(-\lambda) + 1(-(5-\lambda)(1)) = 0
@@ -133,48 +133,48 @@ $\Rightarrow{}\quad det(B) = (1-\lambda)(5-\lambda)(-\lambda) + 1(-(5-\lambda)(1
 <br>
 
 For $\lambda_1 = 5$
-$\Rightarrow{}\quad \begin{pmatrix}-4&3&1\\\\0&0&0\\\\1&3&-5\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix} 
+$\Rightarrow{}\quad \begin{pmatrix}-4&3&1\\\ 0&0&0\\\ 1&3&-5\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix} 
 \Rightarrow{}\quad
 	\begin{cases}
     	\begin{aligned}
-    	-4x_1 +3x_2 +x_3 =& 0\\\\
-        0x_1 +0x_2 +0x_3 =& 0\\\\
+    	-4x_1 +3x_2 +x_3 =& 0\\\ 
+        0x_1 +0x_2 +0x_3 =& 0\\\ 
         x_1 +3x_2 -5x_3 =& 0
         \end{aligned}
-    \end{cases}\\\\
+    \end{cases}\\\ 
 \Rightarrow{}\quad
 	\begin{cases}
-    	x_1  = \frac{6x_2}{5}\\\\
+    	x_1  = \frac{6x_2}{5}\\\ 
         x_2 = \frac{19x_3}{15}
     \end{cases}
-\quad\Rightarrow{}\quad \text{ in parametric form } x_1=\frac{6t}{5},\quad x_2=\frac{19t}{15},\quad x_3=t \text{ for any } t \in R\\\\
+\quad\Rightarrow{}\quad \text{ in parametric form } x_1=\frac{6t}{5},\quad x_2=\frac{19t}{15},\quad x_3=t \text{ for any } t \in R\\\ 
 \Rightarrow{}\quad \text{ if } t=15, \text{ eigenvector of } \lambda_1:\quad (18,19,15)$
 <br>
 
 For $\lambda_2 = \frac{1+\sqrt{5}}{2}$
-$\Rightarrow{}\quad \begin{pmatrix} 1 - \frac{1+\sqrt{5}}{2} & 3 & 1\\\\ 0 & 5 - \frac{1+\sqrt{5}}{2} & 0 \\\\ 1 & 3 & - \frac{1+\sqrt{5}}{2}\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix} 
+$\Rightarrow{}\quad \begin{pmatrix} 1 - \frac{1+\sqrt{5}}{2} & 3 & 1\\\  0 & 5 - \frac{1+\sqrt{5}}{2} & 0 \\\  1 & 3 & - \frac{1+\sqrt{5}}{2}\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix} 
 \Rightarrow{}\quad
 	\begin{cases}
 		\begin{aligned} 
-    	\bigg(1 - \frac{1+\sqrt{5}}{2}\bigg)x_1 + 3x_2 + x_3 =& 0\\\\
-        \bigg(5 - \frac{1+\sqrt{5}}{2}\bigg)x_2 =& 0\\\\
+    	\bigg(1 - \frac{1+\sqrt{5}}{2}\bigg)x_1 + 3x_2 + x_3 =& 0\\\ 
+        \bigg(5 - \frac{1+\sqrt{5}}{2}\bigg)x_2 =& 0\\\ 
         x_1 + 3x_2 -\bigg(\frac{1+\sqrt{5}}{2}\bigg)x_3 =& 0
         \end{aligned}
-    \end{cases}\\\\
+    \end{cases}\\\ 
 \Rightarrow{}\quad
 	\begin{cases}
-		x_2 = 0\\\\
+		x_2 = 0\\\ 
         x_1 = \bigg(\frac{1+\sqrt{5}}{2}\bigg)x_3
    \end{cases}
-\quad\Rightarrow{}\quad \text{ in parametric form } x_1=\bigg(\frac{1+\sqrt{5}}{2}\bigg)t,\quad x_2=0,\quad x_3=t \text{ for any } t \in R \\\\
+\quad\Rightarrow{}\quad \text{ in parametric form } x_1=\bigg(\frac{1+\sqrt{5}}{2}\bigg)t,\quad x_2=0,\quad x_3=t \text{ for any } t \in R \\\ 
 \Rightarrow{}\quad \text{ if } t=1, \text{ eigenvector of }\lambda_2:\quad \big(\frac{1+\sqrt{5}}{2}, 0, 1\big)$
 <br>
 
 For $\lambda_3 = \frac{1-\sqrt{5}}{2}$
-$\Rightarrow{}\quad \begin{pmatrix}1-\frac{1-\sqrt{5}}{2} & 3 & 1 \\\\ 0 & 5-\frac{1-\sqrt{5}}{2} & 0 \\\\ 1 & 3 & -\frac{1-\sqrt{5}}{2}\end{pmatrix} \begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}\\\\ 
+$\Rightarrow{}\quad \begin{pmatrix}1-\frac{1-\sqrt{5}}{2} & 3 & 1 \\\  0 & 5-\frac{1-\sqrt{5}}{2} & 0 \\\  1 & 3 & -\frac{1-\sqrt{5}}{2}\end{pmatrix} \begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}\\\  
 \Rightarrow{}\quad
 	\begin{cases}
-		x_2 = 0\\\\
+		x_2 = 0\\\ 
         x_1 = \bigg(\frac{1-\sqrt{5}}{2}\bigg)x_3
    \end{cases}
 \quad\Rightarrow{}\quad \text{ in parametric form } x_1=\bigg(\frac{1-\sqrt{5}}{2}\bigg)t,\quad x_2=0,\quad x_3=t \text{ for any } t \in R$
@@ -182,12 +182,12 @@ $\Rightarrow{}\quad \text{ if } t=1, \text{ eigenvector of } \lambda_3:\quad \bi
 <br>
 
 To summarise: <br> 
-$\boxed{\text{For } \lambda_1 = 5, \begin{pmatrix}18\\\\19\\\\15\end{pmatrix} \\\\
-\text{For } \lambda_2 = \frac{1+\sqrt{5}}{2}, \begin{pmatrix}\frac{1+\sqrt{5}}{2}\\\\0\\\\1\end{pmatrix} \\\\
-\text{For } \lambda_3 = \frac{1-\sqrt{5}}{2}, \begin{pmatrix}\frac{1-\sqrt{5}}{2}\\\\0\\\1\end{pmatrix}}$
+$\boxed{\text{For } \lambda_1 = 5, \begin{pmatrix}18\\\ 19\\\ 15\end{pmatrix} \\\ 
+\text{For } \lambda_2 = \frac{1+\sqrt{5}}{2}, \begin{pmatrix}\frac{1+\sqrt{5}}{2}\\\ 0\\\ 1\end{pmatrix} \\\ 
+\text{For } \lambda_3 = \frac{1-\sqrt{5}}{2}, \begin{pmatrix}\frac{1-\sqrt{5}}{2}\\\ 0\\\1\end{pmatrix}}$
 </div>
 
-(d) $\begin{pmatrix}3&1&1\\\\2&4&2\\\\1&1&3\end{pmatrix}$
+(d) $\begin{pmatrix}3&1&1\\\ 2&4&2\\\ 1&1&3\end{pmatrix}$
 <div class = "answer">
 $\Rightarrow{}\quad B = \begin{pmatrix}3&1&1\\2&4&2\\1&1&3\end{pmatrix} - \lambda \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 3-\lambda & 1 & 1\\ 2 & 4-\lambda & 2\\ 1 & 1 & 3-\lambda\end{pmatrix}$
 $\Rightarrow{}\quad det(B) = (3-\lambda)((4-\lambda)(3-\lambda)-2) - 1(2(3-\lambda)-2) + 1(2 - 1(4 - \lambda)) = 0$
@@ -200,18 +200,18 @@ $\Rightarrow{}\quad$ eigenvalues: $\lambda_1=2,\quad \lambda_2=2,\quad \lambda_2
 <br><br>
 
 For $\lambda_1 = 2$ and $\lambda_2 = 2$
-$\Rightarrow{}\quad \begin{pmatrix}1&1&1\\\\2&2&2\\\\1&1&1\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix} \quad\Rightarrow{}\quad x_1 + x_2 + x_3 = 0 \quad\Rightarrow{}\quad x_1 = -x_2 -x_3$
+$\Rightarrow{}\quad \begin{pmatrix}1&1&1\\\ 2&2&2\\\ 1&1&1\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix} \quad\Rightarrow{}\quad x_1 + x_2 + x_3 = 0 \quad\Rightarrow{}\quad x_1 = -x_2 -x_3$
 $\Rightarrow{}\quad$ in parametric form $x_1=-t-u,\quad x_2=t,\quad x_3=u$ for any $t,u \in R$
 $\Rightarrow{}\quad$ if $t=0$ and $u=1$, eigenvector of $\lambda_1: (-1,0,1)$
 $\Rightarrow{}\quad$ if $t=1$ and $u=0$, eigenvector of $\lambda_2: (-1,1,0)$
 <br><br>
 
 For $\lambda_3 = 6$
-$\Rightarrow{}\quad \begin{pmatrix}-3&1&1\\\\2&-2&2\\\\1&1&3\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix} 
+$\Rightarrow{}\quad \begin{pmatrix}-3&1&1\\\ 2&-2&2\\\ 1&1&3\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix} 
 \quad\Rightarrow{}\quad 
 	\begin{cases}
-    -3x_1 + x_2 + x_3 = 0\\\\
-    2(x_1 - x_2 + x_3) =0\\\\
+    -3x_1 + x_2 + x_3 = 0\\\ 
+    2(x_1 - x_2 + x_3) =0\\\ 
     x_1 + x_2 - 3x_3 =0
     \end{cases}\quad\Rightarrow{}\quad 
 	\begin{cases}
@@ -223,10 +223,10 @@ $\Rightarrow{}\quad$ if $t=1$, eigenvector of $\lambda_3: (1,2,1)$
 <br><br>
 
 To summarise: <br>
-$\boxed{\text{For } \lambda_1 = 2 \text{ and } \lambda_2 = 2, \begin{pmatrix}-1\\\\0\\\\1\end{pmatrix}, \begin{pmatrix}-1\\\\1\\\\0\end{pmatrix}. \\\\
-\text{For } \lambda_3 = 6, \begin{pmatrix}1\\\\2\\\\1\end{pmatrix}}$</div>
+$\boxed{\text{For } \lambda_1 = 2 \text{ and } \lambda_2 = 2, \begin{pmatrix}-1\\\ 0\\\ 1\end{pmatrix}, \begin{pmatrix}-1\\\ 1\\\ 0\end{pmatrix}. \\\ 
+\text{For } \lambda_3 = 6, \begin{pmatrix}1\\\ 2\\\ 1\end{pmatrix}}$</div>
 
-(e) $\begin{pmatrix}1&-1&-1\\\\1&-1&0\\\\1&0&-1\end{pmatrix}$
+(e) $\begin{pmatrix}1&-1&-1\\\ 1&-1&0\\\ 1&0&-1\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1&-1&-1\\1&-1&0\\1&0&-1\end{pmatrix} - \lambda \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & -1 & -1\\ 1 & -1-\lambda & 0\\ 1 & 0 & -1-\lambda\end{pmatrix}$
 $\Rightarrow{}\quad det(B) = (1-\lambda)(-1-\lambda)(-1-\lambda) - (-1)(-1-\lambda) + (-1)(-(-1 - \lambda)) = 0$
 $\Rightarrow{}\quad (1 + \lambda)(-\lambda^2 -1) = 0
@@ -239,15 +239,15 @@ $\Rightarrow{}\quad$ eigenvalues: $\lambda_1 = -1, \quad \lambda_2 = i, \quad \l
 <br><br>
 
 For $\lambda_1 = -1$
-$\Rightarrow{}\quad \begin{pmatrix}2&-1&-1\\\\1&0&0\\\\1&0&0\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}
+$\Rightarrow{}\quad \begin{pmatrix}2&-1&-1\\\ 1&0&0\\\ 1&0&0\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}
 \quad\Rightarrow{}\quad
 \begin{cases}
-	2x_1 -x_2 -x_3 = 0\\\\
+	2x_1 -x_2 -x_3 = 0\\\ 
     x_1 = 0
 \end{cases}$
 $\Rightarrow{}\quad
 \begin{cases}
-	x_2= -x_3\\\\
+	x_2= -x_3\\\ 
     x_1 = 0
 \end{cases}$ <br>
 $\Rightarrow{}\quad$ in parametric form $x_1=0,\quad x_2=t, \quad x_3=-t$ for any $t \in R$
@@ -255,16 +255,16 @@ $\Rightarrow{}\quad$ if $t=1$, eigenvector $(0,1,-1)$
 <br><br>
 
 For $\lambda_2 = i$
-$\Rightarrow{}\quad \begin{pmatrix}1-i&-1&-1\\\\1&-1-i&0\\\\1&0&-1-i\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}
+$\Rightarrow{}\quad \begin{pmatrix}1-i&-1&-1\\\ 1&-1-i&0\\\ 1&0&-1-i\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}
 \quad\Rightarrow{}\quad
 \begin{cases}
-	x_1(1-i) -x_2 -x_3 =0\\\\
-    x_1 -(1+i)x_2 =0\\\\
+	x_1(1-i) -x_2 -x_3 =0\\\ 
+    x_1 -(1+i)x_2 =0\\\ 
     x_1 -(1+i)x_3 =0
 \end{cases}$
 $\Rightarrow{}\quad
 \begin{cases}
-	x_1 =(1+i)x_2\\\\
+	x_1 =(1+i)x_2\\\ 
     x_2 = x_3
 \end{cases}$ <br>
 $\Rightarrow{}\quad$ in parametric form $x_1=(1+i)t,\quad x_2=t,\quad x_3=t$ for any $t \in R$
@@ -272,11 +272,11 @@ $\Rightarrow{}\quad$ if $t=1$, eigenvector $(1+i,1,1)$
 <br><br>
 
 For $\lambda_3 = -i$
-$\Rightarrow{}\quad \begin{pmatrix}1+i&-1&-1\\\\1&-1+i&0\\\\1&0&-1+i\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}
+$\Rightarrow{}\quad \begin{pmatrix}1+i&-1&-1\\\ 1&-1+i&0\\\ 1&0&-1+i\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}
 \quad\Rightarrow{}\quad
 \begin{cases}
-	x_1(1+i) -x_2 -x_3 =0\\\\
-    x_1 -(1-i)x_2 =0\\\\
+	x_1(1+i) -x_2 -x_3 =0\\\ 
+    x_1 -(1-i)x_2 =0\\\ 
     x_1 -(1-i)x_3 =0
 \end{cases}$
 $\Rightarrow{}\quad
@@ -289,9 +289,9 @@ $\Rightarrow{}\quad$ if $t=1$, eigenvector $(1-i,1,1)$
 <br><br>
 
 To summarise: 
-$\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\\1\\\\-1\end{pmatrix}, \\\\
-\text{For } \lambda_2 = i. \begin{pmatrix}1 + i \\\\1\\\\1\end{pmatrix}, \\\\
-\text{For } \lambda_3 = -i,\begin{pmatrix}1 - i \\\\1\\\\1\end{pmatrix}}$</div>
+$\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\ 1\\\ -1\end{pmatrix}, \\\ 
+\text{For } \lambda_2 = i. \begin{pmatrix}1 + i \\\ 1\\\ 1\end{pmatrix}, \\\ 
+\text{For } \lambda_3 = -i,\begin{pmatrix}1 - i \\\ 1\\\ 1\end{pmatrix}}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -301,7 +301,7 @@ $\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\\1\\\\-1\end{pmatrix}, \\
 <div class = "answer">$\Rightarrow{}\quad$ considering $A = \begin{pmatrix}a&b\\c&d\end{pmatrix}
 \quad\Rightarrow{}\quad 
 \begin{cases}
-	a + d = 2\\\\
+	a + d = 2\\\ 
     ad - bc = -2
 \end{cases}$
 $\Rightarrow{}\quad \begin{pmatrix}a&b\\c&d\end{pmatrix} -\lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} = \begin{pmatrix}a-\lambda&b\\c&d-\lambda\end{pmatrix} = B$
@@ -312,7 +312,7 @@ $\Rightarrow{}\quad$ eigenvalues: $\boxed{\lambda_1 = 1 + \sqrt(3), \quad \lambd
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-(a) $A=\begin{pmatrix}4&-6&2\\\\-1&9&-2\\\\-4&12&-2\end{pmatrix}$
+(a) $A=\begin{pmatrix}4&-6&2\\\ -1&9&-2\\\ -4&12&-2\end{pmatrix}$
 is 6 and its determinant is 36. Find the other eigenvalues of $A$.
 <div class = "answer">$\Rightarrow{}\quad$ considering $B=\begin{pmatrix}4-\lambda&-6&2\\-1&9-\lambda&-2\\-4&12&-2-\lambda\end{pmatrix}$
 $\Rightarrow{}\quad det(B) = (4 - \lambda)((9-\lambda)(-2-\lambda)+24)+6(-(-2-\lambda)-8)+2(-12+4(9-\lambda)) = 0$ <br>
@@ -325,18 +325,18 @@ $\Rightarrow{}\quad$ eigenvalues $\boxed{\lambda_2 = 2, \quad \lambda_3 = 3}$</d
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
-(a) Given that $\begin{pmatrix}-2\\\\1\\\\k\end{pmatrix}$ is an eigenvector of the matrix $\begin{pmatrix}1&2&-1\\\\1&0&1\\\\4&-4&5\end{pmatrix}$
+(a) Given that $\begin{pmatrix}-2\\\ 1\\\ k\end{pmatrix}$ is an eigenvector of the matrix $\begin{pmatrix}1&2&-1\\\ 1&0&1\\\ 4&-4&5\end{pmatrix}$
 find $k$ and the corresponding eigenvalue
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda&2&-1\\1&-\lambda&1\\4&-4&5-\lambda\end{pmatrix}
 \quad\Rightarrow{}\quad det(B) = p(\lambda) = \lambda^3 -6\lambda^2 +11\lambda -6 = 0$
 
 
-$\Rightarrow{}\quad \begin{pmatrix}1-\lambda&2&-1\\\\1&-\lambda&1\\\\4&-4&5-\lambda\end{pmatrix}\begin{pmatrix}-2\\\\1\\\\k\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}$
+$\Rightarrow{}\quad \begin{pmatrix}1-\lambda&2&-1\\\ 1&-\lambda&1\\\ 4&-4&5-\lambda\end{pmatrix}\begin{pmatrix}-2\\\ 1\\\ k\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}$
 
 $\Rightarrow{}\quad 
 	\begin{pmatrix}
-    	-2(1-\lambda) + 2 - k = 0\\\\
-        -2 -\lambda + k = 0\\\\
+    	-2(1-\lambda) + 2 - k = 0\\\ 
+        -2 -\lambda + k = 0\\\ 
         -8 -4 +k(5 -\lambda)=0
     \end{pmatrix}$
     
@@ -346,7 +346,7 @@ $\Rightarrow{}\quad k = 4$</div>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(a) The eigenvalues of the matrix $A=\begin{pmatrix}1&1&1\\\\-1&3&1\\\\-1&1&3\end{pmatrix}$ are 2 and 3.
+(a) The eigenvalues of the matrix $A=\begin{pmatrix}1&1&1\\\ -1&3&1\\\ -1&1&3\end{pmatrix}$ are 2 and 3.
 Find the corresponding eigenvectors and write down a matrix which diagonalizes $A$.
 <div class = "answer">For $\lambda_1 = 2$ and $\lambda_2 = 2$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}-1&1&1\\-1&1&1\\-1&1&1\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix} = \begin{pmatrix}0\\0\\0\end{pmatrix}$
@@ -358,24 +358,24 @@ $\Rightarrow{}\quad$ if $t=1,\quad u=0$, eigenvector of $\lambda_2:\quad (1,1,0)
 <br><br>
 
 For $\lambda_3 = 3$
-$\Rightarrow{}\quad \begin{pmatrix}-2&1&1\\\\-1&0&1\\\\-1&1&0\end{pmatrix}\begin{pmatrix}x_1\\\\x_2\\\\x_3\end{pmatrix} = \begin{pmatrix}0\\\\0\\\\0\end{pmatrix}
+$\Rightarrow{}\quad \begin{pmatrix}-2&1&1\\\ -1&0&1\\\ -1&1&0\end{pmatrix}\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix} = \begin{pmatrix}0\\\ 0\\\ 0\end{pmatrix}
 \quad\Rightarrow{}\quad
 	\begin{cases}
-    -2x_1 + x_2 + x_3 = 0\\\\
-    -x_1 + x_3 = 0\\\\
+    -2x_1 + x_2 + x_3 = 0\\\ 
+    -x_1 + x_3 = 0\\\ 
     -x_1 + x_2 = 0
     \end{cases}$ <br>
 $\Rightarrow{}\quad 
 	\begin{cases}
-    x_1 = x_3\\\\
+    x_1 = x_3\\\ 
     x_1 = x_2
     \end{cases}$
 $\Rightarrow{}\quad$ in parametric form $x_1=t,\quad x_2=t,\quad x_3=t$ for any $t \in R$
 $\Rightarrow{}\quad$ if $t=1$, eigenvector of $\lambda_3:\quad (1,1,1)^T$
 <br><br>
 
-$\Rightarrow{}\quad P = \begin{pmatrix}1&1&1\\\\0&1&1\\\\1&0&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, <br>
-so that $P^{-1}AP = \begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&3\end{pmatrix}$
+$\Rightarrow{}\quad P = \begin{pmatrix}1&1&1\\\ 0&1&1\\\ 1&0&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, <br>
+so that $P^{-1}AP = \begin{pmatrix}2&0&0\\\ 0&2&0\\\ 0&0&3\end{pmatrix}$
 <br><br> 
 
 To summarise:
@@ -397,7 +397,7 @@ This is the exam question from the Linear Transforms tutorial sheet with an extr
 
 <div class = "answer">
 
-![7aA](04B-eigenproblems-media/7aA.png)
+<img src = "04B-eigenproblems-media/7aA.png" >
 
 $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 
@@ -407,18 +407,18 @@ $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 
 ## Challenging Questions
 ### Problem 8.
-For all the following transformation matrices (A) , find the characteristic polynomial and the eigenvalues.
+For all the following transformation matrices $(A)$ , find the characteristic polynomial and the eigenvalues.
 
-(a)$ A = \begin{pmatrix}1&0\\\\0&-3\end{pmatrix}$
+(a)$ A = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix}$
 <div class = "answer">$\text{det}(A - \lambda I) = 0 $ <br>
-$(A - \lambda I) = \begin{pmatrix}1&0\\\\0&-3\end{pmatrix} - \begin{pmatrix}
+$(A - \lambda I) = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix} - \begin{pmatrix}
 \lambda & 0 \\ 0 & \lambda \end{pmatrix} = \begin{pmatrix} 1-\lambda & 0\\ 0& -3-\lambda 	
 \end{pmatrix}$ <br>
 $\text{det} (A - \lambda I) = (1 - \lambda)(-3 - \lambda)$ <br>
 Characteristic polynomial: $ \boxed{\lambda^2 + 3\lambda - 3 }$ <br>
 Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -3}$</div>
 
-(b) $ A = \begin{pmatrix}-1&0\\\\0&1\end{pmatrix}$
+(b) $ A = \begin{pmatrix}-1&0\\\ 0&1\end{pmatrix}$
 <div class = "answer">
 $\det (A - \lambda I) = 0 $ <br>
 $(A - \lambda I) = \begin{pmatrix}-1&0\\0&1\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
@@ -427,7 +427,7 @@ $\det (A - \lambda I) = (-1 - \lambda)(1- \lambda)$ <br>
 Characteristic polynomial: $\boxed{\lambda^2 - 1 }$ <br>
 Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -1}$</div>
 
-(c) $ A = \begin{pmatrix}-2&0\\\\0&-3/2\end{pmatrix}$
+(c) $ A = \begin{pmatrix}-2&0\\\ 0&-3/2\end{pmatrix}$
 <div class = "answer">
 $\text{det} (A - \lambda I) = 0 $ <br>
 $(A - \lambda I) = \begin{pmatrix}-2&0\\0&-3/2\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
@@ -436,7 +436,7 @@ $\text{det} (A - \lambda I) = (-2 - \lambda)(-3/2- \lambda)$ <br>
 Characteristic polynomial: $\boxed{\lambda^2 + 7/2\lambda + 3}$ <br>
 Eigenvalues: $\boxed{\lambda_1 = -3/2, \lambda_2 = -2}$</div>
 
-(d) $ A = \begin{pmatrix}-2&0\\\\0&-4\end{pmatrix}$
+(d) $ A = \begin{pmatrix}-2&0\\\ 0&-4\end{pmatrix}$
 <div class = "answer">\quad$\det (A - \lambda I) = 0 $ <br>
 $(A - \lambda I) = \begin{pmatrix}-2&0\\0&-4\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
 \begin{pmatrix}-2-\lambda & 0\\ 0& -4-\lambda\end{pmatrix}$ <br>
@@ -474,7 +474,7 @@ For each of the following matrices, find an invertible matrix which diagonalizes
 <div class = "answer">An $n \times n$ matrix $A$ is said to be diagonalisable if it can be written on the form  $A = PDP^{-1}$, 
 where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its entries and $P$ is a nonsingular $n \times n$ matrix consisting of the eigenvectors corresponding to the eigenvalues in $D$</div>
 
-(a) $A = \begin{pmatrix}1&3\\\\2&2\end{pmatrix}$
+(a) $A = \begin{pmatrix}1&3\\\ 2&2\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
     \begin{cases}
         \lambda_1 = 4, \quad v_1 = (1,1)^T\\
@@ -482,7 +482,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}1&-3\\1&2\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, so that $P^{-1}AP = \begin{pmatrix}4&0\\0&-1\end{pmatrix}$</div>
 
-(b) $A = \begin{pmatrix}1&-1\\\\1&3\end{pmatrix}$
+(b) $A = \begin{pmatrix}1&-1\\\ 1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
     \begin{cases}
         \lambda_1 = 2, \quad v_1 = (1,-1)^T\\
@@ -490,7 +490,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
     \end{cases}
 \quad\Rightarrow{} P = \begin{pmatrix}-1&-2\\1&2\end{pmatrix}$ is not invertible</div>
 
-(c) F$A=\begin{pmatrix}1&3&1\\\\0&5&0\\\\1&3&0\end{pmatrix}$
+(c) F$A=\begin{pmatrix}1&3&1\\\ 0&5&0\\\ 1&3&0\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
     \begin{cases}
         \lambda_1 = 5, \quad v_1 = (18,19,15)^T\\
@@ -499,7 +499,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}18&\frac{1+\sqrt{5}}{2}&\frac{1-\sqrt{5}}{2}\\19&0&0\\15&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, so that $P^{-1}AP = \begin{pmatrix}5&0&0\\0&\frac{1+\sqrt{5}}{2}&0\\0&0&\frac{1-\sqrt{5}}{2}\end{pmatrix}$</div>
 
-(d) $A = \begin{pmatrix}3&1&1\\\\2&4&2\\\\1&1&3\end{pmatrix}$
+(d) $A = \begin{pmatrix}3&1&1\\\ 2&4&2\\\ 1&1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
     \begin{cases}
         \lambda_1 = 2, \quad v_1 = (-1,0,1)^T\\
@@ -509,18 +509,27 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
 \Rightarrow{} P = \begin{pmatrix}-1&-1&1\\0&1&2\\1&0&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, <br>
 so that $P^{-1}AP = \begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}$</div>
 
-(e) $A = \begin{pmatrix}1&-1&-1\\\\1&-1&0\\\\1&0&-1\end{pmatrix}$
+(e) $A = \begin{pmatrix}1&-1&-1\\\ 1&-1&0\\\ 1&0&-1\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
 	\begin{cases}
     	\lambda_1 = -1, \quad v_1 = (0,1,-1)^T\\
         \lambda_2 = i, \quad v_2 = (1+i,1,1)^T\\
         \lambda_3 = -i, \quad v_3 = (1-i,1,1)^T
     \end{cases}\\
-\quad\Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,\\
+\quad\Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,
 so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 
 -----------------------------------
 
+<br><br>
+
+## Answers
+
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+
+<br><br>
+
+# Next week, another topic!
+![vectors](02-vectors-media/cover.png)
