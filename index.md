@@ -41,9 +41,7 @@ __[How these sheets are made.](how-to)__
 ### Original tutorial sheet authors
 * 
 
-### 2020 Student Shapers
-
-### 2019 Maths Student Shapers
+### 2020 Maths Student Shapers
 * Emilio Severi
 * Megan Hale
 * Sene Kutluay
