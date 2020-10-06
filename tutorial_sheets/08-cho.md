@@ -20,15 +20,8 @@
 * Rewrite equations of motion in matrix form
 * Find eigenvalues to solve for mode shapes
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 

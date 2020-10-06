@@ -19,17 +19,8 @@
 * Understand and produce visual representations of eigenvectors and eigenvalues 
 * Find the eigenvectors and eigenvalues for 2 x 2 and 3 x 3 matrices
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -531,5 +522,4 @@ so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, another power series and sequences!

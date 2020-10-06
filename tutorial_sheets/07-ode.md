@@ -21,15 +21,8 @@
 * Find the general equation and particular equation for a given differential equation
 * Write an expression to describe the dynamics of a spring trolley system
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -147,4 +140,3 @@ You can generate a limitless suppply of these second order homogeneous ODE quest
 <br><br>
 
 # Next week, Coupled Harmonic Oscillators!
-![vectors](02-vectors-media/cover.png)

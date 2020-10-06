@@ -27,12 +27,8 @@ This week we will be looking at vectors. Vectors greatly expand our ability to c
 * Use the cross product
 * Find the cartesian and vector equations for a plane
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
+<!-- ### Reading -->
+<!-- * [section](link#page=x) -->
 
 ### Additional resources
 *insert links*
@@ -417,4 +413,4 @@ $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
 <br><br>
 
 # Next week, Matrices!
-![vectors](02-vectors-media/cover.png)
+<!-- ![vectors](02-vectors-media/cover.png) -->

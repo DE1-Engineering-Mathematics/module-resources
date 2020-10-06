@@ -21,15 +21,8 @@
 * use matrices to find the solutions to linear equations
 * Identify unit, symmetric, skew-symmetric, triangular, diagonal, singular and orthogonal matrices
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -468,5 +461,4 @@ Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \text
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, another linear transforms and eigenproblems!

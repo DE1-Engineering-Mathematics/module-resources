@@ -23,15 +23,8 @@
 * Identify the limiting values of sequence 
 * Determine when/whether a series is (absolutely) convergent 
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -409,4 +402,3 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
 <br><br>
 
 # Next week, Taylor Series and Complex Numbers!
-![vectors](02-vectors-media/cover.png)

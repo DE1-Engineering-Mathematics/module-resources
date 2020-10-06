@@ -22,15 +22,8 @@
 * Plot complex numbers and an Argand diagram
 * Understand and use de Moivres theorem
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -343,4 +336,3 @@ $\boxed{\mathbb{R} \\\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\\} =\sqrt{2}\cos\left(\fr
 <br><br>
 
 # Next week, ODEs!
-![vectors](02-vectors-media/cover.png)

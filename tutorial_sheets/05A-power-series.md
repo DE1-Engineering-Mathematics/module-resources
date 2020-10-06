@@ -21,17 +21,8 @@
 * Sketch truncated Taylor polynomial of a Taylor series expansion
 * Work with limits when evaluating a given series
 
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-
-### Additional resources
-*insert links*
+<!-- ### Reading
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -350,4 +341,3 @@ Using this expansion, find for which $\alpha$ values of the point $x = 0$ is sta
 <br><br>
 
 # Next week, ODEs!
-![vectors](02-vectors-media/cover.png)

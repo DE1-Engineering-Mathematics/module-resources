@@ -21,15 +21,9 @@
 * Find the null space
 * Understand how the relationship between the determinant of a matrix as area scale factor for a linear transformation
 
+<!-- 
 ### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
-### Additional resources
-*insert links*
+* [section](link#page=x) -->
 
 <br><br><br><br>
 
@@ -219,5 +213,4 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, another power series and sequences!
