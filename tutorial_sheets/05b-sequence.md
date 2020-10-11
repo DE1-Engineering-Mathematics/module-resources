@@ -46,7 +46,7 @@ Suggest a formula for the $n$th term of the following sequences.
 <div class = "answer">$\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
 
 (e) Find the third, sixth and ninth term of the sequence given by the formula.
-$$ \left \\{ \frac{n^2-n-6}{n+2} \right \\}_{n=1}^\infty $$
+$$ \left \\\{ \frac{n^2-n-6}{n+2} \right \\\}_{n=1}^\infty $$
 <div class = "answer">$\Rightarrow \boxed{a_3 = \frac{3^2-3-6}{3+2} = 0 ,\ \ a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=3,\ \ \ a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=6}$</div>
 
 (f) $\left\\{\binom{n}{2}-\binom{n}{3}\right\\}_{n=3}^\infty$  using the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
@@ -224,7 +224,7 @@ $$
 $$
 
 <div class = "answer">
-Answer: $\boxed{\text{Convergent for } -1\leq{}X\leq{}1.}$
+Answer: $\boxed{\text{Convergent for } -1\leq{}X\leq{}1.}$ <br><br>
 
 Solution:
 
@@ -262,7 +262,7 @@ $$</div>
 absolutely convergent. 
 $$ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $$
 <div class = "answer">
-Answer: $\boxed{\text{Convergent for }-1\leq{}x\leq{}1}$.
+Answer: $\boxed{\text{Convergent for }-1\leq{}x\leq{}1}$. <br><br>
 
 Solution:
 
@@ -298,7 +298,7 @@ $$</div>
 absolutely convergent. 
 $$ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $$
 <div class = "answer">
-Answer: $\boxed{\text{Convergent for } \left\vert{}x\right\vert{} < 1 }$.
+Answer: $\boxed{\text{Convergent for } \left\vert{}x\right\vert{} < 1 }$. <br><br>
 
 
 Solution:
@@ -332,7 +332,7 @@ $\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the tes
 (d) Find the range of values of $x$ for which the following series is absolutely convergent.
 $$ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $$
 <div class = "answer">
-Answer: $\boxed{\text{Convergent for all values of } x}$.
+Answer: $\boxed{\text{Convergent for all values of } x}$. <br><br>
 
 Solution:
 

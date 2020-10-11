@@ -15,7 +15,6 @@
 
 ![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Week 1
-This week we will start out by reviewing some important algebra and calculus topics from high school maths that will be highly important for the rest of the module. We will then move on to covering the topic of graph sketching, which is also used in nearly all of the topics in this module.
 
 ### Learning targets
 
@@ -26,7 +25,7 @@ This week we will start out by reviewing some important algebra and calculus top
 1. Identify key points in a function (roots, asymptotes, stationary points, inflection points, domain, range)
 1. Sketch a graph of a given function
 
-### Reading
+<!-- ### Reading
 * [Intro](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=7)
 * [Chapter 0 - Refersher](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=10)
 * [Chapter 1 - Functions](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=18)
@@ -36,7 +35,7 @@ This week we will start out by reviewing some important algebra and calculus top
 * Function sketching (tuesday)
 
 ### Additional resources
-*insert links*
+*insert links* -->
 
 <br><br><br><br>
 
@@ -330,6 +329,4 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 <br><br>
 
-# Next week, vectors!
-
-![vectors](02-vectors-media/cover.png)
+# Next week, Vectors!

@@ -34,7 +34,9 @@ From the following linear transformations, $T:\mathbb{R} \rightarrow \mathbb{R}$
 
 (a)
 
+
 ![1a](04A-linear-transforms-media/1a.png)
+
 <div class = "answer">$T(a)=3a$</div>
 
 (b)
@@ -92,9 +94,9 @@ $\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
 
 (b)
 
-![3a](04A-linear-transforms-media/3a.png)
-<div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-1&0\\0&-1\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$ <br>
-$\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
+![3a](04A-linear-transforms-media/3b.png)
+<div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}0&-1\\1&0\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$ <br>
+$\Rightarrow{}\quad \sin^{-1}(1)=90^{\circ}$</div>
 
 ### Problem 4.
 From applying a linear transformation, $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$ where $T(\vec{a}) = \vec{b}$. Find the vector $\vec{b}$ resulting when a <u>clockwise</u> rotation described by $R(\theta)=\begin{pmatrix}\cos{\theta}&\sin{\theta} \\\ -\sin{\theta}&\cos{\theta}\end{pmatrix}$ is applied to $\vec{a}$. Sketch the vectors $\vec{a}$ and $\vec{b}$ on a Cartesian axes
@@ -171,20 +173,22 @@ NB. Difficult to see exactly in 3D, but each of the scalings are integers.
 ### Problem 6.
 For the following linear systems of equations find the null space and the corresponding solution of $x$ and $y$. Sketch the solutions as lines in a Cartesian axes
 
-(a) $\Rightarrow{}\quad \begin{pmatrix}1&1 \\\ 2&1\end{pmatrix} \begin{pmatrix}x \\\ y\end{pmatrix} = \begin{pmatrix}2 \\\ 3\end{pmatrix}$
+(a) $\begin{pmatrix}1&1 \\\ 2&1\end{pmatrix} \begin{pmatrix}x \\\ y\end{pmatrix} = \begin{pmatrix}2 \\\ 3\end{pmatrix}$
 
 <div class = "answer">$\Rightarrow{}\quad$
 $A^{-1} = \frac{1}{-1} \begin{pmatrix}1&-1\\-2&1\end{pmatrix} = \begin{pmatrix}-1&1\\2&-1\end{pmatrix}$ <br>
-$\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}-1&1\\2&-1\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} \quad\Rightarrow{}\quad \boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}1\\1\end{pmatrix}}$
+$\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}-1&1\\2&-1\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} \quad\Rightarrow{}\quad \boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}1\\1\end{pmatrix}}$ <br>
+
 <img src = "04A-linear-transforms-media/6aA.png">
 </div>
 
-(b) $\Rightarrow{}\quad \begin{pmatrix}2&4\\\ 1&3\end{pmatrix} \begin{pmatrix}x\\\ y\end{pmatrix} = \begin{pmatrix}6\\\ 12\end{pmatrix}$
+(b) $\begin{pmatrix}2&4\\\ 1&3\end{pmatrix} \begin{pmatrix}x\\\ y\end{pmatrix} = \begin{pmatrix}6\\\ 12\end{pmatrix}$
 
 <div class = "answer">$\Rightarrow{}\quad$
 $A^{-1} = \frac{1}{2} \begin{pmatrix}3&-4\\-1&2\end{pmatrix} = \begin{pmatrix}3/2&-2\\-1/2&1\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}3/2&-2\\-1/2&1\end{pmatrix} \begin{pmatrix}6\\12\end{pmatrix}$
-$\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\\9\end{pmatrix}}$
+$\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\\9\end{pmatrix}}$ <br>
+
 <img src = "04A-linear-transforms-media/6bA.png">
 </div>
 
@@ -213,4 +217,4 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 <br><br>
 
-# Next week, another power series and sequences!
+# Next week, Power Series and Sequences!

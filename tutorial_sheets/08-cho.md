@@ -47,7 +47,7 @@ $\Rightarrow$ Writing the system in matrix form:
 $$
 \boxed{\begin{bmatrix}
 -\frac{k}{m} & \frac{k}{2m}\\\ 
-\frac{k}{m}   & -\frac{k}{m}\\\ 
+\frac{k}{m}   & -\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
 x_1\\\ 
@@ -159,7 +159,7 @@ $$
 \boxed{
 \begin{bmatrix}
 -(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\ 
-\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\ 
+\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})
 \end{bmatrix}
 \begin{bmatrix}
 x_1\\\ 
@@ -176,7 +176,7 @@ $\Rightarrow$ Therefore:
 $$
 \begin{bmatrix}
 -(\frac{g}{L}+\frac{k}{m}) & \frac{k}{m}\\\ 
-\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})\\\ 
+\frac{k}{m}   & -(\frac{g}{L}+\frac{k}{m})
 \end{bmatrix}
 \begin{bmatrix}
 A_1\\\ 
@@ -262,7 +262,7 @@ $$
 \boxed{
 \begin{bmatrix}
 -2\frac{k}{m} & \frac{k}{m}\\\ 
-\frac{k}{m}   & -2\frac{k}{m}\\\ 
+\frac{k}{m}   & -2\frac{k}{m}
 \end{bmatrix}
 \begin{bmatrix}
 x_1\\\ 
