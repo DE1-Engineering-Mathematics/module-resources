@@ -1,4 +1,4 @@
-<img src="media/Dyson-logo.png" width=380>
+<img src="media/Dyson-Logo.PNG" width=380>
 
 # Engineering Mathematics Module Resources
 <br>
@@ -15,7 +15,7 @@
 * __[4b - Eigenproblems ](tutorial_sheets\04B-eigenproblems)__
 * __[5a - Power Series](tutorial_sheets\05A-power-series)__
 * __[5b - Sequences](tutorial_sheets\05b-sequence)__
-* __[6 - Sequences](tutorial_sheets\06-complex-numbers)__
+* __[6 - Complex Numbers](tutorial_sheets\06-complex-numbers)__
 * __[7 - ODEs](tutorial_sheets\07-ode)__
 * __[8 - Coupled Harmonic Oscillators](tutorial_sheets\08-cho)__
 
