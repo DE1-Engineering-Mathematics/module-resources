@@ -16,7 +16,6 @@
 ![vectors](02-vectors-media/cover.png)
 
 # Vectors, Week 2
-This week we will be looking at vectors. Vectors greatly expand our ability to conveniently describe real world values and relationships in a mathematical sense.
 
 ### Learning targets
 * Add and subtract vectors
@@ -29,9 +28,6 @@ This week we will be looking at vectors. Vectors greatly expand our ability to c
 
 <!-- ### Reading -->
 <!-- * [section](link#page=x) -->
-
-### Additional resources
-*insert links*
 
 <br><br><br><br>
 
@@ -72,7 +68,7 @@ Scalar product calculation
 $$\vec{PQ} = (-1-2)\hat{i}+(-2-3)\hat{j}+(-4-0)\hat{k}$$ $$\boxed{\vec{PQ} = -3\hat{i}-5\hat{j}-4\hat{k}.}$$</div>
 
 (c) Find the angle $\theta$ between the vectors $\vec{a} = \hat{i}+\hat{j}-\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$ :
-<div class = "answer">The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by $$\cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$$ $$\vec{a}\cdot\vec{b} = (\hat{i}+\hat{j}-\hat{k})\cdot (\hat{i}-\hat{j}+\hat{k})=-1$$ $$|\vec{a}||\vec{b}|=\sqrt{1^2+1^2+(-1)^2}\sqrt{1^2+(-1)^2+1^2}=\sqrt{3}\times\sqrt{3}=3$$ Therefore, we have $$\cos\mathrm{\theta} = -\frac{1}{3}$$ Hence,the required angle is $$\boxed{ \theta =\cos^{-1}(-\frac{1}{3}) = 109.5^{\circ} .}$$</div>
+<div class = "answer">The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by $$\cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$$ $$\vec{a}\cdot\vec{b} = (\hat{i}+\hat{j}-\hat{k})\cdot (\hat{i}-\hat{j}+\hat{k})=-1$$ $$|\vec{a}||\vec{b}|=\sqrt{1^2+1^2+(-1)^2}\sqrt{1^2+(-1)^2+1^2}=\sqrt{3}\times\sqrt{3}=3$$ Therefore, we have $$\cos\mathrm{\theta} = -\frac{1}{3}$$ Hence,the required angle is $$\boxed{ \theta =\cos^{-1}\left(-\frac{1}{3}\right) = 109.5^{\circ} .}$$</div>
 
 (d) If $\vec{a} = 5\hat{i}-\hat{j}-3\hat{k}$ and $\vec{b} = \hat{i}+3\hat{j}-5\hat{k}$,  then show that the vectors $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ are perpendicular.
 <div class = "answer">Two non-zero vectors are perpendicular if their scalar product is zero. 
@@ -234,14 +230,14 @@ $$\hat{c}=\frac{1}{|\vec{c}|}\vec{c}=\frac{1}{\sqrt{29}} (4\vec{i}+3\vec{j}-2\ve
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
-(a) Show that the points A$(2\hat{i},-\hat{j},\hat{k})$, B$(\hat{i},-3\hat{j},-5\hat{k})$ ,C$(3\hat{i},-4\hat{j},-4\hat{k})$ are the vertices of a right angled triangle.
+(a) Show that the points $A = (2\hat{i},-\hat{j},\hat{k})$, $B = (\hat{i},-3\hat{j},-5\hat{k})$ and, $C = (3\hat{i},-4\hat{j},-4\hat{k})$ are the vertices of a right angled triangle.
 <div class = "answer">We have 
 $\vec{AB}=(1-2)\hat{i}+(-3+1)\hat{j}+(-5-1)\hat{k}=-\hat{i}-2\hat{j}-6\hat{k}$
 $$\vec{BC}=(3-1)\hat{i}+(-4+3)\hat{j}+(-4+5)\hat{k}=2\hat{i}-\hat{j}+\hat{k}$$
 $$\vec{CA}=(2-3)\hat{i}+(-1+4)\hat{j}+(1+4)\hat{k}=-\hat{i}+3\hat{j}+5\hat{k}$$
 Further, note that
 $$|\vec{AB}|^2=41=6+35=|\vec{BC}|^2+|\vec{CA}|^2$$
-Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</u></div>
+Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -299,7 +295,7 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 ![cuboid](02-vectors-media\cuboid.png)
 
 (a) Find the length of the diagonal $AG$
-<div class = "answer">AG = $\sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$</div>
+<div class = "answer">$AG = \sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$</div>
 
 (b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place. 
 <div class = "answer">[6 marks] <br>
@@ -389,7 +385,7 @@ Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
 <div class = "answer">
-Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in graph (i) and (ii)
+Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in graph (i) and (ii) <br>
 <img src = "02-vectors-media\prob10.png">
 
 In graph(i)

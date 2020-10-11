@@ -52,7 +52,7 @@ $r=|z|=\sqrt{(-3)^2+(-1)^2}=\sqrt{10}=3.16$
 
 Plot $z$ on an Argand diagram: 
 
-<img src = "06-complex-numbers-media\figure1.png" width="50%">
+<img src = "06-complex-numbers-media\figure1.png" width="50%"> <br>
 
 $\alpha=\tan^{-1}\frac{(-1)}{(-3)}=\tan^{-1}\frac{1}{3}=18.43^\circ$}
         
@@ -80,7 +80,7 @@ Alternative answer: $z=1(\cos-90^\circ+\mathrm{i}\sin-90^\circ)$
 <div class = "answer">
 $r=|z|=\sqrt{(3)^2+(4)^2}=\sqrt{25}=5$ <br>
 
-<img src = "06-complex-numbers-media\figure1d.png" width="50%">
+<img src = "06-complex-numbers-media\figure1d.png" width="50%"> <br>
 
 $\alpha = \tan^{-1}\frac{4}{3}=53.13$
 $\theta=\mathrm{arg}(z)=360^\circ-53.13^\circ=306.87^\circ$
@@ -177,17 +177,17 @@ Plot the flowing complex numbers on an Argand diagram:
 
 (a) $z=3+2\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure2.png" width = "50%">
+<img src = "06-complex-numbers-media\figure2.PNG" width = "50%">
 </div>
 
 (b) $z=4-5\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure3.png" width = "50%">
+<img src = "06-complex-numbers-media\figure3.PNG" width = "50%">
 </div>
 
 (c) $z=-2-\mathrm{i}$
 <div class = "answer">
-<img src = "06-complex-numbers-media\figure4.png" width = "50%">
+<img src = "06-complex-numbers-media\figure4.PNG" width = "50%">
 </div>
 
 (d)  $\| z \|=3$
@@ -202,7 +202,7 @@ $\sqrt{x^2+y^2}=3$
 $\Rightarrow$ Therefore: $x^2+y^2=9$
 The solution ($x^2+y^2=9$) consists of all the points lying on the circle of radius 3 with center (0,0).
 
-<img src = "06-complex-numbers-media\figure5.png" width = "50%">
+<img src = "06-complex-numbers-media\figure5.PNG" width = "50%">
 </div>
 
 -----------------------------------------------------------------------------------
@@ -217,7 +217,7 @@ $\| z \|=\sqrt{(\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}=\sqrt{\frac{1}{4}+\frac{3
 From the diagram below: <br>
 $\theta=\tan^{-1}\sqrt{3}=\frac{\pi}{3}$ 
 
-<img src = "06-complex-numbers-media\figure6.png" width = "50%">
+<img src = "06-complex-numbers-media\figure6.PNG" width = "50%"> <br>
 Therefore $\mathrm{arg}(z)=-\frac{\pi}{3}$ or alternatively: $\mathrm{arg}(z)=\frac{5\pi}{3}$
 
 Complex number $z$ in polar form: <br>
@@ -274,7 +274,7 @@ $\|z^5\|=\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=4\sqrt{2}$
 
 Quick sketch of $z^5$ on an Argand diagram:
 
-<img src = "06-complex-numbers-media\figure7.png" width = "50%">
+<img src = "06-complex-numbers-media\figure7.PNG" width = "50%"> <br>
 
 From the Argand diagram above:
 $\mathrm{arg}(z^5)=\mathrm{arg}(4-4\mathrm{i})=-\frac{\pi}{4}$
@@ -323,7 +323,7 @@ $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi
 <div class = "answer">
 Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
-$\boxed{\mathbb{R} \\\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
+$\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
 
 

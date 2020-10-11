@@ -252,7 +252,7 @@ f(x)=f(2)+f'(2)(x-2)+\frac{1}{2!}f''(2)(x-2)^2+\frac{1}{3!}f'''(2)(x-2)^3+O\big(
 
 Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in the question: 
 
-\begin{align*}
+$$\begin{align*}
 &\textrm{Coefficient  for}&    &\textrm{Question}&       &\textrm{Rewritten}&  \\\ 
 \hline
 & f(x-2)&    &1&                 &f(2)&    \\\ 
@@ -260,7 +260,7 @@ Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in
 & f''(x-2)&  -&1&                &\frac{1}{2!}f''(2)& \\\ 
 & f'''(x-2)& &\frac{1}{4}&       &\frac{1}{3!}f'''(2)& \\\ 
 \hline
-\end{align*}
+\end{align*}$$
 
 Comparing the coefficients of the various degrees of $(x-2)$ in $f(x)$ and solving for each $f^{n}(2)$:
 \begin{equation*}
@@ -280,7 +280,7 @@ Find the Taylor Expansion of $f(x)=lnx$ near $x=10$ by finding the first, second
 \newline
 
 Table of $f^{(n)}(0)$ coefficients for this series (Taylor, x=10):
-\begin{align*}
+$$\begin{align*}
 & n&    f&^{(n)}(x)&       f&^{(n)}(10)&  \\\ 
 \hline
 & 0&    &\mathrm{ln}x&     &2.302585093&    \\\ 
@@ -289,7 +289,7 @@ Table of $f^{(n)}(0)$ coefficients for this series (Taylor, x=10):
 & 3&    &\frac{2}{x^3}&    &\frac{2}{1000}&    \\\ 
 & 4&    &\frac{6}{x^4}&     -&\frac{6}{10000}&  \\\ 
 \hline
-\end{align*}
+\end{align*}$$
 
 This function can be differentiated infinitely so the pattern in the table will continue forever. Substituting these values into the Taylor Series:
 \begin{equation*}

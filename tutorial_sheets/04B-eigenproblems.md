@@ -94,8 +94,8 @@ $\Rightarrow{}\quad \begin{pmatrix}2&3\\\ 2&3\end{pmatrix} \begin{pmatrix}x_1\\\
 \Rightarrow{}\quad \text{ if }t=2, \text{ eigenvector of } \lambda_1:\quad (-3,2)$
 
 To summarise: <br>
-For $\boxed{\lambda_1 = 4, \begin{pmatrix}1\\\1\end{pmatrix}},$ <br>
-For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3\\\2\end{pmatrix}}.$</div>
+For $\boxed{\lambda_1 = 4, \begin{pmatrix}1\\1\end{pmatrix}},$ <br>
+For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3\\2\end{pmatrix}}.$</div>
 
 (b) $\begin{pmatrix}1&-1\\\ 1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1&-1\\1&3\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & -1\\ 1 & 3-\lambda\end{pmatrix}$ 
@@ -175,7 +175,7 @@ $\Rightarrow{}\quad \text{ if } t=1, \text{ eigenvector of } \lambda_3:\quad \bi
 To summarise: <br> 
 $\boxed{\text{For } \lambda_1 = 5, \begin{pmatrix}18\\\ 19\\\ 15\end{pmatrix} \\\ 
 \text{For } \lambda_2 = \frac{1+\sqrt{5}}{2}, \begin{pmatrix}\frac{1+\sqrt{5}}{2}\\\ 0\\\ 1\end{pmatrix} \\\ 
-\text{For } \lambda_3 = \frac{1-\sqrt{5}}{2}, \begin{pmatrix}\frac{1-\sqrt{5}}{2}\\\ 0\\\1\end{pmatrix}}$
+\text{For } \lambda_3 = \frac{1-\sqrt{5}}{2}, \begin{pmatrix}\frac{1-\sqrt{5}}{2}\\\ 0\\1\end{pmatrix}}$
 </div>
 
 (d) $\begin{pmatrix}3&1&1\\\ 2&4&2\\\ 1&1&3\end{pmatrix}$
@@ -331,8 +331,8 @@ $\Rightarrow{}\quad
         -8 -4 +k(5 -\lambda)=0
     \end{pmatrix}$
     
-$\Rightarrow{}\quad$ evaluating these three equations with $\lambda_2 = 2$ <br>
-$\Rightarrow{}\quad k = 4$</div>
+$\Rightarrow{}\quad$ evaluating these three equations with $\boxed{\lambda_2 = 2}$ <br>
+$\Rightarrow{}\quad \boxed{k = 4}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -507,7 +507,7 @@ so that $P^{-1}AP = \begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}$</div>
         \lambda_2 = i, \quad v_2 = (1+i,1,1)^T\\
         \lambda_3 = -i, \quad v_3 = (1-i,1,1)^T
     \end{cases}\\
-\quad\Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,
+\Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,
 so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 
 -----------------------------------
@@ -522,4 +522,4 @@ so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 
 <br><br>
 
-# Next week, another power series and sequences!
+# Next week, Power Series and Sequences!

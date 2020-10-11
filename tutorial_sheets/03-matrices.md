@@ -13,7 +13,9 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Tutorial Sheet Title, Week 3
+![vectors](03-matrices/cover.png)
+
+# Matrices, Week 3
 
 ### Learning targets
 * Perform operations on matrices (add, subtract, multiply)
@@ -121,7 +123,7 @@ $\Rightarrow{}\ \ \begin{pmatrix}2(-1)+3(5)+1(7)&2(-3)+3(2)+1(1)\\0(-1)-1(5)+4(7
 $\Rightarrow{}\ \ \boxed{\begin{pmatrix}20&1\\23&2\end{pmatrix}}$</div>
 
 (g) $AB^T$
-<div class = "answer">$\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}^T\ \Rightarrow{}\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&5&7\\-3&2&1\end{pmatrix}$ <br>
+<div class = "answer">$\Rightarrow{}\ \ \begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}^T\ \Rightarrow{}\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&5&7\\-3&2&1\end{pmatrix}$ <br>
 $\Rightarrow{} \begin{pmatrix}2(-1)+0(-3)&2(5)+0(2)&2(7)+0(1)\\3(-1)-1(-3)&3(5)-1(2)&3(7)-1(1)\\1(-1)+4(-3)&1(5)+4(2)&1(7)+4(1)\end{pmatrix}\ \ \ \ \Rightarrow{}\ \ \boxed{\begin{pmatrix}-2&10&14\\0&13&20\\-13&13&11\end{pmatrix}}$</div>
 
 -----------------------------------------------------------------------------------
@@ -171,10 +173,10 @@ $\Rightarrow{}\quad det(a)=1$ and $det(b)=2$ <br>
 $\Rightarrow{}\quad B^{-1}=\frac{1}{det(c)}adj(d) \quad\Rightarrow{}\quad B^{-1}=\frac{1}{2}\begin{pmatrix}1&-1\\-1&3\end{pmatrix} \quad\Rightarrow{}\quad B^{-1}=\begin{pmatrix}1/2&-1/2\\-1/2&3/2\end{pmatrix}$
 $\Rightarrow{}\quad A^{-1}=\frac{1}{det(e)}adj(f)=\frac{1}{det(g)}C_A^T$, where $C_A$ is the cofactor matrix of A <br><br>
 $\Rightarrow{}\quad C_A=\begin{pmatrix}
-\begin{vmatrix}1&0\\0&1\end{vmatrix} & -\begin{vmatrix}1&0\\0&1\end{vmatrix} & \begin{vmatrix}1&1\\0&0\end{vmatrix}\\ 
--\begin{vmatrix}1&1\\0&1\end{vmatrix} & \begin{vmatrix}2&1\\0&1\end{vmatrix} & -\begin{vmatrix}2&1 \\0&0\end{vmatrix} <br><br>
+\begin{vmatrix}1&0\\0&1\end{vmatrix} & -\begin{vmatrix}1&0\\0&1\end{vmatrix} & \begin{vmatrix}1&1\\0&0\end{vmatrix} \\ 
+-\begin{vmatrix}1&1\\0&1\end{vmatrix} & \begin{vmatrix}2&1\\0&1\end{vmatrix} & -\begin{vmatrix}2&1 \\0&0\end{vmatrix} \\
 \begin{vmatrix}1&1\\1&0\end{vmatrix} & -\begin{vmatrix}2&1\\1&0\end{vmatrix} & \begin{vmatrix}2&1\\1&1\end{vmatrix}
-\end{pmatrix}$
+\end{pmatrix}$ <br><br>
 $\Rightarrow{}\quad C_A=\begin{pmatrix}1&-1&0\\-1&2&0\\-1&1&1\end{pmatrix}$ <br><br>
 $\Rightarrow{}\quad C_A^T=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$
 $\Rightarrow{}\quad A^{-1}=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$ <br><br>
@@ -461,4 +463,4 @@ Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \text
 
 <br><br>
 
-# Next week, another linear transforms and eigenproblems!
+# Next week, another Linear Transforms and Eigenproblems!

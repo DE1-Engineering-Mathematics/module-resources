@@ -1,10 +1,10 @@
-# DE-MEM Engineering Mathematics module resources
+<img src="media/Dyson-logo.png" width=380>
+
+# Engineering Mathematics Module Resources
 <br>
 
-## Module notes
-
-
-<br>
+<!-- ## Module notes
+<br> -->
 
 ## Tutorial sheets:
 ### Term 1
@@ -24,14 +24,14 @@
 <br>
 -----------------------------------------------------------------------
 
-<br>
+
 
 ## Find an error, think of an improvement?
 __[How to report an error.](how-to-github-issue)__
 
 __[How these sheets are made.](how-to)__
 
-<br><br><br>
+<br>
 
 ## Acknowledgements
 ### Module leaders
