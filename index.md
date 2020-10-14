@@ -42,10 +42,11 @@ __[How these sheets are made.](how-to)__
 * 
 
 ### 2020 Maths Student Shapers
-* Emilio Severi
-* Megan Hale
-* Sene Kutluay
-* Tristan Uvovo
-* Thomas Godden
+* Emilio Severi - 2018
+* Megan Hale - 2018
+* Sene Kutluay - 2019
+* Tristan Uvovo - 2019
+* Thomas Godden - 2019
 
 ### Students who have found errors in the sheets
+* Ivan Revenga Riesco - 2020

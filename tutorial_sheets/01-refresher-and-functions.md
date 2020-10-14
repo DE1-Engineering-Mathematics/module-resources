@@ -130,7 +130,7 @@ $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \ln{(4x)}\frac{x^3}{3} - \int{\frac{x^3}{
 $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$ <br>
 $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{3}}dx$ <br>
 $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \frac{x^3}{9} + c$ <br>
-$\Rightarrow{} \boxed{\int{x^2 \ln{(4x)}}dx = \frac{x^3}{9}{3\ln{(4x)} - 1) + c}}$ <br>
+$\Rightarrow{} \boxed{\int{x^2 \ln{(4x)}}dx = \frac{x^3}{9}{(3\ln{(4x)} - 1) + c}}$ <br>
 </div>
 
 (c) $f(x) = x^5 e^{x^2}$

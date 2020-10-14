@@ -1,10 +1,14 @@
-# Submitting a GitHub issue
-Find an error in the tutorial sheets, think something could be explained better, or have an idea for a new problem? 
+# What do do if you find an error
+Find an error in the tutorial sheets, think something could be explained better, or have an idea for a new problem? By pointing out errors / making suggestions, you will help improve the content for your fellow classmates and earn the eternal gratefulness of the module staff. Here is how you go about doing that:
 
-The best way to suggest edits is through GitHub issues. By submitting an issue, you will help improve the content for your fellow classmates and earn the eternal gratefulness of the module staff.
+## Email the teaching staff
+The easiest way to get an error fixed is to send a description and screenshot to one of the maths teaching staff. For this term (2020-2021), Thomas Godden will be updating the sheets so send him an email at: tg819@ic.ac.uk
+
+## Submitting a GitHub issue
+However, the best way to suggest edits is through GitHub issues.
 
 ### (Step 0: Open the GitHub repository)
-Head to: __https://github.com/DE1-Engineering-Mathematics/module-resources__ to see the source documents for all the tutorial sheets. This is where we create the issue. _(Note: you will need a GitHub account)_
+Head to: [repository on GitHub](https://github.com/DE1-Engineering-Mathematics/module-resources) to see the source documents for all the tutorial sheets. This is where we create the issue. _(Note: you will need a GitHub account)_
 
 ### Step 1: Note where the error is
 After finding an error, make sure to note which sheet, problem and part the error is in. Getting a screenshot is even better!
