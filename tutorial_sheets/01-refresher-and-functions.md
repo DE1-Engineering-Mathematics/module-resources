@@ -233,7 +233,7 @@ $ \Rightarrow{}\ \ \boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)\cup{}(1,
 
 (e) $f\left(x\right)=\frac{1}{e^x+1}$
 <div class = "answer"> $\Rightarrow{} \boxed{\text{Domain of the function} \Rightarrow{}(-\infty{},\infty{})}$. <br>
-$y=\frac{1}{e^x+1}\ \Rightarrow{}$ at $y=0\ \text{ & } y=1$, the function is defined. <br>
+$y=\frac{1}{e^x+1}\ \Rightarrow{}$ at $y=0\ \text{ & } y=1$, the function is undefined. <br>
 $\Rightarrow{}\boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)}$.</div>
 
 -----------------------------------------------------------------------------------
