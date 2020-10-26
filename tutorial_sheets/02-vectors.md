@@ -111,7 +111,7 @@ $$\frac{1}{2}|\vec{AB}\times\vec{AC}|$$ Now $$\vec{AB}\times\vec{AC}=
 1 & 2 & 0 \\
 \end{vmatrix}$$
 Therefore $$|\vec{AB}\times\vec{AC}|= \sqrt{16+4+1}=\sqrt{21}$$
-Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21}}$</div>
+Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21} \text{ units}^2}$</div>
 
 (c) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
 <div class = "answer">We have $\vec{a}+\vec{b}=2\hat{i}+3\hat{j}+4\hat{k}$ and $\vec{a}-\vec{b}=-1\hat{j}-2\hat{k}$. 
@@ -135,7 +135,7 @@ $$\vec{a}\times\vec{b}=
 1 & -1 & 1 \\
 \end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
-Hence, the required area is $\boxed{\sqrt{42}.}$</div>
+Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -313,7 +313,7 @@ $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x
 \textbf{r} = 4\textbf{i}}$ <br>
 </div>
 
-(c)The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
+(c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
 $\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k})$ <br>
 Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. 
