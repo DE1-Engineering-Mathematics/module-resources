@@ -15,7 +15,7 @@
 
 ![vectors](03-matrices/cover.png)
 
-# Matrices, Week 3
+# Matrices, Sheet #3
 
 ### Learning targets
 * Perform operations on matrices (add, subtract, multiply)

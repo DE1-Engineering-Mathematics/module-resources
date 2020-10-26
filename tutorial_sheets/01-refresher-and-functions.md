@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 ![function](01-refersher-and-functions-media/cover.png)
-# Refresher and Functions Tutorial Sheet, Week 1
+# Refresher and Functions Tutorial Sheet, Sheet #1
 
 ### Learning targets
 

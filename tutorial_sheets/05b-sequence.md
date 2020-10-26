@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Sequence, Series, Limits and Convergence Tutorial Sheet, Week 5
+# Sequence, Series, Limits and Convergence Tutorial Sheet, Sheet #5B
 
 ### Learning targets
 * Suggest formulae for the $n$th term of given sequences

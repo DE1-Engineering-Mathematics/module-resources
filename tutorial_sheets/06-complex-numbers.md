@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Complex Numbers Tutorial Sheet, Week 6
+# Complex Numbers Tutorial Sheet, Sheet #6
 
 ### Learning targets
 * Convert complex numbers from their Cartesian form to their Polar or exponential form

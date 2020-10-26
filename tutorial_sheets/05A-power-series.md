@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Power Series Tutorial Sheet, Week 5
+# Power Series Tutorial Sheet, Sheet #5A
 
 ### Learning targets
 * Find the coefficients for a given power series

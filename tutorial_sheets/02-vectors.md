@@ -15,7 +15,7 @@
 
 ![vectors](02-vectors-media/cover.png)
 
-# Vectors, Week 2
+# Vectors, Sheet #2
 
 ### Learning targets
 * Add and subtract vectors

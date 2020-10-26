@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Linear Transforms Tutorial Sheet, Week 4
+# Linear Transforms Tutorial Sheet, Sheet #4A
 
 ### Learning targets
 * Understand and produce a graphical representation of a transformation matrix

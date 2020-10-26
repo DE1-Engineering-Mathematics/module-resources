@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Ordinary Differential Equations Tutorial Sheet, Week 7
+# Ordinary Differential Equations Tutorial Sheet, Sheet #7
 
 ### Learning targets
 * Identify the auxiliary equation for a differential equation
