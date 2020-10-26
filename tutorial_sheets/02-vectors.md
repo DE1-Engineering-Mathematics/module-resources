@@ -15,7 +15,7 @@
 
 ![vectors](02-vectors-media/cover.png)
 
-# Vectors, Week 2
+# Vectors, Sheet #2
 
 ### Learning targets
 * Add and subtract vectors
@@ -84,7 +84,12 @@ and
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 
-(f) Find $|\vec{a}\times\vec{b}|,$ if $\vec{a}=2\vec{i}+\vec{j}+3\vec{k}$ and $\vec{b}=3\vec{i}+5\vec{j}-2\vec{k}$
+-----------------------------------------------------------------------------------
+
+### Problem 3.
+Cross product calculation.
+
+(a) Find $|\vec{a}\times\vec{b}|,$ if $\vec{a}=2\vec{i}+\vec{j}+3\vec{k}$ and $\vec{b}=3\vec{i}+5\vec{j}-2\vec{k}$
 <div class = "answer">We have
 $$\vec{a}\times\vec{b}=$$ $$\begin{vmatrix}
 \hat{i} & \hat{j} & \hat{k} \\
@@ -95,7 +100,7 @@ Therefore,
 $$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13\hat{j}+7\hat{k}$$
 Hence, $$|\vec{a}\times\vec{b}|=\sqrt{(-17)^2+(13)^2+(7)^2}= \boxed{\sqrt{507}.}$$ </div>
 
-(g)  Find the area of a triangle having the points A$(1,1,1)$, B$(1,2,3)$ and C$(2,3,1)$ as its vertices
+(b)  Find the area of a triangle having the points A$(1,1,1)$, B$(1,2,3)$ and C$(2,3,1)$ as its vertices
 <div class = "answer">We have
 $$\vec{AB}=\hat{j}+2\hat{k} \text{ and } \vec{AC}=\hat{i}+2\hat{j}$$	
 The area of given triangle is 
@@ -106,9 +111,9 @@ $$\frac{1}{2}|\vec{AB}\times\vec{AC}|$$ Now $$\vec{AB}\times\vec{AC}=
 1 & 2 & 0 \\
 \end{vmatrix}$$
 Therefore $$|\vec{AB}\times\vec{AC}|= \sqrt{16+4+1}=\sqrt{21}$$
-Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21}}$</div>
+Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21} \text{ units}^2}$</div>
 
-(h) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
+(c) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
 <div class = "answer">We have $\vec{a}+\vec{b}=2\hat{i}+3\hat{j}+4\hat{k}$ and $\vec{a}-\vec{b}=-1\hat{j}-2\hat{k}$. 
 Therefore, a vector is perpendicular to both $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ is given by 
 $$(\vec{a}+\vec{b})\times(\vec{a}-\vec{b})=
@@ -120,7 +125,7 @@ $$(\vec{a}+\vec{b})\times(\vec{a}-\vec{b})=
 Now $$|\vec{c}| = \sqrt{4+16+4}=\sqrt{24}=2\sqrt{6}$$
 Therefore, the required unit vector is $$\boxed{\frac{\vec{c}}{|\vec{c}|} =-\frac{1}{\sqrt{6}}\hat{i}+\frac{2}{\sqrt{6}}\hat{j}-\frac{1}{\sqrt{6}}\hat{k}.}$$</div>
 
-(i) Find the area of a parallelogram which adjacent sides are given by the vectors $\vec{a}= 3\hat{i}+\hat{j}+4\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$
+(d) Find the area of a parallelogram which adjacent sides are given by the vectors $\vec{a}= 3\hat{i}+\hat{j}+4\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$
 
 <div class = "answer">The area of a parallelogram with $\vec{a}$ and $\vec{b}$ as its adjacent sides is given by $|\vec{a}\times\vec{b}|$
 $$\vec{a}\times\vec{b}=
@@ -130,11 +135,11 @@ $$\vec{a}\times\vec{b}=
 1 & -1 & 1 \\
 \end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
-Hence, the required area is $\boxed{\sqrt{42}.}$</div>
+Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 3.
+### Problem 4.
 Analytical geometry calculation
 
 (a) Find the equation for plane through the point $(0,1,-7)$ perpendicular to the vector $(4,-1,6)$.
@@ -165,7 +170,7 @@ $$-12x+3y-18z-129=0$$
 $$\boxed{4x-y+6z+43=0}$$
 </div>
 
-(c) Find the angle $\theta$ between two lines in the x,y-plane, if they are given by following equations: $3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$
+(c) Find the angle $\theta$ between two lines in the x,y-plane, if they are given by following equations: $$3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$$
 <div class = "answer">Normal vector to the lines are, respectively, $\vec{n_1} = 
 (3 , -4)$  and $\vec{n_2}=(2,1)$. 
 Therefore,
@@ -284,9 +289,9 @@ $$ p =\begin{vmatrix}
 \end{vmatrix}=[2,1,-3]$$
 The length of mutually perpendicular pipe $A$ and $B$ is $d$. 
 $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
-\frac{[2,1,-3]}{\sqrt{14}}\Big|=0.8$$
+\frac{[2,1,-3]}{\sqrt{14}}\Big|= \boxed{1.87 \dots}$$
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
-Hence, $\boxed{\text{the pipes need re-aligning to avoid intersection.}}$</div>
+Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
 ## Exam Style Questions
 ### Problem 8.
@@ -306,9 +311,9 @@ $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
 $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
 \textbf{r} = 4\textbf{i}}$ <br>
-The diagonal $AG$ intersects the plane $DPF$ at $Q$.</div>
+</div>
 
-(c)  Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
+(c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
 $\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k})$ <br>
 Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. 

@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Coupled Harmonic Oscillators Tutorial Sheet, Week 8
+# Coupled Harmonic Oscillators Tutorial Sheet, Sheet #8
 
 ### Learning targets
 * Write down the equations of motion for a system

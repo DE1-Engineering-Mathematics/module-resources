@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Eigenvectors and Eigenvalues Tutorial Sheet, Week 4
+# Eigenvectors and Eigenvalues Tutorial Sheet, Sheet #4B
 
 ### Learning targets
 * Understand and produce visual representations of eigenvectors and eigenvalues 
