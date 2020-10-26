@@ -289,9 +289,9 @@ $$ p =\begin{vmatrix}
 \end{vmatrix}=[2,1,-3]$$
 The length of mutually perpendicular pipe $A$ and $B$ is $d$. 
 $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
-\frac{[2,1,-3]}{\sqrt{14}}\Big|=0.8$$
+\frac{[2,1,-3]}{\sqrt{14}}\Big|= \boxed{1.87 \dots}$$
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
-Hence, $\boxed{\text{the pipes need re-aligning to avoid intersection.}}$</div>
+Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
 ## Exam Style Questions
 ### Problem 8.
