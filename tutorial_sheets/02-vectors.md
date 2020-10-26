@@ -84,6 +84,11 @@ and
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 
+-----------------------------------------------------------------------------------
+
+### Problem 3.
+Cross product calculation.
+
 (f) Find $|\vec{a}\times\vec{b}|,$ if $\vec{a}=2\vec{i}+\vec{j}+3\vec{k}$ and $\vec{b}=3\vec{i}+5\vec{j}-2\vec{k}$
 <div class = "answer">We have
 $$\vec{a}\times\vec{b}=$$ $$\begin{vmatrix}
@@ -134,7 +139,7 @@ Hence, the required area is $\boxed{\sqrt{42}.}$</div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 3.
+### Problem 4.
 Analytical geometry calculation
 
 (a) Find the equation for plane through the point $(0,1,-7)$ perpendicular to the vector $(4,-1,6)$.
