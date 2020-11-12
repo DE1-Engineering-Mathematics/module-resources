@@ -23,8 +23,9 @@
 * Identify the limiting values of sequence 
 * Determine when/whether a series is (absolutely) convergent 
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
+* [SJC - Power Series](https://youtu.be/Y2Yfq-IR9iQ)
 
 <br><br><br><br>
 

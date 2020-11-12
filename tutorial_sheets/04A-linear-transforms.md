@@ -15,15 +15,16 @@
 
 # Linear Transforms Tutorial Sheet, Sheet #4A
 
-### Learning targets
+### Learning Targets
 * Understand and produce a graphical representation of a transformation matrix
 * Find the transformation matrix for given representations of linear transformations
 * Find the null space
 * Understand how the relationship between the determinant of a matrix as area scale factor for a linear transformation
 
-<!-- 
-### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
+* [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
 
 <br><br><br><br>
 

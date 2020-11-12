@@ -22,8 +22,8 @@
 * Plot complex numbers and an Argand diagram
 * Understand and use de Moivres theorem
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [Welch Labs - Imaginary Numbers are Real](https://youtu.be/T647CGsuOVU)
 
 <br><br><br><br>
 

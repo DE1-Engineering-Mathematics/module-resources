@@ -17,14 +17,14 @@
 
 # Matrices, Sheet #3
 
-### Learning targets
+### Learning Targets
 * Perform operations on matrices (add, subtract, multiply)
 * Find the transpose, adjudicate, determinant of 2x2 and 3x3 matrices
 * use matrices to find the solutions to linear equations
 * Identify unit, symmetric, skew-symmetric, triangular, diagonal, singular and orthogonal matrices
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 <br><br><br><br>
 

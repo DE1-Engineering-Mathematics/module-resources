@@ -19,8 +19,10 @@
 * Understand and produce visual representations of eigenvectors and eigenvalues 
 * Find the eigenvectors and eigenvalues for 2 x 2 and 3 x 3 matrices
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
+* [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
 
 <br><br><br><br>
 

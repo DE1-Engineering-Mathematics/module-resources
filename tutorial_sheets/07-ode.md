@@ -21,8 +21,8 @@
 * Find the general equation and particular equation for a given differential equation
 * Write an expression to describe the dynamics of a spring trolley system
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [Khan Academy - ODEs intro](https://youtu.be/6o7b9yyhH7k)
 
 <br><br><br><br>
 

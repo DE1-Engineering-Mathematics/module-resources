@@ -17,7 +17,7 @@
 
 # Vectors, Sheet #2
 
-### Learning targets
+### Learning Targets
 * Add and subtract vectors
 * Find modulus of a vector
 * Find the unit vector
@@ -26,8 +26,9 @@
 * Use the cross product
 * Find the cartesian and vector equations for a plane
 
-<!-- ### Reading -->
-<!-- * [section](link#page=x) -->
+### Additional Resources
+* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [Skew vectors example](https://youtu.be/HC5YikQxwZA)
 
 <br><br><br><br>
 

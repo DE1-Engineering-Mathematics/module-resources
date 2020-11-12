@@ -21,8 +21,9 @@
 * Sketch truncated Taylor polynomial of a Taylor series expansion
 * Work with limits when evaluating a given series
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
+* [SJC - Power Series](https://youtu.be/Y2Yfq-IR9iQ)
 
 <br><br><br><br>
 
