@@ -383,6 +383,8 @@ This is the exam question from the Linear Transforms tutorial sheet with an extr
 
 (a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross)
 
+$$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
+
 (b) On the same axes draw the spans of any eigenvectors of A and label these spans with their corresponding eigenvalues.
 
 
