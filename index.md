@@ -50,3 +50,15 @@ __[How these sheets are made.](how-to)__
 
 ### Students who have found errors in the sheets
 * Ivan Revenga Riesco - 2020
+* Andrea Contri - 2020
+* Shirley Zhao - 2020
+* Mingzhe Hu - 2020
+* Sarthak Das - 2020
+* Amy Walter - 2020
+* Mier Harris - 2020
+* Ragavi Thavayoganathan - 2020
+* Saian Patel - 2020
+* Zhao Qi - 2020
+* Arturo Cano Amoros - 2020
+* Michela Puglia - 2020
+* Ciara Bates - 2020
