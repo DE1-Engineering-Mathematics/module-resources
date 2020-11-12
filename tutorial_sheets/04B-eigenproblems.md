@@ -410,7 +410,7 @@ $(A - \lambda I) = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix} - \begin{pmatrix}
 \lambda & 0 \\ 0 & \lambda \end{pmatrix} = \begin{pmatrix} 1-\lambda & 0\\ 0& -3-\lambda 	
 \end{pmatrix}$ <br>
 $\text{det} (A - \lambda I) = (1 - \lambda)(-3 - \lambda)$ <br>
-Characteristic polynomial: $ \boxed{\lambda^2 + 3\lambda - 3 }$ <br>
+Characteristic polynomial: $ \boxed{\lambda^2 + 2\lambda - 3 }$ <br>
 Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -3}$</div>
 
 (b) $ A = \begin{pmatrix}-1&0\\\ 0&1\end{pmatrix}$
