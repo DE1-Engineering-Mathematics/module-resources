@@ -19,8 +19,10 @@
 * Understand and produce visual representations of eigenvectors and eigenvalues 
 * Find the eigenvectors and eigenvalues for 2 x 2 and 3 x 3 matrices
 
-<!-- ### Reading
-* [section](link#page=x) -->
+### Additional Resources
+* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
+* [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
 
 <br><br><br><br>
 
@@ -381,6 +383,8 @@ This is the exam question from the Linear Transforms tutorial sheet with an extr
 
 (a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross)
 
+$$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
+
 (b) On the same axes draw the spans of any eigenvectors of A and label these spans with their corresponding eigenvalues.
 
 
@@ -406,7 +410,7 @@ $(A - \lambda I) = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix} - \begin{pmatrix}
 \lambda & 0 \\ 0 & \lambda \end{pmatrix} = \begin{pmatrix} 1-\lambda & 0\\ 0& -3-\lambda 	
 \end{pmatrix}$ <br>
 $\text{det} (A - \lambda I) = (1 - \lambda)(-3 - \lambda)$ <br>
-Characteristic polynomial: $ \boxed{\lambda^2 + 3\lambda - 3 }$ <br>
+Characteristic polynomial: $ \boxed{\lambda^2 + 2\lambda - 3 }$ <br>
 Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -3}$</div>
 
 (b) $ A = \begin{pmatrix}-1&0\\\ 0&1\end{pmatrix}$

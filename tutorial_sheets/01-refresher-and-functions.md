@@ -16,7 +16,7 @@
 ![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Sheet #1
 
-### Learning targets
+### Learning Targets
 
 1. Use the method of partial fractions
 1. Find the derivative of functions with the product, chain and sum rules
@@ -32,10 +32,12 @@
 
 ### Lectures
 * Welcome (monday) *(populate with recording link?)*
-* Function sketching (tuesday)
+* Function sketching (tuesday) * -->
 
-### Additional resources
-*insert links* -->
+### Additional Resources
+* [SJC - Curve Sketching](https://youtu.be/EFxv2r9gwtc)
+* [3Blue1Brown - Calculus Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+* [WA - Sketch Any Function](https://www.wolframalpha.com/input/?i=(x%5E2%2B3x-7)%2F(x-9))
 
 <br><br><br><br>
 
