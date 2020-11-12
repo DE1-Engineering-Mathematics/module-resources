@@ -135,10 +135,13 @@ $$\begin{align} 3x + 2y + z &= 10  \newline
 3x + 5z &= 6  \newline 
 2x + 4y - 4z &= 2 \end{align}$$
 
-<div class = "answer">$\Rightarrow{} \begin{pmatrix}3&2&1\\3&0&-5\\2&4&-4\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = 
+<div class = "answer">$\Rightarrow{} \begin{pmatrix}3 & 2 & 1\\3 & 0 & 5\\2&4&-4\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = 
 \begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
 $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
-\begin{pmatrix}3&2&1\\3&0&-5\\2&4&-4\end{pmatrix} \ 
+\begin{pmatrix}3&2&1\\3&0&5\\2&4&-4\end{pmatrix}^{-1} \ 
+\begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
+$\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
+\begin{pmatrix}5&-3&-2.5\\-5.5&3.5&3\\-3&2&1.5\end{pmatrix} \ 
 \begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
 $\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$</div>
 
