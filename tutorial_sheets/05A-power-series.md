@@ -328,8 +328,44 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 ## Challenging Questions
 ### Problem 8.
 (a)  Write the Maclaurin series expansion of the function up to the $4^{th}$ power:
-$$f(x) = 	x\mathrm{cos}(\frac{x}{\sqrt{3}})-(\alpha-x^3)\mathrm{sin}x \text{ for all } \alpha\in\mathbb{R}$$
+
+$$f(x) = 	x \cos \left(\frac{x}{\sqrt{3}}\right)-(\alpha-x^3)\sin x \text{ for all } \alpha\in\mathbb{R}$$
+
 Using this expansion, find for which $\alpha$ values of the point $x = 0$ is stationary for $f$ and specify of which type.
+
+<div class = "answer">
+Using the Maclaurin expansion of functions $\cos x$ and $\sin x$ we get that as
+$x\rightarrow0$
+\begin{equation*}
+f(x)=x \cos \left( \frac{x}{\sqrt{3}}-(\alpha-x^3) \right) \sin x=
+\end{equation*}
+\begin{equation*}
+x\left(1-\frac{1}{6}x^2+O(x^4)\right)-(\alpha-x^3)\big(x-\frac{1}{6}x^3+O(x^5)\big)=
+\end{equation*}
+\begin{equation*}
+x-\frac{1}{6}x^3+O(x^5)-\alpha{x}+\frac{1}{6}\alpha{x^3}+x^4+O(x^5)=(1-\alpha)x-\frac{1}{6}(1-\alpha)x^3+x^4+O(x^5).
+\end{equation*}
+
+Hence the Maclaurin expansion of order $4$ of $f(x)$ is:
+\begin{equation*}
+f(x)=(1-\alpha)x-\frac{1}{6}(1-\alpha)x^3+x^4+O(x^5).
+\end{equation*}
+
+Since the Maclaurin expansion of order $4$ of $f$ is
+\begin{equation*}
+f(x)=f(0)+f'(0)x+\frac{1}{2}f''(0)x^2+\frac{1}{6}f'''(0)x^3+\frac{1}{24}f^{(4)}(0)x^4+O(x^5),
+\end{equation*}
+
+comparing the coefficients of each of the same order:
+\begin{equation*}
+f(0)=0,\quad f'(0)=1-\alpha,\quad f''(0)=0,\quad f'''(0)=\alpha-1,\quad f^{(4)}(0)=24.
+\end{equation*}
+
+For $x=0$ to be a stationary point, $\alpha=1$ so that $f'(0)=0$: 
+$$f''(0) = f'''(0) = 0 \text{ and } f^{(4)}(0) = 24$$
+
+It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a local minimum of } f}$.
+</div>
 
 <br><br>
 
