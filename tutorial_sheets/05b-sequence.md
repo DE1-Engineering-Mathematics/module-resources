@@ -48,7 +48,7 @@ Suggest a formula for the $n$th term of the following sequences.
 
 (e) Find the third, sixth and ninth term of the sequence given by the formula. 
 
-$$ \left{ \frac{n^2-n-6}{n+2} \right}_{n=1}^\infty $$
+$$ \left\{ \frac{n^2-n-6}{n+2} \right\}_{n=1}^\infty $$
 
 <div class = "answer">$\Rightarrow \boxed{a_3 = \frac{3^2-3-6}{3+2} = 0 ,\ \ a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=3,\ \ \ a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=6}$</div>
 
@@ -65,7 +65,7 @@ $a_3=\frac{5!}{2!(5-2)!} - \frac{5!}{3!(5-3)!}=\frac{120}{2\cdot 6} - \frac{120}
 
 (g) Find the third, sixth and ninth term of the sequence given by the formula: 
 
-$$\left\\\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\\\}_{n=1}^\infty$$
+$$\left\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\}_{n=1}^\infty$$
 
 <div class = "answer">$\boxed{a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=-\frac{\sqrt{3}}{2},
 \\ \\ a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\frac{\sqrt{3}}{2},
