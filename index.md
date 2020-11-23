@@ -62,3 +62,5 @@ __[How these sheets are made.](how-to)__
 * Arturo Cano Amoros - 2020
 * Michela Puglia - 2020
 * Ciara Bates - 2020
+* Michela Puglia - 2020
+* Mathy Tharany - 2020
