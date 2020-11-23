@@ -254,7 +254,7 @@ f(x)=f(2)+f'(2)(x-2)+\frac{1}{2!}f''(2)(x-2)^2+\frac{1}{3!}f'''(2)(x-2)^3+O\big(
 Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in the question: 
 
 \begin{align*}
-&\textrm{Coefficient  for}&    &\textrm{Question}&       &\textrm{Rewritten}&  \\\ 
+&\textrm{Coefficient  for}&    &\textrm{Question}&       &\textrm{Rewritten}&  \newline 
 \hline
 & f(x-2)&    &1&                 &f(2)&    \\\ 
 & f'(x-2)&   &0&                 &f'(2)&    \\\ 
@@ -278,11 +278,10 @@ After finding the values of f'(2) and f''(2), it can be concluded that \ans{$x_0
 (a) Evaluate the first five truncated Taylor polynomials (i.e. $0^{th}$, $1^{st}$...$5^{th}$) for:  $f(x)=\mathrm{\ln}(x),$ around ${}x=10$
 <div class = "answer">
 Find the Taylor Expansion of $f(x)=lnx$ near $x=10$ by finding the first, second, third, etc derivatives and evaluate them at $x = 10$.
-\newline
 
 Table of $f^{(n)}(0)$ coefficients for this series (Taylor, x=10):
 \begin{align*}
-& n&    f&^{(n)}(x)&       f&^{(n)}(10)&  \\\ 
+& n&    f&^{(n)}(x)&       f&^{(n)}(10)&  \newline
 \hline
 & 0&    &\mathrm{ln}x&     &2.302585093&    \\\ 
 & 1&    &\frac{1}{x}&     &\frac{1}{10}&    \\\ 
