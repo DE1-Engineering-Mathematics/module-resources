@@ -15,9 +15,6 @@
 
 # Optimisation Tutorial Sheet, #15
 
-### Additional resources
-*insert links*
-
 <br><br><br><br>
 
 # Problem sheet
@@ -271,5 +268,4 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, the Normal Distribution!

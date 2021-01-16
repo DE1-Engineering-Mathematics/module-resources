@@ -21,7 +21,7 @@
  * Use separation of variables solution to solve a PDE
 
 ### Additional resources
-*insert links*
+* [PDE intro video](https://youtu.be/PTvvoVLzVCE)
 
 <br><br><br><br>
 
@@ -333,5 +333,4 @@ $$
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, Finite Methods!

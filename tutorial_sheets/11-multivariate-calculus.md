@@ -17,7 +17,7 @@
 # Multivariate Calculus Tutorial Sheet, #11
 
 ### Additional resources
-*insert links*
+* [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
 <br><br><br><br>
 
@@ -469,5 +469,4 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, Partial Differential Equations!

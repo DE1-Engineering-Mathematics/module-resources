@@ -16,7 +16,7 @@
 # Normal Distribution Tutorial Sheet, #16
 
 ### Additional resources
-*insert links*
+* [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
 
 <br><br><br><br>
 
@@ -206,5 +206,4 @@ $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# The end :) Enjoy your easter break!

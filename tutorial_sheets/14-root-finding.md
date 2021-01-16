@@ -15,17 +15,9 @@
 
 # Tutorial Sheet Title, Week x
 
-### Learning targets
-
-### Reading
-* [section](link#page=x)
-
-### Lectures
-* One (monday)
-* Two (tuesday)
-
 ### Additional resources
-*insert links*
+* [SJC - Newton-Raphson](https://youtu.be/evYOeTyeo1M)
+* [SJC - Bisection method](https://www.youtube.com/watch?v=VkyTBij4yoQ)
 
 <br><br><br><br>
 
@@ -353,5 +345,4 @@ The sequence is clearly converging to the root $x\approx 0.74$
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, Optimisation!

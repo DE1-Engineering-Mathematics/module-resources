@@ -15,12 +15,8 @@
 
 # Laplace Transforms Tutorial Sheet, Sheet #9
 
-### Learning targets
- * Use the definition of the Laplace transform
- * Use 
-
 ### Additional resources
-*insert links*
+ * [Arthur Mattuck, MIT - Laplace Transforms](https://youtu.be/sZ2qulI6GEk)
 
 <br><br><br><br>
 
@@ -231,5 +227,4 @@ $\quad\Rightarrow{}\quad$ \ans{$y(t)=(3t^2+4t-2){e^{-2t}}$}}
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, Fourier Series!

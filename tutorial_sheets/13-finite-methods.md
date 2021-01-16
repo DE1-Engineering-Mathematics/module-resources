@@ -15,9 +15,6 @@
 
 # Finite Methods Tutorial Sheet, #13
 
-### Additional resources
-*insert links*
-
 <br><br><br><br>
 
 # Problem sheet
@@ -250,5 +247,4 @@ From here we can use the update equation to iterate,
 
 <br><br>
 
-# Next week, another topic!
-![vectors](02-vectors-media/cover.png)
+# Next week, Root Finding!
