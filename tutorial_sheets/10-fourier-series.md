@@ -12,6 +12,7 @@
 </script>
 <script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
+<script type="text/javascript" src="tutorialSheetGraphs.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 # Fourier series, Tutorial sheet 10
