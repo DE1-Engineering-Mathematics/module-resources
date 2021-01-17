@@ -65,17 +65,17 @@ Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial 
 <div class = "answer">
 $$
 \frac{\partial{}u}{\partial{}x}=\frac{y^2}{1+xy^2}\ ;\ \ \
-\frac{{\partial{}}^2u}{{\partial{}x}^2}=-\frac{y^2}{{\left(1+{xy}^2\right)}^2}.y^2=\frac{-y^4}{{\left(1+{xy}^2\right)}^2}
+\frac{ {\partial{}}^2u}{ {\partial{}x}^2}=-\frac{y^2}{ {\left(1+{xy}^2\right)}^2}.y^2=\frac{-y^4}{ {\left(1+{xy}^2\right)}^2}
 $$
 <br>
 
 $$
-\frac{{\partial{}}^2u}{\partial{}y\partial{}x}=\frac{\partial{}}{\partial{}y}\left(\frac{\partial{}u}{\partial{}x}\right)=\frac{2y\left(1+xy^2\right)-y^2(2xy)}{{(1+xy^2)}^2}=\frac{2y+2xy^3-2xy^3}{{{(1+xy}^2)}^2}=\frac{2y}{{{(1+xy}^2)}^2}
+\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=\frac{\partial{}}{\partial{}y}\left(\frac{\partial{}u}{\partial{}x}\right)=\frac{2y\left(1+xy^2\right)-y^2(2xy)}{ {(1+xy^2)}^2}=\frac{2y+2xy^3-2xy^3}{ { {(1+xy}^2)}^2}=\frac{2y}{ { {(1+xy}^2)}^2}
 $$
 <br>
 
 $$
-2\frac{{\partial{}}^2u}{\partial{}x^2}+y^3\frac{{\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{{{(1+xy}^2)}^2}+\frac{{2y}^4}{{{(1+xy}^2)}^2}=0
+2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0
 $$
 </div>
 

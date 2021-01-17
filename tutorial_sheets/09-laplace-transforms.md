@@ -74,7 +74,7 @@ Using the DE1-MEM Formula sheet, find the Laplace Transforms of the given functi
 (a) $f(t)=6e^{-5t}+e^{3t}-5t^{3}-9$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$F(s)=\mathcal{L}\{{6e^{-5t}+e^{3t}-5t^{3}-9}\}$
+$F(s)=\mathcal{L}\{ {6e^{-5t}+e^{3t}-5t^{3}-9}\}$
 
 $\Rightarrow{}\quad$
 $\boxed{F(s)=\frac{6}{s+5}+\frac{1}{s-3}-\frac{30}{s^4}-\frac{9}{s}}$
@@ -83,28 +83,28 @@ $\boxed{F(s)=\frac{6}{s+5}+\frac{1}{s-3}-\frac{30}{s^4}-\frac{9}{s}}$
 (b) $g(t)=4\cos(4t)-9\sin(4t)+2\cos(10t)$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$G(s)=\mathcal{L}\{{4\cos(4t)}\}-\mathcal{L}\{{9\sin(4t)}\}+\mathcal{L}\{{2\cos(10t)}\}$ 
+$G(s)=\mathcal{L}\{ {4\cos(4t)}\}-\mathcal{L}\{ {9\sin(4t)}\}+\mathcal{L}\{ {2\cos(10t)}\}$ 
 
 $\Rightarrow{}\quad$
-$\boxed{G(s)=\frac{4s}{{s^2}+{16}}-\frac{36}{{s^2}+{16}}+\frac{2s}{{s^2}+{100}}}$
+$\boxed{G(s)=\frac{4s}{ {s^2}+{16}}-\frac{36}{ {s^2}+{16}}+\frac{2s}{ {s^2}+{100}}}$
 </div>
 
 (c) $k(t)=3\sinh(2t)+4\cosh(3t)$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$K(s)=\mathcal{L}\{{3\sinh(2t)}\}+\mathcal{L}\{{4\cosh(3t)}\}$
+$K(s)=\mathcal{L}\{ {3\sinh(2t)}\}+\mathcal{L}\{ {4\cosh(3t)}\}$
 
 $\Rightarrow{}\quad$
-$\boxed{K(s)=\frac{6}{{s^2}-{4}}+\frac{4s}{{s^2}-{9}}}$
+$\boxed{K(s)=\frac{6}{ {s^2}-{4}}+\frac{4s}{ {s^2}-{9}}}$
 </div>
 
 (d) $m(t)=e^{3t}+\cos(6t)-e^{3t}\cos(6t)$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$M(s)=\mathcal{L}\{{e^{3t}}\}+\mathcal{L}\{{\cos(6t)}\}-\mathcal{L}\{{e^{3t}\cos(6t)}\}$
+$M(s)=\mathcal{L}\{ {e^{3t}}\}+\mathcal{L}\{ {\cos(6t)}\}-\mathcal{L}\{ {e^{3t}\cos(6t)}\}$
     
 $\Rightarrow{}\quad$
-$\boxed{M(s)=\frac{1}{{s}-{3}}+\frac{s}{{s^2}+{36}}-\frac{s-3}{{(s-3)^2}+{36}}}$
+$\boxed{M(s)=\frac{1}{ {s}-{3}}+\frac{s}{ {s^2}+{36}}-\frac{s-3}{ {(s-3)^2}+{36}}}$
 </div>
 
 (e) $o(t)=e^{-2t}{\cos^2}(3t)-3t^2e^{3t}$
@@ -112,9 +112,9 @@ $\boxed{M(s)=\frac{1}{{s}-{3}}+\frac{s}{{s^2}+{36}}-\frac{s-3}{{(s-3)^2}+{36}}}$
 $\Rightarrow{}\quad$
 ${cos^2}(3t)$ can be writen as = $\frac{1+{\cos}(6t)}{2}$
 $\Rightarrow{}\quad$
-$O(s)=\mathcal{L}\{{e^{-2t}}{(\frac{1}{2}+\frac{1}{2}{\cos}(6t))}-{3t^2e^{3t}}\}=\mathcal{L}\{\frac{1}{2}{e^{-2t}}+{\frac{1}{2}{e^{-2t}}{\cos}(6t)}-{3t^2e^{3t}}\}$
+$O(s)=\mathcal{L}\{ {e^{-2t}}{(\frac{1}{2}+\frac{1}{2}{\cos}(6t))}-{3t^2e^{3t}}\}=\mathcal{L}\{\frac{1}{2}{e^{-2t}}+{\frac{1}{2}{e^{-2t}}{\cos}(6t)}-{3t^2e^{3t}}\}$
 $\Rightarrow{}\quad$
-$\boxed{O(s)=\frac{1}{{2s}+{4}}+\frac{s+2}{2(s+2)^{2}+72}-\frac{6}{{(s-3)^3}}}$
+$\boxed{O(s)=\frac{1}{ {2s}+{4}}+\frac{s+2}{2(s+2)^{2}+72}-\frac{6}{ {(s-3)^3}}}$
 </div>
 
 
@@ -124,7 +124,7 @@ Compute the inverse Laplace Transform of the given functions:
 (a) $F(s)= \frac{5}{s}-\frac{4}{s-2}+\frac{24}{(s-2)^5}$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$\mathcal{L}^{-1}\{F(s)\}= \ \mathcal{L}^{-1}\{{\frac{5}{s}-\frac{4}{s-2}+\frac{24}{(s-2)^5}}\}$
+$\mathcal{L}^{-1}\{F(s)\}= \ \mathcal{L}^{-1}\{ {\frac{5}{s}-\frac{4}{s-2}+\frac{24}{(s-2)^5}}\}$
     
 $\Rightarrow{}\quad$
 $\boxed{f(s)=5-{4e^{2t}}+e^{2t}{t^4}}$
@@ -133,7 +133,7 @@ $\boxed{f(s)=5-{4e^{2t}}+e^{2t}{t^4}}$
 (b) $G(s)= \frac{7s-1}{(s+1)(s+2)(s-3)}$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$\mathcal{L}^{-1}\{G(s)\}= \ \mathcal{L}^{-1}\{{\frac{7s-1}{(s+1)(s+2)(s-3)}}\}$
+$\mathcal{L}^{-1}\{G(s)\}= \ \mathcal{L}^{-1}\{ {\frac{7s-1}{(s+1)(s+2)(s-3)}}\}$
     
 $\Rightarrow{}\quad\ \frac{7s-1}{(s+1)(s+2)(s-3)}= \frac{A}{s+1}+\frac{B}{s+2}+\frac{C}{s-3}=\frac{2}{s+1}+\frac{-3}{s+2}+\frac{1}{s-3}$
     
@@ -143,7 +143,7 @@ $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$
 (c) $K(s)= \frac{4s+5}{(s-2)^2(s+3)}$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$\mathcal{L}^{-1}\{K(s)\}= \ \mathcal{L}^{-1}\{{\frac{4s+5}{(s-2)^2(s+3)}}\}$
+$\mathcal{L}^{-1}\{K(s)\}= \ \mathcal{L}^{-1}\{ {\frac{4s+5}{(s-2)^2(s+3)}}\}$
 
 $\Rightarrow{}\quad \ \frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s-2)}+\frac{13}{5(s-2)^2}$
 

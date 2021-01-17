@@ -138,7 +138,7 @@ $ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\% }$
 <div class = "answer" >
 $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \sqrt{2}})}}}})}]=82\% $
 
-$ \Rightarrow{} P(X>Y)=0.32={{-\frac{1}{2}}{\text{ erf}(x)}} $
+$ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $
 
 $ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $
 
@@ -179,19 +179,19 @@ $ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$
 
 $ \Rightarrow{} x=0.57={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$
 
-$ \Rightarrow{} \alpha={{(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$
 
 $ \Rightarrow{} \text{ also  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$
 
-$ \Rightarrow{} \alpha={{(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
 
-$ \Rightarrow{} {{(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={{(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
+$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
 
 $ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.35+0.57)}}$
 
 $ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.92}=0.1m }$
 
-$ \Rightarrow{} \alpha={{(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>

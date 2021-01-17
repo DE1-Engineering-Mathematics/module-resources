@@ -252,7 +252,7 @@ b_n &=\frac{1}{1} \int_{-1}^{1}x^3\sin\left(\frac{n\pi x}{1}\right) dx
 Using integration by parts: $\int f^{'}g=fg-\int fg^{'}$
 
 \begin{align*}
-b_n &= -\frac{2x^3\cos{\left(n\pi{}x\right)}}{n\pi{}}+\frac{{6x}^2\sin{\left(n\pi{}x\right)}}{n^2{\pi{}}^2}+\frac{12x\cos{\left(n\pi{}x\right)}}{n^3{\pi{}}^3}-\left.\frac{12\
+b_n &= -\frac{2x^3\cos{\left(n\pi{}x\right)}}{n\pi{}}+\frac{ {6x}^2\sin{\left(n\pi{}x\right)}}{n^2{\pi{}}^2}+\frac{12x\cos{\left(n\pi{}x\right)}}{n^3{\pi{}}^3}-\left.\frac{12\
 \sin(n\pi{}x)}{n^4{\pi{}}^4}\right\vert{}\binom{1}{0}
 \newline
 &=\
@@ -328,12 +328,12 @@ b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
 dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\pi{}\ dx\ }
 \newline \newline
 &=\
--\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left\[\cos{n\pi{}-1}\right]=\frac{{\left(-1\right)}^{n+1}}{n\pi{}}
+-\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left\[\cos{n\pi{}-1}\right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
 \end{align*}
 
 Thus,
 
-$$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{{\pi{}}^2}\sum_{n=1}^{\infty{}}\frac{\cos{\left(\left(2n+1\right)\pi{}x\right)}}{{\left(2n+1\right)}^2}-\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{{\left(-1\right)}^n}{n}sin⁡(n\pi{}x)\
+$$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}\frac{\cos{\left(\left(2n+1\right)\pi{}x\right)}}{ {\left(2n+1\right)}^2}-\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{ {\left(-1\right)}^n}{n}sin⁡(n\pi{}x)\
 }$$
 
 <iframe src="https://www.desmos.com/calculator/6lglrfcrfl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -499,7 +499,7 @@ dx
 \frac{1}{4}\left\[-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1+n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1-n\right)\pi{}x}{2}}\right]\binom{0}{-2}
 \newline \newline
 &=
--\frac{1}{4}\left\\{\frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{{\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)}\right\\}=\frac{{\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
+-\frac{1}{4}\left\\{\frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{ {\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)}\right\\}=\frac{ {\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
 \ \ \ \ for\ \ n\not=1
 \newline \newline
 a_1 &= \frac{1}{2}\int_{-2}^0\sin{\left(\frac{\pi{}x}{2}\right)\cos{\left(\frac{\pi{}x}{2}\right)\
@@ -527,7 +527,7 @@ dx=\frac{1}{4}\left\[x-\frac{1}{\pi{}}\sin{\pi{}x}\right]\binom{0}{-2}=\frac{1}{
 Therefore, the fourier series representation is:
 
 $$ \boxed{
-f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\right)+\frac{1}{\pi{}}\sum_{n=2}^{\infty{}}\frac{{\left(-1\right)}^{n+1}-1}{1-n^2}\cos{ \left(\frac{n\pi{}x}{2} \right)}}
+f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\right)+\frac{1}{\pi{}}\sum_{n=2}^{\infty{}}\frac{ {\left(-1\right)}^{n+1}-1}{1-n^2}\cos{ \left(\frac{n\pi{}x}{2} \right)}}
 }$$
 
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -693,7 +693,7 @@ $$
 Using the integration by parts, we have
 
 \begin{align*}
-C_n &=\frac{1}{2\pi{}}\left\[\frac{{ix}^3e^{-inx}}{n}+\frac{{3x}^2e^{-inx}}{n^2}-\frac{{i6xe}^{-inx}}{n^3}-\frac{{6e}^{-inx}}{n^4}\right]\binom{\pi{}}{-\pi{}} 
+C_n &=\frac{1}{2\pi{}}\left\[\frac{ {ix}^3e^{-inx}}{n}+\frac{ {3x}^2e^{-inx}}{n^2}-\frac{ {i6xe}^{-inx}}{n^3}-\frac{ {6e}^{-inx}}{n^4}\right]\binom{\pi{}}{-\pi{}} 
 \newline \newline 
 &=\
 \frac{1}{2\pi{}n^4}\left\[e^{-inx}(in^3x^3+3n^2x^2-i6nx-6\right]\binom{\pi{}}{-\pi{}}
@@ -702,7 +702,7 @@ C_n &=\frac{1}{2\pi{}}\left\[\frac{{ix}^3e^{-inx}}{n}+\frac{{3x}^2e^{-inx}}{n^2}
 \frac{1}{2\pi{}n^4}\left\[{\left(-1\right)}^n\left(-in^3{\pi{}}^3+{3n}^2{\pi{}}^2-i6n\pi{}-6\right)-{\left(-1\right)}^n(-in{\pi{}}^3+3n^2{\pi{}}^2+i6n\pi{}-6\right]
 \newline \newline
 &=
-\frac{{(-1)}^n}{2\pi{}n^4}\left\[{2in}^3{\pi{}}^3-12in\pi{}\right]=\frac{{\left(-1\right)}^n}{n^3}\left(n^2{\pi{}}^2-6\right), \ \ \ \ for\ n\not=0 \newline \newline
+\frac{ {(-1)}^n}{2\pi{}n^4}\left\[{2in}^3{\pi{}}^3-12in\pi{}\right]=\frac{ {\left(-1\right)}^n}{n^3}\left(n^2{\pi{}}^2-6\right), \ \ \ \ for\ n\not=0 \newline \newline
 \end{align*}
 
 $$
@@ -713,7 +713,7 @@ Since $x^3$ is odd on $\left\[-\pi{},\pi{}\right]$. Hence,
 
 $$
 f\left(x\right)=\
-\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\sum_{n\not=0}\frac{{\left(-1\right)}^ni(n^2{\pi{}}^2-6)}{n^3}e^{inx}
+\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\sum_{n\not=0}\frac{ {\left(-1\right)}^ni(n^2{\pi{}}^2-6)}{n^3}e^{inx}
 $$
 
 </div>
