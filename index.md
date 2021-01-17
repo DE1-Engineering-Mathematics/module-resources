@@ -20,14 +20,14 @@
 * __[8 - Coupled Harmonic Oscillators](tutorial_sheets\08-cho)__
 
 ### Term 2
-* __[9 - Laplace Transforms](tutorial_sheets\09-laplace-transforms.md)__
-* __[10 - Fourier Series](tutorial_sheets\10-fourier-series.md)__
-* __[11 - Multi-variate Calculus](tutorial_sheets\11-multivariate-calculus.md)__
-* __[12 - Partial Differential Equations](tutorial_sheets\12-PDE.md)__
-* __[13 - Finite Methods](tutorial_sheets\13-finite-methods.md)__
-* __[14 - Root Finding](tutorial_sheets\14-root-finding.md)__
-* __[15 - Optimisation](tutorial_sheets\15-optimisation.md)__
-* __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution.md)__
+* __[9 - Laplace Transforms](tutorial_sheets\09-laplace-transforms)__
+* __[10 - Fourier Series](tutorial_sheets\10-fourier-series)__
+* __[11 - Multi-variate Calculus](tutorial_sheets\11-multivariate-calculus)__
+* __[12 - Partial Differential Equations](tutorial_sheets\12-PDE)__
+* __[13 - Finite Methods](tutorial_sheets\13-finite-methods)__
+* __[14 - Root Finding](tutorial_sheets\14-root-finding)__
+* __[15 - Optimisation](tutorial_sheets\15-optimisation)__
+* __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution)__
 
 <br>
 -----------------------------------------------------------------------
