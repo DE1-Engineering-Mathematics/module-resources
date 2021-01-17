@@ -19,10 +19,10 @@
 
 ### Additional resources
 * [SJC - Fourier Series](https://youtu.be/rbRwhrNQnH0)
-* [An Interactive Introduction to Fourier Transforms, Jez Swanson](http://www.jezzamon.com/fourier/index.html)
+* [An Interactive Introduction to Fourier Transforms - Jez Swanson](http://www.jezzamon.com/fourier/index.html)
 * [But what is the Fourier Transform? A visual introduction.](https://youtu.be/spUNpyF58BY)
-* [What is up with Noises? (The Science and Mathematics of Sound, Frequency, and Pitch), Vihart](https://youtu.be/i_0DXxNeaQ0)
-* [JPEG 'files' & Colour (JPEG Pt1)- Computerphile](https://youtu.be/n_uNPbdenRs)
+* [What is up with Noises? (The Science and Mathematics of Sound, Frequency, and Pitch) - Vihart](https://youtu.be/i_0DXxNeaQ0)
+* [JPEG 'files' & Colour (JPEG Pt1) - Computerphile](https://youtu.be/n_uNPbdenRs)
 
 <br><br><br><br>
 

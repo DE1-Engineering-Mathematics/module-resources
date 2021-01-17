@@ -28,13 +28,12 @@ Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from in
 
 <div class = "answer"> 
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$}
-$$
-\Bigg\{
+
 \begin{aligned}
 & (\mathrm{i})\quad f(x) = x^3-6x^2+11x-6\newline
 & (\mathrm{ii})\quad a_0=2.5,\quad b_0=4
 \end{aligned}
-$$	
+
 Iteration 1 $(k = 0)$:
 
 \begin{equation*}
@@ -78,13 +77,11 @@ The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. 
 <div class = "answer">
 The bisection method finds a root in a given interval $[0, 1]$}
 
-$$
-\Bigg \newline{
+
 \begin{aligned}
 & (\mathrm{i})\quad f(x) = x^3-7x^2+14x-6\newline
 & (\mathrm{ii})\quad a_0=0,\quad b_0=1
 \end{aligned}
-$$
 
 If we are told a root exists in a certain interval, then we can say that the distance from our current midpoint to the true root (i.e. the "uncertainty") must be less than or equal to half the size of the current interval. We can express this in the following equation for the initial interval $[ a,b ]$, which contains the root $\hat{c}$ and the midpoint $c_n$, where $n$ is our iteration number (\ie $c_1=\frac{a+b}{2}$).
 
@@ -226,14 +223,10 @@ Obtaining an initial approximation: Since $\mathrm{cos}x\leq1$ for all $x$ and f
 
 Input Data:
 
-$$
-\Bigg \newline{
 \begin{aligned}
 & (\mathrm{i})\quad  f(x) = \mathrm{cos}x-x^3\newline
 & (\mathrm{ii})\quad  x_0 = 0.5
 \end{aligned}
-$$
-
 
 Formula to be used: $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}$$
 
@@ -329,19 +322,11 @@ The sequence is clearly converging to the root $x\approx 0.74$
 
 -----------------------------------
 
-## Exam Style Questions
-### Problem n.
-
------------------------------------
-
-## Challenging Questions
-### Problem n.
-
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 
 <br><br>
 

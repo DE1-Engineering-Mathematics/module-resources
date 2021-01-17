@@ -93,20 +93,20 @@ The area under the curve is calculated by integrating $f(x,t)$ over all x.
 Integrating both sides of the PDE,
 
 $$
-\int_{-\infty}^{\infty} \mathrm{d}x \; \frac{ \partial {f(x,t)}{ \partial t} = \int_{-\infty}^{\infty} \mathrm{d}x \; \alpha \pdd{f(x,t)}{x}
+\int_{-\infty}^{\infty} \mathrm{d}x \; \frac{ \partial {f(x,t)}}{ \partial t} = \int_{-\infty}^{\infty} \mathrm{d}x \; \alpha \frac{\partial f(x,t)}{\partial x}
 $$
 
 $\Rightarrow{}$ We can swap the order of differentiation and integration on the LHS and directly integrate the expression on the RHS,
 
 $$
-\pd{}{t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) =
-\alpha \left.\pd{f(x,t)}{x}\right| _ {x\rightarrow \infty} - \left.\alpha \pd{f(x,t)}{x}\right|_{x\rightarrow -\infty}
+\frac{\partial}{\partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) =
+\alpha \left.\frac{ \partial f(x,t)}{ \partial x}\right| _ {x\rightarrow \infty} - \left.\alpha \frac{ \partial f(x,t)}{ \partial x}\right|_{x\rightarrow -\infty}
 $$
 
 $\Rightarrow{}$ The x derivatives go to zero at infinity
 
 $$
-\boxed{ \pd{}{t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) = 0 }
+\boxed{ \frac{\partial}{ \partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) = 0 }
 $$
 
 $\Rightarrow{}$ Therefore the area under the concentration curve does not change in time.
