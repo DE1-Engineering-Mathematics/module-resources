@@ -25,7 +25,7 @@
 ### Problem 1.
 Using the definition: 
 $$
-\mathcal{L} \\{ f(t) \\} =\int_{0}^{\infty}f(t){e^{-st}}{dt}=F(s),\quad{s>0}
+\mathcal{L} \{ f(t) \} =\int_{0}^{\infty}f(t){e^{-st}}{dt}=F(s),\quad{s>0}
 $$
 
 (a) $f(t)=e^{at}$
@@ -166,9 +166,9 @@ $\Rightarrow{}\quad \ s^2Y(s)-sy(0)-y'(0)+4(sY(s)-y(0))+8Y(s)=\frac{1}{s}$ <br>
 
 $\Rightarrow{}\quad \ (s^2+4s+8)Y(s)-(s+4)y(0)-y'(0)=\frac{1}{s}$ <br>
 
-$\Rightarrow{}\quad \ $Substitute $y(0)=0,\ \ y'(0)=0$: <br>
+$\Rightarrow{}\quad \ $Substitute $y(0)=0,\ \ y'(0)=0$:
 
-$$(s^2+4s+8)Y(s)-0-0=\frac{1}{s}$$ <br>
+$$(s^2+4s+8)Y(s)-0-0=\frac{1}{s}$$
 
 $\Rightarrow{}\quad \ (s^2+4s+8)Y(s)=\frac{1}{s}$
 $\quad\Rightarrow{}\ Y(s)=\frac{1}{s(s^2+4s+8)}$ <br>
@@ -196,11 +196,11 @@ $\Rightarrow{}\quad \ s^2Y(s)-sy(0)-y'(0)+4(sY(s)-y(0))+4Y(s)=\frac{6}{s+2}$ <br
 
 $\Rightarrow{}\quad \ (s^2+4s+4)Y(s)-(s+4)y(0)-y'(0)=\frac{6}{s+2}$ <br>
 
-$\Rightarrow{}\quad \ $Substitute $y(0)=-2,\ \ y'(0)=8$: <br>
+$\Rightarrow{}\quad \ $Substitute $y(0)=-2,\ \ y'(0)=8$:
 
-$$(s^2+4s+4)Y(s)+2(s+4)-8=\frac{6}{s+2}$$ <br>
+$$(s^2+4s+4)Y(s)+2(s+4)-8=\frac{6}{s+2}$$
 
-$$(s^2+4s+4)Y(s)=\frac{6}{s+2}-2s$$ <br>
+$$(s^2+4s+4)Y(s)=\frac{6}{s+2}-2s$$
 
 $\Rightarrow{}\quad \ (s+2)^2Y(s)=\frac{6}{s+2}-{2s}$
 $\quad\Rightarrow{}\ Y(s)=\frac{6}{(s+2)^3}-\frac{2s}{(s+2)^2}$ <br>
