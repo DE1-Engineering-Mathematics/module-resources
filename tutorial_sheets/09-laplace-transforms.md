@@ -25,7 +25,7 @@
 ### Problem 1.
 Using the definition: 
 $$
-\mathcal{L} \\\{ f(t) \\\} =\int_{0}^{\infty}f(t){e^{-st}}{dt}=F(s),\quad{s>0}
+\mathcal{L} \\{ f(t) \\} =\int_{0}^{\infty}f(t){e^{-st}}{dt}=F(s),\quad{s>0}
 $$
 
 (a) $f(t)=e^{at}$
@@ -214,7 +214,7 @@ $Y(s)=\frac{6}{(s+2)^3}-\frac{2s+4}{(s+2)^2}+\frac{4}{(s+2)^2}$ <br>
 $Y(s)=\frac{6}{(s+2)^3}-\frac{2}{(s+2)}+\frac{4}{(s+2)^2}$ <br>
 
 $y(t)=3e^{-2t}t^2-2{e^{-2t}}+4e^{-2t}t$ <br>
-$\quad\Rightarrow{}\quad$ \ans{$y(t)=(3t^2+4t-2){e^{-2t}}$}}
+$\quad\Rightarrow{}\quad \boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 </div>
 
 -----------------------------------
