@@ -299,15 +299,15 @@ $$
 The first integral can be done using integration by parts:
 
 \begin{align*}
-\int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx &=\left\[\frac{\left(1+x\right)\sin{\left(n\pi{}x\right)}}{n\pi{}}+{\frac{\cos(n\pi{}x)}{n^2{\pi{}}^2}}\right]\binom{0}{-1}
+\int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx &=\left[ \frac{\left(1+x\right)\sin{\left(n\pi{}x\right)}}{n\pi{}}+{\frac{\cos(n\pi{}x)}{n^2{\pi{}}^2}} \right]\binom{0}{-1}
 \newline
 \newline
 &=
-\frac{1}{n^2{\pi{}}^2}\left\[1-\cos{n\pi{}}\right],\ \ \ for\ any\ n\geq{}1,
+\frac{1}{n^2{\pi{}}^2}\left[ 1-\cos{n\pi{}} \right],\ \ \ for\ any\ n\geq{}1,
 \newline
 \newline
-\Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left\[ 1-{\left(-1\right)}^n \right]= 
-\left\\{ \begin{array}{l}0, \ \ \ \ \ \ \ n\ even \newline \frac{2}{n^2{\pi{}}^2},\ \ \ n\ odd \end{array} \right. 
+\Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left[ 1-{\left(-1\right)}^n \right]= 
+\left\{ \begin{array}{l}0, \ \ \ \ \ \ \ n\ even \newline \frac{2}{n^2{\pi{}}^2},\ \ \ n\ odd \end{array} \right. 
 \end{align*}
 
 
@@ -328,7 +328,7 @@ b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
 dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\pi{}\ dx\ }
 \newline \newline
 &=\
--\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left\[\cos{n\pi{}-1}\right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
+-\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1}\ right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
 \end{align*}
 
 Thus,

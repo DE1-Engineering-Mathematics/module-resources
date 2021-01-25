@@ -3,7 +3,8 @@
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       processEscapes: true
-    }
+    },
+    CommonHTML: { scale: 110, linebreaks: { automatic: true } }
   });
 </script>
 
