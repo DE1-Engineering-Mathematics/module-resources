@@ -128,7 +128,7 @@ $\Rightarrow{}\quad$
 $\mathcal{L}^{-1}\{F(s)\}= \ \mathcal{L}^{-1}\{ {\frac{5}{s}-\frac{4}{s-2}+\frac{24}{(s-2)^5}}\}$ <br>
     
 $\Rightarrow{}\quad$
-$\boxed{f(s)=5-{4e^{2t}}+e^{2t}{t^4}}$
+$\boxed{f(t)=5-{4e^{2t}}+e^{2t}{t^4}}$
 </div>
 
 (b) $G(s)= \frac{7s-1}{(s+1)(s+2)(s-3)}$
