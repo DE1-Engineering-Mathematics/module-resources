@@ -273,7 +273,7 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 
 </div>
 
-(b) $f\left(x\right)=\left \{\begin{array}{l}1+x,\ \ \ \ \ for\ -1\leq{}x\leq{}0 \newline
+(b) $f\left(x\right)=\left \\{\begin{array}{l}1+x,\ \ \ \ \ for\ -1\leq{}x\leq{}0 \newline
 1,\ \ \ \ \ \ \ \ \ \ for\ 0 < x\leq{}1\end{array} \right. $
 with n = 2
 
@@ -718,7 +718,7 @@ $$
 
 </div>
 
-(b) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ -\pi{}\leq{}x<0, \newline
+(b) $f\left(x\right)=\left\{\begin{array}{l}0,\ \ \ -\pi{}\leq{}x<0, \newline
 1,\ \ \ \ \ 0\leq{}x<\ \pi{}\end{array}\right.$
 
 <div class = "answer">
@@ -727,11 +727,11 @@ C_n=\frac{1}{2\pi{}}\int_{-\pi{}}^{\pi{}}f(x)e^{-inx}dx=\frac{1}{2\pi{}}\int_0^{
 $$
 
 $$
-=-\frac{1}{2\pi{}in}\left\[e^{-inx}-1\right]=\frac{1-{(-1)}^n}{2\pi{}in} \\\\
+=-\frac{1}{2\pi{}in}\left[ e^{-inx}-1\right]=\frac{1-{(-1)}^n}{2\pi{}in} \\\\
 $$
 
 $$
-\Rightarrow{}\ \ \left\\{\begin{array}{l}0,\ \ \ \ \ \ \ \ n\ even, \newline
+\Rightarrow{}\ \ \left\{\begin{array}{l}0,\ \ \ \ \ \ \ \ n\ even, \newline
 \frac{1}{\pi{}in},\ \ \ \ n\ odd,\ \end{array}\right.\ ,\ for\ n\not=0. \\\\
 $$
 
