@@ -328,7 +328,7 @@ b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
 dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\pi{}\ dx\ }
 \newline \newline
 &=\
--\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1}\ right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
+-\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1} \right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
 \end{align*}
 
 Thus,
@@ -340,7 +340,7 @@ $$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}
 
 </div>
 
-(c) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ \ \ if\ -2\leq{}x\leq{}-1 \newline
+(c) $f\left(x\right)=\left\{\begin{array}{l}0,\ \ \ \ \ if\ -2\leq{}x\leq{}-1 \newline
     1,\ \ \ \ \ if\ -1 < x < 1 \newline
     0,\ \ \ \ \ if\ \ 1\leq{}x\leq{}2\end{array}\right.
     $
@@ -353,7 +353,7 @@ $$
 a_n &=\frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}dx=\frac{1}{2}\int_{-1}^1\cos{\left(\frac{n\pi{}x}{2}\right)dx}	
 \newline \newline
 &=
-\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}=\left\\{\begin{array}{l}0\
+\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}=\left\{\begin{array}{l}0\
   \ \ \ \ \ \ \ \ \ \ \ \ \ if\ n\ even \newline
   \frac{2}{n\pi{}}\ \ \ \ \ \ \ \ \ \ \ \ if\ n=4n+1 \newline
   -\frac{2}{n\pi{}}\ \ \ \ \ \ \ \ \ \ if\ n=4n+3\end{array}\right.
