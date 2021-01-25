@@ -218,7 +218,7 @@ For the following functions
 (I) Find the Fourier coefficients and series in the given interval,
 (II) Plot the function and the given partial sum over the given interval.
 
-(a) $f\left(x\right)=x^3,\ \ \ for\ \left\[-1,1\right]$, with n = 5
+(a) $f\left(x\right)=x^3,\ \ \ for\ \left[ -1,1\right]$, with n = 5
 
 <div class = "answer">
 The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions, the formulae found in the notes can be used:
@@ -273,8 +273,8 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 
 </div>
 
-(b) $f\left(x\right)=\left\\{\begin{array}{l}1+x,\ \ \ \ \ for\ -1\leq{}x\leq{}0 \newline
-1,\ \ \ \ \ \ \ \ \ \ for\ 0 < x\leq{}1\end{array}\right. $
+(b) $f\left(x\right)=\left \{\begin{array}{l}1+x,\ \ \ \ \ for\ -1\leq{}x\leq{}0 \newline
+1,\ \ \ \ \ \ \ \ \ \ for\ 0 < x\leq{}1\end{array} \right. $
 with n = 2
 
 <div class = "answer">
@@ -340,7 +340,7 @@ $$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}
 
 </div>
 
-(c) $f\left(x\right)=\left\{\begin{array}{l}0,\ \ \ \ \ if\ -2\leq{}x\leq{}-1 \newline
+(c) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ \ \ if\ -2\leq{}x\leq{}-1 \newline
     1,\ \ \ \ \ if\ -1 < x < 1 \newline
     0,\ \ \ \ \ if\ \ 1\leq{}x\leq{}2\end{array}\right.
     $
@@ -380,7 +380,7 @@ $$
 </div>
 
 (d) $f\left(x\right)=\sin{\left(x\right)}{cos}^2\left(x\right),\ \ \ on\
-    \[-\pi{},\pi{}]$
+    [ -\pi{},\pi{} ]$
 
 <div class = "answer">
 Note that $f(x)=\sin\left(x\right)\cos^2\left(x\right)$ is odd on the interval $\left[-1,1\right]$.Therefore, the Fourier series representation will only contain sine terms with coefficients as:
@@ -400,11 +400,11 @@ $$
 Using the sine product to sum identity,
 
 $$
-\sin{(nx)}\sin{(2x)}=\frac{1}{2}\[\cos{(nx-2x)}-\cos{(nx+2x)}]
+\sin{(nx)}\sin{(2x)}=\frac{1}{2}[ \cos{(nx-2x)}-\cos{(nx+2x)}]
 $$
 
 $$
-b_n=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left\[\cos{\left(n-2\right)}x-\cos{\left(n+2\right)x}\right]\
+b_n=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left[ \cos{\left(n-2\right)}x-\cos{\left(n+2\right)x}\right]\
 dx
 $$
 
@@ -417,13 +417,13 @@ Using the cosine product to sum identity;
 For the first integral on the right
 
 $$
-\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1}{2}\left\[\cos{\left(\left(n-2\right)+1\right)x+\cos{\left(\left(n-2\right)-1\right)x}}\right]\
+\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1}{2}\left[ \cos{\left(\left(n-2\right)+1\right)x+\cos{\left(\left(n-2\right)-1\right)x}}\right]\
 dx
 $$
 
 $$
 =\frac{1}{4\pi{}}\
-\left\[\frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]\binom{\pi{}}{0}=0
+\left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]\binom{\pi{}}{0}=0
 $$
 
 Provided $n\not=1,3$. Similarly, the second integral is also zero. It remains to find what happens at n=1, and n=3.
@@ -445,24 +445,24 @@ dx}
 $$
 
 $$
-=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left\[\cos{\left(3x-2x\right)-\cos{\left(3x+2x\right)}}\right]\
+=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left[ \cos{\left(3x-2x\right)-\cos{\left(3x+2x\right)}}\right]\
 dx=\frac{1}{2\pi{}}\int_0^{\pi{}}{\cos}^2x dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos{x\cos{5x}}dx\
 $$
 
 For the first integral,
 
 $$
-\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1+\cos{2x}}{2}dx=\frac{1}{4\pi{}}\left\[x+\frac{1}{2}\sin{2x}\right]\binom{\pi{}}{0}=\frac{1}{4}
+\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1+\cos{2x}}{2}dx=\frac{1}{4\pi{}}\left[ x+\frac{1}{2}\sin{2x}\right]\binom{\pi{}}{0}=\frac{1}{4}
 $$
 
 For the second integral,
 
 $$
-\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1}{2}\left\[\cos{\left(5x+x\right)+\cos{\left(5x-x\right)}}\right]dx=\frac{1}{4\pi{}}\int_0^{\pi{}}(\cos{6x+\cos{4x)}}dx
+\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1}{2}\left[ \cos{\left(5x+x\right)+\cos{\left(5x-x\right)}}\right]dx=\frac{1}{4\pi{}}\int_0^{\pi{}}(\cos{6x+\cos{4x)}}dx
 $$
 
 $$
-=\frac{1}{4\pi{}}\left\[\frac{1}{6}\sin{6x}+\frac{1}{4}\sin{4x}\right]\binom{\pi{}}{0}=0
+=\frac{1}{4\pi{}}\left[ \frac{1}{6}\sin{6x}+\frac{1}{4}\sin{4x}\right]\binom{\pi{}}{0}=0
 $$
 
 So $b_3=\frac{1}{4}$, meaning the Fourier series representation is:
@@ -492,14 +492,14 @@ a_n &=\frac{1}{2}\int_{-2}^2f\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)dx
 dx
 \newline \newline
 &=
-\frac{1}{2}\int_{-2}^0\frac{1}{2}\left\[\sin{\left(\frac{\left(1+n\right)\pi{}x}{2}\right)}+\sin{\left(\frac{\left(1-n\right)\pi{}x}{2}\right)}\right]\
+\frac{1}{2}\int_{-2}^0\frac{1}{2}\left[ \sin{\left(\frac{\left(1+n\right)\pi{}x}{2}\right)}+\sin{\left(\frac{\left(1-n\right)\pi{}x}{2}\right)}\right]\
 dx
 \newline \newline
 &=
-\frac{1}{4}\left\[-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1+n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1-n\right)\pi{}x}{2}}\right]\binom{0}{-2}
+\frac{1}{4}\left[ -\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1+n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1-n\right)\pi{}x}{2}}\right]\binom{0}{-2}
 \newline \newline
 &=
--\frac{1}{4}\left\\{\frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{ {\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)}\right\\}=\frac{ {\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
+-\frac{1}{4}\left\{\frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{ {\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)}\right\}=\frac{ {\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
 \ \ \ \ for\ \ n\not=1
 \newline \newline
 a_1 &= \frac{1}{2}\int_{-2}^0\sin{\left(\frac{\pi{}x}{2}\right)\cos{\left(\frac{\pi{}x}{2}\right)\
@@ -512,15 +512,15 @@ $b_n$ coefficients:
 b_n &= \frac{1}{2}\int_{-2}^2f\left(x\right)\sin{\left(\frac{n\pi{}x}{2}\right)dx=\frac{1}{2}}\int_{-2}^0\sin{\left(\frac{nx}{2}\right)}\sin{\left(\frac{n\pi{}x}{2}\right)}dx
 \newline \newline
 &=
-\frac{1}{2}\int_{-2}^0\frac{1}{2}\left\[\left(\cos{\frac{\left(1-n\right)\pi{}x}{2})-(\cos{\frac{\left(1+n\right)\pi{}x}{2}}}\right)\right]\ dx
+\frac{1}{2}\int_{-2}^0\frac{1}{2}\left[ \left(\cos{\frac{\left(1-n\right)\pi{}x}{2})-(\cos{\frac{\left(1+n\right)\pi{}x}{2}}}\right)\right]\ dx
 \newline \newline
 &=
-\frac{1}{4}\left\[\frac{2}{\pi{}\left(1-n\right)}\sin{\frac{\left(1-n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\sin{\frac{\left(1+n\right)\pi{}x}{2}}\right]\binom{0}{-2}=0,\
+\frac{1}{4}\left[ \frac{2}{\pi{}\left(1-n\right)}\sin{\frac{\left(1-n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\sin{\frac{\left(1+n\right)\pi{}x}{2}}\right]\binom{0}{-2}=0,\
 \ \ \ for\ n\not=1
 \newline \newline
 b_1 &= \frac{1}{2}\int_{-2}^0\sin^2{(\frac{\pi{}x}{2})} dx
 =\frac{1}{2}\int_{-2}^0\frac{1-\cos{\pi{}x}}{2}\
-dx=\frac{1}{4}\left\[x-\frac{1}{\pi{}}\sin{\pi{}x}\right]\binom{0}{-2}=\frac{1}{2}\
+dx=\frac{1}{4}\left[ x-\frac{1}{\pi{}}\sin{\pi{}x}\right]\binom{0}{-2}=\frac{1}{2}\
 ,\ \ \ \ for\ n=1\
 \end{align*}
 
@@ -658,7 +658,7 @@ $$\left(3+4i\right)e^{-2ix}+{\left(3-4i\right)e}^{2ix}$$
 <div class = "answer">
 
 $$
-\Rightarrow{}\left(3+4i\right)\left\[\cos{\left(2x\right)-i\sin{\left(2x\right)}}\right]+\left(3-4i\right)\left\[\cos{\left(2x\right)+i\sin{\left(2x\right)}}\right] \\\\
+\Rightarrow{}\left(3+4i\right)\left[ \cos{\left(2x\right)-i\sin{\left(2x\right)}}\right]+\left(3-4i\right)\left[ \cos{\left(2x\right)+i\sin{\left(2x\right)}}\right] \\\\
 $$
 
 $$
@@ -666,7 +666,7 @@ $$
 $$
 
 $$
-=\left\[\left(3+4i\right)+\left(3-4i\right)\right]\cos{\left(2x\right)+\left\[\left(4-3i\right)+\left(4+3i\right)\right\]\sin{\left(2x\right)}} \\\\
+=\left[ \left(3+4i\right)+\left(3-4i\right)\right]\cos{\left(2x\right)+\left[ \left(4-3i\right)+\left(4+3i\right)\right]\sin{\left(2x\right)}} \\\\
 $$
 
 $$
@@ -693,23 +693,23 @@ $$
 Using the integration by parts, we have
 
 \begin{align*}
-C_n &=\frac{1}{2\pi{}}\left\[\frac{ {ix}^3e^{-inx}}{n}+\frac{ {3x}^2e^{-inx}}{n^2}-\frac{ {i6xe}^{-inx}}{n^3}-\frac{ {6e}^{-inx}}{n^4}\right]\binom{\pi{}}{-\pi{}} 
+C_n &=\frac{1}{2\pi{}}\left[ \frac{ {ix}^3e^{-inx}}{n}+\frac{ {3x}^2e^{-inx}}{n^2}-\frac{ {i6xe}^{-inx}}{n^3}-\frac{ {6e}^{-inx}}{n^4}\right]\binom{\pi{}}{-\pi{}} 
 \newline \newline 
 &=\
-\frac{1}{2\pi{}n^4}\left\[e^{-inx}(in^3x^3+3n^2x^2-i6nx-6\right]\binom{\pi{}}{-\pi{}}
+\frac{1}{2\pi{}n^4}\left[ e^{-inx}(in^3x^3+3n^2x^2-i6nx-6\right]\binom{\pi{}}{-\pi{}}
 \newline \newline
 &=\
-\frac{1}{2\pi{}n^4}\left\[{\left(-1\right)}^n\left(-in^3{\pi{}}^3+{3n}^2{\pi{}}^2-i6n\pi{}-6\right)-{\left(-1\right)}^n(-in{\pi{}}^3+3n^2{\pi{}}^2+i6n\pi{}-6\right]
+\frac{1}{2\pi{}n^4}\left[ {\left(-1\right)}^n\left(-in^3{\pi{}}^3+{3n}^2{\pi{}}^2-i6n\pi{}-6\right)-{\left(-1\right)}^n(-in{\pi{}}^3+3n^2{\pi{}}^2+i6n\pi{}-6\right]
 \newline \newline
 &=
-\frac{ {(-1)}^n}{2\pi{}n^4}\left\[{2in}^3{\pi{}}^3-12in\pi{}\right]=\frac{ {\left(-1\right)}^n}{n^3}\left(n^2{\pi{}}^2-6\right), \ \ \ \ for\ n\not=0 \newline \newline
+\frac{ {(-1)}^n}{2\pi{}n^4}\left[ {2in}^3{\pi{}}^3-12in\pi{}\right]=\frac{ {\left(-1\right)}^n}{n^3}\left(n^2{\pi{}}^2-6\right), \ \ \ \ for\ n\not=0 \newline \newline
 \end{align*}
 
 $$
 \Rightarrow \quad C_0=\frac{1}{2\pi{}}\int_{-\pi{}}^{\pi{}}x^3dx=0,\ \ \ for\ n=0
 $$
 
-Since $x^3$ is odd on $\left\[-\pi{},\pi{}\right]$. Hence,
+Since $x^3$ is odd on $\left[ -\pi{},\pi{}\right]$. Hence,
 
 $$
 f\left(x\right)=\
