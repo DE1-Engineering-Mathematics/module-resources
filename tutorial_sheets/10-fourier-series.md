@@ -213,6 +213,8 @@ Not periodic: Multiplying a periodic function, $sin^2(x)$, with a non periodic f
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
 
+------------------------------------
+
 ### Problem 4.
 For the following functions
 (I) Find the Fourier coefficients and series in the given interval,
@@ -534,6 +536,8 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 
 </div>
 
+------------------------------------
+
 ### Problem 5.
 Determine if the function $f(x)$ is odd, even, or neither.
 
@@ -718,7 +722,7 @@ $$
 
 </div>
 
-(b) $f\left(x\right)=\left\{\begin{array}{l}0,\ \ \ -\pi{}\leq{}x<0, \newline
+(b) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ -\pi{}\leq{}x<0, \newline
 1,\ \ \ \ \ 0\leq{}x<\ \pi{}\end{array}\right.$
 
 <div class = "answer">
