@@ -327,7 +327,7 @@ Similarly,
 
 \begin{align*}
 b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
-dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\pi{}\ dx\ }
+dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\ dx\ }
 \newline \newline
 &=\
 -\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1} \right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
