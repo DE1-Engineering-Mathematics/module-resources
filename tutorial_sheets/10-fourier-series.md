@@ -136,7 +136,7 @@ $\Rightarrow{} \text{Period} = 2\pi$
     for $-16<p<16$
  
 <div class = "answer">
-$\Rightarrow{} \text{Period} = 8\pi$
+$\Rightarrow{} \text{Period} = 8$
 
 <div id="prob2c" style="width: 600px; height: 300px;"></div> 
 <script>
@@ -162,7 +162,7 @@ $\Rightarrow{} \text{Period} = 8\pi$
 (d) $f\left(q\right)=2q-q^2\ \ \ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
  
 <div class = "answer">
-$\Rightarrow{} \text{Period} = 8\pi$
+$\Rightarrow{} \text{Period} = 2$
 
 <div id="prob2d" style="width: 600px; height: 300px;"></div> 
 <script>
@@ -327,7 +327,7 @@ Similarly,
 
 \begin{align*}
 b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
-dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\pi{}\ dx\ }
+dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\ dx\ }
 \newline \newline
 &=\
 -\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1} \right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
