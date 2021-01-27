@@ -136,7 +136,7 @@ $\Rightarrow{} \text{Period} = 2\pi$
     for $-16<p<16$
  
 <div class = "answer">
-$\Rightarrow{} \text{Period} = 8\pi$
+$\Rightarrow{} \text{Period} = 8$
 
 <div id="prob2c" style="width: 600px; height: 300px;"></div> 
 <script>
@@ -162,7 +162,7 @@ $\Rightarrow{} \text{Period} = 8\pi$
 (d) $f\left(q\right)=2q-q^2\ \ \ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
  
 <div class = "answer">
-$\Rightarrow{} \text{Period} = 8\pi$
+$\Rightarrow{} \text{Period} = 2$
 
 <div id="prob2d" style="width: 600px; height: 300px;"></div> 
 <script>
