@@ -63,8 +63,8 @@ No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
 
 $$
-2 \frac{{\partial{}}^2u}{{\partial{}x}^2} + 
-y^3 \frac{{\partial{}}^2u}{\partial{}y\partial{}x}
+2 \frac{{\partial{}}^2u}{{ \partial{} x }^2} + 
+y^3 \frac{ { \partial{} }^2u }{ \partial{} y\partial{}x }
 = 0
 $$
 
