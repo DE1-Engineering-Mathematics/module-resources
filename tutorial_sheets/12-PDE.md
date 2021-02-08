@@ -62,6 +62,12 @@ No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 ### Problem 2.
 Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
 
+$$
+2 \frac{{\partial{}}^2u}{{\partial{}x}^2} + 
+y^3 \frac{{\partial{}}^2u}{\partial{}y\partial{}x}
+= 0
+$$
+
 <div class = "answer">
 $$
 \frac{\partial{}u}{\partial{}x}=\frac{y^2}{1+xy^2}\ ;\ \ \
@@ -86,7 +92,7 @@ $$
 Prove for the 1D diffusion equation,
 $\frac{ \partial f(x,t)}{ \partial t} = \alpha \frac{ \partial^2 f(x,t)}{\partial x^2}$,
 that the total area under the curve $f(x,t)$ does not change over time.
-(You may assume that $\frac{ \partial f(x,t)}{ \partial x} \rightarrow 0$ for $x \rightarrow \pm\infty$). Suggest a physical interpretation of this?}
+(You may assume that $\frac{ \partial f(x,t)}{ \partial x} \rightarrow 0$ for $x \rightarrow \pm\infty$).
 
 <div class = "answer">
 The area under the curve is calculated by integrating $f(x,t)$ over all x.
@@ -125,8 +131,7 @@ $\sigma(t) = \sqrt{\sigma(0)^2 + 2 \alpha t}$.
 
 
 <div class = "answer">
-This is a show-that question, so you need only show it satisfies the equation, rather than proving it outright (which is done in the course notes). This is an ideal opportunity for the chain rule, rather than directly inserting the form of $\sigma(t)$. First calculate the derivatives of the diffusion equation,}
-\end{comment}
+This is a show-that question, so you need only show it satisfies the equation, rather than proving it outright (which is done in the course notes). This is an ideal opportunity for the chain rule, rather than directly inserting the form of $\sigma(t)$. First calculate the derivatives of the diffusion equation:
 
 
 \begin{align*}
@@ -174,9 +179,7 @@ $\Rightarrow{}$ Inserting into the diffusion equation,
 +\frac{x^2}{\sigma(t)^5}
 \right]\exp\left(-\frac{x^2}{2
 \sigma(t)^2}\right)
-\end{align*}}
-%large equation
-\color{red}
+\end{align*}
 
 $\Rightarrow{}$ Divide common terms,
 \begin{align*}
@@ -203,7 +206,7 @@ $\Rightarrow{}$ Substitute for $\sigma'(t)$,
 \right]
 \end{align*}
 
-$\Rightarrow{}$ LHS is equal RHS, so this is proven.}
+$\Rightarrow{}$ LHS is equal RHS, so this is proven.
 </div>
 
 ------------------------------
