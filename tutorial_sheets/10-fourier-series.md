@@ -239,29 +239,41 @@ b_n = \frac{1}{L} \int_{-L}^{L}f(x)\sin\left(\frac{n\pi x}{L}\right) dx
 $$
 
 
-where $L=1$. Due to the fact that $x^3$ is an odd function, integrating it between $\pm1$ will give a resultant area of 0. We can get around this by:
+where $L=1$ and $f(x) = x^3.$ Plugging these values in, we get:
+
+$$
+b_n = \int_{-1}^{1}x^2\sin\left(n\pi x\right) dx.
+$$
+
+This can be integrated quickly using WolframAlpha: 
+
+`integrate x^3 sin(n*pi*x) between -1 and 1` [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
+
+This results in: 
 
 \begin{align*}
-b_n &=\frac{1}{1} \int_{-1}^{1}x^3\sin\left(\frac{n\pi x}{1}\right) dx
-\newline \newline
-&=
-\int_{0}^{1}x^3\sin\left(n\pi{}x\right) dx + \int_{-1}^{0}x^3\sin\left(n\pi{}x\right) dx
-\newline \newline
-&=
-2\int_{0}^{1}x^3\sin\left(n\pi{}x\right) dx
+b_n  &= \frac{6(\pi^2n^2 - 2)\sin(\pi n) - 2\pi n (\pi^2 n^2 - 6) \cos(\pi n)}{\pi^4 n^4} \newline
+&= -(-1)^n \frac{2( \pi^2 n^2 - 6)}{\pi^4 n^4} \text{ when } n \in \mathbb{Z} \text{ (when n is an integer.)}
 \end{align*}
 
-Using integration by parts: $\int f^{'}g=fg-\int fg^{'}$
+(the function simplification can be found by examining the values of $\sin(\pi n)$ and $\cos(\pi n)$ when $n$ is an integer)
+
+To integrate manually, use integration by parts: $\int f^{'}g=fg-\int fg^{'}.$
 
 \begin{align*}
-b_n &= -\frac{2x^3\cos{\left(n\pi{}x\right)}}{n\pi{}}+\frac{ {6x}^2\sin{\left(n\pi{}x\right)}}{n^2{\pi{}}^2}+\frac{12x\cos{\left(n\pi{}x\right)}}{n^3{\pi{}}^3}-\left.\frac{12\
-\sin(n\pi{}x)}{n^4{\pi{}}^4}\right\vert{}\binom{1}{0}
-\newline
-&=\
--\frac{2\cos{\left(n\pi{}\right)}}{n\pi{}}+\frac{12\cos{\left(n\pi{}\right)}}{n^3{\pi{}}^3}={(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}^3}
+f = x^3, & df = 3x^2 dx
+g = -\frac{\cos(\pi n x)}{\pi n}
 \end{align*}
 
-Note that $\sin(\textit{n$\pi$}) = 0$, and $\cos(\textit{n$\pi$}) = (-1)^n...$ if you're not sure why, try drawing the curves.
+$$
+= \left. \left(-\frac{x^3 cos(\pi n x)}{\pi n} \right) \right\vert^1_{-1} + \frac{3}{\pi n} \int^1_{-1}x^2 \cos(\pi n x) dx
+$$ 
+
+Repeating twice more to bring $x^2$ down to $1$ and then integrating the remaining expression, results in:
+
+$$
+= -\frac{12 \sin(\pi n)}{\pi^4 n^4} + \frac{12 \cos(\pi n)}{ \pi^3 n^3} + \frac{6 \sin(\pi n)}{\pi^2 n^2} - \frac{2 \cos(\pi n)}{\pi n}
+$$
 
 $\therefore$ the Fourier series representation is:
 
