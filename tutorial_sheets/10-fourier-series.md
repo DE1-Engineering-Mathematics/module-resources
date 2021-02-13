@@ -258,6 +258,9 @@ b_n  &= \frac{6(\pi^2n^2 - 2)\sin(\pi n) - 2\pi n (\pi^2 n^2 - 6) \cos(\pi n)}{\
 
 (the function simplification can be found by examining the values of $\sin(\pi n)$ and $\cos(\pi n)$ when $n$ is an integer)
 
+
+<br>
+
 To integrate manually, use integration by parts: $\int f^{'}g=fg-\int fg^{'}.$
 
 \begin{align*}
@@ -306,11 +309,14 @@ a_n&=\frac{1}{L} \int_{-L}^{L}f(x)\cos\left(\frac{n\pi x}{L}\right) dx
 The second integral is straight forward:
 
 $$
-\int_{0}^{1}\cos\left(\frac{n\pi x}{L}\right) dx =\frac{1}{n\pi{}}\
-\left.\sin{\left(n\pi{}x\right)}\right\vert{}\binom{1}{0}=\frac{1}{n\pi{}}\left(0-0\right)=0
+\int_{0}^{1}\cos\left(\frac{n\pi x}{L}\right) dx = \left. \frac{1}{n\pi{}}\sin{\left(n\pi{}x\right)} \right\vert_{-1}^1=\frac{1}{n\pi{}}\left(0-0\right)=0
 $$
 
-The first integral can be done using integration by parts:
+The first integral can be done quickly using WolframAlpha: `integrate (x+1)cos(n* pi x) from -1 to 0` which evaluates to:
+
+$$\frac{1 - \cos(\pi n)}{\pi^2 n^2} =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
+
+To do this manually, apply integration by parts:
 
 \begin{align*}
 \int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx &=\left[ \frac{\left(1+x\right)\sin{\left(n\pi{}x\right)}}{n\pi{}}+{\frac{\cos(n\pi{}x)}{n^2{\pi{}}^2}} \right]\binom{0}{-1}
@@ -320,12 +326,8 @@ The first integral can be done using integration by parts:
 \frac{1}{n^2{\pi{}}^2}\left[ 1-\cos{n\pi{}} \right],\ \ \ for\ any\ n\geq{}1,
 \newline
 \newline
-\Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left[ 1-{\left(-1\right)}^n \right]= 
-\left\{ \begin{array}{l}0, \ \ \ \ \ \ \ n\ even \newline \frac{2}{n^2{\pi{}}^2},\ \ \ n\ odd \end{array} \right. 
+\Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left[ 1-{\left(-1\right)}^n \right]. 
 \end{align*}
-
-
-If you're not sure where the odd/even separation for this integral comes for, try substituting some values of n to see what happens. It's very similar to the reason that $cos(n\pi)$ becomes $(-1)^n$ and $sin(n\pi)$ becomes 0.
 
 For $a_0$ sub in $n = 0$:
 
@@ -347,7 +349,10 @@ dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\ dx\ }
 
 Thus,
 
-$$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}\frac{\cos{\left(\left(2n+1\right)\pi{}x\right)}}{ {\left(2n+1\right)}^2}-\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{ {\left(-1\right)}^n}{n}sin⁡(n\pi{}x)\
+$$ \boxed{ f\left(x\right) =
+\frac{3}{4}+
+\frac{1}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}\frac{1 - (-1)^n}{n^2}\cos(n\pi{}x)
++\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{ {\left(-1\right)}^{n+1}}{n} \sin⁡(n\pi{}x)
 }$$
 
 <iframe src="https://www.desmos.com/calculator/6lglrfcrfl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -359,34 +364,29 @@ $$ \boxed{ f\left(x\right)=\frac{3}{4}+\frac{2}{ {\pi{}}^2}\sum_{n=1}^{\infty{}}
     0,\ \ \ \ \ if\ \ 1\leq{}x\leq{}2\end{array}\right.
     $
 <div class="answer">
+Starting with $a_0$,
+
 $$
-a_0=\frac{1}{2L}\int_{-L}^Lf\left(x\right)dx=\frac{1}{4}\int_{-1}^1dx=\frac{1}{2}
+a_0=\frac{1}{2L}\int_{-L}^Lf\left(x\right)dx = \frac{1}{4}\int_{-1}^1 1 \space dx = \frac{1}{2}
 $$
+
+Moving onto the $a_n$ terms:
 
 \begin{align*}
-a_n &=\frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}dx=\frac{1}{2}\int_{-1}^1\cos{\left(\frac{n\pi{}x}{2}\right)dx}	
+a_n &= \frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}dx = \frac{1}{2}\int_{-1}^1 1 \cdot \cos{\left(\frac{n\pi{}x}{2}\right)dx}	
 \newline \newline
 &=
-\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}=\left\{\begin{array}{l}0\
-  \ \ \ \ \ \ \ \ \ \ \ \ \ if\ n\ even \newline
-  \frac{2}{n\pi{}}\ \ \ \ \ \ \ \ \ \ \ \ if\ n=4n+1 \newline
-  -\frac{2}{n\pi{}}\ \ \ \ \ \ \ \ \ \ if\ n=4n+3\end{array}\right.
+\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}.
 \end{align*}
 
-$$
-b_n=\frac{1}{L}\int_{-L}^Lf\left(x\right)\sin{\left(\frac{n\pi{}x}{2}\right)}dx=\frac{1}{2}\int_{-1}^1\sin{\left(\frac{n\pi{}x}{2}\right)dx}=0
-$$
+And finally, the $b_n$ terms will all be $0$ because the function is even (and therefore would contain no odd Fourier series components), so
 
-Fourier series representation:
-
-$$
-\frac{1}{2}+\frac{2}{\pi{}}\cos{\left(\frac{\pi{}x}{2}\right)}-\frac{2}{3\pi{}}\cos{\left(\frac{3\pi{}x}{2}\right)}+\frac{2}{5\pi{}}\cos{\left(\frac{5\pi{}x}{2}\right)}-...
-$$
+$$b_n = 0.$$
 
 Thus
 $$
 \boxed{f(x) = 
-\frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{(4n+1)\pi{}}\cos{\left(\frac{\pi{}}{2}\left(4n+1\right)\right)}-\frac{2}{\left(4n+3\right)\pi{}}\cos{\left(\frac{\pi{}}{2}\left(4n+3\right)\right)}}
+\frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}}
 $$
 
 <iframe src="https://www.desmos.com/calculator/qrmj8iw5ha" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -397,7 +397,17 @@ $$
     [ -\pi{},\pi{} ]$
 
 <div class = "answer">
-Note that $f(x)=\sin\left(x\right)\cos^2\left(x\right)$ is odd on the interval $\left[-1,1\right]$.Therefore, the Fourier series representation will only contain sine terms with coefficients as:
+To shortcut this problem, you can make the guess (after plotting the function, perhaps) that $\sin(x)\cos(x)^2$ might be able to be rearranged into a sum of sine components. Entering `sin(x)cos(x)^2` and going to the "Alternate form" section in WolframAlpha reveals that 
+
+$$\sin(x)\cos(x)^2 = \boxed{ \frac{1}{4}\sin(x) + \frac{1}{4}\sin(3x) }$$
+
+This function can already directly be represented in terms of a sum of sine components and therefore, we do not need to compute the series within the given interval (this would reveal that there is an exact approximation with a finite number of terms; the two we just found).
+
+<br>
+
+To compute terms manually, using the definition of the Fourier series:
+
+Note that $f(x)=\sin\left(x\right)\cos^2\left(x\right)$ is odd on the interval $\left[ -1,1\right ]$. Therefore, the Fourier series representation will only contain sine $b_n$ terms.
 
 $$
 b_n=\frac{1}{\pi{}}\int_{-\pi{}}^{\pi{}}f(x)\sin{\left(\frac{n\pi{}x}{\pi{}}\right)\ dx=}\
@@ -499,6 +509,16 @@ f\left(x\right)\approx b_1\sin{x}+b_3\sin{3x}\approx \frac{1}{4}\sin{x}+\frac{1}
 
 Function neither odd nor even $\therefore$ requires both sine and cosine terms.
 
+Expressions for terms can be found quickly using Wolfram Alpha: 
+
+$a_0 = $ `integrate 1/2 * sin(pi * x / 2)cos(pi * x / 2) from -2 to 0` <br>
+$a_n = $ `integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0` <br>
+$b_n = $ `integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0` <br>
+
+<br>
+
+To compute manually:
+
 $a_n$ coefficients:
 
 \begin{align*}
@@ -513,7 +533,7 @@ dx
 \frac{1}{4}\left[ -\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1+n\right)\pi{}x}{2}}-\frac{2}{\pi{}\left(1+n\right)}\cos{\frac{\left(1-n\right)\pi{}x}{2}}\right]\binom{0}{-2}
 \newline \newline
 &=
--\frac{1}{4}\left\{\frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{ {\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)}\right\}=\frac{ {\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
+-\frac{1}{4} \left( \frac{4}{\pi{}\left(1+n\right)\left(1-n\right)}+\frac{ {\left(-1\right)}^n4}{\pi{}\left(1+n\right)\left(1-n\right)} \right) =\frac{ {\left(-1\right)}^{n+1}-1}{\pi{}\left(1+n\right)\left(1-n\right)},\
 \ \ \ \ for\ \ n\not=1
 \newline \newline
 a_1 &= \frac{1}{2}\int_{-2}^0\sin{\left(\frac{\pi{}x}{2}\right)\cos{\left(\frac{\pi{}x}{2}\right)\
