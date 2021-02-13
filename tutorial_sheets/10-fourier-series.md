@@ -247,7 +247,7 @@ $$
 
 This can be integrated quickly using WolframAlpha: 
 
-```integrate x^3 sin(n*pi*x) between -1 and 1``` [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
+"integrate x^3 sin(n*pi*x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
 
 This results in: 
 
@@ -312,7 +312,7 @@ $$
 \int_{0}^{1}\cos\left(\frac{n\pi x}{L}\right) dx = \left. \frac{1}{n\pi{}}\sin{\left(n\pi{}x\right)} \right\vert_{-1}^1=\frac{1}{n\pi{}}\left(0-0\right)=0
 $$
 
-The first integral can be done quickly using WolframAlpha: ```integrate (x+1)cos(n* pi x) from -1 to 0``` which evaluates to:
+The first integral can be done quickly using WolframAlpha: "integrate (x+1)cos(n* pi x) from -1 to 0" which evaluates to:
 
 $$\frac{1 - \cos(\pi n)}{\pi^2 n^2} =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
 
@@ -397,7 +397,7 @@ $$
     [ -\pi{},\pi{} ]$
 
 <div class = "answer">
-To shortcut this problem, you can make the guess (after plotting the function, perhaps) that $\sin(x)\cos(x)^2$ might be able to be rearranged into a sum of sine components. Entering ```sin(x)cos(x)^2``` and going to the "Alternate form" section in WolframAlpha reveals that 
+To shortcut this problem, you can make the guess (after plotting the function, perhaps) that $\sin(x)\cos(x)^2$ might be able to be rearranged into a sum of sine components. Entering "sin(x)cos(x)^2" and going to the "Alternate form" section in WolframAlpha reveals that 
 
 $$\sin(x)\cos(x)^2 = \boxed{ \frac{1}{4}\sin(x) + \frac{1}{4}\sin(3x) }$$
 
@@ -511,9 +511,9 @@ Function neither odd nor even $\therefore$ requires both sine and cosine terms.
 
 Expressions for terms can be found quickly using Wolfram Alpha: 
 
-$a_0 = $ ```integrate 1/2 * sin(pi * x / 2)cos(pi * x / 2) from -2 to 0``` <br>
-$a_n = $ ```integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0``` <br>
-$b_n = $ ```integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0``` <br>
+$a_0 = $ "integrate 1/2 * sin(pi * x / 2)cos(pi * x / 2) from -2 to 0" <br>
+$a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0" <br>
+$b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" <br>
 
 <br>
 
