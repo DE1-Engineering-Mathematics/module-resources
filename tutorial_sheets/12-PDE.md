@@ -47,7 +47,7 @@ No, but e.g. $\nabla^2 f(\mathbf{x}) + f = 0$
 Yes, $\nabla^2 f(x + i y) = 0$, this becomes a useful result in complex analysis.
 </div>
 
-(d) $4 \arctan(y/x)^2 + \log(x^2 +y^2)$
+(d) $4 \arctan(y/x) + \log(x^2 +y^2)$
 <div class = "answer">
 Yes, $\nabla^2 f(\mathbf{x}) = 0$
 </div>
