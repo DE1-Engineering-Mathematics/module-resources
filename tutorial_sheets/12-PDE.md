@@ -47,7 +47,7 @@ No, but e.g. $\nabla^2 f(\mathbf{x}) + f = 0$
 Yes, $\nabla^2 f(x + i y) = 0$, this becomes a useful result in complex analysis.
 </div>
 
-(d) $4 \arctan(y/x)^2 + \log(x^2 +y^2)$
+(d) $4 \arctan(y/x) + \log(x^2 +y^2)$
 <div class = "answer">
 Yes, $\nabla^2 f(\mathbf{x}) = 0$
 </div>
@@ -87,7 +87,93 @@ $$
 
 -----------------------------------------------------------------------------------
 
+<br>
+
+## Exam Style Questions
 ### Problem 3.
+
+Solve the 3D wave equation by separation of variables to show,
+$u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
+is a solution. With $\mathbf{k} = (k_x, k_y, k_z)^T$
+What is the resulting relationship between $\mathbf{k}$ and $\omega$?
+$$
+\frac{n^2}{c^2}\frac{\partial^2 u(\mathbf{x}, t)}{\partial t^2} - \nabla^2 u(\mathbf{x}, t) = 0
+$$
+
+<div class = "answer">
+<b>NB:</b>   Coordinate vector $\mathbf{x} = (x,y,z)$ and, $u(\mathbf{x}) = (u(x),v(x),w(x))^T$ is a vector field. (Don’t forget the AT notation allows us to write a column vector as a transposed row vector, to save space!) <br><br>
+    
+$\Rightarrow{}$ Start with a separation of variables solution, let $u(\mathbf{x}, t) = X(x)Y(y)Z(z)T(t)$.
+then,
+
+\begin{align*}\frac{n^2}{c^2}{T''(t)}{X(x)Y(y)Z(z)} - \frac{X''(x)}{Y(y)Z(z)T(t)} - \frac{Y''(y)}{X(x)Z(z)T(t))} - \frac{Z''(z)}{X(x)Y(y)T(t)} = 0 \end{align*}
+\begin{align*}
+\frac{n^2}{c^2}\frac{T''(t)}{T(t)} - \frac{X''(x)}{X(x)} - \frac{Y''(y)}{Y(y)} - \frac{Z''(z)}{Z(z)} = 0
+\end{align*}
+
+$\Rightarrow{}$ There is some freedom of choice as to how you define the constants here.
+In order to match to the test solution, $u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
+the most straightforward choice is,
+
+\begin{align*}
+\frac{T''(t)}{T(t)} = -\omega^2 \quad
+\frac{X''(x)}{X(x)} = -k_x^2 \quad
+\frac{Y''(y)}{Y(y)} = -k_y^2 \quad
+\frac{Z''(z)}{Z(z)} = -k_z^2 \space .
+\end{align*}
+
+$\Rightarrow{}$  But here we'll solve as if we assumed arbitrary constants instead,
+
+\begin{align*}
+\frac{T''(t)}{T(t)} = a \quad
+\frac{X''(x)}{X(x)} = b \quad
+\frac{Y''(y)}{Y(y)} = c \quad
+\frac{Z''(z)}{Z(z)} = d \space .
+\end{align*}
+
+$\Rightarrow{}$ With $\frac{n^2}{c^2} a + b + c + d = 0$.
+Solving the ODEs, we get,
+
+\begin{align*}
+T(t) &= A_+ e^{+ \sqrt{a} t} + A_- e^{- \sqrt{a} t}
+\newline
+X(x) &= B_+ e^{+ \sqrt{b} x} + B_- e^{- \sqrt{b} t}
+\end{align*}
+
+$\Rightarrow{}$ And equivalently for $Y(y)$ and $Z(z)$.
+To match with our test solution,
+
+$u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$, We'll keep the negative exponential from the $T(t)$ function,
+and the positive exponentials from the spatial functions.
+This allow us to build the solution,
+
+$u(\mathbf{x}, t) \propto \exp(\sqrt{b} x + \sqrt{c} y + \sqrt{d} z - \sqrt{a} t)$,
+Matching coefficients requires,}
+
+$$
+\sqrt{a} = i \omega \quad
+\sqrt{b} = i k_x \quad
+\sqrt{c} = i k_y \quad
+\sqrt{d} = i k_z \quad .
+$$
+
+$\Rightarrow{}$ Which gives,
+$u(\mathbf{x}, t) \propto \exp(i k_x x + i k_y y + i k_z z - i \omega t)$,
+or $\exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$.
+and a dispersion relations,}
+
+$$
+\boxed{ \frac{n^2}{c^2} \omega^2 = k_x^2 + k_y^2 + k_z^2 }
+$$
+
+</div>
+
+--------------------------------
+<br>
+
+
+## Challenging Questions
+### Problem 4.
 
 Prove for the 1D diffusion equation,
 $\frac{ \partial f(x,t)}{ \partial t} = \alpha \frac{ \partial^2 f(x,t)}{\partial x^2}$,
@@ -123,7 +209,7 @@ The area taken over a region of the space will be proportional to the number of 
 
 -----------------------------------------------------------------------------------
 
-### Problem 4.
+### Problem 5.
 Show that a Gaussian function,
 $f(x,t) = \frac{1}{\sigma(t)\sqrt{2\pi}} \exp\left( -\frac{x^2}{2\sigma(t)^2} \right)$
 , solves the 1D diffusion equation, on the condition that
@@ -211,7 +297,7 @@ $\Rightarrow{}$ LHS is equal RHS, so this is proven.
 
 ------------------------------
 
-### Problem 5.
+### Problem 6.
 
 For an initial concentration,
 $f(x,0) = \frac{1}{\sigma_0}\exp\left( -\frac{(x-x_0)^2}{2 \sigma_0^2} \right)$,
@@ -244,87 +330,6 @@ $$
 \exp\left(-\frac{25\,\mu\mathrm{m}^2}{82\,\mu\mathrm{m}^2}\right)
 \approx 0.12 \mu\mathrm{m}^{-1} }
 $$
-</div>
-
------------------------------------
-
-## Exam Style Questions
-### Problem 6.
-
-Solve the 3D wave equation by separation of variables to show,
-$u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
-is a solution. With $\mathbf{k} = (k_x, k_y, k_z)^T$
-What is the resulting relationship between $\mathbf{k}$ and $\omega$?
-$$
-\frac{n^2}{c^2}\frac{\partial^2 u(\mathbf{x}, t)}{\partial t^2} - \nabla^2 u(\mathbf{x}, t) = 0
-$$
-
-<div class = "answer">
-<b>NB:</b>   Coordinate vector $\mathbf{x} = (x,y,z)$ and, $u(\mathbf{x}) = (u(x),v(x),w(x))^T$ is a vector field. (Don’t forget the AT notation allows us to write a column vector as a transposed row vector, to save space!) <br><br>
-    
-$\Rightarrow{}$ Start with a separation of variables solution, let $u(\mathbf{x}, t) = X(x)Y(y)Z(z)T(t)$.
-then,
-
-\begin{align*}\frac{n^2}{c^2}{T''(t)}{X(x)Y(y)Z(z)} - \frac{X''(x)}{Y(y)Z(z)T(t)} - \frac{Y''(y)}{X(x)Z(z)T(t))} - \frac{Z''(z)}{X(x)Y(y)T(t)} = 0 \end{align*}
-\begin{align*}
-\frac{n^2}{c^2}\frac{T''(t)}{T(t)} - \frac{X''(x)}{X(x)} - \frac{Y''(y)}{Y(y)} - \frac{Z''(z)}{Z(z)} = 0
-\end{align*}
-
-$\Rightarrow{}$ There is some freedom of choice as to how you define the constants here.
-In order to match to the test solution, $u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
-the most straightforward choice is,
-
-\begin{align*}
-\frac{T''(t)}{T(t)} = -\omega^2 \quad
-\frac{X''(x)}{X(x)} = -k_x^2 \quad
-\frac{Y''(y)}{Y(y)} = -k_y^2 \quad
-\frac{Z''(z)}{Z(z)} = -k_z^2 \space .
-\end{align*}
-
-$\Rightarrow{}$  But here we'll solve as if we assumed arbitrary constants instead,
-
-\begin{align*}
-\frac{T''(t)}{T(t)} = a \quad
-\frac{X''(x)}{X(x)} = b \quad
-\frac{Y''(y)}{Y(y)} = c \quad
-\frac{Z''(z)}{Z(z)} = d \space .
-\end{align*}
-
-$\Rightarrow{}$ With $\frac{n^2}{c^2} a + b + c + d = 0$.
-Solving the ODEs, we get,
-
-\begin{align*}
-T(t) &= A_+ e^{+ \sqrt{a} t} + A_- e^{- \sqrt{a} t}
-\newline
-X(x) &= B_+ e^{+ \sqrt{b} x} + B_- e^{- \sqrt{b} t}
-\end{align*}
-
-$\Rightarrow{}$ And equivalently for $Y(y)$ and $Z(z)$.
-To match with our test solution,
-
-$u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$, We'll keep the negative exponential from the $T(t)$ function,
-and the positive exponentials from the spatial functions.
-This allow us to build the solution,
-
-$u(\mathbf{x}, t) \propto \exp(\sqrt{b} x + \sqrt{c} y + \sqrt{d} z - \sqrt{a} t)$,
-Matching coefficients requires,}
-
-$$
-\sqrt{a} = i \omega \quad
-\sqrt{b} = i k_x \quad
-\sqrt{c} = i k_y \quad
-\sqrt{d} = i k_z \quad .
-$$
-
-$\Rightarrow{}$ Which gives,
-$u(\mathbf{x}, t) \propto \exp(i k_x x + i k_y y + i k_z z - i \omega t)$,
-or $\exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$.
-and a dispersion relations,}
-
-$$
-\boxed{ \frac{n^2}{c^2} \omega^2 = k_x^2 + k_y^2 + k_z^2 }
-$$
-
 </div>
 
 
