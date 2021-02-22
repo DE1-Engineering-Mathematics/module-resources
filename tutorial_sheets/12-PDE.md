@@ -89,7 +89,7 @@ $$
 
 <br>
 
-## Exam Style Questions
+## Challenging Questions
 ### Problem 3.
 
 Solve the 3D wave equation by separation of variables to show,
@@ -168,11 +168,8 @@ $$
 
 </div>
 
---------------------------------
-<br>
+-----------
 
-
-## Challenging Questions
 ### Problem 4.
 
 Prove for the 1D diffusion equation,
@@ -331,6 +328,9 @@ $$
 \approx 0.12 \mu\mathrm{m}^{-1} }
 $$
 </div>
+
+
+<br><br>
 
 
 ## Answers
