@@ -386,7 +386,7 @@ $$b_n = 0.$$
 Thus
 $$
 \boxed{f(x) = 
-\frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}}
+\frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)} \cdot \cos\left(\frac{\pi}{2}nx\right)}
 $$
 
 <iframe src="https://www.desmos.com/calculator/qrmj8iw5ha" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
