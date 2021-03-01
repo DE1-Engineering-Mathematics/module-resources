@@ -83,9 +83,9 @@ u(x-h) = u(x)-h u'(x)+\frac{1}{2}h^2u''(x)-\frac{1}{6}h^3u'''(x)+o(h^4)
 
 Similarly,  $u(x-2h)$ can be expanded as below
 
-\begin{equation*}
+\begin{equation}
 u(x-2h)=u(x)-(2h) u'(x)+\frac{1}{2}(2h)^2u''(x)-\frac{1}{6}(2h)^3u'''(x)+o((2h)^4)
-\end{equation*}
+\end{equation}
 
 Inserting $(1)$ and $(2)$ in the initial approximate equation for $u'(x)$, gives
 
@@ -235,10 +235,6 @@ From here we can use the update equation to iterate,
 
 
 -----------------------------------
-
-## Challenging Questions
-### Problem n.
-
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
