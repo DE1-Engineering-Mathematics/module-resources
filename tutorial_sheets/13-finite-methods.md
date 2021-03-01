@@ -69,9 +69,9 @@ The error is $6.05-6=0.05$, halving step size results in a halving of error. So,
 ## Challenging Questions
 ### Problem 2.
 Suppose we want a one-sided approximation to $u'(x)$ based on $u(x)$,$u(x-h)$ and $u(x-2h)$,of the form:
-\begin{equation*}
+$$
     u'(x)\approx au(x)+bu(x-h)+cu(x-2h)
-\end{equation*}
+$$
 Determine the coefficients $a$, $b$, and $c$ to give the best possible accuracy by expanding in taylor series and collecting terms.
 
 <div class = "answer">
