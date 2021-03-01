@@ -131,7 +131,7 @@ $\Rightarrow{}$  But here we'll solve as if we assumed arbitrary constants inste
 \frac{Z''(z)}{Z(z)} = d \space .
 \end{align*}
 
-$\Rightarrow{}$ With $\frac{n^2}{c^2} a + b + c + d = 0$.
+$\Rightarrow{}$ With $\frac{n^2}{c^2} a - b - c - d = 0$.
 Solving the ODEs, we get,
 
 \begin{align*}
@@ -301,7 +301,7 @@ $f(x,0) = \frac{1}{\sigma_0}\exp\left( -\frac{(x-x_0)^2}{2 \sigma_0^2} \right)$,
 governed by the diffusion equation, calculate the concentration at
 $x=0\,\mu\mathrm{m}$ and $t=10\,\mathrm{s}$, for $x_0 = 5\,\mu\mathrm{m}$,
 $\sigma_0 = 1\,\mu\mathrm{m}$, and $\alpha = 2\,\mu\mathrm{m}^2\mathrm{s}^{-1}$.
-(Use the solution given in Q4 to help)
+(Use the solution given in Q5 to help)
 
 <div class = "answer">
 $\Rightarrow{}$ First set up a solution to the diffusion equation such that it matches the initial condition. i.e.
