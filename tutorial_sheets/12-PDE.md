@@ -131,7 +131,7 @@ $\Rightarrow{}$  But here we'll solve as if we assumed arbitrary constants inste
 \frac{Z''(z)}{Z(z)} = d \space .
 \end{align*}
 
-$\Rightarrow{}$ With $\frac{n^2}{c^2} a + b + c + d = 0$.
+$\Rightarrow{}$ With $\frac{n^2}{c^2} a - b - c - d = 0$.
 Solving the ODEs, we get,
 
 \begin{align*}
