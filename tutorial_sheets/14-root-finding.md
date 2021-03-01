@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Tutorial Sheet Title, Week x
+# Root Finding Tutorial Sheet, #13
 
 ### Additional resources
 * [SJC - Newton-Raphson](https://youtu.be/evYOeTyeo1M)
