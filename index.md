@@ -66,9 +66,12 @@ __[How these sheets are made.](how-to)__
 * Mier Harris - 2020
 * Ragavi Thavayoganathan - 2020
 * Saian Patel - 2020
-* Zhao Qi - 2020
+* Zhao Qi So - 2020
 * Arturo Cano Amoros - 2020
 * Michela Puglia - 2020
 * Ciara Bates - 2020
 * Michela Puglia - 2020
 * Mathy Tharany - 2020
+* Emmeline Bolton - 2020
+* Omar Ben-Gacem - 2020
+* Amelia Bryant - 2020
