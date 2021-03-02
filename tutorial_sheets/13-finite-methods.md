@@ -183,14 +183,19 @@ We can then plug these values into the update equation to find,
     &= (2 - 0.1) 1 - 1 \\
     &= 0.9
 \end{align*}
-Similarly for $x(2 \Delta t)$, which depends on $x(\Delta t)$ and $x(0)$,<br><br>
+Similarly for $x(2 \Delta t)$, which depends on $x(\Delta t)$ and $x(0)$,
 
-| $t/ \Delta t$  | $x(t)$       |
-| :------------- | :----------: |
-| -1  |  1  |
-|  0  |  1  |
-|  1  |  0.9 |
-|  2  |  0.71  |
+<br><br>
+
+\begin{align*}
+& t / \Delta  t &   & x(t) & \newline
+\hline
+& -1 &    & 1 & \newline
+& 0 &    & 1 & \newline
+& 1 &    & 0.9 & \newline
+& 2 &    & 0.71 & \newline
+\hline
+\end{align*}
 
 </div>
 
@@ -221,12 +226,15 @@ Or with all initial conditions,
 $x(-\Delta t) = x(\Delta t) = 0.95$.
 From here we can use the update equation to iterate,
 
-| $t/ \Delta t$  | $x(t)$    |
-| :------------- | :-------: |
-| -1  |  0.95  |
-|  0  |  1  |
-|  1  |  0.95 |
-|  2  |  0.81  |
+\begin{align*}
+& t / \Delta  t &   & x(t) & \newline
+\hline
+& -1 &    & 0.95 & \newline
+& 0 &    & 1 & \newline
+& 1 &    & 0.95 & \newline
+& 2 &    & 0.81 & \newline
+\hline
+\end{align*}
 
 </div>
 
