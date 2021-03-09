@@ -56,8 +56,7 @@ $$
 $$
 \boxed{ \therefore y = 1.43x - 0.714 }
 $$
-
-![figure1](13-optimisation/optimisation_graphic_1.png)
+<img src = "13-optimisation/optimisation_graphic_1.png">
 
 Additional lines added for the curious.
 </div>
@@ -145,7 +144,7 @@ b
 \end{bmatrix}
 $$
 
-![figure1](13-optimisation/optimisation_graphic_2.png)
+<img src = "13-optimisation/optimisation_graphic_2.png">
 
 Additional lines added for the curious.
 </div>
@@ -233,7 +232,7 @@ b
 \end{bmatrix}
 $$
 
-![figure1](13-optimisation/optimisation_graphic_3.png)
+<img src = "13-optimisation/optimisation_graphic_3.png">
 
 Additional lines added for the curious.
 
@@ -254,7 +253,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 <div class = "answer">
 
-![figure1](13-optimisation/optimisation_graphic_5.png)
+<img src = "13-optimisation/optimisation_graphic_5.png">
 
 </div>
 
