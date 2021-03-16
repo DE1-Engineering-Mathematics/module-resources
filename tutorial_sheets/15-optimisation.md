@@ -23,8 +23,8 @@
 Find the line of best fit, using minimised sum squared residuals, of the form $y=mx+c$, through the following three points: (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
 <div class = "answer">
-Taking the equation for linear regression directly from notes:}
-\vspace{-0.1cm}
+Taking the equation for linear regression directly from notes:
+
 \begin{equation*}
     m = \frac{\sum(x_i-\bar{x})y_i}{\sum(x_i-\bar{x})^2}
 \end{equation*}
@@ -65,18 +65,18 @@ Additional lines added for the curious.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
 
 <div class = "answer">
-Still a linear regression problem as the function is linear within it's parameters.}
+Still a linear regression problem as the function is linear within it's parameters.
 
 $$
 S = \sum_{i=1}^{3} (y_i - f(x_i))^2 = \sum_{i=1}^{3} (y_i - ax^2 - b)^2
 $$
 
 $$
-\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-x_i^2)(y_i - ax_i^2 - b)^2 = 0
+\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-x_i^2)(y_i - ax_i^2 - b) = 0
 $$
 
 $$
-\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ax_i^2 - b)^2 = 0
+\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ax_i^2 - b) = 0
 $$
 
 Rearranging:
@@ -115,7 +115,7 @@ a=\frac{490 - 62b}{2498} \therefore 2498a + 62b =490
 $$
 
 $$
-b=\frac{1}{3} \times 15 - \frac{a}{3} \times 62 \therefore 62a + 3b =1
+b=\frac{1}{3} \times 15 - \frac{a}{3} \times 62 \therefore 62a + 3b = 15
 $$
 
 $$
@@ -160,11 +160,11 @@ S = \sum_{i=1}^{3} (y_i - f(x_i))^2 = \sum_{i=1}^{3} (y_i - ae^{x_i} - b)^2
 $$
 
 $$
-\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-e^{x_i})(y_i - ax_i^2 - b)^2 = 0
+\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-e^{x_i})(y_i - ae^{x_i} - b) = 0
 $$
 
 $$
-\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ae^{x_i} - b)^2 = 0
+\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ae^{x_i} - b) = 0
 $$
 
 Rearranging:
