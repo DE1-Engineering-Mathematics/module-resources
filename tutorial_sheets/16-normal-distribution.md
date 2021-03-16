@@ -29,7 +29,7 @@ Alex took a test and scored 940. The mean score was 850 with the standard deviat
 
 <div class = "answer">
 
-![fig1a](16-normal-distribution/1a.png)
+<img src = "16-normal-distribution/1a.png">
 
 </div>
 
@@ -53,7 +53,7 @@ $ \Rightarrow{} P(X < 600)=0.006=0.6\% $
 
 $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 
-![fig1c](16-normal-distribution/1c.png)
+<img src = "16-normal-distribution/1c.png">
 
 </div>
 
@@ -65,7 +65,7 @@ According to a survey from 100 undergraduate students, only 5 students were grad
 (a) Draw a Gaussian/Bell Curve for the given Data.
 <div class = "answer">
 
-![fig2a](16-normal-distribution/2a.png)
+<img src = "16-normal-distribution/2a.png">
 
 </div>
 
@@ -95,7 +95,7 @@ $\Rightarrow{} P(X<40)=0.049=5 \\% $
 
 $\Rightarrow{} \boxed{ 5 \text{ Students}}$
 
-![fig2c](16-normal-distribution/2c.png)
+<img src = "16-normal-distribution/2c.png">
 
 </div>
 
@@ -109,8 +109,8 @@ $ \Rightarrow{} P(40 < X < 60)=0.678=68 \\%  $
 
 $ \Rightarrow{} \boxed{68\ \text{ Students}}$
 
-![fig2d](16-normal-distribution/2d.png)
 
+<img src = "16-normal-distribution/2d.png">
 </div>
 
 -----------------
@@ -122,7 +122,7 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 
 <div class = "answer">
 
-![fig3a](16-normal-distribution/3a.png)
+<img src = "16-normal-distribution/3a.png">
 
 </div>
 
@@ -146,7 +146,7 @@ $ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $
 
 $ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$
 
-![fig3c](16-normal-distribution/3c.png)
+<img src = "16-normal-distribution/3c.png">
 </div>
 
 (d) Three bags were randomly selected. Find the probability that two bags weigh more than 53kg and one weighs less than 53kg.
@@ -166,7 +166,7 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 (a) Draw a Gaussian/Bell Curve for the given Data with highlighting the jumps over 1.78. 
 <div class = "answer">
 
-![fig4a](16-normal-distribution/4a.png)
+<img src = "16-normal-distribution/4a.png">
 
 </div>
 
