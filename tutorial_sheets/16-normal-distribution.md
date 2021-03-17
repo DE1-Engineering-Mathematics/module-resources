@@ -64,7 +64,7 @@ $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 -----------------
 
 ### Problem 2.
-According to a survey from 100 undergraduate students, only 5 students were graduated with a grade above 70\%. If the average student grade was 55\%:
+According to a survey from 100 undergraduate students, only 5 students were graduated with a grade above 70%. If the average student grade was 55%:
 
 (a) Draw a Gaussian/Bell Curve for the given Data.
 <div class = "answer">
@@ -136,7 +136,7 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 <div class = "answer" >
 $ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\frac{\ 53\ -\ 50}{4\ \sqrt{2} }\right) \right) \right] $ <br>
 
-$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23% }$ 
+$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\% }$ 
 </div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
