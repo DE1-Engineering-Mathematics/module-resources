@@ -35,23 +35,27 @@ Alex took a test and scored 940. The mean score was 850 with the standard deviat
 
 (b) If there were a total of 200 students taking the test, how many would be expected to get a higher mark than Alex?
 <div class  = "answer">
-$\Rightarrow{} P(X>940)=1 - \left[\frac{1}{2} \left(1 + \text{ erf}\ \left(\frac{\ 940\ -\ 850}{100\ \sqrt{2}} \right)\right)\right]$
+$\Rightarrow{} P(X>940)=1 - \left[\frac{1}{2} \left(1 + \text{ erf}\ \left(\frac{\ 940\ -\ 850}{100\ \sqrt{2}} \right)\right)\right]$ <br>
 
-$\Rightarrow{} P(X>940)=1-0.81594=0.18406$
+$\Rightarrow{} P(X>940)=1-0.81594=0.18406$ <br>
 
-$\Rightarrow{} 0.18406\times 200=36.81$ students
+$\Rightarrow{} 0.18406\times 200=36.81$ students <br>
 
-$\Rightarrow{}$ rounding down: $\boxed{\text{ only 36 students are expected to be higher }}$
+$\Rightarrow{}$ rounding down: $\boxed{\text{ only 36 students are expected to be higher }}$ <br>
 </div>
 
 (c) If the failing mark for this test was 600, how many of the 200 students would be expected to failed the test? Show this on your diagram
 
 <div class = "answer" >
 $ \Rightarrow{} P(X < 600)=\left[\frac{1}{2} \left(1 + \text{ erf}\ \left(\frac{\ 600\ -\ 850}{100\ \sqrt{2}} \right)\right)\right] $
+<br>
 
 $ \Rightarrow{} P(X < 600)=0.006=0.6\% $
+<br>
 
 $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
+
+<br>
 
 <img src = "16-normal-distribution/1c.png">
 
@@ -70,44 +74,45 @@ According to a survey from 100 undergraduate students, only 5 students were grad
 </div>
 
 (b) Using the given data, find the standard deviation for the graduation grades.
-<div class = "answer"
 
-$ \Rightarrow{} P(X>70)=[\frac{1}{2}{({1{-{ \text{ erf}\ {(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}}}]=5\% $
+<div class = "answer">
 
-$ \Rightarrow{} P(X>70)={0.5{ \text{erf}{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $
+$ \Rightarrow{} P(X>70)=[\frac{1}{2}{({1{-{ \text{ erf}\ {(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}}}]=5\% $ <br>
 
-$ \Rightarrow{} \text{ erf}(x) =0.9 $
+$ \Rightarrow{} P(X>70)={0.5{ \text{erf}{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =0.9 $
+$ \Rightarrow{} \text{ erf}(x) =0.9 $ <br>
 
-$ \Rightarrow{} x={(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}=1.227 $
+$ \Rightarrow{} \text{ tanh}(1.2x) =0.9 $ <br>
+
+$ \Rightarrow{} x={(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}=1.227 $ <br>
 
 $ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
 
 </div>
 
-(c) If the failing grade is to be 40\%, how many students would possibly fail the course? Show this on the diagram as well.
+(c) If the failing grade is to be 40%, how many students would possibly fail the course? Show this on the diagram as well.
 
 <div class = "answer">
 $\Rightarrow{} P(X < 40)=\frac{1}{2}{\left({1{+{\text{ erf}\ {\left(\frac{\ 40\ -\ 55}{8.64\ \sqrt{2}}\right)}}}}\right)} $
 
-$\Rightarrow{} P(X<40)=0.049=5 \\% $
+$\Rightarrow{} P(X<40)=0.049=5% $ <br>
 
-$\Rightarrow{} \boxed{ 5 \text{ Students}}$
+$\Rightarrow{} \boxed{ 5 \text{ Students}}$ <br>
 
 <img src = "16-normal-distribution/2c.png">
 
 </div>
 
-(d) How many students would be expected to pass the course below 60\%? Add this to your diagram.
+(d) How many students would be expected to pass the course below 60%? Add this to your diagram.
 <div class = "answer" >
-$ \Rightarrow{} P(40< X < 60)=P(X < 60)-P(X < 40)  $
+$ \Rightarrow{} P(40< X < 60)=P(X < 60)-P(X < 40)  $ <br>
 
-$ \Rightarrow{} P(40 < X < 60)= \frac{1}{2}\left[\text{ erf}\left(\frac{60-55}{8.64\ \sqrt{2}}\right)- \text{ erf}\left(\frac{40-55}{8.64\ \sqrt{2}}\right)\right] $
+$ \Rightarrow{} P(40 < X < 60)= \frac{1}{2}\left[\text{ erf}\left(\frac{60-55}{8.64\ \sqrt{2}}\right)- \text{ erf}\left(\frac{40-55}{8.64\ \sqrt{2}}\right)\right] $ <br>
 
-$ \Rightarrow{} P(40 < X < 60)=0.678=68 \\%  $
+$ \Rightarrow{} P(40 < X < 60)=0.678=68%  $ <br>
 
-$ \Rightarrow{} \boxed{68\ \text{ Students}}$
+$ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 
 <img src = "16-normal-distribution/2d.png">
@@ -129,20 +134,20 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 (b) Find the probability of bags exceeding 53kg.
 
 <div class = "answer" >
-$ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\frac{\ 53\ -\ 50}{4\ \sqrt{2} }\right) \right) \right] $
+$ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\frac{\ 53\ -\ 50}{4\ \sqrt{2} }\right) \right) \right] $ <br>
 
-$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\% }$
+$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23% }$ 
 </div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
 <div class = "answer" >
-$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \sqrt{2}})}}}})}]=82\% $
+$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \sqrt{2}})}}}})}]=82\% $ <br>
 
-$ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $
+$ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $
+$ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $ <br>
 
-$ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $
+$ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $ <br>
 
 $ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$
 
@@ -151,11 +156,11 @@ $ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$
 
 (d) Three bags were randomly selected. Find the probability that two bags weigh more than 53kg and one weighs less than 53kg.
 <div class = "answer">
-$\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$
+$\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 
-$\Rightarrow{} \text{ Probibility } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$
+$\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 
-$\Rightarrow{} \boxed{ \text{ Probibility } = 4\\% }$
+$\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$
 </div>
 
 -----------------
@@ -173,25 +178,25 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 (b) Find the mean and the standard deviation of the heights the athlete can reach.
 
 <div class = "answer">
-$ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=20\%$
+$ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=20\%$ <br>
 
-$ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$
+$ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br>
 
-$ \Rightarrow{} x=0.57={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$
+$ \Rightarrow{} x=0.57={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$ <br>
 
-$ \Rightarrow{} \text{ also  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$
+$ \Rightarrow{} \text{ also  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
 
-$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$
+$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
 
-$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.35+0.57)}}$
+$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.35+0.57)}}$ <br>
 
-$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.92}=0.1m }$
+$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.92}=0.1m }$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$
+$ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
