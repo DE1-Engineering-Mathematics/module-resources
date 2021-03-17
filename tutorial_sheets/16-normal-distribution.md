@@ -149,7 +149,7 @@ $ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $ <br>
 
 $ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $ <br>
 
-$ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$
+$ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$ <br>
 
 <img src = "16-normal-distribution/3c.png">
 </div>
@@ -160,7 +160,7 @@ $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 
-$\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$
+$\Rightarrow{} \boxed{ \text{Probability} = 4 }$ 
 </div>
 
 -----------------
