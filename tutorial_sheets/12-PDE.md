@@ -106,7 +106,7 @@ $$
 $\Rightarrow{}$ Start with a separation of variables solution, let $u(\mathbf{x}, t) = X(x)Y(y)Z(z)T(t)$.
 then,
 
-\begin{align*}\frac{n^2}{c^2}{T''(t)}{X(x)Y(y)Z(z)} - \frac{X''(x)}{Y(y)Z(z)T(t)} - \frac{Y''(y)}{X(x)Z(z)T(t))} - \frac{Z''(z)}{X(x)Y(y)T(t)} = 0 \end{align*}
+\begin{align*}\frac{n^2}{c^2}{T''(t)}{X(x)Y(y)Z(z)} -X''(x)Y(y)Z(z)T(t) - Y''(y)X(x)Z(z)T(t)) - Z''(z)X(x)Y(y)T(t) = 0 \end{align*}
 \begin{align*}
 \frac{n^2}{c^2}\frac{T''(t)}{T(t)} - \frac{X''(x)}{X(x)} - \frac{Y''(y)}{Y(y)} - \frac{Z''(z)}{Z(z)} = 0
 \end{align*}
