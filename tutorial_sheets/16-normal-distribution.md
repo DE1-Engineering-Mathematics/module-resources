@@ -106,12 +106,12 @@ $\Rightarrow{} \boxed{ 5 \text{ Students}}$ <br>
 
 (d) How many students would be expected to pass the course below 60%? Add this to your diagram.
 <div class = "answer" >
-$ \Rightarrow{} P(40< X < 60)=P(X < 60)-P(X < 40)  $ <br>
-
-$ \Rightarrow{} P(40 < X < 60)= \frac{1}{2}\left[\text{ erf}\left(\frac{60-55}{8.64\ \sqrt{2}}\right)- \text{ erf}\left(\frac{40-55}{8.64\ \sqrt{2}}\right)\right] $ <br>
-
-$ \Rightarrow{} P(40 < X < 60)=0.678=68%  $ <br>
-
+$ \Rightarrow{} P(40< X < 60)=P(X < 60)-P(X < 40)  $ 
+<br>
+$ \Rightarrow{} P(40 < X < 60)= \frac{1}{2}\left[\text{ erf}\left(\frac{60-55}{8.64\ \sqrt{2}}\right)- \text{ erf}\left(\frac{40-55}{8.64\ \sqrt{2}}\right)\right] $ 
+<br>
+$ \Rightarrow{} P(40 < X < 60)=0.678=68 \%  $ 
+<br>
 $ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 
@@ -157,10 +157,8 @@ $ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$ <br>
 (d) Three bags were randomly selected. Find the probability that two bags weigh more than 53kg and one weighs less than 53kg.
 <div class = "answer">
 $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
-
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
-
-$\Rightarrow{} \boxed{ \text{Probability} = 4 }$ 
+$\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
 </div>
 
 -----------------
