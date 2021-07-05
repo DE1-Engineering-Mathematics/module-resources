@@ -56,6 +56,8 @@ $\Rightarrow \quad C = B = \frac{-5}{2}$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} - \frac{5}{2(x-1)}}$
 </div>
 
+<div class = "answer">Hello!</div>
+
 (b) $\frac{5(x-7)}{x^2+2x-35}$
 <div class = "answer">$\Rightarrow{}\quad$ factorize the denominator <br>
 $\Rightarrow \quad x^2+2x-35 = (x+7)(x-5)$ <br>
