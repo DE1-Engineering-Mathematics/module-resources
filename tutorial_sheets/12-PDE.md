@@ -56,6 +56,7 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 <div class = "answer">
 No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -84,6 +85,8 @@ $$
 2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 
 -----------------------------------------------------------------------------------
 
@@ -167,6 +170,8 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 
 -----------
 
@@ -203,6 +208,8 @@ $\Rightarrow{}$ Therefore the area under the concentration curve does not change
 The area will be proportional to numbers of ions or molecules etc. the total number of these will stay the same as they diffuse within the space.
 The area taken over a region of the space will be proportional to the number of particles in that region.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 
 -----------------------------------------------------------------------------------
 
@@ -291,6 +298,8 @@ $\Rightarrow{}$ Substitute for $\sigma'(t)$,
 
 $\Rightarrow{}$ LHS is equal RHS, so this is proven.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 
 ------------------------------
 
@@ -338,6 +347,10 @@ $$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
