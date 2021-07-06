@@ -21,7 +21,8 @@
 * Calculate the sum of a series
 * Use the standard summation formulae 
 * Identify the limiting values of sequence 
-* Determine when/whether a series is (absolutely) convergent 
+* Determine when/whether a series is (absolutely) convergent
+* Test edit
 
 ### Additional Resources
 * [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
