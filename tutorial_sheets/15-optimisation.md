@@ -262,6 +262,129 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 <div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
+-----------------------------------
+
+## Exam Style Questions
+### Problem 5.
+The following sigmoid activation function, $\alpha(x)$, can be found in some artificial neural networks.
+
+$$\alpha(x) = \frac{\omega}{\beta+e^{-x}}$$
+
+Where the “weight”, $w$, and the “bias”, $b$, are adjustable fitting parameters. To train this neuron, an engineer needs to minimise the “cost”, $C$, defined by the function 
+
+$$C(\omega,\beta) = \frac{1}{2n}\sum^n_i{(\alpha(x_i)-y(x_i))^2}$$
+
+Where $y$ is a (very small) dataset containing the three $[x, y]$ points $[0.25, -0.3]$, $[1, 0.5]$ and $[0.8, 2]$. 
+
+(a) Find expressions for the partial derivatives of $C$ with respect to each of the parameters.
+
+<div class = "answer">
+
+Something to keep in mind:
+
+$$\frac{d}{dx}\sum{f(x)} = \sum{\frac{d}{dx}f(x)}$$
+
+So, 
+
+$$
+\frac{\partial C}{\partial \omega } = \frac{\partial}{\partial \omega }\frac{1}{2n}\sum^n_i{(\alpha(x_i)-y(x_i))^2} 
+$$
+
+$$
+= \frac{1}{2n}\sum^n_i{\frac{\partial}{\partial \omega }(\alpha(x_i)-y(x_i))^2}
+$$
+
+Using the method that you want, determine:
+
+$$
+\frac{\partial}{\partial \omega }(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))^2
+$$
+
+Using the chain rule, 
+
+$$
+\frac{\partial}{\partial \omega }(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))^2 = \frac{\partial u^2}{\partial u}\frac{\partial u}{\partial \omega }
+$$
+
+where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial u^2}{\partial u} = 2u$:
+$$
+= 2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg(\frac{\partial}{\partial \omega }\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg)
+$$
+
+Differentiate the sum term by term and factor out constants:
+
+$$
+= \Bigg(\frac{\frac{\partial}{\partial \omega }\omega }{\beta  +e^{-x}}+\frac{\partial}{\partial \omega }(-y(x_i))\Bigg)2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)
+$$
+
+The derivative of $\omega $ is 1:
+$$
+= 2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg(\frac{\partial}{\partial \omega }(-y(x_i))+\frac{1}{\beta  +e^{-x_i}}\Bigg)
+$$
+
+Simplify the expression:
+$$
+= 2 \frac{2(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))-y(x_i)}{\beta  +e^{-x_i}}
+$$
+
+Simplify the expression:
+$$
+\boxed{ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}
+$$
+
+Adding back in the $\frac{1}{2n}\sum^n_i$,
+
+$$
+\boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
+$$
+
+Similarly for $\frac{\partial C}{\partial \beta  }$,
+
+$$
+\boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
+$$
+
+
+[Wolfram Alpha: wrt $\omega$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w)
+
+[Wolfram Alpha: wrt $\beta$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+b)
+
+</div>
+
+(b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $\omega=1$ and $\beta=0$, (reported to 1 significant figure). 
+
+<div class = "answer">
+
+$$
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+$$
+
+|                        |                   | wrt $\omega$                                                                                                                                                 | wrt $\beta$                                                                                                                                                   |
+|------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $x$                    | $y(x)$            | $\frac{e^{x}(y(x)+e^{x}(-\omega + \beta y(x)}{(1+\beta e^{x})^2}$                                                                                            | $\frac{\omega (\frac{\omega}{\beta + e^{-x}}-y(x))}{(\beta + e^{-x_i})^2}$                                                                                    |
+| 0.25                   | -0.3              | [-3.2129](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0) | [2.61162](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3) |
+| 1                      | 0.5               | [-6.02992](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0)   | [16.391](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0)    |
+| 0.8                    | 2                 | [-0.501951](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0)  | [1.11711](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0)   |
+| $-\frac{1}{n}\sum^n_i$ | mean of negatives | 3.248257                                                                                                                                                     | -6.70658                                                                                                                                                      |
+
+$$
+\boxed{\vec{J_C} = \Big[3.248 \hspace{2mm} -6.707\Big]}
+$$
+
+</div>
+
+
+(c) Suggest whether $\omega$ and $\beta$ should be increased or decreased to improve the fit, explaining your answer. 
+
+<div class = "answer">
+
+To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima.
+
+$\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs to be increased.}}$
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ## Answers
 
