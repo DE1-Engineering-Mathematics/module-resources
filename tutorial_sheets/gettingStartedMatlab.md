@@ -8,11 +8,13 @@
 1.
 1.
 ## Interface
-Image
+When you first install Matlab, your interface should look like this, it should have **3 main panels**.
+
+![interface](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/gettingStarted/Interface.png)
 
 **Current folder**, on this panel you can view and access your files.
 
-Image
+![current](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/gettingStarted/Current.png)
 
 **Command Window**, on this panel you can enter commands and interact with variables in real-time. This panel is where most of the action will happen!
 
@@ -20,7 +22,7 @@ Image
 
 **Workspace**, on this panel you can see all your declared variables, their type and their value.
 
-Image
+![workspace](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/gettingStarted/Workspace.png)
 
 ## Declaring variables and basic operations
 ### Declare variables
