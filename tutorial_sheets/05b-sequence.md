@@ -219,16 +219,10 @@ $$
 \lim_{n\rightarrow{}\infty{}}{\frac{1+3n^2}{1+n^2}=3}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-
-(e) Find the range of values of $X$ for which the following series is
-absolutely convergent. 
-$$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
-$$
 
 -----------------------------------------------------------------------------------
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 6.
 (a) Find the range of values of $X$ for which the following series is
