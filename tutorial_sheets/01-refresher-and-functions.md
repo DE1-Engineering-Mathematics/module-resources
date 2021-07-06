@@ -334,6 +334,7 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 <div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
 [3 marks]</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ------------
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>

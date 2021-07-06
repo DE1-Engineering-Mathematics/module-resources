@@ -201,6 +201,7 @@ $ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------
 

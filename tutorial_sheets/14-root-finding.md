@@ -323,6 +323,7 @@ x_{18}&=\mathrm{cos}x_1=0.73956
 The sequence is clearly converging to the root $x\approx 0.74$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 

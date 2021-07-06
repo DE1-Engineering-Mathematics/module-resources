@@ -330,6 +330,7 @@ Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
 $\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 ## Answers

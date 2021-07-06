@@ -466,6 +466,7 @@ z \newline
 
 Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \textbf{b}}$ or $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-k}$ and $\boxed{\textbf{b}=15i+0.5j+2k}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 ## Answers

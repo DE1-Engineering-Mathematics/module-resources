@@ -465,6 +465,7 @@ $$ \boxed{
 t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 

@@ -372,6 +372,7 @@ $$f''(0) = f'''(0) = 0 \text{ and } f^{(4)}(0) = 24$$
 
 It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a local minimum of } f}$.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 <br><br>
 

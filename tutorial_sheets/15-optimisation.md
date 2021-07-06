@@ -260,6 +260,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 ## Answers

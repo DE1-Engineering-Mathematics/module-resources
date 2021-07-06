@@ -221,6 +221,7 @@ $Y(s)=\frac{6}{(s+2)^3}-\frac{2}{(s+2)}+\frac{4}{(s+2)^2}$ <br>
 $y(t)=3e^{-2t}t^2-2{e^{-2t}}+4e^{-2t}t$ <br>
 $\quad\Rightarrow{}\quad \boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 

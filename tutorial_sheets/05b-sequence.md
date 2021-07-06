@@ -400,6 +400,7 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
        = n(n+1)[(2n+1)-2n(n+1)]\\
        = \boxed{n(n+1)(1-2n^2)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 <br><br>

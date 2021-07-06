@@ -788,6 +788,8 @@ $$
 f\left(x\right)\approx\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\frac{1}{2}+\sum_{n\
 odd}\frac{1}{\pi{}in}e^{inx}
 $$
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 </div>
 
 ## Answers

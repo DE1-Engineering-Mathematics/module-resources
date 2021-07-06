@@ -122,6 +122,7 @@ $\Rightarrow \boxed{\text{Over-damped}}$
 <div class = "answer">
 <img src="07-ode-media/figure1.PNG">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
