@@ -16,7 +16,7 @@ Image
 
 **Command Window**, on this panel you can enter commands and interact with variables in real-time. This panel is where most of the action will happen!
 
-Image
+![command window](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/gettingStarted/Command.png)
 
 **Workspace**, on this panel you can see all your declared variables, their type and their value.
 
