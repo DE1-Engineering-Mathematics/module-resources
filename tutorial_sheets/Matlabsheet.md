@@ -36,9 +36,9 @@ This example will create 3 symbolic variables: **x, y and z**.
 syms x y z
 ```
 
-To figure out the data type of a variable you can use the **whos** command or look at the **Workspace** panel, the data type will be indicated under *Class*.
+To figure out the data type of a variable you can use the **whos** function or look at the **Workspace** panel, the data type will be indicated under *Class*.
 
-
+![type](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/Matlabsheet/Type.png)
 
 
 ## Functions
