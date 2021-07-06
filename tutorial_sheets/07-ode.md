@@ -29,15 +29,25 @@
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-Find the general solutions of the following differential equations:
+Find the general solutions of the following differential equations. This is very easy to do with WolframAlpha (or similar), but it's worth understanding how it works.
 
 (a) $\frac{d^2y}{ {dx}^2}-3\frac{dy}{dx}+2y=0$
 <div class = "answer">
 As the equation is a homogeneous ODE:
 
-$\Rightarrow r^2-3r+2=0,\quad r_{1,2}=1, 2$.}
+$\Rightarrow r^2-3r+2=0,\quad r_{1,2}=1, 2$.
+
+$\Rightarrow{}$ Using $r_{1,2}$:
+
+$ y(x)=C_1e^{1x}+C_2e^{2x} $
 
 $\Rightarrow{}$ Therefore, the general solution is: $\boxed{y(x)=C_1e^x+C_2e^{2x}}$
+
+Using WorframAlpha:
+
+<img src="07-ode-media/answer1a.png">
+
+[Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=d2y%2Fdx2+-+3+dy%2Fdx+%2B+2y+%3D+0) (you might need to scroll a bit to find the answer)
 </div>
 
 (b) $\frac{d^2y}{ {dx}^2}+2\frac{dy}{dx}+2y=0$
@@ -46,15 +56,42 @@ $\Rightarrow{}\quad$
 $r^2+2r+2=0, \quad r_{1,2}=-1\pm i$
 
 $\Rightarrow{}\quad\ $Therefore, the general solution is: 
+$ y(x)=C_1e^{-x}\cos{x}+C_2e^{-x}\sin{x} $
+<br><br>
+
+$\Rightarrow{} $Simplified:
+
 $\boxed{y(x)=e^{-x}(C_1\cos{x}+C_2\sin{x})}$
 </div>
 
 (c) $\frac{d^2y}{ {dx}^2}+4\frac{dy}{dx}+4y=0$
 <div class = "answer">
-$\Rightarrow r^2+4r+4=0, \rightarrow r_{1,2}=-2$
-
+$\Rightarrow r^2+4r+4=0, \quad \rightarrow \quad r_{1,2}=-2$ (for both)
+<br><br>
 $\Rightarrow{} $Therefore, the general solution is: 
+$ y(x)=C_1e^{-2x}+C_2e^{-2x}x $,
+<br>
+where the final $x$ appears because the root $-2$ is repeated 2x. If that is confusing, have a look at part (d).
+<br><br>
+
+$\Rightarrow{} $Simplified:
+
 $\boxed{y(x)=(C_1+C_2x)e^{-2x}}$
+</div>
+
+(d) $\frac{d^3y}{ {dx}^3}+6\frac{d^2y}{ {dx}^2}+12\frac{dy}{dx}+8y=0$
+<div class = "answer">
+$\Rightarrow r^3+6r^2+12r+8=0, \quad \rightarrow \quad r_{1,2,3}=-2$ (for all three)
+<br><br>
+$\Rightarrow{} $Therefore, the general solution is: 
+$ y(x)=C_1e^{-2x}+C_2e^{-2x}x+C_3e^{-2x}x^2 $,
+<br>
+where the $x$ & $x^2$ appear because the root $-2$ is repeated 3x.
+<br><br>
+
+$\Rightarrow{} $Simplified:
+
+$\boxed{y(x)=(C_1+C_2x+C_3x^2)e^{-2x}}$
 </div>
 
 -----------------------------------------------------------------------------------
@@ -63,17 +100,20 @@ $\boxed{y(x)=(C_1+C_2x)e^{-2x}}$
 The differential equation $\ddot{x}+2\dot{x}+4x=0$ describes the free vibration of a mass-spring-damper system, where $x(t)$ represents the displacement from equilibrium of mass $M$.
 
 (a) What values of the spring stiffness $k$ and the viscous damping coefficient $c$ does the equation represent?
-<div class = "answer">For the equation $\ddot{x}+2\dot{x}+4x=0,$ $\boxed{\text{the damping coefficient } c = 2 \text{ and the spring stiffness } k=4.}$</div>
+<div class = "answer">You can read these straight off the equation. For $\ddot{x}+2\dot{x}+4x=0,$ $\boxed{\text{the damping coefficient } c = 2 \text{ and the spring stiffness } k=4.}$</div>
 
 (b) Show that the frequency of vibration of the system is $\sqrt{3}$ rad/s and verify that this is equal to $\sqrt{\left(4kM-c^2\right)}/2M$.
 <div class = "answer">The auxiliary equation can be written as follows:
-$mr^2+cr+k=0$ solving for homogeneous ODE:
+$mr^2+cr+k=0$. At $c = 2, k = 4$ & $m = 1$, this gives $r^2+2r+4=0$.
 
-$\Rightarrow{}\ r_{1,2}=\frac{-c}{2m}\pm \frac{1}{2m} \sqrt{c^2-4mk}$,
-substitute the values of $c = 2,\ k = 4,\ m = 1:$
+Solving for homogeneous ODE:
 
-$\Rightarrow{} \boxed{r_{1,2} =-1\pm \sqrt{3} i}$
+$\Rightarrow{}\ r_{1,2}=\frac{-2 \pm \sqrt{2^2 - 4 * 1 * 4}}{2 * 1}$ (the quadratic formula),
 
+$\Rightarrow{} r_{1,2} =-1\pm \sqrt{3} i$
+<br><br>
+The frequency of an ODE is the imaginary component of the solution of the auxillary equation, i.e. frequency  $\boxed{\omega = Im(r) = \sqrt{3}.}$ Note that frequency cannot be negative.
+<br><br>
 $\Rightarrow{} $
 Substituting the values of $c,\ k\ \mathrm{and}\ m$ in $\sqrt{\left(4kM-c^2\right)}/2M$
 $ = \sqrt{3}$
