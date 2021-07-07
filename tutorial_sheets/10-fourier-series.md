@@ -159,7 +159,7 @@ $\Rightarrow{} \text{Period} = 8$
 </script>
 </div>
 
-(d) $f\left(q\right)=2q-q^2\ \ \ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
+(d) $f\left(q\right)=2q-q^2\ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
  
 <div class = "answer">
 $\Rightarrow{} \text{Period} = 2$
@@ -193,6 +193,7 @@ State whether the following functions are periodic, and if so, find their period
 (a) $\cos(x) + \sin(2x)$
 <div class = "answer">
 Periodic: Summing two periodic functions results in a function that is still periodic.
+The period of $\text{cos}(x) = 2\pi$ and $\text{sin}(2x) = \pi$. The lowest common multiple of $\pi$ and $2\pi$ is equal to the period of $\text{cos}(x) + \text{sin}(2x)$.
 
 $\Rightarrow{} \boxed{ \text{Period } =2\pi}$
 </div>
@@ -200,7 +201,8 @@ $\Rightarrow{} \boxed{ \text{Period } =2\pi}$
 (b) $\sin{\left(x\right)}\cos{\left(x\right)}$
 
 <div class = "answer">
-Periodic: Multiplying two periodic functions results in a function that is still periodic
+Periodic: Multiplying two periodic functions results in a function that is still periodic.
+Using trigonometric identities $\text{sin}(x)\text{cos}(x)$ can be rewritten as $\frac{1}{2}\text{sin}(2x)$ which has a period of $\pi$.
 
 $\Rightarrow{} \boxed{ \text{Period } = \pi}$
 </div>
@@ -216,6 +218,44 @@ $\Rightarrow{} \boxed{ \text{Not periodic }}$
 ------------------------------------
 
 ### Problem 4.
+Determine if the function $f(x)$ is odd, even, or neither.
+
+(a) $f\left(x\right)=\ x^2\sin{(2x)}$
+<div class = "answer"> Break the function up: $x^3$ is an even function and $\text{sin}(2x)$ is an odd function. An even function multiplied by an odd function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+(b) $f\left(x\right)=3\sin{\left(x\right)}\cos{\left(4x\right)}$
+<div class = "answer">Break the function up: $3$ is an even function, $\text{sin}(x)$ is an odd function and $\text{cos}(4x)$ is an even function. An even function multiplied by an odd function, multiplied by an even function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+(c) $f\left(x\right)=x^3e^3$
+<div class = "answer">Break the function up: $x^3$ is an odd function and $e^3$ is an even function. An odd function multiplied by an even function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+(d)
+![class-c](10-fourier-series/even-odd-d.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+(e)
+![class-c](10-fourier-series/even-odd-e.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Even function}}$
+</div>
+
+(f)
+![class-c](10-fourier-series/even-odd-f.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+------------------------------------
+
+### Problem 5.
 For the following functions
 (I) Find the Fourier coefficients and series in the given interval,
 (II) Plot the function and the given partial sum over the given interval.
@@ -568,43 +608,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 
 </div>
 
-------------------------------------
 
-### Problem 5.
-Determine if the function $f(x)$ is odd, even, or neither.
-
-(a) $f\left(x\right)=\ x^2\sin{(2x)}$
-<div class = "answer">
-$\Rightarrow{}$ Odd function
-</div>
-
-(b) $f\left(x\right)=3\sin{\left(x\right)}\cos{\left(4x\right)}$
-<div class = "answer">
-$\Rightarrow{}$ Odd function
-</div>
-
-(c) $f\left(x\right)=x^3e^3$
-<div class = "answer">
-$\Rightarrow{}$ Not periodic
-</div>
-
-(d)
-![class-c](10-fourier-series/even-odd-d.PNG)
-<div class = "answer">
-$\Rightarrow{}$ Odd function
-</div>
-
-(e)
-![class-c](10-fourier-series/even-odd-e.PNG)
-<div class = "answer">
-$\Rightarrow{}$ Even function
-</div>
-
-(f)
-![class-c](10-fourier-series/even-odd-f.PNG)
-<div class = "answer">
-$\Rightarrow{}$ Odd function
-</div>
 
 ---------------
 ## Exam Style Questions
