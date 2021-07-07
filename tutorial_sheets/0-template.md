@@ -36,11 +36,9 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 
 (a)
 <div class = "answer"> answer </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 
@@ -57,10 +55,6 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
