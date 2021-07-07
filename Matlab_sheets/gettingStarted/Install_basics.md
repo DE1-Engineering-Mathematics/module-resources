@@ -1,7 +1,7 @@
 # Getting Started with MATLAB
 ## Installation (Windows)
-1. First you need to create a [Mathworks](https://uk.mathworks.com/login) account using your long imperial email (e.g. name.surname21@imperial.ac.uk)
-1. Go
+1. First you need to create a [Mathworks](https://uk.mathworks.com/login) account using your long imperial email (e.g. name.surname21@imperial.ac.uk), Mathworks should recognize that you are from Imperial and grant you the educational license.
+1. Click on your profile
 1.  
 1.
 1.
@@ -63,9 +63,12 @@ ans =
     -22
 ```
 
-- Pressing the **up and down arrows** on the command line will allow you to "recall" commands, give this a try!
+- Pressing the **up and down arrows** on the command line will allow you to "recall" commands, give this a try to understand it.
 - Press **tab** to autocomplete commands.
- 
-
+- To delete variables from the workspace use the **clear** command, **clear all** will delete all of the variables.
+```matlab:Code
+clear a b c d
+```
+- Use **clc** to clear the Command panel and keep things tidy.
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

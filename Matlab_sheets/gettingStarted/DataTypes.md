@@ -1,6 +1,4 @@
-# Matlab Cheatsheet
 
-On this page there will be a detailed bank of functions which are relevant to each topic of the maths course.
 
 ## Data types
 In Matlab variables can be many different things, the most frequent ones you will find are the following:
@@ -41,4 +39,4 @@ To figure out the data type of a variable you can use the **whos** function or l
 ![type](https://github.com/BigKoala33/module-resources/blob/code-solutions/tutorial_sheets/Matlabsheet/Type.png)
 
 
-## Functions
+###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
