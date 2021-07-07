@@ -78,6 +78,7 @@ $\Rightarrow{} $Simplified:
 
 $\boxed{y(x)=(C_1+C_2x)e^{-2x}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $\frac{d^3y}{ {dx}^3}+6\frac{d^2y}{ {dx}^2}+12\frac{dy}{dx}+8y=0$
 <div class = "answer">
@@ -118,6 +119,7 @@ $\Rightarrow{} $
 Substituting the values of $c,\ k\ \mathrm{and}\ m$ in $\sqrt{\left(4kM-c^2\right)}/2M$
 $ = \sqrt{3}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -160,6 +162,7 @@ $\Rightarrow \boxed{\text{Over-damped}}$
 <div class = "answer">
 <img src="07-ode-media/figure1.PNG">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -176,6 +179,10 @@ You can generate a limitless suppply of these second order homogeneous ODE quest
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
