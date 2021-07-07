@@ -70,7 +70,6 @@ Find the eigenvalues and the associated eigenvectors for the transformations rep
 
 ![1h](04B-eigenproblems-media/1h.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = -2}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -286,7 +285,6 @@ To summarise:
 $\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\ 1\\\ -1\end{pmatrix}, \\\ 
 \text{For } \lambda_2 = i. \begin{pmatrix}1 + i \\\ 1\\\ 1\end{pmatrix}, \\\ 
 \text{For } \lambda_3 = -i,\begin{pmatrix}1 - i \\\ 1\\\ 1\end{pmatrix}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -303,7 +301,6 @@ $\Rightarrow{}\quad \begin{pmatrix}a&b\\c&d\end{pmatrix} -\lambda\begin{pmatrix}
 $\Rightarrow{}\quad det(B) = (a - \lambda)(d - \lambda) - bc = 0$
 $\Rightarrow{}\quad \lambda^2 - 2\lambda - 2 = 0$ <br>
 $\Rightarrow{}\quad$ eigenvalues: $\boxed{\lambda_1 = 1 + \sqrt(3), \quad \lambda_2 = 1 - \sqrt(3)}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -317,7 +314,6 @@ $\Rightarrow{}\quad p(\lambda): \lambda^3 -11\lambda^2 +36\lambda -36 = 0$
 $\Rightarrow{}\quad$ if $\lambda_1 = 6$, then $(\lambda - 6)$ is a factor of the polynomial $p(\lambda)$ then dividing the polynomial $p(\lambda)$ by $(\lambda -6)$ <br>
 $\Rightarrow{}\quad \lambda^3 -11\lambda^2 +36\lambda -36 = (\lambda -6)(\lambda^2 -5\lambda + 6) = 0$ <br>
 $\Rightarrow{}\quad$ eigenvalues $\boxed{\lambda_2 = 2, \quad \lambda_3 = 3}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -339,7 +335,6 @@ $\Rightarrow{}\quad
     
 $\Rightarrow{}\quad$ evaluating these three equations with $\boxed{\lambda_2 = 2}$ <br>
 $\Rightarrow{}\quad \boxed{k = 4}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -379,7 +374,6 @@ so that $P^{-1}AP = \begin{pmatrix}2&0&0\\\ 0&2&0\\\ 0&0&3\end{pmatrix}$
 To summarise:
 For $\lambda_1 = 2$ and $\lambda_2 = 2$, eigenvectors of $\boxed{\lambda_1: (1,0,1)^T}, \boxed{\lambda_2: (1,1,0)^T}$ <br>
 For $\boxed{\lambda_3 = 3, (1,1,1)^T.}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 
@@ -405,7 +399,6 @@ $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 (c) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 
 <div class = "answer">$det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ## Challenging Questions
 ### Problem 8.
@@ -445,7 +438,6 @@ $(A - \lambda I) = \begin{pmatrix}-2&0\\0&-4\end{pmatrix} - \begin{pmatrix}\lamb
 $\det (A - \lambda I) = (-2 - \lambda)(-4- \lambda)$ <br>
 Characteristic polynomial: $\boxed{\lambda^2 + 6\lambda + 8}$ <br>
 Eigenvalues: $\boxed{\lambda_1 = -4, \lambda_2 = -2}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
@@ -468,7 +460,6 @@ $\Rightarrow{}\quad
 $\Rightarrow{}\quad$ for $\lambda_1 = 3,\quad bd -ae -aj -ej +fh +cg = -2$
 $\Rightarrow{}\quad -\lambda^3 +5\lambda^2 -2\lambda -12 = 0 \quad\Rightarrow{}\quad (\lambda -3)(-\lambda^2 + 2\lambda +4) = 0$ <br>
 $\Rightarrow{}\quad$ Eigenvalues: $\boxed{\lambda_2 = 1 + \sqrt{5},\quad \lambda_3 = 1 - \sqrt{5}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
@@ -522,7 +513,6 @@ so that $P^{-1}AP = \begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}$</div>
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,
 so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 
@@ -533,10 +523,6 @@ so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

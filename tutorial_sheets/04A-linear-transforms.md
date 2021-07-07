@@ -10,7 +10,7 @@
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-<script type="text/javascript" src="tutorialSheetScripts.js"> </script>a
+<script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 # Linear Transforms Tutorial Sheet, Sheet #4A
@@ -54,7 +54,6 @@ From the following linear transformations, $T:\mathbb{R} \rightarrow \mathbb{R}$
 
 ![1d](04A-linear-transforms-media/1d.png)
 <div class = "answer">$T(a)=-2a$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -81,7 +80,6 @@ The following graphs show pairs of vectors where the vector $\vec{a}$ is linearl
 
 ![2d](04A-linear-transforms-media/2d.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-2&0\\0&-4\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -100,9 +98,6 @@ $\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
 ![3a](04A-linear-transforms-media/3b.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}0&-1\\1&0\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \sin^{-1}(1)=90^{\circ}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
------------------------------------------------------------------------------------
 
 ### Problem 4.
 From applying a linear transformation, $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$ where $T(\vec{a}) = \vec{b}$. Find the vector $\vec{b}$ resulting when a <u>clockwise</u> rotation described by $R(\theta)=\begin{pmatrix}\cos{\theta}&\sin{\theta} \\\ -\sin{\theta}&\cos{\theta}\end{pmatrix}$ is applied to $\vec{a}$. Sketch the vectors $\vec{a}$ and $\vec{b}$ on a Cartesian axes
@@ -119,7 +114,6 @@ $\Rightarrow{}\quad$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} = \boxed{ \begin{pmatrix}3.536\\0.7071\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad$ <br>
 <img src = "04A-linear-transforms-media/4b.png"> </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -174,7 +168,6 @@ From the linear transformations represented in the following figures, obtain the
 NB. Difficult to see exactly in 3D, but each of the scalings are integers.
 
 <div class = "answer">$A = \begin{pmatrix}2&0&0\\0&1&0\\0&0&3\end{pmatrix}$ and $\det(A) = 6$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -199,7 +192,6 @@ $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\
 
 <img src = "04A-linear-transforms-media/6bA.png">
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------
 
@@ -215,7 +207,6 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 <br><br>
 
@@ -224,10 +215,6 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

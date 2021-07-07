@@ -135,7 +135,6 @@ $$
 
 $\frac{1}{\sqrt{2}}A_1=-\frac{1}{2}A_2$, masses move in opposite directions.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------------------------
 
@@ -243,7 +242,6 @@ $$
 $\Rightarrow A_1=A_2$, masses move in phase with each other, in the same direction.
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ------------------------------------------------------
 
@@ -351,7 +349,6 @@ $$
 
 $A_1=A_2$, masses move in phase with each other, in the same direction.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ------------------------------------------------------
 
@@ -362,10 +359,6 @@ $A_1=A_2$, masses move in phase with each other, in the same direction.
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

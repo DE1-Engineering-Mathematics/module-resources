@@ -60,7 +60,6 @@ $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 <img src = "16-normal-distribution/1c.png">
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -118,7 +117,6 @@ $ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 <img src = "16-normal-distribution/2d.png">
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -162,7 +160,6 @@ $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -201,7 +198,6 @@ $ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------
 
@@ -210,10 +206,6 @@ $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
