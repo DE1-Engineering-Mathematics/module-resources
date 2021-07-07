@@ -55,6 +55,7 @@ $\Rightarrow \quad A+B+C = 1,\\ \quad C-B = 0,\\ \quad A = 6$ <br>
 $\Rightarrow \quad C = B = \frac{-5}{2}$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} - \frac{5}{2(x-1)}}$
 </div>
+
 <div class = "answer">Hello!</div>
 
 (b) $\frac{5(x-7)}{x^2+2x-35}$
@@ -75,7 +76,6 @@ $\Rightarrow{}\quad 9A+6B = 0,\quad 12A +13B +2C = 1,\quad 4A+6B+3C=-1$ <br>
 $\Rightarrow{}\quad A = \frac{-2}{5},\quad B=\frac{3}{5},\quad C=-1$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \frac{3}{5(3x+2)} - \frac{1}{(3x+2)^2} }$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -85,7 +85,6 @@ Obtain the derivative of the function, $f(x)=\frac{x+3}{2-x}$, using the definit
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \boxed{ \frac{5}{(2-x)^2} }$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -113,7 +112,6 @@ $\Rightarrow{} f(x) = (x^2+2)(3x+1)^{-1}$ <br>
 $\Rightarrow{} \frac{df(x)}{dx} = 2x(3x+1)^{-1} + (x^2+2)(-3(3x+1)^{-2})$ <br>
 $\Rightarrow{} \boxed{\frac{df(x)}{dx} = \frac{3x^2+2x-6}{(3x+1)^{2}}}$ <br>
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -154,7 +152,6 @@ $\Rightarrow{} \frac{1}{2}\int{u^2 \exp{(u)}}du = \frac{1}{2}\exp{(u)}(u^2 - 2u 
 $\Rightarrow{}$ substitute back for $ u =x^2$ <br>
 $\Rightarrow{} \boxed{\int{x^5 \exp{(x^2)}}dx = \frac{1}{2}\exp{(x^2)}(x^4 - 2x^2 + 2) + c}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -175,7 +172,6 @@ $\Rightarrow{}\ \boxed{R=10 \cdot S^3 \cdot \sqrt[3]{M}}$
 <div class = "answer">$\Rightarrow{} \ln{P=\ln{ \left(Q+1\right) }^{\frac{1}{2}}+\ln{e^2-\ln{R^3}}}$ <br>
 $\Rightarrow{}\ \ \boxed{P=\frac{e^2\sqrt{Q+1}}{R^3}}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -187,7 +183,6 @@ Express the following in log form, with no fractions or powers inside the log.
 
 (b) $P=\frac{1}{16}(2d-1)^2N\sqrt{S}$
 <div class = "answer">$\Rightarrow\log{P}=\boxed{2\log{\left(2d-1\right)}+\log{N}+\frac{1}{2}\log{S}-\log{16}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -209,7 +204,6 @@ $\Rightarrow{}\ \ \ x+1=8x-32\ \ \ \Rightarrow{}\ \ \ \boxed{x=\frac{33}{7}=4.71
 $\Rightarrow{}\ \ x^2-2x-8=0$ <br>
 $\Rightarrow{}\ \ \ (x-4)(x+2)=0\ \ \ x_1=4 \text{ and } x_2=-2\ \ \ \Rightarrow{}\ \ \ \boxed{x=4}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -245,7 +239,6 @@ $ \Rightarrow{}\ \ \boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)\cup{}(1,
 <div class = "answer"> $\Rightarrow{} \boxed{\text{Domain of the function} \Rightarrow{}(-\infty{},\infty{})}$. <br>
 $y=\frac{1}{e^x+1}\ \Rightarrow{}$ at $y=0\ \text{ & } y=1$, the function is undefined. <br>
 $\Rightarrow{}\boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)}$.</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -266,7 +259,6 @@ $\Rightarrow{} \boxed{\log_{20}{17}=\frac{\log_{10}{17}}{\log_{10}20}\approx\fra
 <div class = "answer">$\log_{10}3\times{}\log_3{16}=\log_{10}{16}$ 
 $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.2}{0.5}=2.40}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ## Exam Style Questions
 ### Problem 10.
@@ -310,7 +302,6 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 
 <div class = "answer"><iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
@@ -334,16 +325,11 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 <div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
 [3 marks]</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ------------
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
