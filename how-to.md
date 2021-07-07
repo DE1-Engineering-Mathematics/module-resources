@@ -119,7 +119,7 @@ $ \boxed{\text{a thing}}$ - puts a box around whatever is inside (used for answe
 ## The "Preamble"
 ([a stolen latex term](https://latex.wikia.org/wiki/LaTeX_preamble)) At the top of each tutorial sheet, there is a section of required imports, which setup MathJax, our custom script (for answer show/hide etc) and a css style sheet.
 
-Check the template sheet _insert link_ to copy and paste the current version.
+Check the [template sheet](tutorial_sheets/0-template.md) to copy and paste the current version.
 
 
 ## Intro / Resources
