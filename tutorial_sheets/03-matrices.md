@@ -239,6 +239,7 @@ x + y + 3z &= 0  \newline
 $\Rightarrow{}\quad detA = 13 \quad\Rightarrow{}\quad$ nonsingular (invertible) <br>
 
 $\Rightarrow{}\quad A^{-1}$ can be obtained, but whatever the elements of it $\Rightarrow{}\quad \boxed{x=y=z=0}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -285,6 +286,7 @@ $\quad\Rightarrow{}\ \ \boxed{\text{symmetric and singular}}$</div>
 <div class = "answer">$\quad\Rightarrow{}\quad$
 $\begin{pmatrix}0&-1\\1&0\end{pmatrix}^T=\begin{pmatrix}0&1\\-1&0\end{pmatrix} \quad\Rightarrow{}\ \ \begin{vmatrix}0&-1\\1&0\end{vmatrix} = 0(0)--1(1) = 1$
 $\quad\Rightarrow{}\ \ \boxed{\text{skew-symmetric}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -315,6 +317,7 @@ $\quad\Rightarrow{}\quad \begin{pmatrix}0.6&-0.8&0 \newline 0.8&0.6&0 \newline 0
 $\quad\Rightarrow{}\quad \begin{vmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{-\frac{1}{2}}&-0.5&0.5\\2^{-\frac{1}{2}}&0.5&-0.5\end{vmatrix} = 1 \quad\Rightarrow{}\quad \boxed{\text{no singular}}$ <br>
 $\quad\Rightarrow{}\quad \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{-\frac{1}{2}}&-0.5&0.5\\2^{-\frac{1}{2}}&0.5&-0.5\end{pmatrix}^T = \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{-\frac{1}{2}}&-0.5&0.5\\2^{-\frac{1}{2}}&0.5&-0.5\end{pmatrix}$ <br>
 $\quad\Rightarrow{}\quad \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{-\frac{1}{2}}&-0.5&0.5\\2^{-\frac{1}{2}}&0.5&-0.5\end{pmatrix} \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{-\frac{1}{2}}&-0.5&0.5\\2^{-\frac{1}{2}}&0.5&-0.5\end{pmatrix} = \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}\\ \quad\Rightarrow{}\quad \boxed{\text{orthogonal}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -354,6 +357,7 @@ $BA = \boxed{\begin{bmatrix}
 
 (e) What are the dimensions of $D$ in the following operation? $D = ((BA)^T B - A)C^T$
 <div class = "answer">$[(2x3)(3x3)^T(2x3)-(3x3)](3x1)=\boxed{(3x1)}$ [2 marks]</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 ### Problem 11.
@@ -456,6 +460,7 @@ z \newline
 
 Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \textbf{b}}$ or $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-k}$ and $\boxed{\textbf{b}=15i+0.5j+2k}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ## Answers

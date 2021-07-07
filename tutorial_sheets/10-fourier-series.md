@@ -605,6 +605,7 @@ $\Rightarrow{}$ Even function
 <div class = "answer">
 $\Rightarrow{}$ Odd function
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ---------------
 ## Exam Style Questions
@@ -711,6 +712,7 @@ $$
 
 In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\left(3-4i\right)i=4+3i$ in finding the coefficients in front of the $\sin{(2x)}$ term.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ----------------------
@@ -782,6 +784,8 @@ $$
 f\left(x\right)\approx\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\frac{1}{2}+\sum_{n\
 odd}\frac{1}{\pi{}in}e^{inx}
 $$
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 </div>
 
 ## Answers

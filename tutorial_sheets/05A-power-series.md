@@ -269,6 +269,7 @@ f(2)=1,\quad f'(2)=0,\quad f''(2)=-1\times2!=-2,\quad f'''(2)=\frac{1}{4}\times3
 \end{equation*}	
 After finding the values of f'(2) and f''(2), it can be concluded that \ans{$x_0=2$ is a stationary point and, in particular, it is a local maximum of $f$.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -320,6 +321,7 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 <div class = "answer">
 <iframe src="https://www.desmos.com/calculator/yuoqesic9a" width="100%" height="400px" style="border: 1px solid #ccc"></iframe>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------
@@ -365,6 +367,7 @@ $$f''(0) = f'''(0) = 0 \text{ and } f^{(4)}(0) = 24$$
 
 It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a local minimum of } f}$.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 <br><br>
 

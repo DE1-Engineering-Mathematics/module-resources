@@ -261,6 +261,7 @@ $$\begin{align} \cos3\theta+\mathrm{i}\sin3\theta &=(\cos\theta+\mathrm{i}\sin\t
 Comparing real parts of each side of the equation above, you obtain:
 $$\boxed{\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -325,6 +326,7 @@ Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
 $\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ## Answers

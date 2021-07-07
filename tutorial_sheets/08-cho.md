@@ -242,6 +242,7 @@ $$
 $\Rightarrow A_1=A_2$, masses move in phase with each other, in the same direction.
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------------------------
 
@@ -349,6 +350,7 @@ $$
 
 $A_1=A_2$, masses move in phase with each other, in the same direction.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------------------------
 

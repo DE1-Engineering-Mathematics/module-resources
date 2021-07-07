@@ -78,6 +78,7 @@ $\Rightarrow{} $
 Substituting the values of $c,\ k\ \mathrm{and}\ m$ in $\sqrt{\left(4kM-c^2\right)}/2M$
 $ = \sqrt{3}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -120,6 +121,7 @@ $\Rightarrow \boxed{\text{Over-damped}}$
 <div class = "answer">
 <img src="07-ode-media/figure1.PNG">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

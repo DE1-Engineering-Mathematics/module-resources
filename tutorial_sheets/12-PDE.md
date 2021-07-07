@@ -84,6 +84,7 @@ $$
 2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -167,6 +168,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------
 
@@ -203,6 +205,7 @@ $\Rightarrow{}$ Therefore the area under the concentration curve does not change
 The area will be proportional to numbers of ions or molecules etc. the total number of these will stay the same as they diffuse within the space.
 The area taken over a region of the space will be proportional to the number of particles in that region.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -291,6 +294,7 @@ $\Rightarrow{}$ Substitute for $\sigma'(t)$,
 
 $\Rightarrow{}$ LHS is equal RHS, so this is proven.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------
 
@@ -328,6 +332,7 @@ $$
 \approx 0.12 \mu\mathrm{m}^{-1} }
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 <br><br>
