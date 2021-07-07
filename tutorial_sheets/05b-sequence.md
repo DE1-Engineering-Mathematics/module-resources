@@ -99,13 +99,13 @@ $\Rightarrow S_n= \frac{n}{2}(2a + d(n - 1))
 \\ = \boxed{142}$</div>
 
 (b) $\sum_{n=1}^8n\left(3+2n+n^2\right)$
-<div class = "answer">Break this down into smaller sequences: <br> 
+<div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
 $\Rightarrow 3\sum_{n=1}^8n \ + \ 2\sum_{n=1}^8n^2 \ +\ \sum_{n=1}^8n^3\ 
 \\ = 3(\frac{8(8+1)}{2}) + 2(\frac{8(8+1)(16+1)}{6}) + \frac{64(8+1)^2}{4} 
 \\ = 108 + 408 + 1296 \\= \boxed{1812}$</div>
 
 (c) $\sum_{r=1}^nr\left(r+3\right)$
-<div class = "answer">Break this down into smaller sequences: <br> 
+<div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
 $\Rightarrow \sum_{r=1}^nr^2 \ + 3\sum_{r=1}^nr \\ \\ 
 = \frac{n(n+1)(2n+1)}{6} + 3(\frac{n(n+1)}{2}) \\ \\
 = \frac{n}{6}((n+1)(2n+1) +9(n+1)) \\ \\
@@ -114,7 +114,7 @@ $\Rightarrow \sum_{r=1}^nr^2 \ + 3\sum_{r=1}^nr \\ \\
 =\boxed{\frac{n}{3}\left(n+1\right)\left(n+5\right)}$</div>
 
 (d) $\sum_{r=1}^n{\left(r+1\right)}^3$
-<div class = "answer">Break this down into smaller sequences: <br> 
+<div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
 $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1}^n1 \\ \\
 = \frac{n^2(n+1)^2}{4} + \frac{n(n+1)(2n+1)}{2} + 3(\frac{n(n+1)}{2}) + n \\ \\
 = \frac{n}{4}(n(n+1)^2 + 2(n+1)(2n+1) + 6(n+1) + 4) \\ \\
@@ -413,25 +413,41 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
 A high-risk investment fund offers three possible investment strategy packages to its clients if they invest exactly £1,000,000. The first option is an annual return of 18%, but this is not compounded each year (i.e. the profit from each year is not reinvested). The second option offers a compounded daily return of 0.04%. The third option simply pays you an increasing dividend of £1 on the first day, followed by £2 on the second, £3 on the third and so on.
 
 (a) Calculate the profit after 2 years for each of the three options.
-<div class = "answer"></div>
+<div class = "answer">
+Option 1: 
+$\\ 2 \times £180,000 \Rightarrow \boxed{£360,000}$
+Option 2: 
+$\\ £1,000,000 \times (1.0004^{2 \times 365} − 1) \Rightarrow \boxed{£339,025}$
+Option 3: 
+$\\ (2 \times 365)\frac{(2 \times 365 + 1)}{2} \Rightarrow \boxed{£266,815}$</div>
 
 (b) Which option offers the best return after 10 years?
-<div class = "answer"></div>
+<div class = "answer">
+$\Rightarrow \boxed{\text{Third}}$
+</div>
 
 (c) Which option offers the best return after 30 years?
-<div class = "answer"></div>
+<div class = "answer">
+$\Rightarrow \boxed{\text{Second}}$
+</div>
 
 (d) Draw a graph showing the profit vs. time for the three options over 30
 years.
-<div class = "answer"></div>
+<div class = "answer">
+Insert graph.</div>
 
 (e) Write down an expression for the difference between the profits of the
 second and third options as a function of the number of days since
 investing, 𝑁.
-<div class = "answer"></div>
+<div class = "answer">
+$\frac{N(N+1)}{2 \times 10^6} = 1.0004^N - 1
+\\ \Rightarrow \boxed{f(N) = 1.0004^N - 1 - \frac{N(N+1)}{2 \times 10^6}}$
+</div>
 
 (f) Give an interpretation of the roots of this function.
-<div class = "answer"></div>
+<div class = "answer">
+$\Rightarrow$ The days of investment after which it would be more profitable to have adopted the other strategy.
+</div>
 
 <br><br>
 
