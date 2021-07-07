@@ -26,6 +26,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
     answerButtons = document.getElementsByClassName("answerButton");
     whitespace = document.getElementsByClassName("workingout");
 
+    for (let i = 0; i < whitespace.length; i++) {
+        whitespace.item(i).style.display = "none";
+    }
+
 });
 
 
