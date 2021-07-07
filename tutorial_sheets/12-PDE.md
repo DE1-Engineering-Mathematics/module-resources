@@ -56,6 +56,7 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 <div class = "answer">
 No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

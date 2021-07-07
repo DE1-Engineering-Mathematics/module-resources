@@ -56,6 +56,7 @@ $\Rightarrow r^2+4r+4=0, \rightarrow r_{1,2}=-2$
 $\Rightarrow{} $Therefore, the general solution is: 
 $\boxed{y(x)=(C_1+C_2x)e^{-2x}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

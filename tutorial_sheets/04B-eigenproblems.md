@@ -70,6 +70,7 @@ Find the eigenvalues and the associated eigenvectors for the transformations rep
 
 ![1h](04B-eigenproblems-media/1h.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = -2}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -285,6 +286,7 @@ To summarise:
 $\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\ 1\\\ -1\end{pmatrix}, \\\ 
 \text{For } \lambda_2 = i. \begin{pmatrix}1 + i \\\ 1\\\ 1\end{pmatrix}, \\\ 
 \text{For } \lambda_3 = -i,\begin{pmatrix}1 - i \\\ 1\\\ 1\end{pmatrix}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -301,6 +303,7 @@ $\Rightarrow{}\quad \begin{pmatrix}a&b\\c&d\end{pmatrix} -\lambda\begin{pmatrix}
 $\Rightarrow{}\quad det(B) = (a - \lambda)(d - \lambda) - bc = 0$
 $\Rightarrow{}\quad \lambda^2 - 2\lambda - 2 = 0$ <br>
 $\Rightarrow{}\quad$ eigenvalues: $\boxed{\lambda_1 = 1 + \sqrt(3), \quad \lambda_2 = 1 - \sqrt(3)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -314,6 +317,7 @@ $\Rightarrow{}\quad p(\lambda): \lambda^3 -11\lambda^2 +36\lambda -36 = 0$
 $\Rightarrow{}\quad$ if $\lambda_1 = 6$, then $(\lambda - 6)$ is a factor of the polynomial $p(\lambda)$ then dividing the polynomial $p(\lambda)$ by $(\lambda -6)$ <br>
 $\Rightarrow{}\quad \lambda^3 -11\lambda^2 +36\lambda -36 = (\lambda -6)(\lambda^2 -5\lambda + 6) = 0$ <br>
 $\Rightarrow{}\quad$ eigenvalues $\boxed{\lambda_2 = 2, \quad \lambda_3 = 3}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -335,6 +339,7 @@ $\Rightarrow{}\quad
     
 $\Rightarrow{}\quad$ evaluating these three equations with $\boxed{\lambda_2 = 2}$ <br>
 $\Rightarrow{}\quad \boxed{k = 4}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

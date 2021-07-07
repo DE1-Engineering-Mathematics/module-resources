@@ -54,6 +54,7 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
 <div class = "answer">$V=|\vec{a}\cdot(\vec{b}\times\vec{c})|=|(2,1,0)\cdot(-4,4,-4)|=|-4|=\boxed{4 \text{ volume units}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -84,6 +85,7 @@ $$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $
 and 
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -137,6 +139,7 @@ $$\vec{a}\times\vec{b}=
 \end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
 Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -232,6 +235,7 @@ And
 $$|\vec{c}|=\sqrt{4^2+3^2+(-2)^2}=\sqrt{29}$$
 Thus, the required unit vector is 
 $$\hat{c}=\frac{1}{|\vec{c}|}\vec{c}=\frac{1}{\sqrt{29}} (4\vec{i}+3\vec{j}-2\vec{k})=\boxed{\frac{4}{\sqrt{29}}\vec{i}+\frac{3}{\sqrt{29}}\vec{j}-\frac{2}{\sqrt{29}}\vec{k}}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -244,6 +248,7 @@ $$\vec{CA}=(2-3)\hat{i}+(-1+4)\hat{j}+(1+4)\hat{k}=-\hat{i}+3\hat{j}+5\hat{k}$$
 Further, note that
 $$|\vec{AB}|^2=41=6+35=|\vec{BC}|^2+|\vec{CA}|^2$$
 Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -268,6 +273,7 @@ Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
 \end{vmatrix}\hat{k}\big)$ <br>
 Volume=$(2,3,1)(-2,-2,10)=-4-6+10=0$
 Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed{\textrm{This means } \vec{a},\vec{b}, \textrm{ and } \vec{c} \textrm{ are coplanar.}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

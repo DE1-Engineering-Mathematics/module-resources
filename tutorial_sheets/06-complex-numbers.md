@@ -89,6 +89,7 @@ $\boxed{\text{Therefore } z= 5(\cos306.87^\circ+\mathrm{i}\sin306.87^\circ)}$
 
 Alternative answer: $z=5(\cos-53.13^\circ+\mathrm{i}\sin-53.13^\circ)$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -169,6 +170,7 @@ Expand the brackets and evaluate:
 $2\mathrm{i}(\mathrm{i}-1)+(\sqrt{3}-\mathrm{i})^3+(1+\mathrm{i})(1-\mathrm{i})\\=2\mathrm{i}^2-2\mathrm{i}+3\sqrt{3}-3\mathrm{i}(\sqrt{3})^{2}+3\mathrm{i}^{2}\sqrt{3}+(-\mathrm{i})^{3}+1-\mathrm{i}^{2}$ <br>
 $=-2-2\mathrm{i}+3\sqrt{3}-3\sqrt{3}-8\mathrm{i}+2=\boxed{-10\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -204,6 +206,7 @@ The solution ($x^2+y^2=9$) consists of all the points lying on the circle of rad
 
 <img src = "06-complex-numbers-media\figure5.PNG" width = "50%">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -227,6 +230,7 @@ or: $\cos\frac{5\pi}{3}+\mathrm{i}\sin\frac{5\pi}{3}$
 In exponential form:
 $\boxed{e^{-\frac{\pi}{3}\mathrm{i}}}$ or: $e^{\frac{5\pi}{3}\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 

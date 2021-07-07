@@ -68,6 +68,7 @@ $\Rightarrow{}\quad$
 $G(s)=\int_{0}^{\infty} \ {e^{-st}}{e^{2t}}{dt}={\left[-\frac{1}{s-2}{e^{-(s-2)t}}\right]_0^\infty}\quad$ <br>
 $\Rightarrow{}\ \boxed{G(s)=\frac{1}{s-2}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 Using the DE1-MEM Formula sheet, find the Laplace Transforms of the given functions:
@@ -117,6 +118,7 @@ $O(s)=\mathcal{L}\{ {e^{-2t}}{(\frac{1}{2}+\frac{1}{2}{\cos}(6t))}-{3t^2e^{3t}}\
 $\Rightarrow{}\quad$
 $\boxed{O(s)=\frac{1}{ {2s}+{4}}+\frac{s+2}{2(s+2)^{2}+72}-\frac{6}{ {(s-3)^3}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ### Problem 3.

@@ -135,6 +135,7 @@ $$
 
 $\frac{1}{\sqrt{2}}A_1=-\frac{1}{2}A_2$, masses move in opposite directions.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------------------------
 

@@ -216,6 +216,7 @@ $$
 $\therefore$ the root of the equation is $-0.1038$ ($4$ d.p.).
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Problem 5
 Find a positive real root of $\cos(x)-x^3=0$ using;

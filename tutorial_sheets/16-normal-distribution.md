@@ -60,6 +60,7 @@ $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 <img src = "16-normal-distribution/1c.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -117,6 +118,7 @@ $ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 <img src = "16-normal-distribution/2d.png">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -160,6 +162,7 @@ $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 

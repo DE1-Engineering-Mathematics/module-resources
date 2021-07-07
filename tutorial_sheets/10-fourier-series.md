@@ -75,6 +75,7 @@ $\boxed{\text{Period} =2\pi \quad f(x)=\left\{
 <div class = "answer">
 $\boxed{\text{Period} = 2\pi \qquad f(x)=x^2, \text{ for } -\pi < x < \pi}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -184,6 +185,7 @@ $\Rightarrow{} \text{Period} = 2$
     });
 </script>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -212,6 +214,7 @@ Not periodic: Multiplying a periodic function, $sin^2(x)$, with a non periodic f
 
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
