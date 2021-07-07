@@ -263,7 +263,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 ## Exam Style Questions
 ### Problem 5.
-The following sigmoid activation function, $\alpha(x)$, can be found in some artificial neural networks.
+The following [sigmoid activation function](https://en.wikipedia.org/wiki/Sigmoid_function), $\alpha(x)$, can be found in some artificial neural networks.
 
 $$\alpha(x) = \frac{\omega}{\beta+e^{-x}}$$
 
@@ -279,28 +279,28 @@ Where $y$ is a (very small) dataset containing the three $[x, y]$ points $[0.25,
 
 Something to keep in mind:
 
-$$\frac{d}{dx}\sum{f(x)} = \sum{\frac{d}{dx}f(x)}$$
+$$\frac{\mathrm{d}}{\mathrm{d}x}\sum{f(x)} = \sum{\frac{\mathrm{d}}{\mathrm{d}x}f(x)}$$
 
 So, 
 
 $$
-\frac{\partial C}{\partial \omega } = \frac{\partial}{\partial \omega }\frac{1}{2n}\sum^n_i{(\alpha(x_i)-y(x_i))^2} 
+\frac{\partial C}{\partial \omega } = \frac{\partial}{\partial \omega }\frac{1}{2n}\sum^n_i{\Big(\alpha(x_i)-y(x_i)\Big)^2} 
 $$
 
 $$
-= \frac{1}{2n}\sum^n_i{\frac{\partial}{\partial \omega }(\alpha(x_i)-y(x_i))^2}
+= \frac{1}{2n}\sum^n_i{\frac{\partial}{\partial \omega }\Big(\alpha(x_i)-y(x_i)\Big)^2}
 $$
 
 Using the method that you want, determine:
 
 $$
-\frac{\partial}{\partial \omega }(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))^2
+\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2
 $$
 
 Using the chain rule, 
 
 $$
-\frac{\partial}{\partial \omega }(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))^2 = \frac{\partial u^2}{\partial u}\frac{\partial u}{\partial \omega }
+\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial u^2}{\partial u}\frac{\partial u}{\partial \omega }
 $$
 
 where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial u^2}{\partial u} = 2u$:
@@ -329,7 +329,7 @@ $$
 \boxed{ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}
 $$
 
-Adding back in the $\frac{1}{2n}\sum^n_i$,
+Substituting back in the $\frac{1}{2n}\sum^n_i$,
 
 $$
 \boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
@@ -381,8 +381,106 @@ $\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs 
 
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
+## Challenging Questions
+### Problem 6.
+<!-- Should I just make it the same question but with a larger data set? Or with additional parameters -->
+
+__Machine Learning!__
+
+When data sets are huge, [Stochastic Gradient Descent](https://www.youtube.com/watch?v=vMh0zPT0tLI) can be used to find a local minimum faster. Instead of taking the sum of all data points to calculate a Jacobian (-gradient):
+1. Take a (random) data point
+2. Calculate the gradient
+3. Update the weights using the gradient * learning rate
+4. Repeat 1-3 with all data points
+
+The method is advantageous as it makes the cost function converge faster when the dataset is large as it causes updates to the parameters more frequently.
+
+Considering the following function
+
+$$
+\sigma(x) = \tan^2(ax+b)
+$$
+
+Where $a$ and $b$ are variable 'weights'. To determine the optimized values for these weights, the cost function $C$ needs to be minimized. $C$ is defined by 
+
+$$
+C(a,b) = \frac{1}{2}\Big(\sigma(x)-y(x)\Big)^2
+$$
+
+Where y is a dataset containing the three points $[x,y]$: $[-3,4], [2.5,6], [0,3,4.3]$ and the learning rate is $0.25$
+
+(a) Determine the Jacobian vector of the cost function.
+
+<div class = "answer">
+
+$$
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial a} \frac{\partial C}{\partial b}\Bigg]
+$$
+
+$$
+\frac{\partial C}{\partial a} = \frac{\partial}{\partial a} \Big(\tan^2(ax+b)-y(x)\Big)^2
+$$
+
+[$$
+= 2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2
+$$](https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+a)
+
+$$
+\frac{\partial C}{\partial b} = \frac{\partial}{\partial b} \Big(\tan^2(ax+b)-y(x)\Big)^2
+$$
+
+[$$
+= 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2
+$$](https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+b)
+
+$$
+\boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2 \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
+$$
+
+</div>
+
+(b) With the initial guess of $a = 1$ and $b=1$, determine the new weights using the first data point $[-3,4]$
+
+<div class = "answer">
+
+$\vec{J_C} = \Big[$[-11.350](https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25) [3.783](https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25)$\Big]$
+
+To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
+
+$$
+\boxed{a = 12.350 \text{ and } b = -2.783}
+$$
+
+</div>
+
+(c) Determine the new weights using the second data point $[2.5,6]$
+
+<div class = "answer">
+
+$\vec{J_C} = \Big[$[-8.482](https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25) [-3.392](https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25)$\Big]$
+
+$$
+\boxed{a = 20.832 \text{ and } b = 0.609}
+$$
+
+</div>
+
+(d) Determine the new weights using the second data point $[0.3,4.3]$
+
+<div class = "answer">
+
+$\vec{J_C} = \Big[$[2.080](https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25) [6.934](https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25)$\Big]$
+
+$$
+\boxed{a = 18.752 \text{ and } b = -6.325}
+$$
+
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Answers
 
