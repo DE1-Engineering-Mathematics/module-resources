@@ -22,7 +22,6 @@
 * Use the standard summation formulae 
 * Identify the limiting values of sequence 
 * Determine when/whether a series is (absolutely) convergent
-* Test edit
 
 ### Additional Resources
 * [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
@@ -33,48 +32,62 @@
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-Suggest a formula for the $n$th term of the following sequences.
+Suggest a formula for the $n$th term of the following sequences:
 
 (a) $3, -5, 7, -9, 11,...$
-<div class = "answer"> $\Rightarrow\boxed{a_n=(-1)^{n+1}.(2n+1)}$ </div>
+<div class = "answer"> 
+This is an Arithmetic Series, with $a_1=3$ and $d=2$.
+<br>
+Because the numbers alternate from positive to negative we need to include $(-1)^{n+1}$.
+<br>
+$\Rightarrow\boxed{a_n=(-1)^{n+1}.(2n+1)}$ </div>
 
 (b) $2,\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5},...$
-<div class = "answer"> $\Rightarrow\boxed{a_n=\frac{n+1}{n}}$ </div>
+<div class = "answer"> 
+The numerator of this fraction is an Arithmetic Series, with $a_1=2$ and $d=1$. The denominator is also one, but with $a_1=1$ and $d=1$.
+<br>
+$a_n=\frac{2 + (n-1)}{1+(n-1)}$
+<br>
+$\Rightarrow\boxed{a_n=\frac{n+1}{n}}$ </div>
 
 (c) $\frac{2}{3},\frac{3}{2\times{}4},\frac{4}{3\times{}5},\frac{5}{4\times{}6},\frac{6}{5\times{}7},...$
 <div class = "answer">$\Rightarrow\boxed{a_n=\frac{n+1}{n(n+2)}}$</div>
 
 (d) $1, 0,-e^2,0,e^4,...$
-<div class = "answer">$\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
-
-(e) Find the third, sixth and ninth term of the sequence given by the formula. 
-
-$$ \left\{ \frac{n^2-n-6}{n+2} \right\}_{n=1}^\infty $$
-
-<div class = "answer">$\Rightarrow \boxed{a_3 = \frac{3^2-3-6}{3+2} = 0 ,\ \ a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=3,\ \ \ a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=6}$</div>
-
-(f) Find the third, sixth and ninth term of the sequence given by the formula: 
-
-$$\left\{\binom{n}{2}-\binom{n}{3}\right\}_{n=3}^\infty$$  
-
-using the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
 <div class = "answer">
-In this series, the first term is at $n=3$, so the third term is at $n=5$, the sixth at $n=8$ and the ninth at $n=11$.
-$a_3=\frac{5!}{2!(5-2)!} - \frac{5!}{3!(5-3)!}=\frac{120}{2\cdot 6} - \frac{120}{3! \cdot 2!}=10-10=\boxed{0} 
-\\ \\ a_6=\frac{8!}{2!(8-2)!} - \frac{8!}{3!(8-3)!}=\frac{40320}{2\cdot 720} - \frac{40320}{6 \cdot 120}=28-56=\boxed{-28,}\ 
-\\ \\ a_9=\frac{11!}{2!(11-2)!}-\frac{11!}{3!(11-3)!}= 55-165=\boxed{-110}$</div>
-
-(g) Find the third, sixth and ninth term of the sequence given by the formula: 
-
-$$\left\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\}_{n=1}^\infty$$
-
-<div class = "answer">$\boxed{a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=-\frac{\sqrt{3}}{2},
-\\ \\ a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\frac{\sqrt{3}}{2},
-\\ \\ a_9=\sin(9+1)\frac{\pi{}}{3}=\sin(\frac{10\pi{}}{3})=-\frac{\sqrt{3}}{2}}$</div>
+$\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
+Find the third, sixth and ninth term of the sequence given by the formula:
+
+(a) $$ \left\{ \frac{n^2-n-6}{n+2} \right\}_{n=1}^\infty $$
+
+
+<div class = "answer">$\Rightarrow a_3 = \frac{3^2-3-6}{3+2} = \boxed{0} ,
+\\ \\ \Rightarrow a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=\boxed{3},
+\\ \\ \Rightarrow a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=\boxed{6}$</div>
+
+(b)  $$\left\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\}_{n=1}^\infty$$
+
+<div class = "answer">$\Rightarrow a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}},
+\\ \\ \Rightarrow a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\boxed{\frac{\sqrt{3}}{2}},
+\\ \\ \Rightarrow a_9=\sin(9+1)\frac{\pi{}}{3}=\sin(\frac{10\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}}$</div>
+
+(c) $$\left\{\binom{n}{2}-\binom{n}{3}\right\}_{n=3}^\infty$$  
+Use the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
+
+<div class = "answer">
+In this series, the first term is at $n=3$, so the third term is at $n=5$, the sixth at $n=8$ and the ninth at $n=11$.
+$ \Rightarrow a_3=\frac{5!}{2!(5-2)!} - \frac{5!}{3!(5-3)!}=\frac{120}{2\cdot 6} - \frac{120}{3! \cdot 2!}=10-10=\boxed{0},
+\\ \\ \Rightarrow a_6=\frac{8!}{2!(8-2)!} - \frac{8!}{3!(8-3)!}=\frac{40320}{2\cdot 720} - \frac{40320}{6 \cdot 120}=28-56=\boxed{-28},\ 
+\\ \\ \Rightarrow a_9=\frac{11!}{2!(11-2)!}-\frac{11!}{3!(11-3)!}= 55-165=\boxed{-110}$</div>
+
+
+-----------------------------------------------------------------------------------
+
+### Problem 3.
 Evaluate the following.
 
 (a) $\sum_{n=1}^{20}\left(0.2n+5\right)$
@@ -107,7 +120,7 @@ $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1
 
 -----------------------------------------------------------------------------------
 
-### Problem 3.
+### Problem 4.
 Find the sum of $n$ terms of the following.
 
 (a) $S_n=1^2+3^2+5^2+ . . . +{\left(2n-1\right)}^2$
@@ -123,7 +136,7 @@ $\Rightarrow 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 
 -----------------------------------------------------------------------------------
 
-### Problem 4.
+### Problem 5.
 Find the limiting values of the following:
 
 (a) $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\ as\ x\rightarrow{}\infty{}$
@@ -137,7 +150,7 @@ $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rig
 
 -----------------------------------------------------------------------------------
 
-### Problem 5.
+### Problem 6.
 Determine whether each of the following series converges or diverges.
 
 (a) $\sum_{n=1}^{\infty{}}\frac{n}{n^2+1}$
@@ -226,7 +239,7 @@ $$
 
 -----------------------------------------------------------------------------------
 
-### Problem 6.
+### Problem 7.
 (a) Find the range of values of $X$ for which the following series is
 absolutely convergent. 
 
@@ -360,7 +373,7 @@ Converges for all values of $x$.
 -----------------------------------------------------------------------------------
 
 ## Exam Style Questions
-### Problem 7.
+### Problem 8.
 
 (a) Using the standard summation formulae, find an expression for $S=\sum_{r=1}^{n}\ (2-4r)^2$ in terms of $n$. Give your answer in a fully factorised form.
 <div class = "answer">
@@ -377,7 +390,7 @@ $S=\sum_{r=20}^{60}\ (2-4r)^2 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(
 
 -----------------------------------------------------------------------------------
 
-### Problem 8.
+### Problem 9.
 
 (a) Show that $S=\sum_{r=1}^{n}\ (4r-2) = 2n^2$
 <div class = "answer">
