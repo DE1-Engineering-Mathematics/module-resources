@@ -75,6 +75,7 @@ $\boxed{\text{Period} =2\pi \quad f(x)=\left\{
 <div class = "answer">
 $\boxed{\text{Period} = 2\pi \qquad f(x)=x^2, \text{ for } -\pi < x < \pi}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -184,6 +185,7 @@ $\Rightarrow{} \text{Period} = 2$
     });
 </script>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -212,6 +214,7 @@ Not periodic: Multiplying a periodic function, $sin^2(x)$, with a non periodic f
 
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -567,6 +570,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -605,6 +609,7 @@ $\Rightarrow{}$ Even function
 <div class = "answer">
 $\Rightarrow{}$ Odd function
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ---------------
 ## Exam Style Questions
@@ -711,6 +716,7 @@ $$
 
 In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\left(3-4i\right)i=4+3i$ in finding the coefficients in front of the $\sin{(2x)}$ term.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 ----------------------
@@ -782,6 +788,8 @@ $$
 f\left(x\right)\approx\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\frac{1}{2}+\sum_{n\
 odd}\frac{1}{\pi{}in}e^{inx}
 $$
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+
 </div>
 
 ## Answers
@@ -789,6 +797,10 @@ $$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

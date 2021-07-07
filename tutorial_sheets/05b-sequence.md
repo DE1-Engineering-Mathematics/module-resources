@@ -70,6 +70,7 @@ $$\left\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\}_{n=1}^\infty$$
 <div class = "answer">$\boxed{a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=-\frac{\sqrt{3}}{2},
 \\ \\ a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\frac{\sqrt{3}}{2},
 \\ \\ a_9=\sin(9+1)\frac{\pi{}}{3}=\sin(\frac{10\pi{}}{3})=-\frac{\sqrt{3}}{2}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -103,6 +104,7 @@ $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1
 = \frac{n}{4}(n(n+1)^2 + 2(n+1)(2n+1) + 6(n+1) + 4) \\ \\
 = \frac{n}{4}(n^3 + 2n^2 + n + 4n^2 + 6n + 2 + 6n + 6 + 4) \\ \\
 = \boxed{\frac{n}{4}(n^3 + 6n^2 + 13n + 12)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -119,6 +121,7 @@ $\Rightarrow 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
 <div class = "answer">$\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{ {\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -133,6 +136,7 @@ $\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\
 (b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ as\ x\rightarrow{}\infty{}$
 <div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$ Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -215,13 +219,8 @@ $$
 \lim_{n\rightarrow{}\infty{}}{\frac{1+3n^2}{1+n^2}=3}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-
-(e) Find the range of values of $X$ for which the following series is
-absolutely convergent. 
-$$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
-$$
 
 -----------------------------------------------------------------------------------
 
@@ -355,6 +354,7 @@ $$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\
 
 Converges for all values of $x$.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
@@ -373,6 +373,7 @@ $\Rightarrow \sum_{r=1}^{n}\ (2-4r)^2 = \sum_{r=1}^{n}\ 4 - 16\sum_{r=1}^{n}\ r 
 <div class = "answer">
 $S=\sum_{r=20}^{60}\ (2-4r)^2 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(39) \\
         = \boxed{1115364}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 
@@ -399,6 +400,7 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
        = n(n+1)[(2n+1)-2n(n+1)]\\
        = \boxed{n(n+1)(1-2n^2)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 -----------------------------------------------------------------------------------
 <br><br>
@@ -408,6 +410,10 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
