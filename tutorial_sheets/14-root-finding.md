@@ -67,6 +67,7 @@ Iteration 4 $(k = 3)$:
 It is clear that the iterations are converging towards the root $x=3.$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ---------------------------------
 
@@ -140,6 +141,7 @@ This yields the following results for $p_n$ and $f(p_n)$:
 
 Therefore, the root is 0.59 to 2dp.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Problem 3.
 Find the only real root of $x^3-3x-4=0$ using NR method correct to 9 decimal places.
@@ -163,6 +165,7 @@ When deciding which points to start with, its important to remember your curve s
 
 What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... to understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Problem 4.
 Find the real root of $x^3-6x^2+9x+1=0$ using;
@@ -213,6 +216,7 @@ $$
 $\therefore$ the root of the equation is $-0.1038$ ($4$ d.p.).
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Problem 5
 Find a positive real root of $\cos(x)-x^3=0$ using;
@@ -290,6 +294,7 @@ The Secant method:$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f
 
 So, the root of the equation is $0.8654$ (to $4$ d.p.).
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Problem 6.
 For those who'd like an extra method, look up the ``Fixed point method'' to find the roots for the following function: $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
@@ -319,6 +324,7 @@ x_{18}&=\mathrm{cos}x_1=0.73956
 The sequence is clearly converging to the root $x\approx 0.74$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -327,6 +333,10 @@ The sequence is clearly converging to the root $x\approx 0.74$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

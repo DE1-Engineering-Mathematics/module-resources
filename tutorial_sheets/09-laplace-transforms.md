@@ -68,6 +68,7 @@ $\Rightarrow{}\quad$
 $G(s)=\int_{0}^{\infty} \ {e^{-st}}{e^{2t}}{dt}={\left[-\frac{1}{s-2}{e^{-(s-2)t}}\right]_0^\infty}\quad$ <br>
 $\Rightarrow{}\ \boxed{G(s)=\frac{1}{s-2}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 Using the DE1-MEM Formula sheet, find the Laplace Transforms of the given functions:
@@ -117,6 +118,7 @@ $O(s)=\mathcal{L}\{ {e^{-2t}}{(\frac{1}{2}+\frac{1}{2}{\cos}(6t))}-{3t^2e^{3t}}\
 $\Rightarrow{}\quad$
 $\boxed{O(s)=\frac{1}{ {2s}+{4}}+\frac{s+2}{2(s+2)^{2}+72}-\frac{6}{ {(s-3)^3}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ### Problem 3.
@@ -150,6 +152,7 @@ $\Rightarrow{}\quad \ \frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s
 
 $\Rightarrow{}\quad \ \boxed{k(t)=-\frac{7}{25}{e^{-3t}}+\frac{7}{25}{e^{2t}}+\frac{13}{5}{t}{e^{2t}}}$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------------------------------------------------------
@@ -185,6 +188,7 @@ $Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+
 
 $\boxed{y(t)=\frac{1}{8}-{\frac{1}{8}}{e^{-2t}{\cos2t}}-\frac{1}{8}{e^{-2t}{\sin2t}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 5.
 Solve the following ODE function using Laplace Transform:
@@ -217,6 +221,7 @@ $Y(s)=\frac{6}{(s+2)^3}-\frac{2}{(s+2)}+\frac{4}{(s+2)^2}$ <br>
 $y(t)=3e^{-2t}t^2-2{e^{-2t}}+4e^{-2t}t$ <br>
 $\quad\Rightarrow{}\quad \boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -225,6 +230,10 @@ $\quad\Rightarrow{}\quad \boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
