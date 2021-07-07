@@ -199,7 +199,7 @@ $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\
 
 <img src = "04A-linear-transforms-media/6bA.png">
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -215,7 +215,7 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 <br><br>
 

@@ -152,7 +152,7 @@ $\Rightarrow{}\quad \ \frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s
 
 $\Rightarrow{}\quad \ \boxed{k(t)=-\frac{7}{25}{e^{-3t}}+\frac{7}{25}{e^{2t}}+\frac{13}{5}{t}{e^{2t}}}$ 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------------------------------------------------------
@@ -188,7 +188,7 @@ $Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+
 
 $\boxed{y(t)=\frac{1}{8}-{\frac{1}{8}}{e^{-2t}{\cos2t}}-\frac{1}{8}{e^{-2t}{\sin2t}}}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 5.
 Solve the following ODE function using Laplace Transform:
@@ -221,7 +221,7 @@ $Y(s)=\frac{6}{(s+2)^3}-\frac{2}{(s+2)}+\frac{4}{(s+2)^2}$ <br>
 $y(t)=3e^{-2t}t^2-2{e^{-2t}}+4e^{-2t}t$ <br>
 $\quad\Rightarrow{}\quad \boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 

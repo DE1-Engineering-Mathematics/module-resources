@@ -354,7 +354,7 @@ $$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\
 
 Converges for all values of $x$.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -373,7 +373,7 @@ $\Rightarrow \sum_{r=1}^{n}\ (2-4r)^2 = \sum_{r=1}^{n}\ 4 - 16\sum_{r=1}^{n}\ r 
 <div class = "answer">
 $S=\sum_{r=20}^{60}\ (2-4r)^2 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(39) \\
         = \boxed{1115364}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -400,7 +400,7 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
        = n(n+1)[(2n+1)-2n(n+1)]\\
        = \boxed{n(n+1)(1-2n^2)}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 <br><br>

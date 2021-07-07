@@ -299,7 +299,7 @@ $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
 \frac{[2,1,-3]}{\sqrt{14}}\Big|= \boxed{1.87 \dots}$$
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
 Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Exam Style Questions
 ### Problem 8.
@@ -335,7 +335,7 @@ $\boxed{AQ : QG  = 2 : 3}$</div>
 $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}$ <br> 
 $\theta = 56.0$ or $124.0$ <br>
 $\boxed{\text{Angle between line and plane } = 34.0^\circ}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -392,7 +392,7 @@ $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix
 =  1(12-t) + 7(3-7t) - 6(2+6t) 
 \\ = 21 - 86t \Rightarrow{t = \frac{21}{86}}
 \\ \\ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Challenging Questions
 ### Problem 10.
@@ -414,7 +414,7 @@ $$\vec{a}+(\vec{b}+\vec{c})=\vec{PQ}+\vec{QS}=\vec{PS}$$
 Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Answers
 
