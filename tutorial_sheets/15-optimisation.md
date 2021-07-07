@@ -72,15 +72,16 @@ S = \sum_{i=1}^{3} (y_i - f(x_i))^2 = \sum_{i=1}^{3} (y_i - ax^2 - b)^2
 $$
 
 $$
-\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-x_i^2)(y_i - ax_i^2 - b) = 0
-$$
+\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-x_i^2)(y_i - ax_i^2 - b) = 0 \hspace{2cm} (1)
+$$ 
 
 $$
-\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ax_i^2 - b) = 0
+\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ax_i^2 - b) = 0 \hspace{2cm} (2)
 $$
 
 Rearranging:
 
+Using $(1)$,
 $$
 \sum_{i=1}^{3} (-y_ix_i^2 + ax_i^4 + bx_i^2) = 0, \ \ \therefore
 $$
@@ -89,6 +90,7 @@ $$
 a = \frac{\sum_{i=1}^{3} (y_ix_i^2 - bx_i^2)}{\sum_{i=1}^{3} (x_i^4)} = \frac{\sum_{i=1}^{3} (y_ix_i^2) - b \sum_{i=1}^{3}(x_i^2)}{\sum_{i=1}^{3} (x_i^4)}
 $$
 
+Using $(2)$,
 $$
 \sum_{i=1}^{3} (y_i - ax_i^2 - b) = 0, \therefore
 $$
@@ -146,13 +148,12 @@ $$
 
 <img src = "13-optimisation/optimisation_graphic_2.png">
 
-Additional lines added for the curious.
 </div>
 
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 Still a linear regression problem as the function is linear within it's parameters.}
 
 $$
@@ -160,14 +161,16 @@ S = \sum_{i=1}^{3} (y_i - f(x_i))^2 = \sum_{i=1}^{3} (y_i - ae^{x_i} - b)^2
 $$
 
 $$
-\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-e^{x_i})(y_i - ae^{x_i} - b) = 0
+\frac{\partial{}S}{\partial{}a} = 2 \sum_{i=1}^{3} (-e^{x_i})(y_i - ae^{x_i} - b) = 0 \hspace{2cm} (1)
 $$
 
 $$
-\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ae^{x_i} - b) = 0
+\frac{\partial{}S}{\partial{}b} = 2 \sum_{i=1}^{3} (-1)(y_i - ae^{x_i} - b) = 0 \hspace{2cm} (2)
 $$
 
 Rearranging:
+
+Using $(1)$,
 
 $$
 \sum_{i=1}^{3} (-y_ie^{x_i} + ae^{2x_i} + be^{x_i}) = 0, \ \ \therefore
@@ -176,6 +179,8 @@ $$
 $$
 a = \frac{\sum_{i=1}^{3} (y_ie^{x_i} - be^{x_i})}{\sum_{i=1}^{3} (e^{2x_i})} = \frac{\sum_{i=1}^{3} (y_ie^{x_i}) - b \sum_{i=1}^{3}(e^{x_i})}{\sum_{i=1}^{3} (e^{2x_i})}
 $$
+
+Using $(2)$,
 
 $$
 \sum_{i=1}^{3} (y_i - ae^{x_i} - b) = 0, \ \ \therefore
