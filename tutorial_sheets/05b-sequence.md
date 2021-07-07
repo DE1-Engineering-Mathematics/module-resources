@@ -88,21 +88,24 @@ $ \Rightarrow a_3=\frac{5!}{2!(5-2)!} - \frac{5!}{3!(5-3)!}=\frac{120}{2\cdot 6}
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
-Evaluate the following.
+Evaluate the following:
 
 (a) $\sum_{n=1}^{20}\left(0.2n+5\right)$
-<div class = "answer">$\Rightarrow{}\quad$
+<div class = "answer">
 The Sum of an Arithmetic Sequence: <br>
-$S_n= \frac{n}{2}(2a + d(n - 1))=\frac{20}{2}(2(0.2+5) + (0.2)(20 - 1)) = (10)(14.2)= \boxed{142}$</div>
+$\Rightarrow S_n= \frac{n}{2}(2a + d(n - 1))
+\\ = \frac{20}{2}(2(0.2+5) + (0.2)(20 - 1)) 
+\\ = (10)(14.2)
+\\ = \boxed{142}$</div>
 
 (b) $\sum_{n=1}^8n\left(3+2n+n^2\right)$
-<div class = "answer">Break down into smaller sequences <br> 
+<div class = "answer">Break this down into smaller sequences: <br> 
 $\Rightarrow 3\sum_{n=1}^8n \ + \ 2\sum_{n=1}^8n^2 \ +\ \sum_{n=1}^8n^3\ 
 \\ = 3(\frac{8(8+1)}{2}) + 2(\frac{8(8+1)(16+1)}{6}) + \frac{64(8+1)^2}{4} 
 \\ = 108 + 408 + 1296 \\= \boxed{1812}$</div>
 
 (c) $\sum_{r=1}^nr\left(r+3\right)$
-<div class = "answer">Break down into smaller sequences
+<div class = "answer">Break this down into smaller sequences: <br> 
 $\Rightarrow \sum_{r=1}^nr^2 \ + 3\sum_{r=1}^nr \\ \\ 
 = \frac{n(n+1)(2n+1)}{6} + 3(\frac{n(n+1)}{2}) \\ \\
 = \frac{n}{6}((n+1)(2n+1) +9(n+1)) \\ \\
@@ -111,7 +114,7 @@ $\Rightarrow \sum_{r=1}^nr^2 \ + 3\sum_{r=1}^nr \\ \\
 =\boxed{\frac{n}{3}\left(n+1\right)\left(n+5\right)}$</div>
 
 (d) $\sum_{r=1}^n{\left(r+1\right)}^3$
-<div class = "answer">Break down into smaller sequences
+<div class = "answer">Break this down into smaller sequences: <br> 
 $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1}^n1 \\ \\
 = \frac{n^2(n+1)^2}{4} + \frac{n(n+1)(2n+1)}{2} + 3(\frac{n(n+1)}{2}) + n \\ \\
 = \frac{n}{4}(n(n+1)^2 + 2(n+1)(2n+1) + 6(n+1) + 4) \\ \\
@@ -121,18 +124,21 @@ $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-Find the sum of $n$ terms of the following.
+Find the sum of $n$ terms of the following:
 
 (a) $S_n=1^2+3^2+5^2+ . . . +{\left(2n-1\right)}^2$
-<div class = "answer">Use the sum of polynomial series identities
-$\Rightarrow 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\ 
+<div class = "answer">Use the sum of polynomial series identities:
+$= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\ 
 = 2(\frac{n(n+1)(2n+1)}{3}) - 4(\frac{2n(n+1)}{2}) + n \\ 
 = \frac{n}{3}(2(n+1)(2n+1) - 6(n+1) +3) \\ 
 = \frac{n}{3}(4n^2 + 6n + 2 - 6n - 6 + 3) \\ 
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
-<div class = "answer">$\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{ {\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
+<div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
+$= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
+= 5\frac{1+\frac{{\left(-1\right)}^{n+1}}{2^n}}{\frac{3}{2}} \\
+\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -141,17 +147,17 @@ Find the limiting values of the following:
 
 (a) $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\ as\ x\rightarrow{}\infty{}$
 <div class = "answer">
-As $x$ tends to infinity, $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$ Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
+As $x$ tends to infinity, $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$. Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
 $\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
 (b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ as\ x\rightarrow{}\infty{}$
-<div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$ Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
+<div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$. Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-Determine whether each of the following series converges or diverges.
+Determine whether each of the following series converges or diverges:
 
 (a) $\sum_{n=1}^{\infty{}}\frac{n}{n^2+1}$
 <div class = "answer">$\boxed{\text{Diverges}}$ <br>
@@ -205,7 +211,7 @@ $$
 
 Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
 
-{Using the ratio test:}
+Using the ratio test:
 
 $$
 \lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{ {(x}^{n+1}). [ n(n+1) ] }{\left[ \left(n+1\right)(n+2) \right] .x^n}\right\vert{}}=\left\vert{}x\right\vert{}
@@ -231,21 +237,13 @@ $$
 </div>
 
 
-(e) Find the range of values of $X$ for which the following series is
-absolutely convergent. 
-$$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
-$$
-
 -----------------------------------------------------------------------------------
 
 ### Problem 7.
-(a) Find the range of values of $X$ for which the following series is
-absolutely convergent. 
+Find the range of values of $X$ for which the following series are
+absolutely convergent:
 
-$$
-\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...
-$$
+(a) $\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...$
 
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for } -1\leq{}X\leq{}1.}$ <br><br>
@@ -273,8 +271,7 @@ Convergent for $-1 < X < 1$.
 Now check if the endpoints are converging:
 
 $$	
-\rightarrow{}At\
-X=1,\lim_{n\rightarrow{}1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+\rightarrow{}At\ X=1,\lim_{n\rightarrow{}1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
 $$
 
 $$
@@ -282,9 +279,7 @@ At\ X=-1,\ \
 \lim_{n\rightarrow{}-1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
 $$</div>
 
-(b) Find the range of values of $x$ for which the following series is
-absolutely convergent. 
-$$ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $$
+(b) $ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for }-1\leq{}x\leq{}1}$. <br><br>
 
@@ -315,12 +310,10 @@ $$
 $$
 At\ x=-1,\
 \lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
-\Rightarrow{} \text{convergent, therefore, Convergent for} -1\leq{}x\leq{}1.
+\Rightarrow{} \text{convergent}
 $$</div>
 
-(c) Find the range of values of $x$ for which the following series is
-absolutely convergent. 
-$$ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $$
+(c) $ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for } \left\vert{}x\right\vert{} < 1 }$. <br><br>
 
@@ -342,19 +335,18 @@ Now check if the endpoints are converging:
 
 $$
 \rightarrow{}At\ x=1,\ \
-\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\ln{\left(n\right)}}\Rightarrow{}diverges
+\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\ln{\left(n\right)}}\Rightarrow{} \text{diverges}
 $$
 
 
 $$\rightarrow{}At x=-1,\ \ \lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}}
-{(-1)}^n\ln{\left(n\right)}\Rightarrow{}diverges$$
+{(-1)}^n\ln{\left(n\right)}\Rightarrow{} \text{diverges}$$
 
 Note: The $n^{th}$ term test showed that 
 $\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the test only shows whether the function diverges and does not test the convergency. Hence, the ratio test must be conducted.  
 </div>
 
-(d) Find the range of values of $x$ for which the following series is absolutely convergent.
-$$ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $$
+(d) $ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for all values of } x}$. <br><br>
 
@@ -372,21 +364,21 @@ Converges for all values of $x$.
 
 -----------------------------------------------------------------------------------
 
-## Exam Style Questions
 ### Problem 8.
 
 (a) Using the standard summation formulae, find an expression for $S=\sum_{r=1}^{n}\ (2-4r)^2$ in terms of $n$. Give your answer in a fully factorised form.
 <div class = "answer">
-$\Rightarrow \sum_{r=1}^{n}\ (2-4r)^2 = \sum_{r=1}^{n}\ 4 - 16\sum_{r=1}^{n}\ r + 16\sum_{r=1}^{n}\ r^2   \\
+$= \sum_{r=1}^{n}\ (2-4r)^2 = \sum_{r=1}^{n}\ 4 - 16\sum_{r=1}^{n}\ r + 16\sum_{r=1}^{n}\ r^2   \\
             = 4n - 8n(n+1) + \frac{8}{3}n(n+1)(2n+1) \\
             = \frac{4}{3}n(3-6(n+1)+2(n+1)(2n+1)) \\ 
             = \frac{4}{3}n(4n^2 -1) \\
-            = \boxed{\frac{4}{3}n(2n-1)(2n+1)}$</div>
+            \Rightarrow \boxed{\frac{4}{3}n(2n-1)(2n+1)}$</div>
 
 (b) Hence evaluate $S=\sum_{r=20}^{60}\ (2-4r)^2$
 <div class = "answer">
-$S=\sum_{r=20}^{60}\ (2-4r)^2 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(39) \\
-        = \boxed{1115364}$</div>
+$S=\sum_{r=20}^{60}\ (2-4r)^2 \\
+= \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(39) \\
+        \Rightarrow \boxed{1115364}$</div>
 
 -----------------------------------------------------------------------------------
 
@@ -394,27 +386,53 @@ $S=\sum_{r=20}^{60}\ (2-4r)^2 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(
 
 (a) Show that $S=\sum_{r=1}^{n}\ (4r-2) = 2n^2$
 <div class = "answer">
-$\boxed{\sum_{r=1}^{n}\ (4r-2) \\ 
+$\sum_{r=1}^{n}\ (4r-2) \\ 
             = 4\sum_{r=1}^{n}\ r - 2n \\ 
             =2n(n+1)-2n \\
-            = 2n^2}$
+            \Rightarrow \boxed{2n^2}$
 </div>
 
 (b) Show that $\frac{ \sum_{r=1}^{n}\ (2r-1)}{\sum_{r=n+1}^{2n}\ (2r-1)} = k$, where $k$ is constant to be determined. 
 <div class = "answer">$\frac{ \sum_{r=1}^{n}\ (2r-1)}{\sum_{r=n+1}^{2n}\ (2r-1)} \\
             = \frac{n^2}{(2n)^2 -n^2} \\
             =\frac{n^2}{3n^2}\\
-            = \boxed{\frac{1}{3} = k}$</div>
+            \Rightarrow \boxed{ \frac{1}{3} = k}$</div>
 
 (c) Use standard series formulae to show that $\sum_{r=1}^{n}\ r^2(6-8r) = n(n+1)(1-2n^2)$
 <div class = "answer">
 $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
        = \frac{6}{6} n(n+1)(2n+1) - \frac{8}{4}n^2(n+1)^2 \\
        = n(n+1)[(2n+1)-2n(n+1)]\\
-       = \boxed{n(n+1)(1-2n^2)}$
+       \Rightarrow \boxed{n(n+1)(1-2n^2)}$
 </div>
 
 -----------------------------------------------------------------------------------
+
+## Exam Style Questions
+### Problem 10.
+A high-risk investment fund offers three possible investment strategy packages to its clients if they invest exactly £1,000,000. The first option is an annual return of 18%, but this is not compounded each year (i.e. the profit from each year is not reinvested). The second option offers a compounded daily return of 0.04%. The third option simply pays you an increasing dividend of £1 on the first day, followed by £2 on the second, £3 on the third and so on.
+
+(a) Calculate the profit after 2 years for each of the three options.
+<div class = "answer"></div>
+
+(b) Which option offers the best return after 10 years?
+<div class = "answer"></div>
+
+(c) Which option offers the best return after 30 years?
+<div class = "answer"></div>
+
+(d) Draw a graph showing the profit vs. time for the three options over 30
+years.
+<div class = "answer"></div>
+
+(e) Write down an expression for the difference between the profits of the
+second and third options as a function of the number of days since
+investing, 𝑁.
+<div class = "answer"></div>
+
+(f) Give an interpretation of the roots of this function.
+<div class = "answer"></div>
+
 <br><br>
 
 ## Answers
