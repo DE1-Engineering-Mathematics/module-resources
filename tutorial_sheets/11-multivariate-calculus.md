@@ -66,6 +66,7 @@ $$
 \frac{\partial{}f}{\partial{}z}=-x\sin{z}+x^2y^3e^z
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 For the function
@@ -101,6 +102,7 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 3.
 Find the turning points,
@@ -301,6 +303,7 @@ $$
 \boxed{ f'_x(a,0)=1 }
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 6.
 The ellipsoid $4x^2+2y^2+z^2=16$ intersects the plane $y=2$ in an ellipse. Find parametric equations for the tangent line to this ellipse at the point (1, 2, 2).
