@@ -60,6 +60,7 @@ $$
 
 Additional lines added for the curious.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
@@ -148,6 +149,7 @@ $$
 
 Additional lines added for the curious.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
@@ -237,6 +239,7 @@ $$
 Additional lines added for the curious.
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 4.
 The following contour plot shows the summed square error, S, for the two-parameter fit to some data for the function $f(x)=ae^{-x^2}+b$.
@@ -257,6 +260,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ## Answers
@@ -264,6 +268,10 @@ The following contour plot shows the summed square error, S, for the two-paramet
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
