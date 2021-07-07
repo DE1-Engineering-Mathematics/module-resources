@@ -66,6 +66,7 @@ $$
 \frac{\partial{}f}{\partial{}z}=-x\sin{z}+x^2y^3e^z
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 For the function
@@ -101,6 +102,7 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 3.
 Find the turning points,
@@ -123,6 +125,7 @@ $$ f_y = -2 x y = 0 \Rightarrow y = 0 $$
 
 $$ \boxed{ f(\pm \frac{1}{\sqrt{2}}, 0) = \pm \frac{1}{\sqrt{2}} e^{-1/2} }$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 -----------------------------------------------------------------------------------
@@ -285,6 +288,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ### Problem 5.
 If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
@@ -338,6 +342,7 @@ To get the parametric equation of the line, take $x = t$:
 
 $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ### Problem 7.
 Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
@@ -410,6 +415,7 @@ $$
 <div class = "answer">
 $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nabla \times \mathbf{q} = \begin{bmatrix} -\cos x \sin y \cos z \newline \sin x \cos y \cos z \newline 0 \end{bmatrix} }$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 -----------------------------------
@@ -435,6 +441,7 @@ $$ \boxed{
 2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0 }
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ### Problem 9.
 If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:}
@@ -458,6 +465,7 @@ $$ \boxed{
 t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 
 
@@ -466,6 +474,10 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
