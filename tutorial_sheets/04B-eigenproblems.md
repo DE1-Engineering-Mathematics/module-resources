@@ -379,7 +379,7 @@ so that $P^{-1}AP = \begin{pmatrix}2&0&0\\\ 0&2&0\\\ 0&0&3\end{pmatrix}$
 To summarise:
 For $\lambda_1 = 2$ and $\lambda_2 = 2$, eigenvectors of $\boxed{\lambda_1: (1,0,1)^T}, \boxed{\lambda_2: (1,1,0)^T}$ <br>
 For $\boxed{\lambda_3 = 3, (1,1,1)^T.}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -405,7 +405,7 @@ $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 (c) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 
 <div class = "answer">$det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Challenging Questions
 ### Problem 8.
@@ -445,7 +445,7 @@ $(A - \lambda I) = \begin{pmatrix}-2&0\\0&-4\end{pmatrix} - \begin{pmatrix}\lamb
 $\det (A - \lambda I) = (-2 - \lambda)(-4- \lambda)$ <br>
 Characteristic polynomial: $\boxed{\lambda^2 + 6\lambda + 8}$ <br>
 Eigenvalues: $\boxed{\lambda_1 = -4, \lambda_2 = -2}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -468,7 +468,7 @@ $\Rightarrow{}\quad
 $\Rightarrow{}\quad$ for $\lambda_1 = 3,\quad bd -ae -aj -ej +fh +cg = -2$
 $\Rightarrow{}\quad -\lambda^3 +5\lambda^2 -2\lambda -12 = 0 \quad\Rightarrow{}\quad (\lambda -3)(-\lambda^2 + 2\lambda +4) = 0$ <br>
 $\Rightarrow{}\quad$ Eigenvalues: $\boxed{\lambda_2 = 1 + \sqrt{5},\quad \lambda_3 = 1 - \sqrt{5}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -522,7 +522,7 @@ so that $P^{-1}AP = \begin{pmatrix}2&0&0\\0&2&0\\0&0&6\end{pmatrix}$</div>
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}0&1+i&1-i\\1&1&1\\-1&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$,
 so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 

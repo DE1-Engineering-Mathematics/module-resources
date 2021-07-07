@@ -266,7 +266,7 @@ $\Rightarrow{} \boxed{\log_{20}{17}=\frac{\log_{10}{17}}{\log_{10}20}\approx\fra
 <div class = "answer">$\log_{10}3\times{}\log_3{16}=\log_{10}{16}$ 
 $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.2}{0.5}=2.40}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Exam Style Questions
 ### Problem 10.
@@ -310,7 +310,7 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 
 <div class = "answer"><iframe src="https://www.desmos.com/calculator/ll5ygltnd3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -334,7 +334,7 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 <div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
 [3 marks]</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>

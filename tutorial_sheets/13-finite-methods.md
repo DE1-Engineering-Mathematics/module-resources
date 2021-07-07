@@ -63,7 +63,7 @@ f'(3)\approx\frac{(3+0.05)^2-3^2}{0.05}=6.05
 The error is $6.05-6=0.05$, halving step size results in a halving of error. So, as expected, the error is proportional to $h$. 
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -130,7 +130,7 @@ error=\frac{1}{12}h^2u'''(x)+...
 Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual backwards difference is $o(h)$, so this approach (using an additional data point) will improve the accuracy of the approximation.
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -244,7 +244,7 @@ From here we can use the update equation to iterate,
 (d) Use Excel or otherwise to simulate both for $t/\Delta t$ up to 30, what do you see?
 
 [Example sheet](https://docs.google.com/spreadsheets/d/1xl-y2ZNephq5xFhGiN_elvjIguKhOt5i5e09kftDhI8/edit?usp=sharing)
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------
