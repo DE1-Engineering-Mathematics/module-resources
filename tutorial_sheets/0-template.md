@@ -47,14 +47,10 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 ## Exam Style Questions
 ### Problem n.
 
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
-
 -----------------------------------
 
 ## Challenging Questions
 ### Problem n.
-
-<div class = "workingout"><br><br><br><br><br><br><br><br><P style="page-break-before: always"></div>
 
 ## Answers
 
