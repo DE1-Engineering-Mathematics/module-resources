@@ -334,6 +334,10 @@ $\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
