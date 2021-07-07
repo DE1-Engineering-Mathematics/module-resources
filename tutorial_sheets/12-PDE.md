@@ -56,7 +56,6 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 <div class = "answer">
 No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -86,7 +85,6 @@ $$
 $$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
 
 -----------------------------------------------------------------------------------
 
@@ -172,7 +170,6 @@ $$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-
 -----------
 
 ### Problem 4.
@@ -209,7 +206,6 @@ The area will be proportional to numbers of ions or molecules etc. the total num
 The area taken over a region of the space will be proportional to the number of particles in that region.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
 
 -----------------------------------------------------------------------------------
 
@@ -300,7 +296,6 @@ $\Rightarrow{}$ LHS is equal RHS, so this is proven.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-
 ------------------------------
 
 ### Problem 6.
@@ -348,10 +343,6 @@ $$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

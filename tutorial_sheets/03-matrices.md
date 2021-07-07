@@ -85,7 +85,6 @@ $\Rightarrow{}\quad \boxed{\begin{pmatrix}\frac{1}{3}&\frac{1}{3}\\\frac{2}{3}&-
 
 (k)  Comment on any relationships between the results of question (a) to (j)
 <div class = "answer">$\Rightarrow{} BA^T=(AB^T)^T$ and $(AB)^T=B^TA^T$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -126,7 +125,6 @@ $\Rightarrow{}\ \ \boxed{\begin{pmatrix}20&1\\23&2\end{pmatrix}}$</div>
 (g) $AB^T$
 <div class = "answer">$\Rightarrow{}\ \ \begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}^T\ \Rightarrow{}\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&5&7\\-3&2&1\end{pmatrix}$ <br>
 $\Rightarrow{} \begin{pmatrix}2(-1)+0(-3)&2(5)+0(2)&2(7)+0(1)\\3(-1)-1(-3)&3(5)-1(2)&3(7)-1(1)\\1(-1)+4(-3)&1(5)+4(2)&1(7)+4(1)\end{pmatrix}\ \ \ \ \Rightarrow{}\ \ \boxed{\begin{pmatrix}-2&10&14\\0&13&20\\-13&13&11\end{pmatrix}}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -146,7 +144,6 @@ $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} =
 \begin{pmatrix}5&-3&-2.5\\-5.5&3.5&3\\-3&2&1.5\end{pmatrix} \ 
 \begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
 $\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -166,7 +163,6 @@ $\Rightarrow{}\ \ 1[3(13)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ 
 $\Rightarrow{}\ \ 1\begin{vmatrix}\mu & \nu \\ \mu^3 & \nu^3 \end{vmatrix}-1\begin{vmatrix}\lambda & \nu \\ \lambda^3 & \nu^3 \end{vmatrix}+1\begin{vmatrix}\lambda & \mu \\ \lambda^3 & \mu^3 \end{vmatrix}$ <br>
 $\Rightarrow{}\ \ (\mu\nu^3-\nu\mu^3) - (\lambda\nu^3-\nu\lambda^3) + (\lambda\mu^3-\mu\lambda^3)$
 $\Rightarrow{}\ \ \boxed{\nu^3(\mu-\lambda)+\mu^3(\lambda-\nu)+\lambda^3(\nu-\mu)}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -189,7 +185,6 @@ $\Rightarrow{}\quad C_A^T=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$
 $\Rightarrow{}\quad A^{-1}=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$ <br><br>
 $\Rightarrow{} \quad M=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix} \begin{pmatrix}1&1\\2&2\\1&1\end{pmatrix}\begin{pmatrix}1/2&-1/2\\-1/2&3/2\end{pmatrix} \quad\Rightarrow{} \quad \boxed{M=\begin{pmatrix}0&-2\\0&4\\0&1\end{pmatrix}}$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -205,7 +200,6 @@ $\Rightarrow{}\quad C=\begin{pmatrix}
 $\Rightarrow{}\quad \boxed{ adj(A) = C^T = \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3&1\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad A^{-1} = \frac{1}{det(A)}adj(A) = \frac{1}{3} \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3&1\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \boxed{AA^{-1} = \begin{pmatrix}1&2&3\\1&3&5\\1&5&12\end{pmatrix} \begin{pmatrix}11/3 & -9/3 & 1/3 \\-7/3 & 9/3 & -2/3\\ 2/3 & -3/3 & 1/3 \end{pmatrix} = \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}}$ <br></div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -474,10 +468,6 @@ Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \text
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

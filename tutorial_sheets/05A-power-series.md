@@ -85,7 +85,6 @@ $$\begin{align*}
 Thus, the resulting power series is:
 $$\boxed{f(x)=\frac{1}{2}-\frac{x}{4}+\frac{x^2}{8}-\frac{x^3}{16}+...}$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -130,7 +129,6 @@ $$n^{th}=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...+(-1)^n\frac{
 Re-express function f(x) in the form of power series:
 $$f(x)=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...+(-1)^n\frac{x^{2n}}{(2n)!}=\boxed{\sum_{n=0}^{\infty}(-1)^n\frac{x^{2n}}{(2n!)}}$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -148,7 +146,6 @@ $$=\sum^{\infty}_{n=0}(-1)^n\frac{x^{6n+1}}{(6n+1)(2n)!}$$
 Where the integral can be evalutated term-by-term. The first four terms of this series are:
 $$\boxed{x-\frac{x^{7}}{14}+\frac{x^{13}}{312}-\frac{x^{19}}{13680}+...}$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -183,7 +180,6 @@ Plotting the polynomial to check if it is a good approximation to $f(x)=\mathrm{
 
 Once again, it can be observed that our polynomial (in blue) is a good approximation to $\displaystyle f(x)=\mathrm{sin}x$ (in red) between $[-\pi,+\pi]$.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -241,7 +237,6 @@ $$
 Ignoring all negligible summands:
 $$=\boxed{\lim\limits_{x\rightarrow0}\frac{-\frac{9}{5}x^4}{x^4}=-\frac{9}{5}}$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -381,10 +376,6 @@ It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a lo
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

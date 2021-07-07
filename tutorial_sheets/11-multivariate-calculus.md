@@ -66,7 +66,6 @@ $$
 \frac{\partial{}f}{\partial{}z}=-x\sin{z}+x^2y^3e^z
 $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 For the function
@@ -102,7 +101,6 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 3.
 Find the turning points,
@@ -468,16 +466,11 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
-
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
