@@ -153,7 +153,7 @@ $$
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 Still a linear regression problem as the function is linear within it's parameters.}
 
 $$
@@ -198,7 +198,7 @@ $$
 & &    &3&   &5&     &e^3&       &e^6&   &5e^3& \newline
 & &    &7&   &9&    &e^7&      &e^{14}&  &9e^7& \newline
 & Mean&   &4&    &5&     & &        & &   & & \newline
-& Sum&    &12&   &15&   &c.1124&   &c.1.2E6& &c.9978&
+& Sum&    &12&   &15&   &1124&   &1.2E6& &9978&
 \end{align*}
 
 <br>
@@ -353,7 +353,7 @@ $$
 
 </div>
 
-(b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $\omega=1$ and $\beta=0$, (reported to 1 significant figure). 
+(b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $\omega=1$ and $\beta=0$.
 
 <div class = "answer">
 
@@ -361,13 +361,13 @@ $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
 $$
 
-|                        |                   | wrt $\omega$                                                                                                                                                 | wrt $\beta$                                                                                                                                                   |
-|------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| $x$                    | $y(x)$            | $\frac{e^{x}(y(x)+e^{x}(-\omega + \beta y(x)}{(1+\beta e^{x})^2}$                                                                                            | $\frac{\omega (\frac{\omega}{\beta + e^{-x}}-y(x))}{(\beta + e^{-x_i})^2}$                                                                                    |
-| 0.25                   | -0.3              | [-3.2129](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0) | [2.61162](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3) |
-| 1                      | 0.5               | [-6.02992](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0)   | [16.391](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0)    |
-| 0.8                    | 2                 | [-0.501951](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0)  | [1.11711](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0)   |
-| $-\frac{1}{n}\sum^n_i$ | mean of negatives | 3.248257                                                                                                                                                     | -6.70658                                                                                                                                                      |
+|  |  | wrt $\omega$ | wrt $\beta$ |
+|-|-|-|-|
+| $x$ | $y(x)$ | $\frac{e^{x}(y(x)+e^{x}(-\omega + \beta y(x)}{(1+\beta e^{x})^2}$ | $\frac{\omega (\frac{\omega}{\beta + e^{-x}}-y(x))}{(\beta + e^{-x_i})^2}$ |
+| 0.25 | -0.3 | [-3.2129](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0) | [2.61162](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3) |
+| 1 | 0.5 | [-6.02992](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0) | [16.391](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0) |
+| 0.8 | 2 | [-0.501951](https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0) | [1.11711](https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0) |
+| $-\frac{1}{n}\sum^n_i$ | mean of negatives | 3.248257 | -6.70658 |
 
 $$
 \boxed{\vec{J_C} = \Big[3.248 \hspace{2mm} -6.707\Big]}
@@ -388,10 +388,90 @@ $\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs 
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+### Problem 6. 
+
+Considering another function
+$$\gamma(x) = \frac{ax}{e^x+b}$$
+
+Where $a$ and $b$ are adjustable parameters. The "cost", $C$, defined by the function
+
+$$
+C(a,b) = \frac{1}{2n}\sum^n_i(\gamma(x_i)-y(x_i))^2
+$$
+
+Where $y$ is a database containing the points $[x,y]$: 
+$[1,3.4]$, $[-2.3,0.5]$, $[2.2,-3]$, $[4.7,-6]$
+
+(a) Find expressions for the partial derivatives of $C$ with respect to each of the parameters.
+
+<div class = "answer">
+
+$$
+\frac{\partial C}{\partial a} = \frac{\partial}{\partial a}\frac{1}{2n}\sum^n_i{\Big(\gamma(x_i)-y(x_i)\Big)^2} 
+$$
+
+$$
+= \frac{1}{2n}\sum^n_i{\frac{\partial}{\partial a }\Big(\gamma(x_i)-y(x_i)\Big)^2}
+$$
+
+Using the method that you want, determine:
+
+[$$
+\frac{\partial}{\partial a }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 = -\frac{2x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}
+$$](https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+a)
+
+$$
+\frac{\partial C}{\partial a} = \frac{1}{2n}\sum^n_i -\frac{2x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}
+$$
+
+$$
+\frac{\partial C}{\partial a} = -\frac{1}{n}\sum^n_i \frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}
+$$
+
+[$$
+\frac{\partial}{\partial b }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 =-\frac{2ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}
+$$](https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b)
+
+</div>
+
+(b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $a=0.5$ and $b=-0.5$.
+
+<div class = "answer">
+
+$$
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+$$
+
+
+|  |  | wrt $a$ | wrt $b$ |
+|-|-|-|-|
+| $x$ | $y(x)$ | $\frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}$ | $\frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}$ |
+| 1 | 3.4 | [-2.862](https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D1%2C+y%3D3.4) | [0.645](https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+1%2C+y%3D3.4) |
+| -2.3 | 0.5 | [27.35](https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D-2.3%2C+y%3D0.5) | [34.21](https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+-2.3%2C+y%3D0.5) |
+| 2.2 | -3 | [1.615](https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D2.2%2C+y%3D-3) | [-0.095](https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+2.2%2C+y%3D-3) |
+| 4.7 | -6 | [0.5172](https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D4.7%2C+y%3D-6) | [-0.002](https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+4.7%2C+y%3D-6) |
+| $-\frac{1}{n}\sum^n_i$ | mean of negatives | -6.655 | -8.690 |
+
+$$
+\boxed{\vec{J_C} = \Big[-6.655 \hspace{2mm} -8.690\Big]}
+$$
+
+</div>
+
+(c) Suggest whether $\omega$ and $\beta$ should be increased or decreased to improve the fit, explaining your answer. 
+
+<div class = "answer">
+
+To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima (steepest ascent).
+
+$\boxed{\text{Thus }a \text{ and }b \text{ need to be increased}}$
+
+</div>
+
 -----------------------------------
 
 ## Challenging Questions
-### Problem 6.
+### Problem 7.
 <!-- Should I just make it the same question but with a larger data set? Or with additional parameters -->
 
 __Machine Learning!__
