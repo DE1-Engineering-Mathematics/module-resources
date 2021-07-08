@@ -134,7 +134,6 @@ Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual
 
 -----------------------------------
 
-## Exam Style Questions
 ### Problem 3.
 (a) Find the update equation, $x(t + \Delta t)$, of the following ODE,
 $$ \frac{d^2x(t)}{dt^2} + \omega^2 x(t)=0 $$
@@ -242,6 +241,108 @@ From here we can use the update equation to iterate,
 
 
 (d) Use Excel or otherwise to simulate both for $t/\Delta t$ up to 30, what do you see?
+
+## Exam Style Questions
+### Problem 4.
+The following image shows a regularly spaced grid of nodes representing the distribution of the scalar parameter $\{C}$ in time, $\{t}$, and one-dimensional space, $\{x}$.
+
+![figure1](14-finite-differences-media/finite_differences_q4.png)
+
+
+(a) Write down an expression for the central-difference approximation to the time derivative $\frac{\partial C}{\partial t}$ at the point $\{C^{n+1}_i}$.
+
+<div class = "answer">
+
+$\frac{\partial C}{\partial t}|_{i, n} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t} $
+
+(The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest ($\{C^{n+1}_i}$), and is independent of the spacial parameter ${x}$).
+
+</div>
+
+(b) Explain whether the central difference approximation is more / less accurate than the forward-difference approximation.
+
+<div class = "answer">
+
+Central difference is the average of forward-difference and backward-difference.
+
+FD: $f'(x) = (\frac{f(x + \Delta x) - f(x)}{\Delta x}) - \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 - ... $
+
+BD: $f'(x) = (\frac{f(x - \Delta x) - f(x)}{\Delta x}) + \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 + ... $
+
+Therefore, CD: $f'(x) = (\frac{f(x + \Delta x) - f(x - \Delta x)}{2\Delta x}) - O(\Delta x^2)... $
+
+Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
+
+</div>
+
+(c) Why does it become impractical to continually reduce the step-size $\{\Delta x}$ in order to improve the accuracy of the simulation?
+
+<div class = "answer">
+
+- Computational expense performing calculations
+- Memory required to store values
+- Finite precision of values may not be able to resolve small differences.
+
+</div>
+
+### Problem 5.
+
+(a) Sketch the Temperature-Position graph corresponding to the following system of equations at:
+
+DON'T KNOW HOW TO HAVE A CURLY BRACKET COVERING ALL 4 EQUATIONS 
+
+
+${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
+
+${T|_{t=0} = 25}$ on ${Ɐx}$,
+
+${T|_{x=-L} = 100}$ on ${Ɐt>0}$,
+
+${T|_{x=L} = 0}$ on ${Ɐt>0}$.
+
+(i) Initial temperature (t = 0)\
+(ii) At t > 0\
+(iii) Steady state conditions (as t tends to infinity)
+
+<div class = "answer">
+
+![figure2](14-finite-differences-media/finite-differences-q5a.png)
+
+(i) Red line\
+(ii) Green line\
+(iii) Blue line
+
+ADD MATLAB CODE ANIMATION!
+
+</div>
+
+(b) Sketch the Temperature-Position graph corresponding to the following system of equations at:
+
+DON'T KNOW HOW TO HAVE A CURLY BRACKET COVERING ALL 4 EQUATIONS 
+
+${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
+
+${T|_{t=0} = 25}$ on ${Ɐx}$,
+
+${{\partial_x} T|_{x=-L} = 0}$ on ${Ɐt>0}$,
+
+${{\partial_x}T|_{x=L} = 10}$ on ${Ɐt>0}$.
+
+(i) Initial temperature (t = 0)\
+(ii) At t = a (where a is some arbitrary value)\
+(iii) At t = b (where b is some arbitrary value and b > a)
+
+<div class = "answer">
+
+![figure3](14-finite-differences-media/finite-differences-q5b.png)
+
+(i) Red line\
+(ii) Green line\
+(iii) Blue line
+
+ADD MATLAB CODE ANIMATION!
+
+</div>
 
 [Example sheet](https://docs.google.com/spreadsheets/d/1xl-y2ZNephq5xFhGiN_elvjIguKhOt5i5e09kftDhI8/edit?usp=sharing)
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
