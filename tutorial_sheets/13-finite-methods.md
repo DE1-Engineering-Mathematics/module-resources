@@ -301,6 +301,7 @@ T|_{x=L}=0 \qquad\  &\forall t>0.
 \end{cases}
 \end{equation}
 
+
 ${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
 
 ${T|_{t=0} = 25}$ on ${Ɐx}$,
