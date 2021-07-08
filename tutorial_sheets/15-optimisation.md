@@ -154,7 +154,7 @@ $$
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
 <div class = "answer">
-Still a linear regression problem as the function is linear within it's parameters.}
+Still a linear regression problem as the function is linear within it's parameters.
 
 $$
 S = \sum_{i=1}^{3} (y_i - f(x_i))^2 = \sum_{i=1}^{3} (y_i - ae^{x_i} - b)^2
