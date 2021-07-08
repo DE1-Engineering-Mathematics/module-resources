@@ -7,8 +7,8 @@ These pages provide a very basic introduction to using Python to solve mathemati
 - [2. Interacting with Python](gettingStarted\interactingWithPython)
 
 ### Engineering Mathematics Topics - Term 1
-- [1. Refresher and Functions](gettingStarted\Topics_term1\1_Refresher_func)
-- [2. Vectors](gettingStarted/Topics_term1\2_Vectors)
+- [1. Refresher and Functions](Topics_term1\1_Refresher_func)
+- [2. Vectors](Topics_term1\2_Vectors)
 - [3. Matrices]()
 - [4A. Linear Transformations]()
 - [4B. EigenProblems]()
