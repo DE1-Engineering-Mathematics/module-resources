@@ -151,7 +151,7 @@ $$
 </div>
 
 ### Problem 3.
-Find the line of best fit, using minimied sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
+Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
 <div class = "answer">
 Still a linear regression problem as the function is linear within it's parameters.
