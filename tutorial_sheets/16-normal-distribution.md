@@ -15,6 +15,8 @@
 
 # Normal Distribution Tutorial Sheet, #16
 
+This particular tutorial sheet is short. Do not be alarmed! It reflects the low difficulty of the topic. 
+
 ### Additional resources
 * [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
 
@@ -202,6 +204,63 @@ $ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+## Exam Questions
+
+### Problem 5.
+Due to imperfect manufacturing of circuit laundry machines, their wash times can vary. The machine displays a time of 50 minutes for colors at $40 ^\circ $ but truly has a standard deviation of 17 minutes and 15 seconds around that time. 
+
+(a) Sketch a graph of the wash time for colors at $40 ^\circ $ distribution. Shade the region showing the 80% most reliable wash times and label the duration interval.
+
+<div class = "answer">
+
+Most reliable wash times are around the mean (50 min) interval corresponds to everything but the extreme 10% (upper and lower). 
+
+Upper 10%:
+
+$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=10\% $ 
+
+Solve for Y:
+
+[$ Y = 72.1$](https://www.wolframalpha.com/input/?i=0.5%281-erf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y) 
+
+Lower 10%:
+
+$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{+{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=10\% $ 
+
+[$ Y = 27.9$](https://www.wolframalpha.com/input/?i=0.5%281%2Berf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y) 
+
+![](16-normal-distribution/5a.png)
+
+</div>
+
+(b) If Imperial College London buys an army of 12 laundry machines for the entirety of Southside Halls and its 350 students, how many of the machines can be expected to have a wash time of more than 60 minutes?
+
+$ \Rightarrow{} P(X>60)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ 60\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=0.2811\% $ 
+
+$ 12 * 0.2811 = 3.37 $
+
+$\boxed{3 \text{ machines}}$
+
+![](16-normal-distribution/5b.png)
+
+(c) How many of the machines have an accuracy of $\pm2$ min with their colors at $40 ^\circ $ cycles?
+
+$ \Rightarrow{} P(48< X < 52)=P(X < 52)-P(X < 48)  $ 
+<br>
+
+$ \Rightarrow{} P(48 < X < 52)= \frac{1}{2}\left[\text{ erf}\left(\frac{52-50}{17.25\ \sqrt{2}}\right)- \text{ erf}\left(\frac{48-50}{17.25\ \sqrt{2}}\right)\right] $ 
+<br>
+
+$ \Rightarrow{} P(48 < X < 52)=0.0923$ 
+<br>
+
+$\Rightarrow{}0.0923*12 = 1.1076$
+
+$ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
+
+![](16-normal-distribution/5c.png)
+
 
 -----------------
 
