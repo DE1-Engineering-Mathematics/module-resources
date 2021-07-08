@@ -172,6 +172,7 @@ $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$
 A high-Jumper can clear a jump higher than 1.78m once in every five attempts. This jumper can also clear a height of at least 1.65m on 7 out of 10 attempts:
 
 (a) Draw a Gaussian/Bell Curve for the given Data with highlighting the jumps over 1.78. 
+
 <div class = "answer">
 
 <img src = "16-normal-distribution/4a.png">
