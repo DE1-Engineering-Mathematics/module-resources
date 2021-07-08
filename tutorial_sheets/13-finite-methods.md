@@ -292,6 +292,15 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 DON'T KNOW HOW TO HAVE A CURLY BRACKET COVERING ALL 4 EQUATIONS 
 
 
+\begin{equation}
+\begin{cases}
+\partial_t T = \alpha\partial_{xx}T  &\text{on}\, (0,∞)\times [-L,L],\\
+T|_{t=0}=25 &\forall x,\\
+T|_{x=-L}=100 \qquad\  &\forall t>0,\\
+T|_{x=L}=0 \qquad\  &\forall t>0.
+\end{cases}
+\end{equation}
+
 ${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
 
 ${T|_{t=0} = 25}$ on ${Ɐx}$,
