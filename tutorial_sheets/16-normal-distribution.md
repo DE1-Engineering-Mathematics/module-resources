@@ -235,6 +235,7 @@ $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{+{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25
 </div>
 
 (b) If Imperial College London buys an army of 12 laundry machines for the entirety of Southside Halls and its 350 students, how many of the machines can be expected to have a wash time of more than 60 minutes?
+<div class = "answer">
 
 $ \Rightarrow{} P(X>60)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ 60\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=0.2811\% $ 
 
@@ -243,8 +244,9 @@ $ 12 * 0.2811 = 3.37 $
 $\boxed{3 \text{ machines}}$
 
 ![](16-normal-distribution/5b.png)
-
+</div>
 (c) How many of the machines have an accuracy of $\pm2$ min with their colors at $40 ^\circ $ cycles?
+<div class = "answer">
 
 $ \Rightarrow{} P(48< X < 52)=P(X < 52)-P(X < 48)  $ 
 <br>
@@ -261,6 +263,8 @@ $ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
 
 ![](16-normal-distribution/5c.png)
 
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
