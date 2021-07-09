@@ -289,18 +289,17 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 
 (a) Sketch the Temperature-Position graph corresponding to the following system of equations at:
 
-DON'T KNOW HOW TO HAVE A CURLY BRACKET COVERING ALL 4 EQUATIONS 
+NEED HELP WITH {} LAST 2 LINES!!!
 
-
-\begin{equation}
+\begin{equation*}
 \begin{cases}
-\partial_t T = \alpha\partial_{xx}T  &\text{on}\, (0,∞)\times [-L,L],\\
-T|_{t=0}=25 &\forall x,\\
-T|_{x=-L}=100 \qquad\  &\forall t>0,\\
-T|_{x=L}=0 \qquad\  &\forall t>0.
+    \partial_t T = \alpha\partial_{xx}T &\text{on}\ (0,∞)
+    \times [-L, L],\newline
+    T|_{t=0}=25 &\text{on}\ \forall x,\newline
+    T|_{x=-L}=100 \qquad\ &\text{on}\ \forall t>0,\newline
+    T|_{x=L}=0 \qquad\ &\text{on}\ \forall t>0.
 \end{cases}
-\end{equation}
-
+\end{equation*}
 
 ${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
 
@@ -309,6 +308,7 @@ ${T|_{t=0} = 25}$ on ${Ɐx}$,
 ${T|_{x=-L} = 100}$ on ${Ɐt>0}$,
 
 ${T|_{x=L} = 0}$ on ${Ɐt>0}$.
+
 
 (i) Initial temperature (t = 0)\
 (ii) At t > 0\
@@ -328,7 +328,17 @@ ADD MATLAB CODE ANIMATION!
 
 (b) Sketch the Temperature-Position graph corresponding to the following system of equations at:
 
-DON'T KNOW HOW TO HAVE A CURLY BRACKET COVERING ALL 4 EQUATIONS 
+NEED HELP WITH {} LAST 2 LINES!!!
+
+\begin{equation*}
+\begin{cases}
+    \partial_t T = \alpha\partial_{xx}T &\text{on}\ (0,∞)
+    \times [-L, L],\newline
+    T|_{t=0}=25 &\text{on}\ \forall x,\newline
+    T|_{x=-L}=0 \qquad\ &\text{on}\ \forall t>0,\newline
+    T|_{x=L}=10 \qquad\ &\text{on}\ \forall t>0.
+\end{cases}
+\end{equation*}
 
 ${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
 
