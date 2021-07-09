@@ -69,9 +69,6 @@ It is clear that the iterations are converging towards the root $x=3.$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
----------------------------------
-
-## Challenging Questions
 ### Problem 2.
 The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. Use the method of interval bisection to locate this root accurate to $10^{-2}$. 
 
@@ -143,7 +140,7 @@ Therefore, the root is 0.59 to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-## Problem 3.
+### Problem 3.
 Find the only real root of $x^3-3x-4=0$ using NR method correct to 9 decimal places.
 
 <div class = "answer">
@@ -167,7 +164,7 @@ What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-## Problem 4.
+### Problem 4.
 Find the real root of $x^3-6x^2+9x+1=0$ using;
 
 (a) the Newton-Raphson method.
@@ -218,7 +215,7 @@ $\therefore$ the root of the equation is $-0.1038$ ($4$ d.p.).
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-## Problem 5
+### Problem 5
 Find a positive real root of $\cos(x)-x^3=0$ using;
 
 (a) the NR (Newton-Raphson) method.
@@ -296,8 +293,63 @@ So, the root of the equation is $0.8654$ (to $4$ d.p.).
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-## Problem 6.
+---------------------------------
+## Exam Style Questions
+
+### Problem 6.
+(i)Use the Newton Raphson method to investigate the function:\$f(x) = \frac{1+4x - x^3}{x}$ by starting from the point $x = -1.0\$ and finding a root accurate to 2 decimal places.
+
+<div class = "answer">
+
+Newton-Raphson formula: $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
+
+Iteration 1. $n=-1.0:$
+$$
+x_1=x_0-\frac{f(x_0)}{f'(x_0)}=-1-\frac{\frac{1+4(-1) - (-1)^3}{(-1)}}
+{{\frac{-1}{(-1)^2}-2(-1)}}=-3
+$$
+
+Iteration 2. $n=-3.0:$
+$$
+x_2=x_1-\frac{f(x_1)}{f'(x_1)}=\frac{-111}{53} = -2.094339623
+$$
+
+Iteration 3. $n=-2.09...:$ 
+$$
+x_3=x_2-\frac{f(x_2)}{f'(x_2)}=-1.876262734
+$$
+
+Iteration 4. $n=-1.876...:$ 
+$$
+x_4=x_3-\frac{f(x_3)}{f'(x_3)}=-1.86088525
+$$
+
+Iteration 5. $n=-1.860...:$ 
+$$
+x_5=x_4-\frac{f(x_4)}{f'(x_4)}=-1.860805855
+$$
+
+The root correct to 2dp is -1.86. This took 5 iterations.
+Alternatively you could use Matlab code to solve this.
+
+ADD IN MATLAB CODE TO SOLVE THIS (NOT GRAPHICALLY).
+
+</div>
+
+(ii) Sketch the function as well as the path travelled by your NR approximation from the starting location and along each of the subsequent tangents, finishing at the root you have found.
+
+<div class = "answer">
+
+ADD MATLAB ANIMATION + CODE
+
+</div>
+
+---------------------------------
+## Challenging Questions
+
+### Problem 7.
 For those who'd like an extra method, look up the ``Fixed point method'' to find the roots for the following function: $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
+
 <div class = "answer">
 From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. Thus, if we take $g(x)=\mathrm{cos}(x)$, then: 
 
@@ -324,6 +376,7 @@ x_{18}&=\mathrm{cos}x_1=0.73956
 The sequence is clearly converging to the root $x\approx 0.74$
 
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
