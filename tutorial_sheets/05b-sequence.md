@@ -62,20 +62,21 @@ $\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
 ### Problem 2.
 Find the third, sixth and ninth term of the sequence given by the formula:
 
-(a) $$ \left\{ \frac{n^2-n-6}{n+2} \right\}_{n=1}^\infty $$
+(a) $  \sum_{n=1}^{\infty}\ \left(\frac{n^2-n-6}{n+2}\right) $
 
 
 <div class = "answer">$\Rightarrow a_3 = \frac{3^2-3-6}{3+2} = \boxed{0} ,
 \\ \\ \Rightarrow a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=\boxed{3},
 \\ \\ \Rightarrow a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=\boxed{6}$</div>
 
-(b)  $$\left\{\sin⁡[ \left(n+1\right)\frac{\pi{}}{3}] \right\}_{n=1}^\infty$$
+(b) $ \sum_{n=1}^{\infty}\ \left(\text{sin⁡}[ \left(n+1\right)\frac{\pi{}}{3}]\right) $
 
 <div class = "answer">$\Rightarrow a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}},
 \\ \\ \Rightarrow a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\boxed{\frac{\sqrt{3}}{2}},
 \\ \\ \Rightarrow a_9=\sin(9+1)\frac{\pi{}}{3}=\sin(\frac{10\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}}$</div>
 
-(c) $$\left\{\binom{n}{2}-\binom{n}{3}\right\}_{n=3}^\infty$$  
+(c) $ \sum_{n=3}^{\infty}\ \left(\binom{n}{2}-\binom{n}{3} \right)$  
+
 Use the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
 
 <div class = "answer">
@@ -157,214 +158,6 @@ $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rig
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-Determine whether each of the following series converges or diverges:
-
-(a) $\sum_{n=1}^{\infty{}}\frac{n}{n^2+1}$
-<div class = "answer">$\boxed{\text{Diverges}}$ <br>
-Solution: <br>
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Note: Here it is not possible to apply the ratio test as $\lim_{n\rightarrow\infty}{\frac{a_{n+1}}{a_n}}=1$.
-
-$$
-\lim_{n\rightarrow\infty}{\frac{(n+1)(n^2+1)}{((n+1)^2+1)(n)}}=\lim_{n\rightarrow\infty}{\frac{n^3+n^2+n+1}{n^3+2n^2+2n}}=1 
-$$
-
-Instead, we use the 'Limit Comparison Test'. We choose an arbitrary $b_n$ in which for all $n=1,2,3, ...,\infty$, $b_n>0$. Then if $\lim_{n\rightarrow\infty}{\frac{a_n}{b_n}=c>0}$: 
-$$ \text{Either } b_n \text{ converges, so then } a_n \text{ converges} $$
-$$ \text{or } b_n \text{ diverges, so then } a_n \text{ diverges} $$
-
-Here, let $b_n=1/n$. <br>
-$$
-\lim_{n\rightarrow\infty}{\frac{\frac{n}{n^2+1}}{\frac{1}{n}}}=1>0.
-$$
-Hence, the $\sum_{n=1}^{\infty}{b_n}$ is divergent, the
-$\sum_{n=1}^{\infty}{a_n}$ also diverges.
-</div>
-
-(b) $\sum_{n=0}^{\infty{}}\frac{1}{\left(2n+1\right)!}$
-<div class = "answer">
-$\boxed{\text{Converges}}$
-
-Solution:
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{1}{\left(2\left(n+1\right)+1\right)!}\times{}\frac{\left(2n+1\right)!}{1}\right\vert{}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(2n+1\right)!}{\left(2n+3\right)!}\right\vert{}=0}}\
-\rightarrow{}\text{converges}
-$$</div>
-
-(c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ for-1 < x < +1$
-<div class = "answer">
-$\boxed{\text{Converges}}$
-
-Solution:
-
-Equation for sum of the series is:
-
-$$
-\sum_{n=1}^{\infty{}}\frac{x^n}{n(n+1)}
-$$
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{ {(x}^{n+1}). [ n(n+1) ] }{\left[ \left(n+1\right)(n+2) \right] .x^n}\right\vert{}}=\left\vert{}x\right\vert{}
-$$
-
-Therefore, converge for $\left\vert{}x\right\vert{}<1$.</div>
-
-(d) $\sum_{n=1}^{\infty{}}\frac{ {1+3n}^2}{ {1+n}^2}$
-<div class = "answer">
-$\boxed{\text{Diverges}}$
-
-
-Solution:
-
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to non-zero value (i.e. the series is divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{n\rightarrow{}\infty{}}{\frac{1+3n^2}{1+n^2}=3}
-$$
-</div>
-
-
------------------------------------------------------------------------------------
-
-### Problem 7.
-Find the range of values of $X$ for which the following series are
-absolutely convergent:
-
-(a) $\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...$
-
-<div class = "answer">
-Answer: $\boxed{\text{Convergent for } -1\leq{}X\leq{}1.}$ <br><br>
-
-Solution:
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}
-$$
-
-$$
-=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{X^{(n+1)}}{ {(2\left(n+1\right)+1)}^3}\times{}\frac{ {(2n+1)}^3}{X^n}\right\vert{}}
-$$
-
-$$
-=\left\vert{}X\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {(2n+1)}^3}{ {(2n+3)}^3}\right\vert{}=\vert{}X\vert{}}
-$$
-
-Convergent for $-1 < X < 1$.
-
-Now check if the endpoints are converging:
-
-$$	
-\rightarrow{}At\ X=1,\lim_{n\rightarrow{}1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
-$$
-
-$$
-At\ X=-1,\ \
-\lim_{n\rightarrow{}-1}{\sum_{x=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
-$$</div>
-
-(b) $ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $
-<div class = "answer">
-Answer: $\boxed{\text{Convergent for }-1\leq{}x\leq{}1}$. <br><br>
-
-Solution:
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(n+2\right).X^{(n+1)}}{ {(n+1)}^3}\times{}\frac{n^3}{\left(n+1\right).X^n}\right\vert{}}
-$$
-
-$$
-=\left\vert{}x\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{n^4+2n^3}{n^4+{4n}^3+{6n}^2+4n+1}\right\vert{}=\vert{}x\vert{}}
-$$
-
-Convergent for $-1< x < 1$.
-
-Now check if the endpoints are converging:
-
-$$
-\rightarrow{}At\ x=1,\
-\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
-\Rightarrow{}\text{convergent}
-$$
-
-$$
-At\ x=-1,\
-\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
-\Rightarrow{} \text{convergent}
-$$</div>
-
-(c) $ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $
-<div class = "answer">
-Answer: $\boxed{\text{Convergent for } \left\vert{}x\right\vert{} < 1 }$. <br><br>
-
-
-Solution:
-
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {\ln{\left(n+1\right)}.x}^{n+1}}{\ln{\left(n\right)}{.x}^n}\right\vert{}}=\left\vert{}x\right\vert{}
-$$
-
-Therefore, converge for $\left\vert{}x\right\vert{}<1$.
-
-Now check if the endpoints are converging:
-
-$$
-\rightarrow{}At\ x=1,\ \
-\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\ln{\left(n\right)}}\Rightarrow{} \text{diverges}
-$$
-
-
-$$\rightarrow{}At x=-1,\ \ \lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}}
-{(-1)}^n\ln{\left(n\right)}\Rightarrow{} \text{diverges}$$
-
-Note: The $n^{th}$ term test showed that 
-$\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the test only shows whether the function diverges and does not test the convergency. Hence, the ratio test must be conducted.  
-</div>
-
-(d) $ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $
-<div class = "answer">
-Answer: $\boxed{\text{Convergent for all values of } x}$. <br><br>
-
-Solution:
-
-Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
-
-Using the ratio test:
-
-$$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{3^{n+1}X^{n+1}}{\left(n+1\right)!}\times{}\frac{n!}{3^nX^n}\right\vert{}}=\
-\frac{3\left\vert{}x\right\vert{}}{n+1}=0 $$
-
-Converges for all values of $x$.
-</div>
-
------------------------------------------------------------------------------------
-
-### Problem 8.
 
 (a) Using the standard summation formulae, find an expression for $S=\sum_{r=1}^{n}\ (2-4r)^2$ in terms of $n$. Give your answer in a fully factorised form.
 <div class = "answer">
@@ -382,7 +175,7 @@ $S=\sum_{r=20}^{60}\ (2-4r)^2 \\
 
 -----------------------------------------------------------------------------------
 
-### Problem 9.
+### Problem 7.
 
 (a) Show that $S=\sum_{r=1}^{n}\ (4r-2) = 2n^2$
 <div class = "answer">
@@ -408,47 +201,317 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
 
 -----------------------------------------------------------------------------------
 
+### Problem 8.
+Determine whether each of the following series converges or diverges:
+
+(a) $\sum_{n=1}^{\infty{}}\frac{n}{n^2+1}$
+<div class = "answer">$\boxed{\text{Diverges}}$ <br>
+Solution: <br>
+Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$ goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Note: Here it is not possible to apply the ratio test as $\lim_{n\rightarrow\infty}{\frac{a_{n+1}}{a_n}}=1$.
+
+$$
+\lim_{n\rightarrow\infty}{\frac{(n+1)(n^2+1)}{((n+1)^2+1)(n)}}=\lim_{n\rightarrow\infty}{\frac{n^3+n^2+n+1}{n^3+2n^2+2n}}=1 
+$$
+
+Instead, we can use the "Limit Comparison Test". We choose an arbitrary $b_n$ in which for all $n=1,2,3, ...,\infty$, $b_n>0$. Then if $\lim_{n\rightarrow\infty}{\frac{a_n}{b_n}=c>0}$: 
+$$ \text{either } b_n \text{ converges, so then } a_n \text{ converges} $$
+$$ \text{or } b_n \text{ diverges, so then } a_n \text{ diverges} $$
+
+Here, let $b_n=\frac{1}{n}$. Note that we can also pick other functions for $\ b_n \$ but choosing $\frac{1}{n}$ or $\frac{1}{n^2}$ is a common and a safe option for this test.<br>
+$$
+\lim_{n\rightarrow\infty}{\frac{\frac{n}{n^2+1}}{\frac{1}{n}}}=\frac{n^2}{n^2+1}=1>0.
+$$
+Hence, since $\sum_{n=1}^{\infty}{b_n}$ diverges, $\sum_{n=1}^{\infty}{a_n}$ also diverges.
+<br><br>
+Note: if it's unclear to you why $\sum_{n=1}^{\infty}{b_n}$ is divergent this can be verified using the p-series test which says: if $a_n = n^{-p}$, and $p > 1$ then the series converges.
+<br>
+$b_n = \frac{1}{n} = n^{-1}$
+<br>
+In this case $p$ isn't greater than 1 so the series does not converge: it diverges.
+</div>
+
+(b) $\sum_{n=0}^{\infty{}}\frac{1}{\left(2n+1\right)!}$
+<div class = "answer">
+$\boxed{\text{Converges}}$
+
+Solution:
+
+Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+We can use the ratio test:
+
+$$
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{1}{\left(2\left(n+1\right)+1\right)!}\times{}\frac{\left(2n+1\right)!}{1}\right\vert{}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(2n+1\right)!}{\left(2n+3\right)!}\right\vert{}=0}}\
+$$
+$\therefore$ The series is convergent.
+<br><br>
+Note: when testing for convergence the ratio test is the most common test to try first after the $n^{th}$ term test (or "Test for Divergence" as written in the notes). If that test fails then try another one.</div>
+
+(c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ for-1 < x < +1$
+<div class = "answer">
+$\boxed{\text{Converges}}$
+
+Solution:
+
+The equation for sum of the series is:
+
+$$
+\sum_{n=1}^{\infty{}}\frac{x^n}{n(n+1)}
+$$
+
+Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Using the ratio test:
+
+$$
+\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{x\rightarrow{}\infty{}}{\left\vert{}\frac{ {(x}^{n+1}). [ n(n+1) ] }{\left[ \left(n+1\right)(n+2) \right] .x^n}\right\vert{}}=\left\vert{}x\right\vert{}
+$$
+
+Therefore, the series converges for $\left\vert{}x\right\vert{}<1$. 
+<br>
+i.e. since the limit isn't equal to 1, then as long as $\left\vert{}x\right\vert{}$ is less than one the series converges.
+</div>
+
+(d) $\sum_{n=1}^{\infty{}}\frac{ {1+3n}^2}{ {1+n}^2}$
+<div class = "answer">
+$\boxed{\text{Diverges}}$
+
+
+Solution:
+
+
+Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to non-zero value (i.e. the series is divergent at this stage).
+
+We can use the ratio test to verify that it diverges as well:
+
+$$
+\lim_{n\rightarrow{}\infty{}}{\frac{1+3n^2}{1+n^2}=3}
+$$
+</div>
+
+
+-----------------------------------------------------------------------------------
+
+### Problem 9.
+Find the range of values of $X$ for which the following series are
+absolutely convergent:
+
+(a) $\frac{X}{27}+\frac{X^2}{125}+...+\frac{X^n}{ {\left(2n+1\right)}^3}+...$
+
+<div class = "answer">
+Answer: $\boxed{\text{Convergent for } -1\leq{}X\leq{}1}$. <br><br>
+
+Solution:
+
+Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Using the ratio test:
+
+$$
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}
+$$
+
+$$
+=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{X^{(n+1)}}{ {(2\left(n+1\right)+1)}^3}\times{}\frac{ {(2n+1)}^3}{X^n}\right\vert{}}
+$$
+
+$$
+=\left\vert{}X\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {(2n+1)}^3}{ {(2n+3)}^3}\right\vert{}=\vert{}X\vert{}}
+$$
+
+Convergent for $-1 < X < 1$.
+
+Now check if the endpoints are converging:
+
+$$	
+At\ X=1,\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+$$
+
+$$
+At\ X=-1,\ \
+\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+$$</div>
+
+(b) $ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $
+<div class = "answer">
+Answer: $\boxed{\text{Convergent for }-1\leq{}X\leq{}1}$. <br><br>
+
+Solution:
+
+Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Using the ratio test:
+
+$$
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(n+2\right)X^{(n+1)}}{ {(n+1)}^3}\times{}\frac{n^3}{\left(n+1\right)X^n}\right\vert{}}
+$$
+
+$$
+=\left\vert{}X\right\vert{}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{n^4+2n^3}{n^4+{4n}^3+{6n}^2+4n+1}\right\vert{}=\vert{}X\vert{}}
+$$
+
+Convergent for $-1< X < 1$.
+
+Now check if the endpoints are converging:
+
+$$
+At\ X=1,\
+\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
+\Rightarrow{}\text{convergent}
+$$
+
+$$
+At\ X=-1,\
+\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
+\Rightarrow{} \text{convergent}
+$$</div>
+
+(c) $ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $
+<div class = "answer">
+Answer: $\boxed{\text{Convergent for } \left\vert{}X\right\vert{} < 1 }$. <br><br>
+
+
+Solution:
+
+
+Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Using the ratio test:
+
+$$
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{ {\ln{\left(n+1\right)}.X}^{n+1}}{\ln{\left(n\right)}{.X}^n}\right\vert{}}=\left\vert{}X\right\vert{}
+$$
+
+Therefore, converges for $\left\vert{}X\right\vert{}<1$.
+
+Now check if the endpoints are converging:
+
+$$
+At\ X=1,\ \
+\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\ln{\left(n\right)}}\Rightarrow{} \text{divergent}
+$$
+
+$$
+At\ X=-1,\ \ \lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}}
+{(-1)}^n\ln{\left(n\right)}\Rightarrow{} \text{divergent}$$
+
+Note: The $n^{th}$ term test showed that 
+$\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the test only shows whether the function diverges and does not test the convergency. Hence, the ratio test must be conducted.  
+</div>
+
+(d) $ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $
+<div class = "answer">
+Answer: $\boxed{\text{Convergent for all values of } X}$. <br><br>
+
+Solution:
+
+Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
+
+Using the ratio test:
+
+$$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{3^{n+1}X^{n+1}}{\left(n+1\right)!}\times{}\frac{n!}{3^nX^n}\right\vert{}}=\
+\frac{3\left\vert{}X\right\vert{}}{n+1}=0 $$
+
+The function will always converge no matter what the value of $X$ is.
+</div>
+
+-----------------------------------------------------------------------------------
+
 ## Exam Style Questions
 ### Problem 10.
-A high-risk investment fund offers three possible investment strategy packages to its clients if they invest exactly £1,000,000. The first option is an annual return of 18%, but this is not compounded each year (i.e. the profit from each year is not reinvested). The second option offers a compounded daily return of 0.04%. The third option simply pays you an increasing dividend of £1 on the first day, followed by £2 on the second, £3 on the third and so on.
+An investment fund offers three  investment strategy packages to its clients if they invest exactly £500,000. The first option is an annual return of 16%, but this is not compounded each year (i.e. the profit from each year is not reinvested). The second option offers a compounded daily return of 0.03%. The third option simply pays you an increasing dividend of £1 on the first day, followed by £2 on the second, £3 on the third and so on.
 
-(a) Calculate the profit after 2 years for each of the three options.
+(a) Calculate the profit after 4 years for each of the three options.
 <div class = "answer">
 Option 1: 
-$\\ 2 \times £180,000 \Rightarrow \boxed{£360,000}$
+$\\ \text{The annual return will be:} \quad \frac{16}{100} \times  £500,000 = £80,000
+\\ \text{So the profit after four years will be:} \quad 4 \times £80,000 \Rightarrow \boxed{£320,000}
+\\$
 Option 2: 
-$\\ £1,000,000 \times (1.0004^{2 \times 365} − 1) \Rightarrow \boxed{£339,025}$
+$\\ \text{To calculate compound interest we use:} \quad  P[(1+i)^{n} - 1] \\
+P = \text{initial balance, } i = \text{interest rate, and } n = \text{number of compounding periods.}
+\\ £500,000 \times (1.0003^{4 \times 365} − 1) \Rightarrow \boxed{£274,751.56}
+\\$
 Option 3: 
-$\\ (2 \times 365)\frac{(2 \times 365 + 1)}{2} \Rightarrow \boxed{£266,815}$</div>
+$\\ \text{Method 1: We can calculate the total profit by creating a formula for the sum of the profit each day for 4 years.}
+\\ \sum_{n=0}^{4 \times 365}{n} \Rightarrow \boxed{£1,066,530} \\$
+<br>
+$\text{Method 2: We can calculate the sum of the profit using the formula for the sum of an arithmetic series.}
+\\ \text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n(n+1)}{2}
+\\ \therefore (4 \times 365)\frac{(4 \times 365 + 1)}{2} \Rightarrow \boxed{£1,066,530}$</div>
 
-(b) Which option offers the best return after 10 years?
+(b) Which option offers the best return after 40 years?
 <div class = "answer">
-$\Rightarrow \boxed{\text{Third}}$
+We use the same method as in part a) but replacing the year 4 with 40.
+<br>
+Option 1:
+$\text{The return will be: } £3,200,000 \\$
+Option 2:
+$\text{The return will be: } £39,392,804 \\$
+Option 3:
+$\text{The return will be: } £106,587,300 \\$
+
+So the option with the best return is $\Rightarrow \boxed{\text{Third}}$
 </div>
 
-(c) Which option offers the best return after 30 years?
-<div class = "answer">
-$\Rightarrow \boxed{\text{Second}}$
-</div>
-
-(d) Draw a graph showing the profit vs. time for the three options over 30
+(c) Draw a graph showing the profit vs. time for the three options over 40
 years.
 <div class = "answer">
 Insert graph.</div>
 
-(e) Write down an expression for the difference between the profits of the
+(d) Write down an expression for the difference between the profits of the
 second and third options as a function of the number of days since
 investing, 𝑁.
 <div class = "answer">
-$\frac{N(N+1)}{2 \times 10^6} = 1.0004^N - 1
-\\ \Rightarrow \boxed{f(N) = 1.0004^N - 1 - \frac{N(N+1)}{2 \times 10^6}}$
+$\frac{N(N+1)}{2} = 1.0003^N - 1
+\\ \Rightarrow \boxed{f(N) = 1.0003^N - 1 - \frac{N(N+1)}{2}}$
 </div>
 
-(f) Give an interpretation of the roots of this function.
+(e) Give an interpretation of the roots of this function.
 <div class = "answer">
 $\Rightarrow$ The days of investment after which it would be more profitable to have adopted the other strategy.
+$\\$
 </div>
 
+-----------------------------------------------------------------------------------
+
+## Challenging Questions
+### Problem 11.
+
+Let $ \ S_n \ $ be a sequence given by $ \ S_n = \frac{1}{n+1} +  \frac{1}{n+2} + ... + \frac{1}{2n}$.$\ \$ Show that the sequence is increasing. 
+
+<div class = "answer">
+For a sequence to be increasing: $ S_{n+1} - S_n > 0
+\\ S_{n+1} - S_n = (\frac{1}{n+2} +  \frac{1}{n+3} + ... +  \frac{1}{2n} +  \frac{1}{2n + 1} +  \frac{1}{2n + 2}) - (\frac{1}{n+1} + \frac{1}{n+2} +  \frac{1}{n+3} + ... +  \frac{1}{2n})
+\\ \qquad \quad \quad \ = \frac{1}{2n + 1} +  \frac{1}{2n + 2} - \frac{1}{n+1}
+\\ \qquad \quad \quad \ = \frac{4n+3}{(2n + 1)(2n+2)} - \frac{2}{2n+2}
+\\ \qquad \quad \quad \ = \frac{(4n+3) - 2(2n+1)}{(2n + 1)(2n+2)}
+\\ \qquad \quad \quad \ = \frac{1}{(2n + 1)(2n+2)} > 0 \Rightarrow \text{The sequence is increasing}$
+
+</div>
+
+### Problem 12.
+
+Fid the missing number in the following sequence: 
+$\ \ 61, \ 52, \ 63, \ 94, \ ?, \ 18,... $ 
+
+<div class = "answer">
+This is a bit of a trick question: you should read the numbers backwards!
+<br>
+i.e. read the number from right to left. The sequence then becomes:
+<br>
+$16, \ 25, \ 36, \ 49, \ ?, \ 81,... $ 
+<br>
+Now you just have a sequence of the squared numbers starting at 4:
+<br>
+$4^2, \ 5^2, \ 6^2, \ 7^2, \ ?, \ 9^2,... $
+<br>
+so the missing number will be $8^2 = 64$ and if we reverse the digits we have our final answer
+$\Rightarrow\boxed{46}$
+
+</div>
 <br><br>
 
 ## Answers
