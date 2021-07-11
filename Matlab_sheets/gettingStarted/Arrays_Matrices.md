@@ -1,5 +1,5 @@
 # Arrays and Matrices
-Matlab is an abbreviation for **MAT**rix **LAB**oratory, it has been purely designed to work with matrices and arrays. In fact, all of the data types we saw  earlier are *secretely arrays*.
+Matlab is an abbreviation for **MAT**rix **LAB**oratory, it has been purely designed to work with matrices and arrays. In fact, all of the data types we saw  earlier are *secretly arrays*.
 
 ## Array creation
 To create an array use the square brackets "**[ ]**", to separate elements you can use either "**,**" or spaces. Both methods are equally valid.
@@ -51,6 +51,6 @@ f = [c, e]
 g = [a; b]
 ```
 
-**size and length**
+**size and length hold on and indexing format code boxes**
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
