@@ -1,6 +1,6 @@
 
 
-## Data types
+# Data types
 In Matlab variables can be many different things, the most frequent ones you will find are the following:
 
 - **Doubles** are the default numerical type in matlab. They can store negative, decimal, numbers in standard form and arrays. They store numbers in 64 bits double-precision floating-point values. You can also have **singles** which are stored in 32 bits.
