@@ -442,14 +442,15 @@ An investment fund offers three  investment strategy packages to its clients if 
 
 The annual return will be: $ \frac{16}{100} \times  £500,000 = £80,000 $
 
-So the profit after four years will be: $ 4 \times £80,000 \Rightarrow \boxed{£320,000} $
+So the profit after four years will be: $ 4 \times £80,000 \Rightarrow \boxed{£320,000} $ <br>
 
  <b> Option 2: </b> <br>
- 
+
 To calculate compound interest we use: $P[(1+i)^{n} - 1] \\
 P = \text{initial balance, } i = \text{interest rate, and } n = \text{number of compounding periods.}
 \\ £500,000 \times (1.0003^{4 \times 365} − 1) \Rightarrow \boxed{£274,751.56}
-\\$
+\\$ 
+
  <b> Option 3: </b> <br>
 
 Method 1: We can calculate the total profit by creating a formula for the sum of the profit each day for 4 years.
@@ -468,15 +469,15 @@ We use the same method as in part (a) but replacing the year 4 with 40.
 
  <b> Option 1:  </b> <br>
 
-The return will be:  $ £3,200,000 \\$
+The return will be: $ £3,200,000 $
 
  <b> Option 2: </b> <br>
 
-The return will be: $ £39,392,804 \\$
+The return will be: $ £39,392,804 $
 
  <b> Option 3: </b> <br>
 
-The return will be: $ £106,587,300 \\$
+The return will be: $ £106,587,300 $
 
 So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
 </div>
