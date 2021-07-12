@@ -383,7 +383,7 @@ The first integral can be done quickly using WolframAlpha by typing in:
 
 This evaluates to:
 
-$$a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
+$$= \frac{1 - \cos(\pi n)}{\pi^2 n^2}$$
 
 To do this manually, apply integration by parts:
 
@@ -397,6 +397,10 @@ To do this manually, apply integration by parts:
 \newline
 &=\frac{1 - (-1)^n}{\pi^2 n^2}. 
 \end{align*}
+
+<br>
+
+$$\therefore a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} + 0 =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
 
 (3) Similarly, we can find $b_n$:
 
@@ -420,9 +424,10 @@ This evaluates to:
 
 $$= \frac{\sin(\pi n) - \pi n}{\pi^2 n^2}$$
 
+It can also be done manually using integration by parts in a similar way to which $b_n$ was found.
 <br>
 
-$$\therefore b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{n\pi{}}\left(\cos{\left(n\pi \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{n\pi{}} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}
+$$\therefore b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}
 $$
 
 Thus,
