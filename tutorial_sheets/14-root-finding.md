@@ -27,7 +27,9 @@
 Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from interval [2.5, 4].
 
 <div class = "answer"> 
-This question could be solved effectively using code (e.g. Python, Matlab), see if you can write the script yourself!
+These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
+
+<br><br>
 
 Manually:\
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$}
@@ -43,7 +45,7 @@ Iteration 1 $(k = 0)$:
 c_0 = \frac{a_0+b_0}{2}=\frac{4+2.5}{2}=\frac{6.5}{2}=3.25
 \end{equation*}
 
-Since $f(c_0)f(a_0)=f(3.25)f(2.5) < $, set $b_1=c_0=3.25,a_1=a_0=2.5$
+Since $f(c_0)f(a_0)=f(3.25)f(2.5) < 0$ and $|f(c_0)f(a_0)| < |f(b_0)f(a_0)|$ , set $b_1=c_0=3.25,a_1=a_0=2.5$
 
 Iteration 2 $(k = 1)$:
 
@@ -51,7 +53,7 @@ Iteration 2 $(k = 1)$:
 c_1 = \frac{3.25+2.5}{2}=2.8750
 \end{equation*}
 
-Since $f(c_1)f(a_1)=f(2.875)f(2.5)>0$, set $ b_2=b_1=3.25,a_2=2.875$
+Since $f(c_1)f(a_1)=f(2.875)f(2.5)>0$ and $|f(c_1)f(b_1)| < |f(b_1)f(a_1)|$, set $ b_2=b_1=3.25, a_2 = c_1=2.875$
 
 Iteration 3 $(k = 2)$:
 
@@ -59,7 +61,7 @@ Iteration 3 $(k = 2)$:
 c_2=\frac{a_2+b_2}{2}=\frac{2.875+3.25}{2}=3.0625
 \end{equation*}
 
-Since $f(c_2)f(a_2)=f(3.0625)f(2.875) < 0$, set $b_3=c_2=3.0625,a_3=a_2=2.875$
+Since $f(c_2)f(a_2)=f(3.0625)f(2.875) < 0$ and $|f(c_2)f(a_2)| < |f(b_2)f(a_2)|$, set $b_3=c_2=3.0625,a_3=a_2=2.875$
 
 Iteration 4 $(k = 3)$:
 
@@ -69,6 +71,10 @@ Iteration 4 $(k = 3)$:
 
 It is clear that the iterations are converging towards the root $x=3.$
 
+Alternatively, using a table, the highlighted cells show the $a$ and $b$ values used for the next iteration (chosen since they have the smallest difference in values in addition to having a negative product).
+
+![figure1](15-root-finding-media/root-finding-q1.png)
+
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -76,13 +82,17 @@ It is clear that the iterations are converging towards the root $x=3.$
 The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. Use the method of interval bisection to locate this root accurate to $10^{-2}$. 
 
 <div class = "answer">
-The bisection method finds a root in a given interval $[0, 1]$}
+This problem follows the same method as problem 1.
 
+The bisection method finds a root in a given interval $[0, 1]$}
 
 \begin{aligned}
 & (\mathrm{i})\quad f(x) = x^3-7x^2+14x-6\newline
 & (\mathrm{ii})\quad a_0=0,\quad b_0=1
 \end{aligned}
+
+In order to find the number of iterations to the required accuracy:
+
 
 If we are told a root exists in a certain interval, then we can say that the distance from our current midpoint to the true root (i.e. the "uncertainty") must be less than or equal to half the size of the current interval. We can express this in the following equation for the initial interval $[ a,b ]$, which contains the root $\hat{c}$ and the midpoint $c_n$, where $n$ is our iteration number (\ie $c_1=\frac{a+b}{2}$).
 
@@ -117,6 +127,8 @@ N\geq\frac{\log(1-0)-\log(10^{-2})}{\log2}\geq\frac{\log(1)+2}{\log2}\geq6.64
 
 Thus, a minimum of 7 iterations will be needed to obtain the desired accuracy using the
 bisection method. Let $a_0=0,b_0=1$ with $f(a_0)<0$, $f(b_0)>0$.
+
+Follow the same iteration process as in problem 1 to find the root to the required accuracy.
 
 \begin{aligned}
 & (\mathrm{i})\quad c_0 = \frac{a_0+b_0}{2}=0.5\newline
@@ -164,6 +176,12 @@ When deciding which points to start with, its important to remember your curve s
 \end{align*}
 
 What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... to understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
+
+Link to Wolfram Alpha:
+https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0
+
+
+The root is 2.195823345 correct to 9dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -345,7 +363,7 @@ Alternatively you could use Matlab code to solve this.
 
 <div class = "answer">
 
-![figure1](15-root-finding-media/animation.gif)
+![figure2](15-root-finding-media/animation.gif)
 
 </div>
 
