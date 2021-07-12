@@ -450,8 +450,9 @@ $$ \boxed{ f\left(x\right) =
 Starting with $a_0$,
 
 $$
-a_0=\frac{1}{2L}\int_{-L}^Lf\left(x\right)dx = \frac{1}{4}\int_{-1}^1 1 \space dx = \frac{1}{2}
+\frac{a_0}{2}=\frac{1}{2} \times \frac{1}{L}\int_{-L}^Lf\left(x\right)dx = \frac{1}{4}\int_{-1}^1 1 \space dx = \frac{1}{2}
 $$
+
 
 Moving onto the $a_n$ terms:
 
@@ -462,11 +463,13 @@ a_n &= \frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}
 \frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}.
 \end{align*}
 
+Note: this can be found easily using WolframAlpha by typing in "integrate 1/2 cos((n pi x)/2) between -1 and 1". [Link.](https://www.wolframalpha.com/input/?i=integrate+1%2F2+cos%28%28n+pi+x%29%2F2%29+between+-1+and+1)
+
 And finally, the $b_n$ terms will all be $0$ because the function is even (and therefore would contain no odd Fourier series components), so
 
 $$b_n = 0.$$
 
-Thus
+Thus,
 $$
 \boxed{f(x) = 
 \frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)} \cdot \cos\left(\frac{\pi}{2}nx\right)}
@@ -480,7 +483,7 @@ $$
     [ -\pi{},\pi{} ]$
 
 <div class = "answer">
-To shortcut this problem, you can make the guess (after plotting the function, perhaps) that $\sin(x)\cos(x)^2$ might be able to be rearranged into a sum of sine components. Entering "sin(x)cos(x)^2" and going to the "Alternate form" section in WolframAlpha reveals that 
+To shortcut this problem, you can make the guess (after plotting the function, perhaps) that $\sin(x)\cos(x)^2$ might be able to be rearranged into a sum of sine components. Entering "sin(x)cos(x)^2" and going to the "Alternate form" section in WolframAlpha reveals that:
 
 $$\sin(x)\cos(x)^2 = \boxed{ \frac{1}{4}\sin(x) + \frac{1}{4}\sin(3x) }$$
 
@@ -498,7 +501,7 @@ b_n=\frac{1}{\pi{}}\int_{-\pi{}}^{\pi{}}f(x)\sin{\left(\frac{n\pi{}x}{\pi{}}\rig
 {\cos}^2\left(x\right)\sin{\left(nx\right)}dx\
 $$
 
-Substituting $\sin{2x}=2\sin{x}\cos{x}$,
+Substituting $\quad \sin(2x)=2\sin(x)\cos(x)$,
 
 $$
 b_n=\frac{1}{\pi{}}\int_0^{\pi{}}\cos{\left(x\right)}\sin{(2x)}\sin{\left(nx\right)}\ dx
@@ -511,13 +514,13 @@ $$
 $$
 
 $$
-b_n=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left[ \cos{\left(n-2\right)}x-\cos{\left(n+2\right)x}\right]\
+b_n=\frac{1}{\pi{}}\int_0^{\pi{}}\cos(x)\frac{1}{2}\left[ \cos({\left(n-2\right)}x)-\cos({\left(n+2\right)x})\right]\
 dx
 $$
 
 $$
-=\ \frac{1}{2\pi{}}\int_0^{\pi{}}\cos{x}\cos{(n-2)}x\
-dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos{x}\cos{(n+2)x}\ dx
+=\ \frac{1}{2\pi{}}\int_0^{\pi{}}\cos(x)\cos((n-2)x)\
+dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos(x)\cos((n+2)x)\ dx
 $$
 
 Using the cosine product to sum identity;
@@ -530,36 +533,71 @@ $$
 
 $$
 =\frac{1}{4\pi{}}\
-\left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]\binom{\pi{}}{0}=0
+\left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]_0^\pi=0
 $$
 
-Provided $n\not=1,3$. Similarly, the second integral is also zero. It remains to find what happens at n=1, and n=3.
+Provided $n\not=1,3$. 
+
+Similarly, the second integral is also zero. 
+
+Now, we just need to find what happens at n=1, and n=3.
+
+At n=1:
 
 $$
-b_1=\frac{2}{\pi{}}\int_0^{\pi{}}{\sin}^2\left(x\right){\cos}^2\left(x\right)\
-dx=\frac{2}{\pi{}}\int_0^{\pi{}}\left(\sin{x}\right).(\frac{1}{2}\sin{2x}\cos{x})dx
-$$
-
-$$
-=\frac{2}{\pi{}}.\frac{1}{4}\int_0^{\pi{}}{\sin}^2\left(2x\right)\
-dx=\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1-\cos{4x}}{2}\ dx
-$$
-
-$$
-b_3=\frac{2}{\pi{}}\int_0^{\pi{}}\sin{x}{\cos}^2x\sin{3x}\ dx=\
-\frac{1}{\pi{}}\int_0^{\pi{}}\cos{x}\sin{2x}\sin{3x\
-dx}
+b_1=\frac{2}{\pi{}}\int_0^{\pi{}}{\sin}\left(x\right){\sin}\left(x\right){\cos}^2\left(x\right)\
+dx
 $$
 
 $$
-=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos{x})\frac{1}{2}\left[ \cos{\left(3x-2x\right)-\cos{\left(3x+2x\right)}}\right]\
-dx=\frac{1}{2\pi{}}\int_0^{\pi{}}{\cos}^2x dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos{x\cos{5x}}dx\
+=\frac{1}{\pi{}}\int_0^{\pi{}}{\sin}\left(2x\right){\sin}\left(x\right){\cos}\left(x\right)\
+dx
+$$
+
+$$
+=\frac{1}{\pi{}}\int_0^{\pi{}}{\sin}\left(2x\right)\frac{1}{2}{\sin}\left(2x\right)\
+dx
+$$
+
+$$
+=\frac{1}{2\pi{}}\int_0^{\pi{}}{\sin}^2\left(2x\right)\
+dx
+$$
+
+$$
+=\frac{1}{2\pi{}}\
+\left[ \frac{1}{8}(4x-\sin(4x))\right]_0^\pi=\frac{4\pi}{16\pi}=\frac{1}{4}
+$$
+
+Note: to simply the initial equation you use $\quad \sin(x)\cos(x) = \frac{1}{2}\sin(2x)$
+
+<br>
+
+At n=3:
+
+$$
+b_3=\frac{2}{\pi{}}\int_0^{\pi{}}\sin(x){\cos}^2(x)\sin(3x)\ dx
+$$
+
+$$
+=\
+\frac{1}{\pi{}}\int_0^{\pi{}}\cos(x)\sin(2x)\sin(3x)\
+dx
+$$
+
+$$
+=\frac{1}{\pi{}}\int_0^{\pi{}}(\cos(x))\frac{1}{2}\left[ \cos{\left(3x-2x\right)-\cos{\left(3x+2x\right)}}\right]\
+dx
+$$
+
+$$
+=\frac{1}{2\pi{}}\int_0^{\pi{}}{\cos}^2(x) dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos(x)\cos(5x)dx\
 $$
 
 For the first integral,
 
 $$
-\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1+\cos{2x}}{2}dx=\frac{1}{4\pi{}}\left[ x+\frac{1}{2}\sin{2x}\right]\binom{\pi{}}{0}=\frac{1}{4}
+\frac{1}{2\pi{}}\int_0^{\pi{}}\frac{1+\cos(2x)}{2}dx=\frac{1}{4\pi{}}\left[ x+\frac{1}{2}\sin(2x)\right]_0^\pi=\frac{1}{4}
 $$
 
 For the second integral,
@@ -569,13 +607,13 @@ $$
 $$
 
 $$
-=\frac{1}{4\pi{}}\left[ \frac{1}{6}\sin{6x}+\frac{1}{4}\sin{4x}\right]\binom{\pi{}}{0}=0
+=\frac{1}{4\pi{}}\left[ \frac{1}{6}\sin(6x)+\frac{1}{4}\sin(4x)\right]_0^\pi=0
 $$
 
 So $b_3=\frac{1}{4}$, meaning the Fourier series representation is:
 
 $$\boxed{
-f\left(x\right)\approx b_1\sin{x}+b_3\sin{3x}\approx \frac{1}{4}\sin{x}+\frac{1}{4}\sin{3x}
+f\left(x\right)\approx b_1\sin(x)+b_3\sin(3x)\approx \frac{1}{4}\sin(x)+\frac{1}{4}\sin(3x)
 }$$
 
 <iframe src="https://www.desmos.com/calculator/qtufiqgvrl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -594,9 +632,9 @@ Function neither odd nor even $\therefore$ requires both sine and cosine terms.
 
 Expressions for terms can be found quickly using Wolfram Alpha: 
 
-$a_0 = $ "integrate 1/2 * sin(pi * x / 2)cos(pi * x / 2) from -2 to 0" <br>
-$a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0" <br>
-$b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" <br>
+$a_0 = $ "integrate 1/2 * sin(pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29+from+-2+to+0)<br> 
+$a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=+integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29cos%28n*+pi+*+x+%2F+2%29+from+-2+to+0)<br>
+$b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29sin%28n*+pi+*+x+%2F+2%29+from+-2+to+0)<br>
 
 <br>
 
@@ -646,6 +684,9 @@ Therefore, the fourier series representation is:
 $$ \boxed{
 f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\right)+\frac{1}{\pi{}}\sum_{n=2}^{\infty{}}\frac{ {\left(-1\right)}^{n+1}-1}{1-n^2}\cos{ \left(\frac{n\pi{}x}{2} \right)}}
 }$$
+
+<br>
+Note: as in the example above, when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
 
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
