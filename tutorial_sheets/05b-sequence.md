@@ -141,7 +141,7 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 <div class = ""> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
 $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
 = 5\frac{1+\frac{\left(-1\right)^{n+1}}{2^n}}{\frac{3}{2}} \\
-\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
+\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{\left(-1\right)^{n+1}}{2^n}\right\}\ }$</div>
 
 -----------------------------------------------------------------------------------
 
