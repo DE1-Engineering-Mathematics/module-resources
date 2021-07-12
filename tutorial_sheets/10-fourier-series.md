@@ -368,41 +368,62 @@ dx=\int_{-1}^0(1+x)dx+\int_0^1dx=\
 a_n&=\frac{1}{L} \int_{-L}^{L}f(x)\cos\left(\frac{n\pi x}{L}\right) dx
 \newline
 &=
-\int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx + \int_{0}^{1}\cos\left(\frac{n\pi x}{L}\right) dx
+\int_{-1}^{0}(x+1)\cos\left(n\pi x\right) dx + \int_{0}^{1}\cos\left(n\pi x\right) dx
 \end{align*}
 
 The second integral is straight forward:
 
 $$
-\int_{0}^{1}\cos\left(\frac{n\pi x}{L}\right) dx = \left. \frac{1}{n\pi{}}\sin{\left(n\pi{}x\right)} \right\vert_{-1}^1=\frac{1}{n\pi{}}\left(0-0\right)=0
+\int_{0}^{1}\cos\left(n\pi x\right) dx = \left. \frac{1}{n\pi{}}\sin{\left(n\pi{}x\right)} \right\vert_{0}^1=\frac{1}{n\pi{}}\left(0-0\right)=0
 $$
 
-The first integral can be done quickly using WolframAlpha: "integrate (x+1)cos(n* pi x) from -1 to 0" which evaluates to:
+The first integral can be done quickly using WolframAlpha by typing in:
 
-$$\frac{1 - \cos(\pi n)}{\pi^2 n^2} =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
+"integrate (x+1)cos(n* pi x) from -1 to 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29cos%28n*+pi+x%29+from+-1+to+0)
+
+This evaluates to:
+
+$$a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
 
 To do this manually, apply integration by parts:
 
 \begin{align*}
-\int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx &=\left[ \frac{\left(1+x\right)\sin{\left(n\pi{}x\right)}}{n\pi{}}+{\frac{\cos(n\pi{}x)}{n^2{\pi{}}^2}} \right]\binom{0}{-1}
+\int_{-1}^{0}(x+1)\cos\left(\frac{n\pi x}{L}\right) dx &=\left[ \frac{\left(1+x\right)\sin{\left(n\pi{}x\right)}}{n\pi{}}+{\frac{\cos(n\pi{}x)}{n^2{\pi{}}^2}} \right]_{-1}^0
 \newline
 \newline
 &=
-\frac{1}{n^2{\pi{}}^2}\left[ 1-\cos{n\pi{}} \right],\ \ \ for\ any\ n\geq{}1,
+\frac{1 - \cos(\pi n)}{\pi^2 n^2},\ \ \ for\ any\ n\geq{}1,
 \newline
 \newline
-\Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left[ 1-{\left(-1\right)}^n \right]. 
+&=\frac{1 - (-1)^n}{\pi^2 n^2}. 
 \end{align*}
 
 (3) Similarly, we can find $b_n$:
 
 \begin{align*}
-b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
-dx=}\int_{-1}^0\left(1+x\right)\sin{n\pi{}x\ dx+}\int_0^1\sin{n\pi{}x\ dx\ }
+b_n &= \int_{-1}^1f\left(x\right)\sin{(n\pi x)\
+dx=}\int_{-1}^0\left(x+1\right)\sin{(n\pi x)\ dx+}\int_0^1\sin{(n\pi x)\ dx\ }
 \newline \newline
-&=\
--\frac{1}{n\pi{}}-\frac{1}{n\pi{}}\left[ \cos{n\pi{}-1} \right]=\frac{ {\left(-1\right)}^{n+1}}{n\pi{}}
 \end{align*}
+
+The second integral is straight forward:
+
+$$
+\int_{0}^{1}\sin\left(n\pi x\right) dx = \left. - \frac{1}{n\pi{}}\cos{\left(n\pi{}x\right)} \right\vert_{0}^1=- \frac{1}{n\pi{}}\left(\cos{\left(n\pi \right)}- 1\right) 
+$$
+
+The first integral can be done quickly using WolframAlpha by typing in:
+
+"integrate (x+1)sin(n* pi x) from -1 to 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29sin%28n*+pi+x%29+from+-1+to+0)
+
+This evaluates to:
+
+$$= \frac{\sin(\pi n) - \pi n}{\pi^2 n^2}$$
+
+<br>
+
+$$\therefore b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{n\pi{}}\left(\cos{\left(n\pi \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{n\pi{}} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}
+$$
 
 Thus,
 
