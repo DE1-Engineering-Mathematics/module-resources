@@ -469,15 +469,15 @@ We use the same method as in part (a) but replacing the year 4 with 40.
 
  <b> Option 1:  </b> <br>
 
-The return will be: $ £3,200,000 $
+The return will be: $ £3,200,000 $ <br>
 
  <b> Option 2: </b> <br>
 
-The return will be: $ £39,392,804 $
+The return will be: $ £39,392,804 $ <br>
 
  <b> Option 3: </b> <br>
 
-The return will be: $ £106,587,300 $
+The return will be: $ £106,587,300 $ <br>
 
 So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
 </div>
