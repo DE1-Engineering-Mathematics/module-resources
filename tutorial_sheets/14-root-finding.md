@@ -27,6 +27,9 @@
 Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from interval [2.5, 4].
 
 <div class = "answer"> 
+This question could be solved effectively using code (e.g. Python, Matlab), see if you can write the script yourself!
+
+Manually:\
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$}
 
 \begin{aligned}
@@ -94,7 +97,7 @@ $$2^n \leq \frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}$$
 $$\log_2{2^n} \leq \log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}$$
 $$n \leq \log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}$$
 
-\cbox{If we assume the worst case scenario, then the "$\leq$" becomes an "$=$", which allows us to find $N$, the maximum number of iterations required to achieve a certain bounded error.}
+\cbox {If we assume the worst case scenario, then the "$\leq$" becomes an "$=$", which allows us to find $N$, the maximum number of iterations required to achieve a certain bounded error.}
 \begin{equation*}
 N =\log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}=\log_2\frac{\epsilon_0}{\hat{\epsilon}}
 \end{equation*}
@@ -190,6 +193,8 @@ this back into the original equation:
     (-0.1038)^{3}-6(-0.1038)^2+9(-0.1038)+1 =0.0000349 \approx 0
 \end{equation*}
 
+Alternatively this could be solved using code (e.g. Matlab).
+
 </div>
 
 (b) the Secant method
@@ -211,6 +216,8 @@ $$
 \end{align*}
 
 $\therefore$ the root of the equation is $-0.1038$ ($4$ d.p.).
+
+Alternatively this could be solved using code (e.g. Matlab).
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
