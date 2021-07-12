@@ -138,7 +138,7 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
-<div class = ""> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
+<div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
 $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
 = 5\frac{1+\frac{\left(-1\right)^{n+1}}{2^n}}{\frac{3}{2}} \\
 \Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{\left(-1\right)^{n+1}}{2^n}\right\}\ }$</div>
@@ -465,11 +465,16 @@ $\text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \fr
 We use the same method as in part (a) but replacing the year 4 with 40.
 <br>
 
-__Option 1:__
+#### Option 1: <br>
+
 The return will be:  $ £3,200,000 \\$
-__Option 2:__
+
+#### Option 2: <br>
+
 The return will be: $ £39,392,804 \\$
-__Option 3:__
+
+#### Option 3: <br>
+
 The return will be: $ £106,587,300 \\$
 
 So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
