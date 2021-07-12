@@ -2,7 +2,7 @@
 
 **Requires [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html)**
 
-**Important** Solving ODEs in Matlab is a vast and complex area of work and sometimes some ODEs won't get solved analytically and will have to be solved numerically. If you are interested on how to do so please have a look a the [Numerically solve ordinary differential equations](https://uk.mathworks.com/learn/tutorials/solving-ordinary-differential-equations-with-matlab.html) course. The following examples will look at how to solve ODEs analytically.
+**Important** Solving ODEs in Matlab is a vast and complex area of work and sometimes some ODEs won't get solved analytically and will have to be solved numerically. If you are interested on how to do so please have a look a the [Numerically solve ordinary differential equations](https://uk.mathworks.com/learn/tutorials/solving-ordinary-differential-equations-with-matlab.html) course. The following examples will look at how to solve relatively simple ODEs analytically.
 
 ### Solving the following nonlinear first order differential equation :
 
@@ -34,7 +34,7 @@ $$ y(t) = e^{-t} - 1$$
 
 $$ y(t) = 1 - e^{-t}$$
 
-Images of plots
+![ODE1](images/ODE1.png)
 
 ### Solving second order ODEs with initial conditions:
 
@@ -55,6 +55,9 @@ cond2 = Dy(0) == 0
 ySol(t) = dsolve(ode,[cond1 cond2])
 ```
 
-Image
+![ODE2](images/ODE2.png)
 
 [Find more about solving ODEs analytically](https://uk.mathworks.com/help/symbolic/solve-a-single-differential-equation.html)
+
+
+###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

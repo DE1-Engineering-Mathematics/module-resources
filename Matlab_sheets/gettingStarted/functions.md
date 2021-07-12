@@ -22,7 +22,7 @@ Sometimes there might be more than one output to a function, they should be *rec
 [maxA location] = max(A)
 ```
 
-Strings are enclosed in " or ', similarly to other programming languages.
+Strings are enclosed in " or ', like to other programming languages.
 
 ```matlab:Code
 text = "Hello World";

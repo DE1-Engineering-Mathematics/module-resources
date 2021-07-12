@@ -25,11 +25,14 @@ norm(z)
 ```
 
 To obtain the argument of a complex number use the **angle()** function.
+
 ```matlab:Code
 angle(z)
 ```
 
 The real and imaginary parts of a complex number can be obtained separately using the **real()** and **imag()** functions.
+
+    
 ```matlab:Code
 real(z)
 imag(z)
@@ -37,7 +40,9 @@ imag(z)
 ## Plotting
 
 - **plot(X, Y)** generates a 2D plot of X values against Y values. X and Y have to be equal-sized Row/Column matrices. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/plot.html)
-```matlab:Code
-plot(z,"r*")
-```
-Image
+    ```matlab:Code
+    plot(z,"r*")
+    ```
+![plot2](images/plot2.png)
+
+###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

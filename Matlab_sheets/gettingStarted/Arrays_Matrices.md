@@ -23,27 +23,27 @@ e = rand(2,1)
 ## Operations
 
 - **Element-wise addition** adds x number to each entry of the array.
-```matlab:Code
-a + 5
-```
+    ```matlab:Code
+    a + 5
+    ```
  - **Apply functions**, some functions accept arrays as inputs and perform their function element-wise.
-```matlab:Code
-sin(a)
-```
+    ```matlab:Code
+    sin(a)
+    ```
 - **Transpose Matrix** can be done using the " **'** " operator.
-```matlab:Code
-a'
-```
+    ```matlab:Code
+    a'
+    ```
 - **Matrix multiplication** is done as expected using the "*" operator, it will only happen when multiplication between the two matrices is possible of course.
-```matlab:Code
-c * e
-```
-- **Element-wise multiplication, division and to the power-of** are done with their respective operator with a "." preceding them: ".*", "./" and ".^"
-```matlab:Code
-a .* 3
-a ./ 3
-a .^ 2
-```
+    ```matlab:Code
+    c * e
+    ```
+- **Element-wise multiplication, division and to the power-of** are done with their respective operator with a "." preceding them: ".*", "./" and ".^".
+    ```matlab:Code
+    a .* 3
+    a ./ 3
+    a .^ 2
+    ```
 ## Concatenation
 Arrays must have the same number of rows if they want to be concatenated horizontally and the same number of columns if vertically. Essentially you create a matrix with matrices.
 ```matlab:Code
