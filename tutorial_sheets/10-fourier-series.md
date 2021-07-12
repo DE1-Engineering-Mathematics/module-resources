@@ -202,7 +202,9 @@ $\Rightarrow{} \boxed{ \text{Period } =2\pi}$
 
 <div class = "answer">
 Periodic: Multiplying two periodic functions results in a function that is still periodic.
-Using trigonometric identities $\text{sin}(x)\text{cos}(x)$ can be rewritten as $\frac{1}{2}\text{sin}(2x)$ which has a period of $\pi$.
+Using the trigonometric identity 
+$\text{sin}(a)\text{cos}(b) = \frac{1}{2}(\text{sin}(a + b) + \text{sin}(a - b))$ ,
+$\text{sin}(x)\text{cos}(x)$ can be rewritten as $\frac{1}{2}\text{sin}(2x)$ which has a period of $\pi$.
 
 $\Rightarrow{} \boxed{ \text{Period } = \pi}$
 </div>
@@ -210,7 +212,7 @@ $\Rightarrow{} \boxed{ \text{Period } = \pi}$
 (c) $e^x\sin^2(x)$
 
 <div class = "answer">
-Not periodic: Multiplying a periodic function, $sin^2(x)$, with a non periodic function, $e^x$, results in a non periodic function. If you're struggling to show that $sin^2(x)$ is periodic, try writing it in terms of functions of $2x$.
+Not periodic: Multiplying a periodic function, $\text{sin}^2(x)$, with a non periodic function, $e^x$, results in a non periodic function. If you're struggling to show that $\text{sin}^2(x)$ is periodic, try writing it in terms of functions of $2x$.
 
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
@@ -282,40 +284,55 @@ $$
 where $L=1$ and $f(x) = x^3.$ Plugging these values in, we get:
 
 $$
-b_n = \int_{-1}^{1}x^2\sin\left(n\pi x\right) dx.
+b_n = \int_{-1}^{1}x^3\sin\left(n\pi x\right) dx.
 $$
 
-This can be integrated quickly using WolframAlpha: 
+This can be integrated quickly using WolframAlpha by typing in: 
 
 "integrate x^3 sin(n*pi*x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
 
 This results in: 
 
 \begin{align*}
-b_n  &= \frac{6(\pi^2n^2 - 2)\sin(\pi n) - 2\pi n (\pi^2 n^2 - 6) \cos(\pi n)}{\pi^4 n^4} \newline
-&= -(-1)^n \frac{2( \pi^2 n^2 - 6)}{\pi^4 n^4} \text{ when } n \in \mathbb{Z} \text{ (when n is an integer.)}
+b_n  &= \frac{6(\pi^2n^2 - 2)\sin(\pi n) - 2\pi n (\pi^2 n^2 - 6) \cos(\pi n)}{\pi^4 n^4} \newline &=  (-1)^n 
+\frac{- 2\pi n (\pi^2 n^2 - 6)}{\pi^4 n^4} \newline
+&= (-1)^n \frac{2(6 - \pi^2 n^2)}{\pi^3 n^3} \text{ when } n \in \mathbb{Z} \text{ (when n is an integer.)}
 \end{align*}
 
-(the function simplification can be found by examining the values of $\sin(\pi n)$ and $\cos(\pi n)$ when $n$ is an integer)
+Note: the function simplification can be found by examining the values of $\sin(\pi n)$ and $\cos(\pi n)$ when $n$ is an integer. For any value of $n$, $\sin(\pi n) = 0$, and $\cos(\pi n) = (-1)^n$.
 
 
 <br>
 
-To integrate manually, use integration by parts: $\int f^{'}g=fg-\int fg^{'}.$
+To integrate manually, use integration by parts: $\int f dg=fg-\int g df.$
 
 \begin{align*}
-f = x^3, & df = 3x^2 dx
+f = x^3 \quad \quad
+df = 3x^2 dx \quad \quad
+dg = \sin(n \pi x) dx \quad \quad
 g = -\frac{\cos(\pi n x)}{\pi n}
 \end{align*}
 
 $$
-= \left. \left(-\frac{x^3 cos(\pi n x)}{\pi n} \right) \right\vert^1_{-1} + \frac{3}{\pi n} \int^1_{-1}x^2 \cos(\pi n x) dx
+= \left. \left(-\frac{x^3 \cos(\pi n x)}{\pi n} \right) \right\vert^1_{-1} + \frac{3}{\pi n} \int^1_{-1}x^2 \cos(\pi n x) dx
 $$ 
 
 Repeating twice more to bring $x^2$ down to $1$ and then integrating the remaining expression, results in:
 
 $$
-= -\frac{12 \sin(\pi n)}{\pi^4 n^4} + \frac{12 \cos(\pi n)}{ \pi^3 n^3} + \frac{6 \sin(\pi n)}{\pi^2 n^2} - \frac{2 \cos(\pi n)}{\pi n}
+= -\frac{12 \sin(\pi n)}{\pi^4 n^4} + \frac{12 \cos(\pi n)}{ \pi^3 n^3} + \frac{6 \sin(\pi n)}{\pi^2 n^2} - \frac{2 \cos(\pi n)}{\pi n} 
+$$
+
+$$
+= \frac{12 (-1)^n}{ \pi^3 n^3} - \frac{2 (-1)^n}{\pi n} 
+$$
+
+$$
+= \frac{12 (-1)^n - 2 n^2 \pi^2 (-1)^n}{ \pi^3 n^3} 
+$$
+
+$$
+= (-1)^n \frac{2(6 - \pi^2 n^2)}{\pi^3 n^3}
 $$
 
 $\therefore$ the Fourier series representation is:
@@ -337,8 +354,16 @@ with n = 2
 <div class = "answer">
 This function has both odd and even parts, so both $a_n$ and $b_n$ must be found. 
 
-First looking at the $a_n$ coefficient:
-    
+(1) First find $a_0$ by subbing in $n = 0$:
+
+\begin{align*}
+a_0=\int_{-1}^1f(x)\
+dx=\int_{-1}^0(1+x)dx+\int_0^1dx=\
+\left.\left(x+\frac{1}{2}x^2\right)\right\vert_{-1}^{0}+1 = \frac{1}{2} + 1 = \frac{3}{2}
+\end{align*}
+
+(2) Then looking at the $a_n$ coefficient:
+
 \begin{align*}
 a_n&=\frac{1}{L} \int_{-L}^{L}f(x)\cos\left(\frac{n\pi x}{L}\right) dx
 \newline
@@ -369,15 +394,7 @@ To do this manually, apply integration by parts:
 \Rightarrow{} a_n &=\frac{1}{n^2{\pi{}}^2}\left[ 1-{\left(-1\right)}^n \right]. 
 \end{align*}
 
-For $a_0$ sub in $n = 0$:
-
-\begin{align*}
-a_0=\int_{-1}^1f(x)\
-dx=\int_{-1}^0(1+x)dx+\int_0^1dx=\
-\left.\left(x+\frac{1}{2}x^2\right)\right\vert{}\binom{0}{-1}+1 =\frac{3}{2}
-\end{align*}
-
-Similarly,
+(3) Similarly, we can find $b_n$:
 
 \begin{align*}
 b_n &= \int_{-1}^1f\left(x\right)\sin{n\pi{}x\
@@ -613,7 +630,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 ---------------
 ## Exam Style Questions
 ### Problem 6.
-**(a)** Given the real Fourier series expansion for a periodic function, $f(x)$, with a $2\pi{}$ period,
+(a) Given the real Fourier series expansion for a periodic function, $f(x)$, with a $2\pi{}$ period,
 $$
 f\left(x\right) = \frac{1}{2}a_0+\sum_1^{\infty{}}(a_n\cos{\left(nx\right)}+b_n \sin{(nx)}) \space ,
 $$
@@ -692,7 +709,7 @@ so $C_{-n} = C_n^*$
 
 </div>
 
-**(b)** Find the real Fourier series to the following function.
+(b) Find the real Fourier series to the following function.
 $$\left(3+4i\right)e^{-2ix}+{\left(3-4i\right)e}^{2ix}$$
 
 <div class = "answer">
