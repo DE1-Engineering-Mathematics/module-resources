@@ -297,7 +297,7 @@ So, the root of the equation is $0.8654$ (to $4$ d.p.).
 ## Exam Style Questions
 
 ### Problem 6.
-(i)Use the Newton Raphson method to investigate the function:\$f(x) = \frac{1+4x - x^3}{x}$ by starting from the point $x = -1.0\$ and finding a root accurate to 2 decimal places.
+(i) Use the Newton Raphson method to investigate the function: \$f(x) = \frac{1+4x - x^3}{x}$ by starting from the point $x = -1.0\$ and finding a root accurate to 2 decimal places.
 
 <div class = "answer">
 
@@ -332,15 +332,13 @@ $$
 The root correct to 2dp is -1.86. This took 5 iterations.
 Alternatively you could use Matlab code to solve this.
 
-ADD IN MATLAB CODE TO SOLVE THIS (NOT GRAPHICALLY).
-
 </div>
 
 (ii) Sketch the function as well as the path travelled by your NR approximation from the starting location and along each of the subsequent tangents, finishing at the root you have found.
 
 <div class = "answer">
 
-ADD MATLAB ANIMATION + CODE
+![figure1](15-root-finding-media/animation.gif)
 
 </div>
 

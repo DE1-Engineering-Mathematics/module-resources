@@ -322,7 +322,8 @@ ${T|_{x=L} = 0}$ on ${Ɐt>0}$.
 (ii) Green line\
 (iii) Blue line
 
-ADD MATLAB CODE ANIMATION!
+Matlab Animation
+![figure3](14-finite-differences-media/q5-graph-a.gif)
 
 </div>
 
@@ -354,13 +355,14 @@ ${{\partial_x}T|_{x=L} = 10}$ on ${Ɐt>0}$.
 
 <div class = "answer">
 
-![figure3](14-finite-differences-media/finite-differences-q5b.png)
+![figure4](14-finite-differences-media/finite-differences-q5b.png)
 
 (i) Red line\
 (ii) Green line\
 (iii) Blue line
 
-ADD MATLAB CODE ANIMATION!
+Matlab Animation
+![figure5](14-finite-differences-media/q5-graph-b.gif)
 
 </div>
 
