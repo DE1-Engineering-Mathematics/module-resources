@@ -485,7 +485,9 @@ So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
 (c) Draw a graph showing the profit vs. time for the three options over 40
 years.
 <div class = "answer">
-Insert graph.</div>
+<img src = "05B-sequence/10c.png">
+Yellow = option 1, pink = option 2 and purple = option 3
+</div>
 
 (d) Write down an expression for the difference between the profits of the
 second and third options as a function of the number of days since
