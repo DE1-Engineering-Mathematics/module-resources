@@ -138,10 +138,10 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
-<div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
+<div class = ""> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
 $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
-= 5\frac{1+\frac{{\left(-1\right)}}^{n+1}}{2^n}}{\frac{3}{2}} \\
-\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}}^{n+1}}{2^n}\right\}\ }$</div>
+= 5\frac{1+\frac{{\left(-1\right)}^{n+1}}{2^n}}{\frac{3}{2}} \\
+\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
 
 -----------------------------------------------------------------------------------
 
