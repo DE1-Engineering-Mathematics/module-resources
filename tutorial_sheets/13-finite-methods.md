@@ -137,12 +137,7 @@ Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual
 ### Problem 3.
 (a) Find the update equation, $x(t + \Delta t)$, of the following ODE,
 $$ \frac{d^2x(t)}{dt^2} + \omega^2 x(t)=0 $$
-Use the central difference approximation to the second derivative.
-
-Given initial conditions of
-$x(0)=1$ and $\dot{x}(0)=0$,
-Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
-using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
+(Hint: Use the central difference approximation to the second derivative).
 
 <div class = "answer">
 Using the finite difference approximation to the second derivative,}
@@ -166,7 +161,13 @@ x(t+\Delta t) = (2 - \omega^2 \Delta t^2) x(t) - x(t-\Delta t)
 \end{align*}
 </div>
 
-(b) Approximating $\dot{x}(0)$ with a backward difference.
+Now given initial conditions of
+$x(0)=1$ and $\dot{x}(0)=0$:
+
+(b) Approximate $\dot{x}(0)$ with a backward difference.
+
+Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
+using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
 
 <div class = "answer">
 We need to calculate $x(\Delta t)$, which depends on $x(0)$ and $x(-\Delta t)$.
@@ -200,7 +201,10 @@ Similarly for $x(2 \Delta t)$, which depends on $x(\Delta t)$ and $x(0)$,
 
 </div>
 
-(c) Approximating $\dot{x}(0)$ with a central difference.
+(c) Approximate $\dot{x}(0)$ with a central difference.
+
+Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
+using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
 
 <div class = "answer">
 For a central difference method, finding $x(-\Delta t)$ is a little more involved.
