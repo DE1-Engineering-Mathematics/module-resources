@@ -62,7 +62,7 @@ $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 <img src = "16-normal-distribution/1c.png">
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -121,7 +121,7 @@ $ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 <img src = "16-normal-distribution/2d.png">
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -167,7 +167,7 @@ $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -184,7 +184,7 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 
 (b) Find the mean and the standard deviation of the heights the athlete can reach.
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 $ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=20\%$ <br>
 
 $ \Rightarrow{} 2(1-0.2)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = 0.6$ <br>
@@ -217,7 +217,7 @@ $ \Rightarrow{} \alpha={ {(1.78)}-{(0.09\times\ 0.6\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 ## Exam Questions
 
@@ -247,6 +247,7 @@ $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{+{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25
 ![](16-normal-distribution/5a.png)
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (b) If Imperial College London buys an army of 12 laundry machines for the entirety of Southside Halls and its 350 students, how many of the machines can be expected to have a wash time of more than 60 minutes?
 <div class = "answer">
@@ -259,6 +260,8 @@ $\boxed{3 \text{ machines}}$
 
 ![](16-normal-distribution/5b.png)
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
 (c) How many of the machines are expected to have a $\pm2$ min accuracy with their colors at $40 ^\circ $ cycles?
 <div class = "answer">
 
