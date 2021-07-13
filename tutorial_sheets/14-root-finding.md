@@ -400,6 +400,17 @@ The sequence is clearly converging to the root $x\approx 0.74$
 
 </div>
 
+### Problem 8.
+The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Fill in the blanks and use the code to find the root.
+
+![figure3](15-root-finding-media/root-finding-q8-code.png)
+
+<div class = "answer">
+
+![figure4](15-root-finding-media/animation.gif)
+The roots are: 
+</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
