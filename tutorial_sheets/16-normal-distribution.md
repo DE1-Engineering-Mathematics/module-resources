@@ -39,7 +39,7 @@ Alex took a test and scored 940. The mean score was 850 with the standard deviat
 <div class  = "answer">
 $\Rightarrow{} P(X>940)=1 - \left[\frac{1}{2} \left(1 + \text{ erf}\ \left(\frac{\ 940\ -\ 850}{100\ \sqrt{2}} \right)\right)\right]$ <br>
 
-$\Rightarrow{} P(X>940)=1-0.81594=0.18406$ <br>
+$\Rightarrow{} P(X>940)=1-0.81594=0.18406$ %<br>
 
 $\Rightarrow{} 0.18406\times 200=36.81$ students <br>
 
@@ -82,13 +82,14 @@ According to a survey from 100 undergraduate students, only 5 students were grad
 
 $ \Rightarrow{} P(X>70)=[\frac{1}{2}{({1{-{ \text{ erf}\ {(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}}}]=5\% $ <br>
 
-$ \Rightarrow{} P(X>70)={0.5{ \text{erf}{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $ <br>
+$ \Rightarrow{} P(X>70)={0.5{ \text{ erf }{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $ <br>
 
-$ \Rightarrow{} \text{ erf}(x) =0.9 $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =0.9 $ <br>
+$ \Rightarrow{} \text{erf }(x) =0.9 $ <br>
 
-$ \Rightarrow{} x={(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}=1.227 $ <br>
+$ \Rightarrow{} x =$ [$ 1.16 $](https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve) <br>
+
+[$ \Rightarrow{} 1.16={\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}}$](https://www.wolframalpha.com/input/?i=1.16+%3D+%2870-55%29%2F%28x*sqrt%282%29%29+solve) <br>
 
 $ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
 
@@ -140,7 +141,7 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 <div class = "answer" >
 $ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\frac{\ 53\ -\ 50}{4\ \sqrt{2} }\right) \right) \right] $ <br>
 
-$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\% }$ 
+$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\ }$ 
 </div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
@@ -149,11 +150,13 @@ $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \s
 
 $ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $ <br>
+$ \Rightarrow{} x =$ [ $-0.65$](https://www.wolframalpha.com/input/?i=solve+0.32%3D-0.5*erf%28x%29) <br>
 
-$ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $ <br>
+$ \Rightarrow{} -0.65={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$ <br>
+$ \Rightarrow{} Y = $ [$ 46.32 $](https://www.wolframalpha.com/input/?i=-0.65%3D%28y-50%29%2F%284*sqrt%282%29%29) <br>
+
+$ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 
 <img src = "16-normal-distribution/3c.png">
 </div>
@@ -181,26 +184,36 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 
 (b) Find the mean and the standard deviation of the heights the athlete can reach.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 $ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=20\%$ <br>
 
-$ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br>
+$ \Rightarrow{} 2(1-0.2)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = 0.6$ <br>
 
-$ \Rightarrow{} x=0.57={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$ <br>
+$ \Rightarrow{} \text{erf }(x) = 0.6 \Rightarrow{} x = $ [$ 0.60$](https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.6+solve) <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$ <br>
+<!-- $ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br> -->
 
-$ \Rightarrow{} \text{ also  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$ <br>
+$ \Rightarrow{} x=0.6={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
+$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.6\times\ \sqrt{2})}}$ <br>
 
-$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
+Also, 
 
-$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.35+0.57)}}$ <br>
+$ \Rightarrow{} \text{  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$ <br>
 
-$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.92}=0.1m }$ <br>
+$ \Rightarrow{} 2(1-0.7)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = -0.4$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
+$ \Rightarrow{} \text{erf }(x) = -0.4 \Rightarrow{} x = $ [$ -0.37$](https://www.wolframalpha.com/input/?i=erf%28x%29%3D-0.4+solve) <br>
+
+$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.37)\times\ \sqrt{2})}}$ <br>
+
+$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.6\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.37)\times\ \sqrt{2})}}$ <br>
+
+$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.37+0.6)}}$ <br>
+
+$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.97}=0.09m }$ <br>
+
+$ \Rightarrow{} \alpha={ {(1.78)}-{(0.09\times\ 0.6\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
@@ -246,7 +259,7 @@ $\boxed{3 \text{ machines}}$
 
 ![](16-normal-distribution/5b.png)
 </div>
-(c) How many of the machines have an accuracy of $\pm2$ min with their colors at $40 ^\circ $ cycles?
+(c) How many of the machines are expected to have a $\pm2$ min accuracy with their colors at $40 ^\circ $ cycles?
 <div class = "answer">
 
 $ \Rightarrow{} P(48< X < 52)=P(X < 52)-P(X < 48)  $ 
