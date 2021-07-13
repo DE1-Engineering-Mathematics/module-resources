@@ -265,14 +265,14 @@ For the following functions
 (a) $f\left(x\right)=x^3,\ \ \ for\ \left[ -1,1\right]$, with n = 5
 
 <div class = "answer">
-The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions, the formulae found in the notes can be used:
+The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions,  you could graph it on Desmos to have a visual representation of the function, or the formulae found in the notes can be used:
 
 $$
 f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2} \qquad \qquad
 f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
 $$
 
-the function $f\left(x\right)=x^3$ is odd, so the Fourier series representation will only contain sine terms.
+The function $f\left(x\right)=x^3$ is odd, so the Fourier series representation will only contain sine terms.
 
 The sine coefficients can be found using:
 
@@ -335,6 +335,8 @@ $$
 = (-1)^n \frac{2(6 - \pi^2 n^2)}{\pi^3 n^3}
 $$
 
+Note: doing fourier expansions manually can get very long and complicated, in this example you would have to integrate by parts three times! But you won't get tested on this in an exam, as you can just (and are encouraged to) use WolframAlpha to solve it.
+
 $\therefore$ the Fourier series representation is:
 
 $$ \boxed{
@@ -392,15 +394,12 @@ To do this manually, apply integration by parts:
 \newline
 \newline
 &=
-\frac{1 - \cos(\pi n)}{\pi^2 n^2},\ \ \ for\ any\ n\geq{}1,
-\newline
-\newline
-&=\frac{1 - (-1)^n}{\pi^2 n^2}. 
+\frac{1 - \cos(\pi n)}{\pi^2 n^2},\ \ \ for\ any\ n\geq{}1, 
 \end{align*}
 
 <br>
 
-$$\therefore a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} + 0 =  \frac{1 - (-1)^n}{\pi^2 n^2}.$$
+$$\therefore \boxed{a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} + 0 =  \frac{1 - (-1)^n}{\pi^2 n^2}}.$$
 
 (3) Similarly, we can find $b_n$:
 
@@ -425,7 +424,7 @@ This evaluates to:
 $$= \frac{\sin(\pi n) - \pi n}{\pi^2 n^2}$$
 
 It can also be done manually using integration by parts in a similar way to which $b_n$ was found.
-<br>
+<br><br>
 
 $$\therefore b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}
 $$
