@@ -259,13 +259,13 @@ $\Rightarrow \boxed{\text{Odd function}}$
 
 ### Problem 5.
 For the following functions
-(I) Find the Fourier coefficients and series in the given interval,
+(I) Find the Fourier coefficients and series in general terms,
 (II) Plot the function and the given partial sum over the given interval.
 
-(a) $f\left(x\right)=x^3,\ \ \ for\ \left[ -1,1\right]$, with n = 5
+(a) $f\left(x\right)=x^3,\ \ \ \text{for}\ \left[ -1,1\right] \ $ with n = 5
 
 <div class = "answer">
-The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions,  you could graph it on Desmos to have a visual representation of the function, or the formulae found in the notes can be used:
+The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions,  you could graph it on Desmos to have a visual representation of the function, or use the formulae found in the notes:
 
 $$
 f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2} \qquad \qquad
@@ -289,7 +289,7 @@ $$
 
 This can be integrated quickly using WolframAlpha by typing in: 
 
-"integrate x^3 sin(n*pi*x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
+"integrate x^3 sin(n pi x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
 
 This results in: 
 
@@ -349,8 +349,8 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 
 </div>
 
-(b) $f\left(x\right)=\left \\{\begin{array}{l}1+x,\ \ \ \ \ for\ -1\leq{}x\leq{}0 \newline
-1,\ \ \ \ \ \ \ \ \ \ for\ 0 < x\leq{}1\end{array} \right. $
+(b) $f\left(x\right)=\left \\{\begin{array}{l}1+x,\ \ \ \ \ \text{for}\ -1\leq{}x\leq{}0 \newline
+1,\ \ \ \ \ \ \ \ \ \ \text{for}\ \ 0 < x\leq{}1\end{array} \right. $
 with n = 2
 
 <div class = "answer">
@@ -359,10 +359,12 @@ This function has both odd and even parts, so both $a_n$ and $b_n$ must be found
 (1) First find $a_0$ by subbing in $n = 0$:
 
 \begin{align*}
-a_0=\int_{-1}^1f(x)\
+a_0=\frac{1}{L}\int_{-L}^Lf(x)\
 dx=\int_{-1}^0(1+x)dx+\int_0^1dx=\
 \left.\left(x+\frac{1}{2}x^2\right)\right\vert_{-1}^{0}+1 = \frac{1}{2} + 1 = \frac{3}{2}
 \end{align*}
+
+$$ \therefore \boxed{\frac{a_0}{2} = \frac{\frac{3}{2}}{2} = \frac{3}{4}} $$
 
 (2) Then looking at the $a_n$ coefficient:
 
@@ -426,7 +428,7 @@ $$= \frac{\sin(\pi n) - \pi n}{\pi^2 n^2}$$
 It can also be done manually using integration by parts in a similar way to which $b_n$ was found.
 <br><br>
 
-$$\therefore b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}
+$$\therefore \boxed{b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}}
 $$
 
 Thus,
@@ -437,20 +439,30 @@ $$ \boxed{ f\left(x\right) =
 +\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{ {\left(-1\right)}^{n+1}}{n} \sin⁡(n\pi{}x)
 }$$
 
+<br><br>
+
+Note: this solution includes a mixture of manual working out and WolframAlpha. In an exam, you won't be required to do any of the manual working out as you can just use WolframAlpha!
+
+<br>
+
 <iframe src="https://www.desmos.com/calculator/6lglrfcrfl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 </div>
 
-(c) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ \ \ if\ -2\leq{}x\leq{}-1 \newline
-    1,\ \ \ \ \ if\ -1 < x < 1 \newline
-    0,\ \ \ \ \ if\ \ 1\leq{}x\leq{}2\end{array}\right.
+(c) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ \ \ \text{if}\ -2\leq{}x\leq{}-1 \newline
+    1,\ \ \ \ \ \text{if}\ -1 < x < 1 \newline
+    0,\ \ \ \ \ \text{if}\ \ 1\leq{}x\leq{}2\end{array}\right.
     $
 <div class="answer">
-Starting with $a_0$,
+This function is even (and therefore contains no odd Fourier series components), so the $b_n$ terms will all be $0$.
+<br>
+Starting with $a_0$:
 
 $$
 \frac{a_0}{2}=\frac{1}{2} \times \frac{1}{L}\int_{-L}^Lf\left(x\right)dx = \frac{1}{4}\int_{-1}^1 1 \space dx = \frac{1}{2}
 $$
+
+Note: we are ignoring what happens when the function is at $0$, because integrating $0$ is just $0$.
 
 
 Moving onto the $a_n$ terms:
@@ -464,10 +476,6 @@ a_n &= \frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}
 
 Note: this can be found easily using WolframAlpha by typing in "integrate 1/2 cos((n pi x)/2) between -1 and 1". [Link.](https://www.wolframalpha.com/input/?i=integrate+1%2F2+cos%28%28n+pi+x%29%2F2%29+between+-1+and+1)
 
-And finally, the $b_n$ terms will all be $0$ because the function is even (and therefore would contain no odd Fourier series components), so
-
-$$b_n = 0.$$
-
 Thus,
 $$
 \boxed{f(x) = 
@@ -478,7 +486,7 @@ $$
 
 </div>
 
-(d) $f\left(x\right)=\sin{\left(x\right)}{cos}^2\left(x\right),\ \ \ on\
+(d) $f\left(x\right)=\sin{\left(x\right)}{\cos}^2\left(x\right),\ \ \ \text{on}\
     [ -\pi{},\pi{} ]$
 
 <div class = "answer">
@@ -539,9 +547,9 @@ Provided $n\not=1,3$.
 
 Similarly, the second integral is also zero. 
 
-Now, we just need to find what happens at n=1, and n=3.
+Note: because the integral is undefined for certain values of $n$, we need to find what happens at these values ($n=1$ and $n=3$).
 
-At n=1:
+At $n=1$:
 
 $$
 b_1=\frac{2}{\pi{}}\int_0^{\pi{}}{\sin}\left(x\right){\sin}\left(x\right){\cos}^2\left(x\right)\
@@ -567,12 +575,13 @@ $$
 =\frac{1}{2\pi{}}\
 \left[ \frac{1}{8}(4x-\sin(4x))\right]_0^\pi=\frac{4\pi}{16\pi}=\frac{1}{4}
 $$
+<br>
 
 Note: to simply the initial equation you use $\quad \sin(x)\cos(x) = \frac{1}{2}\sin(2x)$
 
 <br>
 
-At n=3:
+At $n=3$:
 
 $$
 b_3=\frac{2}{\pi{}}\int_0^{\pi{}}\sin(x){\cos}^2(x)\sin(3x)\ dx
@@ -615,21 +624,23 @@ $$\boxed{
 f\left(x\right)\approx b_1\sin(x)+b_3\sin(3x)\approx \frac{1}{4}\sin(x)+\frac{1}{4}\sin(3x)
 }$$
 
+Note: this could have been solved using WolframAlpha as well rather than by hand. You will not be required to solve it by hand in an exam.
+
 <iframe src="https://www.desmos.com/calculator/qtufiqgvrl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 </div>
 
 (e) $f\left(x\right)=\left\\{\begin{array}{l}\sin{\left(\frac{\pi{}x}{2}\right)},\ \ \
-    \ for-2\leq{}x\leq{}0 \newline
-    0,\ \ \ \ \ \ \ \ \ \ \ \ \ for\
+    \ \text{for} \ -2\leq{}x\leq{}0 \newline
+    0,\ \ \ \ \ \ \ \ \ \ \ \ \ \text{for}\ \ \
     0 < x\leq{}2\end{array}\right.
     $ with n=3
 
 <div class = "answer">
 
-Function neither odd nor even $\therefore$ requires both sine and cosine terms.
+The function is neither odd nor even therefore it requires both sine and cosine terms.
 
-Expressions for terms can be found quickly using Wolfram Alpha: 
+The expressions for the terms can be found quickly using Wolfram Alpha: 
 
 $a_0 = $ "integrate 1/2 * sin(pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29+from+-2+to+0)<br> 
 $a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=+integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29cos%28n*+pi+*+x+%2F+2%29+from+-2+to+0)<br>
@@ -639,10 +650,21 @@ $b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" [Link]
 
 To compute manually:
 
+$a_0$ coefficient:
+
+\begin{align*}
+a_0=\frac{1}{L}\int_{-L}^Lf(x)\
+dx=\frac{1}{2}\int_{-2}^0\sin(\frac{\pi x}{2})dx=\frac{1}{2}\
+\left.\left(\frac{-2 \cos(\frac{\pi x}{2})}{\pi}\right)\right\vert_{-2}^{0}= \frac{-2}{\pi}
+\end{align*}
+
+$$\therefore \frac{a_0}{2} = \frac{\frac{-2}{\pi}}{2} = \frac{-1}{\pi}$$
+
+
 $a_n$ coefficients:
 
 \begin{align*}
-a_n &=\frac{1}{2}\int_{-2}^2f\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)dx=}\frac{1}{2}\int_{-2}^0\sin{\left(\frac{\pi{}x}{2}\right)\cos{\left(\frac{n\pi{}x}{2}\right)}}\
+a_n &=\frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{L}\right)dx=}\frac{1}{2}\int_{-2}^0\sin{\left(\frac{\pi{}x}{2}\right)\cos{\left(\frac{n\pi{}x}{2}\right)}}\
 dx
 \newline \newline
 &=
@@ -663,7 +685,7 @@ dx=\frac{1}{4}}}\int_{-2}^0\sin{\pi{}x}\ \ dx=0,\ \ \ \ for\ n=1
 $b_n$ coefficients:
 
 \begin{align*}
-b_n &= \frac{1}{2}\int_{-2}^2f\left(x\right)\sin{\left(\frac{n\pi{}x}{2}\right)dx=\frac{1}{2}}\int_{-2}^0\sin{\left(\frac{nx}{2}\right)}\sin{\left(\frac{n\pi{}x}{2}\right)}dx
+b_n &= \frac{1}{L}\int_{-L}^Lf\left(x\right)\sin{\left(\frac{n\pi{}x}{L}\right)dx=\frac{1}{2}}\int_{-2}^0\sin{\left(\frac{nx}{2}\right)}\sin{\left(\frac{n\pi{}x}{2}\right)}dx
 \newline \newline
 &=
 \frac{1}{2}\int_{-2}^0\frac{1}{2}\left[ \left(\cos{\frac{\left(1-n\right)\pi{}x}{2})-(\cos{\frac{\left(1+n\right)\pi{}x}{2}}}\right)\right]\ dx
@@ -696,6 +718,78 @@ Note: as in the example above, when calculating the coefficients, you end up wit
 ---------------
 ## Exam Style Questions
 ### Problem 6.
+(a) Consider the function $\ \ y = 10 e^{2x^8} - 8 \ \$ in the interval $\ \ {-3} \ {<} \ x \ {<} \ 3$ . State whether the Fourier Series of this function would contain sine of cosine terms and justify your answer.
+
+<div class = "answer">
+$\Rightarrow \boxed{\text{ The function will only contain cosine terms}}$.
+<br>
+Justification:
+<br>
+The function $ \ y = 10 e^{2x^8} - 8 \ $  is an even function, hence it only contains cosine terms.
+<br>
+For a function to be even $f(-x)=f(x)$:
+<br>
+$$ \ f(-x) = 10 e^{2(-x)^8} - 8  = 10 e^{2x^8} - 8 = f(x)\ $$
+<br>
+Note: the function could also be sketched to determine whether its odd or even.
+<iframe src="https://www.desmos.com/calculator/amhmuk0znf" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+
+(b) Sketch the piecewise periodic function $f\left(x\right)=\left\\{\begin{array}{l}-5,\ \ \ \ \
+    \ \text{for} \ -2\pi\leq{}x\leq{}\ 0 \newline
+    5,\ \ \text{for}\ \ \
+    0 < x\leq{}2\pi\end{array}\right.
+    $
+
+<div class = "answer">
+<iframe src="https://www.desmos.com/calculator/akfeysxfu9" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+
+(C) Add additional curves to this plot to represent the first and third order Fourier series approximation in the interval  $\ \ {-2\pi} \ {<} \ x \ {<} \ 2\pi$.
+
+<div class = "answer">
+The first step would be to find out what the Fourier series approximation of this function is for the first and third order. Because the function is odd, it will only contain $b_n$ terms.
+<br>
+Finding the $b_n$ terms:
+<br>
+$b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx $
+
+$ \ \ \ = \frac{1}{2 \pi} \left( \int_{-2 \pi}^0 5\sin \left(\frac{n x}{2}\right)dx + \int_{0}^{2 \pi} -5\sin\left(\frac{n x}{2}\right)dx \right)$
+
+To solve each integral on WolframAlpha:
+
+"integrate 5 sin((n x)/2) between -2pi and 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+5+sin%28%28n+x%29%2F2%29+between+-2pi+and+0)
+
+"integrate -5 sin((n x)/2) between 0 and 2pi" [Link.](https://www.wolframalpha.com/input/?i=integrate+-5+sin%28%28n+x%29%2F2%29+between+0+and+2pi)
+
+You then end up with:
+
+$b_n = \frac{1}{2 \pi} \left(\frac{10(\cos(\pi n) - 1)}{n} + \frac{10(\cos(\pi n) - 1)}{n}\right)
+= \frac{1}{2 \pi} \left(\frac{20(\cos(\pi n) - 1)}{n}\right)
+= \frac{1}{2 \pi} \left(\frac{20((-1)^n - 1)}{n}\right) $
+
+By substituting $n=1$, $n=2$ and $n=3$ we can now calculate $b_1$, $b_2$ and $b_3$:
+<br>
+$$b_1 = \frac{- 20}{\pi},  \quad b_2 = 0,  \quad b_3 = \frac{- 20}{3 \pi}$$
+
+
+Finally the fourier expansions $ \ \boxed{b_1 = \frac{- 20}{\pi} \sin \left(\frac{x}{2}\right)} \ $ and  $ \ \boxed{b_3 = \frac{- 20}{\pi} \sin \left(\frac{x}{2}\right) - \frac{20}{3 \pi} \sin \left(\frac{3x}{2}\right)} \ $ can be written down and sketched on the graph.
+<br>
+
+<iframe src="https://www.desmos.com/calculator/8gnc2tmdjt" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+
+
+</div>
+
+(d) Where would you expect Gibb's ringing to occur as the series was expanded?
+
+<div class = "answer">
+You would expect Gibbs ringing to occur at $2 n \pi$, where $n \in \mathbb{Z} $ .</div>
+
+----------------------
+## Challenging Questions
+### Problem 7.
 (a) Given the real Fourier series expansion for a periodic function, $f(x)$, with a $2\pi{}$ period,
 $$
 f\left(x\right) = \frac{1}{2}a_0+\sum_1^{\infty{}}(a_n\cos{\left(nx\right)}+b_n \sin{(nx)}) \space ,
@@ -799,13 +893,9 @@ $$
 In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\left(3-4i\right)i=4+3i$ in finding the coefficients in front of the $\sin{(2x)}$ term.
 </div>
 
-
-----------------------
-## Challenging Questions
-### Problem 7.
-In the following exercises, find the complex Fourier series representation of the given function $f(x)$ over the interval [-$\pi{}$, $\pi{}$]
-
-(a) $f(x) = x^3$
+------------------------------------
+### Problem 8.
+Find the complex Fourier series representation of $f(x) = x^3$ over the interval [-$\pi{}$, $\pi{}$]
 
 <div class = "answer">
 
@@ -841,35 +931,7 @@ $$
 
 </div>
 
-(b) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ -\pi{}\leq{}x<0, \newline
-1,\ \ \ \ \ 0\leq{}x<\ \pi{}\end{array}\right.$
-
-<div class = "answer">
-$$
-C_n=\frac{1}{2\pi{}}\int_{-\pi{}}^{\pi{}}f(x)e^{-inx}dx=\frac{1}{2\pi{}}\int_0^{\pi{}}e^{-inx}dx=\frac{1}{2\pi{}}\left[\frac{e^{-inx}}{-in}\right]\binom{\pi{}}{0} \\\\
-$$
-
-$$
-=-\frac{1}{2\pi{}in}\left[ e^{-inx}-1\right]=\frac{1-{(-1)}^n}{2\pi{}in} \\\\
-$$
-
-$$
-\Rightarrow{}\ \ \left\{\begin{array}{l}0,\ \ \ \ \ \ \ \ n\ even, \newline
-\frac{1}{\pi{}in},\ \ \ \ n\ odd,\ \end{array}\right.\ ,\ for\ n\not=0. \\\\
-$$
-
-$$
-C_0=\frac{1}{2\pi{}}\int_{-\pi{}}^{\pi{}}f\left(x\right)dx=\frac{1}{2\pi{}}\int_0^{\pi{}}dx=\frac{1}{2},\
-\ \ \ \ \
-$$
-
-Thus,
-
-$$
-f\left(x\right)\approx\sum_{n=-\infty{}}^{\infty{}}C_ne^{inx}=\frac{1}{2}+\sum_{n\
-odd}\frac{1}{\pi{}in}e^{inx}
-$$
-</div>
+<br>
 
 ## Answers
 
