@@ -293,30 +293,11 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 
 (a) Sketch the Temperature-Position graph corresponding to the following system of equations at:
 
-NEED HELP WITH {} LAST 2 LINES!!!
-
-\begin{equation*}
-\begin{cases}
-    \partial_t T = \alpha\partial_{xx}T &\text{on}\ (0,∞)
-    \times [-L, L],\newline
-    T|_{t=0}=25 &\text{on}\ \forall x,\newline
-    T|_{x=-L}=100 \qquad\ &\text{on}\ \forall t>0,\newline
-    T|_{x=L}=0 \qquad\ &\text{on}\ \forall t>0.
-\end{cases}
-\end{equation*}
-
-${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
-
-${T|_{t=0} = 25}$ on ${Ɐx}$,
-
-${T|_{x=-L} = 100}$ on ${Ɐt>0}$,
-
-${T|_{x=L} = 0}$ on ${Ɐt>0}$.
-
-
 (i) Initial temperature (t = 0)\
 (ii) At t > 0\
 (iii) Steady state conditions (as t tends to infinity)
+
+![figure2](14-finite-differences-media/finite-differences-system-of-equations1.png)
 
 <div class = "answer">
 
@@ -333,29 +314,11 @@ Matlab Animation
 
 (b) Sketch the Temperature-Position graph corresponding to the following system of equations at:
 
-NEED HELP WITH {} LAST 2 LINES!!!
-
-\begin{equation*}
-\begin{cases}
-    \partial_t T = \alpha\partial_{xx}T &\text{on}\ (0,∞)
-    \times [-L, L],\newline
-    T|_{t=0}=25 &\text{on}\ \forall x,\newline
-    T|_{x=-L}=0 \qquad\ &\text{on}\ \forall t>0,\newline
-    T|_{x=L}=10 \qquad\ &\text{on}\ \forall t>0.
-\end{cases}
-\end{equation*}
-
-${\partial_t T} = α {\partial_{xx} T}$ on $(0, ∞)$ x $[-L, L]$,
-
-${T|_{t=0} = 25}$ on ${Ɐx}$,
-
-${{\partial_x} T|_{x=-L} = 0}$ on ${Ɐt>0}$,
-
-${{\partial_x}T|_{x=L} = 10}$ on ${Ɐt>0}$.
-
 (i) Initial temperature (t = 0)\
 (ii) At t = a (where a is some arbitrary value)\
 (iii) At t = b (where b is some arbitrary value and b > a)
+
+![figure4](14-finite-differences-media/finite-differences-system-of-equations2.png)
 
 <div class = "answer">
 
