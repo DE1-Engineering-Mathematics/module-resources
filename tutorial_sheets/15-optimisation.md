@@ -60,6 +60,7 @@ $$
 
 Additional lines added for the curious.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
@@ -149,6 +150,7 @@ $$
 <img src = "13-optimisation/optimisation_graphic_2.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
@@ -242,6 +244,7 @@ $$
 Additional lines added for the curious.
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 ### Problem 4.
 The following contour plot shows the summed square error, S, for the two-parameter fit to some data for the function $f(x)=ae^{-x^2}+b$.
@@ -352,6 +355,7 @@ $$
 [Wolfram Alpha: wrt $\beta$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+b)
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $\omega=1$ and $\beta=0$.
 
@@ -374,6 +378,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 
 (c) Suggest whether $\omega$ and $\beta$ should be increased or decreased to improve the fit, explaining your answer. 
@@ -386,7 +391,7 @@ $\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs 
 
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 ### Problem 6. 
 
@@ -433,6 +438,7 @@ $$
 $$](https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b)
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $a=0.5$ and $b=-0.5$.
 
@@ -457,6 +463,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (c) Suggest whether $\omega$ and $\beta$ should be increased or decreased to improve the fit, explaining your answer. 
 
@@ -467,6 +474,7 @@ To improve the fit, you need to go the direction of steepest descent, meaning $-
 $\boxed{\text{Thus }a \text{ and }b \text{ need to be increased}}$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -527,6 +535,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (b) With the initial guess of $a = 1$ and $b=1$, determine the new weights using the first data point $[-3,4]$
 
@@ -541,6 +550,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (c) Determine the new weights using the second data point $[2.5,6]$
 
@@ -553,6 +563,7 @@ $$
 $$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (d) Determine the new weights using the second data point $[0.3,4.3]$
 
