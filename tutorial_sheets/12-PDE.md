@@ -39,7 +39,7 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 
 (b) $\sin\left(\frac{x+y}{2}\right)\sin\left(\frac{x-y}{2}\right)$
 <div class = "answer">
-No, but e.g. $\nabla^2 f(\mathbf{x}) + f = 0$
+No, but $\nabla^2 f(\mathbf{x}) + f = 0$
 </div>
 
 (c) $f(x + i y)$
@@ -54,7 +54,7 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 
 (e) $\frac{x+y}{z}$
 <div class = "answer">
-No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
+No, but $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
