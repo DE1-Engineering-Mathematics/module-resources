@@ -447,8 +447,9 @@ So the profit after four years will be: $ 4 \times £80,000 \Rightarrow \boxed{�
  <b> Option 2: </b> <br>
 
 To calculate compound interest we use: $P[(1+i)^{n} - 1] \\
-P = \text{initial balance, } i = \text{interest rate, and } n = \text{number of compounding periods.}
-\\ £500,000 \times (1.0003^{4 \times 365} − 1) \Rightarrow \boxed{£274,751.56}
+P = \text{initial balance, } i = \text{interest rate, and } n = \text{number of compounding periods.}$
+<br>
+$ £500,000 \times (1.0003^{4 \times 365} − 1) \Rightarrow \boxed{£274,751.56}
 \\ $ 
 
  <b> Option 3: </b> <br>
