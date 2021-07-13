@@ -29,8 +29,6 @@ Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from in
 <div class = "answer"> 
 These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
 
-<br><br>
-
 Manually:\
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$}
 
@@ -82,7 +80,6 @@ Alternatively, using a table, the highlighted cells show the $a$ and $b$ values 
 The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. Use the method of interval bisection to locate this root accurate to $10^{-2}$. 
 
 <div class = "answer">
-This problem follows the same method as problem 1.
 
 The bisection method finds a root in a given interval $[0, 1]$}
 
@@ -401,14 +398,16 @@ The sequence is clearly converging to the root $x\approx 0.74$
 </div>
 
 ### Problem 8.
-The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Fill in the blanks and use the code to find the root.
+The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Fill in the blanks and use the code to find the root (use start point of 1).
 
 ![figure3](15-root-finding-media/root-finding-q8-code.png)
 
 <div class = "answer">
 
-![figure4](15-root-finding-media/animation.gif)
-The roots are: 
+![figure4](15-root-finding-media/root-finding-q8-code-answer.png)
+The root found was $x=2.11$ (2dp)
+
+See if you can write the code yourself for the other root finding methods!
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
