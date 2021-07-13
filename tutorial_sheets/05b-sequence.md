@@ -44,7 +44,9 @@ $\Rightarrow\boxed{a_n=(-1)^{n+1}.(2n+1)}$ </div>
 
 (b) $2,\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5},...$
 <div class = "answer"> 
-The numerator of this fraction is an Arithmetic Series, with $a_1=2$ and $d=1$. The denominator is also one, but with $a_1=1$ and $d=1$.
+The numerator of this fraction is an Arithmetic Series, with $a_1=2$ and $d=1$. 
+
+The denominator is also an Arithmetic Series, but with $a_1=1$ and $d=1$.
 <br>
 $a_n=\frac{2 + (n-1)}{1+(n-1)}$
 <br>
@@ -77,7 +79,7 @@ Find the third, sixth and ninth term of the sequence given by the formula:
 
 (c) $ \sum_{n=3}^{\infty}\ \left(\binom{n}{2}-\binom{n}{3} \right)$  
 
-Use the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
+Tip: Use the binomial coefficient  $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
 
 <div class = "answer">
 In this series, the first term is at $n=3$, so the third term is at $n=5$, the sixth at $n=8$ and the ninth at $n=11$.
@@ -96,7 +98,7 @@ Evaluate the following:
 The Sum of an Arithmetic Sequence: <br>
 $\Rightarrow S_n= \frac{n}{2}(2a + d(n - 1))
 \\ = \frac{20}{2}(2(0.2+5) + (0.2)(20 - 1)) 
-\\ = (10)(14.2)
+\\ = 10*14.2
 \\ = \boxed{142}$</div>
 
 (b) $\sum_{n=1}^8n\left(3+2n+n^2\right)$
@@ -138,20 +140,20 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
 <div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
 $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
-= 5\frac{1+\frac{{\left(-1\right)}^{n+1}}{2^n}}{\frac{3}{2}} \\
-\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{{\left(-1\right)}^{n+1}}{2^n}\right\}\ }$</div>
+= 5\frac{1+\frac{\left(-1\right)^{n+1}}{2^n}}{\frac{3}{2}} \\
+\Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{\left(-1\right)^{n+1}}{2^n}\right\}\ }$</div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
 Find the limiting values of the following:
 
-(a) $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\ as\ x\rightarrow{}\infty{}$
+(a) $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\ \text{as} \ x\rightarrow{}\infty{}$
 <div class = "answer">
 As $x$ tends to infinity, $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$. Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
 $\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
-(b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ as\ x\rightarrow{}\infty{}$
+(b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ \text{as}\ x\rightarrow{}\infty{}$
 <div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$. Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
@@ -219,7 +221,7 @@ Instead, we can use the "Limit Comparison Test". We choose an arbitrary $b_n$ in
 $$ \text{either } b_n \text{ converges, so then } a_n \text{ converges} $$
 $$ \text{or } b_n \text{ diverges, so then } a_n \text{ diverges} $$
 
-Here, let $b_n=\frac{1}{n}$. Note that we can also pick other functions for $\ b_n \$ but choosing $\frac{1}{n}$ or $\frac{1}{n^2}$ is a common and a safe option for this test.<br>
+Here, let $b_n=\frac{1}{n}$. Note that we can also pick other functions for $\ b_n $ but choosing $\frac{1}{n}$ or $\frac{1}{n^2}$ is a common and a safe option for this test.<br>
 $$
 \lim_{n\rightarrow\infty}{\frac{\frac{n}{n^2+1}}{\frac{1}{n}}}=\frac{n^2}{n^2+1}=1>0.
 $$
@@ -243,13 +245,15 @@ Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it 
 We can use the ratio test:
 
 $$
-\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{1}{\left(2\left(n+1\right)+1\right)!}\times{}\frac{\left(2n+1\right)!}{1}\right\vert{}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(2n+1\right)!}{\left(2n+3\right)!}\right\vert{}=0}}\
+\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}}
+=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{1}{\left(2\left(n+1\right)+1\right)!}\times{}\frac{\left(2n+1\right)!}{1}\right\vert{}=\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{\left(2n+1\right)!}{\left(2n+3\right)!}\right\vert{}=0}}
 $$
+
 $\therefore$ The series is convergent.
 <br><br>
 Note: when testing for convergence the ratio test is the most common test to try first after the $n^{th}$ term test (or "Test for Divergence" as written in the notes). If that test fails then try another one.</div>
 
-(c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ for-1 < x < +1$
+(c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ \text{for}\ -1 < x < +1$
 <div class = "answer">
 $\boxed{\text{Converges}}$
 
@@ -325,14 +329,16 @@ Convergent for $-1 < X < 1$.
 
 Now check if the endpoints are converging:
 
-$$	
-At\ X=1,\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
+$$
+At\ X=1,\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}
 $$
 
 $$
-At\ X=-1,\ \
-\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}\
-$$</div>
+At\ X=-1,\\
+\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{X^n}{ {(2n+1)}^3}\Rightarrow{}\text{convergent}}
+$$
+
+</div>
 
 (b) $ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $
 <div class = "answer">
@@ -357,18 +363,21 @@ Convergent for $-1< X < 1$.
 Now check if the endpoints are converging:
 
 $$
-At\ X=1,\
-\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
+At\ X=1,\\
+\lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right)*X^n}{n^3}}
 \Rightarrow{}\text{convergent}
 $$
 
 $$
-At\ X=-1,\
-\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right).X^n}{n^3}}\
+At\ X=-1,\\
+\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}\frac{\left(n+1\right)*X^n}{n^3}}
 \Rightarrow{} \text{convergent}
-$$</div>
+$$
+
+</div>
 
 (c) $ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $
+
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for } \left\vert{}X\right\vert{} < 1 }$. <br><br>
 
@@ -389,19 +398,22 @@ Therefore, converges for $\left\vert{}X\right\vert{}<1$.
 Now check if the endpoints are converging:
 
 $$
-At\ X=1,\ \
+At\ X=1,\\
 \lim_{x\rightarrow{}1}{\sum_{n=1}^{\infty{}}\ln{\left(n\right)}}\Rightarrow{} \text{divergent}
 $$
 
 $$
-At\ X=-1,\ \ \lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}}
-{(-1)}^n\ln{\left(n\right)}\Rightarrow{} \text{divergent}$$
+At\ X=-1,\\
+\lim_{x\rightarrow{}-1}{\sum_{n=1}^{\infty{}}}
+{(-1)}^n\ln{\left(n\right)}\Rightarrow{} \text{divergent}
+$$
 
 Note: The $n^{th}$ term test showed that 
 $\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the test only shows whether the function diverges and does not test the convergency. Hence, the ratio test must be conducted.  
 </div>
 
 (d) $ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $
+
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for all values of } X}$. <br><br>
 
@@ -411,7 +423,7 @@ Using $n^{th}$ term test, it is indicated that as $n$  index goes to infinity, t
 
 Using the ratio test:
 
-$$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{3^{n+1}X^{n+1}}{\left(n+1\right)!}\times{}\frac{n!}{3^nX^n}\right\vert{}}=\
+$$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{3^{n+1}X^{n+1}}{\left(n+1\right)!}\times{}\frac{n!}{3^nX^n}\right\vert{}}=
 \frac{3\left\vert{}X\right\vert{}}{n+1}=0 $$
 
 The function will always converge no matter what the value of $X$ is.
@@ -425,41 +437,61 @@ An investment fund offers three  investment strategy packages to its clients if 
 
 (a) Calculate the profit after 4 years for each of the three options.
 <div class = "answer">
-Option 1: 
-$\\ \text{The annual return will be:} \quad \frac{16}{100} \times  £500,000 = £80,000
-\\ \text{So the profit after four years will be:} \quad 4 \times £80,000 \Rightarrow \boxed{£320,000}
-\\$
-Option 2: 
-$\\ \text{To calculate compound interest we use:} \quad  P[(1+i)^{n} - 1] \\
+
+ <b> Option 1: </b> <br>
+
+The annual return will be: $ \frac{16}{100} \times  £500,000 = £80,000 $
+
+So the profit after four years will be: $ 4 \times £80,000 \Rightarrow \boxed{£320,000} $ <br>
+
+ <b> Option 2: </b> <br>
+
+To calculate compound interest we use: $P[(1+i)^{n} - 1] \\
 P = \text{initial balance, } i = \text{interest rate, and } n = \text{number of compounding periods.}
 \\ £500,000 \times (1.0003^{4 \times 365} − 1) \Rightarrow \boxed{£274,751.56}
-\\$
-Option 3: 
-$\\ \text{Method 1: We can calculate the total profit by creating a formula for the sum of the profit each day for 4 years.}
-\\ \sum_{n=0}^{4 \times 365}{n} \Rightarrow \boxed{£1,066,530} \\$
+\\ $ 
+
+ <b> Option 3: </b> <br>
+
+Method 1: We can calculate the total profit by creating a formula for the sum of the profit each day for 4 years.
+
+$\sum_{n=0}^{4 \times 365}{n} \Rightarrow \boxed{£1,066,530} \\ $
 <br>
-$\text{Method 2: We can calculate the sum of the profit using the formula for the sum of an arithmetic series.}
-\\ \text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n(n+1)}{2}
+
+Method 2: We can calculate the sum of the profit using the formula for the sum of an arithmetic series.
+$\text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n(n+1)}{2}
 \\ \therefore (4 \times 365)\frac{(4 \times 365 + 1)}{2} \Rightarrow \boxed{£1,066,530}$</div>
 
 (b) Which option offers the best return after 40 years?
 <div class = "answer">
-We use the same method as in part a) but replacing the year 4 with 40.
+We use the same method as in part (a) but replacing the year 4 with 40.
 <br>
-Option 1:
-$\text{The return will be: } £3,200,000 \\$
-Option 2:
-$\text{The return will be: } £39,392,804 \\$
-Option 3:
-$\text{The return will be: } £106,587,300 \\$
 
-So the option with the best return is $\Rightarrow \boxed{\text{Third}}$
+ <b> Option 1:  </b> <br>
+
+The return will be: $ £3,200,000 $ <br>
+
+ <b> Option 2: </b> <br>
+
+The return will be: $ £39,392,804 $ <br>
+
+ <b> Option 3: </b> <br>
+
+The return will be: $ £106,587,300 $ <br>
+
+So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
 </div>
 
 (c) Draw a graph showing the profit vs. time for the three options over 40
 years.
 <div class = "answer">
-Insert graph.</div>
+<img src = "05B-sequence/10c.png">
+Yellow = option 1
+<br>
+Pink = option 2
+<br>
+Purple = option 3
+</div>
 
 (d) Write down an expression for the difference between the profits of the
 second and third options as a function of the number of days since
