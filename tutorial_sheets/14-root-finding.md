@@ -327,7 +327,7 @@ $$
 $\therefore$ the root is $\boxed{x=0.8654}$ to 4 dp.
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br<br><br></div>
 
 (b) the Secant method.
 
