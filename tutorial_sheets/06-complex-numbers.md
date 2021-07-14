@@ -412,6 +412,8 @@ $\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------------------------------------------------------
+
 ### Problem 7.
 Find the value of $x$ and $y$ in the equation $(x+iy)(3+4i) =  3-4i$ given that $x\in \R$ and $y\in \R$.
 
@@ -425,6 +427,8 @@ Therefore $\boxed{x = \frac{-7}{25}}$ and $\boxed{y = \frac{-24}{25}}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------------------------------------------------------
 
 ### Problem 8.
 It is given that $z = \frac{1+8i}{1-2i}$. Show that $arctan8 + arctan2 + arctan\frac{2}{3} = \pi$.
