@@ -242,7 +242,7 @@ $$
 & 5&   -& 0.1038&	&0.0000& \newline
 \end{align*}
 
-$\therefore$ the root of the equation is $-0.1038$ ($4$ d.p.).
+$\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
 
 Alternatively this could be solved using code (e.g. Matlab).
 
@@ -254,7 +254,9 @@ Find a positive real root of $\cos(x)-x^3=0$ using;
 
 (a) the NR (Newton-Raphson) method.
 <div class = "answer">
-Obtaining an initial approximation: Since $\mathrm{cos}x\leq1$ for all $x$ and for $x > 1, x^3 > 1,$ the positive zero must lie between $0$ and $1$. So, let’s take $x_0 = 0.5$.
+Obtaining an initial approximation: 
+
+Since $\mathrm{cos}(x)\leq1$ for all $x$ and for $x > 1, x^3 > 1,$ the positive zero must lie between $0$ and $1$. So, let’s take $x_0 = 0.5$.
 
 Input Data:
 
@@ -269,42 +271,42 @@ Formula to be used: $$x_{k+1}=x_k-\frac{f(x_k)}{f'(x_k)}$$
 Compute $f'(x)=-\mathrm{sin}x-3x^2$
 
 
-Iteration 1. $k=0:$
+Iteration 1: $ \ k=0$
 $$
 x_1=x_0-\frac{f(x_0)}{f'(x_0)}=0.5-\frac{\mathrm{cos}(0.5)-(0.5)^3}{-sin(0.5)-3(0.5)^2}=1.1121
 $$
 
-Iteration 2. $k=1:$
+Iteration 2: $ \ k=1$
 $$
 x_2=x_1-\frac{f(x_1)}{f'(x_1)}=0.9097
 $$
 
-Iteration 3. $k=2:$ 
+Iteration 3: $ \ k=2$ 
 $$
 x_3=x_2-\frac{f(x_2)}{f'(x_2)}=0.8444
 $$
 
-Iteration 4. $k=3:$ 
+Iteration 4: $ \ k=3$ 
 $$
 x_4=x_3-\frac{f(x_3)}{f'(x_3)}=0.8659
 $$
 
-Iteration 5. $k=4:$ 
+Iteration 5: $ \ k=4$ 
 $$
 x_5=x_4-\frac{f(x_4)}{f'(x_4)}=0.8655
 $$
 
-Iteration 6. $k=5:$ 
+Iteration 6: $ \ k=5$ 
 $$
 x_6=x_5-\frac{f(x_5)}{f'(x_5)}=0.8654
 $$
 
-Iteration 7. $k=6:$ 
+Iteration 7: $ \ k=6$ 
 $$
 x_7=x_6-\frac{f(x_6)}{f'(x_6)}=0.8654
 $$
 
-$\therefore$ the root is 0.8654 (4 d.p.)
+$\therefore$ the root is $\boxed{x=0.8654}$ to 4 dp.
 </div>
 
 (b) the Secant method.
