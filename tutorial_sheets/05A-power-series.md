@@ -329,10 +329,51 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
+### Problem 8.
+The first five terms of the Maclaurin series of function$f(x)=\frac{sin(\pi x)}{x}$ are
+<br>
+ $g_{4}(x)=\pi -\frac{\pi ^{3}x^{2}}{6}+\frac{\pi ^{5}x^{4}}{120}-\frac{\pi ^{7}x^{6}}{5040}+\frac{\pi ^{9}x^{8}}{362880}$<br><br>
+(a) Find an expression for the term containing $x^{n}$ of the above series.
+<br><br>
+<div class = "answer">
+$(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}$
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) Use the series above to help you sketch this function in the region $-3\leq x\leq 3$.
+<div class = "answer">
+<iframe src="https://www.desmos.com/calculator/eglb4hlnxb?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+<br><br>
+(c)Add sketches of the zeroth, second, and fourth order truncated series approximations to your graph.
+<div class = "answer">
+<iframe src="https://www.desmos.com/calculator/g5jrscawf9?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 -----------------------------------
 
 ## Challenging Questions
-### Problem 8.
+### Problem 9.
+
+Find power series of $\frac{1}{x^{2}+4x+3}$ in term of $(x-1)$.
+<br>
+<div class = "answer">
+$\frac{1}{x^{2}+4x+3}=\frac{1}{\left ( x+1 \right )\left ( x+3 \right )}= \frac{1}{2\left ( 1+x \right )}-\frac{1}{2\left ( 3+x \right )}$
+<br><br>
+write $x$ in form of $(x-1)$, knowing that $\left | x-1 \right |< 2$
+<br><br>
+$\Rightarrow \quad \frac{1}{4\left ( 1+\frac{x-1}{2} \right )}-\frac{1}{8\left ( 1+\frac{x-1}{4} \right )}$
+<br><br>
+$\Rightarrow \quad \frac{1}{4}\left [ 1-\frac{x-1}{2}+\frac{\left ( x-1 \right )^{2}}{2^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{2^{n}}+...\right ]-\frac{1}{8}\left [ 1-\frac{x-1}{4}+\frac{\left ( x-1 \right )^{2}}{4^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{4^{n}}+...\right ] $
+<br><br>
+$\Rightarrow \quad \sum_{n=0}^{\infty }\left ( -1 \right )^{n}\left ( \frac{1}{2^{n+2}} - \frac{1}{2^{2n+3}}\right )\left ( x-1 \right )^{n}$ for $-1< x< 3$
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+### Problem 10.
 (a)  Write the Maclaurin series expansion of the function up to the $4^{th}$ power:
 
 $$f(x) = 	x \cos \left(\frac{x}{\sqrt{3}}\right)-(\alpha-x^3)\sin x \text{ for all } \alpha\in\mathbb{R}$$
@@ -374,7 +415,6 @@ It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a lo
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-<br><br>
 
 ## Answers
 
