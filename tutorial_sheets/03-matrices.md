@@ -612,11 +612,30 @@ $\quad\Rightarrow{}\quad \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{
 -----------------------------------------------------------------------------------
 
 ### Problem 10.
-Given that 
-
-and
-
-find x
+Given that the matrix $\textbf{M}$ is given by:
+$\textbf{M} =  \begin{bmatrix} 
+    4 \ 12 \newline  x \ 8 
+    \end{bmatrix}$ 
+and:
+$(\textbf{M}^{-1})^T = -\frac{2}{184}\begin{bmatrix} 
+    4 \ {-9} \newline  {-6} \ 2 
+    \end{bmatrix}$ 
+find $x$
+<div class = "answer">
+$\quad\Rightarrow{}\quad \textbf{M}^{-1} = -\frac{2}{184}\begin{bmatrix} 
+    4 \ {-6} \newline  {-9} \ 2 
+    \end{bmatrix} = -\frac{1}{184}\begin{bmatrix} 
+    8 \ {-12} \newline  {-18} \ 4 
+    \end{bmatrix}$ <br>
+(note: multiplying the matrix by the coefficient's numerator leaves the inverted matrix in a more recognizable form)<br>
+given that for matrix $\textbf{A}$: <br>
+$\quad\Rightarrow{} \quad \textbf{A} =  \begin{bmatrix} 
+    a \ b \newline  c \ d 
+    \end{bmatrix} \quad\Rightarrow{}\quad \textbf{A}^{-1} = \frac{1}{\text{det}(\textbf{A})}\begin{bmatrix} 
+    d \ {-b} \newline  {-c} \ a 
+    \end{bmatrix}$ <br>
+$\quad\Rightarrow{}\quad {-x}={-18} \quad\Rightarrow{}\quad \boxed{x = 18}$
+</div>
 
 -----------------------------------------------------------------------------------
 
