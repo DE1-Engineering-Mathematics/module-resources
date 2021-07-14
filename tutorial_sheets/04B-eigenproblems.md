@@ -409,7 +409,8 @@ $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 
 ## Challenging Questions
 ### Problem 8.
-hhahh
+hhahh nihaojiaS
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -505,4 +506,4 @@ so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 
 <br><br>
 
-# Next week, Power Series and Sequences!
+# Next week, Power Series and Sequence
