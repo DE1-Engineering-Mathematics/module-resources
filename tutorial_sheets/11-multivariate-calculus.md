@@ -225,9 +225,13 @@ $$ \nabla\begin{bmatrix}
     7y^2 \newline 14xy \newline 4z^3
     \end{bmatrix}
   \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 1 is a two-step process, applying $\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}$ twice. <br>
 Method 2: <br>
 $$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
-$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$
+$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$
 </div>
 (b) $\sin (xy) + 2z^2$
 <div class = "answer">
