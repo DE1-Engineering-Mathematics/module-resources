@@ -90,17 +90,9 @@ $$\boxed{f(x)=\frac{1}{2}-\frac{x}{4}+\frac{x^2}{8}-\frac{x^3}{16}+...}$$
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
-Write the general equation of the $n^{th}$ order term for function $f(x)$ from $n=0$ to infinity:
+Write the general equation of the $n^{th}$ order term for function $f(x)$ from $n=0$ to infinity and re-express function f(x) in power series form:
 
-(a) $f(x)=e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...$
-<div class = "answer">
-Determine the $n^{th}$ term of the sequence
-$$n^{th} =1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...+\frac{x^{n}}{n!}$$
-Re-express function f(x) in power series form:
-$$f(x)=e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...+\frac{x^{n}}{n!}=\boxed{\sum_{n=0}^{\infty}\frac{x^n}{n!}}$$
-</div>
-
-(b) $f(x) =e^x= e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...$
+(a)  $f(x) =e^x= e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...$
 <div class = "answer">
 Determine the $n^{th}$ term of the sequence 
 $$n^{th}=e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...+\frac{e(x-1)^n}{n!}$$
@@ -108,7 +100,7 @@ Re-express function f(x) in power series form:
 $$f(x)=e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...+\frac{e(x-1)^n}{n!}=\boxed{\sum_{n=0}^{\infty}\frac{e(x-1)^n}{n!}}$$
 </div>
 
-(c) $f(x)=\frac{1}{1+x}=1-x+x^2-x^3+x^4+...$
+(b) $f(x)=\frac{1}{1+x}=1-x+x^2-x^3+x^4+...$
 <div class = "answer">
 Determine the $n^{th}$ term of the sequence
 $$n^{th}=\frac{1}{1+x}=1-x+x^2-x^3+x^4+...+(-1)^nx^n$$
@@ -116,16 +108,9 @@ Re-express function f(x) in the form of power series:
 $$f(x)=\frac{1}{1+x}=1+(-x)+x^2-x^3+x^4+...+(-1)^nx^n= \boxed{\sum_{n=0}^{\infty}(-1)^nx^n}$$
 </div>
 
-(d) $f(x) =\frac{1}{(1-x)^2}=1+2x+3x^2+4x^3+...$
+(c) $f(x)=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...$
 <div class = "answer">
-Determine the $n^{th}$ term of the sequence
-$$n^{th}=\frac{1}{(1-x)^2}=1+2x+3x^2+4x^3+...+nx^{n-1}$$
-Re-express function f(x) in the form of power series:
-$$f(x)=\frac{1}{(1-x)^2}=1+2x+3x^2+4x^3+...+nx^{n-1}=\boxed{\sum_{n=0}^{\infty}nx^{n-1}}$$</div>
-
-(e) $f(x)=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...$
-<div class = "answer">
-Determine $n^{th}$ term of the sequence	
+Determine $n^{th}$ term of the sequence 
 $$n^{th}=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...+(-1)^n\frac{x^{2n}}{(2n)!}$$
 Re-express function f(x) in the form of power series:
 $$f(x)=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...+(-1)^n\frac{x^{2n}}{(2n)!}=\boxed{\sum_{n=0}^{\infty}(-1)^n\frac{x^{2n}}{(2n!)}}$$
@@ -153,9 +138,9 @@ $$\boxed{x-\frac{x^{7}}{14}+\frac{x^{13}}{312}-\frac{x^{19}}{13680}+...}$$
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-Find the Maclaurin Series expansion (up to and including the 4th term) near some value $x=a$  for:
+Find the Maclaurin Series expansion (up to and including the 4th term) near $x=0$  for the following equation:
 
-(a) $f(x)=\mathrm{sin}(x)\quad\quad\quad\quad{}x=0$
+$f(x)=\mathrm{sin}(x)$
 <div class = "answer">
 Find the Maclaurin Series expansion near $x =0$ for $\displaystyle f(x)=\mathrm{sin}x$, by finding the first, second, third, etc derivatives and evaluating them at $x = 0$. 
 Table of $f^{(n)}(0)$ coefficients for this series (Maclaurin, x=0):
@@ -192,8 +177,9 @@ Compute the following limits using Taylor and Maclaurin expansions:
 
 (a) $\lim\limits_{x\rightarrow0}\big(\frac{e^x -\mathrm{sin}x-\mathrm{cos}x}{e^{x^2}-e^{x^3}}\big)$
 <div class = "answer">
-Note: $O(x^n)$ denotes all terms with powers greater or equal to $n$, which can be considered negligible):
-$$e^x-\mathrm{sin}x-\mathrm{cos}x=	$$
+Note: $O(x^n)$ denotes all terms with powers greater or equal to $n$, which can be considered negligible):<br>
+Express each term separately using Maclaurin series equation
+$$e^x-\mathrm{sin}x-\mathrm{cos}x=  $$
 $$=\Big(1+x+\frac{1}{2}x^2+O(x^3)\Big)-\Big(x+O(x^3)\Big)-\Big(1-\frac{1}{2}x^2+O(x^3)\Big)=x^2+O(x^3),$$
 
 Similarly, the function in the denominator can be written as:
@@ -230,7 +216,7 @@ $$\sqrt[5]{1-5x^2+x^4}=\sqrt[5]{1+(-5x^2+x^4)}\approx1+\frac{1}{5}(-5x^2+x^4)-\f
 
 Thus the numerator can be rewritten as:
 $$\sqrt[5]{1-5x^2+x^4}-1+x^2=$$
-$$\big(1+\frac{1}{5}(-5(x^2+x^4)\big)-\frac{2}{25}(-5x^2+x^4)^2+O(x^5))-1+x^2)=$$
+$$\big(1+\frac{1}{5}(-5x^2+x^4)-\frac{2}{25}(-5x^2+x^4)^2+O(x^5))-1+x^2=$$
 $$=1-x^2+\frac{1}{5}x^4+-2x^4+O(x^5)-1+x^2=-\frac{9}{5}x^4+O(x^5)$$
 
 Hence:
@@ -246,15 +232,15 @@ $$=\boxed{\lim\limits_{x\rightarrow0}\frac{-\frac{9}{5}x^4}{x^4}=-\frac{9}{5}}$$
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(c) Study the local behaviour of function:
-$$f(x) = 	1-(x-2)^2+\frac{1}{4}(x-2)^3+O((x-2)^4),\quad x\rightarrow 2$$
+Study the local behaviour of function:
+$$f(x) =  1-(x-2)^2+\frac{1}{4}(x-2)^3+O((x-2)^4),\quad x\rightarrow 2$$
 in a neighbourhood of $x_0=2$, discuss whether it is a stationary point, and, if yes, of which type.
 
 <div class = "answer">
 Rewriting Taylor expansion for $f(x)$ of order $3$ centered at $x_0=2$ as:
 \begin{equation*}
 f(x)=f(2)+f'(2)(x-2)+\frac{1}{2!}f''(2)(x-2)^2+\frac{1}{3!}f'''(2)(x-2)^3+O\big((x-2)^4\big),\quad x\rightarrow2
-\end{equation*}	
+\end{equation*} 
 
 Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in the question: 
 
@@ -271,7 +257,7 @@ Then by comparing the coefficients of the rewritten form for f(x) to the f(x) in
 Comparing the coefficients of the various degrees of $(x-2)$ in $f(x)$ and solving for each $f^{n}(2)$:
 \begin{equation*}
 f(2)=1,\quad f'(2)=0,\quad f''(2)=-1\times2!=-2,\quad f'''(2)=\frac{1}{4}\times3!=\frac{3}{2}.
-\end{equation*}	
+\end{equation*} 
 After finding the values of f'(2) and f''(2), it can be concluded that \ans{$x_0=2$ is a stationary point and, in particular, it is a local maximum of $f$.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -329,13 +315,54 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
+### Problem 8.
+The first five terms of the Maclaurin series of function$f(x)=\frac{sin(\pi x)}{x}$ are
+<br>
+ $g_{4}(x)=\pi -\frac{\pi ^{3}x^{2}}{6}+\frac{\pi ^{5}x^{4}}{120}-\frac{\pi ^{7}x^{6}}{5040}+\frac{\pi ^{9}x^{8}}{362880}$<br><br>
+(a) Find an expression for the term containing $x^{n}$ of the above series.
+<br><br>
+<div class = "answer">
+$(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}$
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) Use the series above to help you sketch this function in the region $-3\leq x\leq 3$.
+<div class = "answer">
+<iframe src="https://www.desmos.com/calculator/eglb4hlnxb?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+<br><br>
+(c)Add sketches of the zeroth, second, and fourth order truncated series approximations to your graph.
+<div class = "answer">
+<iframe src="https://www.desmos.com/calculator/g5jrscawf9?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 -----------------------------------
 
 ## Challenging Questions
-### Problem 8.
+### Problem 9.
+
+Find power series of $\frac{1}{x^{2}+4x+3}$ in term of $(x-1)$.
+<br>
+<div class = "answer">
+$\frac{1}{x^{2}+4x+3}=\frac{1}{\left ( x+1 \right )\left ( x+3 \right )}= \frac{1}{2\left ( 1+x \right )}-\frac{1}{2\left ( 3+x \right )}$
+<br><br>
+write $x$ in form of $(x-1)$, knowing that $\left | x-1 \right |< 2$
+<br><br>
+$\Rightarrow \quad \frac{1}{4\left ( 1+\frac{x-1}{2} \right )}-\frac{1}{8\left ( 1+\frac{x-1}{4} \right )}$
+<br><br>
+$\Rightarrow \quad \frac{1}{4}\left [ 1-\frac{x-1}{2}+\frac{\left ( x-1 \right )^{2}}{2^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{2^{n}}+...\right ]-\frac{1}{8}\left [ 1-\frac{x-1}{4}+\frac{\left ( x-1 \right )^{2}}{4^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{4^{n}}+...\right ] $
+<br><br>
+$\Rightarrow \quad \sum_{n=0}^{\infty }\left ( -1 \right )^{n}\left ( \frac{1}{2^{n+2}} - \frac{1}{2^{2n+3}}\right )\left ( x-1 \right )^{n}$ for $-1< x< 3$
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+### Problem 10.
 (a)  Write the Maclaurin series expansion of the function up to the $4^{th}$ power:
 
-$$f(x) = 	x \cos \left(\frac{x}{\sqrt{3}}\right)-(\alpha-x^3)\sin x \text{ for all } \alpha\in\mathbb{R}$$
+$$f(x) =  x \cos \left(\frac{x}{\sqrt{3}}\right)-(\alpha-x^3)\sin x \text{ for all } \alpha\in\mathbb{R}$$
 
 Using this expansion, find for which $\alpha$ values of the point $x = 0$ is stationary for $f$ and specify of which type.
 
@@ -374,7 +401,6 @@ It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a lo
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-<br><br>
 
 ## Answers
 
