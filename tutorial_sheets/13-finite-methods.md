@@ -161,6 +161,8 @@ x(t+\Delta t) = (2 - \omega^2 \Delta t^2) x(t) - x(t-\Delta t)
 \end{align*}
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 Now given initial conditions of
 $x(0)=1$ and $\dot{x}(0)=0$:
 
@@ -200,6 +202,8 @@ Similarly for $x(2 \Delta t)$, which depends on $x(\Delta t)$ and $x(0)$,
 \end{align*}
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Approximate $\dot{x}(0)$ with a central difference.
 
@@ -243,8 +247,11 @@ From here we can use the update equation to iterate,
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Use Excel or otherwise to simulate both for $t/\Delta t$ up to 30, what do you see?
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Exam Style Questions
 ### Problem 4.
@@ -263,6 +270,8 @@ $\frac{\partial C}{\partial t}|_{i, n} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) Explain whether the central difference approximation is more / less accurate than the forward-difference approximation.
 
 <div class = "answer">
@@ -279,6 +288,8 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c) Why does it become impractical to continually reduce the step-size $\{\Delta x}$ in order to improve the accuracy of the simulation?
 
 <div class = "answer">
@@ -288,6 +299,8 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 - Finite precision of values may not be able to resolve small differences.
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 5.
 
@@ -311,6 +324,8 @@ Matlab Animation
 ![figure3](14-finite-differences-media/q5-graph-a.gif)
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Sketch the Temperature-Position graph corresponding to the following system of equations at:
 
