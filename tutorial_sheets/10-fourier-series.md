@@ -293,9 +293,10 @@ $$
 This can be integrated quickly using WolframAlpha by typing in: 
 
 "integrate x^3 sin(n pi x) between -1 and 1" 
-<!-- [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) -->
 
 <a href="https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1">WolframAlpha</a>
+
+<br>
 
 This results in: 
 
@@ -308,7 +309,7 @@ b_n  &= \frac{6(\pi^2n^2 - 2)\sin(\pi n) - 2\pi n (\pi^2 n^2 - 6) \cos(\pi n)}{\
 Note: the function simplification can be found by examining the values of $\sin(\pi n)$ and $\cos(\pi n)$ when $n$ is an integer. For any value of $n$, $\sin(\pi n) = 0$, and $\cos(\pi n) = (-1)^n$.
 
 
-<br>
+<br><br>
 
 To integrate manually, use integration by parts: $\int f dg=fg-\int g df.$
 
@@ -343,6 +344,7 @@ $$
 
 Note: doing fourier expansions manually can get very long and complicated, in this example you would have to integrate by parts three times! But you won't get tested on this in an exam, as you can just (and are encouraged to) use WolframAlpha to solve it.
 
+<br><br>
 $\therefore$ the Fourier series representation is:
 
 $$ \boxed{
