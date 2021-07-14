@@ -225,9 +225,13 @@ $$ \nabla\begin{bmatrix}
     7y^2 \newline 14xy \newline 4z^3
     \end{bmatrix}
   \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 1 is a two-step process, applying $\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}$ twice. <br>
 Method 2: <br>
 $$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
-$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$
+$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$ once.
 </div>
 (b) $\sin (xy) + 2z^2$
 <div class = "answer">
@@ -290,7 +294,6 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 -----------------------------------
 
 ### Problem 8.
-#### [10 marks]
 Given the expressions, <br>
 $$ f(u,v)=2u^3-7uv+v^2,\quad u(x,y)=\frac{x}{y}, \quad v(x,y)=\frac{y^2}{x}$$ <br>
 Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$. <br>
@@ -313,7 +316,6 @@ $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
 -----------------------------------
 
 ### Problem 9.
-#### [8 marks]
 For a function of two variables, $f(x,y)$, the total differential, $df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy$. <br>
 (a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}x}{\partial{}y})_f$. <br>
 Use the identities, $(\frac{\partial{}a}{\partial{}b})_a = 0$ and $(\frac{\partial{}a}{\partial{}a})_b = 1$.
