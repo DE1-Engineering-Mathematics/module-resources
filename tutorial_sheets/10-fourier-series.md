@@ -386,8 +386,7 @@ $$ \therefore \boxed{\frac{a_0}{2} = \frac{\frac{3}{2}}{2} = \frac{3}{4}} $$
 
 \begin{align*}
 a_n&=\frac{1}{L} \int_{-L}^{L}f(x)\cos\left(\frac{n\pi x}{L}\right) dx
-&=
-\int_{-1}^{0}(x+1)\cos\left(n\pi x\right) dx + \int_{0}^{1}\cos\left(n\pi x\right) dx
+&=\int_{-1}^{0}(x+1)\cos\left(n\pi x\right) dx + \int_{0}^{1}\cos\left(n\pi x\right) dx
 \end{align*}
 
 The second integral is straight forward:
