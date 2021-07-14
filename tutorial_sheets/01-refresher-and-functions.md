@@ -81,9 +81,25 @@ $\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \fra
 
 ### Problem 2.
 Obtain the derivative of the function, $f(x)=\frac{x+3}{2-x}$, using the definition of derivative (The limit of rise over run or "$\lim{(RoR)}$"
+
+(a) $f(x)= {x^2}$
 <div class = "answer">$\Rightarrow{}\quad$ using the expression $$f'(x) = \lim_{\Delta x\to0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$ <br>
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{(x+\Delta x)^2-(x^2)}{\Delta x}$ <br>
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{2 * \Delta x * x}{\Delta x} = \boxed{\frac{2x}}$
+</div>
+
+(b) $f(x)= \sin{x}$
+<div class = "answer">
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x}} + \frac{\cos{x}\sin{\Delta x}} - \frac{\sin{x}}{\Delta x} = \boxed{\cos{x}}$
+</div>
+
+(c)$f(x)=\frac{x+3}{2-x}$
+<div class = "answer">$
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \boxed{ \frac{5}{(2-x)^2} }$
+</div>
+
+<div class = "answer">$ The exam won't need to do this :)$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -270,11 +286,11 @@ $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.
 
 ## Exam Style Questions
 ### Problem 10.
-[13 marks] A curve has equation $f(x) = \frac{ax^2 - 12}{4x^2 + bx - 6}$, where $a$ and $b$ are constants.
+A curve has equation $f(x) = \frac{ax^2 - 12}{4x^2 + bx - 6}$, where $a$ and $b$ are constants.
 
 (a) Find the coordinates of the point where the curve crosses the $y$-axis
 
-<div class = "answer"> When $x=0, f(x)=\frac{-12}{-6} \\ \Rightarrow{} f(x) = 2,\ \\ \Rightarrow{} \boxed{(0,2)}$ [1 mark]</div>
+<div class = "answer"> When $x=0, f(x)=\frac{-12}{-6} \\ \Rightarrow{} f(x) = 2,\ \\ \Rightarrow{} \boxed{(0,2)}$ </div>
 
 (b) You are given that the curve has a vertical asymptote at $x=2$. Find the value of $b$ and the equation of the other vertical asymptote.
 
@@ -283,7 +299,7 @@ $\Rightarrow 4(2)^2 + b(2) - 6 = 0 \Rightarrow \boxed{b = - 5}$ <br>
 $\Rightarrow$ Factorise $4x^2 - 5x - 6$ <br>
 $\Rightarrow (4x+3)(x-2)$  <br>
 $\therefore$ The other asymptote occurs when $4x+3=0 \Rightarrow \boxed{x = -\frac{3}{4}}$
-[3 marks]</div>
+</div>
 
 (c) You are given that the curve crosses the $x$-axis when $x= \pm{\sqrt{6}}$. Find the value of $a$ and the equation of the horizontal asymptote.
 
@@ -294,11 +310,11 @@ Horizontal asymptote occurs when $x \rightarrow{\infty}$ <br>
 $f(x)$ will tend to the highest powers of x <br>
 $\Rightarrow f(x) = \frac{ax^2}{4x^2}$ <br>
 Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$ 
-[2 marks]</div>
+</div>
 
 (d) Find the set of values for which $y \geqslant 0$.
 
-<div class = "answer">Using the graph you sketched, you can see that $y$ is greater than or equal to zero in the regions where $\boxed{x\leqslant -\sqrt{6}, \space - \frac{3}{4} < x < 2, \space x \geqslant \sqrt{6}}$ [3 marks]
+<div class = "answer">Using the graph you sketched, you can see that $y$ is greater than or equal to zero in the regions where $\boxed{x\leqslant -\sqrt{6}, \space - \frac{3}{4} < x < 2, \space x \geqslant \sqrt{6}}$ 
 </div>
 
 (e) Find the domain (using the set notation)
@@ -315,11 +331,11 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
-[12 marks] A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
+ A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
 
 (a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
 
-<div class = "answer">$\boxed{x = 1 \\ x = -4 \\ y = 3}$ [3 marks]</div>
+<div class = "answer">$\boxed{x = 1 \\ x = -4 \\ y = 3}$ </div>
 
 (b) State, with justification, how the curve approaches the horizontal asymptote for large positive and large negative values of x.
 
@@ -328,12 +344,13 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 (c) Sketch the curve
 
-<div class = "answer"><iframe src="https://www.desmos.com/calculator/jdzogmrkh8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0> [3 marks]</iframe></div>
+<div class = "answer"><iframe src="https://www.desmos.com/calculator/jdzogmrkh8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0> 
+</iframe></div>
 
 (d) Solve the inequality $\frac{3x^2 - 9}{x^2 + 3x -4} \geqslant 0. $
 
 <div class = "answer">From the graph you have just sketched, you can see that the function is greater than or equal to zero in the regions where $\boxed{x<-4, -\sqrt{3} \leqslant x < 1, x \geqslant \sqrt{3}}$
-[3 marks]</div>
+</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------
