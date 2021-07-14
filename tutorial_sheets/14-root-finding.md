@@ -231,6 +231,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 (b) the Secant method
 
 <div class = "answer">
+Using the Secant Formula:
 $$
 x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}
 $$
@@ -245,6 +246,8 @@ $$
 & 4&   -& 0.1042& -&0.0041& \newline
 & 5&   -& 0.1038&	&0.0000& \newline
 \end{align*}
+
+You stop iterating if $f(x_n)$ is close enough to 0.
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
 
@@ -484,7 +487,6 @@ end
 
 ```
 
-![figure3](15-root-finding-media/root-finding-q8-code-answer.png)
 The root found was $x=2.11$ (2dp)
 
 See if you can write the code yourself for the other root finding methods!
