@@ -154,6 +154,13 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \end{align*}
 
 Therefore, the root is 0.59 to 2dp.
+
+Alternatively, we can use the same method as in problem 1 and use a table to find the root.
+
+The root is 0.59 (2dp).
+
+![figure1](15-root-finding-media/root-finding-q2.png)
+
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
