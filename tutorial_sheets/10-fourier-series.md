@@ -808,7 +808,7 @@ The first step would be to find out what the Fourier series approximation of thi
 <br>
 Finding the $b_n$ terms:
 <br>
-$b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx $
+$$b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx $$
 
 $ \ \ \ = \frac{1}{2 \pi} \left( \int_{-2 \pi}^0 5\sin \left(\frac{n x}{2}\right)dx + \int_{0}^{2 \pi} -5\sin\left(\frac{n x}{2}\right)dx \right)$
 <br>
@@ -828,9 +828,9 @@ You then end up with:
 
 <br>
 
-$b_n = \frac{1}{2 \pi} \left(\frac{10(\cos(\pi n) - 1)}{n} + \frac{10(\cos(\pi n) - 1)}{n}\right)
+$$b_n = \frac{1}{2 \pi} \left(\frac{10(\cos(\pi n) - 1)}{n} + \frac{10(\cos(\pi n) - 1)}{n}\right)
 = \frac{1}{2 \pi} \left(\frac{20(\cos(\pi n) - 1)}{n}\right)
-= \frac{1}{2 \pi} \left(\frac{20((-1)^n - 1)}{n}\right) $
+= \frac{1}{2 \pi} \left(\frac{20((-1)^n - 1)}{n}\right) $$
 
 <br>
 
