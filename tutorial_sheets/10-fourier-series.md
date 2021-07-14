@@ -718,7 +718,7 @@ Note: as in the example above, when calculating the coefficients, you end up wit
 ---------------
 ## Exam Style Questions
 ### Problem 6.
-(a) Consider the function $\ \ y = 10 e^{2x^8} - 8 \ \$ in the interval $\ \ {-3} \ {<} \ x \ {<} \ 3$ . State whether the Fourier Series of this function would contain sine of cosine terms and justify your answer.
+(a) Consider the function $\ \ y = 10 e^{2x^8} - 8 \ \$ in the interval $\ \ {-3} \ {<} \ x \ {<} \ 3$ . State whether the Fourier Series of this function would contain sine or cosine terms, justifying your answer.
 
 <div class = "answer">
 $\Rightarrow \boxed{\text{ The function will only contain cosine terms}}$.
@@ -731,7 +731,7 @@ For a function to be even $f(-x)=f(x)$:
 <br>
 $$ \ f(-x) = 10 e^{2(-x)^8} - 8  = 10 e^{2x^8} - 8 = f(x)\ $$
 <br>
-Note: the function could also be sketched to determine whether its odd or even.
+Note: the function could also be sketched to determine whether its odd or even. You could also get WolframAlpha to tell you whether it is odd, even or neither by typing "Parity of 10e^(2x^8)-8" [Link.](https://www.wolframalpha.com/input/?i=parity+of+10e%5E%282x%5E8%29+-+8)
 <iframe src="https://www.desmos.com/calculator/amhmuk0znf" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
@@ -745,7 +745,7 @@ Note: the function could also be sketched to determine whether its odd or even.
 <iframe src="https://www.desmos.com/calculator/akfeysxfu9" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
-(C) Add additional curves to this plot to represent the first and third order Fourier series approximation in the interval  $\ \ {-2\pi} \ {<} \ x \ {<} \ 2\pi$.
+(c) Add additional curves to this plot to represent the first and third order Fourier series approximation in the interval  $\ \ {-2\pi} \ {<} \ x \ {<} \ 2\pi$.
 
 <div class = "answer">
 The first step would be to find out what the Fourier series approximation of this function is for the first and third order. Because the function is odd, it will only contain $b_n$ terms.
