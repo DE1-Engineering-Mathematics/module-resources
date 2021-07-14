@@ -811,18 +811,28 @@ Finding the $b_n$ terms:
 $b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx $
 
 $ \ \ \ = \frac{1}{2 \pi} \left( \int_{-2 \pi}^0 5\sin \left(\frac{n x}{2}\right)dx + \int_{0}^{2 \pi} -5\sin\left(\frac{n x}{2}\right)dx \right)$
+<br>
 
 To solve each integral on WolframAlpha:
+<br>
 
-"integrate 5 sin((n x)/2) between -2pi and 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+5+sin%28%28n+x%29%2F2%29+between+-2pi+and+0)
+"integrate 5 sin((n x)/2) between -2pi and 0"
+<a href="https://www.wolframalpha.com/input/?i=integrate+5+sin%28%28n+x%29%2F2%29+between+-2pi+and+0">WolframAlpha</a>
+<br>
 
-"integrate -5 sin((n x)/2) between 0 and 2pi" [Link.](https://www.wolframalpha.com/input/?i=integrate+-5+sin%28%28n+x%29%2F2%29+between+0+and+2pi)
+"integrate -5 sin((n x)/2) between 0 and 2pi"
+<a href="https://www.wolframalpha.com/input/?i=integrate+-5+sin%28%28n+x%29%2F2%29+between+0+and+2pi">WolframAlpha</a>
+<br>
 
 You then end up with:
+
+<br>
 
 $b_n = \frac{1}{2 \pi} \left(\frac{10(\cos(\pi n) - 1)}{n} + \frac{10(\cos(\pi n) - 1)}{n}\right)
 = \frac{1}{2 \pi} \left(\frac{20(\cos(\pi n) - 1)}{n}\right)
 = \frac{1}{2 \pi} \left(\frac{20((-1)^n - 1)}{n}\right) $
+
+<br>
 
 By substituting $n=1$, $n=2$ and $n=3$ we can now calculate $b_1$, $b_2$ and $b_3$:
 <br>
