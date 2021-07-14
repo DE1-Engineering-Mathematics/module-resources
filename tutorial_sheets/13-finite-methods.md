@@ -251,6 +251,9 @@ From here we can use the update equation to iterate,
 
 (d) Use Excel or otherwise to simulate both for $t/\Delta t$ up to 30, what do you see?
 
+[Example sheet](https://docs.google.com/spreadsheets/d/1xl-y2ZNephq5xFhGiN_elvjIguKhOt5i5e09kftDhI8/edit?usp=sharing)
+
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Exam Style Questions
@@ -362,7 +365,6 @@ Matlab Animation
 
 </div>
 
-[Example sheet](https://docs.google.com/spreadsheets/d/1xl-y2ZNephq5xFhGiN_elvjIguKhOt5i5e09kftDhI8/edit?usp=sharing)
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
