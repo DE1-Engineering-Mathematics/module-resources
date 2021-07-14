@@ -29,7 +29,7 @@ Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using the bisection method fro
 <div class = "answer"> 
 These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
 <br><br>
-Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the next iteration, where $\frac{a + b}{2} = c$. These are chosen since they have the smallest difference in values in addition to having a negative product.
+Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the interval of the next iteration, where $\frac{a + b}{2} = c$. These numbers are chosen for the interval of the following iteration since they have the smallest difference in values and have a negative product.
 <br><br>
 
 ![figure1](15-root-finding-media/root-finding-q1.png)
@@ -154,7 +154,11 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \hline
 \end{align*}
 
-Alternatively, we can use the same method as in problem 1 and use a table to find the root.
+Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
+
+Alternative method:
+
+We can also use the same method as in problem 1 and use a table to find the root.
 
 ![figure2](15-root-finding-media/root-finding-q2.png)
 
@@ -216,7 +220,7 @@ Iterating four times:
 & 3&   -& 0.10380&  -&0.00000&     &10.27797&        -&0.10380& \newline
 \end{align*}
 
-So, the root of the equation is $\boxed{x = -0.1038}$ to 4 dp. 
+$\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp. 
 
 To check this, we can substitute this back into the original equation:
 
@@ -231,6 +235,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 (b) the Secant method
 
 <div class = "answer">
+The secant method:
 $$
 x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}
 $$
@@ -316,7 +321,9 @@ $\therefore$ the root is $\boxed{x=0.8654}$ to 4 dp.
 (b) the Secant method.
 
 <div class = "answer">
-The Secant method:$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}$    
+The Secant method: 
+
+$$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}$$    
 
 \begin{align*}
 & n&    &{x_n}&       f&(x_n)& \newline
@@ -329,7 +336,7 @@ The Secant method:$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f
 & 5&    0.8654&	&0.0002&  \newline
 \end{align*}
 
-So, the root of the equation is $0.8654$ (to $4$ d.p.).
+$\therefore$ the root of the equation is $\boxed{x=0.8654}$ to 4 dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -337,40 +344,41 @@ So, the root of the equation is $0.8654$ (to $4$ d.p.).
 ## Exam Style Questions
 
 ### Problem 6.
-(i) Use the Newton Raphson method to investigate the function: \$f(x) = \frac{1+4x - x^3}{x}$ by starting from the point $x = -1.0\$ and finding a root accurate to 2 decimal places.
+(i) Use the Newton Raphson method to investigate the function: $ \ f(x) = \frac{1+4x - x^3}{x} \ $ by starting from the point $ \ x = -1.0$.  Find a root accurate to 2 decimal places.
 
 <div class = "answer">
 
 Newton-Raphson formula: $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 
-Iteration 1. $n=-1.0:$
+Iteration 1: $ \ n=-1.0$
 $$
 x_1=x_0-\frac{f(x_0)}{f'(x_0)}=-1-\frac{\frac{1+4(-1) - (-1)^3}{(-1)}}
 {{\frac{-1}{(-1)^2}-2(-1)}}=-3
 $$
 
-Iteration 2. $n=-3.0:$
+Iteration 2: $ \ n=-3.0$
 $$
 x_2=x_1-\frac{f(x_1)}{f'(x_1)}=\frac{-111}{53} = -2.094339623
 $$
 
-Iteration 3. $n=-2.09...:$ 
+Iteration 3: $ \ n=-2.09...$ 
 $$
 x_3=x_2-\frac{f(x_2)}{f'(x_2)}=-1.876262734
 $$
 
-Iteration 4. $n=-1.876...:$ 
+Iteration 4: $ \ n=-1.876...$ 
 $$
 x_4=x_3-\frac{f(x_3)}{f'(x_3)}=-1.86088525
 $$
 
-Iteration 5. $n=-1.860...:$ 
+Iteration 5: $ \ n=-1.860...$ 
 $$
 x_5=x_4-\frac{f(x_4)}{f'(x_4)}=-1.860805855
 $$
 
-The root correct to 2dp is -1.86. This took 5 iterations.
-Alternatively you could use Matlab code to solve this.
+The root is $\boxed{x=-1.86}$ correct to 2dp. This took 5 iterations.
+
+Alternatively you could use Matlab or Python code to solve this.
 
 </div>
 
@@ -386,15 +394,17 @@ Alternatively you could use Matlab code to solve this.
 ## Challenging Questions
 
 ### Problem 7.
-For those who'd like an extra method, look up the ``Fixed point method'' to find the roots for the following function: $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
+For those who'd like an extra method, look up the ``Fixed point method'' to find the roots for the following function: 
+
+$x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
 
 <div class = "answer">
 From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. Thus, if we take $g(x)=\mathrm{cos}(x)$, then: 
 
-$(1)$ For all $x$ in $[ 0,\frac{\pi}{2} ]$, $0\leq g(x)\leq 1$
+(1) For all $x$ in $[ 0,\frac{\pi}{2} ]$, $0\leq g(x)\leq 1$
 
 
-$(2)$ $g^{'}(x)=-\mathrm{sin}x$. Thus,$\rvert g^{'}(x)\rvert<1$ in $[ 0,\frac{\pi}{2} ]$
+(2) $g^{'}(x)=-\mathrm{sin}x$. Thus,$\rvert g^{'}(x)\rvert<1$ in $[ 0,\frac{\pi}{2} ]$
 
 According to the Fixed-Point Iteration Theorem, the iterations must converge
 with any choice of $x_0$ in $[ 0,\frac{\pi}{2} ]$. This is verified from the following computations.
@@ -411,12 +421,12 @@ x_{17}&=\mathrm{cos}x_4=0.73956 \newline
 x_{18}&=\mathrm{cos}x_1=0.73956
 \end{aligned}
 \end{equation*}
-The sequence is clearly converging to the root $x\approx 0.74$
+The sequence is clearly converging to the root $\boxed{x\approx 0.74}$
 
 </div>
 
 ### Problem 8.
-The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Copy the code into Matlab and fill in the code hidden by '*' so that the code works. Use it to find the root (use start point of 1).
+The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Copy the code into Matlab and fill in the code hidden by '*' so that the code works. Use it to find the root (and use the starting point of 1).
 
 ```matlab:Code
 
@@ -485,7 +495,7 @@ end
 ```
 
 ![figure3](15-root-finding-media/root-finding-q8-code-answer.png)
-The root found was $x=2.11$ (2dp)
+The root found was $\boxed{x=2.11}$ to 2dp.
 
 See if you can write the code yourself for the other root finding methods!
 </div>
