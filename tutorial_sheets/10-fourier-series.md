@@ -277,6 +277,8 @@ $$
 
 The function $f\left(x\right)=x^3$ is odd, so the Fourier series representation will only contain sine terms and all $a_n = 0$.
 
+<br>
+
 The sine coefficients can be found using:
 
 $$
@@ -291,6 +293,8 @@ b_n = \int_{-1}^{1}x^3\sin\left(n\pi x\right) dx.
 $$
 
 This can be integrated quickly using WolframAlpha by typing in: 
+
+<br>
 
 "integrate x^3 sin(n pi x) between -1 and 1" 
 
@@ -352,6 +356,8 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 \sin{(n\pi{}x)}
 }$$
 <iframe src="https://www.desmos.com/calculator/vxqjspzae0" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+<br>
 
 (Try moving the slider under N)
 
