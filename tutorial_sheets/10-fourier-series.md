@@ -525,7 +525,7 @@ $$\sin(x)\cos(x)^2 = \boxed{ \frac{1}{4}\sin(x) + \frac{1}{4}\sin(3x) }$$
 
 This function can already directly be represented in terms of a sum of sine components and therefore, we do not need to compute the series within the given interval (this would reveal that there is an exact approximation with a finite number of terms; the two we just found).
 
-<br>
+<br><br>
 
 To compute terms manually, using the definition of the Fourier series:
 
@@ -575,8 +575,8 @@ $$
 $$
 =\frac{1}{4\pi{}}\
 \left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]_0^\pi=0
-$$
-Provided $n\not=1,3$. 
+\text{Provided} n\not=1,3
+$$. 
 
 <br>
 
