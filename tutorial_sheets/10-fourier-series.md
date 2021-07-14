@@ -808,9 +808,7 @@ The first step would be to find out what the Fourier series approximation of thi
 <br>
 Finding the $b_n$ terms:
 <br>
-$$b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx $$
-
-$ \ \ \ = \frac{1}{2 \pi} \left( \int_{-2 \pi}^0 5\sin \left(\frac{n x}{2}\right)dx + \int_{0}^{2 \pi} -5\sin\left(\frac{n x}{2}\right)dx \right)$
+$$b_n = \frac{1}{L} \int_{-L}^Lf(x)\sin(\frac{n\pi x}{L})dx  = \frac{1}{2 \pi} \left( \int_{-2 \pi}^0 5\sin \left(\frac{n x}{2}\right)dx + \int_{0}^{2 \pi} -5\sin\left(\frac{n x}{2}\right)dx \right)$$
 <br>
 
 To solve each integral on WolframAlpha:
