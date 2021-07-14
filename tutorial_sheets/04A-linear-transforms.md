@@ -26,6 +26,7 @@
 * [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
 * [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
 * [MathWorks - rotx - Rotation matrix for rotations around x-axis](https://uk.mathworks.com/help/phased/ref/rotx.html)
+* [MathWorks - transformPointsForward](https://uk.mathworks.com/help/images/ref/affine2d.transformpointsforward.html)
 
 <br><br><br><br>
 
@@ -278,13 +279,24 @@ $\Rightarrow{} 42-7x=7$<br>
 $\Rightarrow{} \boxed{x=5}$
 </div>
 
-(b) Copy and Complete the following code in Matlab to visualize the transformation by matrix $\textbf{M}$
+(b) Using the resource above, titled 'MathWorks - transformpointsforward', copy and complete the following code, in Matlab, to plot the points (1,2), (4,3), (1,0.5) and (0.25,3) before and after they are transformed by matrix $\textbf{M}$.
 <div>
 
 ```matlab:Code
 
 ```
 
+</div>
+
+<div class = "answer">
+Matlab:
+<div>
+
+```matlab:Code
+
+```
+
+</div>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
