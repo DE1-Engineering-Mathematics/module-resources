@@ -154,12 +154,6 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \hline
 \end{align*}
 
-Therefore, the root is 0.59 to 2dp.
-
-Alternatively, we can use the same method as in problem 1 and use a table to find the root.
-
-![figure1](15-root-finding-media/root-finding-q2.png)
-
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -204,7 +198,9 @@ Find the real root of $x^3-6x^2+9x+1=0$ using;
 <div class = "answer">
 $$ x_{n+1}=x_n -\frac{f(x_n)}{f'(x_n)} $$
 
-where $f(x_n)=x^3-6x^2+9x+1$, and $f'(x_n) = 3x^2-12x+9$ Iterating four times:
+where $f(x_n)=x^3-6x^2+9x+1$, and $f'(x_n) = 3x^2-12x+9$ 
+
+Iterating four times:
 
 \begin{align*}
 & n&    &{x_n}&       f&(x_n)&     f'&(x_n)&    (x&_{n+1})&\newline
@@ -216,8 +212,10 @@ where $f(x_n)=x^3-6x^2+9x+1$, and $f'(x_n) = 3x^2-12x+9$ Iterating four times:
 & 3&   -& 0.10380&  -&0.00000&     &10.27797&        -&0.10380& \newline
 \end{align*}
 
-So, the root of the equation is $-0.1038$ (to 4 d.p.). To check this, we can substitute
-this back into the original equation:
+So, the root of the equation is $\boxed{x = -0.1038}$ to 4 dp. 
+
+To check this, we can substitute this back into the original equation:
+
 \begin{equation*}
     (-0.1038)^{3}-6(-0.1038)^2+9(-0.1038)+1 =0.0000349 \approx 0
 \end{equation*}
