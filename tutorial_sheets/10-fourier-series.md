@@ -404,6 +404,8 @@ The first integral can be done quickly using WolframAlpha by typing in:
 
 <a href="https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29cos%28n*+pi+x%29+from+-1+to+0">WolframAlpha</a>
 
+<br>
+
 This evaluates to:
 
 $$= \frac{1 - \cos(\pi n)}{\pi^2 n^2}$$
@@ -437,10 +439,12 @@ $$
 $$
 
 The first integral can be done quickly using WolframAlpha by typing in:
-
 <br>
+"integrate (x+1)sin(n* pi x) from -1 to 0"
 
 <a href="https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29sin%28n*+pi+x%29+from+-1+to+0">WolframAlpha</a>
+
+<br>
 
 This evaluates to:
 
