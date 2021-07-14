@@ -24,19 +24,20 @@
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from interval [2.5, 4].
+Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using the bisection method from the interval [2.5, 4].
 
 <div class = "answer"> 
 These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
-
-Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the next iteration (chosen since they have the smallest difference in values in addition to having a negative product), where $\frac{a + b}{2} = c$.
+<br><br>
+Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the next iteration, where $\frac{a + b}{2} = c$. These are chosen since they have the smallest difference in values in addition to having a negative product.
+<br><br>
 
 ![figure1](15-root-finding-media/root-finding-q1.png)
 
 It is clear that the iterations are converging towards the root $x=3.$
 
 Alternative Method:\
-Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$}
+Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
 
 \begin{aligned}
 & (\mathrm{i})\quad f(x) = x^3-6x^2+11x-6\newline
@@ -83,7 +84,7 @@ The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. 
 
 <div class = "answer">
 
-The bisection method finds a root in a given interval $[0, 1]$}
+The bisection method finds a root in a given interval $[0, 1]$
 
 \begin{aligned}
 & (\mathrm{i})\quad f(x) = x^3-7x^2+14x-6\newline
@@ -93,7 +94,7 @@ The bisection method finds a root in a given interval $[0, 1]$}
 In order to find the number of iterations to the required accuracy:
 
 
-If we are told a root exists in a certain interval, then we can say that the distance from our current midpoint to the true root (i.e. the "uncertainty") must be less than or equal to half the size of the current interval. We can express this in the following equation for the initial interval $[ a,b ]$, which contains the root $\hat{c}$ and the midpoint $c_n$, where $n$ is our iteration number (\ie $c_1=\frac{a+b}{2}$).
+If we are told a root exists in a certain interval, then we can say that the distance from our current midpoint to the true root (i.e. the "uncertainty") must be less than or equal to half the size of the current interval. We can express this in the following equation for the initial interval $[ a,b ]$, which contains the root $\hat{c}$ and the midpoint $c_n$, where $n$ is our iteration number (i.e. $ \ c_1=\frac{a+b}{2}$).
 
 \begin{equation*}
 \left|\hat{c}-c_n\right|\leq\frac{\left|b-a\right|}{2^n}
@@ -106,13 +107,13 @@ $$2^n \leq \frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}$$
 $$\log_2{2^n} \leq \log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}$$
 $$n \leq \log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}$$
 
-\cbox {If we assume the worst case scenario, then the "$\leq$" becomes an "$=$", which allows us to find $N$, the maximum number of iterations required to achieve a certain bounded error.}
+If we assume the worst case scenario, then the "$\leq$" becomes an "$=$", which allows us to find $N$, the maximum number of iterations required to achieve a certain bounded error.
 \begin{equation*}
 N =\log_2{\frac{\left|b-a\right|}{\left|\hat{c}-c_n\right|}}=\log_2\frac{\epsilon_0}{\hat{\epsilon}}
 \end{equation*}
-\cbox{where $\epsilon_0$ is your initial interval and $\hat{\epsilon}$ is your desired maximum uncertainty.}
+where $\epsilon_0$ is your initial interval and $\hat{\epsilon}$ is your desired maximum uncertainty.
 
-\cbox{For this particular question, the initial interval is $[ 0,1 ]$, so $\epsilon_0=1-0=1$ and the required accuracy is $10^{-2}$ , which means the maximum number of require iterations is $N=\log_2{\frac{1}{10^{-2}}}=6.64...\approx7$}
+For this particular question, the initial interval is $[ 0,1 ]$, so $\epsilon_0=1-0=1$ and the required accuracy is $10^{-2}$ , which means the maximum number of require iterations is $N=\log_2{\frac{1}{10^{-2}}}=6.64...\approx7$
 
 The number of iterations N needed in the bisection method to obtain an accuracy of $\epsilon$ is given by:
 
@@ -125,7 +126,9 @@ N\geq\frac{\log(1-0)-\log(10^{-2})}{\log2}\geq\frac{\log(1)+2}{\log2}\geq6.64
 \end{equation*}
 
 Thus, a minimum of 7 iterations will be needed to obtain the desired accuracy using the
-bisection method. Let $a_0=0,b_0=1$ with $f(a_0)<0$, $f(b_0)>0$.
+bisection method. 
+
+Let $a_0=0,b_0=1$ with $f(a_0)<0$, $f(b_0)>0$.
 
 Follow the same iteration process as in problem 1 to find the root to the required accuracy.
 
