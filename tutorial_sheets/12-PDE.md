@@ -34,12 +34,25 @@ For those that are not, can you come up with a differential equation involving t
 
 (a) $e^{-y} \sin x $
 <div class = "answer">
-Yes, $\nabla^2 f(\mathbf{x}) = 0$
+Yes, $\nabla^2 f(\mathbf{x}) = 0$ <br>
+
+
+$\Rightarrow{}\quad$ The Laplacian operator is defined as: <br>
+
+$\Rightarrow{}\nabla^2= \frac{\partial^2 } {\partial x^2}+  \frac{\partial^2} {\partial y^2} + \frac{\partial^2} {\partial z^2}$<br>
+
+$\Rightarrow{}\nabla^2 f(\mathbf{x}) =  \frac{\partial^2 }{\partial x^2}{e^{-y} \sin x} +  \frac{\partial^2}{\partial y^2}{e^{-y} \sin x}$<br>
+
+$\Rightarrow{} =  \frac{\partial }{\partial x}{e^{-y} \cos x} -  \frac{\partial}{\partial y}{e^{-y} \sin x}$<br>
+
+$\Rightarrow{} = {e^{-y} \sin x - e^{-y} \sin x} = 0$<br>
+
+NB This is an example for this kind problem in case you get confused by these short answers :) <br>
 </div>
 
 (b) $\sin\left(\frac{x+y}{2}\right)\sin\left(\frac{x-y}{2}\right)$
 <div class = "answer">
-No, but e.g. $\nabla^2 f(\mathbf{x}) + f = 0$
+No, but $\nabla^2 f(\mathbf{x}) + f = 0$
 </div>
 
 (c) $f(x + i y)$
@@ -54,7 +67,7 @@ Yes, $\nabla^2 f(\mathbf{x}) = 0$
 
 (e) $\frac{x+y}{z}$
 <div class = "answer">
-No, but e.g. $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
+No, but $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -94,6 +107,46 @@ $$
 ## Challenging Questions
 ### Problem 3.
 
+Prove for the 1D diffusion equation,
+$\frac{ \partial f(x,t)}{ \partial t} = \alpha \frac{ \partial^2 f(x,t)}{\partial x^2}$,
+that the total area under the curve $f(x,t)$ does not change over time.
+(You may assume that $\frac{ \partial f(x,t)}{ \partial x} \rightarrow 0$ for $x \rightarrow \pm\infty$).
+
+<div class = "answer">
+The area under the curve is calculated by integrating $f(x,t)$ over all x.
+Integrating both sides of the PDE,
+
+
+$$
+\int_{-\infty}^{\infty} \mathrm{d}x \; \frac{ \partial {f(x,t)}}{ \partial t} = \int_{-\infty}^{\infty} \mathrm{d}x \; \alpha \frac{\partial f(x,t)}{\partial x}
+$$
+
+$\Rightarrow{}$ We can swap the order of differentiation and integration on the LHS and directly integrate the expression on the RHS,
+
+$$
+\frac{\partial}{\partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) =
+\alpha \left.\frac{ \partial f(x,t)}{ \partial x}\right| _ {x\rightarrow \infty} - \left.\alpha \frac{ \partial f(x,t)}{ \partial x}\right|_{x\rightarrow -\infty}
+$$
+
+$\Rightarrow{}$ The x derivatives go to zero at infinity
+
+$$
+\boxed{ \frac{\partial}{ \partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) = 0 }
+$$
+
+$\Rightarrow{}$ Therefore the area under the concentration curve does not change in time.
+
+The area will be proportional to the numbers of ions or molecules etc. the total number of these will stay the same as they diffuse within the space.
+The area taken over a region of the space will be proportional to the number of particles in that region.
+</div>
+
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------
+
+### Problem 4.
+
 Solve the 3D wave equation by separation of variables to show,
 $u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
 is a solution. With $\mathbf{k} = (k_x, k_y, k_z)^T$
@@ -103,7 +156,7 @@ $$
 $$
 
 <div class = "answer">
-<b>NB:</b>   Coordinate vector $\mathbf{x} = (x,y,z)$ and, $u(\mathbf{x}) = (u(x),v(x),w(x))^T$ is a vector field. (Don’t forget the AT notation allows us to write a column vector as a transposed row vector, to save space!) <br><br>
+<b>NB:</b>   Coordinate vector $\mathbf{x} = (x,y,z)$ and, $u(\mathbf{x}) = (u(x),v(x),w(x))^T$ is a vector field.  <br><br>
     
 $\Rightarrow{}$ Start with a separation of variables solution, let $u(\mathbf{x}, t) = X(x)Y(y)Z(z)T(t)$.
 then,
@@ -171,42 +224,6 @@ $$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------
-
-### Problem 4.
-
-Prove for the 1D diffusion equation,
-$\frac{ \partial f(x,t)}{ \partial t} = \alpha \frac{ \partial^2 f(x,t)}{\partial x^2}$,
-that the total area under the curve $f(x,t)$ does not change over time.
-(You may assume that $\frac{ \partial f(x,t)}{ \partial x} \rightarrow 0$ for $x \rightarrow \pm\infty$).
-
-<div class = "answer">
-The area under the curve is calculated by integrating $f(x,t)$ over all x.
-Integrating both sides of the PDE,
-
-$$
-\int_{-\infty}^{\infty} \mathrm{d}x \; \frac{ \partial {f(x,t)}}{ \partial t} = \int_{-\infty}^{\infty} \mathrm{d}x \; \alpha \frac{\partial f(x,t)}{\partial x}
-$$
-
-$\Rightarrow{}$ We can swap the order of differentiation and integration on the LHS and directly integrate the expression on the RHS,
-
-$$
-\frac{\partial}{\partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) =
-\alpha \left.\frac{ \partial f(x,t)}{ \partial x}\right| _ {x\rightarrow \infty} - \left.\alpha \frac{ \partial f(x,t)}{ \partial x}\right|_{x\rightarrow -\infty}
-$$
-
-$\Rightarrow{}$ The x derivatives go to zero at infinity
-
-$$
-\boxed{ \frac{\partial}{ \partial t} \int_{-\infty}^{\infty} \mathrm{d}x \; f(x,t) = 0 }
-$$
-
-$\Rightarrow{}$ Therefore the area under the concentration curve does not change in time.
-
-The area will be proportional to numbers of ions or molecules etc. the total number of these will stay the same as they diffuse within the space.
-The area taken over a region of the space will be proportional to the number of particles in that region.
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
