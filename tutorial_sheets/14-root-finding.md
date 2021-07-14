@@ -154,6 +154,10 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \hline
 \end{align*}
 
+Alternatively, we can use the same method as in problem 1 and use a table to find the root.
+
+![figure2](15-root-finding-media/root-finding-q2.png)
+
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
