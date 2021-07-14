@@ -529,6 +529,8 @@ This function can already directly be represented in terms of a sum of sine comp
 
 To compute terms manually, using the definition of the Fourier series:
 
+<br>
+
 Note that $f(x)=\sin\left(x\right)\cos^2\left(x\right)$ is odd on the interval $\left[ -1,1\right ]$. Therefore, the Fourier series representation will only contain sine $b_n$ terms.
 
 $$
@@ -537,7 +539,7 @@ b_n=\frac{1}{\pi{}}\int_{-\pi{}}^{\pi{}}f(x)\sin{\left(\frac{n\pi{}x}{\pi{}}\rig
 {\cos}^2\left(x\right)\sin{\left(nx\right)}dx\
 $$
 
-Substituting $\quad \sin(2x)=2\sin(x)\cos(x)$,
+Substituting $ \ \sin(2x)=2\sin(x)\cos(x)$,
 
 $$
 b_n=\frac{1}{\pi{}}\int_0^{\pi{}}\cos{\left(x\right)}\sin{(2x)}\sin{\left(nx\right)}\ dx
@@ -559,7 +561,10 @@ $$
 dx-\frac{1}{2\pi{}}\int_0^{\pi{}}\cos(x)\cos((n+2)x)\ dx
 $$
 
-Using the cosine product to sum identity;
+Using the cosine product to sum identity,
+
+<br>
+
 For the first integral on the right
 
 $$
@@ -571,12 +576,17 @@ $$
 =\frac{1}{4\pi{}}\
 \left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]_0^\pi=0
 $$
-
 Provided $n\not=1,3$. 
+
+<br>
 
 Similarly, the second integral is also zero. 
 
+<br>
+
 Note: because the integral is undefined for certain values of $n$, we need to find what happens at these values ($n=1$ and $n=3$).
+
+<br>
 
 At $n=1$:
 
@@ -605,8 +615,7 @@ $$
 \left[ \frac{1}{8}(4x-\sin(4x))\right]_0^\pi=\frac{4\pi}{16\pi}=\frac{1}{4}
 $$
 <br>
-
-Note: to simply the initial equation you use $\quad \sin(x)\cos(x) = \frac{1}{2}\sin(2x)$
+Note: to simply the initial equation you use $ \ \sin(x)\cos(x) = \frac{1}{2}\sin(2x)$
 
 <br>
 
@@ -654,6 +663,8 @@ f\left(x\right)\approx b_1\sin(x)+b_3\sin(3x)\approx \frac{1}{4}\sin(x)+\frac{1}
 }$$
 
 Note: this could have been solved using WolframAlpha as well rather than by hand. You will not be required to solve it by hand in an exam.
+
+<br>
 
 <iframe src="https://www.desmos.com/calculator/qtufiqgvrl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
