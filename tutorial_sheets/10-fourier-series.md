@@ -265,14 +265,14 @@ For the following functions
 (a) $f\left(x\right)=x^3,\ \ \ \text{for}\ \left[ -1,1\right] \ $ with n = 5
 
 <div class = "answer">
-The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or both. This can be done by eye for a simple function like $x^3$. To check, or for harder functions,  you could graph it on Desmos to have a visual representation of the function, or use the formulae found in the notes:
+The first step is to work out whether the function $f\left(x\right)=x^3$ is odd, even, or neither. This can be done by eye for a simple function like $x^3$. To check, or for harder functions,  you could graph it on Desmos to have a visual representation of the function, or use the formulae found in the notes:
 
 $$
 f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2} \qquad \qquad
 f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
 $$
 
-The function $f\left(x\right)=x^3$ is odd, so the Fourier series representation will only contain sine terms.
+The function $f\left(x\right)=x^3$ is odd, so the Fourier series representation will only contain sine terms and all $a_n = 0$.
 
 The sine coefficients can be found using:
 
