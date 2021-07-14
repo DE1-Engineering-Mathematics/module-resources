@@ -398,13 +398,75 @@ The sequence is clearly converging to the root $x\approx 0.74$
 </div>
 
 ### Problem 8.
-The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Fill in the blanks and use the code to find the root (use start point of 1).
+The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Copy the code into Matlab and fill in the code hidden by '*' so that the code works. Use it to find the root (use start point of 1).
 
-![figure3](15-root-finding-media/root-finding-q8-code.png)
+```matlab:Code
+
+function Newton_Raphson_Method
+%Implementation of Newton-Raphson method to determine a solution.
+
+i = 1;
+**********            %initial conditions (start point)
+N = 5;                %maximum number of iterations
+error = 0.01;         %precision required
+
+syms 'x'
+f(x) = **********             %function we are solving
+df = diff(f);                 %differential of f(x)
+
+while i <= N
+**********                    %Newton-Raphson equation 
+    
+    if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
+        fprintf('Solution is %f \n', double(p))
+        return
+    end
+ 
+    i = i + 1;
+    p0 = p;         %update p0
+end
+
+fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
+
+end
+
+```
 
 <div class = "answer">
 
-![figure4](15-root-finding-media/root-finding-q8-code-answer.png)
+```matlab: Code
+
+function Newton_Raphson_Method
+%Implementation of Newton-Raphson method to determine a solution.
+
+i = 1;
+p0 = 1;               %initial conditions (start point)
+N = 5;                %maximum number of iterations
+error = 0.01;         %precision required
+
+syms 'x'
+f(x) = (1/x) + 4 -x.^2 ;      %function we are solving
+df = diff(f);                 %differential of f(x)
+
+while i <= N
+    p = p0 - (f(p0)/df(p0));  %Newton-Raphson equation 
+    
+    if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
+        fprintf('Solution is %f \n', double(p))
+        return
+    end
+ 
+    i = i + 1;
+    p0 = p;           %update p0
+end
+
+fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
+
+end
+
+```
+
+![figure3](15-root-finding-media/root-finding-q8-code-answer.png)
 The root found was $x=2.11$ (2dp)
 
 See if you can write the code yourself for the other root finding methods!
