@@ -760,7 +760,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 }$$
 
 <br>
-Note: as in the example above, when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
+Note: as in problem 5 d), when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
 <br>
 
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -785,7 +785,9 @@ For a function to be even $f(-x)=f(x)$:
 <br>
 $$ \ f(-x) = 10 e^{2(-x)^8} - 8  = 10 e^{2x^8} - 8 = f(x)\ $$
 <br>
-Note: the function could also be sketched to determine whether its odd or even. You could also get WolframAlpha to tell you whether it is odd, even or neither by typing "Parity of 10e^(2x^8)-8" [Link.](https://www.wolframalpha.com/input/?i=parity+of+10e%5E%282x%5E8%29+-+8)
+Note: the function could also be sketched to determine whether its odd or even. You could also get WolframAlpha to tell you whether it is odd, even or neither by typing "Parity of 10e^(2x^8)-8"
+<a href="https://www.wolframalpha.com/input/?i=parity+of+10e%5E%282x%5E8%29+-+8">WolframAlpha</a>
+
 <iframe src="https://www.desmos.com/calculator/amhmuk0znf" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
@@ -831,9 +833,6 @@ Finally the fourier expansions $ \ \boxed{b_1 = \frac{- 20}{\pi} \sin \left(\fra
 <br>
 
 <iframe src="https://www.desmos.com/calculator/8gnc2tmdjt" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
-</div>
-
-
 </div>
 
 (d) Where would you expect Gibb's ringing to occur as the series was expanded?
