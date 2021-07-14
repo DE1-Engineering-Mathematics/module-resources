@@ -416,11 +416,11 @@ N = 5;                %maximum number of iterations
 error = 0.01;         %precision required
 
 syms 'x'
-f(x) = **********             %function we are solving
-df = diff(f);                 %differential of f(x)
+f(x) = **********     %function we are solving
+df = diff(f);         %differential of f(x)
 
 while i <= N
-**********                    %Newton-Raphson equation 
+**********            %Newton-Raphson equation 
     
     if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
         fprintf('Solution is %f \n', double(p))
@@ -428,7 +428,7 @@ while i <= N
     end
  
     i = i + 1;
-    p0 = p;         %update p0
+    p0 = p;            %update p0
 end
 
 fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
@@ -445,16 +445,16 @@ function Newton_Raphson_Method
 %Implementation of Newton-Raphson method to determine a solution.
 
 i = 1;
-p0 = 1;               %initial conditions (start point)
-N = 5;                %maximum number of iterations
-error = 0.01;         %precision required
+p0 = 1;                      %initial conditions (start point)
+N = 5;                       %maximum number of iterations
+error = 0.01;                %precision required
 
 syms 'x'
-f(x) = (1/x) + 4 -x.^2 ;      %function we are solving
-df = diff(f);                 %differential of f(x)
+f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
+df = diff(f);                %differential of f(x)
 
 while i <= N
-    p = p0 - (f(p0)/df(p0));  %Newton-Raphson equation 
+    p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
     
     if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
         fprintf('Solution is %f \n', double(p))
@@ -462,7 +462,7 @@ while i <= N
     end
  
     i = i + 1;
-    p0 = p;           %update p0
+    p0 = p;                   %update p0
 end
 
 fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
