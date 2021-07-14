@@ -29,7 +29,7 @@ Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using bisection method from in
 <div class = "answer"> 
 These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
 
-Using a table, the highlighted cells show the $a$ and $b$ values used for the next iteration (chosen since they have the smallest difference in values in addition to having a negative product), where $\frac{a + b}{2} = c$.
+Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the next iteration (chosen since they have the smallest difference in values in addition to having a negative product), where $\frac{a + b}{2} = c$.
 
 ![figure1](15-root-finding-media/root-finding-q1.png)
 
