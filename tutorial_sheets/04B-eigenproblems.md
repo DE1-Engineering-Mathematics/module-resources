@@ -409,42 +409,7 @@ $\color{teal}{\lambda = 1.5, \lambda = 2}$</div>
 
 ## Challenging Questions
 ### Problem 8.
-For all the following transformation matrices $(A)$ , find the characteristic polynomial and the eigenvalues.
 
-(a)$ A = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix}$
-<div class = "answer">$\text{det}(A - \lambda I) = 0 $ <br>
-$(A - \lambda I) = \begin{pmatrix}1&0\\\ 0&-3\end{pmatrix} - \begin{pmatrix}
-\lambda & 0 \\ 0 & \lambda \end{pmatrix} = \begin{pmatrix} 1-\lambda & 0\\ 0& -3-\lambda 	
-\end{pmatrix}$ <br>
-$\text{det} (A - \lambda I) = (1 - \lambda)(-3 - \lambda)$ <br>
-Characteristic polynomial: $ \boxed{\lambda^2 + 2\lambda - 3 }$ <br>
-Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -3}$</div>
-
-(b) $ A = \begin{pmatrix}-1&0\\\ 0&1\end{pmatrix}$
-<div class = "answer">
-$\det (A - \lambda I) = 0 $ <br>
-$(A - \lambda I) = \begin{pmatrix}-1&0\\0&1\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
-\begin{pmatrix}-1-\lambda & 0\\ 0& 1-\lambda\end{pmatrix}$ <br>
-$\det (A - \lambda I) = (-1 - \lambda)(1- \lambda)$ <br>
-Characteristic polynomial: $\boxed{\lambda^2 - 1 }$ <br>
-Eigenvalues: $\boxed{\lambda_1 = 1, \lambda_2 = -1}$</div>
-
-(c) $ A = \begin{pmatrix}-2&0\\\ 0&-3/2\end{pmatrix}$
-<div class = "answer">
-$\text{det} (A - \lambda I) = 0 $ <br>
-$(A - \lambda I) = \begin{pmatrix}-2&0\\0&-3/2\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
-\begin{pmatrix}-2-\lambda & 0\\ 0& -3/2-\lambda\end{pmatrix}$ <br>
-$\text{det} (A - \lambda I) = (-2 - \lambda)(-3/2- \lambda)$ <br>
-Characteristic polynomial: $\boxed{\lambda^2 + 7/2\lambda + 3}$ <br>
-Eigenvalues: $\boxed{\lambda_1 = -3/2, \lambda_2 = -2}$</div>
-
-(d) $ A = \begin{pmatrix}-2&0\\\ 0&-4\end{pmatrix}$
-<div class = "answer">\quad$\det (A - \lambda I) = 0 $ <br>
-$(A - \lambda I) = \begin{pmatrix}-2&0\\0&-4\end{pmatrix} - \begin{pmatrix}\lambda & 0 \\ 0 & \lambda\end{pmatrix} =
-\begin{pmatrix}-2-\lambda & 0\\ 0& -4-\lambda\end{pmatrix}$ <br>
-$\det (A - \lambda I) = (-2 - \lambda)(-4- \lambda)$ <br>
-Characteristic polynomial: $\boxed{\lambda^2 + 6\lambda + 8}$ <br>
-Eigenvalues: $\boxed{\lambda_1 = -4, \lambda_2 = -2}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
