@@ -292,7 +292,9 @@ $$
 
 This can be integrated quickly using WolframAlpha by typing in: 
 
-"integrate x^3 sin(n pi x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1) 
+"integrate x^3 sin(n pi x) between -1 and 1" [Link.](https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1)
+
+<a href="https://www.wolframalpha.com/input/?i=integrate+x%5E3+sin%28n*pi*x%29+between+-1+and+1">WolframAlpha</a>
 
 This results in: 
 
