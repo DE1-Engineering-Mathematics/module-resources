@@ -34,7 +34,7 @@ Using a table, the highlighted cells (red = negative, green = positive) show the
 
 ![figure1](15-root-finding-media/root-finding-q1.png)
 
-It is clear that the iterations are converging towards the root $x=3.$
+It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
 Alternative Method:\
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
@@ -74,7 +74,7 @@ Iteration 4 $(k = 3)$:
     c_3=\frac{a_3+b_3}{2}=\frac{2.875+3.0625}{2}=2.9688
 \end{equation*}
 
-It is clear that the iterations are converging towards the root $x=3.$
+It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -138,6 +138,7 @@ Follow the same iteration process as in problem 1 to find the root to the requir
 \end{aligned}
 
 Therefore, $a_1=p_0=0.5$,$b_1=b_0=1$ and repeat the iteration: $p_1=0.75$,...
+
 This yields the following results for $p_n$ and $f(p_n)$:
 
 \begin{align*}
@@ -153,7 +154,7 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \hline
 \end{align*}
 
-Therefore, the root is 0.59 to 2dp.
+Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -166,7 +167,7 @@ f(x)=x^3-3x-4 \ \ \therefore \ \ f'(x)=3x^2-3
 $$
 
 $$
-x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}, \ \ \therefore \ \ x_{n+1}=x_n-\frac{x^3-3x-4}{3x^2-3}
+x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)} \ \ \therefore \ \ x_{n+1}=x_n-\frac{x^3-3x-4}{3x^2-3}
 $$
 
 When deciding which points to start with, its important to remember your curve sketching. If functions have turning points or asymptotes, they tend to be quite close to the origin, unless some of the coefficients in the function are very large (e.g. $y=1346x^2-14356x+579$). This suggests that it may often be sensible to start well away from potential "features" of the curve. Let's test some "classic"  points:
@@ -177,13 +178,15 @@ When deciding which points to start with, its important to remember your curve s
 \mathrm{If}\quad x_0&=+1\quad\mathrm{then}\quad x_1=ERROR
 \end{align*}
 
-What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... to understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
+What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... To understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
 
 Link to Wolfram Alpha:
 https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0
 
 
-The root is 2.195823345 correct to 9dp.
+The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
+
+Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
