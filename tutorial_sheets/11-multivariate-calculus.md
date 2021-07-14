@@ -498,7 +498,7 @@ $$
 If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
 
 <div class = "answer">
-Note that by regular differentiation:}
+Note that by regular differentiation:
 $$
 f'_x(x,y)=\frac{3x^2}{3(x^3+y^2)^{2/3}}
 $$
