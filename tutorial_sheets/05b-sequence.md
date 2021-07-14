@@ -88,6 +88,8 @@ $ \Rightarrow a_3=\frac{5!}{2!(5-2)!} - \frac{5!}{3!(5-3)!}=\frac{120}{2\cdot 6}
 \\ \\ \Rightarrow a_9=\frac{11!}{2!(11-2)!}-\frac{11!}{3!(11-3)!}= 55-165=\boxed{-110}$</div>
 
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
@@ -123,6 +125,7 @@ $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1
 = \frac{n}{4}(n(n+1)^2 + 2(n+1)(2n+1) + 6(n+1) + 4) \\ \\
 = \frac{n}{4}(n^3 + 2n^2 + n + 4n^2 + 6n + 2 + 6n + 6 + 4) \\ \\
 = \boxed{\frac{n}{4}(n^3 + 6n^2 + 13n + 12)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -138,10 +141,14 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
+
 <div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
 $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
 = 5\frac{1+\frac{\left(-1\right)^{n+1}}{2^n}}{\frac{3}{2}} \\
 \Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{\left(-1\right)^{n+1}}{2^n}\right\}\ }$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 -----------------------------------------------------------------------------------
 
@@ -156,6 +163,7 @@ $\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\
 (b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ \text{as}\ x\rightarrow{}\infty{}$
 <div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$. Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -296,6 +304,9 @@ $$
 </div>
 
 
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 -----------------------------------------------------------------------------------
 
 ### Problem 9.
@@ -428,6 +439,7 @@ $$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\
 
 The function will always converge no matter what the value of $X$ is.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -465,6 +477,7 @@ $\text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \fr
 
 (b) Which option offers the best return after 40 years?
 <div class = "answer">
+
 We use the same method as in part (a) but replacing the year 4 with 40.
 <br>
 
@@ -507,6 +520,7 @@ $\frac{N(N+1)}{2} = 1.0003^N - 1
 $\Rightarrow$ The days of investment after which it would be more profitable to have adopted the other strategy.
 $\\$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -552,6 +566,10 @@ $\Rightarrow\boxed{46}$
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

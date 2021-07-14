@@ -75,6 +75,7 @@ $\boxed{\text{Period} =2\pi \quad f(x)=\left\{
 <div class = "answer">
 $\boxed{\text{Period} = 2\pi \qquad f(x)=x^2, \text{ for } -\pi < x < \pi}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -184,6 +185,7 @@ $\Rightarrow{} \text{Period} = 2$
     });
 </script>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -216,6 +218,7 @@ Not periodic: Multiplying a periodic function, $\text{sin}^2(x)$, with a non per
 
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -785,7 +788,11 @@ Finally the fourier expansions $ \ \boxed{b_1 = \frac{- 20}{\pi} \sin \left(\fra
 (d) Where would you expect Gibb's ringing to occur as the series was expanded?
 
 <div class = "answer">
+
 You would expect Gibbs ringing to occur at $2 n \pi$, where $n \in \mathbb{Z} $ .</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 ----------------------
 ## Challenging Questions
@@ -892,6 +899,7 @@ $$
 
 In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\left(3-4i\right)i=4+3i$ in finding the coefficients in front of the $\sin{(2x)}$ term.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 ### Problem 8.
@@ -931,13 +939,19 @@ $$
 
 </div>
 
+
 <br>
+
 
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<br><br>
+### For Printing
+<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
