@@ -368,7 +368,9 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 with n = 2
 
 <div class = "answer">
-This function has both odd and even parts, so both $a_n$ and $b_n$ must be found. 
+This function has both odd and even parts, so both $a_n$ and $b_n$ must be found.
+
+<br>
 
 (1) First find $a_0$ by subbing in $n = 0$:
 
@@ -384,7 +386,6 @@ $$ \therefore \boxed{\frac{a_0}{2} = \frac{\frac{3}{2}}{2} = \frac{3}{4}} $$
 
 \begin{align*}
 a_n&=\frac{1}{L} \int_{-L}^{L}f(x)\cos\left(\frac{n\pi x}{L}\right) dx
-\newline
 &=
 \int_{-1}^{0}(x+1)\cos\left(n\pi x\right) dx + \int_{0}^{1}\cos\left(n\pi x\right) dx
 \end{align*}
@@ -397,7 +398,11 @@ $$
 
 The first integral can be done quickly using WolframAlpha by typing in:
 
-"integrate (x+1)cos(n* pi x) from -1 to 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29cos%28n*+pi+x%29+from+-1+to+0)
+<br>
+
+"integrate (x+1)cos(n* pi x) from -1 to 0" 
+
+<a href="https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29cos%28n*+pi+x%29+from+-1+to+0">WolframAlpha</a>
 
 This evaluates to:
 
@@ -420,7 +425,7 @@ $$\therefore \boxed{a_n = \frac{1 - \cos(\pi n)}{\pi^2 n^2} + 0 =  \frac{1 - (-1
 (3) Similarly, we can find $b_n$:
 
 \begin{align*}
-b_n &= \int_{-1}^1f\left(x\right)\sin{(n\pi x)\
+b_n &= \int_{-L}^Lf\left(x\right)\sin{(n\pi x)\
 dx=}\int_{-1}^0\left(x+1\right)\sin{(n\pi x)\ dx+}\int_0^1\sin{(n\pi x)\ dx\ }
 \newline \newline
 \end{align*}
@@ -433,7 +438,9 @@ $$
 
 The first integral can be done quickly using WolframAlpha by typing in:
 
-"integrate (x+1)sin(n* pi x) from -1 to 0" [Link.](https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29sin%28n*+pi+x%29+from+-1+to+0)
+<br>
+
+<a href="https://www.wolframalpha.com/input/?i=integrate+%28x%2B1%29sin%28n*+pi+x%29+from+-1+to+0">WolframAlpha</a>
 
 This evaluates to:
 
