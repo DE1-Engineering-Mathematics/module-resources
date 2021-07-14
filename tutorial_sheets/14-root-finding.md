@@ -262,7 +262,31 @@ You stop iterating if $f(x_n)$ is close enough to 0.
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
 
-Alternatively this could be solved using code (e.g. Matlab).
+Alternatively this could be solved using code (e.g. Matlab). An example of the Matlab script is given below (it requires user input rather than editing the script, but you could do it either way).
+
+```matlab:Code
+% Secant Method Example Code in MATLAB
+ 
+a=input('Enter function:','s');                %Prompts you to type in equation
+f=inline(a)
+ 
+x(1)=input('Enter first point of guess interval: ');    %Prompts you to enter 2 points (x-values)
+x(2)=input('Enter second point of guess interval: ');
+n=input('Enter allowed Error in calculation: ');        %Prompts you to enter the allowed error
+iteration=0;
+ 
+for i=3:1000
+   x(i) = x(i-1) - (f(x(i-1)))*((x(i-1) - x(i-2))/(f(x(i-1)) - f(x(i-2)))); %Secant Equation
+    iteration=iteration+1;
+    if abs((x(i)-x(i-1))/x(i))*100<n
+        root=x(i)
+        iteration=iteration
+        break
+    end
+end
+```
+The root found by these start points will then be returned. (for this question $\boxed{x = -0.1038}$ to 4 dp.)
+
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
