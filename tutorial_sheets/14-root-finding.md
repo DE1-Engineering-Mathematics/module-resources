@@ -243,7 +243,7 @@ $$
 x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}
 $$
 
-(This iterative equation finds the root of the line constructed between the two points- gets closer to the root with each iteration)
+This iterative equation finds the root of the line constructed between the two points - it gets closer to the root with each iteration.
 
 By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
