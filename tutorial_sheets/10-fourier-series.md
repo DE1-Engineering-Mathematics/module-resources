@@ -463,11 +463,11 @@ $$ \boxed{ f\left(x\right) =
 +\frac{1}{\pi{}}\sum_{n=1}^{\infty{}}\frac{ {\left(-1\right)}^{n+1}}{n} \sin⁡(n\pi{}x)
 }$$
 
-<br><br>
+<br>
 
 Note: this solution includes a mixture of manual working out and WolframAlpha. In an exam, you won't be required to do any of the manual working out as you can just use WolframAlpha!
 
-<br>
+<br><br>
 
 <iframe src="https://www.desmos.com/calculator/6lglrfcrfl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
