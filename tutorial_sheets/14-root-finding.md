@@ -236,9 +236,14 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 <div class = "answer">
 Using the Secant Formula:
+
 $$
 x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}
 $$
+
+(This iterative equation finds the root of the line constructed between the two points- gets closer to the root with each iteration)
+
+By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
 \begin{align*}
 & n&    &{x_n}&       f&(x_n)&\newline
@@ -323,9 +328,11 @@ $\therefore$ the root is $\boxed{x=0.8654}$ to 4 dp.
 (b) the Secant method.
 
 <div class = "answer">
-The Secant method: 
+Using the Secant Formula:
 
-$$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}$$    
+$$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}$$   
+
+By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
 \begin{align*}
 & n&    &{x_n}&       f&(x_n)& \newline
@@ -337,6 +344,8 @@ $$x_{n}=\frac{x_{n-2}f(x_{n-1})-x_{n-1}f(x_{n-2})}{f(x_{n-1})-f(x_{n-2})}$$
 & 4&    0.8687& &-0.0097&  \newline
 & 5&    0.8654&	&0.0002&  \newline
 \end{align*}
+
+You stop iterating if $f(x_n)$ is close enough to 0.
 
 $\therefore$ the root of the equation is $\boxed{x=0.8654}$ to 4 dp.
 </div>
