@@ -383,7 +383,6 @@ v(x, y) = \cos(x + 5 y)$
 
 <div class = "answer">
 $\Rightarrow$ Direct substitution:
-
 $f(x, y) = 1 + 2 \sin(x + 5 y) \cos(x + 5 y)$
 
 
@@ -419,7 +418,6 @@ $
 
 <div class = "answer">
 $\Rightarrow{}$ Direct substitution:
-
 $f(x, y) = \frac{\arctan(\sqrt{x y})}{1 + (x \ln(3 y))^2}$
 
 $$
