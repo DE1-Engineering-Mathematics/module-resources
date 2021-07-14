@@ -452,8 +452,7 @@ $$= \frac{\sin(\pi n) - \pi n}{\pi^2 n^2}$$
 It can also be done manually using integration by parts in a similar way to which $b_n$ was found.
 <br><br>
 
-$$\therefore \boxed{b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}}
-$$
+$$\therefore \boxed{b_n = \frac{\sin(\pi n) - \pi n}{\pi^2 n^2} - \frac{1}{\pi{} n}\left(\cos{\left(\pi n \right)}- 1\right) = \frac{- 1}{\pi n} - \frac{\left((-1)^n- 1\right)}{\pi{} n} = \frac{- (-1)^n}{\pi n} = \frac{(-1)^{n+1}}{\pi n}}$$
 
 Thus,
 
@@ -467,7 +466,7 @@ $$ \boxed{ f\left(x\right) =
 
 Note: this solution includes a mixture of manual working out and WolframAlpha. In an exam, you won't be required to do any of the manual working out as you can just use WolframAlpha!
 
-<br><br>
+<br>
 
 <iframe src="https://www.desmos.com/calculator/6lglrfcrfl" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
@@ -700,7 +699,7 @@ $b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0"
 
 <br>
 
-To compute manually:
+To compute manually,
 
 <br>
 
