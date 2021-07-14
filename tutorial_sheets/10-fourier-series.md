@@ -488,6 +488,7 @@ $$
 
 Note: we are ignoring what happens when the function is at $0$, because integrating $0$ is just $0$.
 
+<br>
 
 Moving onto the $a_n$ terms:
 
@@ -498,10 +499,14 @@ a_n &= \frac{1}{L}\int_{-L}^Lf\left(x\right)\cos{\left(\frac{n\pi{}x}{2}\right)}
 \frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)}.
 \end{align*}
 
-Note: this can be found easily using WolframAlpha by typing in "integrate 1/2 cos((n pi x)/2) between -1 and 1". [Link.](https://www.wolframalpha.com/input/?i=integrate+1%2F2+cos%28%28n+pi+x%29%2F2%29+between+-1+and+1)
+Note: this can be found easily using WolframAlpha by typing in "integrate 1/2 cos((n pi x)/2) between -1 and 1". 
 
-Thus,
+<a href="https://www.wolframalpha.com/input/?i=integrate+1%2F2+cos%28%28n+pi+x%29%2F2%29+between+-1+and+1">WolframAlpha</a>
+
+<br>
+
 $$
+\therefore
 \boxed{f(x) = 
 \frac{1}{2}+\sum_{n=0}^{\infty{}}\frac{2}{n\pi{}}\sin{\left(\frac{\pi{}}{2}n\right)} \cdot \cos\left(\frac{\pi}{2}nx\right)}
 $$
