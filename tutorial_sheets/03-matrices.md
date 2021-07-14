@@ -367,7 +367,7 @@ $\Rightarrow{}\ \ (\mu\nu^3-\nu\mu^3) - (\lambda\nu^3-\nu\lambda^3) + (\lambda\m
 $\Rightarrow{}\ \ \boxed{\nu^3(\mu-\lambda)+\mu^3(\lambda-\nu)+\lambda^3(\nu-\mu)} \Rightarrow{}\ \boxed{\text{singularity is dependant on variables}}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(d) $\begin{vmatrix}4&9&12&52&84 \newline 2&28&30&56&7 \newline 2&5&8&92&34 \newline 14&2&37&56&9 \newline 12&35&82&2&68 \end{vmatrix}$
+(d) $\begin{vmatrix}4&9&12&52&84 \newline 2&28&30&28&7 \newline 2&5&8&92&34 \newline 14&2&37&56&9 \newline 12&35&82&2&28 \end{vmatrix}$
 <div class = "answer">$\Rightarrow{}\ \ \boxed{-48100996} \Rightarrow{}\ \boxed{\text{non-singular}}$<br>
 It is only reasonable to solve this using a tool such as the Matlab terminal:
 <div>
@@ -443,7 +443,7 @@ adjoint(a)
 inv(a)
 
 b = inv(a)
-a * b     %should equal 0
+a * b     %should equal the identity matrix
 ```
 
 </div>
@@ -636,6 +636,8 @@ $\quad\Rightarrow{} \quad \textbf{A} =  \begin{bmatrix}
     \end{bmatrix}$ <br>
 $\quad\Rightarrow{}\quad {-x}={-18} \quad\Rightarrow{}\quad \boxed{x = 18}$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
