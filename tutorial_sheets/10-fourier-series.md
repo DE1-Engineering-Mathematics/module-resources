@@ -576,7 +576,8 @@ $$
 =\frac{1}{4\pi{}}\
 \left[ \frac{\sin{(n-1)x}}{n-1}+\frac{\sin{(n-3)x}}{n-3}\right]_0^\pi=0
 \text{Provided} n\not=1,3
-$$. 
+$$
+ 
 
 <br>
 
@@ -682,13 +683,26 @@ The function is neither odd nor even therefore it requires both sine and cosine 
 
 The expressions for the terms can be found quickly using Wolfram Alpha: 
 
-$a_0 = $ "integrate 1/2 * sin(pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29+from+-2+to+0)<br> 
-$a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=+integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29cos%28n*+pi+*+x+%2F+2%29+from+-2+to+0)<br>
-$b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" [Link](https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29sin%28n*+pi+*+x+%2F+2%29+from+-2+to+0)<br>
+<br>
+
+$a_0 = $ "integrate 1/2 * sin(pi * x / 2) from -2 to 0"
+<a href="https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29+from+-2+to+0">WolframAlpha</a>
+<br> 
+
+$a_n = $ "integrate 1/2 * sin(pi * x / 2)cos(n* pi * x / 2) from -2 to 0"
+
+<a href="https://www.wolframalpha.com/input/?i=+integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29cos%28n*+pi+*+x+%2F+2%29+from+-2+to+0">WolframAlpha</a>
+<br>
+
+$b_n = $ "integrate 1/2 * sin(pi * x / 2)sin(n* pi * x / 2) from -2 to 0" 
+<a href="https://www.wolframalpha.com/input/?i=integrate+1%2F2+*+sin%28pi+*+x+%2F+2%29sin%28n*+pi+*+x+%2F+2%29+from+-2+to+0">WolframAlpha</a>
+<br>
 
 <br>
 
 To compute manually:
+
+<br>
 
 $a_0$ coefficient:
 
@@ -748,6 +762,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 
 <br>
 Note: as in the example above, when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
+<br>
 
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
