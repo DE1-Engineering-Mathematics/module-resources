@@ -108,14 +108,14 @@ $\Rightarrow{}\quad \sin^{-1}(1)=90^{\circ}$</div>
 ### Problem 4.
 From applying a linear transformation, $T:\mathbb{R}^2 \rightarrow \mathbb{R}^2$ where $T(\vec{a}) = \vec{b}$. Find the vector $\vec{b}$ resulting when a <u>clockwise</u> rotation described by $R(\theta)=\begin{pmatrix}\cos{\theta}&\sin{\theta} \\\ -\sin{\theta}&\cos{\theta}\end{pmatrix}$ is applied to $\vec{a}$. Sketch the vectors $\vec{a}$ and $\vec{b}$ on a Cartesian axes
 
-(a) $\vec{a}=\begin{pmatrix}2\\2\end{pmatrix}$ and $\theta=60^{\circ}$
+(a) $\vec{a}=\begin{pmatrix}2 \newline 2\end{pmatrix}$ and $\theta=60^{\circ}$
 <div class = "answer">$R(60^{\circ})=\begin{pmatrix}0.5&0.866\\-0.866&0.5\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}0.5&0.866\\-0.866&0.5\end{pmatrix} \begin{pmatrix}2\\2\end{pmatrix} = \boxed{ \begin{pmatrix}2.732\\-0.732\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad$ <br>
 <img src = "04A-linear-transforms-media/4a.png"> 
 </div>
 
-(b) $a=\begin{pmatrix}2 \newline 3\end{pmatrix}$ and $\theta=45^{\circ}$
+(b) $\vec{a}=\begin{pmatrix}2 \newline 3\end{pmatrix}$ and $\theta=45^{\circ}$
 <div class = "answer">$R(45^{\circ})=\begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix} \begin{pmatrix}2\\3\end{pmatrix} = \boxed{ \begin{pmatrix}3.536\\0.7071\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad$ <br>
@@ -204,7 +204,7 @@ $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\
 
 -----------------------------------
 
-### Problem 7.
+### Problem 7 (Optional).
 Read the documentation above, found under 'additional resources', regarding using Matlab to generate rotational transformation matrices.
 
 (a) Generate a 3D transformation matrix, $\textbf{X}$, for a rotation of 38.4$^{\circ}$ about the x axis, giving your answer to 2 d.p.
@@ -278,7 +278,7 @@ $\Rightarrow{} 8-x=7$<br>
 $\Rightarrow{} \boxed{x=1}$
 </div>
 
-(b) Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
+(b) **(Optional)** Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
 <div>
 
 ```matlab:Code
