@@ -356,17 +356,21 @@ Matlab Animation:
 <div class = "answer">
 
 ![figure5](14-finite-differences-media/finite-differences-q5b.png)
-
-(i) Red line\
-(ii) Green line\
+<br>
+(i) Red line
+<br>
+(ii) Green line
+<br>
 (iii) Blue line
-
+<br>
+<br>
 (i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
-
+<br>
 (ii) At $t>0$ e.g. $t=a$, the bar has a constant temperature gradient at both ends (0 at (-) end which we can think of as an insulating barrier- letting no heat in or out, and 10 at (+) end we can think of this as a controlled heat source, like a laser). Therefore the shape of the graph follows a curved shape. (green)
-
+<br>
 (iii) At $t=b$: Since this system is gaining heat at one end and not losing any heat at the other, it will  keep getting hotter and hotter (shifted higher up graph), although the shape of the temperature profile will stay the same for $t≥a$. (blue)
-
+<br>
+<br>
 Matlab Animation
 ![figure5](14-finite-differences-media/q5-graph-b.gif)
 
