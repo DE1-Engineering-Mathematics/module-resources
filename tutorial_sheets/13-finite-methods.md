@@ -321,7 +321,7 @@ A metal bar is heated and its temperature is described by the following system o
 
 <div class = "answer">
 
-<img scr="14-finite-differences-media/finite-differences-q5a.png">
+<img src="14-finite-differences-media/finite-differences-q5a.png">
 
 (i) Red line\
 <br>
@@ -337,7 +337,7 @@ A metal bar is heated and its temperature is described by the following system o
 <br>
 Matlab Animation
 <br>
-<img scr="14-finite-differences-media/q5-graph-a.gif">
+<img src="14-finite-differences-media/q5-graph-a.gif">
 
 </div>
 
