@@ -598,6 +598,10 @@ $$
 \boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2, \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
 $$
 
+<br>
+Tip: for the solution using WolframAlpha click on the text highlighted in blue!
+<br>
+
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
