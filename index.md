@@ -22,6 +22,20 @@
 ### Chapter 1 - [Functions](notes\1-functions)
 * __[1.1 - Curve Sketching](notes\1-functions#curve-sketching)__
 
+### Chapter 2 - [Vectors](notes\2-vectors)
+* __[2.1 - Co-ordinate Geometry](notes\2-vectors#co-ordinate-geometry)__
+* __[2.2 - Vector multiplication](notes\2-vectors#vector-multiplication)__
+* __[2.3 - Vector equation of line](notes\2-vectors#vector-equation)__
+
+### Chapter 3 - [Matrices](notes\3-matrices)
+* __[3.1 - Matrix Operations](notes\2-vectors#matrix-operations)__
+* __[3.2 - Rules of Addition and Multiplication](notes\3-matrices#rules)__
+* __[3.3 - Transpose](notes\3-matrices#transpose)__
+* __[3.4 Square Matrices](notes\3-matrices#square-matrices)__
+* __[3.5 - Inverses](notes\3-matrices#inverses)__
+* __[3.6 - Linear Systems](notes\3-matrices#linear-systems)__
+* __[3.7 - Labels](notes\3-matrices#labels)__
+
 <br>
 
 ## Tutorial sheets:
