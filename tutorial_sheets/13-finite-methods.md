@@ -371,7 +371,7 @@ Matlab Animation:
 (iii) At $t=b$: Since this system is gaining heat at one end and not losing any heat at the other, it will  keep getting hotter and hotter (shifted higher up graph), although the shape of the temperature profile will stay the same for $t≥a$. (blue)
 <br>
 <br>
-Matlab Animation
+Matlab Animation:
 <br>
 <img src="14-finite-differences-media/q5-graph-b.gif">
 
