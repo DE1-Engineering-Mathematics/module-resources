@@ -36,10 +36,10 @@ Given the matrices: $A=\begin{pmatrix}1&1 \newline 2&-1\end{pmatrix}$ and $B=\be
 Find the answers to the following operations:
 
 (a) $A+B$
-<div class = "answer" markdown="1"> 
+<div class = "answer"> 
 Solving with the Matlab terminal:
 
-<div>
+<div markdown="1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -74,7 +74,7 @@ $\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0 \newline 4&-4\end{pmatrix}}$
 (c) $AB$
 <div class = "answer">
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
