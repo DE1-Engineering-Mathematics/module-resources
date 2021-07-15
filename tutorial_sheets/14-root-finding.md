@@ -30,14 +30,16 @@ Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using the bisection method fro
 These questions could be solved effectively using code (e.g. Python, Matlab), see if you can write the scripts yourself!
 <br><br>
 Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the interval of the next iteration, where $\frac{a + b}{2} = c$. These numbers are chosen for the interval of the following iteration since they have the smallest difference in values and have a negative product.
-<br><br>
+<br>
 
 <img src = "15-root-finding-media/root-finding-q1.png" width = "500" height= "120">
 
-<br><br>
+<br>
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
-Alternative Method:\
+<br><br>
+Alternative Method:\\
+
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
 
 \begin{aligned}
