@@ -1,6 +1,5 @@
 # Power series
 
-# Matrices
 **IMPORTANT** Some of these functions require the [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html) to work. Make sure it is installed before trying to use them.
 ## Power series operations
 - **taylor(f,var,a,"Order",n)** computes the Taylor expansion series of a symbolic expression f with respect to a variable var, around the point a up to the nth order. To do **Maclaurin** set a to 0. [Full documentation](https://uk.mathworks.com/help/symbolic/sym.taylor.html)
