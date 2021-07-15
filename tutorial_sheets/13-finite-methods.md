@@ -329,11 +329,13 @@ A metal bar is heated and its temperature is described by the following system o
 <br>
 (iii) Blue line
 <br>
+<br>
 (i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
 <br>
 (ii) At $t>0$ the graph will be curved (which will eventually tend towards a straight line). Ensure that the temperature is 0 and 100 at the ends of the bar (green).
 <br>
 (iii) The temperature will always be constant at both ends (100 degrees at one end, and 0 degrees at the other). Therefore as t tends towards infinity, this will become a diagonal line from 100 degrees to 0 degrees (blue).
+<br>
 <br>
 Matlab Animation:
 <br>
