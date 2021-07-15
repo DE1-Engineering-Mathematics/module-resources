@@ -392,7 +392,7 @@ Newton-Raphson formula: $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 Iteration 1: $ \ n=-1.0$
 $$
 x_1=x_0-\frac{f(x_0)}{f'(x_0)}=-1-\frac{\frac{1+4(-1) - (-1)^3}{(-1)}}
-{{\frac{-1}{(-1)^2}-2(-1)}}=-3
+{\frac{-1}{(-1)^2}-2(-1)}=-3
 $$
 
 Iteration 2: $ \ n=-3.0$
