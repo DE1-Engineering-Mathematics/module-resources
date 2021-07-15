@@ -578,7 +578,8 @@ Where y is a dataset containing the three $[x,y]$ points $[-3,4], [2.5,6], [0.3,
 
 (a) Determine the Jacobian vector of the cost function.
 
-<!-- <div class = "answer"> -->
+
+<div class = "answer">
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial a}, \frac{\partial C}{\partial b}\Bigg]
@@ -609,7 +610,11 @@ Tip: for the solution using WolframAlpha click on the text highlighted in blue!
 
 (b) With the initial guess of $a = 1$ and $b=1$, determine the new weights using the first data point $[-3,4]$
 
+<<<<<<< HEAD
+<div class = "answer">
+=======
 <!-- <div class = "answer"> -->
+>>>>>>> ab8e023c033566ece5b454564e7bf159060bc1a8
 
 $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
