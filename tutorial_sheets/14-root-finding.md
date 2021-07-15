@@ -434,7 +434,7 @@ Alternatively you could use Matlab or Python code to solve this.
 
 <div class = "answer">
 
-<img src = "15-root-finding-media/animation.gif" width = "400" height= "400">
+<img src = "15-root-finding-media/animation.gif" width = "550" height= "500">
 
 </div>
 
@@ -448,12 +448,15 @@ For those who'd like an extra method, look up the ``Fixed point method'' to find
 $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
 
 <div class = "answer">
-From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. Thus, if we take $g(x)=\mathrm{cos}(x)$, then: 
-
+From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. 
+<br>
+Thus, if we take $g(x)=\mathrm{cos}(x)$, then:
+<br>
 (1) For all $x$ in $[ 0,\frac{\pi}{2} ]$, $0\leq g(x)\leq 1$
-
+<br>
 
 (2) $g^{'}(x)=-\mathrm{sin}x$. Thus,$\rvert g^{'}(x)\rvert<1$ in $[ 0,\frac{\pi}{2} ]$
+<br>
 
 According to the Fixed-Point Iteration Theorem, the iterations must converge
 with any choice of $x_0$ in $[ 0,\frac{\pi}{2} ]$. This is verified from the following computations.
