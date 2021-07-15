@@ -54,13 +54,15 @@ c = 5 - (\frac{10}{7} \times 4) = -\frac{5}{7} \approx -0.714 \ (3 \ s.f.)
 $$
 
 $$
-\boxed{ \therefore y = 1.43x - 0.714 }
+\therefore  \boxed{ y = 1.43x - 0.714 }
 $$
 <img src = "13-optimisation/optimisation_graphic_1.png">
 
 Additional lines added for the curious.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
@@ -157,6 +159,8 @@ $$\therefore \boxed{y=0.1479x^2+1.9425}$$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
@@ -258,6 +262,8 @@ Additional lines added for the curious.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
 ### Problem 4.
 The following contour plot shows the summed square error, S, for the two-parameter fit to some data for the function $f(x)=ae^{-x^2}+b$.
 
@@ -290,7 +296,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 ## Exam Style Questions
 ### Problem 5.
-The following [sigmoid activation function](https://en.wikipedia.org/wiki/Sigmoid_function), $\alpha(x)$, can be found in some artificial neural networks.
+The following <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid activation function</a>, $\alpha(x)$, can be found in some artificial neural networks.
 
 $$\alpha(x) = \frac{\omega}{\beta+e^{-x}}$$
 
@@ -306,9 +312,9 @@ Where $y$ is a (very small) dataset containing the three $[x, y]$ points $[0.25,
 
 Something to keep in mind:
 
-$$\frac{\mathrm{d}}{\mathrm{d}x}\sum{f(x)} = \sum{\frac{\mathrm{d}}{\mathrm{d}x}f(x)}$$
+$$\boxed{\frac{\mathrm{d}}{\mathrm{d}x}\sum{f(x)} = \sum{\frac{\mathrm{d}}{\mathrm{d}x}f(x)}}$$
 
-So, 
+Starting with $\frac{\partial C}{\partial \omega }$ :
 
 $$
 \frac{\partial C}{\partial \omega } = \frac{\partial}{\partial \omega }\frac{1}{2n}\sum^n_i{\Big(\alpha(x_i)-y(x_i)\Big)^2} 
@@ -327,10 +333,10 @@ $$
 Using the chain rule, 
 
 $$
-\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial u^2}{\partial u}\frac{\partial u}{\partial \omega }
+\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial }{\partial u} \times \frac{\partial u}{\partial \omega }
 $$
 
-where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial u^2}{\partial u} = 2u$:
+where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial }{\partial u} = 2u$
 $$
 = 2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg(\frac{\partial}{\partial \omega }\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg)
 $$
@@ -353,20 +359,22 @@ $$
 
 Simplify the expression:
 $$
-\boxed{ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}
+ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}
 $$
 
 Substituting back in the $\frac{1}{2n}\sum^n_i$,
 
 $$
-\boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
+\therefore \boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
 $$
 
-Similarly for $\frac{\partial C}{\partial \beta  }$,
+We can use a similar method for $\frac{\partial C}{\partial \beta  }$, and we end up with:
 
 $$
-\boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
+\therefore \boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
 $$
+
+Alternatively, we can also find the expressions using WolframAlpha:
 
 <a href="https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w">Wolfram Alpha: wrt $\omega$</a>
 <!-- [Wolfram Alpha: wrt $\omega$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w) -->
@@ -382,8 +390,12 @@ $$
 <div class = "answer">
 
 $$
-\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
 $$
+
+<br>
+An easy way to calculate the Jacobian vector is using a table like the one below:
+<br><br>
 
 |  |  | wrt $\omega$ | wrt $\beta$ |
 |-|-|-|-|
@@ -391,10 +403,13 @@ $$
 | 0.25 | -0.3 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0">-3.2129</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3">2.61162</a> |
 | 1 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">-6.02992</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">16.391</a> |
 | 0.8 | 2 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">-0.501951</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">1.11711</a> |
-| $-\frac{1}{n}\sum^n_i$ | mean of negatives | 3.248257 | -6.70658 |
+| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | 3.248257 | -6.70658 |
+
+Note: the blue numbers are links which will show you how the number was calculated using WolframAlpha!
+<br>
 
 $$
-\boxed{\vec{J_C} = \Big[3.248 \hspace{2mm} -6.707\Big]}
+\therefore \boxed{\vec{J_C} = \Big[3.248, \hspace{2mm} -6.707\Big]}
 $$
 
 </div>
@@ -407,11 +422,13 @@ $$
 
 To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima.
 
-$\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs to be increased.}}$
+$\Rightarrow \boxed{\omega \text{ needs to be decreased and }\beta \text{ needs to be increased.}}$
 
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 6. 
 
