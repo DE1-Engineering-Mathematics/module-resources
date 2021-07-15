@@ -38,8 +38,8 @@ Using a table, the highlighted cells (red = negative, green = positive) show the
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
 <br><br>
-Alternative Method:\\
-
+Alternative Method:
+<br>
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
 
 \begin{aligned}
