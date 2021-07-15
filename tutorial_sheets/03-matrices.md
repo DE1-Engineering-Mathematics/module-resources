@@ -38,7 +38,6 @@ Find the answers to the following operations:
 (a) $A+B$
 <div class = "answer" markdown="1"> 
 Solving with the Matlab terminal:
-<div>
 
 
 ```matlab:Code
@@ -49,7 +48,6 @@ a + b
 ```
 
 
-</div>
 $\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2\\0&2\end{pmatrix}}$
 </div>
 
