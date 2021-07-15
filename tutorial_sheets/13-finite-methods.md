@@ -322,10 +322,10 @@ A metal bar is heated and its temperature is described by the following system o
 <div class = "answer">
 
 <img src="14-finite-differences-media/finite-differences-q5a.png">
-
-(i) Red line\
 <br>
-(ii) Green line\
+(i) Red line
+<br>
+(ii) Green line
 <br>
 (iii) Blue line
 <br>
@@ -335,7 +335,7 @@ A metal bar is heated and its temperature is described by the following system o
 <br>
 (iii) The temperature will always be constant at both ends (100 degrees at one end, and 0 degrees at the other). Therefore as t tends towards infinity, this will become a diagonal line from 100 degrees to 0 degrees (blue).
 <br>
-Matlab Animation
+Matlab Animation:
 <br>
 <img src="14-finite-differences-media/q5-graph-a.gif">
 
