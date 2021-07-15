@@ -374,7 +374,7 @@ $$
 \therefore \boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
 $$
 
-Alternatively, we can also find the expressions using WolframAlpha:
+Alternatively, the expressions can also be found easily using WolframAlpha:
 
 <a href="https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w">Wolfram Alpha: wrt $\omega$</a>
 <!-- [Wolfram Alpha: wrt $\omega$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w) -->
