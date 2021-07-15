@@ -25,7 +25,7 @@
     plot(x,y)
     ```
 
-Image
+![Dist](images/NormalDist.png)
 
 
 

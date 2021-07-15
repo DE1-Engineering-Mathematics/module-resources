@@ -30,7 +30,7 @@ These pages provide a very basic introduction to Matlab. The [Matlab OnRamp](htt
  - [15. Optimisation](Topics_term2\15_Optimisation.md)
  - [16. Normal Distribution](Topics_term2\16_Normal_Dist.md)
 
-
+##### If there are any mistakes or you have any questions please do not hesitate to email me at ir420@ic.ac.uk
 
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

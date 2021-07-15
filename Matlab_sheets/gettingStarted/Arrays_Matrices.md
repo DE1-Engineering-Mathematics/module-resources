@@ -51,6 +51,16 @@ f = [c, e]
 g = [a; b]
 ```
 
-**size and length hold on and indexing format code boxes**
+## Indexing
+**Matlab unlike python starts indexing at 1 instead of 0!**
+
+To index an item from an array, the row and columns should be specified. To access the element from the 2nd row, 1st column you should:
+```matlab:Code
+c(2,1)
+```
+If you desire to obtain an entire row or column use the **:** symbol. This extracts the whole 1st column of the c array.
+```matlab:Code
+c(:,1)
+```
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

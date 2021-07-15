@@ -1,5 +1,7 @@
 # CHOs
 
+**IMPORTANT** Some of these functions require the [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html) to work. Make sure it is installed before trying to use them.
+
 The following example will show how to solve a CHO problem alongside matlab. This is complex and requires a good understanding of the physical system.
 
 ![imagen](images/imagen.jpg)

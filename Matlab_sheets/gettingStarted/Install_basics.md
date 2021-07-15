@@ -1,8 +1,8 @@
 # Getting Started with MATLAB
 ## Installation (Windows & Mac)
 1. First you need to create a [Mathworks](https://uk.mathworks.com/login) account using your long imperial email (e.g. name.surname21@imperial.ac.uk).
-1. Mathworks will recognise your Imperial email and ask you to log in from through the Imperial portal.
-1. Finalise the creation of your Mathworks account.
+1. Mathworks will recognize your Imperial email and ask you to log in from through the Imperial portal.
+1. Finalize the creation of your Mathworks account.
 1. Mathworks should have granted an **educational** Matlab license, you should be able to download and install it as you would normally expect.
 ## Interface
 When you first install Matlab, your interface should look like this, it should have **3 main panels**.
@@ -28,7 +28,7 @@ The following command will create a variable called **a** with the value of 34
 a = 34
 ```
 Many more variables can be created
-```matalb:Code
+```matlab:Code
 b = 21
 ```
 These variables can be used to create new variables!
@@ -39,7 +39,7 @@ c =
 ```
 ### Basic Operators
 - Addition "+"
-- Substraction "-"
+- Subtraction "-"
 - Multiplication "*"
 - Division "/"
 - Power "^"

@@ -1,5 +1,7 @@
 # Optimisation
 
+**IMPORTANT** Some of these functions require the [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html) to work. Make sure it is installed before trying to use them.
+
 ## Optimisation Operations
 - **diff(f(x),x,n)** computes the nth derivative of f(x) which is a **symbolic expression** with respect to x. If n is omitted it will be the first order derivative. [Full documentation](https://uk.mathworks.com/help/symbolic/diff.html)
 
@@ -26,7 +28,7 @@
 In order to fit a set of data in a specific model.
 1. First define the model you want to fit the data into.
 Let's say I want to fit my data in:
-**Important to use ' instead of "** 
+**Important to use ' instead of " with fittype** 
     $$ y = ax^2 + bx + c$$
     ```matlab:Code
     model = fittype({'x^2','x','1'});
@@ -37,7 +39,7 @@ Let's say I want to fit my data in:
     ```
 This is how it look relative to the data:
 
-Image
+![Optimisation](images/Optimisation.png)
 
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

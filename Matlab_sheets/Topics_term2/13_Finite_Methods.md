@@ -1,5 +1,7 @@
 # Finite methods
 
+**IMPORTANT** Some of these functions require the [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html) to work. Make sure it is installed before trying to use them.
+
 In the following example, it will be shown how to simulate a 1 Dimensional diffusion equation on an aluminum bar at room temperature with a constant heat source at 100 degrees on one of the ends. 
 
 $$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}$$
@@ -58,7 +60,7 @@ $$ T(t+\Delta t,x) \approx \sigma T(t,x+\Delta x) + \sigma T(t,x - \Delta x) + (
         drawnow
     end
     ```
-Image
+![Simul](images/Giff3.gif)
 
 
 

@@ -8,7 +8,7 @@
     det(A)
     ```
 
-- **eig(A)** is able to compute the eigenvalues and eigenvectors of _n x n_ matrix. The function outputs two separate matrices, the first one contains a matrix with the eigenvectors in the following format: (for a 2x2) [x1 x2; y1 y2] and the second matrix contains the eigenvalues [lamba1 0; 0 lambda 2]. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/eig.html)
+- **eig(A)** is able to compute the eigenvalues and eigenvectors of _n x n_ matrix. The function outputs two separate matrices, the first one contains a matrix with the eigenvectors in the following format: (for a 2x2) [x1 x2; y1 y2] and the second matrix contains the eigenvalues [lambda1 0; 0 lambda 2]. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/eig.html)
 
     ```matlab:Code
     A = [1 0; 0 -3]
