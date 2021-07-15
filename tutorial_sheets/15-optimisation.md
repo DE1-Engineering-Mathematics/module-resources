@@ -54,13 +54,15 @@ c = 5 - (\frac{10}{7} \times 4) = -\frac{5}{7} \approx -0.714 \ (3 \ s.f.)
 $$
 
 $$
-\boxed{ \therefore y = 1.43x - 0.714 }
+\therefore  \boxed{ y = 1.43x - 0.714 }
 $$
 <img src = "13-optimisation/optimisation_graphic_1.png">
 
 Additional lines added for the curious.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
@@ -162,6 +164,8 @@ $$\therefore \boxed{y=0.1479x^2+1.9425}$$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
 ### Problem 3.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=ae^x+b$, through the points (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
@@ -262,6 +266,8 @@ Additional lines added for the curious.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
 ### Problem 4.
 The following contour plot shows the summed square error, S, for the two-parameter fit to some data for the function $f(x)=ae^{-x^2}+b$.
 
@@ -294,7 +300,7 @@ The following contour plot shows the summed square error, S, for the two-paramet
 
 ## Exam Style Questions
 ### Problem 5.
-The following [sigmoid activation function](https://en.wikipedia.org/wiki/Sigmoid_function), $\alpha(x)$, can be found in some artificial neural networks.
+The following <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid activation function</a>, $\alpha(x)$, can be found in some artificial neural networks.
 
 $$\alpha(x) = \frac{\omega}{\beta+e^{-x}}$$
 
@@ -310,9 +316,9 @@ Where $y$ is a (very small) dataset containing the three $[x, y]$ points $[0.25,
 
 Something to keep in mind:
 
-$$\frac{\mathrm{d}}{\mathrm{d}x}\sum{f(x)} = \sum{\frac{\mathrm{d}}{\mathrm{d}x}f(x)}$$
+$$\boxed{\frac{\mathrm{d}}{\mathrm{d}x}\sum{f(x)} = \sum{\frac{\mathrm{d}}{\mathrm{d}x}f(x)}}$$
 
-So, 
+Starting with $\frac{\partial C}{\partial \omega }$ :
 
 $$
 \frac{\partial C}{\partial \omega } = \frac{\partial}{\partial \omega }\frac{1}{2n}\sum^n_i{\Big(\alpha(x_i)-y(x_i)\Big)^2} 
@@ -331,10 +337,10 @@ $$
 Using the chain rule, 
 
 $$
-\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial u^2}{\partial u}\frac{\partial u}{\partial \omega }
+\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial }{\partial u} \times \frac{\partial u}{\partial \omega }
 $$
 
-where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial u^2}{\partial u} = 2u$:
+where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial }{\partial u} = 2u$
 $$
 = 2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg(\frac{\partial}{\partial \omega }\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg)
 $$
@@ -357,20 +363,22 @@ $$
 
 Simplify the expression:
 $$
-\boxed{ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}
+ =-\frac{2e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}
 $$
 
 Substituting back in the $\frac{1}{2n}\sum^n_i$,
 
 $$
-\boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
+\therefore \boxed{\frac{\partial C}{\partial \omega } = -\frac{1}{n}\sum^n_i{\frac{e^{x_i}\bigg(y(x_i)+e^{x_i}\Big(-\omega +\beta  y(x_i)\Big)\bigg)}{(1+\beta  e^{x_i})^2}}}
 $$
 
-Similarly for $\frac{\partial C}{\partial \beta  }$,
+We can use a similar method for $\frac{\partial C}{\partial \beta  }$, and we end up with:
 
 $$
-\boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
+\therefore \boxed{\frac{\partial C}{\partial \beta  } = -\frac{1}{n}\sum^n_i{\frac{\omega (\frac{\omega }{\beta  +e^{-x_i}}-y(x_i))}{(\beta  +e^{-x_i})^2}}}
 $$
+
+Alternatively, the expressions can also be found easily using WolframAlpha:
 
 <a href="https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w">Wolfram Alpha: wrt $\omega$</a>
 <!-- [Wolfram Alpha: wrt $\omega$](https://www.wolframalpha.com/input/?i=+%28%28w%29%2F%28b%2Be%5E-x%29-y%29%5E2+differentiate+wrt+w) -->
@@ -386,8 +394,12 @@ $$
 <div class = "answer">
 
 $$
-\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
 $$
+
+<br>
+An easy way to calculate the Jacobian vector is using a table like the one below:
+<br><br>
 
 |  |  | wrt $\omega$ | wrt $\beta$ |
 |-|-|-|-|
@@ -395,10 +407,13 @@ $$
 | 0.25 | -0.3 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0">-3.2129</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3">2.61162</a> |
 | 1 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">-6.02992</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">16.391</a> |
 | 0.8 | 2 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">-0.501951</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">1.11711</a> |
-| $-\frac{1}{n}\sum^n_i$ | mean of negatives | 3.248257 | -6.70658 |
+| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | 3.248257 | -6.70658 |
+
+Note: the blue numbers are links which will show you how the number was calculated using WolframAlpha!
+<br>
 
 $$
-\boxed{\vec{J_C} = \Big[3.248 \hspace{2mm} -6.707\Big]}
+\therefore \boxed{\vec{J_C} = \Big[3.248, \hspace{2mm} -6.707\Big]}
 $$
 
 </div>
@@ -411,11 +426,13 @@ $$
 
 To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima.
 
-$\boxed{\text{Thus }\omega \text{ needs to be decreased and }\beta \text{ needs to be increased.}}$
+$\Rightarrow \boxed{\omega \text{ needs to be decreased and }\beta \text{ needs to be increased.}}$
 
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 6. 
 
@@ -428,7 +445,7 @@ $$
 C(a,b) = \frac{1}{2n}\sum^n_i(\gamma(x_i)-y(x_i))^2
 $$
 
-Where $y$ is a database containing the points $[x,y]$: 
+Where $y$ is a database containing the three $[x,y]$ points 
 $[1,3.4]$, $[-2.3,0.5]$, $[2.2,-3]$, $[4.7,-6]$
 
 (a) Find expressions for the partial derivatives of $C$ with respect to each of the parameters.
@@ -465,9 +482,12 @@ $$
 <div class = "answer">
 
 $$
-\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
 $$
 
+<br>
+An easy way to calculate the Jacobian vector is using a table like the one below:
+<br><br>
 
 |  |  | wrt $a$ | wrt $b$ |
 |-|-|-|-|
@@ -476,10 +496,13 @@ $$
 | -2.3 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D-2.3%2C+y%3D0.5">27.35</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+-2.3%2C+y%3D0.5">34.21</a> |
 | 2.2 | -3 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D2.2%2C+y%3D-3">1.615</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+2.2%2C+y%3D-3">-0.095</a> |
 | 4.7 | -6 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D4.7%2C+y%3D-6">0.5172</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+4.7%2C+y%3D-6">-0.002</a> |
-| $-\frac{1}{n}\sum^n_i$ | mean of negatives | -6.655 | -8.690 |
+| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | -6.655 | -8.690 |
+
+Note: the blue numbers are links which will show you how the number was calculated using WolframAlpha!
+<br>
 
 $$
-\boxed{\vec{J_C} = \Big[-6.655 \hspace{2mm} -8.690\Big]}
+\therefore \boxed{\vec{J_C} = \Big[-6.655, \hspace{2mm} -8.690\Big]}
 $$
 
 </div>
@@ -491,7 +514,7 @@ $$
 
 To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima (steepest ascent).
 
-$\boxed{\text{Thus }a \text{ and }b \text{ need to be increased}}$
+$\Rightarrow \boxed{a \text{ and }b \text{ need to be increased.}}$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
@@ -524,14 +547,14 @@ $$
 C(a,b) = \frac{1}{2}\Big(\sigma(x)-y(x)\Big)^2
 $$
 
-Where y is a dataset containing the three points $[x,y]$: $[-3,4], [2.5,6], [0,3,4.3]$ and the learning rate is $0.25$
+Where y is a dataset containing the three $[x,y]$ points $[-3,4], [2.5,6], [0.3,4.3]$ and the learning rate is $0.25$
 
 (a) Determine the Jacobian vector of the cost function.
 
 <div class = "answer">
 
 $$
-\vec{J_C} = \Bigg[\frac{\partial C}{\partial a} \frac{\partial C}{\partial b}\Bigg]
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial a}, \frac{\partial C}{\partial b}\Bigg]
 $$
 
 $$
@@ -547,7 +570,7 @@ $$
 <a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+b">$$= 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2$$</a>
 
 $$
-\boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2 \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
+\boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2, \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
 $$
 
 </div>
@@ -558,7 +581,7 @@ $$
 <div class = "answer">
 
 $\vec{J_C} = \Big[$
-<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a>  <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
+<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
 $\Big]$
 
 To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
@@ -575,7 +598,7 @@ $$
 <div class = "answer">
 
 $\vec{J_C} = \Big[$
-<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">-8.482</a>  <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">    -3.392</a>
+<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">-8.482</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">    -3.392</a>
 $\Big]$
 
 $$
@@ -587,10 +610,10 @@ $$
 
 (d) Determine the new weights using the second data point $[0.3,4.3]$
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 
 $\vec{J_C} = \Big[$
-<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">2.080</a>  <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">    6.934</a>
+<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">2.080</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">    6.934</a>
 $\Big]$
 
 $$
