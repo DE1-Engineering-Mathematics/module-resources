@@ -12,12 +12,15 @@
 <br>
 
 ## Notes:
-### Chapter 0 - Refresher
-* __[0.1 - Algebra](notes\0-refresher\#algebra)__
-* __[0.2 - Calculus](notes\0-refresher\#calculus)__
-* __[0.3 - Using calculus](notes\0-refresher\#using_calculus)__
-* __[0.4 - Powers, logs & bases](notes\0-refresher\#powers_logs_bases)__
-* __[0.5 - Engineers Love](notes\0-refresher\#engineers_love)__
+### Chapter 0 - [Refresher](notes\0-refresher)
+* __[0.1 - Algebra](notes\0-refresher#algebra)__
+* __[0.2 - Calculus](notes\0-refresher#calculus)__
+* __[0.3 - Using calculus](notes\0-refresher#using-calculus)__
+* __[0.4 - Powers, logs & bases](notes\0-refresher#powers-logs-bases)__
+* __[0.5 - Engineers Love](notes\0-refresher#engineers-love)__
+
+### Chapter 1 - [Functions](notes\1-functions)
+* __[1.1 - Curve Sketching](notes\1-functions#curve-sketching)__
 
 <br>
 
