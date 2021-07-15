@@ -158,9 +158,9 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \end{align*}
 
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
-
+<br>
 Alternative method:
-
+<br>
 We can also use the same method as in problem 1 and use a table to find the root.
 
 <br>
@@ -198,6 +198,7 @@ What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be
 
 <br>
 The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
+<br>
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
