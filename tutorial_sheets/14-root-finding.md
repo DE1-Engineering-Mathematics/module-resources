@@ -194,7 +194,7 @@ When deciding which points to start with, its important to remember your curve s
 What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... To understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
 
 <br>
-<a href = "https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0">Link to Wolfram Alpha<\a>
+<a href = "https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0">Link to Wolfram Alpha</a>
 
 <br>
 The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
