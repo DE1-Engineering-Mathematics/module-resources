@@ -5,6 +5,11 @@
 
 <!-- ## Module notes
 <br> -->
+## Cheatsheets
+* __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
+* __[Python](./PythonSheets/PythonCheatsheet.md)__
+* __[Wolfram|Alpha](./Wolfram_sheets/WolframCheatsheet.md)__
+
 
 ## Tutorial sheets:
 ### Term 1
