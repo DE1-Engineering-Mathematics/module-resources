@@ -10,6 +10,11 @@
 <!-- Depends on whether the notes are updated or not -->
 ## [External Link Notes](https://de1-engineering-mathematics.github.io/module-resources/media/DE1-Maths_notes.pdf)
 
+## Cheatsheets
+* __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
+* __[Python](./PythonSheets/PythonCheatsheet.md)__
+* __[Wolfram|Alpha](./Wolfram_sheets/WolframCheatsheet.md)__
+
 
 ## Tutorial sheets:
 ### Term 1
