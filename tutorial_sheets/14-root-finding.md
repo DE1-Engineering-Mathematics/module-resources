@@ -241,7 +241,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer" markdown = "2">
+<div class = "answer" markdown = "1" markdown = "2">
 Using the Secant Formula:
 
 $$
