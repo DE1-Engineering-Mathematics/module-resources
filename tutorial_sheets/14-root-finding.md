@@ -434,7 +434,7 @@ Alternatively you could use Matlab or Python code to solve this.
 
 <div class = "answer">
 
-<img src = "15-root-finding-media/animation.gif">
+<img src = "15-root-finding-media/animation.gif" width = "400" height= "400">
 
 </div>
 
