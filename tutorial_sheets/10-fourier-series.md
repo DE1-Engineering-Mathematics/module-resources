@@ -43,6 +43,8 @@ State the time period and formula of the following periodic functions.
 $\boxed{\text{Period} =2\pi \qquad f(x)=x, \space \text{for} -\pi < x < \pi}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b)
 <div id="prob1b" style="width: 600px; height: 300px;"></div>
 <script>
@@ -58,6 +60,8 @@ $\boxed{\text{Period} =2\pi \quad f(x)=\left\{
 \end{array}\right.
 }$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c)
 <div id="prob1c" style="width: 600px; height: 300px;"></div>
@@ -75,6 +79,7 @@ $\boxed{\text{Period} =2\pi \quad f(x)=\left\{
 <div class = "answer">
 $\boxed{\text{Period} = 2\pi \qquad f(x)=x^2, \text{ for } -\pi < x < \pi}$
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -103,6 +108,7 @@ $\Rightarrow{} \text{Period} = 3\pi$
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) 
 $f(t) = \left\\{ 
@@ -129,6 +135,8 @@ $\Rightarrow{} \text{Period} = 2\pi$
 </script>
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f\left(p\right)=\left\\{\begin{array}{l}\frac{p^2}{2}\ \ \ \ \ 0 < p <4 \newline
     8\ \ \ \ \ \ 4 < p < 6 \newline
@@ -160,6 +168,8 @@ $\Rightarrow{} \text{Period} = 8$
 </script>
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (d) $f\left(q\right)=2q-q^2\ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
  
 <div class = "answer">
@@ -185,6 +195,7 @@ $\Rightarrow{} \text{Period} = 2$
     });
 </script>
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
@@ -200,6 +211,8 @@ The period of $\text{cos}(x) = 2\pi$ and $\text{sin}(2x) = \pi$. The lowest comm
 $\Rightarrow{} \boxed{ \text{Period } =2\pi}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\sin{\left(x\right)}\cos{\left(x\right)}$
 
 <div class = "answer">
@@ -211,6 +224,8 @@ $\text{sin}(x)\text{cos}(x)$ can be rewritten as $\frac{1}{2}\text{sin}(2x)$ whi
 $\Rightarrow{} \boxed{ \text{Period } = \pi}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c) $e^x\sin^2(x)$
 
 <div class = "answer">
@@ -218,6 +233,7 @@ Not periodic: Multiplying a periodic function, $\text{sin}^2(x)$, with a non per
 
 $\Rightarrow{} \boxed{ \text{Not periodic }}$
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
@@ -230,15 +246,21 @@ Determine if the function $f(x)$ is odd, even, or neither.
 $\\ \Rightarrow \boxed{\text{Odd function}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $f\left(x\right)=3\sin{\left(x\right)}\cos{\left(4x\right)}$
 <div class = "answer">Break the function up: $3$ is an even function, $\text{sin}(x)$ is an odd function and $\text{cos}(4x)$ is an even function. An even function multiplied by an odd function, multiplied by an even function results in an odd function.
 $\\ \Rightarrow \boxed{\text{Odd function}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c) $f\left(x\right)=x^3e^3$
 <div class = "answer">Break the function up: $x^3$ is an odd function and $e^3$ is an even function. An odd function multiplied by an even function results in an odd function.
 $\\ \Rightarrow \boxed{\text{Odd function}}$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d)
 ![class-c](10-fourier-series/even-odd-d.PNG)
@@ -246,17 +268,23 @@ $\\ \Rightarrow \boxed{\text{Odd function}}$
 $\Rightarrow \boxed{\text{Odd function}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (e)
 ![class-c](10-fourier-series/even-odd-e.PNG)
 <div class = "answer">
 $\Rightarrow \boxed{\text{Even function}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (f)
 ![class-c](10-fourier-series/even-odd-f.PNG)
 <div class = "answer">
 $\Rightarrow \boxed{\text{Odd function}}$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
@@ -362,6 +390,8 @@ f\left(x\right)=\sum_{n=1}^{\infty{}}{(-1)}^n\frac{2(6-n^2{\pi{}}^2)}{n^3{\pi{}}
 (Try moving the slider under N)
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (b) $f\left(x\right)=\left \\{\begin{array}{l}1+x,\ \ \ \ \ \text{for}\ -1\leq{}x\leq{}0 \newline
 1,\ \ \ \ \ \ \ \ \ \ \text{for}\ \ 0 < x\leq{}1\end{array} \right. $
@@ -472,6 +502,8 @@ Note: this solution includes a mixture of manual working out and WolframAlpha. I
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (c) $f\left(x\right)=\left\\{\begin{array}{l}0,\ \ \ \ \ \text{if}\ -2\leq{}x\leq{}-1 \newline
     1,\ \ \ \ \ \text{if}\ -1 < x < 1 \newline
     0,\ \ \ \ \ \text{if}\ \ 1\leq{}x\leq{}2\end{array}\right.
@@ -513,6 +545,8 @@ $$
 <iframe src="https://www.desmos.com/calculator/qrmj8iw5ha" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (d) $f\left(x\right)=\sin{\left(x\right)}{\cos}^2\left(x\right),\ \ \ \text{on}\
     [ -\pi{},\pi{} ]$
@@ -670,6 +704,8 @@ Note: this could have been solved using WolframAlpha as well rather than by hand
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (e) $f\left(x\right)=\left\\{\begin{array}{l}\sin{\left(\frac{\pi{}x}{2}\right)},\ \ \
     \ \text{for} \ -2\leq{}x\leq{}0 \newline
     0,\ \ \ \ \ \ \ \ \ \ \ \ \ \text{for}\ \ \
@@ -767,6 +803,8 @@ Note: as in problem 5 d), when calculating the coefficients, you end up with exp
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 
 
 ---------------
@@ -791,6 +829,8 @@ Note: the function could also be sketched to determine whether its odd or even. 
 <iframe src="https://www.desmos.com/calculator/amhmuk0znf" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) Sketch the piecewise periodic function $f\left(x\right)=\left\\{\begin{array}{l}-5,\ \ \ \ \
     \ \text{for} \ -2\pi\leq{}x\leq{}\ 0 \newline
     5,\ \ \text{for}\ \ \
@@ -800,6 +840,8 @@ Note: the function could also be sketched to determine whether its odd or even. 
 <div class = "answer">
 <iframe src="https://www.desmos.com/calculator/akfeysxfu9" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (c) Add additional curves to this plot to represent the first and third order Fourier series approximation in the interval  $\ \ {-2\pi} \ {<} \ x \ {<} \ 2\pi$.
 
@@ -842,6 +884,8 @@ Finally the fourier expansions $ \ \boxed{b_1 = \frac{- 20}{\pi} \sin \left(\fra
 
 <iframe src="https://www.desmos.com/calculator/8gnc2tmdjt" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (d) Where would you expect Gibb's ringing to occur as the series was expanded?
 
@@ -934,6 +978,8 @@ so $C_{-n} = C_n^*$
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) Find the real Fourier series to the following function.
 $$\left(3+4i\right)e^{-2ix}+{\left(3-4i\right)e}^{2ix}$$
 
@@ -957,7 +1003,8 @@ $$
 
 In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\left(3-4i\right)i=4+3i$ in finding the coefficients in front of the $\sin{(2x)}$ term.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 ### Problem 8.
@@ -996,6 +1043,8 @@ f\left(x\right)=\
 $$
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 
 <br>
