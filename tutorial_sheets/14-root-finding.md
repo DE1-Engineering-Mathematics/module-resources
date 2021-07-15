@@ -518,7 +518,7 @@ end
 
 ```
 
-<div class = "answer">
+<div class = "answer" markdown = "1">
 
 ```matlab: Code
 
