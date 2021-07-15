@@ -520,7 +520,7 @@ end
 
 <div class = "answer" markdown="1">
 
-```matlab: Code
+```matlab:Code
 function Newton_Raphson_Method
 %Implementation of Newton-Raphson method to determine a solution.
 
