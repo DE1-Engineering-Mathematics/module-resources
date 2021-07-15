@@ -26,7 +26,6 @@
 * [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
 * [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
 * [MathWorks - rotx - Rotation matrix for rotations around x-axis](https://uk.mathworks.com/help/phased/ref/rotx.html)
-* [MathWorks - transformPointsForward](https://uk.mathworks.com/help/images/ref/affine2d.transformpointsforward.html)
 
 <br><br><br><br>
 
@@ -253,12 +252,12 @@ T = roty(112.7) * X
 ## Challenging Questions
 ### Problem 8.
 The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
-<img src = "04A-linear-transforms-media/7a.png">
+<img src = "04A-linear-transforms-media/8a.png">
 
 (a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross) 
 $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
-<div class = "answer"><img src = "04A-linear-transforms-media/7aA.png"></div>
+<div class = "answer"><img src = "04A-linear-transforms-media/8aA.png"></div>
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
@@ -269,21 +268,52 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 ### Problem 9.
 Matrix $\textbf{M}$ is a transformation matrix.<br>
 $\textbf{M} =  \begin{bmatrix} 
-    14 \ 7 \newline x \ 3  
+    2 \ 1 \newline x \ 4  
     \end{bmatrix}$
 
 (a) When $\textbf{M}$ is applied to a shape of area 3, the resulting area is 21 find $x$.
 <div class = "answer">
 $\Rightarrow{} \frac{21}{3} = \boxed{\text{det}(\textbf{M}) = 7}$<br>
-$\Rightarrow{} 42-7x=7$<br>
-$\Rightarrow{} \boxed{x=5}$
+$\Rightarrow{} 8-x=7$<br>
+$\Rightarrow{} \boxed{x=1}$
 </div>
 
-(b) Using the resource above, titled 'MathWorks - transformpointsforward', copy and complete the following code, in Matlab, to plot the points (1,2), (4,3), (1,0.5) and (0.25,3) before and after they are transformed by matrix $\textbf{M}$.
+(b) Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
 <div>
 
 ```matlab:Code
+%define matrix transformation
+M=[];
 
+%define coordinates of original square
+x=[-1 1 1 -1 -1];
+y=[-1 -1 1 1 -1];
+
+%preallocate transformed coordinate arrays with 0s
+X = zeros(1,5);
+Y = zeros(1,5);
+
+%loop through coordinates of original square and apply
+%the matrix transformation M to each
+for i = 1:length(x)
+    A = [x(i) ; y(i)];
+    A = M * A;
+
+    
+    %define transformed coordinates
+    X(i) = A(1,1);
+    Y(i) = A(2,1);
+end
+
+%plot both the original square and the the transformed shape
+hold all
+plot(x,y,'LineWidth',3)
+plot(X,Y,'LineWidth',3)
+
+%define the axis and legend
+axis([-6, 6, -6, 6])
+legend('Original','Transformation')
+grid on
 ```
 
 </div>
@@ -293,10 +323,13 @@ Matlab:
 <div>
 
 ```matlab:Code
-
+%define matrix transformation
+M=[2 1 ; 1 4];
 ```
 
 </div>
+<img src = "04A-linear-transforms-media/9bA.png"><br>
+You now have a crude matrix visualizer, try some different 2D transformation matrices.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
