@@ -9,7 +9,8 @@
 
 <!-- Depends on whether the notes are updated or not -->
 ## [External Link Notes](https://de1-engineering-mathematics.github.io/module-resources/media/DE1-Maths_notes.pdf)
-<br>
+
+## [Jump to Tutorial Sheets](#tutorial-sheets)
 
 ## Notes:
 ### Chapter 0 - [Refresher](notes\0-refresher)
@@ -31,14 +32,29 @@
 * __[3.1 - Matrix Operations](notes\2-vectors#matrix-operations)__
 * __[3.2 - Rules of Addition and Multiplication](notes\3-matrices#rules)__
 * __[3.3 - Transpose](notes\3-matrices#transpose)__
-* __[3.4 Square Matrices](notes\3-matrices#square-matrices)__
+* __[3.4 - Square Matrices](notes\3-matrices#square-matrices)__
 * __[3.5 - Inverses](notes\3-matrices#inverses)__
 * __[3.6 - Linear Systems](notes\3-matrices#linear-systems)__
 * __[3.7 - Labels](notes\3-matrices#labels)__
 
+### Chapter 4 - [Linear Transformations](notes\4-linear-transformations)
+* __[4.1 - Demystifying Linear Transformations](notes\4-linear-transformations#demystifying)__
+* __[4.2 - One Dimension](notes\4-linear-transformations#one-dimension)__
+* __[4.3 - Two Dimensions](notes\4-linear-transformations#two-dimensions)__
+* __[4.4 - Three Dimensions](notes\4-linear-transformations#three-dimensions)__
+* __[4.5 - Determinant and Inverse](notes\4-linear-transformations#determinant-and-inverse)__
+
+### Chapter 5 - [Eigenproblems](notes\5-eigenproblems)
+* __[5.1 - Definitions](notes\5-eigenproblems#definitions)__
+* __[5.2 - Calculating Eigensolutions](notes\5-eigenproblems#calculating-eigensolutions)__
+* __[5.3 - Finding All Eigenvalues](notes\5-eigenproblems#finding-all-values)__
+* __[5.4 - Finding All Eigenvectors](notes\5-eigenproblems#finding-all-vectors)__
+* __[5.5 - Interpretation Of Eigensolutions](notes\5-eigenproblems#interpretation-of-solutions)__
+
+
 <br>
 
-## Tutorial sheets:
+## <a id="tutorial-sheets"></a> Tutorial sheets:
 ### Term 1
 * __[1 - Refresher and Functions](tutorial_sheets\01-refresher-and-functions)__
 * __[2 - Vectors](tutorial_sheets\02-vectors)__
