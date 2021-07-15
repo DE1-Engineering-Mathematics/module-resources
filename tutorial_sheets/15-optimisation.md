@@ -523,7 +523,7 @@ $$
 
 (b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $a=0.5$ and $b=-0.5$.
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
