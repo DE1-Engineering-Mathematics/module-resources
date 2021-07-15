@@ -240,7 +240,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer">
+<div class = "answer" markdown="1">
 Using the Secant Formula:
 
 $$
@@ -517,7 +517,7 @@ end
 
 ```
 
-<div class = "answer">
+<div class = "answer" markdown="1">
 
 ```matlab: Code
 
