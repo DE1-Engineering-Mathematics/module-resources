@@ -267,7 +267,7 @@ The following image shows a regularly spaced grid of nodes representing the dist
 
 <div class = "answer">
 
-$\frac{\partial C}{\partial t}|_{i, n+1} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t} $
+$\boxed{\frac{\partial C}{\partial t}|_{i, n+1} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t}} $
 <br>
 Note: The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest (${C^{n+1}_i}$), and is independent of the spacial parameter ${x}$.
 
@@ -321,20 +321,23 @@ A metal bar is heated and its temperature is described by the following system o
 
 <div class = "answer">
 
-![figure2](14-finite-differences-media/finite-differences-q5a.png)
+<img scr="14-finite-differences-media/finite-differences-q5a.png">
 
 (i) Red line\
+<br>
 (ii) Green line\
+<br>
 (iii) Blue line
-
+<br>
 (i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
-
+<br>
 (ii) At $t>0$ the graph will be curved (which will eventually tend towards a straight line). Ensure that the temperature is 0 and 100 at the ends of the bar (green).
-
+<br>
 (iii) The temperature will always be constant at both ends (100 degrees at one end, and 0 degrees at the other). Therefore as t tends towards infinity, this will become a diagonal line from 100 degrees to 0 degrees (blue).
-
+<br>
 Matlab Animation
-![figure3](14-finite-differences-media/q5-graph-a.gif)
+<br>
+<img scr="14-finite-differences-media/q5-graph-a.gif">
 
 </div>
 
