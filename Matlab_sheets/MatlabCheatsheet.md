@@ -3,7 +3,7 @@
 
 ### Getting Started with Matlab
 These pages provide a very basic introduction to Matlab. The [Matlab OnRamp](https://uk.mathworks.com/learn/tutorials/matlab-onramp.html) 2 Hour course is a great way to start learning Matlab and understand it's potential, the pages below offer a fraction
-- [1. Getting Started with Matlab - Installation and Basics](./gettingStarted\Install_basics.md)
+- [1. Getting Started with Matlab - Installation and Basics](./gettingStarted/Install_basics.md)
 - [2. Getting Started with Matlab - Data types](./gettingStarted\DataTypes.md)
 - [3. Getting Started with Matlab - Arrays and Matrices](./gettingStarted\Arrays_Matrices.md)
 - [4. Getting Started with Matlab - Functions](./gettingStarted\functions.md)
