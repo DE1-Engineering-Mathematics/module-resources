@@ -518,7 +518,7 @@ end
 
 ```
 
-<span class = "answer">
+<div class = "answer">
 
 ```matlab: Code
 
@@ -555,7 +555,7 @@ end
 The root found was $\boxed{x=2.11}$ to 2dp.
 <br>
 See if you can write the code yourself for the other root finding methods!
-</span>
+</div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
