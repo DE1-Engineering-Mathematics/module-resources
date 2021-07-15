@@ -38,6 +38,7 @@ Find the answers to the following operations:
 (a) $A+B$
 <div markdown="1"> 
 Solving with the Matlab terminal:
+<div markdown="1"> 
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -45,6 +46,6 @@ b = [0 1 ; -2 3]
 
 a + b
 ```
-
+</div>
 $\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2\\0&2\end{pmatrix}}$
 </div>
