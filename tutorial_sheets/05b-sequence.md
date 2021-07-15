@@ -520,7 +520,7 @@ Method 2: We can calculate the sum of the profit using the formula for the sum o
 $\text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n(n+1)}{2}
 \\ \therefore (4 \times 365)\frac{(4 \times 365 + 1)}{2} \Rightarrow \boxed{£1,066,530}$</div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br><br><br<br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (b) Which option offers the best return after 40 years?
 <div class = "answer">
