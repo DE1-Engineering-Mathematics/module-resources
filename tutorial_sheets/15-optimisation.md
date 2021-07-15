@@ -560,6 +560,8 @@ When data sets are huge, [Stochastic Gradient Descent](https://www.youtube.com/w
 
 The method is advantageous as it makes the cost function converge faster when the dataset is large as it causes updates to the parameters more frequently.
 
+###### The learning rate is multiplied by the gradient to "advance" a certain distance towards the minimum. Usually, the learning rate varies because as the gradient is applied to the weights, the closer you get to the minimum and you don't want to "overshoot" the minimum. Check out the Stochastic Gradient Descent (link in blue above) for more insight!
+
 Considering the following function
 
 $$
@@ -576,7 +578,7 @@ Where y is a dataset containing the three $[x,y]$ points $[-3,4], [2.5,6], [0.3,
 
 (a) Determine the Jacobian vector of the cost function.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial a}, \frac{\partial C}{\partial b}\Bigg]
@@ -607,16 +609,20 @@ Tip: for the solution using WolframAlpha click on the text highlighted in blue!
 
 (b) With the initial guess of $a = 1$ and $b=1$, determine the new weights using the first data point $[-3,4]$
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
 $\Big]$
 
-Plug in all the variables into the Jacobian: a, b, x, y, r
-(r corresponds to the learning rate)
+Plug in all the variables into the Jacobian: a, b, x, y, and r
+(the learning rate)
+
+Note: click on the blue link to see Wolfram Alpha Code and the variables!
 
 To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
+
+Thus $a = 1 - (-11.350)$ and $b = 1 - 3.783$
 
 $$
 \boxed{a = 12.350 \text{ and } b = -2.783}
