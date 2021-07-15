@@ -280,9 +280,9 @@ In this case $p$ isn't greater than 1 so the series does not converge: it diverg
 
 (b) $\sum_{n=0}^{\infty{}}\frac{1}{\left(2n+1\right)!}$
 <div class = "answer">
-$\boxed{\text{Converges}}$
+$\boxed{\text{Converges}}$  <br>
 
-Solution:
+Solution:  <br>
 
 Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
 
@@ -301,9 +301,9 @@ Note: when testing for convergence the ratio test is the most common test to try
 
 (c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ \text{for}\ -1 < x < +1$
 <div class = "answer">
-$\boxed{\text{Converges}}$
+$\boxed{\text{Converges}}$  <br>
 
-Solution:
+Solution:  <br>
 
 The equation for sum of the series is:
 
@@ -328,10 +328,10 @@ i.e. since the limit isn't equal to 1, then as long as $\left\vert{}x\right\vert
 
 (d) $\sum_{n=1}^{\infty{}}\frac{ {1+3n}^2}{ {1+n}^2}$
 <div class = "answer">
-$\boxed{\text{Diverges}}$
+$\boxed{\text{Diverges}}$  <br>
 
 
-Solution:
+Solution:  <br>
 
 
 Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to non-zero value (i.e. the series is divergent at this stage).
