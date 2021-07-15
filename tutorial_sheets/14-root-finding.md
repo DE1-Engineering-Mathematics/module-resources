@@ -253,14 +253,14 @@ This iterative equation finds the root of the line constructed between the two p
 By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
 \begin{align*}
-& n&    &{x_n}&       f&(x_n)&\newline
+& n&    &{x_n} &f &(x_n)& \newline
 \hline
 & 0&     & 0& &1& \newline
 & 1&    -& 1& -&15& \newline
 & 2&    -& 0.0625& &0.4138& \newline
 & 3&   -& 0.0877& &0.1639& \newline
 & 4&   -& 0.1042& -&0.0041& \newline
-& 5&   -& 0.1038&	&0.0000& \newline
+& 5&   -& 0.1038& &0.0000& \newline
 \end{align*}
 
 You stop iterating if $f(x_n)$ is close enough to 0.
