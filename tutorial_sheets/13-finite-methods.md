@@ -42,7 +42,7 @@ Ignoring the $o(h)$ term, the first order FD approximation to $f_x(x_0)$ can be 
 \begin{equation*}
 f'(x_0)\approx\frac{f(x_0+h)-f(x_0)}{h}
 \end{equation*}
-\text{ }\newline
+\newline
 Substituting for $f(x)$ gives,
 \begin{equation*}
 f'(x_0)\approx\frac{(x_0+h)^2-x_{0}^2}{h}
@@ -268,8 +268,8 @@ The following image shows a regularly spaced grid of nodes representing the dist
 <div class = "answer">
 
 $\frac{\partial C}{\partial t}|_{i, n} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t} $
-
-(The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest ($\{C^{n+1}_i}$), and is independent of the spacial parameter ${x}$).
+<br>
+Note: The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest (${C^{n+1}_i}$), and is independent of the spacial parameter ${x}$.
 
 </div>
 
