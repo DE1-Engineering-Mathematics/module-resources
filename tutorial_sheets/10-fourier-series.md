@@ -108,7 +108,7 @@ $\Rightarrow{} \text{Period} = 3\pi$
 
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (b) 
 $f(t) = \left\\{ 
@@ -136,7 +136,7 @@ $\Rightarrow{} \text{Period} = 2\pi$
 
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (c) $f\left(p\right)=\left\\{\begin{array}{l}\frac{p^2}{2}\ \ \ \ \ 0 < p <4 \newline
     8\ \ \ \ \ \ 4 < p < 6 \newline
@@ -168,7 +168,7 @@ $\Rightarrow{} \text{Period} = 8$
 </script>
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (d) $f\left(q\right)=2q-q^2\ \ \ \ \ 0< q < 2$, for $-8 < q < 8$
  
@@ -196,7 +196,7 @@ $\Rightarrow{} \text{Period} = 2$
 </script>
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
 
