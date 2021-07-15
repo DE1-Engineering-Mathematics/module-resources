@@ -20,7 +20,11 @@ This particular tutorial sheet is short. Do not be alarmed! It reflects the low 
 ### Additional resources
 * [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
 
-<br><br><br><br>
+<br><br>
+
+In the answers, some wolfram alpha pages are linked in
+[blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
+<br>
 
 # Problem sheet
 ## Essential Questions
