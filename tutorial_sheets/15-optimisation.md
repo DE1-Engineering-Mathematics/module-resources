@@ -65,7 +65,7 @@ Additional lines added for the curious.
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 This is still a linear regression problem as the function is linear within it's parameters.
 
 $$
@@ -85,6 +85,10 @@ Rearranging:
 Using $(1)$,
 $$
 \sum_{i=1}^{3} (-y_ix_i^2 + ax_i^4 + bx_i^2) = 0,
+$$
+
+$$
+\sum_{i=1}^{3} ax_i^4 = -\sum_{i=1}^{3} (-y_ix_i^2 + bx_i^2),
 $$
 
 $$
