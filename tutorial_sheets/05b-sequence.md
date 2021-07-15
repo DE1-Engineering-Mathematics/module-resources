@@ -42,6 +42,8 @@ Because the numbers alternate from positive to negative we need to include $(-1)
 <br>
 $\Rightarrow\boxed{a_n=(-1)^{n+1}.(2n+1)}$ </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $2,\frac{3}{2},\frac{4}{3},\frac{5}{4},\frac{6}{5},...$
 <div class = "answer"> 
 The numerator of this fraction is an Arithmetic Series, with $a_1=2$ and $d=1$. 
@@ -52,12 +54,18 @@ $a_n=\frac{2 + (n-1)}{1+(n-1)}$
 <br>
 $\Rightarrow\boxed{a_n=\frac{n+1}{n}}$ </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c) $\frac{2}{3},\frac{3}{2\times{}4},\frac{4}{3\times{}5},\frac{5}{4\times{}6},\frac{6}{5\times{}7},...$
 <div class = "answer">$\Rightarrow\boxed{a_n=\frac{n+1}{n(n+2)}}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $1, 0,-e^2,0,e^4,...$
 <div class = "answer">
 $\Rightarrow\boxed{a_n=e^{n-1}\sin\left(\frac{n\pi}{2}\right)}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -71,11 +79,15 @@ Find the third, sixth and ninth term of the sequence given by the formula:
 \\ \\ \Rightarrow a_6=\frac{6^2-6-6}{6+2}= \frac{24}{8}=\boxed{3},
 \\ \\ \Rightarrow a_9=\frac{9^2-9-6}{9+2}=\frac{66}{11}=\boxed{6}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $ \sum_{n=1}^{\infty}\ \left(\text{sin⁡}[ \left(n+1\right)\frac{\pi{}}{3}]\right) $
 
 <div class = "answer">$\Rightarrow a_3=\sin(3+1)\frac{\pi{}}{3}=\sin(\frac{4\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}},
 \\ \\ \Rightarrow a_6=\sin(6+1)\frac{\pi{}}{3}=\sin(\frac{7\pi{}}{3})=\boxed{\frac{\sqrt{3}}{2}},
 \\ \\ \Rightarrow a_9=\sin(9+1)\frac{\pi{}}{3}=\sin(\frac{10\pi{}}{3})=\boxed{-\frac{\sqrt{3}}{2}}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $ \sum_{n=3}^{\infty}\ \left(\binom{n}{2}-\binom{n}{3} \right)$  
 
@@ -103,11 +115,15 @@ $\Rightarrow S_n= \frac{n}{2}(2a + d(n - 1))
 \\ = 10*14.2
 \\ = \boxed{142}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\sum_{n=1}^8n\left(3+2n+n^2\right)$
 <div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
 $\Rightarrow 3\sum_{n=1}^8n \ + \ 2\sum_{n=1}^8n^2 \ +\ \sum_{n=1}^8n^3\ 
 \\ = 3(\frac{8(8+1)}{2}) + 2(\frac{8(8+1)(16+1)}{6}) + \frac{64(8+1)^2}{4} 
 \\ = 108 + 408 + 1296 \\= \boxed{1812}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\sum_{r=1}^nr\left(r+3\right)$
 <div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
@@ -118,6 +134,8 @@ $\Rightarrow \sum_{r=1}^nr^2 \ + 3\sum_{r=1}^nr \\ \\
 = \frac{n}{3}(n^2+6n+5) \\ \\
 =\boxed{\frac{n}{3}\left(n+1\right)\left(n+5\right)}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (d) $\sum_{r=1}^n{\left(r+1\right)}^3$
 <div class = "answer">Break down into smaller sequences and use polynomial series identities: <br> 
 $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1}^n1 \\ \\
@@ -125,7 +143,8 @@ $\Rightarrow \sum_{r=1}^nr^3 \ + 3\sum_{r=1}^nr^2 \ +3\sum_{r=1}^nr \ +\sum_{r=1
 = \frac{n}{4}(n(n+1)^2 + 2(n+1)(2n+1) + 6(n+1) + 4) \\ \\
 = \frac{n}{4}(n^3 + 2n^2 + n + 4n^2 + 6n + 2 + 6n + 6 + 4) \\ \\
 = \boxed{\frac{n}{4}(n^3 + 6n^2 + 13n + 12)}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -140,6 +159,8 @@ $= 4\sum_{n=1}^nn^2 \ -4\sum_{n=1}^nn \ + \sum_{n=1}^n1 \\
 = \frac{n}{3}(4n^2 + 6n + 2 - 6n - 6 + 3) \\ 
 \Rightarrow\boxed{S_n=\frac{n}{3}\left(4n^2-1\right)}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) $S_n=5-\frac{5}{2}+\frac{5}{4}-\frac{5}{8}+ . . . +\frac{ {\left(-1\right) }^{n-1}5}{2^{n-1}}$
 
 <div class = "answer"> Use the sum of a Geometric Series, with $a_1=5$ and $r=\frac{-1}{2}$: <br>
@@ -147,7 +168,7 @@ $= 5\frac{1-(\frac{-1}{2})^n}{1-(\frac{-1}{2})} \\
 = 5\frac{1+\frac{\left(-1\right)^{n+1}}{2^n}}{\frac{3}{2}} \\
 \Rightarrow\boxed{S_n=\frac{10}{3}\left\{1+\frac{\left(-1\right)^{n+1}}{2^n}\right\}\ }$</div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------------------------------------------------------
@@ -160,9 +181,12 @@ Find the limiting values of the following:
 As $x$ tends to infinity, $\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}$ tends to the highest powers of $x$, which is $\frac{3x^2}{5x^2}$. Since the $x^2$ terms cancel out, $\frac{3}{5}$ is left. <br>
 $\boxed{\frac{ {3x}^2+5x-4}{ {5x}^2-x+7}\rightarrow{}\frac{3}{5}, \text{ as } x\rightarrow{}\infty{}}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\frac{x^2+5x-4}{ {2x}^2-3x+1}\ \text{as}\ x\rightarrow{}\infty{}$
 <div class = "answer">As $x$ tends to infinity, $\frac{x^2+5x-4}{ {2x}^2-3x+1}$ tends to the highest powers of $x$, which is $\frac{x^2}{2x^2}$. Since the $x^2$ terms cancel out, $\frac{1}{2}$ is left. <br>
 $\boxed{\frac{x^2+5x-4}{ {2x}^2-3x+1}\rightarrow{}\frac{1}{2}, \text{ as } x\rightarrow{}\infty{}}$</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -177,11 +201,15 @@ $= \sum_{r=1}^{n}\ (2-4r)^2 = \sum_{r=1}^{n}\ 4 - 16\sum_{r=1}^{n}\ r + 16\sum_{
             = \frac{4}{3}n(4n^2 -1) \\
             \Rightarrow \boxed{\frac{4}{3}n(2n-1)(2n+1)}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) Hence evaluate $S=\sum_{r=20}^{60}\ (2-4r)^2$
 <div class = "answer">
 $S=\sum_{r=20}^{60}\ (2-4r)^2 \\
 = \frac{4}{3}(60)(119)(121) - \frac{4}{3}(19)(37)(39) \\
         \Rightarrow \boxed{1115364}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -195,11 +223,15 @@ $\sum_{r=1}^{n}\ (4r-2) \\
             \Rightarrow \boxed{2n^2}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) Show that $\frac{ \sum_{r=1}^{n}\ (2r-1)}{\sum_{r=n+1}^{2n}\ (2r-1)} = k$, where $k$ is constant to be determined. 
 <div class = "answer">$\frac{ \sum_{r=1}^{n}\ (2r-1)}{\sum_{r=n+1}^{2n}\ (2r-1)} \\
             = \frac{n^2}{(2n)^2 -n^2} \\
             =\frac{n^2}{3n^2}\\
             \Rightarrow \boxed{ \frac{1}{3} = k}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Use standard series formulae to show that $\sum_{r=1}^{n}\ r^2(6-8r) = n(n+1)(1-2n^2)$
 <div class = "answer">
@@ -208,6 +240,8 @@ $\sum_{r=1}^{n}{r^2(6-8r)}\ = 6\sum_{r=1}^{n}{r^2}\ - 8\sum_{r=1}^{n}{r^3} \\
        = n(n+1)[(2n+1)-2n(n+1)]\\
        \Rightarrow \boxed{n(n+1)(1-2n^2)}$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -242,11 +276,13 @@ $b_n = \frac{1}{n} = n^{-1}$
 In this case $p$ isn't greater than 1 so the series does not converge: it diverges.
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) $\sum_{n=0}^{\infty{}}\frac{1}{\left(2n+1\right)!}$
 <div class = "answer">
-$\boxed{\text{Converges}}$
+$\boxed{\text{Converges}}$  <br>
 
-Solution:
+Solution:  <br>
 
 Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to zero (i.e. the series is not divergent at this stage).
 
@@ -261,11 +297,13 @@ $\therefore$ The series is convergent.
 <br><br>
 Note: when testing for convergence the ratio test is the most common test to try first after the $n^{th}$ term test (or "Test for Divergence" as written in the notes). If that test fails then try another one.</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (c) $\frac{x}{1\times{}2}+\frac{x^2}{2\times{}3}+\frac{x^3}{3\times{}4}+…,\ \text{for}\ -1 < x < +1$
 <div class = "answer">
-$\boxed{\text{Converges}}$
+$\boxed{\text{Converges}}$  <br>
 
-Solution:
+Solution:  <br>
 
 The equation for sum of the series is:
 
@@ -286,12 +324,14 @@ Therefore, the series converges for $\left\vert{}x\right\vert{}<1$.
 i.e. since the limit isn't equal to 1, then as long as $\left\vert{}x\right\vert{}$ is less than one the series converges.
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (d) $\sum_{n=1}^{\infty{}}\frac{ {1+3n}^2}{ {1+n}^2}$
 <div class = "answer">
-$\boxed{\text{Diverges}}$
+$\boxed{\text{Diverges}}$  <br>
 
 
-Solution:
+Solution:  <br>
 
 
 Using $n^{th}$ term test (or "Test for Divergence" as written in the notes), it is indicated that as $n$  index goes to infinity, the terms go to non-zero value (i.e. the series is divergent at this stage).
@@ -303,9 +343,7 @@ $$
 $$
 </div>
 
-
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -351,6 +389,8 @@ $$
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) $ \sum_{n=1}^{\infty{}}\frac{(n+1)}{n^3}X^n $
 <div class = "answer">
 Answer: $\boxed{\text{Convergent for }-1\leq{}X\leq{}1}$. <br><br>
@@ -386,6 +426,8 @@ At\ X=-1,\\
 $$
 
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 (c) $ \sum_{n=1}^{\infty{}}(\ln{n)}X^n $
 
@@ -423,6 +465,8 @@ Note: The $n^{th}$ term test showed that
 $\lim_{n\to\infty}$ of $a_n$ goes to zero only for $-1 < X <1$. However, the test only shows whether the function diverges and does not test the convergency. Hence, the ratio test must be conducted.  
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (d) $ \sum_{n=0}^{\infty{}}\frac{3^nX^n}{n!} $
 
 <div class = "answer">
@@ -439,7 +483,8 @@ $$ \lim_{n\rightarrow{}\infty{}}{\left\vert{}\frac{a_{n+1}}{a_n}\right\vert{}=}\
 
 The function will always converge no matter what the value of $X$ is.
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -475,6 +520,8 @@ Method 2: We can calculate the sum of the profit using the formula for the sum o
 $\text{The sum of this series is: } \quad S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{n(n+1)}{2}
 \\ \therefore (4 \times 365)\frac{(4 \times 365 + 1)}{2} \Rightarrow \boxed{£1,066,530}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (b) Which option offers the best return after 40 years?
 <div class = "answer">
 
@@ -496,6 +543,8 @@ The return will be: $ £106,587,300 $ <br>
 So the option with the best return is $\Rightarrow \boxed{\text{Option 3}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (c) Draw a graph showing the profit vs. time for the three options over 40
 years.
 <div class = "answer">
@@ -507,6 +556,8 @@ Pink = option 2
 Purple = option 3
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 (d) Write down an expression for the difference between the profits of the
 second and third options as a function of the number of days since
 investing, 𝑁.
@@ -515,11 +566,14 @@ $\frac{N(N+1)}{2} = 1.0003^N - 1
 \\ \Rightarrow \boxed{f(N) = 1.0003^N - 1 - \frac{N(N+1)}{2}}$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (e) Give an interpretation of the roots of this function.
 <div class = "answer">
 $\Rightarrow$ The days of investment after which it would be more profitable to have adopted the other strategy.
 $\\$
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -536,8 +590,9 @@ For a sequence to be increasing: $ S_{n+1} - S_n > 0
 \\ \qquad \quad \quad \ = \frac{4n+3}{(2n + 1)(2n+2)} - \frac{2}{2n+2}
 \\ \qquad \quad \quad \ = \frac{(4n+3) - 2(2n+1)}{(2n + 1)(2n+2)}
 \\ \qquad \quad \quad \ = \frac{1}{(2n + 1)(2n+2)} > 0 \Rightarrow \text{The sequence is increasing}$
-
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 12.
 
@@ -557,8 +612,10 @@ $4^2, \ 5^2, \ 6^2, \ 7^2, \ ?, \ 9^2,... $
 <br>
 so the missing number will be $8^2 = 64$ and if we reverse the digits we have our final answer
 $\Rightarrow\boxed{46}$
-
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 <br><br>
 
 ## Answers
