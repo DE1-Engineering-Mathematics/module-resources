@@ -37,7 +37,10 @@ Using a table, the highlighted cells (red = negative, green = positive) show the
 <br>
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
-Alternative Method:\
+<br>
+Alternative Method:
+
+
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
 
 \begin{aligned}
