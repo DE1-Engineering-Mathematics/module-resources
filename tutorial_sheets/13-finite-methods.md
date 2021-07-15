@@ -328,13 +328,13 @@ A metal bar is heated and its temperature is described by the following system o
 (ii) Green line
 <br>
 (iii) Blue line
-<br>
+<br><br>
 (i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
 <br>
 (ii) At $t>0$ the graph will be curved (which will eventually tend towards a straight line). Ensure that the temperature is 0 and 100 at the ends of the bar (green).
 <br>
 (iii) The temperature will always be constant at both ends (100 degrees at one end, and 0 degrees at the other). Therefore as t tends towards infinity, this will become a diagonal line from 100 degrees to 0 degrees (blue).
-<br>
+<br><br>
 Matlab Animation:
 <br>
 <img src="14-finite-differences-media/q5-graph-a.gif">
@@ -353,20 +353,23 @@ Matlab Animation:
 
 <div class = "answer">
 
-![figure5](14-finite-differences-media/finite-differences-q5b.png)
-
-(i) Red line\
-(ii) Green line\
+<src img="14-finite-differences-media/finite-differences-q5b.png">
+<br>
+(i) Red line
+<br>
+(ii) Green line
+<br>
 (iii) Blue line
-
+<br><br>
 (i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
-
+<br>
 (ii) At $t>0$ e.g. $t=a$, the bar has a constant temperature gradient at both ends (0 at (-) end which we can think of as an insulating barrier- letting no heat in or out, and 10 at (+) end we can think of this as a controlled heat source, like a laser). Therefore the shape of the graph follows a curved shape. (green)
-
+<br>
 (iii) At $t=b$: Since this system is gaining heat at one end and not losing any heat at the other, it will  keep getting hotter and hotter (shifted higher up graph), although the shape of the temperature profile will stay the same for $t≥a$. (blue)
-
-Matlab Animation
-![figure5](14-finite-differences-media/q5-graph-b.gif)
+<br><br>
+Matlab Animation:
+<br>
+<src img="14-finite-differences-media/q5-graph-b.gif">
 
 </div>
 
