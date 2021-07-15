@@ -55,9 +55,9 @@ $\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2 \newline 0&2\end{pmatrix}}$
 </div>
 
 (b) $A-B$
-<div class = "answer" markdown="1">
+<div class = "answer">
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -89,7 +89,7 @@ $\Rightarrow{}\quad \boxed{ \begin{pmatrix}-2&4\\2&-1\end{pmatrix}}$</div>
 (d) $BA$
 <div class = "answer">
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -107,7 +107,7 @@ $\Rightarrow{}\ \
 \begin{pmatrix}4(1)+\frac{1}{2}(0)&4(1)+\frac{1}{2}(0)\\4(2)+\frac{1}{2}(-2)&4(-1)+\frac{1}{2}(3)\end{pmatrix}$ <br><br>
 
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -125,7 +125,7 @@ $\begin{pmatrix}1&1\\2&-1\end{pmatrix}\begin{pmatrix}0&1\\-2&3\end{pmatrix}^T$ <
 $\Rightarrow{} \quad \begin{pmatrix}1&1\\2&-1\end{pmatrix}\begin{pmatrix}0&-2\\1&3\end{pmatrix}$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}1(0)+1(1)&1(-2)+1(3)\\2(0)+-1(1)&2(-2)+-1(3)\end{pmatrix}$ <br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -144,7 +144,7 @@ $\begin{pmatrix}0&1\\-2&3\end{pmatrix}\begin{pmatrix}1&1\\2&-1\end{pmatrix}^T$ <
 $\Rightarrow{} \quad \begin{pmatrix}0&1\\-2&3\end{pmatrix}\begin{pmatrix}1&2\\1&-1\end{pmatrix}$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}0(1)+1(1)&0(2)+1(-1)\\-2(1)+3(1)&-2(2)+3(-1)\end{pmatrix}$ <br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -163,7 +163,7 @@ $\begin{pmatrix}0&1\\-2&3\end{pmatrix}^T\begin{pmatrix}1&1\\2&-1\end{pmatrix}^T$
 $\Rightarrow{} \quad \begin{pmatrix}0&-2\\1&3\end{pmatrix}\begin{pmatrix}1&2\\1&-1\end{pmatrix}$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}0(1)+-2(1)&0(2)+-2(-1)\\1(1)+3(1)&1(2)+3(-1)\end{pmatrix}$ <br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -181,7 +181,7 @@ $\Rightarrow{} \quad \boxed{\begin{pmatrix}-2&2\\4&-1\end{pmatrix}}$</div>
 <div class = "answer">$\Rightarrow{}\quad \begin{vmatrix}1&1\\2&-1\end{vmatrix}$
 $\quad\Rightarrow{}\quad 1(-1)-2(1) \ \ \Rightarrow{}\ \boxed{ -3}$<br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -197,7 +197,7 @@ $\frac{1}{det A}\begin{pmatrix}-1&-1\\-2&1\end{pmatrix}$
 $\quad \Rightarrow{}\quad -\frac{1}{-3}\begin{pmatrix}-1&-1\\-2&1\end{pmatrix}$
 $\Rightarrow{}\quad \boxed{\begin{pmatrix}\frac{1}{3}&\frac{1}{3}\\\frac{2}{3}&-\frac{1}{3}\end{pmatrix}}$<br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -225,7 +225,7 @@ Find the answers to the following operations, if they exist:
 (a) $A+B$
 <div class = "answer">
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [2 0 ; 3 -1 ; 1 4]
@@ -242,7 +242,7 @@ $\Rightarrow{}\quad
 (b) $A-B$
 <div class = "answer">
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a - b
@@ -257,7 +257,7 @@ $\Rightarrow{}\quad
 $\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix}\begin{pmatrix}1&3&5&7\\2&4&6&8\end{pmatrix}$ <br>
 $\Rightarrow{}\ \ \begin{pmatrix}2(1)+0(2)&2(3)+0(4)&2(5)+0(6)&2(7)+0(8)\\3(1)+-1(2)&3(3)+-1(4)&3(5)+-1(6)&3(7)+-1(8)\\1(1)+4(2)&1(3)+4(4)&1(5)+4(6)&1(7)+4(8)\end{pmatrix}$ <br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a * c
@@ -277,7 +277,7 @@ $\Rightarrow{}\ \ \boxed{\begin{pmatrix}2&6&10&14\\1&5&9&13\\9&19&29&39\end{pmat
 $\Rightarrow{}\ \ \begin{pmatrix}2(-1)+3(5)+1(7)&2(-3)+3(2)+1(1)\\0(-1)-1(5)+4(7)&0(-3)-1(2)+4(1)\end{pmatrix}$
 $\Rightarrow{}\ \ \boxed{\begin{pmatrix}20&1\\23&2\end{pmatrix}}$<br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = transpose(a)
@@ -290,7 +290,7 @@ a * b
 <div class = "answer">$\Rightarrow{}\ \ \begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}^T\ \Rightarrow{}\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&5&7\\-3&2&1\end{pmatrix}$ <br>
 $\Rightarrow{} \begin{pmatrix}2(-1)+0(-3)&2(5)+0(2)&2(7)+0(1)\\3(-1)-1(-3)&3(5)-1(2)&3(7)-1(1)\\1(-1)+4(-3)&1(5)+4(2)&1(7)+4(1)\end{pmatrix}\ \ \ \ \Rightarrow{}\ \ \boxed{\begin{pmatrix}-2&10&14\\0&13&20\\-13&13&11\end{pmatrix}}$<br><br>
 Otherwise solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 b = transpose(b)
@@ -321,7 +321,7 @@ $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} =
 $\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$
 <br>
 (Finding the inverse with the Matlab terminal):
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [3 2 1 ; 3 0 5 ; 2 4 -4]
@@ -341,7 +341,7 @@ Evaluate the following determinants and state whether the matrix is singular or 
 <div class = "answer">$\Rightarrow{}$
 $20(2)-6(1) \ \Rightarrow{}\ \boxed{34} \Rightarrow{}\ \boxed{\text{non-singular}}$<br>
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [20 6 ; 1 2]
@@ -355,7 +355,7 @@ det(a)
 <div class = "answer">$\Rightarrow{}\ \ 1\begin{vmatrix}3&9\\4&12\end{vmatrix}-2\begin{vmatrix}1&9\\1&12\end{vmatrix}+6\begin{vmatrix}1&3\\1&4\end{vmatrix}$ <br>
 $\Rightarrow{}\ \ 1[3(13)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ \boxed{0} \Rightarrow{}\ \boxed{\text{singular}}$<br>
 Solving with the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 2 6 ; 1 3 9 ; 1 4 12]
@@ -375,7 +375,7 @@ $\Rightarrow{}\ \ \boxed{\nu^3(\mu-\lambda)+\mu^3(\lambda-\nu)+\lambda^3(\nu-\mu
 (d) $\begin{vmatrix}4&9&12&52&84 \newline 2&28&30&28&7 \newline 2&5&8&92&34 \newline 14&2&37&56&9 \newline 12&35&82&2&28 \end{vmatrix}$
 <div class = "answer">$\Rightarrow{}\ \ \boxed{-48100996} \Rightarrow{}\ \boxed{\text{non-singular}}$<br>
 It is only reasonable to solve this using a tool such as the Matlab terminal:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [4 9 12 52 84 ; 2 28 30 28 7 ; 2 5 8 92 34 ; 14 2 37 56 9 ; 12 35 82 2 28]
@@ -406,7 +406,7 @@ $\Rightarrow{}\quad C_A^T=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$
 $\Rightarrow{}\quad A^{-1}=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$ <br><br>
 $\Rightarrow{} \quad M=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix} \begin{pmatrix}1&1\\2&2\\1&1\end{pmatrix}\begin{pmatrix}1/2&-1/2\\-1/2&3/2\end{pmatrix} \quad\Rightarrow{} \quad \boxed{M=\begin{pmatrix}0&-2\\0&4\\0&1\end{pmatrix}}$<br><br>
 Otherwise solving, simply, with Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [2 1 1 ; 1 1 0 ; 0 0 1]
@@ -438,7 +438,7 @@ $\Rightarrow{}\quad \boxed{ adj(A) = C^T = \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3
 $\Rightarrow{}\quad A^{-1} = \frac{1}{det(A)}adj(A) = \frac{1}{3} \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3&1\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \boxed{AA^{-1} = \begin{pmatrix}1&2&3\\1&3&5\\1&5&12\end{pmatrix} \begin{pmatrix}11/3 & -9/3 & 1/3 \\-7/3 & 9/3 & -2/3\\ 2/3 & -3/3 & 1/3 \end{pmatrix} = \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}}$ <br><br>
 Otherwise solving, simply, with Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 2 3 ; 1 3 5 ; 1 5 12]
@@ -473,7 +473,7 @@ $\Rightarrow{}\quad \begin{pmatrix}x  \newline  y  \newline  z\end{pmatrix} = \f
 
 $\Rightarrow{}\quad \boxed{x=3, \quad y=2, \quad z=2}$ <br><br>
 Solving using Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 1 1 ; 2 -1 2 ; 3 2 -1]
@@ -522,7 +522,7 @@ $\Rightarrow{}\quad \begin{pmatrix}v \newline w \newline x  \newline  y  \newlin
 
 $\Rightarrow{}\quad \boxed{v=1, \quad w=5, \quad x=2, \quad y=8, \quad z=2}$ <br><br>
 It would be unreasonable to calculate this by hand, therefore a tool like Matlab is needed and can be used as shown:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [2 3 7 1 1 ; 0 1 8 0 11 ; 8 1 0 7 3 ; 9 2 2 1 0 ; 0 6 0 9 4]
@@ -662,7 +662,7 @@ $C = \begin{bmatrix} \
 (a) Find the determinant of $A$
 <div class = "answer">$detA= 1(1)-2(3)+0 = \boxed{-5}$ [1 mark]<br>
 Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 a = [1 2 0 ; 3 1 0 ; 5 0 1]
@@ -677,7 +677,7 @@ $A^{-1}|A| = \boxed{\begin{bmatrix}
 1 & -2 & 0 \\ -3 & 1 & 0 \\ -5 & 10 & -5
 \end{bmatrix}}$ [3 marks]<br>
 Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 x = inv(a)
@@ -693,7 +693,7 @@ $(A^{T})^{-1} = (A^{-1})^T = \boxed{\frac{1}{-5} \begin{bmatrix}
 1 & -3 & -5 \\ -2 & 1 & 10 \\ 0 & 0 & -5
 \end{bmatrix}}$ [2 marks]<br>
 Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 x = transpose(a)
@@ -708,7 +708,7 @@ $BA = \boxed{\begin{bmatrix}
 27 & 9 & 3 \\ 27 & 9 & 3
 \end{bmatrix}}$<br>
 Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 b = [3 3 3 ; 3 3 3]
