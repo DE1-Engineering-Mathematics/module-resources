@@ -323,9 +323,9 @@ A metal bar is heated and its temperature is described by the following system o
 
 <img src="14-finite-differences-media/finite-differences-q5a.png">
 <br>
-(i) Red line\
+(i) Red line
 <br>
-(ii) Green line\
+(ii) Green line
 <br>
 (iii) Blue line
 <br>
