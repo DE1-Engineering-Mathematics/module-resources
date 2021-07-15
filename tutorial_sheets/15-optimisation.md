@@ -15,7 +15,11 @@
 
 # Optimisation Tutorial Sheet, #15
 
-<br><br><br><br>
+<br>
+
+In the answers, some wolfram alpha pages are linked in
+[blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
+<br>
 
 # Problem sheet
 ## Essential Questions
@@ -67,7 +71,7 @@ Additional lines added for the curious.
 ### Problem 2.
 Find the line of best fit, using minimised sum squared residuals, of the form $y = ax^2 + b$, through the points (2,1), (3,5), and (7,9). Plot the resulting cure, points, and residuals.
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 This is still a linear regression problem as the function is linear within it's parameters.
 
 $$
@@ -90,7 +94,7 @@ $$
 $$
 
 $$
-\sum_{i=1}^{3} ax_i^4 = -\sum_{i=1}^{3} (-y_ix_i^2 + bx_i^2),
+\therefore \sum_{i=1}^{3} ax_i^4 = -\sum_{i=1}^{3} (-y_ix_i^2 + bx_i^2),
 $$
 
 $$
@@ -100,6 +104,10 @@ $$
 Using $(2)$,
 $$
 \sum_{i=1}^{3} (y_i - ax_i^2 - b) = 0,
+$$
+
+$$
+\therefore \sum_{i=1}^{3} b = \sum_{i=1}^{3}(y_i - ax_i^2),
 $$
 
 $$
@@ -334,13 +342,13 @@ $$
 \frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2
 $$
 
-Using the chain rule, 
+Using the chain rule, (inspired by Wolfram Alpha's Step-by-Step solution)
 
 $$
-\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial }{\partial u} \times \frac{\partial u}{\partial \omega }
+\frac{\partial}{\partial \omega }\Big(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Big)^2 = \frac{\partial u^2}{\partial u} \times \frac{\partial u}{\partial \omega }
 $$
 
-where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial }{\partial u} = 2u$
+where $u = \frac{\omega }{\beta  +e^{-x_i}}-y(x_i)$ and $\frac{\partial u^2}{\partial u} = 2u$
 $$
 = 2\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg(\frac{\partial}{\partial \omega }\Bigg(\frac{\omega }{\beta  +e^{-x_i}}-y(x_i)\Bigg)\Bigg)
 $$
@@ -469,17 +477,21 @@ $$
 $$
 
 $$
-\frac{\partial C}{\partial a} = -\frac{1}{n}\sum^n_i \frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}
+\boxed{\frac{\partial C}{\partial a} = -\frac{1}{n}\sum^n_i \frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}}
 $$
 
 <a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b">$$\frac{\partial}{\partial b }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 =-\frac{2ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}$$</a>
+
+$$
+\boxed{\frac{\partial C}{\partial b} = \frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}}
+$$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 (b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $a=0.5$ and $b=-0.5$.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
@@ -551,7 +563,7 @@ Where y is a dataset containing the three $[x,y]$ points $[-3,4], [2.5,6], [0.3,
 
 (a) Determine the Jacobian vector of the cost function.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial a}, \frac{\partial C}{\partial b}\Bigg]
@@ -578,11 +590,13 @@ $$
 
 (b) With the initial guess of $a = 1$ and $b=1$, determine the new weights using the first data point $[-3,4]$
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
 $\Big]$
+
+(r corresponds to the learning rate)
 
 To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
 
@@ -595,7 +609,7 @@ $$
 
 (c) Determine the new weights using the second data point $[2.5,6]$
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">-8.482</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">    -3.392</a>
