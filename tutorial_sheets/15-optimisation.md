@@ -460,6 +460,9 @@ $[1,3.4]$, $[-2.3,0.5]$, $[2.2,-3]$, $[4.7,-6]$
 
 <div class = "answer">
 
+Starting with $\frac{\partial}{\partial a }$:
+<br>
+
 $$
 \frac{\partial C}{\partial a} = \frac{\partial}{\partial a}\frac{1}{2n}\sum^n_i{\Big(\gamma(x_i)-y(x_i)\Big)^2} 
 $$
@@ -470,20 +473,30 @@ $$
 
 Using the method that you want, determine:
 
-<a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+a">$$\frac{\partial}{\partial a }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 = -\frac{2x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}$$</a>
+$$\frac{\partial}{\partial a }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 = -\frac{2x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}$$
+<br>
+Note: this can be solved easily on WolframAlpha.
+<a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+a">Link</a>
 
 $$
 \frac{\partial C}{\partial a} = \frac{1}{2n}\sum^n_i -\frac{2x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}
 $$
 
 $$
-\boxed{\frac{\partial C}{\partial a} = -\frac{1}{n}\sum^n_i \frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}}
+\therefore \boxed{\frac{\partial C}{\partial a} = -\frac{1}{n}\sum^n_i \frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}}
 $$
 
-<a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b">$$\frac{\partial}{\partial b }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 =-\frac{2ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}$$</a>
+<br>
+Next, solving $\frac{\partial}{\partial b }$ in a similar way:
+<br>
+
+$$\frac{\partial}{\partial b }\Big(\frac{ax_i }{e^{x_i}+b}-y(x_i)\Big)^2 =-\frac{2ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}$$
+<br>
+Note: this can be solved easily on WolframAlpha.
+<a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b">Link</a>
 
 $$
-\boxed{\frac{\partial C}{\partial b} = \frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}}
+\therefore \boxed{\frac{\partial C}{\partial b} = \frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}}
 $$
 
 </div>
