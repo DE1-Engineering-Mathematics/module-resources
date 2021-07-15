@@ -36,7 +36,7 @@ Given the matrices: $A=\begin{pmatrix}1&1 \newline 2&-1\end{pmatrix}$ and $B=\be
 Find the answers to the following operations:
 
 (a) $A+B$
-<div class = "answer" markdown="1"> 
+<div markdown="1"> 
 Solving with the Matlab terminal:
 
 ```matlab:Code
