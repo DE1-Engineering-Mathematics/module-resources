@@ -252,7 +252,6 @@ This iterative equation finds the root of the line constructed between the two p
 
 By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
-<br>
 \begin{align*}
 & n&    &{x_n} &f &(x_n)& \newline
 \hline
