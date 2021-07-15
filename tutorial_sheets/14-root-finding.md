@@ -163,7 +163,7 @@ Alternative method:
 
 We can also use the same method as in problem 1 and use a table to find the root.
 
-
+<br>
 <img src = "15-root-finding-media/root-finding-q2.png" width = "500" height= "200">
 <br>
 
@@ -193,12 +193,11 @@ When deciding which points to start with, its important to remember your curve s
 
 What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... To understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
 
-Link to Wolfram Alpha:
-https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0
+<br>
+<a href = "https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0">Link to Wolfram Alpha<\a>
 
-
+<br>
 The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
-
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -264,9 +263,10 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 \end{align*}
 
 You stop iterating if $f(x_n)$ is close enough to 0.
+<br>
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
-
+<br>
 Alternatively this could be solved using code (e.g. Matlab). An example of the Matlab script is given below (it requires user input rather than editing the script, but you could do it either way).
 
 ```matlab:Code
@@ -290,6 +290,7 @@ for i=3:1000
     end
 end
 ```
+<br>
 The root found by these start points will then be returned. (for this question $\boxed{x = -0.1038}$ to 4 dp.)
 
 
@@ -379,6 +380,7 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 \end{align*}
 
 You stop iterating if $f(x_n)$ is close enough to 0.
+<br>
 
 $\therefore$ the root of the equation is $\boxed{x=0.8654}$ to 4 dp.
 </div>
@@ -421,7 +423,7 @@ x_5=x_4-\frac{f(x_4)}{f'(x_4)}=-1.860805855
 $$
 
 The root is $\boxed{x=-1.86}$ correct to 2dp. This took 5 iterations.
-
+<br>
 Alternatively you could use Matlab or Python code to solve this.
 
 </div>
