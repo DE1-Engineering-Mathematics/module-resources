@@ -34,7 +34,7 @@ Using a table, the highlighted cells (red = negative, green = positive) show the
 
 <img src = "15-root-finding-media/root-finding-q1.png" width = "500" height= "120">
 
-<br><br>
+<br>
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
 Alternative Method:\
