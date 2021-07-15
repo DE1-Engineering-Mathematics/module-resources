@@ -596,6 +596,7 @@ $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">-11.350</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+-3%2C+y%3D4%2C+a%3D1%2C+b%3D1%2C+r%3D0.25">    3.783</a>
 $\Big]$
 
+Plug in all the variables into the Jacobian: a, b, x, y, r
 (r corresponds to the learning rate)
 
 To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
