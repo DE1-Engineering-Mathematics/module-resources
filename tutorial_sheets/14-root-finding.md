@@ -518,7 +518,7 @@ end
 
 ```
 
-<div class = "answer" markdown = "1">
+<div class = "answer" markdown="1">
 
 ```matlab: Code
 function Newton_Raphson_Method
