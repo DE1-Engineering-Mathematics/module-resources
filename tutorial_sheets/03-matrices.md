@@ -66,7 +66,8 @@ a - b
 ```
 
 </div>
-$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0\\4&-4\end{pmatrix}}$</div>
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0\\4&-4\end{pmatrix}}$
+</div>
 
 (c) $AB$
 <div class = "answer">
