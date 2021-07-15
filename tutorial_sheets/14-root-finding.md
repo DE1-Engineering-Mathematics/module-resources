@@ -269,8 +269,7 @@ $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
 <br>
 Alternatively this could be solved using code (e.g. Matlab). An example of the Matlab script is given below (it requires user input rather than editing the script, but you could do it either way).
 
-<code>
-
+```matlab:Code
 % Secant Method Example Code in MATLAB
  
 a=input('Enter function:','s');                %Prompts you to type in equation
@@ -290,8 +289,7 @@ for i=3:1000
         break
     end
 end
-</code>
-
+```
 <br>
 The root found by these start points will then be returned. (for this question $\boxed{x = -0.1038}$ to 4 dp.)
 
