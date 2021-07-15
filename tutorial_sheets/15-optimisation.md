@@ -399,7 +399,7 @@ Alternatively, the expressions can also be found easily using WolframAlpha:
 
 (b) Calculate a Jacobian vector of the cost function, $\vec{J_C}$, at the initial point $\omega=1$ and $\beta=0$.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 $$
 \vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
@@ -416,6 +416,25 @@ An easy way to calculate the Jacobian vector is using a table like the one below
 | 1 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">-6.02992</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">16.391</a> |
 | 0.8 | 2 | <a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">-0.501951</a> | <a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">1.11711</a> |
 | $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | 3.248257 | -6.70658 |
+
+\begin{align*}
+& &    & &       &\text{wrt } w&     &\text{wrt } b&   \newline
+\hline
+ \newline
+&x&    &y(x)&   & \frac{e^{x}(y(x)+e^{x}(-\omega + \beta y(x)}{(1+\beta e^{x})^2}&     & \frac{\omega (\frac{\omega}{\beta + e^{-x}}-y(x))}{(\beta + e^{-x_i})^2} & \newline
+&0.25&    &-0.3&   & -3.2129 &     &2.61162&       \newline
+&1&    &0.5&   &6.02992&    &16.391&      \newline
+&0.8&   &2&    &-0.501951&     &1.11711&       \newline
+& -\frac{1}{n}\sum^n_i &    & \text{(mean of negatives)} &   &3.248257&   &-6.70658&   
+\end{align*}
+
+<a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.5%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0">-3.2129</a>
+<a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3">2.61162</a>
+<a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">-6.02992</a>
+<a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+1%2C+y%3D0.5%2C+w%3D1%2C+b%3D0">16.391</a>
+<a href="https://www.wolframalpha.com/input/?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">-0.501951</a>
+<a href="https://www.wolframalpha.com/input/?i=%28w%28%28w%2F%28b%2Be%5E-x%29%29-y%29%29%2F%28b%2Be%5E-x%29%5E2+with+x+%3D+0.8%2C+y%3D2%2C+w%3D1%2C+b%3D0">1.11711</a>
+
 
 Note: the blue numbers are links which will show you how the number was calculated using WolframAlpha!
 <br>
