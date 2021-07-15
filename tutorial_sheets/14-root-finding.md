@@ -306,7 +306,7 @@ Find a positive real root of $\cos(x)-x^3=0$ using;
 Obtaining an initial approximation: 
 
 Since $\mathrm{cos}(x)\leq1$ for all $x$ and for $x > 1, x^3 > 1,$ the positive zero must lie between $0$ and $1$. So, let’s take $x_0 = 0.5$.
-
+<br>
 Input Data:
 
 \begin{aligned}
