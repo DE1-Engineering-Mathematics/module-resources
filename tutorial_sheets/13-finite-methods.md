@@ -355,7 +355,7 @@ Matlab Animation:
 
 <div class = "answer">
 
-![figure5](14-finite-differences-media/finite-differences-q5b.png)
+<src img="14-finite-differences-media/finite-differences-q5b.png">
 <br>
 (i) Red line
 <br>
@@ -372,7 +372,8 @@ Matlab Animation:
 <br>
 <br>
 Matlab Animation
-![figure5](14-finite-differences-media/q5-graph-b.gif)
+<br>
+<src img="14-finite-differences-media/q5-graph-b.gif">
 
 </div>
 
