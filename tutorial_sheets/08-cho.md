@@ -35,7 +35,7 @@
 (a) Write down the equations of motion of the masses $m_1=2m$ and $m_2=m$, considering the spring constants $k_1=k_2=k$ and locations of the two masses $x_1$ and $x_2$, which are both zero when the system is in static equilibrium.
 
 <div class = "answer">
-$\Rightarrow$ Even though the system is vertical, we can ignore the effects of gravity. This is because the equilibrium position of the above system already takes the effects of gravity into account (i.e. the masses only hang the way they do because gravity is already acting on them).
+Even though the system is vertical, we can ignore the effects of gravity. This is because the equilibrium position of the above system already takes the effects of gravity into account (i.e. the masses only hang the way they do because gravity is already acting on them).
 
 $\Rightarrow$ The equations of motion of the masses are:
 $$2m\ddot{x}_1+2kx_1-kx_2= 0
@@ -47,7 +47,7 @@ m\ddot{x}_2-kx_1+kx_2= 0$$
 (b) Express these equations in matrix form with separate vectors containing only displacements and accelerations and determine the characteristic frequencies and the corresponding mode shapes.
 
 <div class = "answer">
-$\Rightarrow$ Writing the system in matrix form:
+Writing the system in matrix form:
 
 $$
 \boxed{\begin{bmatrix}
@@ -64,14 +64,14 @@ x_2
 \end{bmatrix}}
 $$
 
-$\Rightarrow$ Trial solution for $x_1$ and $x_2$:
+Trial solution for $x_1$ and $x_2$:
 $$ 
 x_1=A_{1}\cos(\omega t),\quad \ddot{x}\_1 = - A\_{1}\omega^{2}\cos (\omega t)
 \\\ 
 x_2=A_{2}\cos(\omega t),\quad \ddot{x}\_2=-A\_{2}\omega^{2}\cos (\omega t)
 $$
 
-$\Rightarrow$ Therefore:
+Therefore:
 $$
 \begin{bmatrix}
 -\frac{k}{m} & \frac{k}{2m}\\\ 
@@ -87,7 +87,7 @@ A_2
 \end{bmatrix}
 $$
 
-$\Rightarrow \det(A−\lambda I) = 0$:
+$\det(A−\lambda I) = 0$:
 $$
 \begin{vmatrix}
 -\frac{k}{m} -\lambda & \frac{k}{2m}\\\ 
@@ -98,9 +98,9 @@ $$
 
 $\Rightarrow \lambda_1 = -\frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m},\ \lambda_2 =-\frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m},\quad \omega_1^{2} = \frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m},\ \omega_2^{2} = \frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m}$}
 
-$\Rightarrow \boxed{\omega_1 = \sqrt{\frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m}}}, \boxed{\ \omega_2 =\sqrt{\frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m}}}$
+$$\Rightarrow \boxed{\omega_1 = \sqrt{\frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m}}}, \boxed{\ \omega_2 =\sqrt{\frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m}}}$$
 
-$\Rightarrow$ Mode shape for $\omega_1 = \sqrt{\frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m}}$ :
+Mode shape for $\omega_1 = \sqrt{\frac{k}{m}-\frac{1}{\sqrt{2}}\frac{k}{m}}$ :
 
 $$
 \boxed{
@@ -155,11 +155,11 @@ A one-dimensional system of 4 coupled harmonic oscillators of mass $m=6kg$ are c
 
 <div class="answer">
 
-$\Rightarrow$ The general form for the acceleration of the $n$th mass is:
+The general form for the acceleration of the $n$th mass is:
 
-$m_n\ddot{x}_n=-k_n(x_n-x_{(n-1)})-k_{(n+1)}(x_n-x_{(n+1)})$
+$$m_n\ddot{x}_n=-k_n(x_n-x_{(n-1)})-k_{(n+1)}(x_n-x_{(n+1)})$$
 
-$\Rightarrow$ We are interested in the first mass, so $n=1$. This also means that any $(n-1)$ terms are replaced with 0. We have:
+We are interested in the first mass, so $n=1$. This also means that any $(n-1)$ terms are replaced with 0. We have:
 
 $m_1\ddot{x}_1=-k_1(x_1-0)-k_{2}(x_1-x_{2})$
 
@@ -169,7 +169,7 @@ $\ddot{x}_1=\frac{-2k}{m}x_1+\frac{k}{m}x_2$
 
 $\ddot{x}_1=\frac{-2\times18}{6}x_1+\frac{18}{6}x_2$
 
-$\boxed{\ddot{x}_1=-6x_1+3x_2}$, so $A=-6$ & $B=3$
+$\boxed{\ddot{x}_1=-6x_1+3x_2, A=-6, B=3}$ 
 </div>
 <div class = "workingout"><br><br><br><br></div>
 
@@ -258,18 +258,20 @@ $\Rightarrow \boxed{\text{The resonant frequencies all increase}}$
 </div>
 <div class = "workingout"><br><br><br><br><br></div>
 
+------------------------------------------------------
+
 ### Problem 3.
 
 A 16-coach train is rolling down a hill.
 
-The coaches can be modelled as coupled harmonic oscillators, each with mass $m=6.5\times10^3kg$ and connected by springs with spring constant $k=300Nm$. Every 15 seconds, the train passes an electricity pylon next to the track. The aeodynamic effect of these pylons begin to cause the coaches of the train to oscillate. If this oscillation frequency matches any of the natural frequencies of the train, it will begin to resonate at higher and higher amplitudes and eventuallly break apart.
+The coaches can be modelled as coupled harmonic oscillators, each with mass $m=6.5\times10^3kg$ and connected by springs with spring constant $k=300Nm$. Every 15 seconds, the train passes an electricity pylon next to the track. The aerodynamic effect of these pylons begin to cause the coaches of the train to oscillate. If this oscillation frequency matches any of the natural frequencies of the train, it will begin to resonate at higher and higher amplitudes and eventually break apart.
 
-By calcuating the time periods of the natural frequencies of the system to the nearest second, decide if this wil be a problem.
+By calculating the time periods of the natural frequencies of the system to the nearest second, decide if this wil be a problem.
 
 Note: This will be a problem if the time period between pylons ($=15s$) = the time period of any of the natural frequencies.
 
 <div class="answer">
-The wording of this question makes it seem very complex, but all it is asking you to do is decide whether any of the natural time periods ($=\frac{1}{\text{natural frequency}}$) is 15 seconds, to the nearest integer.
+The wording of this question makes it seem very complex, but all it is asking you to do is decide whether any of the natural time periods ($\frac{1}{\text{natural frequency}}$) is 15 seconds, to the nearest integer.
 
 To solve this, we will:
 - Find the eigenvalues of the system
@@ -304,7 +306,7 @@ The matrix is also huge, and therefore evil to type into MATLAB.
 Then the omega values:
 <img src = "08-cho-media\answer52.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
-To find the natural lime periods, we use the fact that $\omega=\frac{2\pi}{t}$, so $t=\frac{2\pi}{\omega}$.
+To find the natural time periods, we use the fact that $\omega=\frac{2\pi}{t}$, so $t=\frac{2\pi}{\omega}$.
 We have to use a ```.``` in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
 <img src = "08-cho-media\answer53.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
@@ -321,7 +323,7 @@ $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will
 <div class = "workingout"><br><br><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------------------------
- ## Extension Question
+ ## Challenging Question
  ### Problem 4.
 
 The below is a stiffness matrix for a series of 3 masses connected to each other and a wall at each end by 4 springs.
@@ -386,13 +388,13 @@ Once you have deciphered the words, this question is essentially revision of las
 
 For a critically damped oscillator, we know that the determinant is 0, i.e. $\sqrt{c^2-4\times{}m_3\times{}k_4}=0$.
 
-$\therefore \sqrt{24^2-4\times3k_1\times12k_1}=0$
+$\sqrt{24^2-4\times3k_1\times12k_1}=0$
 
-$\therefore 24^2=4\times3k_1\times12k_1$
+$24^2=4\times3k_1\times12k_1$
 
-$\therefore 576=144k_1^2$
+$576=144k_1^2$
 
-$\therefore k_1^2=4$
+$k_1^2=4$
 
 $\Rightarrow \boxed{k_1=2Nm}$
 
@@ -410,7 +412,7 @@ From this, you can work out that $k_2=4$, $k_3=12$, $k_4=24$ and $m_1=2$, $m_2=4
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">hide all answers</button>
+<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 <br><br>
 ### For Printing
 <button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
