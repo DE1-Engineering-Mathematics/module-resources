@@ -87,9 +87,9 @@ $ \Rightarrow{} P(X>70)={0.5{ \text{ erf }{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}
 
 $ \Rightarrow{} \text{erf }(x) =0.9 $ <br>
 
-$ \Rightarrow{} x =$ [$ 1.16 $](https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve) <br>
+$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve">$ 1.16 $</a> <br>
 
-[$ \Rightarrow{} 1.16={\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}}$](https://www.wolframalpha.com/input/?i=1.16+%3D+%2870-55%29%2F%28x*sqrt%282%29%29+solve) <br>
+<a href="https://www.wolframalpha.com/input/?i=1.16+%3D+%2870-55%29%2F%28x*sqrt%282%29%29+solve">$ \Rightarrow{} 1.16={\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}}$</a> <br>
 
 $ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
 
@@ -145,16 +145,17 @@ $ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\ }$
 </div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
+
 <div class = "answer" >
 $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \sqrt{2}})}}}})}]=82\% $ <br>
 
 $ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $ <br>
 
-$ \Rightarrow{} x =$ [ $-0.65$](https://www.wolframalpha.com/input/?i=solve+0.32%3D-0.5*erf%28x%29) <br>
+$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=solve+0.32%3D-0.5*erf%28x%29"> $-0.65$</a> <br>
 
 $ \Rightarrow{} -0.65={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} Y = $ [$ 46.32 $](https://www.wolframalpha.com/input/?i=-0.65%3D%28y-50%29%2F%284*sqrt%282%29%29) <br>
+$ \Rightarrow{} Y = $ <a href="https://www.wolframalpha.com/input/?i=-0.65%3D%28y-50%29%2F%284*sqrt%282%29%29">$ 46.32 $</a> <br>
 
 $ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 
@@ -189,7 +190,7 @@ $ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\
 
 $ \Rightarrow{} 2(1-0.2)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = 0.6$ <br>
 
-$ \Rightarrow{} \text{erf }(x) = 0.6 \Rightarrow{} x = $ [$ 0.60$](https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.6+solve) <br>
+$ \Rightarrow{} \text{erf }(x) = 0.6 \Rightarrow{} x = $ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.6+solve">$ 0.60$</a> <br>
 
 <!-- $ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br> -->
 
@@ -203,7 +204,7 @@ $ \Rightarrow{} \text{  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{
 
 $ \Rightarrow{} 2(1-0.7)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = -0.4$ <br>
 
-$ \Rightarrow{} \text{erf }(x) = -0.4 \Rightarrow{} x = $ [$ -0.37$](https://www.wolframalpha.com/input/?i=erf%28x%29%3D-0.4+solve) <br>
+$ \Rightarrow{} \text{erf }(x) = -0.4 \Rightarrow{} x = $ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D-0.4+solve">$ -0.37$</a> <br>
 
 $ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.37)\times\ \sqrt{2})}}$ <br>
 
@@ -226,7 +227,7 @@ Due to imperfect manufacturing of circuit laundry machines, their wash times can
 
 (a) Sketch a graph of the wash time for colors at $40 ^\circ $ distribution. Shade the region showing the 80% most reliable wash times and label the duration interval.
 
-<div class = "answer">
+<!-- <div class = "answer"> -->
 
 Most reliable wash times are around the mean (50 min) interval corresponds to everything but the extreme 10% (upper and lower). 
 
@@ -236,15 +237,17 @@ $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25
 
 Solve for Y:
 
-[$ Y = 72.1$](https://www.wolframalpha.com/input/?i=0.5%281-erf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y) 
+<a href="https://www.wolframalpha.com/input/?i=0.5%281-erf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y">$ Y = 72.1$</a>
 
 Lower 10%:
 
 $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{+{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=10\% $ 
 
-[$ Y = 27.9$](https://www.wolframalpha.com/input/?i=0.5%281%2Berf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y) 
+<a href="https://www.wolframalpha.com/input/?i=0.5%281%2Berf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y">$ Y = 27.9$</a>
 
-![](16-normal-distribution/5a.png)
+
+<img src = "16-normal-distribution/5a.png">
+
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
@@ -258,7 +261,8 @@ $ 12 * 0.2811 = 3.37 $
 
 $\boxed{3 \text{ machines}}$
 
-![](16-normal-distribution/5b.png)
+<img src = "16-normal-distribution/5b.png">
+
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
@@ -278,7 +282,7 @@ $\Rightarrow{}0.0923*12 = 1.1076$
 
 $ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
 
-![](16-normal-distribution/5c.png)
+<img src = "16-normal-distribution/5c.png">
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
