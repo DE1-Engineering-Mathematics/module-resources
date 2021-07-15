@@ -15,10 +15,16 @@
 
 # Normal Distribution Tutorial Sheet, #16
 
+This particular tutorial sheet is short. Do not be alarmed! It reflects the low difficulty of the topic. 
+
 ### Additional resources
 * [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
 
-<br><br><br><br>
+<br><br>
+
+In the answers, some wolfram alpha pages are linked in
+[blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
+<br>
 
 # Problem sheet
 ## Essential Questions
@@ -37,7 +43,7 @@ Alex took a test and scored 940. The mean score was 850 with the standard deviat
 <div class  = "answer">
 $\Rightarrow{} P(X>940)=1 - \left[\frac{1}{2} \left(1 + \text{ erf}\ \left(\frac{\ 940\ -\ 850}{100\ \sqrt{2}} \right)\right)\right]$ <br>
 
-$\Rightarrow{} P(X>940)=1-0.81594=0.18406$ <br>
+$\Rightarrow{} P(X>940)=1-0.81594=0.18406$ %<br>
 
 $\Rightarrow{} 0.18406\times 200=36.81$ students <br>
 
@@ -60,7 +66,7 @@ $ \Rightarrow{} \boxed{ 1 \text{ Student} }$
 <img src = "16-normal-distribution/1c.png">
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -80,13 +86,14 @@ According to a survey from 100 undergraduate students, only 5 students were grad
 
 $ \Rightarrow{} P(X>70)=[\frac{1}{2}{({1{-{ \text{ erf}\ {(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}}}]=5\% $ <br>
 
-$ \Rightarrow{} P(X>70)={0.5{ \text{erf}{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $ <br>
+$ \Rightarrow{} P(X>70)={0.5{ \text{ erf }{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}}}=0.45 $ <br>
 
-$ \Rightarrow{} \text{ erf}(x) =0.9 $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =0.9 $ <br>
+$ \Rightarrow{} \text{erf }(x) =0.9 $ <br>
 
-$ \Rightarrow{} x={(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}})}=1.227 $ <br>
+$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve">$ 1.16 $</a> <br>
+
+<a href="https://www.wolframalpha.com/input/?i=1.16+%3D+%2870-55%29%2F%28x*sqrt%282%29%29+solve">$ \Rightarrow{} 1.16={\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}}$</a> <br>
 
 $ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
 
@@ -118,7 +125,7 @@ $ \Rightarrow{} \boxed{68\ \text{ Students}}$ <br>
 
 <img src = "16-normal-distribution/2d.png">
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -138,20 +145,23 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 <div class = "answer" >
 $ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\frac{\ 53\ -\ 50}{4\ \sqrt{2} }\right) \right) \right] $ <br>
 
-$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\% }$ 
+$ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\ }$ 
 </div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
+
 <div class = "answer" >
 $ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{4\ \sqrt{2}})}}}})}]=82\% $ <br>
 
 $ \Rightarrow{} P(X>Y)=0.32={ {-\frac{1}{2}}{\text{ erf}(x)}} $ <br>
 
-$ \Rightarrow{} \text{ tanh}(1.2x) =-0.64 $ <br>
+$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=solve+0.32%3D-0.5*erf%28x%29"> $-0.65$</a> <br>
 
-$ \Rightarrow{} x={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}=-0.63 $ <br>
+$ \Rightarrow{} -0.65={(\frac{\ Y\ -\ 50}{\ 4\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} \boxed{ \text{ Weight } =46.43 }$ <br>
+$ \Rightarrow{} Y = $ <a href="https://www.wolframalpha.com/input/?i=-0.65%3D%28y-50%29%2F%284*sqrt%282%29%29">$ 46.32 $</a> <br>
+
+$ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 
 <img src = "16-normal-distribution/3c.png">
 </div>
@@ -162,7 +172,7 @@ $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
 $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
 -----------------
 
@@ -170,6 +180,7 @@ $\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$
 A high-Jumper can clear a jump higher than 1.78m once in every five attempts. This jumper can also clear a height of at least 1.65m on 7 out of 10 attempts:
 
 (a) Draw a Gaussian/Bell Curve for the given Data with highlighting the jumps over 1.78. 
+
 <div class = "answer">
 
 <img src = "16-normal-distribution/4a.png">
@@ -181,25 +192,102 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 <div class = "answer">
 $ \Rightarrow{} P(X>1.78)={1-[\frac{1}{2}{({1{+{\text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=20\%$ <br>
 
-$ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br>
+$ \Rightarrow{} 2(1-0.2)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = 0.6$ <br>
 
-$ \Rightarrow{} x=0.57={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$ <br>
+$ \Rightarrow{} \text{erf }(x) = 0.6 \Rightarrow{} x = $ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.6+solve">$ 0.60$</a> <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}$ <br>
+<!-- $ \Rightarrow{} 0.3={\frac{1}{2}{( \text{ tanh}(1.2x))}}$ <br> -->
 
-$ \Rightarrow{} \text{ also  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$ <br>
+$ \Rightarrow{} x=0.6={(\frac{\ 1.78\ -\sigma}{\alpha\ \sqrt{2}})}$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
+$ \Rightarrow{} \alpha={ {(1.78)}-{(\sigma\times\ 0.6\times\ \sqrt{2})}}$ <br>
 
-$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.57\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.35)\times\ \sqrt{2})}}$ <br>
+Also, 
 
-$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.35+0.57)}}$ <br>
+$ \Rightarrow{} \text{  } P(X>1.65)={1-[\frac{1}{2}{({1{+{ \text{ erf}\ {(\frac{\ 1.65\ -\ \alpha}{\sigma\ \sqrt{2}})}}}})}]}=70\%$ <br>
 
-$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.92}=0.1m }$ <br>
+$ \Rightarrow{} 2(1-0.7)-1 = \text{ erf} \ {(\frac{\ 1.78\ -\ \alpha}{\sigma\ \sqrt{2}})} = -0.4$ <br>
 
-$ \Rightarrow{} \alpha={ {(1.78)}-{(0.1\times\ 0.57\times\ \sqrt{2})}}$ <br>
+$ \Rightarrow{} \text{erf }(x) = -0.4 \Rightarrow{} x = $ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D-0.4+solve">$ -0.37$</a> <br>
+
+$ \Rightarrow{} \alpha={ {(1.65)}-{(\sigma\times\ (-0.37)\times\ \sqrt{2})}}$ <br>
+
+$ \Rightarrow{} { {(1.78)}-{(\sigma\times\ 0.6\times\ \sqrt{2})}}={ {(1.65)}-{(\sigma\times\ (-0.37)\times\ \sqrt{2})}}$ <br>
+
+$ \Rightarrow{} 1.78-1.65={(\sigma\times\ \sqrt{2})\times\ {(0.37+0.6)}}$ <br>
+
+$ \Rightarrow{} \boxed{ \sigma = \frac{0.13}{\sqrt{2}\times\ 0.97}=0.09m }$ <br>
+
+$ \Rightarrow{} \alpha={ {(1.78)}-{(0.09\times\ 0.6\times\ \sqrt{2})}}$ <br>
 
 $ \Rightarrow{} \boxed{ \alpha=1.7m }$
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+## Exam Questions
+
+### Problem 5.
+Due to imperfect manufacturing of circuit laundry machines, their wash times can vary. The machine displays a time of 50 minutes for colors at $40 ^\circ $ but truly has a standard deviation of 17 minutes and 15 seconds around that time. 
+
+(a) Sketch a graph of the wash time for colors at $40 ^\circ $ distribution. Shade the region showing the 80% most reliable wash times and label the duration interval.
+
+<!-- <div class = "answer"> -->
+
+Most reliable wash times are around the mean (50 min) interval corresponds to everything but the extreme 10% (upper and lower). 
+
+Upper 10%:
+
+$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=10\% $ 
+
+Solve for Y:
+
+<a href="https://www.wolframalpha.com/input/?i=0.5%281-erf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y">$ Y = 72.1$</a>
+
+Lower 10%:
+
+$ \Rightarrow{} P(X>Y)=[\frac{1}{2}{({1{+{\text{ erf}\ {(\frac{\ Y\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=10\% $ 
+
+<a href="https://www.wolframalpha.com/input/?i=0.5%281%2Berf%28%28y-50%29%2F%2817.25*sqrt%282%29%29%29%29+%3D+0.1+solve+y">$ Y = 27.9$</a>
+
+
+<img src = "16-normal-distribution/5a.png">
+
+
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+(b) If Imperial College London buys an army of 12 laundry machines for the entirety of Southside Halls and its 350 students, how many of the machines can be expected to have a wash time of more than 60 minutes?
+<div class = "answer">
+
+$ \Rightarrow{} P(X>60)=[\frac{1}{2}{({1{-{\text{ erf}\ {(\frac{\ 60\ -\ 50}{17.25\ \sqrt{2}})}}}})}]=0.2811\% $ 
+
+$ 12 * 0.2811 = 3.37 $
+
+$\boxed{3 \text{ machines}}$
+
+<img src = "16-normal-distribution/5b.png">
+
+</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
+
+(c) How many of the machines are expected to have a $\pm2$ min accuracy with their colors at $40 ^\circ $ cycles?
+<div class = "answer">
+
+$ \Rightarrow{} P(48< X < 52)=P(X < 52)-P(X < 48)  $ 
+<br>
+
+$ \Rightarrow{} P(48 < X < 52)= \frac{1}{2}\left[\text{ erf}\left(\frac{52-50}{17.25\ \sqrt{2}}\right)- \text{ erf}\left(\frac{48-50}{17.25\ \sqrt{2}}\right)\right] $ 
+<br>
+
+$ \Rightarrow{} P(48 < X < 52)=0.0923$ 
+<br>
+
+$\Rightarrow{}0.0923*12 = 1.1076$
+
+$ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
+
+<img src = "16-normal-distribution/5c.png">
+
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
