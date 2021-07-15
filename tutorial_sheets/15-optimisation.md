@@ -533,14 +533,14 @@ $$
 An easy way to calculate the Jacobian vector is using a table like the one below:
 <br><br>
 
-|  |  | wrt $a$ | wrt $b$ |
+<!-- |  |  | wrt $a$ | wrt $b$ |
 |-|-|-|-|
 | $x$ | $y(x)$ | $\frac{x_i(y(x_i)(b+e^{x_i})-ax_i)}{(b+e^{x_i})^2}$ | $\frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}$ |
 | 1 | 3.4 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D1%2C+y%3D3.4">-2.862</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+1%2C+y%3D3.4">0.645</a> |
 | -2.3 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D-2.3%2C+y%3D0.5">27.35</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+-2.3%2C+y%3D0.5">34.21</a> |
 | 2.2 | -3 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D2.2%2C+y%3D-3">1.615</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+2.2%2C+y%3D-3">-0.095</a> |
 | 4.7 | -6 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D4.7%2C+y%3D-6">0.5172</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+4.7%2C+y%3D-6">-0.002</a> |
-| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | -6.655 | -8.690 |
+| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | -6.655 | -8.690 | -->
 
 \begin{align*}
 & &    & &       &\text{wrt } a&     &\text{wrt } b&   \newline
