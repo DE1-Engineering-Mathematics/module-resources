@@ -37,12 +37,12 @@ As the equation is a homogeneous ODE:
 
 $\Rightarrow r^2-3r+2=0,\quad r_{1,2}=1, 2$.
 
-Therefore, the general solution is: $\boxed{y(x)=C_1e^x+C_2e^{2x}}$
+The equation has 2 real roots, so the general solution is:
+$\boxed{y(x)=C_1e^x+C_2e^{2x}}$
 
 Using $r_{1,2}$:
 
 $\Rightarrow{} y(x)=C_1e^{1x}+C_2e^{2x} $
-
 
 Using WolframAlpha:
 
@@ -59,7 +59,7 @@ Using WolframAlpha:
 
 $\Rightarrow{}\quad$
 $r^2+2r+2=0, \quad r_{1,2}=-1\pm i$ <br>
-$\Rightarrow{}\quad\$ Therefore, the general solution is: <br>
+$\Rightarrow{}\quad\$ One repeated imaginary root, so the general solution is: <br>
 $y(x)=C_1e^{-x}\cos{x}+C_2e^{-x}\sin{x}$<br>
 
 $\Rightarrow{}$ Simplified:
@@ -71,11 +71,11 @@ $\boxed{y(x)=e^{-x}(C_1\cos{x}+C_2\sin{x})}$
 
 (c) $\frac{d^2y}{ {dx}^2}+4\frac{dy}{dx}+4y=0$
 <div class = "answer">
-$r^2+4r+4=0, \quad r_{1,2}=-2$ (repeated root)
+$r^2+4r+4=0, \quad r_{1,2}=-2$ (real repeated root)
 <br>
 Therefore, the general solution is: <br>
 $y(x)=C_1e^{-2x}+C_2e^{-2x}x $,
-where the final $x$ appears because the root $-2$ is repeated 2x. If that is confusing, have a look at part (d).
+where the final $x$ appears because the root $-2$ is repeated 2x. Have a look at part (d): the same logic applies there, but for 3 repeated roots.
 <br>
 
 $\Rightarrow{} $Simplified:
@@ -136,7 +136,7 @@ $\boxed{\sqrt{\left(4kM-c^2\right)}/2M = \sqrt{3}, Q.E.D}$
 
 ## Exam Style Questions
 ### Problem 3.
-This graph shows the speed vs time (purple) and acceleration vs time (red) for a damped harmonic oscillator.
+This graph shows the velocity vs time (purple) and acceleration vs time (red) for a damped harmonic oscillator.
 
 <img src="07-ode-media/question4.png">
 
@@ -224,7 +224,7 @@ $\boxed{=4.2\times10^6}$
 </div>
 <div class = "workingout"><br><br><br><br></div>
 
-The anchored barge is hit by a wave, causing it to oscillate on its chain. The water around the barge has a damping effect on the barge, with a damping coefficient $c=2\times10^6$. The below graph shows the barge's speed vs time (green) and acceleration vs time (red). The y-intercept of the green line is $-2$ and the red line is $\frac{4}{3}$.
+The anchored barge is hit by a wave, causing it to oscillate on its chain. The water around the barge has a damping effect on the barge, with a damping coefficient $c=2\times10^6$. The below graph shows the barge's velocity vs time (green) and acceleration vs time (red). The y-intercept of the green line is $-2$ and the red line is $\frac{4}{3}$.
 <img src="07-ode-media/question5.png">
 
 (b) State and explain whether this system is under-, over-, or critically damped.
@@ -243,7 +243,7 @@ $\boxed{1\times10^6\ddot{x}+2\times10^6\dot{x}+4.2\times10^6x=0}$
 
 (d) Find the height of the wave that displaced the barge to start the oscillation.
 <div class="answer">
-The question is asking you to find the value of x at $t=0%, (i.e. find $x(0)$).
+The question is asking you to find the value of $x$ at $t=0$, (i.e. find $x(0)$).
 
 Using the above equation and the initial conditions from the graph,
 
@@ -276,7 +276,7 @@ $\Rightarrow$ This means that the barge was lifted by a 63.5cm high wave.
 
 ### WolframAlpha
 You can generate a limitless suppply of these second order homogeneous ODE questions and answers using WolframAlpha including the various graphs. For example, try typing in: 
-``` 3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0 ```,
+```3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0```,
 
 [Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=3x%27%27(t)%2B3x%27(t)%2B4x(t)%3D0+where+x(0)%3D3,+x%27(0)%3D0)
 
