@@ -39,6 +39,7 @@ Find the answers to the following operations:
 <div class = "answer" markdown="1"> 
 Solving with the Matlab terminal:
 
+<div>
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
@@ -47,12 +48,14 @@ b = [0 1 ; -2 3]
 a + b
 ```
 
+</div>
 
-$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2\\0&2\end{pmatrix}}$
+
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2 \newline 0&2\end{pmatrix}}$
 </div>
 
 (b) $A-B$
-<div class = "answer">
+<div class = "answer" markdown="1">
 Solving with the Matlab terminal:
 <div>
 
@@ -64,7 +67,9 @@ a - b
 ```
 
 </div>
-$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0\\4&-4\end{pmatrix}}$</div>
+
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0 \newline 4&-4\end{pmatrix}}$
+</div>
 
 (c) $AB$
 <div class = "answer">
