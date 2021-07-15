@@ -48,7 +48,7 @@ Using WolframAlpha:
 
 <img src="07-ode-media/answer1a.png">
 
-[Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=d2y%2Fdx2+-+3+dy%2Fdx+%2B+2y+%3D+0) (you might need to scroll a bit to find the answer)
+<a href="https://www.wolframalpha.com/input/?i=d2y%2Fdx2+-+3+dy%2Fdx+%2B+2y+%3D+0">Click here for WolframAlpha link</a> (you might need to scroll a bit to find the answer)
 
 </div>
 
@@ -204,8 +204,7 @@ Just type the equation and initial conditions into the search:
 One of its many outputs will be a ready-made graph:<br>
 <img src="07-ode-media/answer3d.png"><br>
 
-
-[Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=5x%27%27%2B3x%27%2B10x%3D0%2C+x%280%29%3D0)
+<a href="https://www.wolframalpha.com/input/?i=5x%27%27%2B3x%27%2B10x%3D0%2C+x%280%29%3D0">Click here for WolframAlpha link</a>
 
 </div>
 
@@ -257,7 +256,7 @@ We can do this very easily in WolframAlpha
 $\Rightarrow$ Tell Wolfram what you know, separating the initial conditions with commas. \
 ```(1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2```
 
-$\Rightarrow$ Wolfram will [solve the ODE](https://www.wolframalpha.com/input/?i=%281e6%29x%27%27%2B%282e6%29x%27%2B%284.2e6%29x%3D0%2C+x%27%27%280%29%3D%284%2F3%29%2C+x%27%280%29%3D-2) for you.
+$\Rightarrow$ Wolfram will <a href="https://www.wolframalpha.com/input/?i=%281e6%29x%27%27%2B%282e6%29x%27%2B%284.2e6%29x%3D0%2C+x%27%27%280%29%3D%284%2F3%29%2C+x%27%280%29%3D-2">solve the ODE</a> for you.
 <img src="07-ode-media/answer5c.png"> \
 This isn't a particularly nice way of writing the equation - but that doesnt matter.
 
