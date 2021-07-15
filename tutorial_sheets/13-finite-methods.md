@@ -42,7 +42,7 @@ Ignoring the $o(h)$ term, the first order FD approximation to $f_x(x_0)$ can be 
 \begin{equation*}
 f'(x_0)\approx\frac{f(x_0+h)-f(x_0)}{h}
 \end{equation*}
-\text{ }\newline
+\newline
 Substituting for $f(x)$ gives,
 \begin{equation*}
 f'(x_0)\approx\frac{(x_0+h)^2-x_{0}^2}{h}
@@ -134,16 +134,10 @@ Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual
 
 -----------------------------------
 
-## Exam Style Questions
 ### Problem 3.
 (a) Find the update equation, $x(t + \Delta t)$, of the following ODE,
 $$ \frac{d^2x(t)}{dt^2} + \omega^2 x(t)=0 $$
-Use the central difference approximation to the second derivative.
-
-Given initial conditions of
-$x(0)=1$ and $\dot{x}(0)=0$,
-Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
-using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
+(Hint: Use the central difference approximation to the second derivative).
 
 <div class = "answer">
 Using the finite difference approximation to the second derivative,}
@@ -167,7 +161,15 @@ x(t+\Delta t) = (2 - \omega^2 \Delta t^2) x(t) - x(t-\Delta t)
 \end{align*}
 </div>
 
-(b) Approximating $\dot{x}(0)$ with a backward difference.
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+Now given initial conditions of
+$x(0)=1$ and $\dot{x}(0)=0$:
+
+(b) Approximate $\dot{x}(0)$ with a backward difference.
+
+Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
+using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
 
 <div class = "answer">
 We need to calculate $x(\Delta t)$, which depends on $x(0)$ and $x(-\Delta t)$.
@@ -201,7 +203,12 @@ Similarly for $x(2 \Delta t)$, which depends on $x(\Delta t)$ and $x(0)$,
 
 </div>
 
-(c) Approximating $\dot{x}(0)$ with a central difference.
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(c) Approximate $\dot{x}(0)$ with a central difference.
+
+Write a table of values for $x(t)$ every $\Delta t$ time step up to $t = 2\Delta t$,
+using the dimensionless parameter, $\sigma = \omega^2 \Delta t^2 = 0.1$
 
 <div class = "answer">
 For a central difference method, finding $x(-\Delta t)$ is a little more involved.
@@ -240,10 +247,129 @@ From here we can use the update equation to iterate,
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Use Excel or otherwise to simulate both for $t/\Delta t$ up to 30, what do you see?
 
 [Example sheet](https://docs.google.com/spreadsheets/d/1xl-y2ZNephq5xFhGiN_elvjIguKhOt5i5e09kftDhI8/edit?usp=sharing)
+
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+## Exam Style Questions
+### Problem 4.
+The following image shows a regularly spaced grid of nodes representing the distribution of the scalar parameter $\{C}$ in time, $\{t}$, and one-dimensional space, $\{x}$.
+
+![figure1](14-finite-differences-media/finite_differences_q4.png)
+
+
+(a) Write down an expression for the central-difference approximation to the time derivative $\frac{\partial C}{\partial t}$ at the point $\{C^{n+1}_i}$.
+
+<div class = "answer">
+
+$\boxed{\frac{\partial C}{\partial t}|_{i, n+1} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t}} $
+<br>
+Note: The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest (${C^{n+1}_i}$), and is independent of the spacial parameter ${x}$.
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) Explain whether the central difference approximation is more / less accurate than the forward-difference approximation.
+
+<div class = "answer">
+
+Central difference is the average of forward-difference and backward-difference.
+<br>
+FD: $f'(x) = (\frac{f(x + \Delta x) - f(x)}{\Delta x}) - \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 - ... $
+<br>
+BD: $f'(x) = (\frac{f(x - \Delta x) - f(x)}{\Delta x}) + \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 + ... $
+<br>
+Therefore, CD: $f'(x) = (\frac{f(x + \Delta x) - f(x - \Delta x)}{2\Delta x}) - O(\Delta x^2)... $
+<br>
+Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(c) Why does it become impractical to continually reduce the step-size $\{\Delta x}$ in order to improve the accuracy of the simulation?
+
+<div class = "answer">
+
+- Computational expense performing calculations
+<br>
+- Memory required to store values
+<br>
+- Finite precision of values may not be able to resolve small differences.
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+### Problem 5.
+
+A metal bar is heated and its temperature is described by the following system of equations.
+
+(a) Sketch the Temperature-Position graph corresponding to the bar using the following system of equations at:
+
+(i) Initial temperature (t = 0)\
+(ii) At t > 0\
+(iii) Steady state conditions (as t tends to infinity)
+
+![figure2](14-finite-differences-media/finite-differences-system-of-equations1.png)
+
+<div class = "answer">
+
+<img scr="14-finite-differences-media/finite-differences-q5a.png">
+
+(i) Red line\
+<br>
+(ii) Green line\
+<br>
+(iii) Blue line
+<br>
+(i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
+<br>
+(ii) At $t>0$ the graph will be curved (which will eventually tend towards a straight line). Ensure that the temperature is 0 and 100 at the ends of the bar (green).
+<br>
+(iii) The temperature will always be constant at both ends (100 degrees at one end, and 0 degrees at the other). Therefore as t tends towards infinity, this will become a diagonal line from 100 degrees to 0 degrees (blue).
+<br>
+Matlab Animation
+<br>
+<img scr="14-finite-differences-media/q5-graph-a.gif">
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) Sketch the Temperature-Position graph corresponding to the bar using the following system of equations at:
+
+(i) Initial temperature (t = 0)\
+(ii) At t = a (where a is some arbitrary value)\
+(iii) At t = b (where b is some arbitrary value and b > a)
+
+![figure4](14-finite-differences-media/finite-differences-system-of-equations2.png)
+
+<div class = "answer">
+
+![figure5](14-finite-differences-media/finite-differences-q5b.png)
+
+(i) Red line\
+(ii) Green line\
+(iii) Blue line
+
+(i) At $t = 0$, the temperature is 25 degrees for all values of $x$, therefore this is displayed as a horizontal line (red).
+
+(ii) At $t>0$ e.g. $t=a$, the bar has a constant temperature gradient at both ends (0 at (-) end which we can think of as an insulating barrier- letting no heat in or out, and 10 at (+) end we can think of this as a controlled heat source, like a laser). Therefore the shape of the graph follows a curved shape. (green)
+
+(iii) At $t=b$: Since this system is gaining heat at one end and not losing any heat at the other, it will  keep getting hotter and hotter (shifted higher up graph), although the shape of the temperature profile will stay the same for $t≥a$. (blue)
+
+Matlab Animation
+![figure5](14-finite-differences-media/q5-graph-b.gif)
+
+</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
