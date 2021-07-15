@@ -241,7 +241,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer" markdown = "2">
+<div class = "answer" markdown = "1">
 Using the Secant Formula:
 
 $$
@@ -262,6 +262,7 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 & 4&   -& 0.1042& -&0.0041& \newline
 & 5&   -& 0.1038& &0.0000& \newline
 \end{align*}
+
 
 You stop iterating if $f(x_n)$ is close enough to 0.
 <br>
