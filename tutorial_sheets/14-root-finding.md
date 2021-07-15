@@ -141,7 +141,7 @@ Follow the same iteration process as in problem 1 to find the root to the requir
 \end{aligned}
 
 Therefore, $a_1=p_0=0.5$,$b_1=b_0=1$ and repeat the iteration: $p_1=0.75$,...
-
+<br>
 This yields the following results for $p_n$ and $f(p_n)$:
 
 \begin{align*}
@@ -158,9 +158,9 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \end{align*}
 
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
-
+<br>
 Alternative method:
-
+<br>
 We can also use the same method as in problem 1 and use a table to find the root.
 
 <br>
@@ -198,6 +198,7 @@ What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be
 
 <br>
 The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
+<br><br>
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -225,7 +226,7 @@ Iterating four times:
 \end{align*}
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp. 
-
+<br>
 To check this, we can substitute this back into the original equation:
 
 \begin{equation*}
@@ -305,7 +306,7 @@ Find a positive real root of $\cos(x)-x^3=0$ using;
 Obtaining an initial approximation: 
 
 Since $\mathrm{cos}(x)\leq1$ for all $x$ and for $x > 1, x^3 > 1,$ the positive zero must lie between $0$ and $1$. So, let’s take $x_0 = 0.5$.
-
+<br>
 Input Data:
 
 \begin{aligned}
@@ -552,7 +553,7 @@ end
 ```
 
 The root found was $\boxed{x=2.11}$ to 2dp.
-
+<br>
 See if you can write the code yourself for the other root finding methods!
 </div>
 
