@@ -1,7 +1,7 @@
 <img src="media/Dyson-Logo.PNG" width=380>
 
 # Engineering Mathematics Module Resources
-<br>
+
 
 <!-- ## [Module Notes Here](https://imperiallondon.sharepoint.com/sites/msteams_1d9188/Shared%20Documents/Forms/AllItems.aspx?csf=1&amp%3Bweb=1&amp%3Be=l38bKk&cid=84927633%2D346a%2D4659%2D9301%2Dbf11dddda4ea&FolderCTID=0x012000CE08C59F1772E543B28B5F41B1E5B30E&id=%2Fsites%2Fmsteams%5F1d9188%2FShared%20Documents%2FGeneral%2FDE1%2DMaths%5Fnotes%2Epdf&parent=%2Fsites%2Fmsteams%5F1d9188%2FShared%20Documents%2FGeneral) <br> -->
 
@@ -9,6 +9,17 @@
 
 <!-- Depends on whether the notes are updated or not -->
 ## [External Link Notes](https://de1-engineering-mathematics.github.io/module-resources/media/DE1-Maths_notes.pdf)
+<br>
+
+## Notes:
+### Chapter 0 - Refresher
+* __[0.1 - Algebra](notes\0-refresher\#algebra)__
+* __[0.2 - Calculus](notes\0-refresher\#calculus)__
+* __[0.3 - Using calculus](notes\0-refresher\#using_calculus)__
+* __[0.4 - Powers, logs & bases](notes\0-refresher\#powers_logs_bases)__
+* __[0.5 - Engineers Love](notes\0-refresher\#engineers_love)__
+
+<br>
 
 ## Tutorial sheets:
 ### Term 1
