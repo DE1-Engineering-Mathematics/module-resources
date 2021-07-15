@@ -32,7 +32,7 @@ These questions could be solved effectively using code (e.g. Python, Matlab), se
 Using a table, the highlighted cells (red = negative, green = positive) show the $a$ and $b$ values used for the interval of the next iteration, where $\frac{a + b}{2} = c$. These numbers are chosen for the interval of the following iteration since they have the smallest difference in values and have a negative product.
 <br><br>
 
-<img src = "15-root-finding-media/root-finding-q1.png" width = "300" height= "100">
+<img src = "15-root-finding-media/root-finding-q1.png" width = "400" height= "100">
 
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
