@@ -241,7 +241,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer">
+<div class = "answer" markdown="1">
 Using the Secant Formula:
 
 $$
@@ -518,37 +518,37 @@ end
 
 ```
 
-<div class = "answer">
+<div class = "answer" markdown="3">
 
 ```matlab: Code
 
-function Newton_Raphson_Method
-%Implementation of Newton-Raphson method to determine a solution.
+  function Newton_Raphson_Method
+  %Implementation of Newton-Raphson method to determine a solution.
 
-i = 1;
-p0 = 1;                      %initial conditions (start point)
-N = 5;                       %maximum number of iterations
-error = 0.01;                %precision required
+  i = 1;
+  p0 = 1;                      %initial conditions (start point)
+  N = 5;                       %maximum number of iterations
+  error = 0.01;                %precision required
 
-syms 'x'
-f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
-df = diff(f);                %differential of f(x)
+  syms 'x'
+  f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
+  df = diff(f);                %differential of f(x)
 
-while i <= N
-    p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
-    
-    if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
-        fprintf('Solution is %f \n', double(p))
-        return
-    end
- 
-    i = i + 1;
-    p0 = p;                   %update p0
-end
+  while i <= N
+      p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
+      
+      if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
+          fprintf('Solution is %f \n', double(p))
+          return
+      end
+  
+      i = i + 1;
+      p0 = p;                   %update p0
+  end
 
-fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
+  fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
 
-end
+  end
 
 ```
 
