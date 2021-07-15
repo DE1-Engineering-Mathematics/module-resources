@@ -441,7 +441,7 @@ $$
 C(a,b) = \frac{1}{2n}\sum^n_i(\gamma(x_i)-y(x_i))^2
 $$
 
-Where $y$ is a database containing the points $[x,y]$: 
+Where $y$ is a database containing the three $[x,y]$ points 
 $[1,3.4]$, $[-2.3,0.5]$, $[2.2,-3]$, $[4.7,-6]$
 
 (a) Find expressions for the partial derivatives of $C$ with respect to each of the parameters.
@@ -478,9 +478,12 @@ $$
 <div class = "answer">
 
 $$
-\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega} \frac{\partial C}{\partial \beta}\Bigg]
+\vec{J_C} = \Bigg[\frac{\partial C}{\partial \omega}, \frac{\partial C}{\partial \beta}\Bigg]
 $$
 
+<br>
+An easy way to calculate the Jacobian vector is using a table like the one below:
+<br><br>
 
 |  |  | wrt $a$ | wrt $b$ |
 |-|-|-|-|
@@ -489,10 +492,13 @@ $$
 | -2.3 | 0.5 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D-2.3%2C+y%3D0.5">27.35</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+-2.3%2C+y%3D0.5">34.21</a> |
 | 2.2 | -3 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D2.2%2C+y%3D-3">1.615</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+2.2%2C+y%3D-3">-0.095</a> |
 | 4.7 | -6 | <a href="https://www.wolframalpha.com/input/?i=-%282x%28y%28b%2Be%5Ex%29-ax%29%29%2F%28b%2Be%5Ex%29%5E2+with+a%3D0.5%2C+b%3D-0.5%2C+x%3D4.7%2C+y%3D-6">0.5172</a> | <a href="https://www.wolframalpha.com/input/?i=-%282ax%28ax-y%28b%2Be%5Ex%29%29%29%2F%28b%2Be%5Ex%29%5E3+with+a%3D0.5%2C+b%3D-0.5%2C+x+%3D+4.7%2C+y%3D-6">-0.002</a> |
-| $-\frac{1}{n}\sum^n_i$ | mean of negatives | -6.655 | -8.690 |
+| $-\frac{1}{n}\sum^n_i$ | (mean of negatives) | -6.655 | -8.690 |
+
+Note: the blue numbers are links which will show you how the number was calculated using WolframAlpha!
+<br>
 
 $$
-\boxed{\vec{J_C} = \Big[-6.655 \hspace{2mm} -8.690\Big]}
+\therefore \boxed{\vec{J_C} = \Big[-6.655, \hspace{2mm} -8.690\Big]}
 $$
 
 </div>
@@ -504,7 +510,7 @@ $$
 
 To improve the fit, you need to go the direction of steepest descent, meaning $-\vec{J}$ because the Jacobian points towards the maxima (steepest ascent).
 
-$\boxed{\text{Thus }a \text{ and }b \text{ need to be increased}}$
+$\Rightarrow \boxed{a \text{ and }b \text{ need to be increased.}}$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
@@ -600,7 +606,7 @@ $$
 
 (d) Determine the new weights using the second data point $[0.3,4.3]$
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 
 $\vec{J_C} = \Big[$
 <a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">2.080</a>  <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">    6.934</a>
