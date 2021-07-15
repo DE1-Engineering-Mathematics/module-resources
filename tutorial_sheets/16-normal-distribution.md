@@ -231,7 +231,7 @@ Due to imperfect manufacturing of circuit laundry machines, their wash times can
 
 (a) Sketch a graph of the wash time for colors at $40 ^\circ $ distribution. Shade the region showing the 80% most reliable wash times and label the duration interval.
 
-<!-- <div class = "answer"> -->
+<div class = "answer">
 
 Most reliable wash times are around the mean (50 min) interval corresponds to everything but the extreme 10% (upper and lower). 
 
