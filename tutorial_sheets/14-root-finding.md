@@ -34,10 +34,12 @@ Using a table, the highlighted cells (red = negative, green = positive) show the
 
 <img src = "15-root-finding-media/root-finding-q1.png" width = "500" height= "120">
 
-<br><br>
+<br>
 It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 
-Alternative Method:\
+<br><br>
+Alternative Method:
+<br>
 Finding the interval $[a, b]$ bracketing the root. Since the bisection method finds a root in a given interval $[2.5, 4]$
 
 \begin{aligned}
@@ -139,7 +141,7 @@ Follow the same iteration process as in problem 1 to find the root to the requir
 \end{aligned}
 
 Therefore, $a_1=p_0=0.5$,$b_1=b_0=1$ and repeat the iteration: $p_1=0.75$,...
-
+<br>
 This yields the following results for $p_n$ and $f(p_n)$:
 
 \begin{align*}
@@ -156,12 +158,14 @@ This yields the following results for $p_n$ and $f(p_n)$:
 \end{align*}
 
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
-
+<br>
 Alternative method:
-
+<br>
 We can also use the same method as in problem 1 and use a table to find the root.
 
-![figure2](15-root-finding-media/root-finding-q2.png)
+<br>
+<img src = "15-root-finding-media/root-finding-q2.png" width = "500" height= "200">
+<br>
 
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
@@ -189,12 +193,12 @@ When deciding which points to start with, its important to remember your curve s
 
 What happened above? For the points $x=-1$ and $x=+1$ the iteration could not be evaluated, and this is because we actually started (by mistake) at a turning point, meaning that the gradient at these points was 0. However, if we now take 0 as our starting point, it will still take you 40 iterations before you get a good approximation of the solution... To understand why, you're going to need to sketch the curve. If you had started from -10, you get there in about 16 iterations, if you started from +10, you'd get there in about 6... Even if you started at +1000, it would still only take you 17 iterations.
 
-Link to Wolfram Alpha:
-https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0
+<br>
+<a href = "https://www.wolframalpha.com/input/?i=x%5E3+-+3x+-4+%3D+0">Link to Wolfram Alpha</a>
 
-
+<br>
 The root is $\boxed{x = 2.195823345}$ correct to 9dp. 
-
+<br><br>
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -222,7 +226,7 @@ Iterating four times:
 \end{align*}
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp. 
-
+<br>
 To check this, we can substitute this back into the original equation:
 
 \begin{equation*}
@@ -237,7 +241,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer">
+<div class = "answer" markdown="1">
 Using the Secant Formula:
 
 $$
@@ -260,9 +264,10 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 \end{align*}
 
 You stop iterating if $f(x_n)$ is close enough to 0.
+<br>
 
 $\therefore$ the root of the equation is $\boxed{x = -0.1038}$ to 4 dp.
-
+<br>
 Alternatively this could be solved using code (e.g. Matlab). An example of the Matlab script is given below (it requires user input rather than editing the script, but you could do it either way).
 
 ```matlab:Code
@@ -286,6 +291,7 @@ for i=3:1000
     end
 end
 ```
+<br>
 The root found by these start points will then be returned. (for this question $\boxed{x = -0.1038}$ to 4 dp.)
 
 
@@ -300,7 +306,7 @@ Find a positive real root of $\cos(x)-x^3=0$ using;
 Obtaining an initial approximation: 
 
 Since $\mathrm{cos}(x)\leq1$ for all $x$ and for $x > 1, x^3 > 1,$ the positive zero must lie between $0$ and $1$. So, let’s take $x_0 = 0.5$.
-
+<br>
 Input Data:
 
 \begin{aligned}
@@ -375,6 +381,7 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 \end{align*}
 
 You stop iterating if $f(x_n)$ is close enough to 0.
+<br>
 
 $\therefore$ the root of the equation is $\boxed{x=0.8654}$ to 4 dp.
 </div>
@@ -417,7 +424,7 @@ x_5=x_4-\frac{f(x_4)}{f'(x_4)}=-1.860805855
 $$
 
 The root is $\boxed{x=-1.86}$ correct to 2dp. This took 5 iterations.
-
+<br>
 Alternatively you could use Matlab or Python code to solve this.
 
 </div>
@@ -428,7 +435,7 @@ Alternatively you could use Matlab or Python code to solve this.
 
 <div class = "answer">
 
-![figure2](15-root-finding-media/animation.gif)
+<img src = "15-root-finding-media/animation.gif" width = "550" height= "500">
 
 </div>
 
@@ -442,12 +449,15 @@ For those who'd like an extra method, look up the ``Fixed point method'' to find
 $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
 
 <div class = "answer">
-From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. Thus, if we take $g(x)=\mathrm{cos}(x)$, then: 
-
+From $f(x)=x-\mathrm{cos}(x)$, we obtain $x=\mathrm{cos}(x)$. 
+<br>
+Thus, if we take $g(x)=\mathrm{cos}(x)$, then:
+<br>
 (1) For all $x$ in $[ 0,\frac{\pi}{2} ]$, $0\leq g(x)\leq 1$
-
+<br>
 
 (2) $g^{'}(x)=-\mathrm{sin}x$. Thus,$\rvert g^{'}(x)\rvert<1$ in $[ 0,\frac{\pi}{2} ]$
+<br>
 
 According to the Fixed-Point Iteration Theorem, the iterations must converge
 with any choice of $x_0$ in $[ 0,\frac{\pi}{2} ]$. This is verified from the following computations.
@@ -508,44 +518,44 @@ end
 
 ```
 
-<div class = "answer">
+<span class = "answer">
 
 ```matlab: Code
 
-function Newton_Raphson_Method
-%Implementation of Newton-Raphson method to determine a solution.
+  function Newton_Raphson_Method
+  %Implementation of Newton-Raphson method to determine a solution.
 
-i = 1;
-p0 = 1;                      %initial conditions (start point)
-N = 5;                       %maximum number of iterations
-error = 0.01;                %precision required
+  i = 1;
+  p0 = 1;                      %initial conditions (start point)
+  N = 5;                       %maximum number of iterations
+  error = 0.01;                %precision required
 
-syms 'x'
-f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
-df = diff(f);                %differential of f(x)
+  syms 'x'
+  f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
+  df = diff(f);                %differential of f(x)
 
-while i <= N
-    p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
-    
-    if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
-        fprintf('Solution is %f \n', double(p))
-        return
-    end
- 
-    i = i + 1;
-    p0 = p;                   %update p0
-end
+  while i <= N
+      p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
+      
+      if (abs(p - p0)/abs(p)) < error   %stopping criterion when difference between iterations is below tolerance
+          fprintf('Solution is %f \n', double(p))
+          return
+      end
+  
+      i = i + 1;
+      p0 = p;                   %update p0
+  end
 
-fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
+  fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
 
-end
+  end
 
 ```
 
 The root found was $\boxed{x=2.11}$ to 2dp.
-
+<br>
 See if you can write the code yourself for the other root finding methods!
-</div>
+</span>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
