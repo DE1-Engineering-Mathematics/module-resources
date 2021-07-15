@@ -267,7 +267,7 @@ The following image shows a regularly spaced grid of nodes representing the dist
 
 <div class = "answer">
 
-$\frac{\partial C}{\partial t}|_{i, n} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t} $
+$\frac{\partial C}{\partial t}|_{i, n+1} \approx \frac {(C^{n+2}_i - C^{n}_i)}{2 \Delta t} $
 <br>
 Note: The central difference approximation for the time derivative considers the time one step before, ($C^n_i$) and after, ($C^{n+2}_i$) the point of interest (${C^{n+1}_i}$), and is independent of the spacial parameter ${x}$.
 
@@ -280,13 +280,13 @@ Note: The central difference approximation for the time derivative considers the
 <div class = "answer">
 
 Central difference is the average of forward-difference and backward-difference.
-
+<br>
 FD: $f'(x) = (\frac{f(x + \Delta x) - f(x)}{\Delta x}) - \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 - ... $
-
+<br>
 BD: $f'(x) = (\frac{f(x - \Delta x) - f(x)}{\Delta x}) + \frac{f''(x)}{2}\Delta x - \frac{f^{(3)}(x)}{6}\Delta x^2 + ... $
-
+<br>
 Therefore, CD: $f'(x) = (\frac{f(x + \Delta x) - f(x - \Delta x)}{2\Delta x}) - O(\Delta x^2)... $
-
+<br>
 Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 
 </div>
@@ -298,7 +298,9 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 <div class = "answer">
 
 - Computational expense performing calculations
+<br>
 - Memory required to store values
+<br>
 - Finite precision of values may not be able to resolve small differences.
 
 </div>
