@@ -224,7 +224,7 @@ We can verify this very easily using MATLAB of Wolfram: the number of eigenvalue
 In MATLAB, type `eigs[matrix]`, or in Wolfram just type something like `eigenvalues` followed by the matrix.
 <br>
 
-<div markdown="1" class="note">
+<div markdown="1">
 
 ```matlab:Code
 a = [1 1 ; 2 -1]
