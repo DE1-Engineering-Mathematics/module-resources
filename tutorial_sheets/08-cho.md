@@ -30,7 +30,7 @@
 ## Essential Questions
 ### Problem 1.
 
-<img src = "08-cho-media\figure3.PNG" width="20%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/figure3.PNG" width="20%" style = "margin: 10px auto 20px; display: block;">
 
 (a) Write down the equations of motion of the masses $m_1=2m$ and $m_2=m$, considering the spring constants $k_1=k_2=k$ and locations of the two masses $x_1$ and $x_2$, which are both zero when the system is in static equilibrium.
 
@@ -151,7 +151,7 @@ This is a clone of the 2020 exam question.
 
 A one-dimensional system of 4 coupled harmonic oscillators (see below) of mass $m=6kg$ are connected in series by springs of stiffness $k=18Nm$ and to a wall at one end of the system but left unconstrained at the other end. 
 
-<img src = "08-cho-media\diagram2.PNG" width="80%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/diagram2.PNG" width="80%" style = "margin: 10px auto 20px; display: block;">
 
 (a) Write down an expression for the acceleration of the first oscillator in the form $\ddot{x}_1=Ax_1+Bx_2$.
 
@@ -218,7 +218,7 @@ In MATLAB, type ```eigs[/matrix/]```, or in Wolfram just type something like ```
 
 MATLAB:
 
-<img src = "08-cho-media\answer2c.PNG" width="80%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer2c.PNG" width="80%" style = "margin: 10px auto 20px; display: block;">
 
 (MATLAB tends to be easier and quicker for matrix operations than Wolfram, but both will work.)
 </div>
@@ -230,13 +230,13 @@ Again using MATLAB, we can find the eigenvectors & eigenvalues of the system:
 
 ```[vectors, values] = eigs(Matrix)```
 
-<img src = "08-cho-media\answer2d1.PNG" width="50%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer2d1.PNG" width="50%" style = "margin: 10px auto 20px; display: block;">
 
 We can see from the ```vectors``` that the eigen mode which satisfies the question is the 1st one, as each mass has a different sign to its neighbours.
 
 From our knowledge of eigen analysis, we know that $\lambda=-\omega^2$, so to find $\omega$ from our eigenvalue, we have to take $\omega=\sqrt{-value}$.
 
-<img src = "08-cho-media\answer2d2.PNG" width="50%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer2d2.PNG" width="50%" style = "margin: 10px auto 20px; display: block;">
 
 In the above code, we take the first eigenvalue, which we have identified as the one we need, and use it to calculate the corresponding $\omega$.
 
@@ -263,7 +263,7 @@ $\begin{pmatrix}
 
 Then we repeat the MATLAB eigen analysis.
 
-<img src = "08-cho-media\answer2e.PNG" width="20%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer2e.PNG" width="20%" style = "margin: 10px auto 20px; display: block;">
 
 We can see that the new eigenvalues are slightly larger than the old ones
 
@@ -317,26 +317,27 @@ $\begin{pmatrix}
 
 The matrix is also huge, and therefore evil to type into MATLAB.
 
-<img src = "08-cho-media\answer51.PNG" width="90%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer51.PNG" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 Then the omega values:
 
-<img src = "08-cho-media\answer52.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer52.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 To find the natural time periods, we use the fact that $\omega=\frac{2\pi}{t}$, so $t=\frac{2\pi}{\omega}$.
 We have to use a ```.``` in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
 
-<img src = "08-cho-media\answer53.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer53.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use ```format shortG```:
 
-<img src = "08-cho-media\answer54.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/answer54.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 We can now see that the first 3 of these times round to 15 seconds, to the nearest second. This means that the pylons are driving the oscillation of the train at it's natural frequency.
 
 $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$
 
 *Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse ([video](https://www.youtube.com/watch?v=j-zczJXSxnw)).
+
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br><br><br></div>
@@ -405,7 +406,7 @@ This is an understanding-based trick question. The stiffness matrix (which deter
 
 <div class="answer">
 
-<img src = "08-cho-media\diagram4.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
+<img src = "./08-cho-media/diagram4.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 </div>
 
