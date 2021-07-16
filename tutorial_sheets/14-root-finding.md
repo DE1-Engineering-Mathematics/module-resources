@@ -241,7 +241,7 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 (b) the Secant method
 
-<div class = "answer" markdown="1">
+<div class = "answer" markdown = "1">
 Using the Secant Formula:
 
 $$
@@ -253,15 +253,16 @@ This iterative equation finds the root of the line constructed between the two p
 By substituting sequential values of $x_n$ into the formula, we can build the following table:
 
 \begin{align*}
-& n&    &{x_n}&       f&(x_n)&\newline
+& n&    &{x_n} &f &(x_n)& \newline
 \hline
 & 0&     & 0& &1& \newline
 & 1&    -& 1& -&15& \newline
 & 2&    -& 0.0625& &0.4138& \newline
 & 3&   -& 0.0877& &0.1639& \newline
 & 4&   -& 0.1042& -&0.0041& \newline
-& 5&   -& 0.1038&	&0.0000& \newline
+& 5&   -& 0.1038& &0.0000& \newline
 \end{align*}
+
 
 You stop iterating if $f(x_n)$ is close enough to 0.
 <br>
@@ -518,21 +519,20 @@ end
 
 ```
 
-<span class = "answer">
+<div class = "answer" markdown="1">
 
-```matlab: Code
+```matlab:Code
+function Newton_Raphson_Method
+%Implementation of Newton-Raphson method to determine a solution.
 
-  function Newton_Raphson_Method
-  %Implementation of Newton-Raphson method to determine a solution.
+i = 1;
+p0 = 1;                      %initial conditions (start point)
+N = 5;                       %maximum number of iterations
+error = 0.01;                %precision required
 
-  i = 1;
-  p0 = 1;                      %initial conditions (start point)
-  N = 5;                       %maximum number of iterations
-  error = 0.01;                %precision required
-
-  syms 'x'
-  f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
-  df = diff(f);                %differential of f(x)
+syms 'x'
+f(x) = (1/x) + 4 -x.^2 ;     %function we are solving
+df = diff(f);                %differential of f(x)
 
   while i <= N
       p = p0 - (f(p0)/df(p0)); %Newton-Raphson equation 
@@ -546,16 +546,15 @@ end
       p0 = p;                   %update p0
   end
 
-  fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
+fprintf('Solution did not converge within %d iterations at a required precision of %d \n', N, error) %error for non-convergence within N iterations
 
-  end
-
+end
 ```
 
 The root found was $\boxed{x=2.11}$ to 2dp.
 <br>
 See if you can write the code yourself for the other root finding methods!
-</span>
+</div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
