@@ -55,7 +55,7 @@ Here is how this can be done, step by step to solve the ODE $\frac{d^2y}{ {dx}^2
 
 5. Show the result
 
-    You can show a pretty formatted result using this command
+    You can show a pretty formatted result using this command:
 
     ```python
     pprint(sol)
