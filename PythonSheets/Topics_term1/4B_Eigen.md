@@ -19,7 +19,7 @@ Eigenproblems can easily be solved with the Numpy module. So make sure it is imp
 import numpy as np
 ```
 
-### Calculating eigenvalues and eigenvectors
+## Calculating eigenvalues and eigenvectors
 
 Here are the functions you can use:
 

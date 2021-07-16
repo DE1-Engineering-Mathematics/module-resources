@@ -13,7 +13,7 @@
 
 # Refresher and Functions
 
-### Python operators
+## Python operators
 
 The following operators can be used to perform basic mathematical calculations in Python
 
@@ -25,9 +25,6 @@ The following operators can be used to perform basic mathematical calculations i
 | Division       | /        |
 | Modulus        | &        |
 | Exponentiation | **       |
-
-
-TODO: add example
 
 ## Essential mathematical functions
 
@@ -66,8 +63,6 @@ import numpy as np
 - `np.log(x)` calculate the natural logarithm of x
 - `np.log10(x)` calculate the base 10 logarithm of x
 
-Try it our
-
 ## Drawing functions
 
 You can easily draw functions using the matplotlib module.
@@ -104,6 +99,5 @@ plt.show()
 <summary>Try it out</summary>
 
 <iframe src="https://trinket.io/embed/python3/6e711fb447?outputOnly=true&runOption=console&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-```
 
 </details>

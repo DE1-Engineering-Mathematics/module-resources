@@ -11,7 +11,9 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-### Taylor series expansion
+# Power series
+
+## Taylor series expansion
 
 The amazing sympy module has the ability to expand a function into a taylor series.
 
@@ -25,7 +27,7 @@ x = Symbol('x')
 sin(x).series(x, 2)
 ```
 
-### Plotting maclaurian series
+## Plotting maclaurian series
 
 Scipy has some brilliant features when it comes to estimating maclaurian series of functions.
 
