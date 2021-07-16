@@ -333,7 +333,7 @@ $$\boxed{\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta}$$
 
 $\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=\boxed{4\sqrt{2}}$ <br>
 
-Plotting $z^5$ on an Argand diagram:
+Plotting $z^5$ on an Argand diagram: <br>
 
 <img src = "06-complex-numbers-media\figure7.PNG" width = "50%"> <br>
 
