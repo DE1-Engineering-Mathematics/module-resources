@@ -69,15 +69,15 @@ $G(s)=\int_{0}^{\infty} \ {e^{-st}}{e^{2t}}{dt}={\left[-\frac{1}{s-2}{e^{-(s-2)t
 $\Rightarrow{}\quad\ \boxed{G(s)=\frac{1}{s-2}}$
 </div>
 
-(e) $a(t)=sin(5t)$
+(e) $a(t)=\sin(5t)$
 
 <div class = "answer">
-According to De Moivre's theorem, $cos(at) + isin(at) = e^{iat}$ <br>
+According to De Moivre's theorem, $\cos(at) + i\sin(at) = e^{iat}$ <br>
 Using part (d) methodology $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{1}{s-5i}$ <br>
 Rationalize the denominator $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{s}{s^2-5^2} + \frac{5i}{s^2-5^2}$ <br>
-Sin is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2-5^2}}$
+$\sin{}$ is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2-5^2}}$
 
-Note: The same process can be used to find the laplace of cos - take the real part, $\frac{s}{s^2-5^2}$!
+Note: The same process can be used to find the laplace of $\cos{}$ - take the real part, $\frac{s}{s^2-5^2}$!
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -165,7 +165,7 @@ $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$
 <div class = "answer">
 <strong> Using partial fractions </strong> <br>
 
-$\mathcal{L}^{-1}\{K(s)\}= \ \mathcal{L}^{-1}\{ {\frac{4s+5}{(s-2)^2(s+3)}}\}$ <br>
+$\mathcal{L}^{-1} \{ {K(s)} \} =  \mathcal{L}^{-1} \{\frac{4s+5}{(s-2)^2(s+3)}\}$ <br>
 $\frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s-2)}+\frac{13}{5(s-2)^2}$ <br>
 
 <strong> Using Wolfram Alpha</strong> <br>
