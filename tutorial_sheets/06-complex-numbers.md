@@ -218,7 +218,7 @@ $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathr
 (e) Simplify the complex number $2\mathrm{i}(\mathrm{i}-1)+(\sqrt{3}-\mathrm{i})^3+(1+\mathrm{i})(1-\mathrm{i})$
 <div class = "answer">
 Expand the brackets and evaluate: 
-$2\mathrm{i}(\mathrm{i}-1)+(\sqrt{3}-\mathrm{i})^3+(1+\mathrm{i})(1-\mathrm{i})\\=2\mathrm{i}^2-2\mathrm{i}+3\sqrt{3}-3\mathrm{i}(\sqrt{3})^{2}+3\mathrm{i}^{2}\sqrt{3}+(-\mathrm{i})^{3}+1-\mathrm{i}^{2}$ <br>
+$2\mathrm{i}(\mathrm{i}-1)+(\sqrt{3}-\mathrm{i})^3+(1+\mathrm{i})(1-\mathrm{i})\\=2\mathrm{i}^2-2\mathrm{i}+3\sqrt{3}-3\mathrm{i}(\sqrt{3})^{2}+3\mathrm{i}^{2}\sqrt{3}+(-\mathrm{i})^{3}+1-\mathrm{i}^{2}$
 $=-2-2\mathrm{i}+3\sqrt{3}-3\sqrt{3}-8\mathrm{i}+2=\boxed{-10\mathrm{i}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
