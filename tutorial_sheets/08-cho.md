@@ -314,7 +314,7 @@ $$\begin{pmatrix}
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65}\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 &\frac{3}{65} & -\frac{3}{65}\\
-\end{pmatrix}$$ \\
+\end{pmatrix}$$
 
 The matrix is also huge, and therefore evil to type into MATLAB.
 
@@ -350,8 +350,7 @@ $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will
 
 The below is a stiffness matrix for a series of 3 masses connected to each other and a wall at each end by 4 springs.
 
-$$
-\begin{pmatrix}
+$$\begin{pmatrix}
 -3 & 2 & 0\\
 1 & -4 & 3\\
 0 & 2 & -6
@@ -388,7 +387,7 @@ $
 \frac{k_3}{m_3}=2, \quad \frac{k_3+k_4}{m_3}=6
 $
 
-Plugging these equations into Wolfram ([link](https://www.wolframalpha.com/input/?i=3%3D%28k_1%2Bk_2%29%2Fm_1%2C+2%3Dk_2%2Fm_1%2C+1%3Dk_2%2Fm_2%2C+4%3D%28k_2%2Bk_3%29%2Fm_2%2C+3%3Dk_3%2Fm_2%2C+2%3Dk_3%2Fm_3%2C+6%3D%28k_3%2Bk_4%29%2Fm_3)) gives us that:
+Plugging these equations into Wolfram (<a href="https://www.wolframalpha.com/input/?i=3%3D%28k_1%2Bk_2%29%2Fm_1%2C+2%3Dk_2%2Fm_1%2C+1%3Dk_2%2Fm_2%2C+4%3D%28k_2%2Bk_3%29%2Fm_2%2C+3%3Dk_3%2Fm_2%2C+2%3Dk_3%2Fm_3%2C+6%3D%28k_3%2Bk_4%29%2Fm_3">link</a>) gives us that:
 
 $\Rightarrow \boxed{k_2=2k_1, k_3=6k_1, k_4=12k_1, m_1=k_1, m_2=2k_1, m_3=3k_1 \text{ where } k_1\not=0}$
 
