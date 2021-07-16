@@ -126,7 +126,7 @@ $\boxed{M(s)=\frac{1}{ {s}-{3}}+\frac{s}{ {s^2}+{36}}-\frac{s-3}{ {(s-3)^2}+{36}
 (e) $o(t)=e^{-2t}{\cos^2}(3t)-3t^2e^{3t}$
 <div class = "answer">
 $\Rightarrow{}\quad$
-${cos^2}(3t)$ can be writen as = $\frac{1+{\cos}(6t)}{2}$  <br>
+${\cos^2}(3t)$ can be writen as = $\frac{1+{\cos}(6t)}{2}$  <br>
 $\Rightarrow{}\quad$
 $O(s)=\mathcal{L}\{ {e^{-2t}}{(\frac{1}{2}+\frac{1}{2}{\cos}(6t))}-{3t^2e^{3t}}\}=\mathcal{L}\{\frac{1}{2}{e^{-2t}}+{\frac{1}{2}{e^{-2t}}{\cos}(6t)}-{3t^2e^{3t}}\}$ <br>
 $\Rightarrow{}\quad$
