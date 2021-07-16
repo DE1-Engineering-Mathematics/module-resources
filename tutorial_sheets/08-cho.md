@@ -214,7 +214,7 @@ This is a 4-mass system, so we would expect it to have four natural frequencies.
 
 We can verify this very easily using MATLAB of Wolfram: the number of eigenvalues = the number of natural frequencies.
 
-In MATLAB, type ```eigs[/matrix/]```, or in Wolfram just type something like ```eigenvalues /matrix/```.
+In MATLAB, type ```eigs[matrix]```, or in Wolfram just type something like `eigenvalues` followed bu the matrix.
 
 MATLAB:
 
@@ -228,17 +228,17 @@ MATLAB:
 <div class="answer">
 Again using MATLAB, we can find the eigenvectors & eigenvalues of the system:
 
-```[vectors, values] = eigs(Matrix)```
+    [vectors, values] = eigs(Matrix)
 
 <img src = "./08-cho-media/answer2d1.png" width="50%" style = "margin: 10px auto 20px; display: block;">
 
-We can see from the ```vectors``` that the eigen mode which satisfies the question is the 1st one, as each mass has a different sign to its neighbours.
+We can see from the vectors that the eigen mode which satisfies the question is the 1st one, as each mass has a different sign to its neighbours.
 
 From our knowledge of eigen analysis, we know that $\lambda=-\omega^2$, so to find $\omega$ from our eigenvalue, we have to take $\omega=\sqrt{-value}$.
 
 <img src = "./08-cho-media/answer2d2.png" width="50%" style = "margin: 10px auto 20px; display: block;">
 
-In the above code, we take the first eigenvalue, which we have identified as the one we need, and use it to calculate the corresponding $\omega$.
+In the above code, we take the first eigenvalue, which we have identified as the one we need, and use it to calculate the corresponding $\omega$. \\
 
 $\Rightarrow \omega=3.2552$
 
@@ -265,7 +265,7 @@ Then we repeat the MATLAB eigen analysis.
 
 <img src = "./08-cho-media/answer2e.png" width="20%" style = "margin: 10px auto 20px; display: block;">
 
-We can see that the new eigenvalues are slightly larger than the old ones
+We can see that the new eigenvalues are slightly larger than the old ones \\
 
 $\Rightarrow \boxed{\text{The resonant frequencies all increase}}$
 </div>
@@ -286,6 +286,7 @@ By calculating the time periods of the natural frequencies of the system to the 
 Note: This will be a problem if the time period between pylons ($=15s$) = the time period of any of the natural frequencies.
 
 <div class="answer">
+
 The wording of this question makes it seem very complex, but all it is asking you to do is decide whether any of the natural time periods ($\frac{1}{\text{natural frequency}}$) is 15 seconds, to the nearest integer.
 
 To solve this, we will:
@@ -296,7 +297,7 @@ To solve this, we will:
 
 We can construct a stiffness matrix for the train, as in previous questions. Note that there are no couplings at either end (the train is free to move).
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 -\frac{3}{65} & \frac{3}{65} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
 \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
@@ -313,7 +314,7 @@ $\begin{pmatrix}
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65}\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 &\frac{3}{65} & -\frac{3}{65}\\
-\end{pmatrix}$
+\end{pmatrix}$$ \\
 
 The matrix is also huge, and therefore evil to type into MATLAB.
 
@@ -324,19 +325,19 @@ Then the omega values:
 <img src = "./08-cho-media/answer52.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 To find the natural time periods, we use the fact that $\omega=\frac{2\pi}{t}$, so $t=\frac{2\pi}{\omega}$.
-We have to use a ```.``` in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
+We have to use a `.` in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
 
 <img src = "./08-cho-media/answer53.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
-This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use ```format shortG```:
+This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use `format shortG`:
 
 <img src = "./08-cho-media/answer54.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 We can now see that the first 3 of these times round to 15 seconds, to the nearest second. This means that the pylons are driving the oscillation of the train at it's natural frequency.
 
-$\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$
+$\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$ \\
 
-*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse ([video](https://www.youtube.com/watch?v=j-zczJXSxnw)).
+*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>.
 
 </div>
 
@@ -344,17 +345,17 @@ $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will
 
 ------------------------------------------------------
 
- ## Challenging Question
- ### Problem 4.
+## Challenging Question
+### Problem 4.
 
 The below is a stiffness matrix for a series of 3 masses connected to each other and a wall at each end by 4 springs.
 
-$
+$$
 \begin{pmatrix}
 -3 & 2 & 0\\
 1 & -4 & 3\\
 0 & 2 & -6
-\end{pmatrix}$
+\end{pmatrix}$$
 
 (a) Calculate what each of the masses $m_1\rightarrow{}m_3$ and spring constants $k_2\rightarrow{}k_4$ must be, in terms of $k_1$
 
