@@ -240,17 +240,6 @@ Alternatively this could be solved using code (e.g. Matlab).
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-\begin{align*}
-& n&    &{x_n} &f &(x_n)& \newline
-\hline
-& 0&     & 0& &1& \newline
-& 1&    -& 1& -&15& \newline
-& 2&    -& 0.0625& &0.4138& \newline
-& 3&   -& 0.0877& &0.1639& \newline
-& 4&   -& 0.1042& -&0.0041& \newline
-& 5&   -& 0.1038& &0.0000& \newline
-\end{align*}
-
 (b) the Secant method
 
 <div class = "answer">
