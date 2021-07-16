@@ -323,24 +323,20 @@ $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
 -----------------------------------
 
 ### Problem 9.
-For a function of two variables, $f(x,y)$, the total differential, $df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy$. <br>
-(a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}x}{\partial{}y})_f$. <br>
+The total differential is defined as, $ df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy $. <br>
+(a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha $. <br>
 Use the identities, $(\frac{\partial{}a}{\partial{}b})_a = 0$ and $(\frac{\partial{}a}{\partial{}a})_b = 1$.
 <div class = "answer">
-Divide through by $dy$ holding $f$ constant, <br>
-$$ (\frac{\partial{}f}{\partial{}y})_f = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x (\frac{\partial{}y}{\partial{}y})_f$$ <br>
+Start with:
+$ d\alpha = (\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma d\beta + (\frac{\partial{}\alpha}{\partial{}\gamma}) _ \beta d\gamma $ <br>
+Divide through by $d\beta$ holding $\alpha$ constant, <br>
+$$ (\frac{\partial{}\alpha}{\partial{}\beta}) _ \alpha = (\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma (\frac{\partial{}\beta}{\partial{}\beta}) _ \alpha + (\frac{\partial{}\alpha}{\partial{}\gamma}) _ \beta (\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha$$ <br>
 Apply the identities, <br>
-$$ \Rightarrow\quad 0 = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x$$ <br>
+$$ \Rightarrow\quad 0 = (\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma + (\frac{\partial{}\alpha}{\partial{}\gamma}) _ \beta (\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha$$ <br>
 Rearrange, <br>
-$$ (\frac{\partial{}x}{\partial{}y})_f = \boxed{-\frac{(\frac{\partial{}f}{\partial{}y})_x}{(\frac{\partial{}f}{\partial{}x})_y}}$$
+$$ (\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha =\boxed{ -\frac{(\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma}{(\frac{\partial{}\alpha}{\partial{}\gamma}) _ \beta}} $$
 </div>
-(b) Find the partial derivative $(\frac{\partial{}x}{\partial{}y})_f$ of the function $f(x,y) = x^2 + y -2xy^2 + x$.
-<div class = "answer">
-Calculate the partial derivatives of $f$, <br>
-$$(\frac{\partial{}f}{\partial{}y})_x = 1 -4xy $$ <br>
-$$(\frac{\partial{}f}{\partial{}x})_y = 2x - 2y^2 + 1 $$<br>
-$$(\frac{\partial{}x}{\partial{}y})_f = -\frac{1 -4xy}{2x - 2y^2 + 1} = \boxed{\frac{4xy - 1}{2x - 2y^2 + 1}}$$
-</div>
+
 
 -----------------------------------------------------------------------------------
 
