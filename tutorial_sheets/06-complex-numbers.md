@@ -157,7 +157,7 @@ Expand the brackets: <br>
 $z_1z_2=(2+4\mathrm{i})(4-7\mathrm{i})=2\times4-2\times7\mathrm{i}+4\times4\mathrm{i}-4\times7\mathrm{i^2}$ <br>
 
 Collect real and complex terms: 
-$8+28-14\mathrm{i}+16\mathrm{i}= \boxed{36+2\mathrm{i}}$
+$8-14\mathrm{i}+16\mathrm{i}+28= \boxed{36+2\mathrm{i}}$
 </div>
 
 (d) Find $\frac{z_1}{z_2}$
@@ -209,7 +209,7 @@ $\frac{1+\mathrm{i}}{1-\mathrm{i}}=\frac{1+\mathrm{i}}{1-\mathrm{i}}\cdot\frac{1
 
 $-(1+2\mathrm{i})(2+2\mathrm{i})=2-6\mathrm{i}$
 
-$\frac{3-\mathrm{i}}{1+\mathrm{i}}=\frac{3-\mathrm{i}}{1+\mathrm{i}}\cdot\frac{1-\mathrm{i}}{1-\mathrm{i}}=\frac{3+\mathrm{i}^2-3\mathrm{i}-\mathrm{i}}{1-\mathrm{i}^2}=1-2\mathrm{i}$}
+$\frac{3-\mathrm{i}}{1+\mathrm{i}}=\frac{3-\mathrm{i}}{1+\mathrm{i}}\cdot\frac{1-\mathrm{i}}{1-\mathrm{i}}=\frac{3+\mathrm{i}^2-3\mathrm{i}-\mathrm{i}}{1-\mathrm{i}^2}=1-2\mathrm{i}$
 
 Therefore: <br>
 $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathrm{i}}{1+\mathrm{i}}=\mathrm{i}+2-6\mathrm{i}+1-2\mathrm{i}=\boxed{3-7\mathrm{i}}$
@@ -272,7 +272,7 @@ $\| z \|=\sqrt{(\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}=\sqrt{\frac{1}{4}+\frac{3
 
 Plot $z$ on an Argand diagram <br>
 <img src = "06-complex-numbers-media\figure6.PNG" width = "50%"> <br>
-$\theta=\tan^{-1}\sqrt{3}=\frac{\pi}{3}$ 
+$\theta=\tan^{-1}(\sqrt{3})=\frac{\pi}{3}$ 
 
 Therefore $\mathrm{arg}(z)=-\frac{\pi}{3}$ or alternatively: $\mathrm{arg}(z)=\frac{5\pi}{3}$
 
@@ -372,8 +372,7 @@ Note: For any integer n, $\cos(2n\pi-\frac{\pi}{4})=\cos(-\frac{\pi}{4})$. Likew
 <br>
 
 Now, $z^5=\cos(2\pi-\frac{\pi}{4})+\mathrm{i}\sin(2\pi-\frac{\pi}{4})$
-<br><br>
-
+<br>
 Model the solutions, $z_n$, to $z^5=4-4\mathrm{i}$ as complex numbers in polar form, i.e.:
 $z_n=r(\cos\theta+\mathrm{i}\sin\theta)$
 <br>
@@ -443,11 +442,11 @@ $x+iy = \frac{1+8i}{1-2i}$ <br>
 =$\frac{-15+10i}{5}$ <br>
 =$-3+2i$ <br>
 
-$arg\frac{1+8i}{1-2i}$ = $arg(-3+2i)$ <br>
+$arg(\frac{1+8i}{1-2i})$ = $arg(-3+2i)$ <br>
 $arg(1+8i)-arg(1-2i)$ = $arg(-3+2i)$ <br>
-$arctan\frac{8}{1} - arctan\frac{-2}{1} = \pi - arctan\frac{2}{3}$. <br>
-$arctan8 + arctan2 = \pi - arctan\frac{2}{3}$ <br>
-$arctan8 + arctan2 + arctan\frac{2}{3} = \pi $  <br>
+$arctan(\frac{8}{1}) - arctan(\frac{-2}{1}) = \pi - arctan(\frac{2}{3})$ <br>
+$arctan(8) + arctan(2) = \pi - arctan(\frac{2}{3})$ <br>
+$arctan(8) + arctan(2) + arctan(\frac{2}{3}) = \pi $  <br>
 
 
 
