@@ -224,18 +224,6 @@ We can verify this very easily using MATLAB of Wolfram: the number of eigenvalue
 In MATLAB, type `eigs[matrix]`, or in Wolfram just type something like `eigenvalues` followed by the matrix.
 <br>
 
-<div markdown="1" class="note">
-
-```matlab:Code
-a = [1 1 ; 2 -1]
-b = [0 1 ; -2 3]
-
-a + b
-```
-
-</div>
-
-<div markdown="1" class="note"> `d` </div>
 
 MATLAB:
 
