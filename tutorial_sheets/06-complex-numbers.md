@@ -417,7 +417,7 @@ $\boxed{Re({ \sqrt{2}e^{\frac{7\pi}{20}i} \\}) =\sqrt{2}\cos\left(\frac{7\pi}{20
 -----------------------------------------------------------------------------------
 
 ### Problem 8.
-Find the value of $x$ and $y$ in the equation $(x+iy)(3+4i) =  3-4i$ given that $x\in \R$ and $y\in \R$.
+Find the value of $x$ and $y$ in the equation $(x+iy)(3+4i) =  3-4i$ given that $x \in \mathbb{R}$ and $y\in \mathbb{R}$. 
 
 <div class = "answer">
 $x+iy = \frac{3-4i}{3+4i}$ <br>
@@ -433,7 +433,7 @@ Therefore $\boxed{x = \frac{-7}{25}}$ and $\boxed{y = \frac{-24}{25}}$
 -----------------------------------------------------------------------------------
 
 ### Problem 9.
-It is given that $z = \frac{1+8i}{1-2i}$. Show that $arctan8 + arctan2 + arctan\frac{2}{3} = \pi$.
+It is given that $z = \frac{1+8i}{1-2i}$. Show that $arctan(8) + arctan(2) + arctan(\frac{2}{3}) = \pi$.
 
 <div class = "answer">
 
