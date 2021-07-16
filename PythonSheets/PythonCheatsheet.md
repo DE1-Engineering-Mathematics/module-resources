@@ -3,12 +3,12 @@
 
 ### Getting Started with Python
 These pages provide a very basic introduction to using Python to solve mathematical problems. 
-- [1. Installation and Basics](gettingStarted\installationPython.md)
-- [2. Interacting with Python](PythonSheets\gettingStarted\installationPython.md)
+- [1. Installation and Basics](gettingStarted\installationPython)
+- [2. Interacting with Python](gettingStarted\interactingWithPython)
 
 ### Engineering Mathematics Topics - Term 1
-- [1. Refresher and Functions]()
-- [2. Vectors]()
+- [1. Refresher and Functions](Topics_term1\1_Refresher_func)
+- [2. Vectors](Topics_term1\2_Vectors)
 - [3. Matrices]()
 - [4A. Linear Transformations]()
 - [4B. EigenProblems]()

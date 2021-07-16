@@ -37,6 +37,7 @@ function displayAnswerButtons(style) {
     for (let i = 0; i < answerButtons.length; i++) {
         answerButtons.item(i).style.display = style;
     }
+
 }
 
 function displayAnswers(style) {
