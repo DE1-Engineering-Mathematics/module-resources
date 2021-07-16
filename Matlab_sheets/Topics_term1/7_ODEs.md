@@ -34,7 +34,10 @@ $$ y(t) = e^{-t} - 1$$
 
 $$ y(t) = 1 - e^{-t}$$
 
-![ODE1](images/ODE1.png)
+
+<p align="center">
+<img src = "images/ODE1.png" width="50%" >
+</p>
 
 ### Solving second order ODEs with initial conditions:
 
@@ -55,7 +58,9 @@ cond2 = Dy(0) == 0
 ySol(t) = dsolve(ode,[cond1 cond2])
 ```
 
-![ODE2](images/ODE2.png)
+<p align="center">
+<img src = "images/ODE2.png" width="50%" >
+</p>
 
 [Find more about solving ODEs analytically](https://uk.mathworks.com/help/symbolic/solve-a-single-differential-equation.html)
 

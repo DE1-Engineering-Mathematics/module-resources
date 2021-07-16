@@ -4,7 +4,10 @@
 
 The following example will show how to solve a CHO problem alongside matlab. This is complex and requires a good understanding of the physical system.
 
-![imagen](images/imagen.jpg)
+
+<p align="center">
+<img src = "images/imagen.jpg" width="50%" >
+</p>
 
 $$ k = k_1 = \frac{1}{2}k_2 = \frac{1}{3}k_3$$
 $$ m = m_1 = \frac{1}{3}m_2$$

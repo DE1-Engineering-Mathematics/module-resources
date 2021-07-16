@@ -17,7 +17,8 @@
     M = [2 3 5; 1 2 3];
     plotv(M)
     ``` 
-![plotv](images/plotv.png)
-
+<p align="center">
+<img src = "images/plotv.png" width="50%" >
+</p>
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

@@ -29,7 +29,9 @@ To calculate the unit vector of a vector then simply:
     M = [2 3 5; 1 2 3];
     plotv(M)
     ``` 
-![plotv](images/plotv.png)
+<p align="center">
+<img src = "images/plotv.png" width="50%" >
+</p>
 
 - **plot3(X,Y,Z)** can be used to plot points on 3D space, X Y Z have to be arrays of equal size. The points are connected with a line [Full Documentation](https://uk.mathworks.com/help/matlab/ref/plot3.html)
     ```matlab:Code
@@ -38,7 +40,9 @@ To calculate the unit vector of a vector then simply:
     Z = [8 4 2];
     plot3(X,Y,Z)
     ```
-![plot3](images/plot3.png)
+<p align="center">
+<img src = "images/plot3.png" width="50%" >
+</p>
 
 - **quiver3(X,Y,Z,U,V,W)** plots 3D arrows starting from the coordinates X Y Z with directional vector components of U V W. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/quiver3.html)
 
@@ -51,5 +55,8 @@ To calculate the unit vector of a vector then simply:
     W = [-1 -1 -1];
     quiver3(X,Y,Z,U,V,W)
     ```
-![quiver3](images/quiver3.png)
+<p align="center">
+<img src = "images/quiver3.png" width="50%" >
+</p>
+
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
