@@ -149,11 +149,14 @@ $\frac{1}{\sqrt{2}}A_1=-\frac{1}{2}A_2$, masses move in opposite directions.
 The question above was fairly straightforward (not because it's easy, but because it only has 2 masses). Here, we will be dealing with four masses - please don't try to do this by hand. It'll be much easier to use MATLAB.
 This is a clone of the 2020 exam question.
 
-A one-dimensional system of 4 coupled harmonic oscillators of mass $m=6kg$ are connected in series by springs of stiffness $k=18N/m$ and to a wall at one end of the system but left unconstrained at the other end. 
+A one-dimensional system of 4 coupled harmonic oscillators (see below) of mass $m=6kg$ are connected in series by springs of stiffness $k=18Nm$ and to a wall at one end of the system but left unconstrained at the other end. 
+
+<img src = "08-cho-media/diagram2.PNG" width="80%" style = "margin: 10px auto 20px; display: block;">
 
 (a) Write down an expression for the acceleration of the first oscillator in the form $\ddot{x}_1=Ax_1+Bx_2$.
 
 <div class="answer">
+Note that the position of the first mass, $x_1$, is affected ONLY by the wall and by the position of the second mass.
 
 The general form for the acceleration of the $n$th mass is:
 
@@ -170,6 +173,7 @@ $\ddot{x}_1=\frac{-2k}{m}x_1+\frac{k}{m}x_2$
 $\ddot{x}_1=\frac{-2\times18}{6}x_1+\frac{18}{6}x_2$
 
 $\boxed{\ddot{x}_1=-6x_1+3x_2, A=-6, B=3}$ 
+
 </div>
 <div class = "workingout"><br><br><br><br></div>
 
@@ -185,6 +189,12 @@ $\begin{pmatrix}
 \end{pmatrix}$
 
 The next line can be found by constructing the equation for $\ddot{x}_2$, and so on - remembering either to construct the equations from first principals each time, or to apply the above general equation correctly: if spring or mass $n+1$ or $n-1$ does not exist, use 0 as its value.
+
+$$m_n\ddot{x}_n=-k_n(x_n-x_{(n-1)})-k_{(n+1)}(x_n-x_{(n+1)})$$
+
+$$m_2\ddot{x}_2=-k_2(x_2-x_1)-k_3(x_n-x_3)$$
+
+$$\ddot{x}_2=3x_1-6x_2+3x_3$$
 
 $\boxed{
 \begin{pmatrix}
@@ -265,6 +275,8 @@ $\Rightarrow \boxed{\text{The resonant frequencies all increase}}$
 A 16-coach train is rolling down a hill.
 
 The coaches can be modelled as coupled harmonic oscillators, each with mass $m=6.5\times10^3kg$ and connected by springs with spring constant $k=300Nm$. Every 15 seconds, the train passes an electricity pylon next to the track. The aerodynamic effect of these pylons begin to cause the coaches of the train to oscillate. If this oscillation frequency matches any of the natural frequencies of the train, it will begin to resonate at higher and higher amplitudes and eventually break apart.
+
+The general diagram of this system looks exactly like the diagram above, without the wall and with 16 masses instead of 4.
 
 By calculating the time periods of the natural frequencies of the system to the nearest second, decide if this wil be a problem.
 
@@ -376,12 +388,20 @@ Note that Wolfram can be a bit picky about simultaneous equations and that the a
 (b) What integer-value of $k_1$ will yield the smallest natural frequency of the system?
 
 <div class="answer">
-This is an understanding-based trick question. The value of $k_1$ does not affect the stiffness matrix, so its eigenvalues (and thus the natural frequencies) are unaffected.
+This is an understanding-based trick question. The stiffness matrix (which determines the natural frequencies) is a constant, so the value of $k_1$ does not affect the stiffness matrix. This means its eigenvalues (and thus the natural frequencies) are unaffected.
 </div>
 
 <div class = "workingout"><br><br></div>
 
-(c) We connect mass $m_3$ to a wall using spring $k_4$, and ignore all other components of the original setup. Assuming a damping constant of $c=24$, and that this new oscillator is critically damped, use your knowledge of ODEs to find the value of $k_1$ and thus the values of all the springs and masses.
+(c) We connect mass $m_3$ to a wall using spring $k_4$, and ignore all other components of the original setup. Draw this new setup.
+
+<div class="answer">
+<img src = "08-cho-media\diagram4.PNG" width="30%" style = "margin: 10px auto 20px; display: block;">
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br></div>
+
+(d) Assuming a damping constant of $c=24$, and that this new oscillator is critically damped, use your knowledge of ODEs to find the value of $k_1$ and thus the values of all the springs and masses.
 
 <div class="answer">
 Once you have deciphered the words, this question is essentially revision of last week's topic.
