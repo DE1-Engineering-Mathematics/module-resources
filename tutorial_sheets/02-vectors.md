@@ -103,7 +103,7 @@ Therefore,
 $$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13\hat{j}+7\hat{k}$$
 Hence, $$|\vec{a}\times\vec{b}|=\sqrt{(-17)^2+(13)^2+(7)^2}= \boxed{\sqrt{507}.}$$ </div>
 
-(b)  Find the area of a triangle having the points A$(1,1,1)$, B$(1,2,3)$ and C$(2,3,1)$ as its vertices
+(b)  Find the area of a triangle having the points $A(1,1,1)$, $B(1,2,3)$ and $C(2,3,1)$ as its vertices
 <div class = "answer">We have
 $$\vec{AB}=\hat{j}+2\hat{k} \text{ and } \vec{AC}=\hat{i}+2\hat{j}$$	
 The area of given triangle is 
@@ -181,7 +181,7 @@ $$\cos\theta=\frac{n_1\cdot n_2}{|n_1|\cdot|n_2|}$$
 $$\cos\theta=\frac{3\cdot2+(-4)\cdot1}{\sqrt{3^2+(-4)^2}\sqrt{2^2+1^2}}= \frac{2}{5\sqrt{5}}$$
 $$\boxed{\theta=\cos^{-1}\left(\frac{2}{5\sqrt{5}}\right)=79.7^\circ}$$</div>
 
-(d) Let ABC be a triangle in the x, y-plane, with the vertices at the points A $= (2,-1)$, B$=(4,4)$ and C=$(9,7)$. Find the distance from point A normal to line BC:
+(d) Let ABC be a triangle in the x, y-plane, with the vertices at the points $A = (2,-1)$, $B=(4,4)$ and $C=(9,7)$. Find the distance from point A normal to line BC:
 <div class = "answer">First, we can begin by drawing a diagram of the points:
 <img src = "02-vectors-media\vectors.png" alt="vectors">
 
@@ -441,7 +441,7 @@ Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$
 
 ## Exam Style Questions
 ### Problem 10.
-#### [12 marks]
+
 The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point P has coordinates $(4,2,0)$.
 
 ![cuboid](02-vectors-media\cuboid.png)
@@ -484,25 +484,23 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
-#### [14 marks]
-A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
+
+A mahi-mahi fish, initially located at $(-4,3,-2)km$, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
-    1 \\\\
-    7 \\\\
-    -6 \\\\
+    1 \\
+    7 \\
+    -6
 \end{pmatrix} \text{km/h}$.
 
 (a) What is the speed of the fish in km/h to 2 decimal places?
 <div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ </div>
 
-(b) A deep sea buoy floats on the surface of the water at location $(8,6,0)$km and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
-The vector 
-$\begin{pmatrix}
-1 \\\\
--1 \\\\
--4 \\\\
-\end{pmatrix} $
-describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places?
+(b) A deep sea buoy floats on the surface of the water at location $(8,6,0)km$ and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
+The vector $\begin{pmatrix}
+1 \\
+-1 \\
+-4
+\end{pmatrix} $ describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places?
 
 <div class = "answer">$\lambda 
 \begin{pmatrix}
@@ -545,16 +543,13 @@ Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
 <div class = "answer">
-Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in graph (i) and (ii) <br>
+Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in the graph. <br>
 <img src = "02-vectors-media\prob10.png">
 
-In graph(i)
+From the graph,
 $$\vec{a}+\vec{b}=\vec{PQ}+\vec{QR}=\vec{PR}$$
-In graph(ii)
 $$\vec{b}+\vec{c}=\vec{QR}+\vec{RS}=\vec{QS}$$
-So, in graph(i)
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{PR}+\vec{RS}=\vec{PS}$$
-In graph(ii)
 $$\vec{a}+(\vec{b}+\vec{c})=\vec{PQ}+\vec{QS}=\vec{PS}$$
 Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$

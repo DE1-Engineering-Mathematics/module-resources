@@ -16,6 +16,13 @@
 
 # Multivariate Calculus Tutorial Sheet, #11
 
+### Learning Targets
+* Calculate the partial derivatives of functions of multiple variables.
+* Use partial derivatives to find stationary points.
+* Use the total derivatives.
+* Use total differentials.
+* Use vector calculus to find divergence, gradient, Laplacian and curl of vector functions.
+
 ### Additional resources
 * [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
@@ -225,9 +232,13 @@ $$ \nabla\begin{bmatrix}
     7y^2 \newline 14xy \newline 4z^3
     \end{bmatrix}
   \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 1 is a two-step process, applying $\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}$ twice. <br>
 Method 2: <br>
 $$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
-$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$
+$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$ once.
 </div>
 (b) $\sin (xy) + 2z^2$
 <div class = "answer">
@@ -290,7 +301,6 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 -----------------------------------
 
 ### Problem 8.
-
 Given the expressions, <br>
 $$ f(u,v)=2u^3-7uv+v^2,\quad u(x,y)=\frac{x}{y}, \quad v(x,y)=\frac{y^2}{x}$$ <br>
 Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$. <br>
@@ -384,7 +394,6 @@ v(x, y) = \cos(x + 5 y)$
 
 <div class = "answer">
 $\Rightarrow$ Direct substitution:
-
 $f(x, y) = 1 + 2 \sin(x + 5 y) \cos(x + 5 y)$
 
 
@@ -420,7 +429,6 @@ $
 
 <div class = "answer">
 $\Rightarrow{}$ Direct substitution:
-
 $f(x, y) = \frac{\arctan(\sqrt{x y})}{1 + (x \ln(3 y))^2}$
 
 $$
@@ -499,7 +507,7 @@ $$
 If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
 
 <div class = "answer">
-Note that by regular differentiation:}
+Note that by regular differentiation:
 $$
 f'_x(x,y)=\frac{3x^2}{3(x^3+y^2)^{2/3}}
 $$
