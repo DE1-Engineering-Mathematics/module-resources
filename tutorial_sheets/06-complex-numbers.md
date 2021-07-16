@@ -37,17 +37,17 @@ Express the flowing complex numbers in their polar form, $r(\cos\theta+\mathrm{i
 <div class = "answer">
 
 Find the $r$ (the magnitude of $z$): <br>
-$r=\| z \|=\sqrt{3^2+4^2}=\sqrt{25}=5$
+$r=\| z \|=\sqrt{3^2+4^2}=\sqrt{25}=5$ <br>
 
-Find the argument $arg(z)$ (angle $\theta$):
+Find the argument $arg(z)$ (angle $\theta$): <br>
 
-$\theta= \text{arg}(z) =\tan^{-1}(\frac{\text{imaginary part}}{\text{real part}})= \tan^{-1}(\frac{4}{3}) = 53.13^\circ$
+$\theta= \text{arg}(z) =\tan^{-1}(\frac{\text{imaginary part}}{\text{real part}})= \tan^{-1}(\frac{4}{3}) = 53.13^\circ$ <br>
 
 <strong>Polar Form</strong><br>
 
 $z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
-$\Rightarrow \boxed{\text{Therefore } z=5(\cos 53.13^\circ+\mathrm{i}\sin 53.13^\circ)}$
+$\Rightarrow \boxed{\text{Therefore } z=5(\cos 53.13^\circ+\mathrm{i}\sin 53.13^\circ)}$ <br>
 
 <strong>Exponential Form</strong><br>
 
@@ -59,7 +59,7 @@ $\Rightarrow \boxed{\text{Therefore } 5e^{53.13^\circ i}}$
 
 (b) $z=-3-\mathrm{i}$
 <div class = "answer"> 
-$r=|z|=\sqrt{(-3)^2+(-1)^2}=\sqrt{10}=3.16$
+$r=|z|=\sqrt{(-3)^2+(-1)^2}=\sqrt{10}=3.16$ <br>
 
 Plot $z$ on an Argand diagram: 
 
@@ -67,7 +67,7 @@ Plot $z$ on an Argand diagram:
 
 $\alpha=\tan^{-1}(\frac{-1}{-3})=\tan^{-1}(\frac{1}{3})=18.43^\circ$
         
-As a result, $arg(z) = \theta = 18.43^\circ + 180^\circ = 198.43^\circ$
+As a result, $arg(z) = \theta = 18.43^\circ + 180^\circ = 198.43^\circ$ <br>
 
 <strong>Polar Form</strong><br>
 
@@ -75,7 +75,7 @@ $z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
 $\Rightarrow \boxed{\text{Therefore } z= 3.16(\cos198.43^\circ+\mathrm{i}\sin198.43^\circ)}$ 
 
-Alternative answer: $z= 3.16(\cos(-161.57^\circ)+\mathrm{i}\sin(-161.57^\circ))$
+Alternative answer: $z= 3.16(\cos(-161.57^\circ)+\mathrm{i}\sin(-161.57^\circ))$ <br>
 
 <strong>Exponential Form</strong><br>
 
@@ -88,11 +88,11 @@ $\Rightarrow \boxed{\text{Therefore } 3.16e^{198.43^\circ i}}$
 
 (c) $z=-\mathrm{i}$
 <div class = "answer">
-$r=|z|=\sqrt{(0)^2+(-1)^2}=\sqrt{1}=1$
+$r=|z|=\sqrt{(0)^2+(-1)^2}=\sqrt{1}=1$ <br>
         
 Find the argument $arg(z)$ (angle $\theta$):
 
-$\theta=\mathrm{arg}(z)=\tan^{-1}(\frac{-1}{0})+180^\circ=\tan^{-1}(\infty)+180^\circ=90^\circ+180^\circ=270^\circ $
+$\theta=\mathrm{arg}(z)=\tan^{-1}(\frac{-1}{0})+180^\circ=\tan^{-1}(\infty)+180^\circ=90^\circ+180^\circ=270^\circ $ <br>
 
 <strong>Polar Form</strong><br>
 
@@ -100,7 +100,7 @@ $z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
 $\Rightarrow \boxed{\text{Therefore }z=1(\cos270^\circ+\mathrm{i}\sin270^\circ)}$ 
 
-Alternative answer: $z=1(\cos-90^\circ+\mathrm{i}\sin-90^\circ)$
+Alternative answer: $z=1(\cos-90^\circ+\mathrm{i}\sin-90^\circ)$ <br>
 
 <strong>Exponential Form</strong><br>
 
@@ -113,12 +113,12 @@ $\Rightarrow \boxed{\text{Therefore } e^{270^\circ i}}$
 <div class = "answer">
 $r=|z|=\sqrt{(3)^2+(4)^2}=\sqrt{25}=5$ <br>
 
-Plot $z$ on an Argand diagram: 
+Plot $z$ on an Argand diagram: <br>
 
 <img src = "06-complex-numbers-media\figure1d.png" width="50%"> <br>
 
 $\alpha = \tan^{-1}(\frac{4}{3})=53.13$ <br>
-$\theta=\mathrm{arg}(z)=360^\circ-53.13^\circ=306.87^\circ$
+$\theta=\mathrm{arg}(z)=360^\circ-53.13^\circ=306.87^\circ$ <br>
 
 <strong>Polar Form</strong><br>
 
@@ -126,7 +126,7 @@ $z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
 $\Rightarrow \boxed{\text{Therefore } z= 5(\cos306.87^\circ+\mathrm{i}\sin306.87^\circ)}$
 
-Alternative answer: $z=5(\cos-53.13^\circ+\mathrm{i}\sin-53.13^\circ)$
+Alternative answer: $z=5(\cos-53.13^\circ+\mathrm{i}\sin-53.13^\circ)$ <br>
 
 <strong>Exponential Form</strong><br>
 
@@ -185,10 +185,10 @@ Therefore, $\boxed{\mathrm{Re}(z)=\frac{14}{13}}$ and $\boxed{\mathrm{Im}(z)=\fr
 (b) Find the absolute value and the conjugate of $z = (1+\mathrm{i})^6$
 <div class = "answer">
 Express $z$ in polar form:
-$z=(1+\mathrm{i})^6=\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6$
+$z=(1+\mathrm{i})^6=\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6$ <br>
 
 Using De Moivre's Theorem: 
-$\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6=8(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2})=-8i$
+$\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6=8(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2})=-8i$ <br>
 
 Hence, $\boxed{|z|=8 \text{ and } \overline{z}=8\mathrm{i}}$
 </div>
@@ -205,11 +205,11 @@ Hence, $\boxed{\| w \|=1 \text{ and } \overline{w}=-\mathrm{i}}$
 (d) Simplify the complex number $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathrm{i}}{1+\mathrm{i}}$
 <div class = "answer">
 Evaluate each part: <br>
-$\frac{1+\mathrm{i}}{1-\mathrm{i}}=\frac{1+\mathrm{i}}{1-\mathrm{i}}\cdot\frac{1+\mathrm{i}}{1+\mathrm{i}} = \frac{1-i^{2}+2\mathrm{i}}{2}=\mathrm{i}$
+$\frac{1+\mathrm{i}}{1-\mathrm{i}}=\frac{1+\mathrm{i}}{1-\mathrm{i}}\cdot\frac{1+\mathrm{i}}{1+\mathrm{i}} = \frac{1-i^{2}+2\mathrm{i}}{2}=\mathrm{i}$ 
 
 $-(1+2\mathrm{i})(2+2\mathrm{i})=2-6\mathrm{i}$
 
-$\frac{3-\mathrm{i}}{1+\mathrm{i}}=\frac{3-\mathrm{i}}{1+\mathrm{i}}\cdot\frac{1-\mathrm{i}}{1-\mathrm{i}}=\frac{3+\mathrm{i}^2-3\mathrm{i}-\mathrm{i}}{1-\mathrm{i}^2}=1-2\mathrm{i}$
+$\frac{3-\mathrm{i}}{1+\mathrm{i}}=\frac{3-\mathrm{i}}{1+\mathrm{i}}\cdot\frac{1-\mathrm{i}}{1-\mathrm{i}}=\frac{3+\mathrm{i}^2-3\mathrm{i}-\mathrm{i}}{1-\mathrm{i}^2}=1-2\mathrm{i}$ <br>
 
 Therefore: <br>
 $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathrm{i}}{1+\mathrm{i}}=\mathrm{i}+2-6\mathrm{i}+1-2\mathrm{i}=\boxed{3-7\mathrm{i}}$
@@ -274,7 +274,7 @@ Plot $z$ on an Argand diagram <br>
 <img src = "06-complex-numbers-media\figure6.PNG" width = "50%"> <br>
 $\theta=\tan^{-1}(\sqrt{3})=\frac{\pi}{3}$ 
 
-Therefore $\mathrm{arg}(z)=-\frac{\pi}{3}$ or alternatively: $\mathrm{arg}(z)=\frac{5\pi}{3}$
+Therefore $\mathrm{arg}(z)=-\frac{\pi}{3}$ or alternatively: $\mathrm{arg}(z)=\frac{5\pi}{3}$ <br>
 
 Complex number $z$ in polar form: <br>
 $z=\cos\frac{-\pi}{3}+\mathrm{i}\sin\frac{-\pi}{3}=\boxed{\cos\frac{\pi}{3}-\mathrm{i}\sin\frac{\pi}{3}}$
