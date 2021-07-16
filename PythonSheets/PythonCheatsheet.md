@@ -9,7 +9,7 @@ These pages provide a very basic introduction to using Python to solve mathemati
 ### Engineering Mathematics Topics - Term 1
 - [1. Refresher and Functions](Topics_term1\1_Refresher_func)
 - [2. Vectors](Topics_term1\2_Vectors)
-- [3. Matrices]()
+- [3. Matrices](Topics_term1\3_Matrices)
 - [4A. Linear Transformations]()
 - [4B. EigenProblems]()
 - [5A. Power Series]()
@@ -29,3 +29,4 @@ These pages provide a very basic introduction to using Python to solve mathemati
  - [16. Normal Distribution]()
 
 ###### Dyson School of Design Engineering 2021
+
