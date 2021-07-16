@@ -16,6 +16,13 @@
 
 # Multivariate Calculus Tutorial Sheet, #11
 
+### Learning Targets
+* Calculate the partial derivatives of functions of multiple variables.
+* Use partial derivatives to find stationary points.
+* Use the total derivatives.
+* Use total differentials.
+* Use vector calculus to find divergence, gradient, Laplacian and curl of vector functions.
+
 ### Additional resources
 * [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
@@ -66,7 +73,8 @@ $$
 \frac{\partial{}f}{\partial{}z}=-x\sin{z}+x^2y^3e^z
 $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 2.
 For the function
@@ -102,7 +110,8 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 3.
 Find the turning points,
@@ -125,13 +134,218 @@ $$ f_y = -2 x y = 0 \Rightarrow y = 0 $$
 
 $$ \boxed{ f(\pm \frac{1}{\sqrt{2}}, 0) = \pm \frac{1}{\sqrt{2}} e^{-1/2} }$$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
+### Problem 4.
+Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
+
+(a) $\mathbf{x} = \begin{bmatrix}
+    x \newline y \newline z \end{bmatrix}$
+<div class = "answer">
+For any column vector v:
+
+$$ \nabla \cdot \mathbf{v} = 
+\frac{\partial v_x}{\partial x} + 
+\frac{\partial v_y}{\partial y} + 
+\frac{\partial v_z}{\partial z}$$
+
+$$\nabla\times\mathbf{v} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k}
+\newline
+\frac{\partial}{\partial x}
+& \frac{\partial}{\partial y}
+& \frac{\partial}{\partial z}
+\newline
+v_x & v_y & v_z
+\end{vmatrix} 
+= \begin{bmatrix}
+\frac{\partial v_z}{\partial y} - \frac{\partial v_y}{\partial z} \newline
+\frac{\partial v_x}{\partial z} - \frac{\partial v_z}{\partial x} \newline
+\frac{\partial v_y}{\partial x} - \frac{\partial v_x}{\partial y}
+\end{bmatrix}
+$$
+
+<br>
+
+$$ \boxed{ \nabla \cdot \mathbf{x} = 3, \ \ \ \nabla \times \mathbf{x} = \begin{bmatrix} 0 \newline 0 \newline 0 \end{bmatrix} } $$
+</div>
+
+(b) $\mathbf{u} = \begin{bmatrix}
+    -y \newline x \newline 3 z^2
+    \end{bmatrix}$
+
+<div class = "answer">
+$$
+\boxed{ \nabla \cdot \mathbf{u} = 6 z, \ \ \ \nabla \times \mathbf{u} = \begin{bmatrix} 0 \newline 0 \newline 2 \end{bmatrix} }
+$$
+</div>
+
+(c) $\mathbf{a} = \begin{bmatrix}
+    0 \newline 0 \newline x z
+    \end{bmatrix}$
+
+<div class = "answer">
+$$
+\boxed{ \nabla \cdot \mathbf{a} = x, \ \ \ \nabla \times \mathbf{a} = \begin{bmatrix} 0 \newline -z \newline 0 \end{bmatrix} }
+$$
+</div>
+
+(d) $\mathbf{p} = \begin{bmatrix}
+    x y z \newline x^2 + y^2 \newline -z
+    \end{bmatrix}$
+
+<div class = "answer">
+$$
+\boxed{ \nabla \cdot \mathbf{p} = y z + 2 y -1, \ \ \ \nabla \times \mathbf{p} = \begin{bmatrix} 0 \\ x y \\ 2x-xz \end{bmatrix} }
+$$
+</div>
+
+(e) $\mathbf{q} = \begin{bmatrix}
+    \sin x \cos y \sin z \newline \cos x \sin y \sin z \newline \cos z
+    \end{bmatrix}$
+
+<div class = "answer">
+$$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nabla \times \mathbf{q} = \begin{bmatrix} -\cos x \sin y \cos z \newline \sin x \cos y \cos z \newline 0 \end{bmatrix} }$$
+</div>
+
+
+-----------------------------------
+
+### Problem 5.
+Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following functions: <br>
+(a) $7xy^2+z^4$ 
+<div class = "answer">
+The gradient is found by, <br>
+$$ \nabla(7xy^2+z^4) = \begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}(7xy^2+z^4) \Rightarrow\quad\boxed{\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}}$$ <br>
+The Laplacian is effectively applying $\nabla$ twice, hence there are 2 methods, <br>
+Method 1: Using the answer for the gradient, we can apply $\nabla$ again, <br>
+$$ \nabla\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}\Rightarrow\quad\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}
+  \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 1 is a two-step process, applying $\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}$ twice. <br>
+Method 2: <br>
+$$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
+$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$ once.
+</div>
+(b) $\sin (xy) + 2z^2$
+<div class = "answer">
+$$ \nabla(sin (xy) + 2z^2) = \begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}(\sin (xy) + 2z^2)\Rightarrow\quad\boxed{\begin{bmatrix}
+    y\cos(xy)\newline x\cos(xy) \newline 4z
+    \end{bmatrix}}$$ <br>
+$$ \nabla^2(sin (xy) + 2z^2) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(sin (xy) + 2z^2) $$ <br>
+$$ \Rightarrow\quad -y^2\sin(xy)-x^2\sin(xy) + 4 \Rightarrow\quad\boxed{4 - (x^2+y^2)\sin (xy)} $$
+</div>
+
+## Exam Style Questions
+### Problem 6.
+Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
+$$ 2\frac{ {\partial{}}^2u}{ {\partial{}x}^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=0 $$
+
+<div class = "answer">
+$$
+\frac{\partial{}u}{\partial{}x}=\frac{y^2}{1+xy^2}\ ;\ \ \
+\frac{ {\partial{}}^2u}{ {\partial{}x}^2}=-\frac{y^2}{ {\left(1+{xy}^2\right)}^2}.y^2=\frac{-y^4}{ {\left(1+{xy}^2\right)}^2}
+$$
+
+<br>
+$$
+\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=\frac{\partial{}}{\partial{}y}\left(\frac{\partial{}u}{\partial{}x}\right)=\frac{2y\left(1+xy^2\right)-y^2(2xy)}{ {(1+xy^2)}^2}=\frac{2y+2xy^3-2xy^3}{ { {(1+xy}^2)}^2}=\frac{2y}{ { {(1+xy}^2)}^2}
+$$
+
+<br>
+$$ \boxed{
+2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0 }
+$$
+</div>
+
+-----------------------------------
+
+### Problem 7.
+If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:
+$$ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=0 $$
+
+<div class = "answer">
+Let $x=s^2-t^2$ and $y=t^2-s^2$. Then $g(s,t)=f(x,y)$, and by the chain rule:
+
+<br>
+$$
+\frac{\partial{}g}{\partial{}s}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}s}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}s}=(\frac{\partial{}f}{\partial{}x})(2s)+(\frac{\partial{}f}{\partial{}y})(-2s)
+$$
+
+<br>
+$$
+\frac{\partial{}g}{\partial{}t}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}t}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(-2t)+(\frac{\partial{}f}{\partial{}y})(2t)
+$$
+
+<br>
+$$ \boxed{
+t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
+
+</div>
+
+-----------------------------------
+
+### Problem 8.
+Given the expressions, <br>
+$$ f(u,v)=2u^3-7uv+v^2,\quad u(x,y)=\frac{x}{y}, \quad v(x,y)=\frac{y^2}{x}$$ <br>
+Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$. <br>
+(Hint: The final expression should be in terms of $x$ and $y$)
+<div class = "answer">
+We need to use the multivariate chain rule: <br>
+$$\frac{\partial{}f}{\partial{}x} = \frac{\partial{}f}{\partial{}u}\frac{\partial{}u}{\partial{}x} + \frac{\partial{}f}{\partial{}v}\frac{\partial{}v}{\partial{}x}$$ <br>
+Calculate each of the needed partial derivatives, <br>
+$$\frac{\partial{}f}{\partial{}u} = 6u^2 - 7v, \frac{\partial{}f}{\partial{}v} = -7u +2v$$ <br>
+$$\frac{\partial{}u}{\partial{}x} = \frac{1}{y}, \frac{\partial{}v}{\partial{}x} = -\frac{y^2}{x^2}$$ <br>
+Substitute all of these derivatives into the multivariate chain rule equation, <br>
+$$\frac{\partial{}f}{\partial{}x} = (6u^2-7v)(\frac{1}{y})+(-7u+2v)(-\frac{y^2}{x^2})$$ <br>
+Substitute $u$ and $v$, <br>
+$$\frac{\partial{}f}{\partial{}x}=(\frac{6x^2}{y^2}-\frac{7y^2}{x})(\frac{1}{y})+(-\frac{7x}{y}+\frac{2y^2}{x})(-\frac{y^2}{x})$$ <br>
+$$\Rightarrow \frac{6x^2}{y^3} - \frac{7y}{x} + \frac{7y}{x} - \frac{2y^4}{x^3}$$ <br>
+Simplify, <br>
+$$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
+</div>
+
+-----------------------------------
+
+### Problem 9.
+For a function of two variables, $f(x,y)$, the total differential, $df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy$. <br>
+(a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}x}{\partial{}y})_f$. <br>
+Use the identities, $(\frac{\partial{}a}{\partial{}b})_a = 0$ and $(\frac{\partial{}a}{\partial{}a})_b = 1$.
+<div class = "answer">
+Divide through by $dy$ holding $f$ constant, <br>
+$$ (\frac{\partial{}f}{\partial{}y})_f = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x (\frac{\partial{}y}{\partial{}y})_f$$ <br>
+Apply the identities, <br>
+$$ \Rightarrow\quad 0 = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x$$ <br>
+Rearrange, <br>
+$$ (\frac{\partial{}x}{\partial{}y})_f = \boxed{-\frac{(\frac{\partial{}f}{\partial{}y})_x}{(\frac{\partial{}f}{\partial{}x})_y}}$$
+</div>
+(b) Find the partial derivative $(\frac{\partial{}x}{\partial{}y})_f$ of the function $f(x,y) = x^2 + y -2xy^2 + x$.
+<div class = "answer">
+Calculate the partial derivatives of $f$, <br>
+$$(\frac{\partial{}f}{\partial{}y})_x = 1 -4xy $$ <br>
+$$(\frac{\partial{}f}{\partial{}x})_y = 2x - 2y^2 + 1 $$<br>
+$$(\frac{\partial{}x}{\partial{}y})_f = -\frac{1 -4xy}{2x - 2y^2 + 1} = \boxed{\frac{4xy - 1}{2x - 2y^2 + 1}}$$
+</div>
 
 -----------------------------------------------------------------------------------
 
 ## Challenging Questions
-### Problem 4.
+### Problem 10.
 For functions $f(u, v)$, $u(x, y)$, and $v(x, y)$,
 calculate the partial derivative $\frac{\partial f}{\partial y}$,
 by direct substitution then the total derivative chain rule. Check that the approaches match.
@@ -180,7 +394,6 @@ v(x, y) = \cos(x + 5 y)$
 
 <div class = "answer">
 $\Rightarrow$ Direct substitution:
-
 $f(x, y) = 1 + 2 \sin(x + 5 y) \cos(x + 5 y)$
 
 
@@ -216,7 +429,6 @@ $
 
 <div class = "answer">
 $\Rightarrow{}$ Direct substitution:
-
 $f(x, y) = \frac{\arctan(\sqrt{x y})}{1 + (x \ln(3 y))^2}$
 
 $$
@@ -288,13 +500,14 @@ $$
 $$
 
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-### Problem 5.
+-----------------------------------
+
+### Problem 11.
 If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
 
 <div class = "answer">
-Note that by regular differentiation:}
+Note that by regular differentiation:
 $$
 f'_x(x,y)=\frac{3x^2}{3(x^3+y^2)^{2/3}}
 $$
@@ -303,9 +516,10 @@ $$
 \boxed{ f'_x(a,0)=1 }
 $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-### Problem 6.
+-----------------------------------
+
+### Problem 12.
 The ellipsoid $4x^2+2y^2+z^2=16$ intersects the plane $y=2$ in an ellipse. Find parametric equations for the tangent line to this ellipse at the point (1, 2, 2).
 
 <div class = "answer">
@@ -343,141 +557,12 @@ To get the parametric equation of the line, take $x = t$:
 
 $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 </div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-### Problem 7.
-Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
-
-(a) ${x} = \begin{bmatrix}
-    x \newline y \newline z \end{bmatrix}$
-<div class = "answer">
-For any column vector v:
-
-$$ \nabla \cdot \mathbf{v} = 
-\frac{\partial v_x}{\partial x} + 
-\frac{\partial v_y}{\partial y} + 
-\frac{\partial v_z}{\partial z}$$
-
-$$\nabla\times\mathbf{v} = \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k}
-\newline
-\frac{\partial}{\partial x}
-& \frac{\partial}{\partial y}
-& \frac{\partial}{\partial z}
-\newline
-v_x & v_y & v_z
-\end{vmatrix} 
-= \begin{bmatrix}
-\frac{\partial v_z}{\partial y} - \frac{\partial v_y}{\partial z} \newline
-\frac{\partial v_x}{\partial z} - \frac{\partial v_z}{\partial x} \newline
-\frac{\partial v_y}{\partial x} - \frac{\partial v_x}{\partial y}
-\end{bmatrix}
-$$
-
-<br>
-
-$$ \boxed{ \nabla \cdot \mathbf{x} = 3, \ \ \ \nabla \times \mathbf{x} = \begin{bmatrix} 0 \newline 0 \newline 0 \end{bmatrix} } $$
-</div>
-
-(b) ${u} = \begin{bmatrix}
-    -y \newline x \newline 3 z^2
-    \end{bmatrix}$
-
-<div class = "answer">
-$$
-\boxed{ \nabla \cdot \mathbf{u} = 6 z, \ \ \ \nabla \times \mathbf{u} = \begin{bmatrix} 0 \newline 0 \newline 2 \end{bmatrix} }
-$$
-</div>
-
-(c) ${a} = \begin{bmatrix}
-    0 \newline 0 \newline x z
-    \end{bmatrix}$
-
-<div class = "answer">
-$$
-\boxed{ \nabla \cdot \mathbf{a} = x, \ \ \ \nabla \times \mathbf{a} = \begin{bmatrix} 0 \newline -z \newline 0 \end{bmatrix} }
-$$
-</div>
-
-(d) ${p} = \begin{bmatrix}
-    x y z \newline x^2 + y^2 \newline -z
-    \end{bmatrix}$
-
-<div class = "answer">
-$$
-\boxed{ \nabla \cdot \mathbf{p} = y z + 2 y -1, \ \ \ \nabla \times \mathbf{p} = \begin{bmatrix} 0 \\ x y \\ 2x-xz \end{bmatrix} }
-$$
-</div>
-
-(e) ${q} = \begin{bmatrix}
-    \sin x \cos y \sin z \newline \cos x \sin y \sin z \newline \cos z
-    \end{bmatrix}$
-
-<div class = "answer">
-$$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nabla \times \mathbf{q} = \begin{bmatrix} -\cos x \sin y \cos z \newline \sin x \cos y \cos z \newline 0 \end{bmatrix} }$$
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-
------------------------------------
-
-## Exam Style Questions
-### Problem 8.
-Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
-$$ 2\frac{ {\partial{}}^2u}{ {\partial{}x}^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=0 $$
-
-<div class = "answer">
-$$
-\frac{\partial{}u}{\partial{}x}=\frac{y^2}{1+xy^2}\ ;\ \ \
-\frac{ {\partial{}}^2u}{ {\partial{}x}^2}=-\frac{y^2}{ {\left(1+{xy}^2\right)}^2}.y^2=\frac{-y^4}{ {\left(1+{xy}^2\right)}^2}
-$$
-
-<br>
-$$
-\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=\frac{\partial{}}{\partial{}y}\left(\frac{\partial{}u}{\partial{}x}\right)=\frac{2y\left(1+xy^2\right)-y^2(2xy)}{ {(1+xy^2)}^2}=\frac{2y+2xy^3-2xy^3}{ { {(1+xy}^2)}^2}=\frac{2y}{ { {(1+xy}^2)}^2}
-$$
-
-<br>
-$$ \boxed{
-2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0 }
-$$
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-### Problem 9.
-If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:}
-$$ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=0 $$
-
-<div class = "answer">
-Let $x=s^2-t^2$ and $y=t^2-s^2$. Then $g(s,t)=f(x,y)$, and by the chain rule:
-
-<br>
-$$
-\frac{\partial{}g}{\partial{}s}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}s}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}s}=(\frac{\partial{}f}{\partial{}x})(2s)+(\frac{\partial{}f}{\partial{}y})(-2s)
-$$
-
-<br>
-$$
-\frac{\partial{}g}{\partial{}t}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}t}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(-2t)+(\frac{\partial{}f}{\partial{}y})(2t)
-$$
-
-<br>
-$$ \boxed{
-t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
-
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
 
 ## Answers
 
 <button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
-<br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
