@@ -15,6 +15,11 @@
 
 # Root Finding Tutorial Sheet, #13
 
+### Learning targets
+* To understand the process of the 3 root finding methods (Newton-Raphson, Bisection, Secant)
+* Iterate multiple times to find a root to a desired level of accuracy (could use code)
+* Understand some constraints and disadvantages associated with the methods/use of computers
+
 ### Additional resources
 * [SJC - Newton-Raphson](https://youtu.be/evYOeTyeo1M)
 * [SJC - Bisection method](https://www.youtube.com/watch?v=VkyTBij4yoQ)
@@ -82,6 +87,7 @@ It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
 ### Problem 2.
 The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. Use the method of interval bisection to locate this root accurate to $10^{-2}$. 
 
@@ -170,6 +176,7 @@ We can also use the same method as in problem 1 and use a table to find the root
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 3.
 Find the only real root of $x^3-3x-4=0$ using NR method correct to 9 decimal places.
@@ -202,6 +209,7 @@ The root is $\boxed{x = 2.195823345}$ correct to 9dp.
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 4.
 Find the real root of $x^3-6x^2+9x+1=0$ using;
@@ -302,6 +310,7 @@ The root found by these start points will then be returned. (for this question $
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 5
 Find a positive real root of $\cos(x)-x^3=0$ using;
@@ -363,7 +372,7 @@ $$
 $\therefore$ the root is $\boxed{x=0.8654}$ to 4 dp.
 </div>
 
-<div class = "workingout"><br><br><br><br><br><br><br><br<br><br></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br><br><br></div>
 
 (b) the Secant method.
 
@@ -484,6 +493,7 @@ The sequence is clearly converging to the root $\boxed{x\approx 0.74}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 8.*
 
