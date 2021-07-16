@@ -67,16 +67,16 @@ Find the eigenvalues and the associated eigenvectors for the transformations rep
 
 (g)
 
-![1g](04B-eigenproblems-media/1h.png)
+![1g](04B-eigenproblems-media/1g.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = -2}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
-* [A quick trick](https://www.youtube.com/watch?v=e50Bj7jn9IQ)  _for find the eigenvalues of a 2x2 matrix just by looking at it. This is a good way for double checking your answer._
+* [A quick trick](https://www.youtube.com/watch?v=e50Bj7jn9IQ)  for finding the eigenvalues of a 2x2 matrix just by looking at it. This is a good way for double checking your answer.
 <br><br>
-Find the eigenvalues and the associate eigenvectors of the matrices:
+Find the eigenvalues and the associated eigenvectors of the matrices:
 
 (a) $\begin{pmatrix}1&3\\\ 2&2\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B=\begin{pmatrix}1&3\\2&2\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda & 3\\2 & 2 - \lambda\end{pmatrix}$
@@ -283,7 +283,7 @@ $\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\ 1\\\ -1\end{pmatrix}, \\
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
-(a) Let $A$ be a $2\times2$ matrix whose trace equals 2 and determinant equals -2. Find the eigenvalues of $A$._(The trace of a square matrix is the sum of the terms along its leading diagonal.)_
+(a) Let $A$ be a $2\times2$ matrix whose trace equals 2 and determinant equals -2. Find the eigenvalues of $A$. _(The trace of a square matrix is the sum of the terms along it's leading diagonal.)_
 
 <div class = "answer">$\Rightarrow{}\quad$ considering $A = \begin{pmatrix}a&b\\c&d\end{pmatrix}
 \quad\Rightarrow{}\quad 
@@ -378,7 +378,7 @@ For $\boxed{\lambda_3 = 3, (1,1,1)^T.}$</div>
 
 ## Exam Style Questions
 ### Problem 7.
-This is the exam question from the Linear Transforms tutorial sheet with an extra part on eigenvectors and eigenvalues.\\ The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
+This is the exam question from the Linear Transforms tutorial sheet with an extra part on eigenvectors and eigenvalues. The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
 
 (a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross)
 
@@ -424,7 +424,7 @@ $\Rightarrow{}\quad$ Eigenvalues: $\boxed{\lambda_2 = 1 + \sqrt{5},\quad \lambda
 -----------------------------------------------------------------------------------
 
 ### Problem 9.
-For each of the following matrices, find an invertible matrix which diagonalizes it._(click 'toggle answer' to see the definition for a diagonalisable matrix)_
+For each of the following matrices, find an invertible matrix which diagonalizes it. _(click 'toggle answer' to see the definition for a diagonalisable matrix)_
 
 <div class = "answer">An $n \times n$ matrix $A$ is said to be diagonalisable if it can be written on the form  $A = PDP^{-1}$, 
 where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its entries and $P$ is a nonsingular $n \times n$ matrix consisting of the eigenvectors corresponding to the eigenvalues in $D$</div>
@@ -466,65 +466,62 @@ so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ### Problem 10.
-Given that for a $2\times2$ matrix $M$, one of the eigenvalue  $\lambda_1=8$ and its corresponding eigenvector $v_1=(1,1)$, it is also known that matrix $M$ changes point (-1,2)to (-2,4).
+Given that for a $(2\times2)$ matrix $M$, one of the eigenvalue  $\lambda_1=8$ and its corresponding eigenvector $v_1=(1,1)$, it is also known that matrix $M$ changes point $(-1,2)$ to $(-2,4)$.
 <br><br>
 (a)Find matrix $M$.
-<br><br>
-(b)Find $\lambda_2$ and $v_2$.
-<br><br>
-(c)For line $l: x-y+1=0$, find $l'$ after transformed by matrix $M$.
-<br><br>
-
-
-
 <div class = "answer">
-(a) Let matrix $M$ be $M = \begin{pmatrix}a&b\\\ c&d\end{pmatrix}$
+Let matrix $M$ be $M = \begin{pmatrix}a&b\\\ c&d\end{pmatrix}$<br><br>
 $\Rightarrow{}\quad \begin{pmatrix}a&b\\\ c&d\end{pmatrix}\begin{pmatrix}1\\\ 1\end{pmatrix} = 8\begin{pmatrix}1\\\ 1\end{pmatrix}<br>
 \quad\Rightarrow{}\quad
     \begin{cases}
     a+b = 8\\\ 
-    c+d = 8\\\ 
+    c+d = 8 
     \end{cases}$ <br><br>
-    Also, from the question is is known that:<br><br>
+    Also, from the question is is known that:<br>
 $\quad \begin{pmatrix}a&b\\\ c&d\end{pmatrix}\begin{pmatrix}-1\\\ 2\end{pmatrix} = \begin{pmatrix}-2\\\ 4\end{pmatrix}$<br><br>
-$Therefore \quad\Rightarrow{}\quad
+$\quad\Rightarrow{}\quad
     \begin{cases}
     -a+2b = -2\\\ 
-    -c+2d = 4\\\ 
-    \end{cases}$ <br><br>
-Solving for the algebra, we get answer
+    -c+2d = 4 
+    \end{cases}$ <br>
+Solving simultaneously, we get:
 $\quad\Rightarrow{}\quad
     \begin{cases}
     a=6\\\ 
     b=2\\\ 
     c=4\\\
-    d=4\\\
+    d=4
     \end{cases}$ <br><br>
     $\quad\Rightarrow{}\quad
-    M=\begin{pmatrix}6&2\\\ 4&4\end{pmatrix}$ <br><br>
-(b)<br>$\Rightarrow{}\quad$ from (a) we know $f(\lambda) =\begin{pmatrix}\lambda-6&-2\\\ -4&\lambda-4\end{pmatrix}$
+    \boxed{M=\begin{pmatrix}6&2\\\ 4&4\end{pmatrix}}$
+</div>
+<br>
+
+(b)Find $\lambda_2$ and $v_2$.
+<div class = "answer">
+$\Rightarrow{}\quad$ from (a) we know $f(\lambda) =\begin{pmatrix}\lambda-6&-2\\\ -4&\lambda-4\end{pmatrix}$
 <br><br>
 ${det(M)=(\lambda-6)(\lambda-4)-8=\lambda^2-10\lambda+16=(\lambda-2)(\lambda-8)=0}$<br><br>
-Therefore the other eigenvalue for matrix $M$ is $\lambda=2$<br><br>
-For $\lambda_1 = 2, $
+Therefore the other eigenvalue for matrix $M$ is $\lambda=2$<br>
+For $\lambda_2 = 2, $
 
-$\Rightarrow{}$ let $v_1=\begin{pmatrix}x\\\ y\end{pmatrix}\Rightarrow{}Mv_2=\begin{pmatrix}6x+2y\\\4x+4y\end{pmatrix}=2\begin{pmatrix}x\\\y\end{pmatrix}$
+$\Rightarrow{}$ let $v_2= \begin{pmatrix} x \\ y \end{pmatrix} \Rightarrow{} Mv_2 =\begin{pmatrix} 6x+2y \\4x+4y\end{pmatrix}=2 \begin{pmatrix}x\\y \end{pmatrix}$
 
 
-$\Rightarrow{}\quad \text{ solving for the equation } , \text{ eigenvector of } \lambda_2:\quad (2,1)$
+$\Rightarrow{}\quad \boxed{v_2 = \quad \begin{pmatrix} 2 \\ 1 \end{pmatrix}}$
+</div>
+<br>
+(c)For line $l: x-y+1=0$, find $l'$ after transformed by matrix $M$.
 <br><br>
-(c)Let $(x,y)$ be a point on line $l$, and $(x',y')$ is point $(x,y)$ after transformed by matrix $M$.
+<div class = "answer">
+Let $(x,y)$ be a point on line $l$, and $(x',y')$ is point $(x,y)$ after transformed by matrix $M$.<br><br>
 
-$\Rightarrow{}\quad \begin{pmatrix}6&2\\\ 4&4\end{pmatrix}\begin{pmatrix}x\\\ y\end{pmatrix} = \begin{pmatrix}x'\\\ y'\end{pmatrix}$<br>
+$\Rightarrow{}\quad \begin{pmatrix}6&2\\\ 4&4\end{pmatrix}\begin{pmatrix}x\\\ y\end{pmatrix} = \begin{pmatrix}x'\\\ y'\end{pmatrix}$ <br><br>
 
-$Therefore \quad\Rightarrow{}\quad
-    \begin{cases}
-    x = \frac{1}{4}x'-\frac{1}{8}y'\\\ 
-    y = -\frac{1}{4}x'+\frac{3}{8}y'\\\ 
-    \end{cases}$ <br><br>
+$\Rightarrow{}\quad \begin{cases} x = \frac{1}{4}x'-\frac{1}{8}y'\\\ y = -\frac{1}{4}x'+\frac{3}{8}y' \end{cases}$ <br><br>
 
 $\Rightarrow{}\quad x'-y'+2=0$<br>
-$\Rightarrow{}\quad l'=y=x+2$
+$\Rightarrow{}\quad l': \boxed{y=x+2}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
