@@ -214,7 +214,7 @@ $\textbf{X} =  \begin{bmatrix}
     \end{bmatrix}$ <br><br>
 
 Using Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 X = rotx(38.4)
@@ -235,7 +235,7 @@ $\textbf{T} =  \begin{pmatrix}
     \end{pmatrix}$ <br><br>
 
 Using Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 M = [7.2 ; 42.1 ; 13.6]
@@ -279,7 +279,7 @@ $\Rightarrow{} \boxed{x=1}$
 </div>
 
 (b) **(Optional)** Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 %define matrix transformation
@@ -320,7 +320,7 @@ grid on
 
 <div class = "answer">
 Matlab:
-<div>
+<div markdown = "1">
 
 ```matlab:Code
 %define matrix transformation
