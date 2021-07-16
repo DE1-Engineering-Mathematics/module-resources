@@ -94,12 +94,12 @@ $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x}} + \fr
 </div>
 
 (c)$f(x)=\frac{x+3}{2-x}$
-<div class = "answer">$
+<div class = "answer">
+
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \boxed{ \frac{5}{(2-x)^2} }$
 </div>
-
-<div class = "answer">$ The exam won't need to do this :)$
+<div class = "answer">$The exam won't need to do this :)$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
