@@ -221,7 +221,7 @@ This is a 4-mass system, so we would expect it to have four natural frequencies.
 We can verify this very easily using MATLAB of Wolfram: the number of eigenvalues = the number of natural frequencies.
 <br>
 
-In MATLAB, type <div markdown="1"> `eigs[matrix]` </div>, or in Wolfram just type something like `eigenvalues` followed by the matrix.
+In MATLAB, type `eigs[matrix]`, or in Wolfram just type something like `eigenvalues` followed by the matrix.
 <br>
 
 MATLAB:
