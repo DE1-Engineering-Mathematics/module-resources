@@ -41,7 +41,7 @@ $r=\| z \|=\sqrt{3^2+4^2}=\sqrt{25}=5$
 
 Find the argument $arg(z)$ (angle $\theta$):
 
-$\theta= \text{arg}(z) =\tan^{-1}\frac{\text{imaginary part}}{\text{real part}}= \tan^{-1}\frac{4}{3} = 53.13^\circ$
+$\theta= \text{arg}(z) =\tan^{-1}(\frac{\text{imaginary part}}{\text{real part}})= \tan^{-1}(\frac{4}{3}) = 53.13^\circ$
 
 <strong>Polar Form</strong><br>
 
@@ -65,7 +65,7 @@ Plot $z$ on an Argand diagram:
 
 <img src = "06-complex-numbers-media\figure1.png" width="50%"> <br>
 
-$\alpha=\tan^{-1}\frac{(-1)}{(-3)}=\tan^{-1}\frac{1}{3}=18.43^\circ$}
+$\alpha=\tan^{-1}(\frac{-1}{-3})=\tan^{-1}(\frac{1}{3})=18.43^\circ$
         
 As a result, $arg(z) = \theta = 18.43^\circ + 180^\circ = 198.43^\circ$
 
@@ -75,7 +75,7 @@ $z=a+b\mathrm{i}=r(\cos\theta+\mathrm{i}\sin\theta)$ <br>
 
 $\Rightarrow \boxed{\text{Therefore } z= 3.16(\cos198.43^\circ+\mathrm{i}\sin198.43^\circ)}$ 
 
-Alternative answer: $z= 3.16(\cos-161.57^\circ+\mathrm{i}\sin-161.57^\circ)$
+Alternative answer: $z= 3.16(\cos(-161.57^\circ)+\mathrm{i}\sin(-161.57^\circ))$
 
 <strong>Exponential Form</strong><br>
 
@@ -92,7 +92,7 @@ $r=|z|=\sqrt{(0)^2+(-1)^2}=\sqrt{1}=1$
         
 Find the argument $arg(z)$ (angle $\theta$):
 
-$\theta=\mathrm{arg}(z)=\tan^{-1}\frac{(-1)}{(0)}+180^\circ=\tan^{-1}\infty+180^\circ=90^\circ+180^\circ=270^\circ .$
+$\theta=\mathrm{arg}(z)=\tan^{-1}(\frac{-1}{0})+180^\circ=\tan^{-1}(\infty)+180^\circ=90^\circ+180^\circ=270^\circ $
 
 <strong>Polar Form</strong><br>
 
@@ -117,7 +117,7 @@ Plot $z$ on an Argand diagram:
 
 <img src = "06-complex-numbers-media\figure1d.png" width="50%"> <br>
 
-$\alpha = \tan^{-1}\frac{4}{3}=53.13$
+$\alpha = \tan^{-1}(\frac{4}{3})=53.13$ <br>
 $\theta=\mathrm{arg}(z)=360^\circ-53.13^\circ=306.87^\circ$
 
 <strong>Polar Form</strong><br>
@@ -329,14 +329,15 @@ $$\boxed{\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta}$$
 
 <div class = "answer">
 
-$\|z^5\|=\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=\boxed{4\sqrt{2}}$
+$\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=\boxed{4\sqrt{2}}$
 
 Plotting $z^5$ on an Argand diagram:
 
 <img src = "06-complex-numbers-media\figure7.PNG" width = "50%"> <br>
 
 From the Argand diagram above:
-$\mathrm{arg}(z^5)=\mathrm{arg}(4-4\mathrm{i})=\boxed{-\frac{\pi}{4}}$ alternatively, $\boxed{\frac{7\pi}{4}}$
+$\mathrm{arg}(4-4\mathrm{i})=arctan(\frac{-4}{4})$ <br>
+$\Rightarrow\boxed{-\frac{\pi}{4}}$ alternatively, $\boxed{\frac{7\pi}{4}}$
 
 </div>
 
@@ -402,19 +403,18 @@ $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi
 
 </div>
 
-
-(c) State the solution, to part b, with the smallest positive argument and find the real part of it (in polar form).
+(c) State the solution, to part (b), with the smallest positive argument and find the real part of it (in polar form).
 <div class = "answer">
 Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
-$\boxed{\mathbb{R} \\{ \sqrt{2}e^{\frac{7\pi}{20}i} \\} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
+$\boxed{Re({ \sqrt{2}e^{\frac{7\pi}{20}i} \\}) =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 7.
+### Problem 8.
 Find the value of $x$ and $y$ in the equation $(x+iy)(3+4i) =  3-4i$ given that $x\in \R$ and $y\in \R$.
 
 <div class = "answer">
@@ -430,7 +430,7 @@ Therefore $\boxed{x = \frac{-7}{25}}$ and $\boxed{y = \frac{-24}{25}}$
 
 -----------------------------------------------------------------------------------
 
-### Problem 8.
+### Problem 9.
 It is given that $z = \frac{1+8i}{1-2i}$. Show that $arctan8 + arctan2 + arctan\frac{2}{3} = \pi$.
 
 <div class = "answer">
