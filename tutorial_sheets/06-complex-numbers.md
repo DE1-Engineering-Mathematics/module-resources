@@ -314,8 +314,7 @@ Consider the complex number $\cos3\theta+\mathrm{i}\sin3\theta$
 By de Moivre’s theorem:
 
 $\cos3\theta+\mathrm{i}\sin3\theta =(\cos\theta+\mathrm{i}\sin\theta)^3 $ <br>
-$=\cos^3\theta+3\cos^2\theta(\mathrm{i}\sin\theta)+3\cos\theta(\mathrm{i}\sin\theta)^2+(\mathrm{i}\sin\theta)^3 $ <br>
-$=\ cos^3\theta+3\mathrm{i}\cos^2\theta\sin\theta-3\cos\theta\sin^2\theta-\mathrm{i}\sin^3\theta $ <br>
+$=\cos^3\theta+3\cos^2\theta(\mathrm{i}\sin\theta)+3\cos\theta(\mathrm{i}\sin\theta)^2+(\mathrm{i}\sin\theta)^3$ . $\cos^3\theta+3\mathrm{i}\cos^2\theta\sin\theta-3\cos\theta\sin^2\theta-\mathrm{i}\sin^3\theta $ <br>
 $=\cos^3\theta-3\cos\theta\sin^2\theta+\mathrm{i}(3\cos^2\theta\sin\theta-\sin^3\theta) $ <br>
 
 Comparing real parts of each side of the equation above, you obtain:
