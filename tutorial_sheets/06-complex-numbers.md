@@ -61,7 +61,7 @@ $\Rightarrow \boxed{\text{Therefore } 5e^{53.13^\circ i}}$
 <div class = "answer"> 
 $r=|z|=\sqrt{(-3)^2+(-1)^2}=\sqrt{10}=3.16$ <br>
 
-Plot $z$ on an Argand diagram: 
+Plot $z$ on an Argand diagram: <br>
 
 <img src = "06-complex-numbers-media\figure1.png" width="50%"> <br>
 
@@ -268,7 +268,7 @@ $z=\frac{1}{2}-\frac{\sqrt{3}}{2}\mathrm{i}$
 
 <div class = "answer">
 
-$\| z \|=\sqrt{(\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}=\sqrt{\frac{1}{4}+\frac{3}{4}}=1$. 
+$\| z \|=\sqrt{(\frac{1}{2})^2+(\frac{\sqrt{3}}{2})^2}=\sqrt{\frac{1}{4}+\frac{3}{4}}=1$. <br>
 
 Plot $z$ on an Argand diagram <br>
 <img src = "06-complex-numbers-media\figure6.PNG" width = "50%"> <br>
@@ -309,7 +309,7 @@ $=\boxed{\cos\theta-\mathrm{i}\sin\theta}$
 
 (c) Prove that $\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta$
 <div class = "answer">
-Consider the complex number $\cos3\theta+\mathrm{i}\sin3\theta$
+Consider the complex number $\cos3\theta+\mathrm{i}\sin3\theta$ <br>
 
 By de Moivre’s theorem:
 
@@ -331,7 +331,7 @@ $$\boxed{\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta}$$
 
 <div class = "answer">
 
-$\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=\boxed{4\sqrt{2}}$
+$\|4-4\mathrm{i}\|=\sqrt{(4^2+(-4)^2)}=\boxed{4\sqrt{2}}$ <br>
 
 Plotting $z^5$ on an Argand diagram:
 
