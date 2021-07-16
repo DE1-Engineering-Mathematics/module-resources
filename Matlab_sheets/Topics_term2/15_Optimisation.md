@@ -39,7 +39,10 @@ Let's say I want to fit my data in:
     ```
 This is how it look relative to the data:
 
-![Optimisation](images/Optimisation.png)
+
+<p align="center">
+<img src = "images/Optimisation.png" width="50%" >
+</p>
 
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

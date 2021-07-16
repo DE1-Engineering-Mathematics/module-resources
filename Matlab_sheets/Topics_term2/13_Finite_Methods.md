@@ -60,7 +60,10 @@ $$ T(t+\Delta t,x) \approx \sigma T(t,x+\Delta x) + \sigma T(t,x - \Delta x) + (
         drawnow
     end
     ```
-![Simul](images/Giff3.gif)
+
+<p align="center">
+<img src = "images/Giff3.gif" width="50%" >
+</p>
 
 
 

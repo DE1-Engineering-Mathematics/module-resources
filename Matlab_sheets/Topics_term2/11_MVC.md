@@ -54,12 +54,17 @@
     f = @(x) sin(x)^-3;
     fplot(f)
     ```
-![fplot](images/fplot.png)
+<p align="center">
+<img src = "images/fplot.png" width="50%" >
+</p>
+
 - **fsurf(f(x,y),xyinterval)** generates a 3D plot of a symbolic function of 2 variables, the second argument is a matrix that contains the following values [xmin xmax ymin ymax]. By default it's interval is [-5 to 5] for both x and y. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/fsurf.html)
     ```matlab:Code
     f = @(x,y) cos(x)*y^3;
     fsurf(f)
     ```
-![surf](images/fsurf.png)
+<p align="center">
+<img src = "images/fsurf.png" width="50%" >
+</p>
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

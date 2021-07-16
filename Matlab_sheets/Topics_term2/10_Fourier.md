@@ -38,7 +38,9 @@ $$g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(\frac{n\pi x}{L}) + \sum_{
     ```
 The summation on the example goes from n = 1 to n = 7. Plotting it it would look like:
 
-![Fourier](images/Fourier.png)
+<p align="center">
+<img src = "images/Fourier.png" width="50%" >
+</p>
 
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco

@@ -25,7 +25,9 @@
     plot(x,y)
     ```
 
-![Dist](images/NormalDist.png)
+<p align="center">
+<img src = "images/NormalDist.png" width="50%" >
+</p>
 
 
 
