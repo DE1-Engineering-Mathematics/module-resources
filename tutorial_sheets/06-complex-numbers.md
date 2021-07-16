@@ -408,7 +408,7 @@ $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi
 <div class = "answer">
 Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
 
-$\boxed{Re({ \sqrt{2}e^{\frac{7\pi}{20}i} \\}) =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
+$\boxed{Re({\sqrt{2}e^{\frac{7\pi}{20}i})} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
