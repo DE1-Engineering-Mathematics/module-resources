@@ -299,8 +299,8 @@ $(\cos\theta+\mathrm{i}\sin\theta)^{-10}=(\cos(-10\theta)+\mathrm{i}\sin(-10\the
 (b) Simplify the flowing expression: $\frac{\cos2\theta+\mathrm{i}\sin2\theta}{\cos3\theta+\mathrm{i}\sin3\theta}$
 <div class = "answer">Using de Moivre’s theorem:
 
-$\frac{\cos2\theta+\mathrm{i}\sin2\theta}{\cos3\theta+\mathrm{i}\sin3\theta}=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}$
-
+$\frac{\cos2\theta+\mathrm{i}\sin2\theta}{\cos3\theta+\mathrm{i}\sin3\theta}$ <br>
+$=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}$ <br>
 $\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}$ <br>
 $=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^2(\cos\theta+\mathrm{i}\sin\theta)}$ <br>
 $=\frac{1}{\cos\theta+\mathrm{i}\sin\theta}(\frac{\cos\theta-\mathrm{i}\sin\theta}{\cos\theta-\mathrm{i}\sin\theta})$ <br>
@@ -366,9 +366,9 @@ There will be 5 solutions before the angle 'repeats'. <br>
 Adding/subtracting $\frac{2\pi}{5}$ from $\frac{7\pi}{20}$ = ${\frac{-17\pi}{20}, \frac{-9\pi}{20}, \frac{-\pi}{20}, \frac{7\pi}{20}, \frac{15\pi}{20}}$ <br>
 
 Putting it together, solutions in the exponential are: 
-$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}.$ <br>
+$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}$ <br><br>
 
-<strong>Method 2</strong>
+<strong>Method 2</strong> <br>
 
 Rewrite the argument for the complex number, $4-4\mathrm{i}$, in its general form: $2n\pi-\frac{\pi}{4}$, where n is an integer.
 Note: For any integer n, $\cos(2n\pi-\frac{\pi}{4})=\cos(-\frac{\pi}{4})$. Likewise for $\sin(-\frac{\pi}{4})$.
@@ -401,7 +401,7 @@ $$n=1\quad\Rightarrow\quad\theta=\frac{7\pi}{20}$$
 $$n=2\quad\Rightarrow\quad\theta=\frac{15\pi}{20} \text{ or } \frac{3\pi}{4}$$
 
 Therefore solutions in exponential are: 
-$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}.$
+$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}$
 
 </div>
 
