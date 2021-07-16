@@ -36,7 +36,7 @@ To a great extent, computers have taken over most of the mathematical tasks that
 ## <a id="calculus"></a>0.2 Calculus
 We will be using calculus in almost every topic in this module, so it seems sensible for us to start with a quick refresher. However, I won't be expecting you to remember lots of tricky substitutions and identities because, since the advent of the internet, these have turned out to not be very useful things to know. Instead, what we'll be focusing on is the core understanding behind each topic, which will hopefully give you mathematical confidence, without being too dull.
 <br><br>
-<img align="right" src="figs/0.2-rise-over-run.svg" width="350"/>
+<img align="right" src="figs/0.2-rise-over-run.svg" width="315"/>
 If you are given the graph of a linear function (\ie $f(x)=ax+b$ in the adjacent figure), you can calculate the slope by simply drawing a right-angle triangle and then calculating the ratio of the vertical to the horizontal lines (\ie rise over run or ''RoR''). You can perform this operation anywhere along the line because this function has a constant gradient, but what do we do if our function's gradient is variable?
 <br><br>
 For the general function $f(x)$, the ''gradient'' at a point is the slope of the curve at that point. In the figure below, we're looking for the gradient of the black line at point $x_0$ (the red point). To apply the RoR approach again, we must pick another point further along the $x$-axis, which we will call $(x_0+\Delta x)$. However, as you can see from the figure, the line passing through these two points is not a great approximation to the slope at $x_0$.
