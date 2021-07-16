@@ -253,7 +253,7 @@ $|z|=|x+\mathrm{i}y|=3$
 $\sqrt{x^2+y^2}=3$
 
 $\Rightarrow$ Therefore: $x^2+y^2=9$
-The solution ($x^2+y^2=9$) consists of all the points lying on the circle of radius 3 with center (0,0).
+The solution ($x^2+y^2=9$) consists of all the points lying on the circle of radius 3 with center (0,0). <br>
 
 <img src = "06-complex-numbers-media\figure5.PNG" width = "50%">
 </div>
@@ -301,7 +301,10 @@ $(\cos\theta+\mathrm{i}\sin\theta)^{-10}=(\cos(-10\theta)+\mathrm{i}\sin(-10\the
 
 $\frac{\cos2\theta+\mathrm{i}\sin2\theta}{\cos3\theta+\mathrm{i}\sin3\theta}=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}$
 
-$\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^2(\cos\theta+\mathrm{i}\sin\theta)}=\frac{1}{\cos\theta+\mathrm{i}\sin\theta}(\frac{\cos\theta-\mathrm{i}\sin\theta}{\cos\theta-\mathrm{i}\sin\theta})=\boxed{\cos\theta-\mathrm{i}\sin\theta}$
+$\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^3}$ <br>
+$=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^2(\cos\theta+\mathrm{i}\sin\theta)}$ <br>
+$=\frac{1}{\cos\theta+\mathrm{i}\sin\theta}(\frac{\cos\theta-\mathrm{i}\sin\theta}{\cos\theta-\mathrm{i}\sin\theta})$ <br>
+$=\boxed{\cos\theta-\mathrm{i}\sin\theta}$
 </div>
 
 (c) Prove that $\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta$
@@ -346,24 +349,24 @@ $\Rightarrow\boxed{-\frac{\pi}{4}}$ alternatively, $\boxed{\frac{7\pi}{4}}$
 <div class = "answer">
 
 <strong>Method 1</strong> <br>
-Rewrite the argument for the complex number, $4-4\mathrm{i}$, in its exponential form: $4\sqrt{2}e^{i\frac{7\pi}{4}}$ 
+Rewrite the argument for the complex number, $4-4\mathrm{i}$, in its exponential form: $4\sqrt{2}e^{i\frac{7\pi}{4}}$ <br>
 
-According to De Moivre's theorem:
+According to De Moivre's theorem: <br>
 
-$z^n$ = $(re^{i\theta})^n$ = $r^n e^{in\theta}$
+$z^n$ = $(re^{i\theta})^n$ = $r^n e^{in\theta}$ <br>
 
-As the value is $z^5$, n = 5.
+As the value is $z^5$, n = 5. <br>
 
-$\sqrt[5]{4\sqrt{2}}$ = $\sqrt{2}$
+$\sqrt[5]{4\sqrt{2}}$ = $\sqrt{2}$ <br>
 
-$\frac{7\pi}{4}$ / 5 = $\frac{7\pi}{20}$
+$\frac{7\pi}{4}$ / 5 = $\frac{7\pi}{20}$ <br>
 
-There will be 5 solutions before the angle 'repeats'.
+There will be 5 solutions before the angle 'repeats'. <br>
 
-Adding/subtracting $\frac{2\pi}{5}$ from $\frac{7\pi}{20}$ = ${\frac{-17\pi}{20}, \frac{-9\pi}{20}, \frac{-\pi}{20}, \frac{7\pi}{20}, \frac{15\pi}{20}}$
+Adding/subtracting $\frac{2\pi}{5}$ from $\frac{7\pi}{20}$ = ${\frac{-17\pi}{20}, \frac{-9\pi}{20}, \frac{-\pi}{20}, \frac{7\pi}{20}, \frac{15\pi}{20}}$ <br>
 
 Putting it together, solutions in the exponential are: 
-$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}.$
+$\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}.$ <br>
 
 <strong>Method 2</strong>
 
