@@ -23,43 +23,43 @@ Here is how this can be done, step by step to solve the ODE $\frac{d^2y}{ {dx}^2
 
 1. Import sympy
 
-```python
-from sympy import *
-```
+  ```python
+  from sympy import *
+  ```
 
 2. Create symbols
 
-We need to tell sympy that the letter `x` represents a symbol whilst `y` will be used to define the function.
+  We need to tell sympy that the letter `x` represents a symbol whilst `y` will be used to define the function.
 
-```python
-x = Symbol('x')
-y = Function('y')
-```
+  ```python
+  x = Symbol('x')
+  y = Function('y')
+  ```
 
 3. Calculate derivatives
 
-In sympy we can use the `Derivative(y(x), x, i)` function to calculate the ith derivative of the function `y(x)` with respect to `x`.
+  In sympy we can use the `Derivative(y(x), x, i)` function to calculate the ith derivative of the function `y(x)` with respect to `x`.
 
-```python
-y_ = Derivative(y(x), x)
-y__ = Derivative(y(x), x, 2)
-```
+  ```python
+  y_ = Derivative(y(x), x)
+  y__ = Derivative(y(x), x, 2)
+  ```
 
 4. Solve the ODEs
 
-We can now solve the ODE using `dsolve(eq, func)` which will solve the equation `eq` for the function `func`.
+  We can now solve the ODE using `dsolve(eq, func)` which will solve the equation `eq` for the function `func`.
 
-```python3
-sol = dsolve(y__ - 3*y_ + 2*y(x), y(x))
-```
+  ```python3
+  sol = dsolve(y__ - 3*y_ + 2*y(x), y(x))
+  ```
 
 5. Show the result
 
-You can show a pretty formatted result using this command
+  You can show a pretty formatted result using this command
 
-```python
-pprint(sol)
-```
+  ```python
+  pprint(sol)
+  ```
 
 ## Solving ODEs with initial conditions
 
