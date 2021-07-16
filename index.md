@@ -16,7 +16,7 @@
 
 <br>
 
-## Cheatsheets
+## Code Cheatsheets
 * __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
 * __[Python](./PythonSheets/PythonCheatsheet.md)__
 * __[Wolfram|Alpha](./Wolfram_sheets/WolframCheatsheet.md)__
@@ -44,9 +44,6 @@
 * __[14 - Root Finding](tutorial_sheets\14-root-finding)__
 * __[15 - Optimisation](tutorial_sheets\15-optimisation)__
 * __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution)__
-
-## Cheatsheets
-- [Python Cheatsheet](PythonSheets\PythonCheatsheet)
 
 <br>
 -----------------------------------------------------------------------
