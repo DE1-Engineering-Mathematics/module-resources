@@ -60,7 +60,7 @@ The following functions are useful when using sequences in sympy:
 <details>
 <summary>Try it out</summary>
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/writingsequences?lite=true"></iframe></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/writingsequences?lite=true"></iframe>
 </details>
 
 ## Divergence test
