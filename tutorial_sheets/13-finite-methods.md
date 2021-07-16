@@ -15,9 +15,6 @@
 
 # Finite Methods Tutorial Sheet, #13
 
-<br><br><br><br>
-
-
 ### Learning targets
 * To apply forward, central, backwards equations to solve problems
 * To understand the notation used in finite differences
