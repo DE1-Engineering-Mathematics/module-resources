@@ -35,4 +35,4 @@ If either of these two links are broken, Imperial has its own page on how to get
  - (13. Finite Methods)
  - [14. Root Finding](./term2/14_root.md)
  - (15. Optimisation)
- - (16. Normal Distribution)
+ - [16. Normal Distribution](./term2/16_normdist.md)
