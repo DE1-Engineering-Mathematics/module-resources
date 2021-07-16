@@ -118,6 +118,8 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------
+
 ### Problem 3.
 
 A metal bar is heated and its temperature is described by the following system of equations.
@@ -255,6 +257,7 @@ Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 5.
 (a) Find the update equation, $x(t + \Delta t)$, of the following ODE,
