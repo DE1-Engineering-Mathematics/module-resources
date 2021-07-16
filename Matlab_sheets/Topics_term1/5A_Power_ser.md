@@ -17,7 +17,10 @@
     hold on
     fplot(taylor(f,x,0,"Order",5))
     ```
-![taylor](images/taylor.png)
+
+<p align="center">
+<img src = "images/taylor.png" width="50%" >
+</p>
 
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
