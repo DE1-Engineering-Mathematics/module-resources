@@ -235,7 +235,7 @@ a + b
 
 </div>
 
-<div markdown="1" class="note">`d`</div>
+<div markdown="1" class="note"> `d` </div>
 
 MATLAB:
 
