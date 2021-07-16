@@ -322,7 +322,7 @@ The first five terms of the Maclaurin series of function$f(x)=\frac{sin(\pi x)}{
 (a) Find an expression for the term containing $x^{n}$ of the above series.
 <br><br>
 <div class = "answer">
-$(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}$
+$\quad \Rightarrow{} \boxed{(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -355,7 +355,7 @@ $\Rightarrow \quad \frac{1}{4\left ( 1+\frac{x-1}{2} \right )}-\frac{1}{8\left (
 <br><br>
 $\Rightarrow \quad \frac{1}{4}\left [ 1-\frac{x-1}{2}+\frac{\left ( x-1 \right )^{2}}{2^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{2^{n}}+...\right ]-\frac{1}{8}\left [ 1-\frac{x-1}{4}+\frac{\left ( x-1 \right )^{2}}{4^{2}} +...+\left ( -1 \right )^{n}\frac{\left ( x-1 \right )^{n}}{4^{n}}+...\right ] $
 <br><br>
-$\Rightarrow \quad \sum_{n=0}^{\infty }\left ( -1 \right )^{n}\left ( \frac{1}{2^{n+2}} - \frac{1}{2^{2n+3}}\right )\left ( x-1 \right )^{n}$ for $-1< x< 3$
+$\Rightarrow \quad \boxed{\sum_{n=0}^{\infty }\left ( -1 \right )^{n}\left ( \frac{1}{2^{n+2}} - \frac{1}{2^{2n+3}}\right )\left ( x-1 \right )^{n}} \quad $ for$ \quad \boxed{ -1< x < 3}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
