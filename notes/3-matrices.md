@@ -13,6 +13,8 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+## [Return to Contents](notes-contents)
+
 # Chapter 3 - Matrices
 
 ## <a id="matrix-operations"></a>3.1 Matrix Operations

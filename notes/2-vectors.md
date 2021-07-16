@@ -13,6 +13,8 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+## [Return to Contents](notes-contents)
+
 # Chapter 2 - Vectors
 
 ## <a id="co-ordinate-geometry"></a>2.1 Co-ordinate Geometry

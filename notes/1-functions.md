@@ -13,6 +13,8 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+## [Return to Contents](notes-contents)
+
 # Chapter 1 - Functions
 
 ## <a id="curve-sketching"></a>1.1 Curve Sketching 

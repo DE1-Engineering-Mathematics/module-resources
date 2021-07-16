@@ -13,6 +13,8 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+## [Return to Contents](notes-contents)
+
 # Chapter 0 - Refresher
 This chapter is meant to serve as a high-speed reminder of a few concepts from high school
 which you will need to progress with this course. Some of you may have forgotten (or even
