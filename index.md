@@ -16,6 +16,12 @@
 
 <br>
 
+## Cheatsheets
+* __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
+* __[Python](./PythonSheets/PythonCheatsheet.md)__
+* __[Wolfram|Alpha](./Wolfram_sheets/WolframCheatsheet.md)__
+
+
 ## Tutorial sheets:
 ### Term 1
 * __[1 - Refresher and Functions](tutorial_sheets\01-refresher-and-functions)__
@@ -38,6 +44,9 @@
 * __[14 - Root Finding](tutorial_sheets\14-root-finding)__
 * __[15 - Optimisation](tutorial_sheets\15-optimisation)__
 * __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution)__
+
+## Cheatsheets
+- [Python Cheatsheet](PythonSheets\PythonCheatsheet)
 
 <br>
 -----------------------------------------------------------------------
