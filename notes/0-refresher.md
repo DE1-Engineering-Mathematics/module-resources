@@ -54,12 +54,12 @@ Although you will probably have lots of derivatives memorised by now, it's impor
 <br><br>
 For example, if $g(x)=3x^2-5$, then we can simply substitute this into the expression above and rearrange to find the derivative. Make sure you are comfortable working through the following example:
 
-$\begin{aligned}
+$$\begin{aligned}
 g'(x)
 &=\lim_{\Delta x \to 0}\left(\frac{(3(x+\Delta x)^2-5)-(3x^2-5)}{\Delta x}\right)\\
 &=\lim_{\Delta x \to 0}\left(\frac{(3x^2+6x\Delta x +3\Delta x^2-5)-(3x^2-5)}{\Delta x}\right)\\
 &=\lim_{\Delta x \to 0}\left(\frac{6x\Delta x +3\Delta x^2}{\Delta x}\right)=\lim_{\Delta x \to 0}\left(6x+3\Delta x\right) \quad = \quad 6x\\
-\end{aligned}$
+\end{aligned}$$
 
 You can see that once you've work through the algebra, it's that final step where the magic of the ``lim'' happens. We have $6x+3\Delta x$, but as $\Delta x$ becomes very small we can just ignore it.
 
@@ -92,7 +92,7 @@ For the **Sum Rule**, the same rules apply as for differentiation, whereby the i
 
 The key time saving rule that you should be aware of for integration is called **Integration by Parts** or sometimes just **Parts** for short. One way to think about this process is as a rearrangement of the product rule for differentiation. So, for the function $f(x)=g(x)h(x)$:<br><br>
 
-$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\xRightarrow{\text{integrate \& rearrange}}\quad
+$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate \& rearrange}}\quad
 \int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$
 
 <br><br>
@@ -127,21 +127,21 @@ $\quad log_b(a) = n \quad\quad (\text{Log to the base }b\text{ of a equals }n)$
 When dealing with addition or multiplication, we have a clear picture in our mind of what an equation is asking us to do, but people tend to be less clear with logs, which is perhaps because they cannot turn the mathematical statements into sentences.<br><br>
 
 $\begin{aligned}
-&x=2+10 \\ 
-&\text{``\textit{What} is two add ten?''}
-\\\\
-&x=2\times 10 \\ 
-&\text{``\textit{What} is two lots of ten?''}
-\\\\
-&x=10^{2} \\ 
-&\text{``\textit{What} is ten times itself?''}
-\\\\
-&x=\log_{10}(100) \\ 
-&\text{``\textit{What} power of ten makes one hundred?''}
+&x=2+10 \newline 
+&\text{'What is two add ten?'}
+\newline \newline
+&x=2\times 10 \newline 
+&\text{'What is two lots of ten?'}
+\newline \newline
+&x=10^{2} \newline 
+&\text{'What is ten times itself?'}
+\newline \newline
+&x=\log_{10}(100) \newline
+&\text{'What power of ten makes one hundred?'}
 \end{aligned}$
 
 <br>
-It can also be useful to refer to an ``easy to recall'' example, such as $\boldsymbol{\log_{10}(100)=2}$, to help you remember how to convert between logarithms and exponents. 
+It can also be useful to refer to an 'easy to recall' example, such as $\boldsymbol{\log_{10}(100)=2}$, to help you remember how to convert between logarithms and exponents. 
 <br><br>
 N.B. You will often see the expression '$\ln(x)$', which is simply the logarithm with the Euler's number, $e=2.718...$ as its base: $\ln(x)=\log_{e}(x)$. This is commonly referred to as the 'natural logarithm'. We'll be meeting $e$ again later in the course. 
 <br><br>
@@ -190,7 +190,7 @@ $\quad\begin{aligned}
 ## <a id="engineers-love"></a>0.5 Engineers love
 ### 0.5.1 Unit comparisons and dimensional analyses
 
-Rather than looking at equations as just a collection of abstract numbers and symbols, engineers are usually attributing some physical meaning to them. This means that each term \textit{may} have units. Furthermore, each term may be higher dimensional than a simple scalar (e.g. 7) and could be a vector (e.g. [3, 2, 4] or matrix, [1, 2; 5, 3], etc. ).
+Rather than looking at equations as just a collection of abstract numbers and symbols, engineers are usually attributing some physical meaning to them. This means that each *may* have units. Furthermore, each term may be higher dimensional than a simple scalar (e.g. 7) and could be a vector (e.g. [3, 2, 4] or matrix, [1, 2; 5, 3], etc. ).
 <br><br>
 Crucially, only quantities with the same units and dimensions may be added (+), subtracted (-) or compared ($=, <, >$). This is very useful as it allows us to quickly assess whether a problem has been correctly stated and frequently to spot ways to simplify an expression. Also, it means you have less to remember as you can always check the units to see if, for example, your fraction is the right way up.
 <br><br>
@@ -218,7 +218,7 @@ We also have some special notation to characterise the ``order of magnitude'', $
 Although the whole next chapter is about curve sketch (as it's such an important topic), you should all have covered various simple transforms that enable you to shift and stretch a curve on the plane.
 <br><br>
 Study the adjacent figure and make sure you can see how the constant $a$ (assuming $a>0$) transforms the original black curve to the four new curves shown.
-<br><br><br>
+<br><br><br><br>
 
 ## Conclusion
 If anything we covered in this chapter was new to you (or old... but still mysterious), then please let someone from the teaching team know and we will do our best to get you up to speed. Alternatively, if you are feeling confident enough to have a look online, then there as so many wonderful resources available to help you - Khan Academy is an excellent place to start with high school topics like these.

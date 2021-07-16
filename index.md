@@ -9,6 +9,7 @@
 
 <!-- Depends on whether the notes are updated or not -->
 
+<br>
 
 ## Notes:
 * __[Web Based DE1 Maths Notes](notes\notes-contents)__
@@ -16,11 +17,12 @@
 
 <br>
 
-## Code Cheatsheets
+## Code Cheatsheets:
 * __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
 * __[Python](./PythonSheets/PythonCheatsheet.md)__
-* __[Wolfram|Alpha](./Wolfram_sheets/WolframCheatsheet.md)__
+* __[WolframAlpha](./Wolfram_sheets/WolframCheatsheet.md)__
 
+<br>
 
 ## Tutorial sheets:
 ### Term 1
