@@ -164,8 +164,7 @@ $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$
 (c) $K(s)= \frac{4s+5}{(s-2)^2(s+3)}$
 <div class = "answer">
 <strong> Using partial fractions </strong> <br>
-
-$\mathcal{L}^{-1} \{ {K(s)} \} =  \mathcal{L}^{-1} \{\frac{4s+5}{(s-2)^2(s+3)}\}$ <br>
+$\mathcal{L}^{-1}\{K(s)\} =  \mathcal{L}^{-1}\{\frac{4s+5}{(s-2)^2(s+3)}\}$ <br>
 $\frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s-2)}+\frac{13}{5(s-2)^2}$ <br>
 
 <strong> Using Wolfram Alpha</strong> <br>
@@ -185,7 +184,6 @@ Solve the following ODE function using Laplace Transform:
 
 $y"+4y'+8y=1\ \ if \ \ y(0)=0,\ \ y'(0)=0$
 <div class = "answer">
-
 $\mathcal{L}\{y"(t)+4y'(t)+8y(t)\}=\mathcal{L}\{y"(t)\}+4\mathcal{L}\{y'(t)\}+8\mathcal{L}\{y(t)\}=\mathcal{L}\{1\}$ <br>
 
 $\Rightarrow{}\quad \ s^2Y(s)-sy(0)-y'(0)+4(sY(s)-y(0))+8Y(s)=\frac{1}{s}$ <br>
@@ -296,7 +294,7 @@ $\boxed{V(s)=\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}}$
 
 (b) What is the flow at $t = 4$?
 <div class = "answer">
-Transform back to the original dimension using the inverse laplace transform. 
+Transform back to the original dimension using the inverse laplace transform. <br>
 $\mathcal{L}^{-1}${$\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}$} <br>
 $\quad\Rightarrow{} = \frac{-1}{2}(e^t+e^{-t})$ <br>
 At $t = 4, \boxed{v=-27.3082}$ 
