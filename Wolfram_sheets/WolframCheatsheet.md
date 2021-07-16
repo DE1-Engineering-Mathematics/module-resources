@@ -16,26 +16,26 @@ Once you've done that, you can request access to Pro Unlimited [here](https://us
 If either of these two links are broken, Imperial has its own page on how to get set up [here](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/wolfram-alpha-pro/).
 
 ### Engineering Mathematics Topics - Term 1
-- [1. Refresher and Functions](./term1/refresher_functions.md)
-- [2. Vectors](./term1/vectors.md)
-- [3. Matrices](./term1/matrices.md)
-- [4A. Linear Transformations](./term1/linear_transformations.md)
-- [4B. Eigenproblems](./term1/eigen.md)
+- [1. Refresher and Functions](./term1/1_refresher_functions.md)
+- [2. Vectors](./term1/2_vectors.md)
+- [3. Matrices](./term1/3_matrices.md)
+- [4A. Linear Transformations](./term1/4a_linear_transformations.md)
+- [4B. Eigenproblems](./term1/4b_eigen.md)
 - 5A. Power Series. Not many special commands exist.
 - 5B. Sequences. Not many special commands exist.
-- [6. Complex Numbers](./term1/complex.md)
-- [7. ODEs](./term1/ode.md)
+- [6. Complex Numbers](./term1/6_complex.md)
+- [7. ODEs](./term1/7_ode.md)
 - 8 CHOs. Again, no special commands.
 
 ### Engineering Mathematics Topics - Term 2
- - [9. Laplace Transform]()
- - [10. Fourier Series]()
- - [11. MVC]()
- - [12. PDEs]()
- - [13. Finite Methods]()
- - [14. Root Finding]()
- - [15. Optimisation]()
- - [16. Normal Distribution]()
+ - [9. Laplace Transform](./term2/9_laplace.md)
+ - [10. Fourier Series](./term2/10_fourier.md)
+ - [11. MVC](./term2/11_mvc.md)
+ - 12 PDEs. Application principles from [MVC](./term2/11_mvc.md). No new commands.
+ #############- [13. Finite Methods](./term2/13_finite.md)
+ - [14. Root Finding](./term2/14_root.md)
+ #############- [15. Optimisation](./term2/15_optimisation.md)
+ - [16. Normal Distribution](./term2/16_normdist.md)
 
 
 

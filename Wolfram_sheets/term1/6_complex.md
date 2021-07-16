@@ -1,10 +1,9 @@
-# Refresher and Functions
+# Complex Numbers
 
 [<= Back to the Cheatsheet](../WolframCheatsheet.md)
 
 **IMPORTANT** You will need to have a [WolframAlpha Pro account](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/wolfram-alpha-pro/) to use Wolfram effectively.
 
-## Complex Numbers
 Wolfram has it's [own documentation](https://www.wolframalpha.com/examples/mathematics/complex-analysis/).
 
 ### Displaying
