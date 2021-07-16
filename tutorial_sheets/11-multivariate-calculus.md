@@ -16,6 +16,13 @@
 
 # Multivariate Calculus Tutorial Sheet, #11
 
+### Learning Targets
+* Calculate the partial derivatives of functions of multiple variables.
+* Use partial derivatives to find stationary points.
+* Use the total derivatives.
+* Use total differentials.
+* Use vector calculus to find divergence, gradient, Laplacian and curl of vector functions.
+
 ### Additional resources
 * [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
