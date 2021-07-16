@@ -65,7 +65,7 @@ pprint(sol)
 
 We can also solve apply initial conditions to the `dsolve` function using the `ics` parameter.
 
-For instance, to solve the ODE 3y”(x)+3y’(x)+4y(x)=0 where y(0)=3, y’(0)=0, we would apply the following `ics`: `{y(0): 3, y(x).diff(x).subs(x, 0): 0}`.
+For instance, to solve the ODE $3y”(x)+3y’(x)+4y(x)=0$ where $y(0)=3$ and $y’(0)=0$, we would apply the following `ics`: `{y(0): 3, y(x).diff(x).subs(x, 0): 0}`.
 
 - `y(0): 3` defines the y(0)=3 condition
 
@@ -84,5 +84,5 @@ y__ = Derivative(y(x), x, 2)
 
 sol = dsolve(3*y__ + 3*y_ + 4*y(x), y(x), ics={y(0): 3, y(x).diff(x).subs(x, 0): 0})
 
-pprint(sol)
+pprint(sol) # pprint formats the solution in a more readable format
 ```

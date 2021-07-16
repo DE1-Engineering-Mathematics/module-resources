@@ -42,3 +42,4 @@ print("Eigenvectors = ", v)
 <summary>Try it out</summary>
 
 <iframe src="https://trinket.io/embed/python3/9873d08a31?outputOnly=true&runOption=console&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</details>

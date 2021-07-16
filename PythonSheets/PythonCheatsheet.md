@@ -1,5 +1,6 @@
 # Python Cheatsheet
 
+The use of python in this module will not be directly assessed but you may use it as a tool to solve problems.
 
 ### Getting Started with Python
 These pages provide a very basic introduction to using Python to solve mathematical problems. 

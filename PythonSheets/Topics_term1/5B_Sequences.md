@@ -52,16 +52,16 @@ from sympy.abc import n
 s = SeqFormula(n**2, (n, 0, oo)) # oo is infinity
 ```
 
-The following function are useful when using sequences in sympy:
+The following functions are useful when using sequences in sympy:
 
 - `s.coeff(i)` returns the ith term of the sequence s
 - `s.formula` shows the formula used in the sequence s
-- `np.tan(x)` calculates the tangent of x (in radians)
-- `np.arcsin(x)` calculates the inverse sin of x (in radians)
-- `np.arccos(x)` calculates the inverse cosine of x (in radians)
-- `np.arctan(x)` calculates the inverse tangent of x (in radians)
-- `np.degrees(x)` angles from radians to degrees
-- `np.radians(x)` angles from degrees to radians
+
+<details>
+<summary>Try it out</summary>
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/writingsequences?lite=true"></iframe></iframe>
+</details>
 
 ## Divergence test
 
@@ -76,3 +76,9 @@ from sympy.abc import n
 Sum((-1)**n, (n, 1, oo)).is_absolutely_convergent() # returns false
 Sum(1/factorial(2*n+1), (n, 1, oo)).is_absolutely_convergent() # returns true
 ```
+
+<details>
+<summary>Try it out</summary>
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/divergencetest?lite=true"></iframe></iframe>
+</details>

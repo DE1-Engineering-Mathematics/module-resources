@@ -27,6 +27,12 @@ x = Symbol('x')
 sin(x).series(x, 2)
 ```
 
+<details>
+<summary>Try it out</summary>
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/powerseriesexpansion?lite=true"></iframe></iframe>
+</details>
+
 ## Plotting maclaurian series
 
 Scipy has some brilliant features when it comes to estimating maclaurian series of functions.
@@ -65,7 +71,7 @@ plt.show()
 <details>
 <summary>Try it out</summary>
 
-<iframe src="https://trinket.io/embed/python3/d4e1a637d3?outputOnly=true&runOption=console&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/6e32d82e90?outputOnly=true&runOption=console&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ```
 
 </details>
