@@ -126,7 +126,7 @@ $\quad log_b(a) = n \quad\quad (\text{Log to the base }b\text{ of a equals }n)$
 
 When dealing with addition or multiplication, we have a clear picture in our mind of what an equation is asking us to do, but people tend to be less clear with logs, which is perhaps because they cannot turn the mathematical statements into sentences.<br><br>
 
-$\begin{aligned}
+$$\begin{aligned}
 &x=2+10 \newline 
 &\text{'What is two add ten?'}
 \newline \newline
@@ -138,7 +138,7 @@ $\begin{aligned}
 \newline \newline
 &x=\log_{10}(100) \newline
 &\text{'What power of ten makes one hundred?'}
-\end{aligned}$
+\end{aligned}$$
 
 <br>
 It can also be useful to refer to an 'easy to recall' example, such as $\boldsymbol{\log_{10}(100)=2}$, to help you remember how to convert between logarithms and exponents. 
