@@ -15,6 +15,11 @@
 
 # Root Finding Tutorial Sheet, #13
 
+### Learning targets
+* To understand the process of the 3 root finding methods (Newton-Raphson, Bisection, Secant)
+* Iterate multiple times to find a root to a desired level of accuracy (could use code)
+* Understand some constraints and disadvantages associated with the methods/use of computers
+
 ### Additional resources
 * [SJC - Newton-Raphson](https://youtu.be/evYOeTyeo1M)
 * [SJC - Bisection method](https://www.youtube.com/watch?v=VkyTBij4yoQ)
