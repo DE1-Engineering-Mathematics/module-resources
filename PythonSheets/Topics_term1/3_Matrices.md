@@ -62,7 +62,31 @@ x + y + z &=  7  \newline
 
 We can rewrite the problem as:
 
-$Ax = b \quad\Rightarrow{}\quad \begin{pmatrix}1&1&1\\2&-1&2\\3&2&-1\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = \begin{pmatrix}7\\8\\11\end{pmatrix}$
+$\begin{pmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{pmatrix}$
+
+$Ax = b
+\quad \Rightarrow{} \quad
+\begin{pmatrix}
+1 & 1 & 1\\
+2 & -1 & 2\\
+3 & 2 & -1
+\end{pmatrix}
+\begin{pmatrix}
+x\\
+y\\
+z
+\end{pmatrix}
+=\begin{pmatrix}
+7\\
+8\\
+11
+\end{pmatrix}$
+
+
+$ Ax = b \quad \Rightarrow{} \quad \begin{pmatrix}1&1&1\\2&-1&2\\3&2&-1\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = \begin{pmatrix}7\\8\\11\end{pmatrix}$
 
 We can write the following code to solve this:
 
