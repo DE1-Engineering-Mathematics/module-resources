@@ -56,37 +56,9 @@ Here is a reduced list of useful Numpy functions for matrices:
 Let's solve the following simultaneous linear equations with matrices in Python.
 
 $\begin{align}
-x + y + z &=  7  \newline 
-2x -y + 2z &=  8  \newline 
+x + y + z &=  7  \newline
+2x -y + 2z &=  8  \newline
 3x + 2y -z &=  11 \end{align}$
-
-We can rewrite the problem as:
-
-$\begin{pmatrix}
-1 & 2 & 3\\
-a & b & c
-\end{pmatrix}$
-
-$Ax = b
-\quad \Rightarrow{} \quad
-\begin{pmatrix}
-1 & 1 & 1\\
-2 & -1 & 2\\
-3 & 2 & -1
-\end{pmatrix}
-\begin{pmatrix}
-x\\
-y\\
-z
-\end{pmatrix}
-=\begin{pmatrix}
-7\\
-8\\
-11
-\end{pmatrix}$
-
-
-$ Ax = b \quad \Rightarrow{} \quad \begin{pmatrix}1&1&1\\2&-1&2\\3&2&-1\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = \begin{pmatrix}7\\8\\11\end{pmatrix}$
 
 We can write the following code to solve this:
 
