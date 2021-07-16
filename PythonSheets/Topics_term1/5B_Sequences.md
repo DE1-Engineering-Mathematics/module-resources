@@ -80,5 +80,5 @@ Sum(1/factorial(2*n+1), (n, 1, oo)).is_absolutely_convergent() # returns true
 <details>
 <summary>Try it out</summary>
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/divergencetest?lite=true"></iframe></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@JackBeaumont/divergencetest?lite=true"></iframe>
 </details>
