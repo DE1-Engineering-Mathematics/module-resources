@@ -543,16 +543,13 @@ Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
 <div class = "answer">
-Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in graph (i) and (ii) <br>
+Let the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ be represented by $\vec{PQ}$, $\vec{QR}$ and $\vec{RS}$, respectively, as shown in the graph. <br>
 <img src = "02-vectors-media\prob10.png">
 
-In graph(i)
+From the graph,
 $$\vec{a}+\vec{b}=\vec{PQ}+\vec{QR}=\vec{PR}$$
-In graph(ii)
 $$\vec{b}+\vec{c}=\vec{QR}+\vec{RS}=\vec{QS}$$
-So, in graph(i)
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{PR}+\vec{RS}=\vec{PS}$$
-In graph(ii)
 $$\vec{a}+(\vec{b}+\vec{c})=\vec{PQ}+\vec{QS}=\vec{PS}$$
 Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
