@@ -135,7 +135,7 @@ $z = re^{i\theta }$ <br>
 $\Rightarrow \boxed{\text{Therefore } 5e^{306.87^\circ i}}$
 
 </div>
-</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
