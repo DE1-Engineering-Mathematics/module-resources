@@ -17,6 +17,12 @@
 
 This particular tutorial sheet is short. Do not be alarmed! It reflects the low difficulty of the topic. 
 
+### Learning Outcomes
+* Use the general normal distribution equation to determine probabilities
+* Sketch bell-curves noting standard deviations
+* Use probabilities to determine standard deviation and mean
+
+
 ### Additional resources
 * [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
 

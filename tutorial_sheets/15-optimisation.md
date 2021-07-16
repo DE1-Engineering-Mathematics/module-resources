@@ -15,10 +15,20 @@
 
 # Optimisation Tutorial Sheet, #15
 
-<br>
+### Learning Outcomes
+* Determine the direction towards a local minimum
+* Read contour plots
+* Understand costs functions
+
+
+### Additional resources
+* 
+
+<br><br>
+
 
 In the answers, some wolfram alpha pages are linked in
-[blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
+blue ([like this](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 <br>
 
 # Problem sheet
