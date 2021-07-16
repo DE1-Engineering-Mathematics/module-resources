@@ -21,10 +21,9 @@ import numpy as np
 
 Make sure to do this every time you start a new Python interpreter or at the start of your code.
 
-### Writing vectors
+## Writing vectors
 
 The vector $\vec{a}= (2,1,0)$ can be written as
-
 
 ```python
 a = np.array([2, 1, 0])
@@ -38,7 +37,7 @@ a = np.array([2, 1, 0])
 
 </details>
 
-### Adding and subtracting vectors
+## Adding and subtracting vectors
 
 Vectors can be added and subtracted like numbers in python using `+` and `-`.
 
@@ -60,7 +59,7 @@ subtract = a - b
 
 </details>
 
-### Modulus of a vector
+## Modulus of a vector
 
 The modulus of a vector can be calculated with `np.linalg.norm(v)`
 
@@ -79,8 +78,7 @@ np.linalg.norm(a)
 
 </details>
 
-
-### Dot product
+## Dot product
 
 Dot products can be easily computed with `np.dot(u, v)`
 
@@ -100,7 +98,7 @@ np.dot(a, b)
 
 </details>
 
-### Cross product
+## Cross product
 
 Cross products can be easily computed with `np.cross(u, v)`
 

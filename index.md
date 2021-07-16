@@ -39,6 +39,9 @@
 * __[15 - Optimisation](tutorial_sheets\15-optimisation)__
 * __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution)__
 
+## Cheatsheets
+- [Python Cheatsheet](PythonSheets\PythonCheatsheet)
+
 <br>
 -----------------------------------------------------------------------
 

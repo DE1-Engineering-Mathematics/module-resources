@@ -21,7 +21,7 @@ Once again we will be using the Numpy module, so make sure it is imported
 import numpy as np
 ```
 
-### Writing matrices
+## Writing matrices
 
 The matrix $A=\begin{pmatrix}1&1 \newline 2&-1\end{pmatrix}$  can be written as
 
@@ -38,7 +38,7 @@ a = np.array([[1, 1], [2, -1]])
 
 </details>
 
-### Interacting with matrices
+## Interacting with matrices
 
 Here is a reduced list of useful Numpy functions for matrices:
 
@@ -51,18 +51,14 @@ Here is a reduced list of useful Numpy functions for matrices:
 - `np.linalg.det(m)` calculates the determinant of a matrix m
 - `np.shape(m)` returns the dimensions of the matrix m
 
-### Solving linear equations with matrices
+## Solving linear equations with matrices
 
 Let's solve the following simultaneous linear equations with matrices in Python.
 
 $\begin{align}
-x + y + z &=  7  \newline 
-2x -y + 2z &=  8  \newline 
+x + y + z &=  7  \newline
+2x -y + 2z &=  8  \newline
 3x + 2y -z &=  11 \end{align}$
-
-We can rewrite the problem as:
-
-$Ax = b \quad\Rightarrow{}\quad \begin{pmatrix}1&1&1\\2&-1&2\\3&2&-1\end{pmatrix} \begin{pmatrix}x\\y\\z\end{pmatrix} = \begin{pmatrix}7\\8\\11\end{pmatrix}$ <br>
 
 We can write the following code to solve this:
 

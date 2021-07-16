@@ -15,11 +15,7 @@ or
 python3 --version
 ```
 
-
-Before we get started, we need to make sure we have 
 To use Python to solve problems in this course we will need to download the latest version of Python, Numpy, matplotlib, sympy and scipy.
-
-<br>
 
 ## Installing Numpy
 
@@ -52,7 +48,6 @@ or
 ```bash
 pip3 install matplotlib
 ```
-
 
 ## Installing sympy and scipy
 
