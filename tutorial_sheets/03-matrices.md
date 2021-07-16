@@ -7,7 +7,7 @@
   });
 </script>
 
-<script type="text/javascript" async
+<script type="text/javascript" async 
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
@@ -25,6 +25,7 @@
 
 ### Additional Resources
 * [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [MathWorks - Matrices and Arrays](https://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html)
 
 <br><br><br><br>
 
@@ -35,53 +36,173 @@ Given the matrices: $A=\begin{pmatrix}1&1 \newline 2&-1\end{pmatrix}$ and $B=\be
 Find the answers to the following operations:
 
 (a) $A+B$
-<div class = "answer"> $\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2\\0&2\end{pmatrix}}$ </div>
+<div class = "answer" markdown="1"> 
+Solving with the Matlab terminal:
+<div>
+
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+a + b
+```
+
+
+</div>
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&2\\0&2\end{pmatrix}}$
+</div>
 
 (b) $A-B$
-<div class = "answer">$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0\\4&-4\end{pmatrix}}$</div>
+<div class = "answer">
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+a - b
+```
+
+</div>
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}1&0\\4&-4\end{pmatrix}}$</div>
 
 (c) $AB$
-<div class = "answer">$\Rightarrow{}\quad \boxed{ \begin{pmatrix}-2&4\\2&-1\end{pmatrix}}$</div>
+<div class = "answer">
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+a * b
+```
+
+</div>
+$\Rightarrow{}\quad \boxed{ \begin{pmatrix}-2&4\\2&-1\end{pmatrix}}$</div>
 
 (d) $BA$
-<div class = "answer">$\Rightarrow{}\quad \boxed{\begin{pmatrix}2&-1\\4&-5\end{pmatrix}}$</div>
+<div class = "answer">
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+b * a
+```
+
+</div>
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}2&-1\\4&-5\end{pmatrix}}$</div>
 
 (e) $4A+\frac{1}{2}B$
 <div class = "answer">$\Rightarrow{}\quad 4\begin{pmatrix}1&1\\2&-1\end{pmatrix}+\frac{1}{2}\begin{pmatrix}0&1\\-2&3\end{pmatrix}$ <br>
 $\Rightarrow{}\ \
-\begin{pmatrix}4(1)+\frac{1}{2}(0)&4(1)+\frac{1}{2}(0)\\4(2)+\frac{1}{2}(-2)&4(-1)+\frac{1}{2}(3)\end{pmatrix}$ <br>
+\begin{pmatrix}4(1)+\frac{1}{2}(0)&4(1)+\frac{1}{2}(0)\\4(2)+\frac{1}{2}(-2)&4(-1)+\frac{1}{2}(3)\end{pmatrix}$ <br><br>
+
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+(4 * a) + (0.5*b)
+```
+
+</div>
 $\Rightarrow{} \quad \boxed{\begin{pmatrix}4&9/2\\7&-5/2\end{pmatrix}}$</div>
 
 (f) $AB^T$
 <div class = "answer">$\Rightarrow{}\quad$
 $\begin{pmatrix}1&1\\2&-1\end{pmatrix}\begin{pmatrix}0&1\\-2&3\end{pmatrix}^T$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}1&1\\2&-1\end{pmatrix}\begin{pmatrix}0&-2\\1&3\end{pmatrix}$ <br>
-$\Rightarrow{} \quad \begin{pmatrix}1(0)+1(1)&1(-2)+1(3)\\2(0)+-1(1)&2(-2)+-1(3)\end{pmatrix}$ <br>
+$\Rightarrow{} \quad \begin{pmatrix}1(0)+1(1)&1(-2)+1(3)\\2(0)+-1(1)&2(-2)+-1(3)\end{pmatrix}$ <br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+b = transpose(b)
+a * b
+```
+
+</div>
 $\Rightarrow{} \quad \boxed{\begin{pmatrix}1&1\\-1&-7\end{pmatrix}}$</div>
 
 (g) $BA^T$
 <div class = "answer">$\Rightarrow{}\quad$
 $\begin{pmatrix}0&1\\-2&3\end{pmatrix}\begin{pmatrix}1&1\\2&-1\end{pmatrix}^T$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}0&1\\-2&3\end{pmatrix}\begin{pmatrix}1&2\\1&-1\end{pmatrix}$ <br>
-$\Rightarrow{} \quad \begin{pmatrix}0(1)+1(1)&0(2)+1(-1)\\-2(1)+3(1)&-2(2)+3(-1)\end{pmatrix}$ <br>
+$\Rightarrow{} \quad \begin{pmatrix}0(1)+1(1)&0(2)+1(-1)\\-2(1)+3(1)&-2(2)+3(-1)\end{pmatrix}$ <br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+a = transpose(a)
+b * a
+```
+
+</div>
 $\Rightarrow{} \quad \boxed{\begin{pmatrix}1&-1\\1&-7\end{pmatrix}}$</div>
 
 (h) $B^TA^T$
 <div class = "answer">$\Rightarrow{}\quad$
 $\begin{pmatrix}0&1\\-2&3\end{pmatrix}^T\begin{pmatrix}1&1\\2&-1\end{pmatrix}^T$ <br>
 $\Rightarrow{} \quad \begin{pmatrix}0&-2\\1&3\end{pmatrix}\begin{pmatrix}1&2\\1&-1\end{pmatrix}$ <br>
-$\Rightarrow{} \quad \begin{pmatrix}0(1)+-2(1)&0(2)+-2(-1)\\1(1)+3(1)&1(2)+3(-1)\end{pmatrix}$ <br>
+$\Rightarrow{} \quad \begin{pmatrix}0(1)+-2(1)&0(2)+-2(-1)\\1(1)+3(1)&1(2)+3(-1)\end{pmatrix}$ <br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+b = [0 1 ; -2 3]
+
+a = transpose(a)
+b = transpose(b)
+b * a
+```
+
+</div>
 $\Rightarrow{} \quad \boxed{\begin{pmatrix}-2&2\\4&-1\end{pmatrix}}$</div>
 
 (i) $det A$
 <div class = "answer">$\Rightarrow{}\quad \begin{vmatrix}1&1\\2&-1\end{vmatrix}$
-$\quad\Rightarrow{}\quad 1(-1)-2(1) \ \ \Rightarrow{}\ \boxed{ -3}$</div>
+$\quad\Rightarrow{}\quad 1(-1)-2(1) \ \ \Rightarrow{}\ \boxed{ -3}$<br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+
+det(a)
+```
+
+</div></div>
 
 (j) $A^{-1}$
 <div class = "answer">$\Rightarrow{}\quad$
 $\frac{1}{det A}\begin{pmatrix}-1&-1\\-2&1\end{pmatrix}$
 $\quad \Rightarrow{}\quad -\frac{1}{-3}\begin{pmatrix}-1&-1\\-2&1\end{pmatrix}$
-$\Rightarrow{}\quad \boxed{\begin{pmatrix}\frac{1}{3}&\frac{1}{3}\\\frac{2}{3}&-\frac{1}{3}\end{pmatrix}}$</div>
+$\Rightarrow{}\quad \boxed{\begin{pmatrix}\frac{1}{3}&\frac{1}{3}\\\frac{2}{3}&-\frac{1}{3}\end{pmatrix}}$<br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 1 ; 2 -1]
+
+inv(a)
+```
+
+</div></div>
 
 (k)  Comment on any relationships between the results of question (a) to (j)
 <div class = "answer">$\Rightarrow{} BA^T=(AB^T)^T$ and $(AB)^T=B^TA^T$</div>
@@ -99,17 +220,47 @@ $C=\begin{pmatrix}1&3&5&7 \newline 2&4&6&8\end{pmatrix}$
 Find the answers to the following operations, if they exist:
 
 (a) $A+B$
-<div class = "answer">$\Rightarrow{}\quad
+<div class = "answer">
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [2 0 ; 3 -1 ; 1 4]
+b = [-1 -3 ; 5 2 ; 7 1]
+c = [1 3 5 7 ; 2 4 6 8]
+
+a + b
+```
+
+</div>
+$\Rightarrow{}\quad
 \boxed{\begin{pmatrix}1&-3\\8&1\\8&5\end{pmatrix}}$</div>
 
 (b) $A-B$
-<div class = "answer">$\Rightarrow{}\quad
+<div class = "answer">
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a - b
+```
+
+</div>
+$\Rightarrow{}\quad
 \boxed{\begin{pmatrix}3&3\\-2&-3\\-6&3\end{pmatrix}}$</div>
 
 (c) $AC$
 <div class = "answer">$\Rightarrow{} \ \ $
 $\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix}\begin{pmatrix}1&3&5&7\\2&4&6&8\end{pmatrix}$ <br>
-$\Rightarrow{}\ \ \begin{pmatrix}2(1)+0(2)&2(3)+0(4)&2(5)+0(6)&2(7)+0(8)\\3(1)+-1(2)&3(3)+-1(4)&3(5)+-1(6)&3(7)+-1(8)\\1(1)+4(2)&1(3)+4(4)&1(5)+4(6)&1(7)+4(8)\end{pmatrix}$ <br>
+$\Rightarrow{}\ \ \begin{pmatrix}2(1)+0(2)&2(3)+0(4)&2(5)+0(6)&2(7)+0(8)\\3(1)+-1(2)&3(3)+-1(4)&3(5)+-1(6)&3(7)+-1(8)\\1(1)+4(2)&1(3)+4(4)&1(5)+4(6)&1(7)+4(8)\end{pmatrix}$ <br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a * c
+```
+
+</div>
 $\Rightarrow{}\ \ \boxed{\begin{pmatrix}2&6&10&14\\1&5&9&13\\9&19&29&39\end{pmatrix}}$</div>
 
 (d) $A+C$
@@ -121,11 +272,30 @@ $\Rightarrow{}\ \ \boxed{\begin{pmatrix}2&6&10&14\\1&5&9&13\\9&19&29&39\end{pmat
 (f) $A^TB$
 <div class = "answer">$\Rightarrow{}\ \ \begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix}^T\begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}\Rightarrow{}\begin{pmatrix}2&3&1\\0&-1&4\\\end{pmatrix}\begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}\\$
 $\Rightarrow{}\ \ \begin{pmatrix}2(-1)+3(5)+1(7)&2(-3)+3(2)+1(1)\\0(-1)-1(5)+4(7)&0(-3)-1(2)+4(1)\end{pmatrix}$
-$\Rightarrow{}\ \ \boxed{\begin{pmatrix}20&1\\23&2\end{pmatrix}}$</div>
+$\Rightarrow{}\ \ \boxed{\begin{pmatrix}20&1\\23&2\end{pmatrix}}$<br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = transpose(a)
+a * b
+```
+
+</div></div>
 
 (g) $AB^T$
 <div class = "answer">$\Rightarrow{}\ \ \begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&-3\\5&2\\7&1\end{pmatrix}^T\ \Rightarrow{}\begin{pmatrix}2&0\\3&-1\\1&4\end{pmatrix} \begin{pmatrix}-1&5&7\\-3&2&1\end{pmatrix}$ <br>
-$\Rightarrow{} \begin{pmatrix}2(-1)+0(-3)&2(5)+0(2)&2(7)+0(1)\\3(-1)-1(-3)&3(5)-1(2)&3(7)-1(1)\\1(-1)+4(-3)&1(5)+4(2)&1(7)+4(1)\end{pmatrix}\ \ \ \ \Rightarrow{}\ \ \boxed{\begin{pmatrix}-2&10&14\\0&13&20\\-13&13&11\end{pmatrix}}$</div>
+$\Rightarrow{} \begin{pmatrix}2(-1)+0(-3)&2(5)+0(2)&2(7)+0(1)\\3(-1)-1(-3)&3(5)-1(2)&3(7)-1(1)\\1(-1)+4(-3)&1(5)+4(2)&1(7)+4(1)\end{pmatrix}\ \ \ \ \Rightarrow{}\ \ \boxed{\begin{pmatrix}-2&10&14\\0&13&20\\-13&13&11\end{pmatrix}}$<br><br>
+Otherwise solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+b = transpose(b)
+a * b
+```
+
+</div>
+</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -145,28 +315,72 @@ $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} =
 $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
 \begin{pmatrix}5&-3&-2.5\\-5.5&3.5&3\\-3&2&1.5\end{pmatrix} \ 
 \begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
-$\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$</div>
+$\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$
+<br>
+(Finding the inverse with the Matlab terminal):
+<div>
+
+```matlab:Code
+a = [3 2 1 ; 3 0 5 ; 2 4 -4]
+inv(a)
+```
+
+</div>
+</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-Evaluate the following determinants:
+Evaluate the following determinants and state whether the matrix is singular or non-singular:
 
 (a) $\begin{vmatrix}20&6 \newline 1&2\end{vmatrix}$
 <div class = "answer">$\Rightarrow{}$
-$20(2)-6(1) \ \Rightarrow{}\ \boxed{34}$</div>
+$20(2)-6(1) \ \Rightarrow{}\ \boxed{34} \Rightarrow{}\ \boxed{\text{non-singular}}$<br>
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [20 6 ; 1 2]
+det(a)
+```
+
+</div>
+</div>
 
 (b) $\begin{vmatrix}1&2&6 \newline 1&3&9 \newline 1&4&12\end{vmatrix}$
 <div class = "answer">$\Rightarrow{}\ \ 1\begin{vmatrix}3&9\\4&12\end{vmatrix}-2\begin{vmatrix}1&9\\1&12\end{vmatrix}+6\begin{vmatrix}1&3\\1&4\end{vmatrix}$ <br>
-$\Rightarrow{}\ \ 1[3(13)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ \boxed{0}$</div>
+$\Rightarrow{}\ \ 1[3(13)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ \boxed{0} \Rightarrow{}\ \boxed{\text{singular}}$<br>
+Solving with the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [1 2 6 ; 1 3 9 ; 1 4 12]
+det(a)
+```
+
+</div>
+</div>
 
 (c) $\begin{vmatrix}1&1&1 \newline  \lambda & \mu & \nu \newline  \lambda^3 & \mu^3 & \nu^3\end{vmatrix}$
 <div class = "answer">
 $\Rightarrow{}\ \ 1\begin{vmatrix}\mu & \nu \\ \mu^3 & \nu^3 \end{vmatrix}-1\begin{vmatrix}\lambda & \nu \\ \lambda^3 & \nu^3 \end{vmatrix}+1\begin{vmatrix}\lambda & \mu \\ \lambda^3 & \mu^3 \end{vmatrix}$ <br>
 $\Rightarrow{}\ \ (\mu\nu^3-\nu\mu^3) - (\lambda\nu^3-\nu\lambda^3) + (\lambda\mu^3-\mu\lambda^3)$
-$\Rightarrow{}\ \ \boxed{\nu^3(\mu-\lambda)+\mu^3(\lambda-\nu)+\lambda^3(\nu-\mu)}$</div>
+$\Rightarrow{}\ \ \boxed{\nu^3(\mu-\lambda)+\mu^3(\lambda-\nu)+\lambda^3(\nu-\mu)} \Rightarrow{}\ \boxed{\text{singularity is dependant on variables}}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(d) $\begin{vmatrix}4&9&12&52&84 \newline 2&28&30&28&7 \newline 2&5&8&92&34 \newline 14&2&37&56&9 \newline 12&35&82&2&28 \end{vmatrix}$
+<div class = "answer">$\Rightarrow{}\ \ \boxed{-48100996} \Rightarrow{}\ \boxed{\text{non-singular}}$<br>
+It is only reasonable to solve this using a tool such as the Matlab terminal:
+<div>
+
+```matlab:Code
+a = [4 9 12 52 84 ; 2 28 30 28 7 ; 2 5 8 92 34 ; 14 2 37 56 9 ; 12 35 82 2 28]
+det(a)
+```
+
+</div>
+</div>
 
 -----------------------------------------------------------------------------------
 
@@ -187,7 +401,22 @@ $\Rightarrow{}\quad C_A=\begin{pmatrix}
 $\Rightarrow{}\quad C_A=\begin{pmatrix}1&-1&0\\-1&2&0\\-1&1&1\end{pmatrix}$ <br><br>
 $\Rightarrow{}\quad C_A^T=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$
 $\Rightarrow{}\quad A^{-1}=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix}$ <br><br>
-$\Rightarrow{} \quad M=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix} \begin{pmatrix}1&1\\2&2\\1&1\end{pmatrix}\begin{pmatrix}1/2&-1/2\\-1/2&3/2\end{pmatrix} \quad\Rightarrow{} \quad \boxed{M=\begin{pmatrix}0&-2\\0&4\\0&1\end{pmatrix}}$
+$\Rightarrow{} \quad M=\begin{pmatrix}1&-1&-1\\-1&2&1\\0&0&1\end{pmatrix} \begin{pmatrix}1&1\\2&2\\1&1\end{pmatrix}\begin{pmatrix}1/2&-1/2\\-1/2&3/2\end{pmatrix} \quad\Rightarrow{} \quad \boxed{M=\begin{pmatrix}0&-2\\0&4\\0&1\end{pmatrix}}$<br><br>
+Otherwise solving, simply, with Matlab:
+<div>
+
+```matlab:Code
+a = [2 1 1 ; 1 1 0 ; 0 0 1]
+b = [3 1 ; 1 1]
+c = [1 1 ; 2 2 ; 1 1]
+
+a = inv(a)
+b = inv(b)
+
+a * c * b
+```
+
+</div>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -204,7 +433,23 @@ $\Rightarrow{}\quad C=\begin{pmatrix}
 \end{pmatrix} \quad\Rightarrow{}\quad C=\begin{pmatrix}11&-7&2\\-9&9&-3\\1&-2&1\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \boxed{ adj(A) = C^T = \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3&1\end{pmatrix}}$ <br>
 $\Rightarrow{}\quad A^{-1} = \frac{1}{det(A)}adj(A) = \frac{1}{3} \begin{pmatrix}11&-9&1\\-7&9&-2\\2&-3&1\end{pmatrix}$ <br>
-$\Rightarrow{}\quad \boxed{AA^{-1} = \begin{pmatrix}1&2&3\\1&3&5\\1&5&12\end{pmatrix} \begin{pmatrix}11/3 & -9/3 & 1/3 \\-7/3 & 9/3 & -2/3\\ 2/3 & -3/3 & 1/3 \end{pmatrix} = \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}}$ <br></div>
+$\Rightarrow{}\quad \boxed{AA^{-1} = \begin{pmatrix}1&2&3\\1&3&5\\1&5&12\end{pmatrix} \begin{pmatrix}11/3 & -9/3 & 1/3 \\-7/3 & 9/3 & -2/3\\ 2/3 & -3/3 & 1/3 \end{pmatrix} = \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}}$ <br><br>
+Otherwise solving, simply, with Matlab:
+<div>
+
+```matlab:Code
+a = [1 2 3 ; 1 3 5 ; 1 5 12]
+
+det(a)
+adjoint(a)
+inv(a)
+
+b = inv(a)
+a * b     %should equal the identity matrix
+```
+
+</div>
+</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -223,7 +468,20 @@ $\Rightarrow{}\quad A^{-1} = \frac{1}{detA}adj(A) \quad\Rightarrow{}\quad A^{-1}
 
 $\Rightarrow{}\quad \begin{pmatrix}x  \newline  y  \newline  z\end{pmatrix} = \frac{1}{12} \begin{pmatrix}-3&3&3  \newline  8&-4&0  \newline  7&1&-3\end{pmatrix} \begin{pmatrix}7  \newline  8  \newline  11\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix}x  \newline  y  \newline  z\end{pmatrix} = \begin{pmatrix} 3  \newline  2  \newline  2\end{pmatrix}$ <br>
 
-$\Rightarrow{}\quad \boxed{x=3, \quad y=2, \quad z=2}$
+$\Rightarrow{}\quad \boxed{x=3, \quad y=2, \quad z=2}$ <br><br>
+Solving using Matlab:
+<div>
+
+```matlab:Code
+a = [1 1 1 ; 2 -1 2 ; 3 2 -1]
+b = [7 ; 8 ; 11]
+
+a = inv(a)
+a * b     %x, y, z are given by each row respectively
+```
+
+</div>
+
 </div>
 
 (b) $\begin{align}
@@ -245,6 +503,34 @@ x + y + 3z &= 0  \newline
 $\Rightarrow{}\quad detA = 13 \quad\Rightarrow{}\quad$ nonsingular (invertible) <br>
 
 $\Rightarrow{}\quad A^{-1}$ can be obtained, but whatever the elements of it $\Rightarrow{}\quad \boxed{x=y=z=0}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(d) $\begin{align}
+2v + 3w + 7x + y + z &= 41  \newline 
+w + 8x + 11z &= 43  \newline 
+8v + w + 7y + 3z &= 75 \newline
+9v + 2w + 2x + y &= 31 \newline
+6w + 9y + 4z &= 110 \end{align}$
+<div class = "answer">$\Rightarrow{}\quad Ax = b \quad\Rightarrow{}\quad \begin{pmatrix}2&3&7&1&1 \\ 0&1&8&0&11 \\ 8&1&0&7&3 \\ 9&2&2&1&0 \\ 0&6&0&9&4 \end{pmatrix} \begin{pmatrix}v\\w\\x\\y\\z\end{pmatrix} = \begin{pmatrix}41 \\ 43 \\ 75 \\ 31 \\ 110 \end{pmatrix}$ <br>
+
+$\Rightarrow{}\quad detA \neq 0 \quad\Rightarrow{}\quad$ non-singular (invertible) <br>
+
+$\Rightarrow{}\quad \begin{pmatrix}v \newline w \newline x  \newline  y  \newline  z\end{pmatrix} = A^{-1} \begin{pmatrix}41 \newline 43 \newline 75 \newline  31  \newline  110\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix}v \newline w \newline x  \newline  y  \newline  z\end{pmatrix} = \begin{pmatrix} 1 \newline 5 \newline 2 \newline  8  \newline  2\end{pmatrix}$ <br>
+
+$\Rightarrow{}\quad \boxed{v=1, \quad w=5, \quad x=2, \quad y=8, \quad z=2}$ <br><br>
+It would be unreasonable to calculate this by hand, therefore a tool like Matlab is needed and can be used as shown:
+<div>
+
+```matlab:Code
+a = [2 3 7 1 1 ; 0 1 8 0 11 ; 8 1 0 7 3 ; 9 2 2 1 0 ; 0 6 0 9 4]
+b = [41 ; 43 ; 75 ; 31 ; 110]
+
+a = inverse(a)
+a * b
+```
+
+</div>
+</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -327,8 +613,38 @@ $\quad\Rightarrow{}\quad \begin{pmatrix}0&2^{-\frac{1}{2}}&2^{-\frac{1}{2}}\\2^{
 
 -----------------------------------------------------------------------------------
 
-## Exam Style Questions
 ### Problem 10.
+Given that the matrix $\textbf{M}$ is given by:
+$\textbf{M} =  \begin{bmatrix} 
+    4 \ 12 \newline  x \ 8 
+    \end{bmatrix}$ 
+and:
+$(\textbf{M}^{-1})^T = -\frac{2}{184}\begin{bmatrix} 
+    4 \ {-9} \newline  {-6} \ 2 
+    \end{bmatrix}$ 
+find $x$
+<div class = "answer">
+$\quad\Rightarrow{}\quad \textbf{M}^{-1} = -\frac{2}{184}\begin{bmatrix} 
+    4 \ {-6} \newline  {-9} \ 2 
+    \end{bmatrix} = -\frac{1}{184}\begin{bmatrix} 
+    8 \ {-12} \newline  {-18} \ 4 
+    \end{bmatrix}$ <br>
+(note: multiplying the matrix by the coefficient's numerator leaves the inverted matrix in a more recognizable form)<br>
+given that for matrix $\textbf{A}$: <br>
+$\quad\Rightarrow{} \quad \textbf{A} =  \begin{bmatrix} 
+    a \ b \newline  c \ d 
+    \end{bmatrix} \quad\Rightarrow{}\quad \textbf{A}^{-1} = \frac{1}{\text{det}(\textbf{A})}\begin{bmatrix} 
+    d \ {-b} \newline  {-c} \ a 
+    \end{bmatrix}$ <br>
+$\quad\Rightarrow{}\quad {-x}={-18} \quad\Rightarrow{}\quad \boxed{x = 18}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------------------------------------------------------
+
+## Exam Style Questions
+### Problem 11.
 [10 marks] Given the following matrices: 
 $A =  \begin{bmatrix} 
     1 \ 2 \ 0  \newline  3 \ 1 \ 0  \newline  5 \ 0 \ 1
@@ -341,32 +657,69 @@ $C = \begin{bmatrix} \
     \end{bmatrix}.$
 
 (a) Find the determinant of $A$
-<div class = "answer">$detA= 1(1)-2(3)+0 = \boxed{-5}$ [1 mark]</div>
+<div class = "answer">$detA= 1(1)-2(3)+0 = \boxed{-5}$ [1 mark]<br>
+Matlab:
+<div>
+
+```matlab:Code
+a = [1 2 0 ; 3 1 0 ; 5 0 1]
+det(a)
+```
+
+</div></div>
 
 (b) Find the inverse of matrix $A$ multiplied by the determinant of $A$
 <div class = "answer">
 $A^{-1}|A| = \boxed{\begin{bmatrix}
 1 & -2 & 0 \\ -3 & 1 & 0 \\ -5 & 10 & -5
-\end{bmatrix}}$ [3 marks]</div>
+\end{bmatrix}}$ [3 marks]<br>
+Matlab:
+<div>
+
+```matlab:Code
+x = inv(a)
+y = det(a)
+x * y
+```
+
+</div></div>
 
 (c) Find the inverse of the transpose of matrix $A$
 <div class = "answer">
-$(A^{T})^-1 = (A^{-1})^T = \boxed{\frac{1}{-5} \begin{bmatrix}
+$(A^{T})^{-1} = (A^{-1})^T = \boxed{\frac{1}{-5} \begin{bmatrix}
 1 & -3 & -5 \\ -2 & 1 & 10 \\ 0 & 0 & -5
-\end{bmatrix}}$ [2 marks]</div>
+\end{bmatrix}}$ [2 marks]<br>
+Matlab:
+<div>
+
+```matlab:Code
+x = transpose(a)
+inverse(x)
+```
+
+</div></div>
 
 (d) Find $BA$
 <div class = "answer">
 $BA = \boxed{\begin{bmatrix}
 27 & 9 & 3 \\ 27 & 9 & 3
-\end{bmatrix}}$</div>
+\end{bmatrix}}$<br>
+Matlab:
+<div>
+
+```matlab:Code
+b = [3 3 3 ; 3 3 3]
+b * a
+```
+
+</div></div>
 
 (e) What are the dimensions of $D$ in the following operation? $D = ((BA)^T B - A)C^T$
-<div class = "answer">$[(2x3)(3x3)^T(2x3)-(3x3)](3x1)=\boxed{(3x1)}$ [2 marks]</div>
+<div class = "answer">$[(2\times3)(3\times3)^T(2\times3)-(3\times3)](3\times1)=\boxed{(3\times1)}$ [2 marks]</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
-### Problem 11.
+### Problem 12.
 The matrix $\textbf{M}$ is given by:
 $$\textbf{M} =
 \begin{bmatrix}
