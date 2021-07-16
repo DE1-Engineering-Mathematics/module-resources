@@ -275,6 +275,19 @@ By substituting sequential values of $x_n$ into the formula, we can build the fo
 & 5&   -& 0.1038& &0.0000& \newline
 \end{align*}
 
+\begin{align*}
+& n& \quad  &c_n&      \quad &f(c_n)   \newline
+\hline
+& 1&   &0.5000000& &-0.6250000000  \newline
+& 2&   &0.7500000& &+0.9843750000  \newline
+& 3&   &0.6250000& &+0.2597656250  \newline
+& 4&   &0.5625000& &-0.1618652344  \newline
+& 5&   &0.5937500& &+0.0540466309  \newline
+& 6&   &0.5781250& &-0.0526237488  \newline
+& 7&   &0.5859375& &+0.0010313988 \newline
+\hline
+\end{align*}
+
 
 You stop iterating if $f(x_n)$ is close enough to 0.
 <br>
