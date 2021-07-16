@@ -406,7 +406,7 @@ $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi
 
 (c) State the solution, to part (b), with the smallest positive argument and find the real part of it (in polar form).
 <div class = "answer">
-Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$
+Solution with the smallest positive argument: $\sqrt{2}e^{\frac{7\pi}{20}i}$ <br>
 
 $\boxed{Re({\sqrt{2}e^{\frac{7\pi}{20}i})} =\sqrt{2}\cos\left(\frac{7\pi}{20}\right)}$
 </div>
