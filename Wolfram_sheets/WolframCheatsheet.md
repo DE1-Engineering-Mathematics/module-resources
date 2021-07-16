@@ -23,9 +23,9 @@ If either of these two links are broken, Imperial has its own page on how to get
 - [4B. Eigenproblems](./term1/eigen.md)
 - 5A. Power Series. Not many special commands exist.
 - 5B. Sequences. Not many special commands exist.
-- [6. Complex Numbers]()
-- [7. ODEs]()
-- [8. CHOs]()
+- [6. Complex Numbers](./term1/complex.md)
+- [7. ODEs](./term1/ode.md)
+- 8 CHOs. Again, no special commands.
 
 ### Engineering Mathematics Topics - Term 2
  - [9. Laplace Transform]()
