@@ -43,6 +43,9 @@ imag(z)
     ```matlab:Code
     plot(z,"r*")
     ```
-![plot2](images/plot2.png)
+    
+<p align="center">
+<img src = "images/plot2.png" width="50%" >
+</p>
 
 ###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
