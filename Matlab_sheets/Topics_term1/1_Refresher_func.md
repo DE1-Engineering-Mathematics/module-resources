@@ -59,7 +59,9 @@
     Y = [1, 4, 9, 16, 25];
     plot(X,Y)
     ```
-![plot](images/Plot.png)
+<p align="center">
+<img src = "images/Plot.png" width="50%" >
+</p>
 - **fplot(f(x),Range)** similar to plot() but instead it takes a symbolic function and a range as [xmin xmax] to plot the function through. If the Range argument is omited the range is [-5 to 5]. [Full Documentation](https://uk.mathworks.com/help/matlab/ref/fplot.html) 
     ```matlab:Code
     f = @(x) sin(x)^-3;
