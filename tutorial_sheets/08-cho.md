@@ -36,6 +36,7 @@
 
 <div class = "answer">
 Even though the system is vertical, we can ignore the effects of gravity. This is because the equilibrium position of the above system already takes the effects of gravity into account (i.e. the masses only hang the way they do because gravity is already acting on them).
+<br>
 
 $\Rightarrow$ The equations of motion of the masses are:
 $$2m\ddot{x}_1+2kx_1-kx_2= 0
@@ -118,8 +119,8 @@ A_2
 \end{bmatrix}}
 $$
 
-$\Rightarrow \frac{1}{\sqrt{2}}A_1=\frac{1}{2}A_2$, masses move in phase with each other in the same direction.}
-
+$\Rightarrow \frac{1}{\sqrt{2}}A_1=\frac{1}{2}A_2$, masses move in phase with each other in the same direction.
+<br>
 Mode shape for $\omega_2 =\sqrt{\frac{k}{m}+\frac{1}{\sqrt{2}}\frac{k}{m}}$ :
 $$
 \boxed{
@@ -157,7 +158,7 @@ A one-dimensional system of 4 coupled harmonic oscillators (see below) of mass $
 
 <div class="answer">
 Note that the position of the first mass, $x_1$, is affected ONLY by the wall and by the position of the second mass.
-
+<br>
 The general form for the acceleration of the $n$th mass is:
 
 $$m_n\ddot{x}_n=-k_n(x_n-x_{(n-1)})-k_{(n+1)}(x_n-x_{(n+1)})$$
@@ -165,10 +166,13 @@ $$m_n\ddot{x}_n=-k_n(x_n-x_{(n-1)})-k_{(n+1)}(x_n-x_{(n+1)})$$
 We are interested in the first mass, so $n=1$. This also means that any $(n-1)$ terms are replaced with 0. We have:
 
 $m_1\ddot{x}_1=-k_1(x_1-0)-k_{2}(x_1-x_{2})$
+<br>
 
 $m_1\ddot{x}_1=-k_1x_1-k_2x_1+k_2x_2$
+<br>
 
 $\ddot{x}_1=\frac{-2k}{m}x_1+\frac{k}{m}x_2$
+<br>
 
 $\ddot{x}_1=\frac{-2\times18}{6}x_1+\frac{18}{6}x_2$
 
@@ -180,6 +184,7 @@ $\boxed{\ddot{x}_1=-6x_1+3x_2, A=-6, B=3}$
 (b) Write down the matrix relating the positions to the accelerations of the four masses.
 <div class="answer">
 $\Rightarrow$ The first line of the matrix will come from the above formula:
+<br>
 
 $\begin{pmatrix}
 -6 & 3 & 0 & 0\\
@@ -187,6 +192,7 @@ $\begin{pmatrix}
 ? & ? & ? & ?\\
 ? & ? & ? & ?
 \end{pmatrix}$
+<br>
 
 The next line can be found by constructing the equation for $\ddot{x}_2$, and so on - remembering either to construct the equations from first principals each time, or to apply the above general equation correctly: if spring or mass $n+1$ or $n-1$ does not exist, use 0 as its value.
 
@@ -196,13 +202,13 @@ $$m_2\ddot{x}_2=-k_2(x_2-x_1)-k_3(x_n-x_3)$$
 
 $$\ddot{x}_2=3x_1-6x_2+3x_3$$
 
-$\boxed{
+$$\boxed{
 \begin{pmatrix}
 -6 & 3 & 0 & 0\\
 3 & -6 & 3 & 0\\
 0 & 3 & -6 & 3\\
 0 & 0 & 3 & -3
-\end{pmatrix}x=\ddot{x}}$
+\end{pmatrix}x=\ddot{x}}$$
 
 </div>
 <div class = "workingout"><br><br><br><br></div>
@@ -211,10 +217,12 @@ $\boxed{
 <div class="answer">
 
 This is a 4-mass system, so we would expect it to have four natural frequencies.
-
+<br>
 We can verify this very easily using MATLAB of Wolfram: the number of eigenvalues = the number of natural frequencies.
+<br>
 
-In MATLAB, type ```eigs[matrix]```, or in Wolfram just type something like `eigenvalues` followed bu the matrix.
+In MATLAB, type `eigs[matrix]`, or in Wolfram just type something like `eigenvalues` followed by the matrix.
+<br>
 
 MATLAB:
 
@@ -238,13 +246,17 @@ From our knowledge of eigen analysis, we know that $\lambda=-\omega^2$, so to fi
 
 <img src = "./08-cho-media/answer2d2.png" width="50%" style = "margin: 10px auto 20px; display: block;">
 
-In the above code, we take the first eigenvalue, which we have identified as the one we need, and use it to calculate the corresponding $\omega$. \\
+In the above code, we take the first eigenvalue, which we have identified as the one we need, and use it to calculate the corresponding $\omega$.
+<br>
 
 $\Rightarrow \omega=3.2552$
+<br>
 
 We now need to convert this into a time period.
+<br>
 
 $\omega=\frac{2\pi}{t} \therefore t=\frac{2\pi}{\omega}=1.9302s$
+<br>
 
 $\Rightarrow \boxed{t=2s (1s.f.)}$
 </div>
@@ -253,19 +265,22 @@ $\Rightarrow \boxed{t=2s (1s.f.)}$
 (e) If a 5th similar spring were added to this system, connecting the final oscillator to another wall, what would you expect this to do to the resonant frequencies of the system? 
 <div class="answer">
 To answer this, we work out the last line of the stiffness matrix using this extra spring:
+<br>
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 -6 & 3 & 0 & 0\\
 3 & -6 & 3 & 0\\
 0 & 3 & -6 & 3\\
 0 & 0 & 3 & -6
-\end{pmatrix}$
+\end{pmatrix}$$
+<br>
 
 Then we repeat the MATLAB eigen analysis.
 
 <img src = "./08-cho-media/answer2e.png" width="20%" style = "margin: 10px auto 20px; display: block;">
 
-We can see that the new eigenvalues are slightly larger than the old ones \\
+We can see that the new eigenvalues are slightly larger than the old ones.
+<br>
 
 $\Rightarrow \boxed{\text{The resonant frequencies all increase}}$
 </div>
@@ -288,14 +303,17 @@ Note: This will be a problem if the time period between pylons ($=15s$) = the ti
 <div class="answer">
 
 The wording of this question makes it seem very complex, but all it is asking you to do is decide whether any of the natural time periods ($\frac{1}{\text{natural frequency}}$) is 15 seconds, to the nearest integer.
+<br>
 
 To solve this, we will:
-- Find the eigenvalues of the system
-- Convert these to omega values
-- Convert these to the natural time periods
+- Find the eigenvalues of the system<br>
+- Convert these to omega values<br>
+- Convert these to the natural time periods<br>
 - Check to see if any of the above = 15s.
+<br>
 
 We can construct a stiffness matrix for the train, as in previous questions. Note that there are no couplings at either end (the train is free to move).
+<br>
 
 $$\begin{pmatrix}
 -\frac{3}{65} & \frac{3}{65} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
@@ -313,8 +331,9 @@ $$\begin{pmatrix}
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65} & 0\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \frac{3}{65} & -\frac{6}{65} & \frac{3}{65}\\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 &\frac{3}{65} & -\frac{3}{65}\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 &\frac{3}{65} & -\frac{3}{65}
 \end{pmatrix}$$
+<br>
 
 The matrix is also huge, and therefore evil to type into MATLAB.
 
@@ -334,8 +353,10 @@ This is frustrating, because it is displaying the array in standard form, in ord
 <img src = "./08-cho-media/answer54.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 We can now see that the first 3 of these times round to 15 seconds, to the nearest second. This means that the pylons are driving the oscillation of the train at it's natural frequency.
+<br>
 
-$\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$ \\
+$\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$
+<br>
 
 *Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>.
 
@@ -360,14 +381,17 @@ $$\begin{pmatrix}
 
 <div class="answer">
 First, we have to construct an algebraic stiffness matrix for the system:
+<br>
 
 $\begin{pmatrix}
 -\frac{k_1+k_2}{m_1} & \frac{k_2}{m_1} & 0\\
 \frac{k_2}{m_2} & -\frac{k_2+k_3}{m_2} & \frac{k_3}{m_2}\\
 0 & \frac{k_3}{m_3} & -\frac{k_3+k_4}{m_3}
 \end{pmatrix}$
+<br>
 
 Then, we can equate this to the original stiffness matrix:
+<br>
 
 $\begin{pmatrix}
 -\frac{k_1+k_2}{m_1} & \frac{k_2}{m_1} & 0\\
@@ -378,18 +402,23 @@ $\begin{pmatrix}
 1 & -4 & 3\\
 0 & 2 & -6
 \end{pmatrix}$
+<br>
 
 So, therefore:
+<br>
 
 $
 \frac{k_1+k_2}{m_1}=3, \quad \frac{k_2}{m_1}=2\\
 \frac{k_2}{m_2}=1, \quad \frac{k_2+k_3}{m_2}=4, \quad \frac{k_3}{m_2}=3\\
 \frac{k_3}{m_3}=2, \quad \frac{k_3+k_4}{m_3}=6
 $
+<br>
 
 Plugging these equations into Wolfram (<a href="https://www.wolframalpha.com/input/?i=3%3D%28k_1%2Bk_2%29%2Fm_1%2C+2%3Dk_2%2Fm_1%2C+1%3Dk_2%2Fm_2%2C+4%3D%28k_2%2Bk_3%29%2Fm_2%2C+3%3Dk_3%2Fm_2%2C+2%3Dk_3%2Fm_3%2C+6%3D%28k_3%2Bk_4%29%2Fm_3">link</a>) gives us that:
+<br>
 
 $\Rightarrow \boxed{k_2=2k_1, k_3=6k_1, k_4=12k_1, m_1=k_1, m_2=2k_1, m_3=3k_1 \text{ where } k_1\not=0}$
+<br>
 
 Note that Wolfram can be a bit picky about simultaneous equations and that the above link may sometimes not work. Try typing it in yourself: ```(k_1 + k_2) / m_1 = 3, k_2 / m_1 = 2, etc...```
 </div>
@@ -398,7 +427,9 @@ Note that Wolfram can be a bit picky about simultaneous equations and that the a
 (b) What integer-value of $k_1$ will yield the smallest natural frequency of the system?
 
 <div class="answer">
-This is an understanding-based trick question. The stiffness matrix (which determines the natural frequencies) is a constant, so the value of $k_1$ does not affect the stiffness matrix. This means its eigenvalues (and thus the natural frequencies) are unaffected.
+This is an understanding-based trick question. The stiffness matrix (which determines the natural frequencies) is a constant, so the value of $k_1$ does not affect the stiffness matrix.
+<br>
+This means its eigenvalues (and thus the natural frequencies) are unaffected.
 </div>
 
 <div class = "workingout"><br><br></div>
@@ -417,18 +448,25 @@ This is an understanding-based trick question. The stiffness matrix (which deter
 
 <div class="answer">
 Once you have deciphered the words, this question is essentially revision of last week's topic.
+<br>
 
 For a critically damped oscillator, we know that the determinant is 0, i.e. $\sqrt{c^2-4\times{}m_3\times{}k_4}=0$.
+<br>
 
 $\sqrt{24^2-4\times3k_1\times12k_1}=0$
+<br>
 
 $24^2=4\times3k_1\times12k_1$
+<br>
 
 $576=144k_1^2$
+<br>
 
 $k_1^2=4$
+<br>
 
 $\Rightarrow \boxed{k_1=2Nm}$
+<br>
 
 From this, you can work out that $k_2=4$, $k_3=12$, $k_4=24$ and $m_1=2$, $m_2=4$, $m_3=6$.
 
