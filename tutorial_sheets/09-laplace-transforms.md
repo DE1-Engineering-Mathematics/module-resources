@@ -48,12 +48,13 @@ $\Rightarrow{}\quad\boxed{G(s)=\frac{9}{s}}$
 (c) $k(t)=4t$
 <div class = "answer">
 $\Rightarrow{}\quad$
-$K(s)=\int_{0}^{\infty} 4t \ e^{-st} dt=4\int_{0}^{\infty} t \ e^{-st} dt$
+$K(s)=\int_{0}^{\infty} 4t \ e^{-st} dt=4\int_{0}^{\infty} t \ e^{-st} dt$ <br>
 
 Using integration by parts:
 $udv=uv-\int{vdu}$ <br>
 
-$u=t, dv=e^{-st}dt$ and $du=dt, v=-\frac{1}{s} e^{-st}$ <br>
+$u=t, dv=e^{-st}dt$ and $du=dt,$ <br> 
+$v=-\frac{1}{s} e^{-st}$ <br>
 
 $\Rightarrow{}\quad$
 $4\int_{0}^{\infty} t \ e^{-st}dt=4(-\frac{t}{s} e^{-st} - \int_{0}^{\infty} \frac{-1}{s} e^{-st}dt)=4(\frac{1}{s^2}(-se^{-st}t-e^{-st}))_{0}^{\infty}$ <br>
@@ -75,7 +76,7 @@ $\Rightarrow{}\quad\ \boxed{G(s)=\frac{1}{s-2}}$
 According to De Moivre's theorem, $\cos(at) + i\sin(at) = e^{iat}$ <br>
 Using part (d) methodology $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{1}{s-5i}$ <br>
 Rationalize the denominator $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{s}{s^2-5^2} + \frac{5i}{s^2-5^2}$ <br>
-$\sin{}$ is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2-5^2}}$
+$\sin{}$ is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2-5^2}}$ <br>
 
 Note: The same process can be used to find the laplace of $\cos{}$ - take the real part, $\frac{s}{s^2-5^2}$!
 </div>
@@ -201,7 +202,7 @@ $$Y(s)=\frac{1}{s(s^2+4s+8)}$$
 
 Find the inverse Laplace transform of $Y(s)$: <br>
 
-<strong>Using partial fractions</strong>
+<strong>Using partial fractions</strong> <br>
 
 $\frac{1}{s(s^2+4s+8)}=\frac{A}{s}+\frac{Bs+C}{(s^2+4s+8)}$
 $\quad\Rightarrow{}\ 1=A(s^2+4s+8)+(Bs+C)s$ <br>
@@ -210,7 +211,7 @@ $Y(s)=\frac{1}{8s}-{\frac{s+4}{8(s^2+4s+8)}}$ <br>
 
 $Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+2)^2+4}}$ <br>
 
-<strong>Using WolframAlpha</strong>
+<strong>Using WolframAlpha</strong> <br>
 
 In this case, WolframAlpha does not return a convenient rearrangement. Further working must be done. <br>
 
@@ -221,9 +222,9 @@ $\frac{1}{8s}$ is in a form that can be transformed using the DE1 formula sheet.
 By thinking ahead and shifting into a form that allows us to compare with the formula sheet, $\frac{-(s+2)-2}{8(s^2+4s+8)}$. <br>
 $\Rightarrow{}\quad\frac{-(s+2)}{8(s^2+4s+8)} + \frac{-2}{8(s^2+4s+8)}$ <br>
 $\Rightarrow{}\quad\frac{-1}{8}\frac{s+2}{(s+2)^2+4}-\frac{1}{8}\frac{2}{(s+2)^2+4}$ <br>
-$Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+2)^2+4}}$ 
+$Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+2)^2+4}}$ <br>
 
-Note: Recognising manipulations like this will come with practice and familiarisation with the transforms.
+Note: Recognising manipulations like this will come with practice and familiarisation with the transforms.<br>
 
 $\boxed{y(t)=\frac{1}{8}-{\frac{1}{8}}{e^{-2t}{\cos2t}}-\frac{1}{8}{e^{-2t}{\sin2t}}}$
 </div>
@@ -242,17 +243,17 @@ $\Rightarrow{}\quad \ s^2Y(s)-sy(0)-y'(0)+4(sY(s)-y(0))+4Y(s)=\frac{6}{s+2}$ <br
 
 $\Rightarrow{}\quad \ (s^2+4s+4)Y(s)-(s+4)y(0)-y'(0)=\frac{6}{s+2}$ <br>
 
-Substitute $y(0)=-2,\ \ y'(0)=8$:
+Substitute $y(0)=-2,\ \ y'(0)=8$: <br>
 
-$\Rightarrow{}\quad(s^2+4s+4)Y(s)+2(s+4)-8=\frac{6}{s+2}$
+$\Rightarrow{}\quad(s^2+4s+4)Y(s)+2(s+4)-8=\frac{6}{s+2}$ <br>
 
-$\Rightarrow{}\quad(s^2+4s+4)Y(s)=\frac{6}{s+2}-2s$
+$\Rightarrow{}\quad(s^2+4s+4)Y(s)=\frac{6}{s+2}-2s$ <br>
 
 $\Rightarrow{}\quad \ (s+2)^2Y(s)=\frac{6}{s+2}-{2s}$
 $$Y(s)=\frac{6}{(s+2)^3}-\frac{2s}{(s+2)^2}$$
 
 Find the inverse Laplace transform of $Y(s)$: <br>
-<strong>Using partial fractions</strong>
+<strong>Using partial fractions</strong> <br>
 
 $Y(s)=\frac{6}{(s+2)^3}-\frac{2(s+2-2)}{(s+2)^2}$ <br>
 
