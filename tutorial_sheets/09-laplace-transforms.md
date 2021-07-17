@@ -154,9 +154,10 @@ $\mathcal{L}^{-1}\{G(s)\}= \ \mathcal{L}^{-1}\{ {\frac{7s-1}{(s+1)(s+2)(s-3)}}\}
 $\frac{7s-1}{(s+1)(s+2)(s-3)}= \frac{A}{s+1}+\frac{B}{s+2}+\frac{C}{s-3}$ <br>
 $\Rightarrow\quad\frac{2}{s+1}+\frac{-3}{s+2}+\frac{1}{s-3}$ <br>
 
-<strong> Using Wolfram Alpha</strong> <br>
-[Link to Wolfram Alpha](https://www.wolframalpha.com/input/?i=%287s-1%29%2F%28%28s%2B1%29%28s%2B2%29%28s-3%29%29)
-![this is an image](/tutorial_sheets/09-laplace-transforms-media/3b.png) 
+<strong> Using WolframAlpha</strong> <br>
+
+<a href="https://www.wolframalpha.com/input/?i=%287s-1%29%2F%28%28s%2B1%29%28s%2B2%29%28s-3%29%29"> Link to WolframAlpha </a>
+<img src = "./09-laplace-transforms-media/3b.png" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$ 
 </div>
@@ -167,9 +168,10 @@ $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$
 $\mathcal{L}^{-1}\{K(s)\} =  \mathcal{L}^{-1}\{\frac{4s+5}{(s-2)^2(s+3)}\}$ <br>
 $\frac{4s+5}{(s-2)^2(s+3)}=-\frac{7}{25(s+3)}+\frac{7}{25(s-2)}+\frac{13}{5(s-2)^2}$ <br>
 
-<strong> Using Wolfram Alpha</strong> <br>
-[Link to Wolfram Alpha](https://www.wolframalpha.com/input/?i=%284s%2B5%29%2F%28%28s-2%29%5E2%28s%2B3%29%29)
-![this is an image](/tutorial_sheets/09-laplace-transforms-media/3c.png) 
+<strong> Using WolframAlpha</strong> <br>
+
+<a href="https://www.wolframalpha.com/input/?i=%284s%2B5%29%2F%28%28s-2%29%5E2%28s%2B3%29%29"> Link to WolframAlpha </a>
+<img src = "./09-laplace-transforms-media/3c.png" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 $\Rightarrow{}\quad \ \boxed{k(t)=-\frac{7}{25}{e^{-3t}}+\frac{7}{25}{e^{2t}}+\frac{13}{5}{t}{e^{2t}}}$ 
 </div>
@@ -208,11 +210,12 @@ $Y(s)=\frac{1}{8s}-{\frac{s+4}{8(s^2+4s+8)}}$ <br>
 
 $Y(s)=\frac{1}{8s}-{\frac{1}{8} \frac{(s+2)}{(s+2)^2+4}-\frac{1}{8} \frac{2}{(s+2)^2+4}}$ <br>
 
-<strong>Using wolfram alpha</strong>
+<strong>Using WolframAlpha</strong>
 
-In this case, wolfram alpha does not return a convenient rearrangement. Further working must be done. <br>
-[Link to Wolfram Alpha](https://www.wolframalpha.com/input/?i=1%2F%28s%28s%5E2%2B4s%2B8%29%29)
-![this is an image](/tutorial_sheets/09-laplace-transforms-media/4.png) 
+In this case, WolframAlpha does not return a convenient rearrangement. Further working must be done. <br>
+
+<a href="https://www.wolframalpha.com/input/?i=1%2F%28s%28s%5E2%2B4s%2B8%29%29"> Link to WolframAlpha </a>
+<img src = "./09-laplace-transforms-media/4.png" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 $\frac{1}{8s}$ is in a form that can be transformed using the DE1 formula sheet. Further manipulation must be done on $\frac{-s-4}{8(s^2+4s+8)}$.
 By thinking ahead and shifting into a form that allows us to compare with the formula sheet, $\frac{-(s+2)-2}{8(s^2+4s+8)}$. <br>
@@ -257,9 +260,10 @@ $Y(s)=\frac{6}{(s+2)^3}-\frac{2s+4}{(s+2)^2}+\frac{4}{(s+2)^2}$ <br>
 
 $Y(s)=\frac{6}{(s+2)^3}-\frac{2}{(s+2)}+\frac{4}{(s+2)^2}$ <br>
 
-<strong>Using wolfram alpha</strong> <br>
-[Link to Wolfram Alpha](https://www.wolframalpha.com/input/?i=6%2F%28s%2B2%29%5E3-%282s%29%2F%28s%2B2%29%5E2)
-![this is an image](/tutorial_sheets/09-laplace-transforms-media/5.png) 
+<strong>Using WolframAlpha</strong> <br>
+
+<a href="https://www.wolframalpha.com/input/?i=6%2F%28s%2B2%29%5E3-%282s%29%2F%28s%2B2%29%5E2"> Link to WolframAlpha </a>
+<img src = "./09-laplace-transforms-media/5.png" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 $y(t)=3e^{-2t}t^2-2{e^{-2t}}+4e^{-2t}t$ <br>
 
@@ -283,9 +287,9 @@ $V(t)(s-1) - v(0) = \frac{1}{s+1}$ <br>
 $V(t)(s-1) - (-1) = \frac{1}{s+1}$ <br>
 $V(t) = \frac{\frac{1}{s+1}-1}{s-1}$ <br>
 
-Using wolfram alpha:<br>
-[Link to Wolfram Alpha](https://www.wolframalpha.com/input/?i=%281%2F%28s%2B1%29-1%29%2F%28s-1%29)
-![this is an image](/tutorial_sheets/09-laplace-transforms-media/6.png) 
+Using WolframAlpha:<br>
+<a href="https://www.wolframalpha.com/input/?i=%281%2F%28s%2B1%29-1%29%2F%28s-1%29"> Link to WolframAlpha </a>
+<img src = "./09-laplace-transforms-media/6.png" width="90%" style = "margin: 10px auto 20px; display: block;">
 
 $\boxed{V(s)=\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}}$ 
 
@@ -296,7 +300,7 @@ $\boxed{V(s)=\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}}$
 <div class = "answer">
 Transform back to the original dimension using the inverse laplace transform. <br>
 $\mathcal{L}^{-1}${$\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}$} <br>
-$\quad\Rightarrow{} = \frac{-1}{2}(e^t+e^{-t})$ <br>
+$= \frac{-1}{2}(e^t+e^{-t})$ <br>
 At $t = 4, \boxed{v=-27.3082}$ 
 
 </div>
