@@ -193,9 +193,9 @@ $\Rightarrow{}\quad \ s^2Y(s)-sy(0)-y'(0)+4(sY(s)-y(0))+8Y(s)=\frac{1}{s}$ <br>
 
 $\Rightarrow{}\quad \ (s^2+4s+8)Y(s)-(s+4)y(0)-y'(0)=\frac{1}{s}$ <br>
 
-Substitute $y(0)=0,\ \ y'(0)=0$:
+Substitute $y(0)=0,\ \ y'(0)=0$: <br>
 
-$\Rightarrow{}\quad \ (s^2+4s+8)Y(s)-0-0=\frac{1}{s}$
+$\Rightarrow{}\quad \ (s^2+4s+8)Y(s)-0-0=\frac{1}{s}$ <br>
 
 $\Rightarrow{}\quad \ (s^2+4s+8)Y(s)=\frac{1}{s}$ <br>
 $$Y(s)=\frac{1}{s(s^2+4s+8)}$$
