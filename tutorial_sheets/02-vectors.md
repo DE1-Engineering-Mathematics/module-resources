@@ -48,8 +48,8 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 (c) $\vec{a}\circ\vec{b}\circ \vec{c}$
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
 
-(d) $|\vec{c}|$
-<div class = "answer">$|c| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
+(d) $\| \vec{c} \|$
+<div class = "answer">$\| c \| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
 
 (e) Find the unit vector in direction of $\vec{c}$.
 <div class = "answer">$\boxed{\hat{c} = \frac{\vec{c}}{|c|} = \left(\frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right)}$</div>
