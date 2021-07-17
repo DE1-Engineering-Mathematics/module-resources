@@ -556,9 +556,15 @@ $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 
 ## Answers
 
-<button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
-<button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<button id="showAnswerButton" type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
+<button style="display: none" id="hideAnswerButton" type="button" onclick="displayAnswerButtons('none')">Hide answer buttons</button>
+<button id="showAnswers" type="button" onclick="displayAnswers('block')">Show all answers</button>
+<button style="display: none" id="hideAnswers" type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<br><br>
+
+## For Printing
+<button id="showPrint" type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

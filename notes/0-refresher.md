@@ -93,7 +93,7 @@ For the **Sum Rule**, the same rules apply as for differentiation, whereby the i
 The key time saving rule that you should be aware of for integration is called **Integration by Parts** or sometimes just **Parts** for short. One way to think about this process is as a rearrangement of the product rule for differentiation. So, for the function $f(x)=g(x)h(x)$:<br><br>
 
 $$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate and rearrange}}$$
-<br>
+<br><br>
 $$\int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$$
 
 <br><br>
