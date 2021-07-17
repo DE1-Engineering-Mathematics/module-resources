@@ -42,11 +42,9 @@ v_3
 <img align="right" src="figs/2.1-co-ordinate.svg" width=""/>
 The theory of co-ordinate geometry is very closely associated with vectors, so let's start by discussing the adjacent 3D illustration in $x, y, z$-space. Here you can see a vector from the origin to point $P(x,y,z)$. You can calculate the length (or *magnitude*) of the line $\overrightarrow{OP}$ using Pythagoras theorem.<br>
 
-$\begin{align*}
-|\overrightarrow{OP}|=r=\sqrt{x^2+y^2+z^2}
-\end{align*}$
+$$|\overrightarrow{OP}|=r=\sqrt{x^2+y^2+z^2}$$
 
-<br><br>
+<br><br><br>
 You can also use trigonometry to work out all it associated angles.
 
 $$\begin{align*}
@@ -112,7 +110,7 @@ $$\begin{align*}
 	\frac{\textbf{a}}{|\textbf{a}|}\bullet\frac{\textbf{b}}{|\textbf{b}|}=\hat{\textbf{a}}\bullet\hat{\textbf{b}}=\cos(\theta)
 \end{align*}$$
 
-such that, after cancelling out the magnitude of the two vectors, you are just comparing the two corresponding unit vectors, giving you the angle between them. One of the most useful features of the dot product is as a convenient test for orthogonality (and therefore linear independence), which can simply be represented as when $\theta=90^\circ$. It follows that because $\cos(90)=0$, then $\hat{\textbf{a}}\sdot\hat{\textbf{b}}$ must also equal zero if $\hat{\textbf{a}}$ and $\hat{\textbf{b}}$ are at right angles to each other.
+such that, after cancelling out the magnitude of the two vectors, you are just comparing the two corresponding unit vectors, giving you the angle between them. One of the most useful features of the dot product is as a convenient test for orthogonality (and therefore linear independence), which can simply be represented as when $\theta=90^\circ$. It follows that because $\cos(90)=0$, then $\hat{\textbf{a}}\bullet\hat{\textbf{b}}$ must also equal zero if $\hat{\textbf{a}}$ and $\hat{\textbf{b}}$ are at right angles to each other.
 <br><br>
 
 ### 2.2.2 Cross Product
