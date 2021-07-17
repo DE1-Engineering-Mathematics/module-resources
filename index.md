@@ -33,11 +33,9 @@
 * __[16 - Normal Distribution](tutorial_sheets\16-normal-distribution)__
 
 <br>
------------------------------------------------------------------------
 
 
-
-# Find an error, think of an improvement?
+# Found an error, thought of an improvement?
 __[How to report an error.](how-to-github-issue)__
 
 __[How these sheets are made.](how-to)__
@@ -49,8 +47,8 @@ __[How these sheets are made.](how-to)__
 * __Sam Cooper__
 * __Freddie Page__
 
-## Original tutorial sheet authors
-* 
+<!-- ## Original tutorial sheet authors
+*  -->
 
 ## 2020 Maths Student Shapers
 * Emilio Severi - 2018
