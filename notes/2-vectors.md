@@ -45,6 +45,7 @@ The theory of co-ordinate geometry is very closely associated with vectors, so l
 $\begin{align*}
 |\overrightarrow{OP}|=r=\sqrt{x^2+y^2+z^2}
 \end{align*}$
+
 <br><br>
 You can also use trigonometry to work out all it associated angles.
 
@@ -66,7 +67,7 @@ $$\begin{align*}
 	\hat{i}=(1,0,0)\quad\hat{j}=(0,1,0)\quad\hat{k}=(0,0,1)
 \end{align*}$$
 
-You can also find the unit vector of any arbitrary vector by dividing it by its own magnitude (eg $\hat{\textbf{{a}}}=\frac{\textbf{a}}{|\textbf{a}|}).$
+You can also find the unit vector of any arbitrary vector by dividing it by its own magnitude (eg $\hat{\textbf{a}}=\frac{\textbf{a}}{|\textbf{a}|}$).
 <br><br>
 This concept makes vector *addition* straightforward, as we simply add each direction separately. For example, if we wanted to find the 'resultant force', $\textbf{c}$, when the two forces $\textbf{a}=3\hat{i}+2\hat{j}-1\hat{k}$ and $\textbf{b}=-1\hat{i}-2\hat{j}+4\hat{k}$ are both applied to the same point, we just add each component to get $\textbf{c}=2\hat{i}+3\hat{k}$.
 <br><br>
@@ -80,26 +81,35 @@ However, if we mistakenly choose a pair of basis vectors that were parallel, we 
 
 ## <a id="vector-multiplication"></a>2.2 Vector Multiplication
 There are three methods of vector multiplication that we will cover in this course, which we will consider by applying them to the vectors $\textbf{a}=(1, 2, 3)$ and $\textbf{b}=(4, 5, 6)$. They are stated concisely below (without engineering context), just to have them all in one place.
+
 <br><br>
+
 $\textbf{a}\circ\textbf{b}\quad$ - **Entrywise product** or **Hadamard product** - This is where you multiply each pair of terms in the two vectors to yield a new vector: $\textbf{a}\circ\textbf{b}=(a_1b_1, a_2b_2, a_3b_3)=(4, 10, 18)$ (NB. Can only be performed on vectors of the same size and returns a vector of the same size).
-<br><br>
-$\textbf{a}\sdot\textbf{b}\quad$ - **Dot product** or **Scalar product** or **Inner product** - This is where you first perform the entrywise product and then add all the terms in the resulting vector together: $\textbf{a}\sdot\textbf{b}=a_1b_1+a_2b_2+a_3b_3=4+10+18=32$ (NB. Returns a scalar).
-<br><br>
+
+<br>
+
+$\textbf{a}\bullet\textbf{b}\quad$ - **Dot product** or **Scalar product** or **Inner product** - This is where you first perform the entrywise product and then add all the terms in the resulting vector together: $\textbf{a}\bullet\textbf{b}=a_1b_1+a_2b_2+a_3b_3=4+10+18=32$ (NB. Returns a scalar).
+
+<br>
+
 $\textbf{a}\times\textbf{b}\quad$ - **Cross product** or **Vector product** - This is where you find the difference of the products of the cross matched terms either side of the current index (explained again below!): $\textbf{a}\times\textbf{b}=(a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)=(12-15, 12-6, 5-8)=(-3, 6, -3)$. (NB. Returns same size vector and only possible with 3D vectors (or 7D, but we won't be using these!)).
-<br><br>
+
+<br>
+
 You can now blindly apply these three definitions without much difficulty, but if we take a closer look at the dot product and cross product, we can start to understand what they mean. 
+
 <br><br>
 
 ### 2.2.1 Dot Product
 <img align="right" src="figs/2.2-dot-product.svg" width=""/>
 
-The dot product can be thought of as a kind of directional multiplication, where for a pair of vectors, the products of their components in each dimension are found and then added together. Perhaps the most intuitive way to understand the dot product is through the concept of *projection* , where we relate any two vectors by the shadow they cast on each other if a light was shone orthogonally to the vector being shadowed (NB. $\textbf{a} \sdot \textbf{b}= \textbf{b} \sdot \textbf{a}$).
+The dot product can be thought of as a kind of directional multiplication, where for a pair of vectors, the products of their components in each dimension are found and then added together. Perhaps the most intuitive way to understand the dot product is through the concept of *projection* , where we relate any two vectors by the shadow they cast on each other if a light was shone orthogonally to the vector being shadowed (NB. $\textbf{a} \bullet \textbf{b}= \textbf{b} \bullet \textbf{a}$).
 
 Thinking about this in terms of trigonometry, as each shadow's path is perpendicular to a vector, they must form a right angled triangle.This means we can now write down the standard definition of the dot product in terms of the angle, $\theta$ between the two vectors; however, I think the interpretation of this concept becomes clearer when it is rearranged slightly
 
 $$\begin{align*}
-	\textbf{a}\sdot\textbf{b}=|\textbf{a}||\textbf{b}|\cos(\theta) \qquad\qquad\xRightarrow{\text{rearrange}}\qquad\qquad
-	\frac{\textbf{a}}{|\textbf{a}|}\sdot\frac{\textbf{b}}{|\textbf{b}|}=\hat{\textbf{a}}\sdot\hat{\textbf{b}}=\cos(\theta)
+	\textbf{a}\bullet\textbf{b}=|\textbf{a}||\textbf{b}|\cos(\theta) \qquad\qquad\Rightarrow{\text{rearrange}}\qquad\qquad
+	\frac{\textbf{a}}{|\textbf{a}|}\bullet\frac{\textbf{b}}{|\textbf{b}|}=\hat{\textbf{a}}\bullet\hat{\textbf{b}}=\cos(\theta)
 \end{align*}$$
 
 such that, after cancelling out the magnitude of the two vectors, you are just comparing the two corresponding unit vectors, giving you the angle between them. One of the most useful features of the dot product is as a convenient test for orthogonality (and therefore linear independence), which can simply be represented as when $\theta=90^\circ$. It follows that because $\cos(90)=0$, then $\hat{\textbf{a}}\sdot\hat{\textbf{b}}$ must also equal zero if $\hat{\textbf{a}}$ and $\hat{\textbf{b}}$ are at right angles to each other.
@@ -120,7 +130,7 @@ For area calculation, you simply imagine a parallelogram contained by two pairs 
 Once again, a more general interpretation of the concept is shown through the same simple rearrangement we used for the dot product. The cross product of two unit vectors gives you a new vector in the direction normal to their plane with a length equal to the sine of their angle.
 
 $$\begin{align*}
-\textbf{a}\times\textbf{b}=|\textbf{a}||\textbf{b}|\sin(\theta)\hat{\textbf{n}} \qquad\xRightarrow{\text{rearrange}}\qquad
+\textbf{a}\times\textbf{b}=|\textbf{a}||\textbf{b}|\sin(\theta)\hat{\textbf{n}} \qquad\Rightarrow{\text{rearrange}}\qquad
 \frac{\textbf{a}}{|\textbf{a}|}\times\frac{\textbf{b}}{|\textbf{b}|}=\hat{\textbf{a}}\times\hat{\textbf{b}}=\sin(\theta)\hat{\textbf{n}}
 \end{align*}$$
 <br><br>
