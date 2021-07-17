@@ -92,8 +92,9 @@ For the **Sum Rule**, the same rules apply as for differentiation, whereby the i
 
 The key time saving rule that you should be aware of for integration is called **Integration by Parts** or sometimes just **Parts** for short. One way to think about this process is as a rearrangement of the product rule for differentiation. So, for the function $f(x)=g(x)h(x)$:<br><br>
 
-$$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate \& rearrange}}\quad
-\int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$$
+$$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate and rearrange}}$$
+<br>
+$$\int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$$
 
 <br><br>
 To make this easier to remember, it can be shortened to $\int g \text{d}h=gh-\int h\text{d}g$. Make sure you understand why this is and how to use it, as we'll be using it a lot in the chapter on Fourier series. 
@@ -225,5 +226,5 @@ Study the adjacent figure and make sure you can see how the constant $a$ (assumi
 
 ## Conclusion
 If anything we covered in this chapter was new to you (or old... but still mysterious), then please let someone from the teaching team know and we will do our best to get you up to speed. Alternatively, if you are feeling confident enough to have a look online, then there as so many wonderful resources available to help you - Khan Academy is an excellent place to start with high school topics like these.
-
+<br><br><br><br>
 
