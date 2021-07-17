@@ -32,18 +32,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 });
 
-show_answer_button = document.getElementsByClassName("showAnswerButton")[0];
-
 function displayAnswerButtons(style) {
     for (let i = 0; i < answerButtons.length; i++) {
         answerButtons.item(i).style.display = style;
     }
-    show_answer_button.style.display = 'block';
-    document.getElementById('showAnswerButton').style.display = 'none';
 
-    if (style == 'block') {
-        show_answer_button.style.display = 'block';
-    }
+    document.getElementById('showAnswerButton').style.display = "none";
+
     console.log(document.getElementById('showAnswerButton'));
 
 }
