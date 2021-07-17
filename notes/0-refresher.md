@@ -74,8 +74,8 @@ Perhaps the simplest way to think about the product rule is to consider $g(x)$ a
 
 The **Chain Rule** is slightly harder to visualise, but a similar logic can be applied. Consider a function of a function $g(h(x))$. We can differentiate this thing by using the following expression.<br><br>
 
-$f(x)=g(h(x))\quad\Rightarrow\quad
-	f'(x)=\frac{\textrm{d}}{\textrm{d}x}g(h(x)) = g'(h(x))\ h'(x)\equiv \frac{\textrm{d}g}{\textrm{d}h}\times\frac{\textrm{d}h}{\textrm{d}x}=\frac{\textrm{d}g(h(x))}{\textrm{d}x}$
+$$f(x)=g(h(x))\quad\Rightarrow\quad
+	f'(x)=\frac{\textrm{d}}{\textrm{d}x}g(h(x)) = g'(h(x))\ h'(x)\equiv \frac{\textrm{d}g}{\textrm{d}h}\times\frac{\textrm{d}h}{\textrm{d}x}=\frac{\textrm{d}g(h(x))}{\textrm{d}x}$$
 
 <br>
 For example, if $f(x)=g(h(x))$, where $g(x)=2x^2+3$ and $h(x)=5x^3-1$. As $g'(x)=4x$ and $h'(x)=15x^2$, therefore, $f'(x)=g'(h(x))\ h'(x)=4(5x^3-1)\times 15x^2=300x^5-60x^2$. In this simple example, you could equally have found this result by simply multiplying out $g(h(x))$ and taking the derivative of the resulting expression.
@@ -92,8 +92,8 @@ For the **Sum Rule**, the same rules apply as for differentiation, whereby the i
 
 The key time saving rule that you should be aware of for integration is called **Integration by Parts** or sometimes just **Parts** for short. One way to think about this process is as a rearrangement of the product rule for differentiation. So, for the function $f(x)=g(x)h(x)$:<br><br>
 
-$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate \& rearrange}}\quad
-\int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$
+$$\frac{f(x)}{\textrm{d}x}=\frac{g(x)}{\textrm{d}x}h(x)+\frac{h(x)}{\textrm{d}x}g(x)\quad\Rightarrow{\text{integrate \& rearrange}}\quad
+\int \left(g(x)\frac{h(x)}{\textrm{d}x}\right)\textrm{d}x=f(x)-\int \left(h(x)\frac{g(x)}{\textrm{d}x}\right)\textrm{d}x$$
 
 <br><br>
 To make this easier to remember, it can be shortened to $\int g \text{d}h=gh-\int h\text{d}g$. Make sure you understand why this is and how to use it, as we'll be using it a lot in the chapter on Fourier series. 
@@ -104,21 +104,21 @@ In general, integration is tough (tougher than differentiation) and often doesn'
 In the simple case where an exponent, $n$, is a positive integer, it specifies the number of times a variable, $b$, is multiplied by itself.
 <br>
 
-$\begin{aligned}
+$$\begin{aligned}
 a 
 &= b^n \\
 &= \underbrace{b\times ...\times b}_{n\text{ times}}
-\end{aligned}$
+\end{aligned}$$
 
 However, as you will have seen, this definition can be expanded to allow for any exponent (or 'power') positive or negative, real or complex. The following equations show several representations of the same number, achieved through manipulating and interpreting its exponent. Make sure you understand how to convert between each of these forms.
 
-$7^{-\frac{2}{3}}=
+$$7^{-\frac{2}{3}}=
 7^{-\frac{1}{3}}\times7^{-\frac{1}{3}}=
 \frac{7^{\frac{1}{3}}}{7}=
 \frac{7^{-\frac{1}{3}}}{7^{\frac{1}{3}}}=
 \frac{1}{7^{\frac{2}{3}}}=
 \frac{1}{\sqrt[3]{\left(7^{2}\right)}}=
-\left(\frac{1}{\sqrt[3]{7}}\right)^2$
+\left(\frac{1}{\sqrt[3]{7}}\right)^2$$
 
 A logarithm (or 'log') is the inverse operation to exponentiation, where $b$ is now referred to as the *base* of the logarithm.
 
@@ -176,11 +176,11 @@ $$\log_b(x) = \left(\frac{1}{\log_c(b)}\right)\log_c(x)$$
 
 This can be useful for expressing all the terms in an equation in the same base, which makes manipulation easier. Using the power rule from the previous section, we can also clearly re-express this in the following manner.<br><br>
 
-$\quad\begin{aligned}
+$$\begin{align*}
 \log_b(x) 
 &= \log_c\left(x^{1/\log_c(b)}\right)\\
 &= \log_c\left(\sqrt[\log_c(b)]{x}\right)
-\end{aligned}$
+\end{align*}$$
 
 <br>
 
@@ -209,7 +209,7 @@ Consider the expression $y=\frac{x+1}{x^2}$. If you were told to evaluate this e
 <br><br>
 In complicated equations, such as the [Navier Stokes equations ](https://en.wikipedia.org/wiki/Navier-Stokes_equations) which describe viscous fluid flow, often the first step in their analysis is to work through each of the terms and determine which are small enough to be ignored - this is just the kind of thing engineers love and you'll be doing plenty of it on this degree!
 <br><br>
-We also have some special notation to characterise the ``order of magnitude'', $\mathcal{O}(x)$, which we'll be putting in to use in the chapter on power series approximations.
+We also have some special notation to characterise the 'order of magnitude', $\mathcal{O}(x)$, which we'll be putting in to use in the chapter on power series approximations.
 <br><br>
 
 ### 0.5.3 Curve Sketching
