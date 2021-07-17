@@ -169,7 +169,10 @@ $\quad\quad\log_b(x^p)=p\log_b(x)$
 ### 0.4.1 Change of base
 We can re-express $\log_{b}(x)$ in terms or an arbitrary base $c$ using the following formula. 
 
-$$\log_b(x) = \left(\frac{1}{\log_c(b)}\right)\log_c(x)$$
+$$\begin{align*}
+\log_b(x)
+&= \left(\frac{1}{\log_c(b)}\right)\log_c(x)
+\end{align*}$$
 <br>
 
 **Example** - $\log_8(64)$ can be express in base 2 as  $\left(\frac{1}{\log_2(8)}\right)\log_2(64)$
