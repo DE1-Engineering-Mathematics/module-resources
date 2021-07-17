@@ -135,5 +135,6 @@ In the case of log-log axis, perhaps the easiest way to see whether a function w
 $$X=\log(x)\qquad\&\qquad Y=\log(y)$$
 <br><br>
 And then check if this substituted function is itself linear. For example, considering the function $y=7x^2$ and then taking logs (any base is fine) of both sides, we get $\log(y)=\log(7x^2)=\log(7)+\log(x^2)=\log(7)+2\log(x)$. Now, making the above substitution, we get $Y=\log(7)+2X$. Remembering that $\log(7)$ is just a number, we see that our new expression matches the form $y=mx+c$ and so must be a straight line on a log-log scale.
+<br><br><br><br>
 
 
