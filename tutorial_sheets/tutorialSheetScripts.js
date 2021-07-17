@@ -37,7 +37,15 @@ function displayAnswerButtons(style) {
         answerButtons.item(i).style.display = style;
     }
 
-    document.getElementById('showAnswerButton').style.display = "none";
+    if (style === 'block') {
+        document.getElementById('showAnswerButton').style.display = "none";
+        document.getElementById('hideAnswerButton').style.display = "block";
+    }
+    else if (style === 'none') {
+        document.getElementById('showAnswerButton').style.display = "block";
+        document.getElementById('hideAnswerButton').style.display = "none";
+    }
+
 
     console.log(document.getElementById('showAnswerButton'));
 
