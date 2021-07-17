@@ -13,8 +13,6 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-![vectors](02-vectors-media/cover.png)
-
 # Vectors, Sheet #2
 
 ### Learning Targets

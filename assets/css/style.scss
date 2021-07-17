@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+  .page-header {
+    background-image: url("https://www.pascalls.co.uk/assets/uploads/Imperial_College_Dyson_3_Pascall_Watson_4_3.jpg");
+    min-height: 100%;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  } 
+
+  .project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+    color: #fff;
+  }
