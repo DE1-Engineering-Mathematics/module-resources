@@ -13,7 +13,6 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-![function](01-refersher-and-functions-media/cover.png)
 # Refresher and Functions Tutorial Sheet, Sheet #1
 
 ### Learning Targets
@@ -354,7 +353,7 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ------------
-<button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
+<button id="showAnswerButton" type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
 <button type="button" onclick="displayAnswerButtons('none')">Hide answer buttons</button>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>

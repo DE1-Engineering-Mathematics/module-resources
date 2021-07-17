@@ -13,8 +13,6 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-![vectors](03-matrices/cover.png)
-
 # Matrices, Sheet #3
 
 ### Learning Targets

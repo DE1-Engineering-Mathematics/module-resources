@@ -1,3 +1,6 @@
+title: Maths Module Resources
+description: Resources for DE1 Mathematics course
+theme: jekyll-theme-cayman
 
-  title: Maths Module Resources
-  description: Resources for DE1 Mathematics course
+github:
+  is_project_page: false
