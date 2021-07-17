@@ -39,19 +39,19 @@ It is very useful, before you start calculating any of the specific features, to
 <br><br>
 The effect of varying the index of variable:
 <br>
-<img src="figs/1.1-varying-index.svg" width="500"/><br><br>
+<img src="figs/1.1-varying-index.svg" width=""/><br><br>
 <br><br>
 Natural functions, illustrating that inverse functions can be constructed with simple reflections across the line $y=x$:
 <br>
-<img src="figs/1.1-natural-functions.svg" width="500"/><br><br>
+<img src="figs/1.1-natural-functions.svg" width=""/><br><br>
 <br><br>
 Trigonometric functions
 <br>
-<img src="figs/1.1-trig-functions.svg" width="500"/><br><br>
+<img src="figs/1.1-trig-functions.svg" width=""/><br><br>
 <br><br>
 Hyperbolic Functions
 <br>
-<img src="figs/1.1-hyperbolic-functions.svg" width="500"/><br><br><br>
+<img src="figs/1.1-hyperbolic-functions.svg" width=""/><br><br><br>
 
 ### 1.1.2 Intercepts
 Once the general shape has been established, it is then often useful to be able to label certain points of interest. If you are given an *explicit* equation ($i.e.$ in the form $y=f(x)$), then a trivial point to find is the intercept of the vertical axis. This is evaluated by setting the independent variable to zero.
