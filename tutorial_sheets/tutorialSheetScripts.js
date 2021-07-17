@@ -46,20 +46,36 @@ function displayAnswerButtons(style) {
         document.getElementById('hideAnswerButton').style.display = "none";
     }
 
-
-    console.log(document.getElementById('showAnswerButton'));
-
 }
 
 function displayAnswers(style) {
     for (let i = 0; i < answers.length; i++) {
         answers.item(i).style.display = style;
     }
+
+    if (style === 'block') {
+        document.getElementById('showAnswers').style.display = "none";
+        document.getElementById('hideAnswers').style.display = "block";
+    }
+    else if (style === 'none') {
+        document.getElementById('showAnswers').style.display = "block";
+        document.getElementById('hideAnswers').style.display = "none";
+    }
+
 }
 
 // For printing - adding whitespace
 function prepareForPrint(style) {
     for (let i = 0; i < whitespace.length; i++) {
         whitespace.item(i).style.display = style;
+    }
+
+    if (style === 'block') {
+        document.getElementById('showPrint').style.display = "none";
+        document.getElementById('hidePrint').style.display = "block";
+    }
+    else if (style === 'none') {
+        document.getElementById('showPrint').style.display = "block";
+        document.getElementById('hidePrint').style.display = "none";
     }
 }
