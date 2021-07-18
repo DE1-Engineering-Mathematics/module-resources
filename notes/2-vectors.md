@@ -263,4 +263,4 @@ Therefore, $(x,y,z)\bullet(-1,9,11)=15$, which can be written $-x+9y+11z=15$
 You can check that this is correct by substituting the original points and making sure that they all satisfy the equation.
 <br><br> 
 This is about as far as our discussion of vectors can go without introducing matrices (I already sneaked the determinant in above... if you don't know what this is then check out the following chapter!).
-
+<br><br><br><br>
