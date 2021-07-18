@@ -23,8 +23,11 @@ Compute the Fourier Series of the following function in the range **[-1 1]**.
 $$ f(x) = e^{-x + 3}$$
 
 For a Fourier Series:
+
 $$ a_0 = \frac{1}{L} \int_{-L}^{L} f(x) dx$$
+
 $$ a_n = \frac{1}{L} \int_{-L}^{L} f(x)\cos(\frac{n\pi x}{L})dx$$
+
 $$ b_n = \frac{1}{L} \int_{-L}^{L} f(x)\sin(\frac{n\pi x}{L})dx$$
 
 $$g(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos(\frac{n\pi x}{L}) + \sum_{n=1}^{\infty} b_n \sin(\frac{n\pi x}{L})$$

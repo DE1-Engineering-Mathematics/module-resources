@@ -61,6 +61,7 @@ $$\frac{d^2y}{dt^2} = cos(2t)- y$$
 with initial conditions
 
 $$ y(0) = 1$$
+
 $$ y'(0) = 0$$
 
 Follows the same pattern as the other one but defining one more condition.
