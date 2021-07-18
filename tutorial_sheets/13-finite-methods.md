@@ -15,7 +15,14 @@
 
 # Finite Methods Tutorial Sheet, #13
 
-<br><br><br><br>
+### Learning targets
+* To apply forward, central, backwards equations to solve problems
+* To understand the notation used in finite differences
+* To be able to understand systems of equations and link them to graphs of Temperature vs. Position.
+
+### Additional Resources
+* 
+
 
 # Problem sheet
 ## Essential Questions
@@ -117,6 +124,8 @@ Hence, CD is more accurate as it's $O(\Delta x^2)$ instead of $O(\Delta x)$.
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ### Problem 3.
 
@@ -255,6 +264,7 @@ Notice that this one-sided approximation is $o(h^2)$ accurate, whereas the usual
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------
 
 ### Problem 5.
 (a) Find the update equation, $x(t + \Delta t)$, of the following ODE,
@@ -382,13 +392,15 @@ From here we can use the update equation to iterate,
 -----------------------------------
 ## Answers
 
-<button type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
-<button type="button" onclick="displayAnswers('block')">Show all answers</button>
-<button type="button" onclick="displayAnswers('none')">Hide all answers</button>
+<button id="showAnswerButton" type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
+<button style="display: none" id="hideAnswerButton" type="button" onclick="displayAnswerButtons('none')">Hide answer buttons</button>
+<button id="showAnswers" type="button" onclick="displayAnswers('block')">Show all answers</button>
+<button style="display: none" id="hideAnswers" type="button" onclick="displayAnswers('none')">Hide all answers</button>
 <br><br>
-### For Printing
-<button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
-<button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+## For Printing
+<button id="showPrint" type="button" onclick="prepareForPrint('block')">Add whitespace</button>
+<button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 

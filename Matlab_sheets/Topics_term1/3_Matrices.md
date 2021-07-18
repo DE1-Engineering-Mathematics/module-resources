@@ -24,4 +24,4 @@
     issymmetric(A,"skew")
     ```
 
-###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco
+###### Dyson School of Design Engineering 2021 - Ivan Revenga Riesco 
