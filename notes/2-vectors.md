@@ -124,7 +124,7 @@ When dealing with moments, imagine a lever, \textbf{a}, connected to the origin,
 <img align="right" src="figs/2.2-cross-product-2.svg" width=""/>
 
 For area calculation, you simply imagine a parallelogram contained by two pairs of the two vectors, all connected up! NB, to help visualise, we show the arrows connected as if adding, but they may have different units, so the sum is *meaningless*.
-
+<br><br>
 Once again, a more general interpretation of the concept is shown through the same simple rearrangement we used for the dot product. The cross product of two unit vectors gives you a new vector in the direction normal to their plane with a length equal to the sine of their angle.
 
 $$\begin{align*}
@@ -134,7 +134,133 @@ $$\begin{align*}
 <br><br>
 
 ### 2.2.3 Triple Scalar Product
+<img align="right" src="figs/2.2-triple-scalar.svg" width=""/>
+The last case is simply a combination of the dot and cross product, typically referred to as the triple scalar product. For the vectors \textbf{a}, \textbf{b} and \textbf{c}, the triple product will give you the volume of the parallelepiped mapped by the three sets of parallel edges made from the three vectors.  Clearly, if \textbf{a}, \textbf{b} and \textbf{c} are not all linearly independent, then the volume will be zero. Notice the order of the dot product doesn't matter, but the cross product does!<br><br>
+
+
+$$\begin{align*}
+(\textbf{a}\times\textbf{b})\bullet\textbf{c}\equiv\textbf{c}\bullet(\textbf{a}\times\textbf{b})\equiv-(\textbf{b}\times\textbf{a})\bullet\textbf{c}\equiv\textbf{a}\bullet(\textbf{b}\times\textbf{c})\equiv(\textbf{c}\times\textbf{a})\bullet\textbf{b}
+\end{align*}$$
+
+<br><br>
 
 ## <a id="vector-equation"></a>2.3 Vector Equation of a Line
+<img align="right" src="figs/2.3-vector-line-1.svg" width=""/>
+If we are going to represent the world with vectors, we're sometimes going to need to define lines or planes that do not pass through the origin. Imagine, for example, that we define the origin as the location of a telescope and want to model the motion of a passing asteroid... hopefully one that doesn't pass through the origin!
+<br><br>
+Consider the line in the adjacent figure that goes through points A and B. We can describe the direction of this vector by noticing that $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$. This allows us to write an expression for the family of vectors which take us to every point on this line
+<br><br>
+
+$$P=\overrightarrow{OA}+\lambda\overrightarrow{AB}\qquad\Rightarrow{\text{alternatively}}\qquad P=\overrightarrow{OB}+\kappa\overrightarrow{AB}$$
+
+<br><br>
+where $\lambda$ and $\kappa$ are just scalar parameters. It's important to realise that these two equations both describe the same black line, and whats more we could have picked any point that touches this line to construct an expression. Notice, however, that for the first formulation, when $\lambda=0$ we're at point A, whereas when $\kappa=0$ we're at point B. Similarly, at $\lambda=1$ we're at point B, but when $\kappa=1$ we're somewhere on the black line to the right of B. To get to A in the second formulation, we'd need $\kappa=-1$. 
+<br><br>
+
+<img align="right" src="figs/2.3-vector-line-2.svg" width=""/>
+If we wish to interpret our line as the sequence of points traced out by an asteroid, then we can call our initial position $\textbf{r}_0$ and our velocity $\textbf{v}$. For a constant velocity model, we can simply add the vector of the starting location, to the product of the velocity vector and the time.<br><br>
+
+$$\begin{equation*}
+	\textbf{r}=\textbf{r}_0+t\textbf{v}
+\end{equation*}$$
+
+<br>
+Now that we have the engineering interpretation, we can use some of the methods that we learned above to solve engineering problems. A radar station is tracking a high speed vehicle. When it's first spotted, it is at position (32, 45) km relative to the station. One minute later, the vehicle is at position (29, 41) km from the station. What's the vehicle's speed?
+<br><br>
+
+<img align="right" src="figs/2.3-vector-line-3.svg" width=""/>
+The vector representing the distance between the two observations is $(29,41)-(32,45)=(-3,-4)$ km, so the magnitude of this vector is the scalar distance travelled, $|(-3,-4)|=\sqrt{(-3)^2+(-4)^2}=5$ km. If this distance took one minute, then the speed of the vehicle must be $5\times 60=300$ km h$^{-1}$. We can now also write a vector expression for the vehicle's location.<br><br>
+
+$$\begin{equation*}
+\textbf{r}(t)=
+\begin{bmatrix}32 \\45\end{bmatrix}
++t
+\begin{bmatrix}-180 \\-240\end{bmatrix}
+\end{equation*}$$
+
+<br><br>
+where the position vector $\textbf{r}$ is measured in kilometres and the time $t$ is a scalar measured in hours. Assuming that the jet maintains a constant velocity, we can also find the minimum expected distance between the vehicle and the station. This will occur when the vehicle's location vector relative to the radar station, $\textbf{r}$, is orthogonal to its velocity vector (see the green and black lines in the figure above). One way to think about this is that the vehicle is at its closest when it's drive has to look out her side window to see the station.
+<br><br>
+We can construct an expression for this using the dot product, which should equal zero when $\theta=90^\circ$.
+<br><br>
+
+$$\begin{align*}
+\textbf{r}_\text{min} \bullet
+\begin{bmatrix}-180 \\-240\end{bmatrix}
+=\begin{bmatrix}32-180t \\45-240t\end{bmatrix}\bullet
+\begin{bmatrix}-180 \\-240\end{bmatrix}&=-5760+32400t-10800+57600t\\ &=-16560+90000t=0
+\end{align*}$$
+
+<br><br>
+So, $16560=90000t$ meaning that the vehicle will be closest to the station at $t=0.184$ hours after its initial sighting<br><br>
+
+$$\begin{align*}
+\textbf{r}=
+\begin{bmatrix}32 \\45\end{bmatrix}
++0.184
+\begin{bmatrix}-180 \\-240\end{bmatrix}=\begin{bmatrix}-1.12 \\0.84\end{bmatrix}\quad\Rightarrow\quad |\textbf{r}_\text{min}|=1.4\ \text{km}
+\end{align*}$$
+
+<br><br>
+
 ### 2.3.1 Equations of planes
+As we saw in our section on the cross product, we can define the orientation of a plane using just **one vector** (the normal vector).
+However, following on from our discussion on basis vectors we can build an alternative description that allows us to access each point on this plane more directly using **two vectors**, as long as this plane passes through the origin.
+Furthermore, as with the equation of a line, if we'd like to describe a plane that doesn't pass through the origin, we are going to need **three vectors** .
+<br><br>
+<img align="right" src="figs/2.3-vector-plane.svg" width=""/>
+Perhaps the simplest way to think of an expression for a plane is by first writing the equation of a line and then adding another term which is just a second line with its own scalar parameter $\mu$ (NB. This is only a plane if $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are not parallel).<br><br><br>
+
+$$\begin{equation*}
+P=\overrightarrow{OA}+\lambda\overrightarrow{AB}+\mu\overrightarrow{AC}
+\end{equation*}$$
+
+<br><br>
+You can think of this as starting at point A and travelling $\lambda$ steps along $\overrightarrow{AB}$ and $\mu$ steps along $\overrightarrow{AC}$.
+<br><br>
+Alternatively, you can think of the equation of a plane (more standard definition) by considering the fact that an arbitrary line on the plane, $\overrightarrow{AB}=(\textbf{b}-\textbf{a})$, must have a dot product of zero with the normal to the plane, **n** , (\ie they must be orthogonal).<br><br>
+
+$$\begin{align*}
+(\textbf{b}-\textbf{a})\bullet\textbf{n}=0 
+\qquad\Rightarrow{\text{rearrange}}\qquad
+\textbf{b}\bullet\textbf{n}=\textbf{a}\bullet\textbf{n}
+\end{align*}$$
+
+<br><br>
+If we assume that the coordinates of $\textbf{a}$ are fixed, but we let $\textbf{b}$ move around the plane to the allowed values of $x$, $y$ and $z$, then we can re write the expression in Cartesian form as<br><br>
+
+$$\begin{equation*}
+	\alpha x +\beta y+\gamma z=p
+\end{equation*}$$
+
+<br><br>
+where $p$ is the dot product of our fixed point, $\textbf{a}$ , and the normal, $\textbf{n}$ .
+<br><br> 
+For example, let's now find the equation of a plane that passes through the points A=(3,2,0), B=(1,3,-1) and C=(0,-2,3).
+<br><br> 
+Clearly, the lines from $\overrightarrow{AB}=(-2,1,-1)$ and $\overrightarrow{AC}=(-3,-4,3)$ must both be parallel to the plane. So, using the cross product, we can calculate a normal vector to the plane<br><br> 
+
+$$\begin{align*}
+	\textbf{n}
+	&=\overrightarrow{AB}\times\overrightarrow{AC}=(-2,1,-1)\times(-3,-4,3)\\
+	&=\text{det}\left(\begin{bmatrix}
+		\hat{i} & -2 & -3\\
+		\hat{j} & 1 & -4\\
+		\hat{k} & -1 & 3
+	\end{bmatrix}\right)=(3-4)\hat{i}+(3+6)\hat{j}{+(8+3)\hat{k}=(-1,9,11)}
+\end{align*}$$
+
+<br><br> 
+So, our plane equation can now be written in the $\textbf{b}\bullet\textbf{n}=\textbf{a}\bullet\textbf{n}$ form.<br><br> 
+
+$$\begin{align*}
+	\textbf{b}\bullet(-1,9,11)=(3,2,0)\bullet(-1,9,11)=-3+18+0=15
+\end{align*}$$
+
+<br><br> 
+Therefore, $(x,y,z)\bullet(-1,9,11)=15$, which can be written $-x+9y+11z=15$
+<br><br> 
+You can check that this is correct by substituting the original points and making sure that they all satisfy the equation.
+<br><br> 
+This is about as far as our discussion of vectors can go without introducing matrices (I already sneaked the determinant in above... if you don't know what this is then check out the following chapter!).
 
