@@ -282,8 +282,9 @@ We can do this very easily in WolframAlpha
 <br>
 
 $\Rightarrow$ Tell Wolfram what you know, separating the initial conditions with commas.
+<br>
 
-    (1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2
+```(1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2```
 <br>
 
 $\Rightarrow$ Wolfram will <a href="https://www.wolframalpha.com/input/?i=%281e6%29x%27%27%2B%282e6%29x%27%2B%284.2e6%29x%3D0%2C+x%27%27%280%29%3D%284%2F3%29%2C+x%27%280%29%3D-2">solve the ODE</a> for you.
