@@ -634,13 +634,13 @@ $$\begin{align}
 #### Cofactors
 The numbers called 'cofactors' are almost the same as minors, except some have a minus sign in accordance with the following pattern:<br><br>
 
-$$\begin{pmatrix*}
+$$\begin{pmatrix}
 	+ & - & + & - & \dots \\
 	- & + & - & + & \dots \\
 	+ & - & + & - & \dots \\
 	- & + & - & + & \dots \\
 	\vdots & \vdots & \vdots & \vdots & \ddots
-\end{pmatrix*}$$
+\end{pmatrix}$$
 
 <br><br>
 The best way to remember this is as an 'alternating' pattern of positive and negative signs. Combining the minors from the previous example with this grid we get the cofactors:<br><br>
@@ -1182,6 +1182,223 @@ $$\begin{align}
 and so $x = 2$ and $y = -1$ as required. So, provided we can work out the inverse of the matrix of coefficients, we can solve simultaneous equations. Finding efficient algorithms for inverting matrices is at the heart of computer science!<br><br>
 
 ### 3.6.1 Larger Systems
+The same thing works with 3 equations and $x$, $y$ and $z$. Suppose we have:<br><br>
+
+$$\begin{gather}
+	x + 2y + 2z = -1 \\
+	3y - 2z = 2 \\
+	2x - y + 8z = 7
+\end{gather}$$
+
+<br><br>
+Then, the matrix form is, with a row for each equation and a column for each variable:<br>
+
+$$\begin{pmatrix}
+	1 & 2 & 2 \\
+	0 & 3 & -2 \\
+	2 & -1 & 8
+\end{pmatrix}
+\begin{pmatrix}
+	x \\
+	y \\
+	z
+\end{pmatrix}
+=
+\begin{pmatrix}
+	-1 \\
+	2 \\
+	7
+\end{pmatrix}$$
+
+<br><br>
+Now, we denote the $(3\times 3)$-matrix by $A$ and calculate the inverse of A. The minors are as follows:<br>
+
+$$\begin{align}
+	m_{11} &=
+	\begin{vmatrix}
+		3 & -2 \\
+		-1 & 8
+	\end{vmatrix}
+	= 22
+	&
+	m_{12} &=
+	\begin{vmatrix}
+		0 & -2 \\
+		2 & 8
+	\end{vmatrix}
+	= 4
+	&
+	m_{13} &=
+	\begin{vmatrix}
+		0 & 3 \\
+		2 & -1
+	\end{vmatrix}
+	= -6 \\
+	m_{21} &=
+	\begin{vmatrix}
+		2 & 2\phantom{-} \\
+		-1 & 8\phantom{-}
+	\end{vmatrix}
+	= 18
+	&
+	m_{22} &=
+	\begin{vmatrix}
+		1 & \phantom{-}2 \\
+		2 & \phantom{-}8
+	\end{vmatrix}
+	= 4
+	&
+	m_{23} &=
+	\begin{vmatrix}
+		1 & 2 \\
+		2 & -1
+	\end{vmatrix}
+	= -5 \\
+	m_{31} &=
+	\begin{vmatrix}
+		\phantom{-}2 & 2 \\
+		\phantom{-}3 & -2
+	\end{vmatrix}
+	= -10
+	&
+	m_{32} &=
+	\begin{vmatrix}
+		1 & 2 \\
+		0 & -2
+	\end{vmatrix}
+	= -2
+	&
+	m_{33} &=
+	\begin{vmatrix}
+		1 & 2\phantom{-} \\
+		0 & 3\phantom{-}
+	\end{vmatrix}
+	= 3
+\end{align}$$
+
+<br><br>
+So we get the following matrix of cofactors:<br>
+
+$$\begin{pmatrix}
+	22 & -4 & -6 \\
+	-18 & 4 & 5 \\
+	-10 & 2 & 3
+\end{pmatrix}$$
+
+<br><br>
+We can then calculate the determinant (taking the top row):<br>
+
+$$\det A = (1\times22)+(2\times-4)+(2\times-6) = 22 - 8 -12 = 2$$
+
+<br><br>
+Then calculate the inverse (by taking the transpose and dividing by the determinant):<br>
+
+$$A^{-1} = \frac{1}{2}
+\begin{pmatrix}
+	22 & -18 & -10 \\
+	-4 & 4 & 2 \\
+	-6 & 5 & 3
+\end{pmatrix}
+=
+\begin{pmatrix}
+	11 & -9 & -5 \\
+	-2 & 2 & 1 \\
+	-3 & \frac{5}{2} & \frac{3}{2}
+\end{pmatrix}$$
+
+<br><br>
+Now, we return to solving the simultaneous equations, we can multiply both sides by $A^{-1}$:<br>
+
+$$\begin{align}
+	\begin{pmatrix}
+		1 & 2 & 2 \\
+		0 & 3 & -2 \\
+		2 & -1 & 8
+	\end{pmatrix}
+	\begin{pmatrix}
+		x \\
+		y \\
+		z
+	\end{pmatrix}
+	&=
+	\begin{pmatrix}
+		-1 \\
+		2 \\
+		7
+	\end{pmatrix}
+	\\
+	\\
+	\begin{pmatrix}
+		11 & -9 & -5 \\
+		-2 & 2 & 1 \\
+		-3 & \frac{5}{2} & \frac{3}{2}
+	\end{pmatrix}
+	\begin{pmatrix}
+		1 & 2 & 2 \\
+		0 & 3 & -2 \\
+		2 & -1 & 8
+	\end{pmatrix}
+	\begin{pmatrix}
+		x \\
+		y \\
+		z
+	\end{pmatrix}
+	&=
+	\begin{pmatrix}
+		11 & -9 & -5 \\
+		-2 & 2 & 1 \\
+		-3 & \frac{5}{2} & \frac{3}{2}
+	\end{pmatrix}
+	\begin{pmatrix}
+		-1 \\
+		2 \\
+		7
+	\end{pmatrix}
+\end{align}$$
+
+<br><br>
+Given that $A^{-1}A=I$ and $IA=A$, we can show that:<br>
+
+$$\begin{align}
+	\begin{pmatrix}
+		1 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{pmatrix}
+	\begin{pmatrix}
+		x \\
+		y \\
+		z
+	\end{pmatrix}
+	&=
+	\begin{pmatrix}
+		(11\times-1) + (-9\times2) + (-5\times7) \\
+		(-2\times-1) + (2\times2) + (1\times7) \\
+		(-3\times-1) + (\frac{5}{2}\times2) + \frac{3}{2}\times7
+	\end{pmatrix} \\
+	\begin{pmatrix}
+		x \\
+		y \\
+		z
+	\end{pmatrix}
+	&=
+	\begin{pmatrix}
+		-64 \\
+		13 \\
+		\frac{37}{2}
+	\end{pmatrix}
+\end{align}$$
+
+<br><br>
+Checking this with the original equations we can see that:<br>
+
+$$\begin{align}
+	x + 2y + 2z &= -64+2(13)+2(\frac{37}{2})=-64+26+37 &=-1 \\
+	3y-2z &= 3(13)-2(\frac{37}{2})=39-37 &=2 \\
+	2x - y + 8z &= 2(-64)-13+8(\frac{37}{2})=-128-13+148 &= 7
+\end{align}$$
+
+<br><br>
 
 ## <a id="labels"></a>3.7 Labels
 
