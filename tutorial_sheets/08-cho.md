@@ -349,7 +349,9 @@ We have to use a . in the MATLAB code here, because we want it to perform the op
 
 <img src = "./08-cho-media/answer53.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
-This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use "format shortG":
+This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use 
+
+  ```format shortG```
 
 <img src = "./08-cho-media/answer54.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
@@ -359,7 +361,7 @@ We can now see that the first 3 of these times round to 15 seconds, to the neare
 $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$
 <br><br>
 
-*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>.
+*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>).
 
 </div>
 
