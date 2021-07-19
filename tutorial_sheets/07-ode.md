@@ -221,7 +221,14 @@ This is something that WolframAlpha is really good at. From your knowledge of wh
 Just type the equation and initial conditions into the search:
 <br>
 
-    5x''+3x'+10x=0, x(0)=0
+<div markdown = "1">
+
+```matlab:Code
+5x''+3x'+10x=0, x(0)=0
+```
+
+</div>
+
 <br>
 One of its many outputs will be a ready-made graph:<br>
 <img src="07-ode-media/answer3d.png"><br>
@@ -284,7 +291,14 @@ We can do this very easily in WolframAlpha
 $\Rightarrow$ Tell Wolfram what you know, separating the initial conditions with commas.
 <br>
 
-```(1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2```
+<div markdown = "1">
+
+```matlab:Code
+(1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2
+```
+
+</div>
+
 <br>
 
 $\Rightarrow$ Wolfram will <a href="https://www.wolframalpha.com/input/?i=%281e6%29x%27%27%2B%282e6%29x%27%2B%284.2e6%29x%3D0%2C+x%27%27%280%29%3D%284%2F3%29%2C+x%27%280%29%3D-2">solve the ODE</a> for you.
