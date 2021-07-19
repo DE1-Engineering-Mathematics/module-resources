@@ -186,12 +186,12 @@ $\boxed{\ddot{x}_1=-6x_1+3x_2, A=-6, B=3}$
 $\Rightarrow$ The first line of the matrix will come from the above formula:
 <br>
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 -6 & 3 & 0 & 0\\
 ? & ? & ? & ?\\
 ? & ? & ? & ?\\
 ? & ? & ? & ?
-\end{pmatrix}$
+\end{pmatrix}$$
 <br>
 
 The next line can be found by constructing the equation for $\ddot{x}_2$, and so on - remembering either to construct the equations from first principals each time, or to apply the above general equation correctly: if spring or mass $n+1$ or $n-1$ does not exist, use 0 as its value.
@@ -221,7 +221,23 @@ This is a 4-mass system, so we would expect it to have four natural frequencies.
 We can verify this very easily using MATLAB of Wolfram: the number of eigenvalues = the number of natural frequencies.
 <br>
 
-In MATLAB, type `eigs[matrix]`, or in Wolfram just type something like `eigenvalues` followed by the matrix.
+In MATLAB, type 
+<div markdown = "1">
+
+```matlab:Code
+eigs[matrix]
+```
+
+</div>
+or in Wolfram just type something like 
+<div markdown = "1">
+
+```matlab:Code
+eigenvalues (your-matrix-here)
+```
+
+</div>
+
 <br>
 
 
@@ -237,7 +253,13 @@ MATLAB:
 <div class="answer">
 Again using MATLAB, we can find the eigenvectors & eigenvalues of the system:
 
-    [vectors, values] = eigs(Matrix)
+<div markdown = "1">
+
+```matlab:Code
+[vectors, values] = eigs(Matrix)
+```
+
+</div>
 
 <img src = "./08-cho-media/answer2d1.png" width="50%" style = "margin: 10px auto 20px; display: block;">
 
@@ -304,14 +326,14 @@ Note: This will be a problem if the time period between pylons ($=15s$) = the ti
 <div class="answer">
 
 The wording of this question makes it seem very complex, but all it is asking you to do is decide whether any of the natural time periods ($\frac{1}{\text{natural frequency}}$) is 15 seconds, to the nearest integer.
-<br>
+<br><br>
 
-To solve this, we will:
+To solve this, we will:<br>
 - Find the eigenvalues of the system<br>
 - Convert these to omega values<br>
 - Convert these to the natural time periods<br>
 - Check to see if any of the above = 15s.
-<br>
+<br><br>
 
 We can construct a stiffness matrix for the train, as in previous questions. Note that there are no couplings at either end (the train is free to move).
 <br>
@@ -345,21 +367,29 @@ Then the omega values:
 <img src = "./08-cho-media/answer52.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 To find the natural time periods, we use the fact that $\omega=\frac{2\pi}{t}$, so $t=\frac{2\pi}{\omega}$.
-We have to use a `.` in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
+We have to use a . in the MATLAB code here, because we want it to perform the operation on each of the elements of the array, and not on the array as a whole.
 
 <img src = "./08-cho-media/answer53.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
-This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use `format shortG`:
+This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use:
+
+<div markdown = "1">
+
+```matlab:Code
+format shortG
+```
+
+</div>
 
 <img src = "./08-cho-media/answer54.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
 We can now see that the first 3 of these times round to 15 seconds, to the nearest second. This means that the pylons are driving the oscillation of the train at it's natural frequency.
-<br>
+<br><br>
 
 $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will be to cause the train to resonate.}}$
-<br>
+<br><br>
 
-*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>.
+*Incidentally, it was exactly this sort of resonance problem that caused the Tacoma Narrows bridge collapse (<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">video</a>).
 
 </div>
 
@@ -384,17 +414,17 @@ $$\begin{pmatrix}
 First, we have to construct an algebraic stiffness matrix for the system:
 <br>
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 -\frac{k_1+k_2}{m_1} & \frac{k_2}{m_1} & 0\\
 \frac{k_2}{m_2} & -\frac{k_2+k_3}{m_2} & \frac{k_3}{m_2}\\
 0 & \frac{k_3}{m_3} & -\frac{k_3+k_4}{m_3}
-\end{pmatrix}$
+\end{pmatrix}$$
 <br>
 
 Then, we can equate this to the original stiffness matrix:
 <br>
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 -\frac{k_1+k_2}{m_1} & \frac{k_2}{m_1} & 0\\
 \frac{k_2}{m_2} & -\frac{k_2+k_3}{m_2} & \frac{k_3}{m_2}\\
 0 & \frac{k_3}{m_3} & -\frac{k_3+k_4}{m_3}
@@ -402,26 +432,34 @@ $\begin{pmatrix}
 -3 & 2 & 0\\
 1 & -4 & 3\\
 0 & 2 & -6
-\end{pmatrix}$
+\end{pmatrix}$$
 <br>
 
 So, therefore:
 <br>
 
-$
+$$
 \frac{k_1+k_2}{m_1}=3, \quad \frac{k_2}{m_1}=2\\
 \frac{k_2}{m_2}=1, \quad \frac{k_2+k_3}{m_2}=4, \quad \frac{k_3}{m_2}=3\\
 \frac{k_3}{m_3}=2, \quad \frac{k_3+k_4}{m_3}=6
-$
+$$
 <br>
 
 Plugging these equations into Wolfram (<a href="https://www.wolframalpha.com/input/?i=3%3D%28k_1%2Bk_2%29%2Fm_1%2C+2%3Dk_2%2Fm_1%2C+1%3Dk_2%2Fm_2%2C+4%3D%28k_2%2Bk_3%29%2Fm_2%2C+3%3Dk_3%2Fm_2%2C+2%3Dk_3%2Fm_3%2C+6%3D%28k_3%2Bk_4%29%2Fm_3">link</a>) gives us that:
-<br>
+<br><br>
 
 $\Rightarrow \boxed{k_2=2k_1, k_3=6k_1, k_4=12k_1, m_1=k_1, m_2=2k_1, m_3=3k_1 \text{ where } k_1\not=0}$
 <br>
 
-Note that Wolfram can be a bit picky about simultaneous equations and that the above link may sometimes not work. Try typing it in yourself: ```(k_1 + k_2) / m_1 = 3, k_2 / m_1 = 2, etc...```
+Note that Wolfram can be a bit picky about simultaneous equations and that the above link may sometimes not work. Try typing it in yourself: 
+
+<div markdown = "1">
+
+```matlab:Code
+(k_1 + k_2) / m_1 = 3, k_2 / m_1 = 2, etc...
+```
+
+</div>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 

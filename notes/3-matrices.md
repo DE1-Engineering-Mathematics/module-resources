@@ -20,12 +20,12 @@
 # Chapter 3 - Matrices
 ### What is a Matrix?
 
-$$\begin{pmatrix*}
-1 & 3 & 0 \\
--2 & 8 & 2 \\
-4 & 0 & -1 \\
+$$\begin{pmatrix}
+1 & 3 & 0 \newline
+-2 & 8 & 2 \newline
+4 & 0 & -1 \newline
 \frac{1}{2} & 0 & 117
-\end{pmatrix*}$$
+\end{pmatrix}$$
 
 <br>
 

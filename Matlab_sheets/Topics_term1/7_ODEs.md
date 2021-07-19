@@ -1,3 +1,18 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
 # ODEs
 
 **Requires [Symbolic Math Toolbox](https://uk.mathworks.com/products/symbolic.html)**
@@ -46,6 +61,7 @@ $$\frac{d^2y}{dt^2} = cos(2t)- y$$
 with initial conditions
 
 $$ y(0) = 1$$
+
 $$ y'(0) = 0$$
 
 Follows the same pattern as the other one but defining one more condition.
