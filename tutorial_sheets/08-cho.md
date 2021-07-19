@@ -221,7 +221,7 @@ This is a 4-mass system, so we would expect it to have four natural frequencies.
 We can verify this very easily using MATLAB of Wolfram: the number of eigenvalues = the number of natural frequencies.
 <br>
 
-In MATLAB, type <div markdown="1">```eigs[matrix]```</div>, or in Wolfram just type something like <div markdown="1">```eigenvalues```<div> followed by the matrix.
+In MATLAB, type "eigs[matrix]", or in Wolfram just type something like "eigenvalues" followed by the matrix.
 <br>
 
 MATLAB:
@@ -348,7 +348,7 @@ We have to use a . in the MATLAB code here, because we want it to perform the op
 
 <img src = "./08-cho-media/answer53.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
-This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use <div markdown="1">```format shortG```<div>:
+This is frustrating, because it is displaying the array in standard form, in order to be able to display the last one. We need to know the integer values, not in standard form. In order to correct this, we need to use "format shortG":
 
 <img src = "./08-cho-media/answer54.png" width="30%" style = "margin: 10px auto 20px; display: block;">
 
@@ -420,7 +420,7 @@ Plugging these equations into Wolfram (<a href="https://www.wolframalpha.com/inp
 $\Rightarrow \boxed{k_2=2k_1, k_3=6k_1, k_4=12k_1, m_1=k_1, m_2=2k_1, m_3=3k_1 \text{ where } k_1\not=0}$
 <br>
 
-Note that Wolfram can be a bit picky about simultaneous equations and that the above link may sometimes not work. Try typing it in yourself: <div markdown="1">```(k_1 + k_2) / m_1 = 3, k_2 / m_1 = 2, etc...```</div>
+Note that Wolfram can be a bit picky about simultaneous equations and that the above link may sometimes not work. Try typing it in yourself: "(k_1 + k_2) / m_1 = 3, k_2 / m_1 = 2, etc..."
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 

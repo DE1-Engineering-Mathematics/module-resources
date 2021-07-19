@@ -312,6 +312,7 @@ $\Rightarrow$ This means that the barge was lifted by a 63.5cm high wave.
 
 ### WolframAlpha
 You can generate a limitless suppply of these second order homogeneous ODE questions and answers using WolframAlpha including the various graphs. For example, try typing in: 
+
 ```3x”(t)+3x’(t)+4x(t)=0 where x(0)=3, x’(0)=0```,
 
 [Click here for WolframAlpha link](https://www.wolframalpha.com/input/?i=3x%27%27(t)%2B3x%27(t)%2B4x(t)%3D0+where+x(0)%3D3,+x%27(0)%3D0)
