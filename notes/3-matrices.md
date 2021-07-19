@@ -349,7 +349,8 @@ $$A =
 	a_{n-1,1} & a_{n-1,2} & a_{n-1,3} & \dots & a_{n-1,m-1} & a_{n-1,m} \\
 	a_{n,1} & a_{n,2} & a_{n,3} & \dots & a_{n,m-1} & a_{n,m}
 \end{pmatrix}$$
-<br>
+
+<br><br>
 
 $$A^{t} =
 \begin{pmatrix}
@@ -557,14 +558,15 @@ $$m_{21} =
 **Example** - The minors of the matrix $A$:<br><br>
 
 $$A =
-\begin{pmatrix*}
+\begin{pmatrix}
 	2 & 1 & -1 \\
 	0 & 4 & 3 \\
 	-5 & 0 & -2
-\end{pmatrix*}$$
+\end{pmatrix}$$
+
 <br><br>
 
-$$\begin{align*}
+$$\begin{align}
 	m_{11} &=
 	\begin{vmatrix*}
 		4 & 3 \\
@@ -625,7 +627,7 @@ $$\begin{align*}
 		\phantom{-}0 & 4\phantom{-}
 	\end{vmatrix*}
 	= 8
-\end{align*}$$
+\end{align}$$
 
 <br><br>
 
