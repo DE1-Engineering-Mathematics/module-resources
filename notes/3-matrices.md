@@ -1051,6 +1051,7 @@ $$\begin{pmatrix}
 	3 \\
 	7
 \end{pmatrix}$$
+
 <br><br>
 Now we can check that the first matrix is equal to the product:
 <br>
@@ -1401,5 +1402,7 @@ $$\begin{align}
 <br><br>
 
 ## <a id="labels"></a>3.7 Labels
+The **trace** of a square matrix is the sum of the terms along its leading diagonal. The trace of a matrix is the same as the trace of it's transpose. 
+
 
 ## Conclusions
