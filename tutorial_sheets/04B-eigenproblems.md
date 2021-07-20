@@ -23,12 +23,19 @@
 * Eigenvector: a vector which when operated on by a given operator gives a scalar multiple of itself. 
 * Eigenvalue: any number such that a given matrix minus that number times the identity matrix has zero determinant.
 
-### Additional Resources
-* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-* [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
-* [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) : The same playlist as mentioned last week.
+
+## Software 
+
+* [Eigen-calculator and Visualisation](https://www.desmos.com/calculator/jtkvh3e74t) : Shows the eigs on a graph and calculates them for you - get an idea of where things move!
+* [Matlab Documentation](https://uk.mathworks.com/help/releases/R2018a/matlab/ref/eig.html?s_tid=doc_ta#btgapg5-1-algorithm) : Information on eigenvectors and values on Matlab. Getting familiar with matlab will be a great advantage.
+
+<br><br>
 
 # Problem sheet
 ## Essential Questions
@@ -540,6 +547,16 @@ $\Rightarrow{}\quad l': \boxed{y=x+2}$
 ### For Printing
 <button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+<br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 489-508, 509-518
+* [A-Level Exam Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FFP3%2FTopic-Qs%2FEdexcel-Set-2%2FCh.6%2520Further%2520Matrix%2520Algebra.pdf) : Matricies and other integrated vector/transform questions - need to look to the past markschemes for answers
+* [Matrices Practice](https://www.madasmaths.com/archive/maths_booklets/further_topics/linear_algebra/matrices_exam_questions_part_b.pdf) : Many practice questions, starting off with eigs but goes on to involve all previous topics.
 
 <br><br>
 
