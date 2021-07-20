@@ -58,6 +58,13 @@
 * __[5.4 - Finding All Eigenvectors](5-Eigenproblems#finding-all-vectors)__
 * __[5.5 - Interpretation Of Eigensolutions](5-Eigenproblems#interpretation-of-solutions)__
 
+### Chapter 5 - [Sequences and Series](6-sequences-and-series)
+* __[6.1 - Sequences](6-sequences-and-series#sequences)__
+* __[6.2 - Series](6-sequences-and-series#series)__
+* __[6.3 - Limits and Convergence](6-sequences-and-series#limits)__
+* __[6.4 - Truncated sum of 1, $n$, $n^2$ and $n^3$](6-sequences-and-series#truncated-sums)__
+* __[6.5 - Mind Blown](6-sequences-and-series#seq-ser-mind-blown)__
+
 <br>
 
 ## About the Course
