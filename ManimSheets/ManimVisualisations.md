@@ -10,7 +10,7 @@ This offers some key advantages. Programming logic such as loops are available t
 ### Installation
 There are two versions of Manim: [3Blue1Brown's personal version](https://github.com/3b1b/manim), and a [community edition](https://github.com/ManimCommunity/manim). Using the latter is preferred as it is more stable and better documented. 
 
-As a prerequisite, Python should already be set up in Computing 1. The installation instructions are relatively straight forward, and can be found [here](https://docs.manim.community/en/stable/installation.html) for your relevant platform. 
+As a prerequisite, Python should already be set up in Computing 1. The installation instructions are relatively straight forward, and can be found [here](https://docs.manim.community/en/stable/installation.html) for your relevant platform. The scripts were created in and are compatible with Manim Community v0.8.0.
 
 ### Usage
 If using one of the prebuilt visualisation scripts, copy the text into VS Code or your preferred text editor, and save the file as per the comment at the top e.g. `vectors.py`. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
@@ -29,7 +29,6 @@ manim -pqh vectors.py DotProduct
 ```
 
 And this will open:
-
 <video width="720" height="480" controls>
   <source src="gettingStarted\media\DotProduct.mp4" type="video/mp4">
 </video>
