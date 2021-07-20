@@ -23,10 +23,21 @@
 * Use total differentials.
 * Use vector calculus to find divergence, gradient, Laplacian and curl of vector functions.
 
-### Additional resources
-* [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+
+* [Calculus Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) : Bringing back this playlist - see if it makes you have an even greater perspective!
+
+## Software 
+
+* [3D Graph Plotter](https://c3d.libretexts.org/CalcPlot3D/index.html) : Plot 3d graphs, add vectors, points etc
+
+<br><br>
+
+
 
 # Problem sheet
 ## Essential Questions
@@ -561,5 +572,17 @@ $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 
 <br><br>
+
+
+The questions included are optional, but here if you want some extra practice.
+
+# Revision Questions 
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 731-767
+* [Partial Differentiation Questions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/partial_differentiation_applications.pdf) : Look at 'stationary points', for a bit more fun onto 'constrained optimisation'.
+* [Practice Problems](https://tutorial.math.lamar.edu/problems/calciii/calciii.aspx) : Lots and lots of questions in various contexts - try 'applications of partial derivatives', they're really good!
+
+<br><br>
+
 
 # Next week, Partial Differential Equations!
