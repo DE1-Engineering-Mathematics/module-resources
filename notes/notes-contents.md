@@ -51,12 +51,12 @@
 * __[4.4 - Three Dimensions](4-linear-transformations#three-dimensions)__
 * __[4.5 - Determinant and Inverse](4-linear-transformations#determinant-and-inverse)__
 
-### Chapter 5 - [Eigenproblems](5-eigenproblems)
-* __[5.1 - Definitions](5-eigenproblems#definitions)__
-* __[5.2 - Calculating Eigensolutions](5-eigenproblems#calculating-eigensolutions)__
-* __[5.3 - Finding All Eigenvalues](5-eigenproblems#finding-all-values)__
-* __[5.4 - Finding All Eigenvectors](5-eigenproblems#finding-all-vectors)__
-* __[5.5 - Interpretation Of Eigensolutions](5-eigenproblems#interpretation-of-solutions)__
+### Chapter 5 - [Eigenproblems](5-Eigenproblems)
+* __[5.1 - Definitions](5-Eigenproblems#definitions)__
+* __[5.2 - Calculating Eigensolutions](5-Eigenproblems#calculating-eigensolutions)__
+* __[5.3 - Finding All Eigenvalues](5-Eigenproblems#finding-all-values)__
+* __[5.4 - Finding All Eigenvectors](5-Eigenproblems#finding-all-vectors)__
+* __[5.5 - Interpretation Of Eigensolutions](5-Eigenproblems#interpretation-of-solutions)__
 
 <br>
 
