@@ -1402,7 +1402,86 @@ $$\begin{align}
 <br><br>
 
 ## <a id="labels"></a>3.7 Labels
-The **trace** of a square matrix is the sum of the terms along its leading diagonal. The trace of a matrix is the same as the trace of it's transpose. 
+The **trace** of a square matrix is the sum of the terms along its leading diagonal. The trace of a matrix is the same as the trace of it's transpose.<br><br>
 
+$$\text{tr}(A) =
+\text{tr}\begin{pmatrix}
+2 & 1 & -1 \\
+0 & 4 & 3 \\
+-5 & 0 & -3
+\end{pmatrix}=2+4-3=3$$
+
+<br><br>
+Matrices are often labelled in terms of the distributions of the elements as this can be convenient for giving you an idea of how to deal with it.
+<br><br>
+
+A **symmetric** matrix is a square matrix that is equal to its transpose; that is, it satisfies the condition $A=A^T$.<br><br>
+
+$$\begin{pmatrix}
+2 & 1 & -5 \\
+1 & 4 & 0 \\
+-5 & 0 & -3
+\end{pmatrix}$$
+
+<br><br>
+
+A **skew-symmetric** (or anti-symmetric) matrix is a square matrix whose transpose equals its negative; that is, it satisfies the condition $A^T=-A$.<br><br>
+
+$$\begin{pmatrix}
+0 & 2 & -1 \\
+-2 & 0 & -4 \\
+1 & 4 & 0
+\end{pmatrix}$$
+
+<br><br>
+
+An **orthogonal** matrix has the identity $A^TA=AA^T=I$, which can be re-expressed as $A^T=A^{-1}$.<br><br>
+
+$$\frac{1}{3}
+\begin{pmatrix}
+2 & -2 & 1 \\
+1 & 2 & 2 \\
+2 & 1 & -2
+\end{pmatrix}$$
+
+<br><br>
+
+A **triangular** matrix is a square matrix that is either lower triangular or upper triangular. In a lower triangular matrix, all the entries above the main diagonal are zero. In a upper triangular matrix, all the entries below the main diagonal are zero.<br><br>
+
+$$LT=\begin{pmatrix}
+0 & 0 & 0 \\
+-2 & 0 & 0 \\
+1 & 4 & 0
+\end{pmatrix}
+\qquad\&\qquad
+UT=\begin{pmatrix}
+0 & 5 & 9 \\
+0 & 0 & -1 \\
+0 & 0 & 0
+\end{pmatrix}$$
+
+<br><br>
+
+A **diagonal** matrix is a square matrix that is both upper and lower triangular; that is all entries outside the main diagonal are zero.<br><br>
+
+$$\begin{pmatrix}
+4 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 9
+\end{pmatrix}$$
+
+<br><br>
+
+A **singular** matrix is a square matrix that is not invertible. A square matrix is singular if and only if its determinant is 0.<br><br>
+
+$$\det\begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+3 & 2 & 1
+\end{pmatrix}=5+36+24-12-8-45=0$$
+
+<br><br>
 
 ## Conclusions
+This is the longest chapter in the DE1-MEM course, but in many ways I hope you can agree that it's the most straightforward as it's just about a set of tools and conventions used for manipulating matrices. Handy phrases like ``rows times cols'' will help you remember whether a multiplication operation is defined, but please rest assured that in the exam (and in your career!) you will never be asked to simply invert monstrous $5\times 5$ matrices by hand, as this would only test your calculator skills.
+<br><br><br><br>
