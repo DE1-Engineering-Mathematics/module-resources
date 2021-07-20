@@ -7,6 +7,7 @@
 * __[Matlab](./Matlab_sheets/MatlabCheatsheet.md)__
 * __[Python](./PythonSheets/PythonCheatsheet.md)__
 * __[WolframAlpha](./Wolfram_sheets/WolframCheatsheet.md)__
+* __[Manim](./ManimSheets/ManimVisualisations.md)__
 
 
 # Tutorial sheets

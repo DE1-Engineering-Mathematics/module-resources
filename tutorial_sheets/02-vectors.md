@@ -85,6 +85,14 @@ and
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 
+#### Scalar Product Visualisation
+To help with intuition when answering these questions, here is a visual proof that the dot product is the length of the projection of one vector (can be thought as the component of the vector in the direction of the other vector), multiplied by the length of the other vector
+
+<video width="720" height="480" controls>
+  <source src="02-vectors-media\DotProduct.mp4" type="video/mp4">
+</video>
+
+This animation was created with Manim, and you can play around with it here! 
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
@@ -137,10 +145,6 @@ $$\vec{a}\times\vec{b}=
 \end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
 Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
-
-<video width="320" height="240" controls>
-  <source src="02-vectors-media\DotProduct.mp4" type="video/mp4">
-</video>
 
 -----------------------------------------------------------------------------------
 
