@@ -23,11 +23,20 @@
 * use matrices to find the solutions to linear equations
 * Identify unit, symmetric, skew-symmetric, triangular, diagonal, singular and orthogonal matrices
 
-### Additional Resources
-* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-* [MathWorks - Matrices and Arrays](https://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html)
 
-<br><br><br><br>
+<br><br>
+
+# Additional Resources
+
+## Tutorials
+* [Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) : The same playlist as mentioned last week.
+
+## Software 
+
+* [Matlab Documentation](https://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html) : Getting familiar with matlab will be a great advantage - here is some documentation on what you can do with matrices and arrays.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -836,5 +845,15 @@ Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \text
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 489-508, 515-517
+* [Matrix Introduction](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/sketching_in_3_dimensions.pdf) : The latter questions start to push on to the next couple of topics but the start keeps it quite basic.
+
+<br><br>
+
 
 # Next week, another Linear Transforms and Eigenproblems!
