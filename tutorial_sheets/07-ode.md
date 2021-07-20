@@ -21,10 +21,20 @@
 * Find the general equation and particular equation for a given differential equation
 * Write an expression to describe the dynamics of a spring trolley system
 
-### Additional Resources
-* [Khan Academy - ODEs intro](https://youtu.be/6o7b9yyhH7k)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Khan Academy](https://www.youtube.com/watch?v=6o7b9yyhH7k) : Understand how it works, not just how to do it by rote.
+* It might be good to come back to this topic after studying PDEs (topic 12) - there are many overlaps that link up.
+
+## Software 
+
+* [ODE Calculator](https://calculator-online.org/differentialequation?y=y&x=x&solve_1=y%27%27%20%2B%20y%20%3D%200&cauchy_conditions=&x0=&y0=&x1=&y1=&x2=&y2=&x3=&y3=&x4=&y4=&a0=a0&b0=b0) : Shows the step-by-step working of a question. Don't rely on this though!
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -330,5 +340,15 @@ You can generate a limitless suppply of these second order homogeneous ODE quest
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 1005-1012, 1024-1026, but do the whole chapter if you're interested!
+* [Extension Questions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/odes_systematic_2.pdf) : More difficult and further than what is taught in this topic, using multiple orders of differentials. Would be good after doing partial differential equations,  it can be done before.
+<br><br>
+
 
 # Next week, Coupled Harmonic Oscillators!
