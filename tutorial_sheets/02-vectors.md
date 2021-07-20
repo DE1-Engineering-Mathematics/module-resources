@@ -138,6 +138,10 @@ $$\vec{a}\times\vec{b}=
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
 Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 
+<video width="320" height="240" controls>
+  <source src="02-vectors-media\DotProduct.mp4" type="video/mp4">
+</video>
+
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
