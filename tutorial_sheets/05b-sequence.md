@@ -23,11 +23,13 @@
 * Identify the limiting values of sequence 
 * Determine when/whether a series is (absolutely) convergent
 
-### Additional Resources
-* [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
-* [SJC - Power Series](https://youtu.be/Y2Yfq-IR9iQ)
+# Additional Resources
 
-<br><br><br><br>
+## Tutorials
+* [Sequences and Series](https://www.youtube.com/watch?v=kUbzTJ1UDy4) : Extra video by Sam recapping sequences and series from the lecture.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -629,5 +631,17 @@ $\Rightarrow\boxed{46}$
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 605-610, 626-662
+* [Series Questions](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/series_summation_practice.pdf) : Nice algebra with some 'finding the constants', the enrichment questions are fun to try!
+* [More Series Questions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/series_exam_questions.pdf) : Involves convergence and divergence, nice questions using algebra, proofs, sums, good for understanding.
+* [3D Curve Sketching](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/limits.pdf) : Evaluation of limits, convergence - you may be able to use Wolfram to solve questions that are tagged with other methods. You can ignore integration ones, though Sam could throw anything...
+
+<br><br>
+
 
 # Next week, Taylor Series and Complex Numbers!
