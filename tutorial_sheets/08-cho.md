@@ -20,11 +20,20 @@
 * Rewrite equations of motion in matrix form
 * Find eigenvalues to solve for mode shapes
 
-### Additional Resources
-* [AFP - Interactive coupled oscillators](https://fourier.space/assets/coupled.oscillator/index.html)
-* [Introduction to Eigenfrequency Analysis](https://uk.comsol.com/multiphysics/eigenfrequency-analysis)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [CHO Notes](https://scholar.harvard.edu/files/schwartz/files/lecture3-coupled-oscillators.pdf) : Essentially the lecture notes, but rephrased.
+* [Walkthrough](https://uk.comsol.com/multiphysics/eigenfrequency-analysis) : Step-by-step tutorial that may push your thinking a bit.
+
+## Software 
+
+* [Freddie's Widget](https://fourier.space/assets/coupled.oscillator/index.html) : A widget written by Freddie that shows the progression of oscillators!
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
