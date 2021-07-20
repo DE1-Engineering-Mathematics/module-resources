@@ -20,10 +20,16 @@
  * Understand how partial differentials work on vector fields
  * Use separation of variables solution to solve a PDE
 
-### Additional resources
-* [PDE intro video](https://youtu.be/PTvvoVLzVCE)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Step-by-step Question](https://www.varsitytutors.com/partial_differential_equations-help/separation-of-variables) : Takes you through an example step by step the way we learn it - this question alone made me understand PDEs.
+* [Alternate PDE Method](https://www.youtube.com/watch?v=PTvvoVLzVCE) : This may not make much sense until you have your head around it - A slightly different method compared to what we're taught but the beauty is they all work!
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -430,5 +436,19 @@ $$
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Lboro Questions](https://learn.lboro.ac.uk/archive/olmp/olmp_resources/pages/workbooks_1_50_jan2008/Workbook25/25_3_solutn_using_sepratn_variabls.pdf) : Not exactly the same as our method but very close - you should be able to work though these and get to either the final answer or the 'step before' the answer.
+* [Tutorial/Questions](https://tutorial.math.lamar.edu/Classes/DE/SeparationofVariables.aspx) : Sort of a tutorial as well, walks you through the steps but also provides examples along the way that 'build up'. Look particularly at sections 9-4 to 8, again might not be exactly the same at every step but it's easy to figure which stages are relevant.
+* [Other Questions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/partial_differentiation_introduction.pdf) : Gives them in a different context, not necessarily focused on our method.
+* [More Other Questions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/pdes_the_heat_equation.pdf) : Many use different methods, but try to get the separation of variables down. If you wanted, try go onto linking the summation.
+* [Laplace PDEs](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/pdes_the_laplace_equation.pdf) : Good context questions, though the end form may not be what we were taught.
+
+<br><br>
+
 
 # Next week, Finite Methods!
