@@ -18,28 +18,26 @@
 
 ### Learning Targets
 
-1. Use the method of partial fractions
-1. Find the derivative of functions with the product, chain and sum rules
-1. Find the integral of functions using the power rule, sum rule and integration by parts
-1. Simplify logarithms
-1. Identify key points in a function (roots, asymptotes, stationary points, inflection points, domain, range)
-1. Sketch a graph of a given function
+* Use the method of partial fractions
+* Find the derivative of functions with the product, chain and sum rules
+* Find the integral of functions using the power rule, sum rule and integration by parts
+* Simplify logarithms
+* Identify key points in a function (roots, asymptotes, stationary points, inflection points, domain, range)
+* Sketch a graph of a given function
 
-<!-- ### Reading
-* [Intro](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=7)
-* [Chapter 0 - Refersher](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=10)
-* [Chapter 1 - Functions](https://legoyoda112.github.io/DE-MEM-Resources/files/DE1-MEM_notes_2019.pdf#page=18)
+<br><br>
 
-### Lectures
-* Welcome (monday) *(populate with recording link?)*
-* Function sketching (tuesday) * -->
+# Additional Resources
 
-### Additional Resources
-* [SJC - Curve Sketching](https://youtu.be/EFxv2r9gwtc)
-* [3Blue1Brown - Calculus Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
-* [WA - Sketch Any Function](https://www.wolframalpha.com/input/?i=(x%5E2%2B3x-7)%2F(x-9))
+## Tutorials
+* [Curve Sketching](https://youtu.be/EFxv2r9gwtc) : Extra video by Sam recapping curve sketching from the lecture.
+* [Calculus Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) : Series with some great animations for developing intuition - visualisation and understanding is key  to success in this module!
 
-<br><br><br><br>
+## Software 
+
+* [WolframAlpha](https://www.wolframalpha.com/input/?i=(x%5E2%2B3x-7)%2F(x-9)) : Use this to plot any function - you will become very familiar with this over the module.
+
+<br><br>
 
 
 # Problem sheet
@@ -362,6 +360,15 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 ### For Printing
 <button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+<br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 63-100, 315-343, 353-381, 688-707, 727-728
+* [3D Curve Sketching](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/sketching_in_3_dimensions.pdf) : More of an extension, but with WolframAlpha, Sam could throw anything...
 
 <br><br>
 
