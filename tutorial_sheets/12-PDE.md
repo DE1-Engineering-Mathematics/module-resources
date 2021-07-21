@@ -13,7 +13,7 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Partial Differential Equations Tutorial Sheet, # 12
+# Partial Differential Equations Tutorial Sheet, #12
 
 ### Learning Targets
  * Evaluate and manipulate Partial Differentials

@@ -15,7 +15,7 @@
 <script type="text/javascript" src="tutorialSheetGraphs.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Fourier series, Tutorial sheet 10
+# Fourier series, Tutorial sheet #10
 
 <br><br>
 
