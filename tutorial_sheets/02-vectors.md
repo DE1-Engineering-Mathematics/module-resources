@@ -49,22 +49,26 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 
 (a) $\vec{a}+\vec{b}$
 <div class = "answer">$\Rightarrow \quad \boxed{\vec{a}+\vec{b}=(1,3,3)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $2\vec{a}-\vec{b}$
 <div class = "answer">$2\vec{a}-\vec{b}=((2\times2+1),\space (2\times1-2),\space (2\times0-3)) = \boxed{ (5,0,-3)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\vec{a}\circ\vec{b}\circ \vec{c}$
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $\| \vec{c} \|$
 <div class = "answer">$\| c \| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) Find the unit vector in direction of $\vec{c}$.
 <div class = "answer">$\boxed{\hat{c} = \frac{\vec{c}}{|c|} = \left(\frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right)}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
 <div class = "answer">$V=|\vec{a}\cdot(\vec{b}\times\vec{c})|=|(2,1,0)\cdot(-4,4,-4)|=|-4|=\boxed{4 \text{ volume units}}$</div>
-
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
@@ -74,13 +78,16 @@ Scalar product calculation.
 (a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \| \vec{a} \| = \| \vec{b} \|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
 
 <div class = "answer">We have $$|\vec{a}|=\sqrt{1^2+2^2}=\sqrt{5}$$ and $$|\vec{b}|=\sqrt{2^2+1^2}=\sqrt{5}$$ So, $$\boxed{|\vec{a}|=|\vec{b}|.}$$ But, the two vectors are <b>not equal</b> since their corresponding components are distinct.</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find the vector from point $P(2, 3, 0)$ to $Q(-1, -2, -4)$:
 <div class = "answer">Since the vector is to be directed from P to Q, clearly P is the initial point and Q is the terminal point. So, the required vector joining P and Q is the vector $\vec{PQ}$ given by 
 $$\vec{PQ} = (-1-2)\hat{i}+(-2-3)\hat{j}+(-4-0)\hat{k}$$ $$\boxed{\vec{PQ} = -3\hat{i}-5\hat{j}-4\hat{k}.}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find the angle $\theta$ between the vectors $\vec{a} = \hat{i}+\hat{j}-\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$ :
 <div class = "answer">The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by $$\cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$$ $$\vec{a}\cdot\vec{b} = (\hat{i}+\hat{j}-\hat{k})\cdot (\hat{i}-\hat{j}+\hat{k})=-1$$ $$|\vec{a}||\vec{b}|=\sqrt{1^2+1^2+(-1)^2}\sqrt{1^2+(-1)^2+1^2}=\sqrt{3}\times\sqrt{3}=3$$ Therefore, we have $$\cos\mathrm{\theta} = -\frac{1}{3}$$ Hence,the required angle is $$\boxed{ \theta =\cos^{-1}\left(-\frac{1}{3}\right) = 109.5^{\circ} .}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) If $\vec{a} = 5\hat{i}-\hat{j}-3\hat{k}$ and $\vec{b} = \hat{i}+3\hat{j}-5\hat{k}$,  then show that the vectors $\vec{a}+\vec{b}$ and $\vec{a}-\vec{b}$ are perpendicular.
 <div class = "answer">Two non-zero vectors are perpendicular if their scalar product is zero. 
@@ -88,6 +95,7 @@ $$\vec{a}+\vec{b} = (5\hat{i}-\hat{j}-3\hat{k})+(\hat{i}+3\hat{j}-5\hat{k})=6\ha
 $$\vec{a}-\vec{b} =(5\hat{i}-\hat{j}-3\hat{k})-(\hat{i}+3\hat{j}-5\hat{k})=4\hat{i}-4\hat{j}+2\hat{k}$$
 Therefore, we have:
 $$\boxed{(\vec{a}-\vec{b})\cdot(\vec{a}+\vec{b}) =(6\hat{i}+2\hat{j}-8\hat{k})\cdot(4\hat{i}-4\hat{j}+2\hat{k})=24-8-16=0}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) Show the points $A(-2\vec{i}+3\vec{j}+5\vec{k})$, $B(\vec{i}+2\vec{j}+3\vec{k})$, and $C(7\vec{i}-\vec{k})$ are collinear (They lie on the same straight line).
 <div class = "answer">We have 
@@ -95,7 +103,6 @@ $$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $
 and 
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
-
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 #### Scalar Product Visualisation
@@ -121,6 +128,7 @@ $$\vec{a}\times\vec{b}=$$ $$\begin{vmatrix}
 Therefore, 
 $$\vec{a}\times\vec{b}= \hat{i}(-2-15)-(-4-9)\hat{j}+(10-3)\hat{k}=-17\hat{i}+13\hat{j}+7\hat{k}$$
 Hence, $$|\vec{a}\times\vec{b}|=\sqrt{(-17)^2+(13)^2+(7)^2}= \boxed{\sqrt{507}.}$$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)  Find the area of a triangle having the points $A(1,1,1)$, $B(1,2,3)$ and $C(2,3,1)$ as its vertices
 <div class = "answer">We have
@@ -134,6 +142,7 @@ $$\frac{1}{2}|\vec{AB}\times\vec{AC}|$$ Now $$\vec{AB}\times\vec{AC}=
 \end{vmatrix}$$
 Therefore $$|\vec{AB}\times\vec{AC}|= \sqrt{16+4+1}=\sqrt{21}$$
 Thus, area of the triangle is  $\boxed{\frac{1}{2}\sqrt{21} \text{ units}^2}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find a unit vector perpendicular to each of the vectors $(\vec{a}+\vec{b})$ and $(\vec{a}-\vec{b})$, where $\vec{a} = \hat{i}+\hat{j}+\hat{k} $, $\vec{b}= \hat{i}+2\hat{j}+3\hat{k}$.
 <div class = "answer">We have $\vec{a}+\vec{b}=2\hat{i}+3\hat{j}+4\hat{k}$ and $\vec{a}-\vec{b}=-1\hat{j}-2\hat{k}$. 
@@ -146,6 +155,7 @@ $$(\vec{a}+\vec{b})\times(\vec{a}-\vec{b})=
 \end{vmatrix}=-2\hat{i}+4\hat{j}-2\hat{k}(=\vec{c}, \text{ say})$$
 Now $$|\vec{c}| = \sqrt{4+16+4}=\sqrt{24}=2\sqrt{6}$$
 Therefore, the required unit vector is $$\boxed{\frac{\vec{c}}{|\vec{c}|} =-\frac{1}{\sqrt{6}}\hat{i}+\frac{2}{\sqrt{6}}\hat{j}-\frac{1}{\sqrt{6}}\hat{k}.}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Find the area of a parallelogram which adjacent sides are given by the vectors $\vec{a}= 3\hat{i}+\hat{j}+4\hat{k}$ and $\vec{b}=\hat{i}-\hat{j}+\hat{k}$
 
@@ -174,6 +184,7 @@ $$(4,-1,6)\cdot(x-0,y-1,z+7)=0$$
 Or 
 $$4x-(y-1)+6(z+7)=0$$
 Often, we prefer to write this as $\boxed{4x-y+6z+43=0.}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find the equation for a plane through the points $A=(0,1,-7),B=(3,1,-9), $ and $C=(0,-5,-8)$. 
 <div class = "answer">Let $\vec{AB}=\vec{b}=(3,1,-9)-(0,1,-7)=(3,0,-2)$. Let $\vec{AC}=\vec{c}=(0,-5,-8)-(0,1,7)=(0,-6,-1)$. 
@@ -193,6 +204,7 @@ or
 $$-12x+3y-18z-129=0$$
 $$\boxed{4x-y+6z+43=0}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find the angle $\theta$ between two lines in the x, y-plane, if they are given by following equations: $$3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$$
 <div class = "answer">Normal vector to the lines are, respectively, $\vec{n_1} = 
@@ -201,6 +213,7 @@ Therefore,
 $$\cos\theta=\frac{n_1\cdot n_2}{|n_1|\cdot|n_2|}$$
 $$\cos\theta=\frac{3\cdot2+(-4)\cdot1}{\sqrt{3^2+(-4)^2}\sqrt{2^2+1^2}}= \frac{2}{5\sqrt{5}}$$
 $$\boxed{\theta=\cos^{-1}\left(\frac{2}{5\sqrt{5}}\right)=79.7^\circ}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Let ABC be a triangle in the x, y-plane, with the vertices at the points $A = (2,-1)$, $B=(4,4)$ and $C=(9,7)$. Find the distance from point A normal to line BC:
 <div class = "answer">First, we can begin by drawing a diagram of the points:
@@ -248,6 +261,7 @@ $$\lambda = \frac{-25}{34}$$
 We can use the AD gradient with this value of lambda to find the distance between A and D, d:
 $$d^2 = (-2 - 5\lambda)^2 + (-5 - 3\lambda)^2$$
 $$\boxed{ { d } ={\frac{19}{\sqrt{34}}}}$$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e)  Find the unit vector in the direction of the sum of the vectors, $\vec{a}=2\vec{i}+2\vec{j}-5\vec{k}$ and $\vec{b}=2\vec{i}+\vec{j}+3\vec{k}$.
 <div class = "answer"> The sum of given vector is: $$\vec{a}+\vec{b}(=\vec{c},\text{say})=4\vec{i}+3\vec{j}-2\vec{k}$$
@@ -477,6 +491,8 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 (a) Find the length of the diagonal $AG$
 <div class = "answer">$AG = \sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 (b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place.
 <div class = "answer">
@@ -489,6 +505,8 @@ $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
 $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
 \textbf{r} = 4\textbf{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 (c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
@@ -502,6 +520,8 @@ $\frac{-1.6}{-2.4} = \frac{1.2}{1.8} = \frac{2}{3} $ <br>
 Therefore, 
 $\boxed{AQ : QG  = 2 : 3}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 (d) Find the acute angle between the line $AG$ and the plane $DPF$.
 <div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k})$ is $\theta$ where <br>
@@ -523,6 +543,7 @@ $\begin{pmatrix}
 
 (a) What is the speed of the fish in km/h to 2 decimal places?
 <div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) A deep sea buoy floats on the surface of the water at location $(8,6,0)km$ and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
 The vector $\begin{pmatrix}
@@ -540,6 +561,8 @@ x\\y\\-10
 \end{pmatrix}
 \Rightarrow{\lambda = \frac{-10}{-4}= 2.5}$ <br><br>
 $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix} \right| = \sqrt{2.5^2 + (-2.5)^2 + (-10)^2} = \boxed{10.61 km}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 (c) What is the minimum distance from the buoy to the mahi-mahi fish to 2 decimal places?
 <div class = "answer"> The position of the mahi-mahi fish at any given $t$ is represented by the vector $\vec{s}$. <br>
