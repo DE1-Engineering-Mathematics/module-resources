@@ -57,6 +57,7 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 
 (c) $\vec{a}\circ\vec{b}\circ \vec{c}$
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $\| \vec{c} \|$
