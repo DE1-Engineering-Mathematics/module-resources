@@ -20,8 +20,15 @@
 * To understand the notation used in finite differences
 * To be able to understand systems of equations and link them to graphs of Temperature vs. Position.
 
-### Additional Resources
-* 
+<br><br>
+
+# Additional Resources
+
+## Tutorials
+* [Applications in PDEs](https://learn.lboro.ac.uk/archive/olmp/olmp_resources/pages/workbooks_1_50_jan2008/Workbook25/25_2_applications_of_pdes.pdf) : Parts 1-3 give ideas of context that may be used
+
+<br><br>
+
 
 
 # Problem sheet
@@ -403,5 +410,14 @@ From here we can use the update equation to iterate,
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Advanced Engineering Mathematics 5th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/fulldisplay?docid=alma9956105299701591&context=L&vid=44IMP_INST:ICL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=all&query=any,contains,Engineering%20Mathmematics%20Stroud&offset=0) : Pages 594-596 (598-605 if you're really into the grids!)
+
+<br><br>
+
 
 # Next week, Root Finding!

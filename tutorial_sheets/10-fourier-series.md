@@ -17,14 +17,21 @@
 
 # Fourier series, Tutorial sheet 10
 
-### Additional resources
-* [SJC - Fourier Series](https://youtu.be/rbRwhrNQnH0)
-* [An Interactive Introduction to Fourier Transforms - Jez Swanson](http://www.jezzamon.com/fourier/index.html)
-* [But what is the Fourier Transform? A visual introduction.](https://youtu.be/spUNpyF58BY)
-* [What is up with Noises? (The Science and Mathematics of Sound, Frequency, and Pitch) - Vihart](https://youtu.be/i_0DXxNeaQ0)
-* [JPEG 'files' & Colour (JPEG Pt1) - Computerphile](https://youtu.be/n_uNPbdenRs)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [A Visual Fourier Introduction](https://www.youtube.com/watch?v=spUNpyF58BY) : 3b1b, visual introduction that helps a lot with understanding 'how' it works.
+* [Fourier Series](https://www.youtube.com/watch?v=rbRwhrNQnH0) : Extra video by Sam recapping Fourier series from the lecture.
+* [Fourier and Sound](https://www.youtube.com/watch?v=i_0DXxNeaQ0) : Fourier in context - how the ear picks up and interprets sounds.
+* [Fourier and Images](https://www.youtube.com/watch?v=n_uNPbdenRs) : More context, this time within images, and seeing how this applies to our use.
+
+## Software 
+
+* [Interactive Introduction](https://www.jezzamon.com/fourier/index.html) : Takes you through step by step how it is built up - even draw your own - take a read!
+
+<br><br>
 
 # Problem sheet
 ## Essential Questions
@@ -1061,6 +1068,15 @@ $$
 ## For Printing
 <button id="showPrint" type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+<br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 236-282, 286-288, 292-296
+* [Fourier Expansions](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/fourier_series.pdf) : Lots and lots of expansions, including complex expansions.
 
 <br><br>
 

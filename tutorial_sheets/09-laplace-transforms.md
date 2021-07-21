@@ -16,10 +16,18 @@
 
 # Laplace Transforms Tutorial Sheet, Sheet #9
 
-### Additional resources
- * [Arthur Mattuck, MIT - Laplace Transforms](https://youtu.be/sZ2qulI6GEk)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [MIT Lecture](https://www.youtube.com/watch?v=sZ2qulI6GEk) : Very clear lecture by Arthur Mattuck , including the origin of laplace.
+
+## Software 
+
+* [Visualisations and Code](https://johnflux.com/2019/02/12/laplace-transform-visualized/) : Nice visualisations along with github to code to have a play with.
+
+<br><br>
 
 # Problem sheet
 ## Essential Questions
@@ -326,6 +334,17 @@ You can use the formula sheet to figure out the correct inverse laplace transfor
 ## For Printing
 <button id="showPrint" type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+<br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 1027-1044
+* [Advanced Engineering Mathematics 5th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/fulldisplay?docid=alma9956105299701591&context=L&vid=44IMP_INST:ICL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=all&query=any,contains,Engineering%20Mathmematics%20Stroud&offset=0) : Pages 46-91 (can use 92-154 as extension)
+* [Intro to Laplace](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/laplace_transforms_introduction.pdf) : Deriving from first principles, general transformations, solving simple ODEs with some nice simultaneous laplace questions to try - ignore questions with heavyside and piecewise mentioned. 
+* [Further Laplace](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/laplace_transforms_further.pdf) : Various questions with some nice general derivation and conversion questions. Later questions are more extension. Ignore convolution and inversion by complex variables.
 
 <br><br>
 

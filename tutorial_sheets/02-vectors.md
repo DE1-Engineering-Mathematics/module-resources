@@ -26,11 +26,21 @@
 * Find the cartesian and vector equations for a plane
 * Find the minimum distance between vectors
 
-### Additional Resources
-* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-* [Skew vectors example](https://youtu.be/HC5YikQxwZA)
 
-<br><br><br><br>
+<br><br>
+
+# Additional Resources
+
+## Tutorials
+* [Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) : Vectors and matrices, going on to eigens, very good for intuition. Don't panic if you don't understand all of it, you haven't been taught it all!
+* [Skew Vectors Tutorial](https://www.youtube.com/watch?v=HC5YikQxwZA ) : Skew vectors done step by step - good for understanding.
+
+## Software 
+
+* [Skew Vectors Calculator](https://keisan.casio.com/exec/system/1223531414) : Circumvent any manual calculation by having a computer do it for you - make sure you understand how it works before skipping to the end though!
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -621,5 +631,19 @@ $ r = |\overrightarrow{XC}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \fr
 
 <br><br>
 
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 519-543
+* [Advanced Engineering Mathematics 5th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/fulldisplay?docid=alma9956105299701591&context=L&vid=44IMP_INST:ICL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=all&query=any,contains,Engineering%20Mathmematics%20Stroud&offset=0) : Pages 771-784, 812-817
+* [Vector Questions Part A](https://www.madasmaths.com/archive/maths_booklets/further_topics/linear_algebra/vector_exam_questions_part_a.pdf) [Vector Questions Part B](https://www.madasmaths.com/archive/maths_booklets/further_topics/linear_algebra/vectors_exam_questions_part_b.pdf) : Lots of questions that develop in difficulty.
+* [A-Level Various Exam Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FFP3%2FTopic-Qs%2FOCR%2FFP3%2520Vectors.pdf) : More practice getting technique and understanding. Particularly try 'planes' and 'geometric problems'.
+* [A-Level OCR Exam Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FFP3%2FTopic-Qs%2FOCR%2FFP3%2520Vectors.pdf) : Past A-Level exam questions. You will need to look to the past OCR markschemes for the answers.
+* [A-Level Various Exam Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FFP3%2FTopic-Qs%2FOCR%2FFP3%2520Vectors.pdf) : Scroll and find past A-Level exam questions by various exam boards. 
+
+
+<br><br>
+
+
 # Next week, Matrices!
-<!-- ![vectors](02-vectors-media/cover.png) -->
