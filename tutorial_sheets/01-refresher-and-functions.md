@@ -54,6 +54,8 @@ $\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} -
 </div>
 <div class = "answer">Hello!</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\frac{5(x-7)}{x^2+2x-35}$
 <div class = "answer">$\Rightarrow{}\quad$ factorize the denominator <br>
 $\Rightarrow \quad x^2+2x-35 = (x+7)(x-5)$ <br>
@@ -64,6 +66,8 @@ $\Rightarrow \quad \boxed{A = \frac{35}{6},\quad B=\frac{-5}{6},
 \ \ \frac{5(x-7)}{x^2+2x-35} = \frac{35}{6(x+7)} - \frac{5}{6(x-5)} }$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c) $\frac{x-1}{(3x+2)^2(2x+3)}$
 <div class = "answer">$\Rightarrow{}\quad$ for linear and repeated factors <br>
 $\Rightarrow{}\ \ \frac{x-1}{(3x+2)^2(2x+3)} = \frac{A}{2x+3} + \frac{B}{3x+2} + \frac{C}{(3x+2)^2}$ <br>
@@ -72,6 +76,7 @@ $\Rightarrow{}\quad 9A+6B = 0,\quad 12A +13B +2C = 1,\quad 4A+6B+3C=-1$ <br>
 $\Rightarrow{}\quad A = \frac{-2}{5},\quad B=\frac{3}{5},\quad C=-1$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x-1}{(3x+2)^2(2x+3)} = -\frac{2}{5(2x+3)} + \frac{3}{5(3x+2)} - \frac{1}{(3x+2)^2} }$
 </div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -84,11 +89,13 @@ Obtain the derivative of the function, $f(x)=\frac{x+3}{2-x}$, using the definit
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{(x+\Delta x)^2-(x^2)}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{2 * \Delta x * x}{\Delta x} = \boxed{\frac{2x}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x)= \sin{x}$
 <div class = "answer">
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x}} + \frac{\cos{x}\sin{\Delta x}} - \frac{\sin{x}}{\Delta x} = \boxed{\cos{x}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c)$f(x)=\frac{x+3}{2-x}$
 <div class = "answer">
@@ -96,8 +103,7 @@ $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x}} + \fr
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\frac{(x+\Delta x)+3}{2-(x+\Delta x)} - \frac{(x+3)}{(2-x)}}{\Delta x} = \lim_{\Delta x\to0} \frac{\frac{5\Delta x}{(2-x)(2-x-\Delta x)}}{\Delta x}$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{5}{(2-x)(2-x-\Delta x)}= \boxed{ \frac{5}{(2-x)^2} }$
 </div>
-<div class = "answer">$The exam won't need to do this :)$
-</div>
+
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
@@ -112,6 +118,7 @@ $\Rightarrow{}$ using chain rule $\frac{d}{dx}v(g(x)) = \frac{dv}{dg}\frac{dg}{d
 $\Rightarrow{} \frac{dv}{dx} = 2\exp{(2x)}$ <br>
 $\Rightarrow{} \boxed{\frac{df(x)}{dx} = 3x^2\exp{(2x)} + 2x^3\exp{(2x)} \Rightarrow{} \frac{df(x)}{dx} = x^2\exp{(2x)}(3 + 2x)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x) = \sin{(x^2 + 3x)}$
 <div class = "answer">$\Rightarrow{}$ Using chain rule $\Rightarrow{} \frac{df(x)}{dx}= \cos{(x^2+3x)}\frac{d}{dx}(x^2+3x)$ <br>
@@ -119,6 +126,7 @@ $\Rightarrow{}$ Using sum rule $\Rightarrow{} \frac{d}{dx}(g(x)+h(x)) = \frac{dg
 $\Rightarrow{} \frac{d}{dx}(x^2+3x) = 2x + 3 $ <br>
 $\Rightarrow{} \boxed{\frac{df(x)}{dx} = \cos{(x^2+3x)}(2x + 3)}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x) = \frac{x^2+2}{3x+1}$
 <div class = "answer">$\Rightarrow{}$ Using product, chain and sum rule <br>
@@ -141,6 +149,7 @@ $\Rightarrow{} \int{2x\sin{(x)}}dx = 2x(-\cos{(x)}) - \int{(-cox(x))2}dx$ <br>
 $\Rightarrow{} \int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\int{\cos{(x)}}dx$ <br>
 $\Rightarrow{} \boxed{\int{2x\sin{(x)}}dx = -2x\cos{(x)} + 2\sin{(x)} + c}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x) = x^2 \ln{(4x)}$
 <div class = "answer">$\Rightarrow{} \int{x^2 \ln{(4x)}}dx$ <br>
@@ -151,6 +160,7 @@ $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \int{\frac{x^2}{
 $\Rightarrow{} \int{x^2 \ln{(4x)}}dx = \frac{x^3}{3}\ln{(4x)} - \frac{x^3}{9} + c$ <br>
 $\Rightarrow{} \boxed{\int{x^2 \ln{(4x)}}dx = \frac{x^3}{9}{(3\ln{(4x)} - 1) + c}}$ <br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x) = x^5 e^{x^2}$
 <div class = "answer">$\Rightarrow{} \int{x^5 \exp{(x^2)}}dx$ <br>
@@ -178,11 +188,13 @@ Express the following without logarithms (assume we are working in base 10 unles
 <div class = "answer">$\log{x}=\log{\frac{PQ^2}{K}}-\log{1000\ \ \ }$ <br>
 $\Rightarrow{}\ \ \boxed{=\frac{PQ^2}{1000K}}$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\log{R}=1+\frac{1}{3}\log{M}+3\log{S}$
 <div class = "answer">$\Rightarrow{} \log{R=\log{10+\log{M^{\frac{1}{3}}+\log{S^3\ \ }}}}$ <br>
 $\Rightarrow{}\ \boxed{R=10 \cdot S^3 \cdot \sqrt[3]{M}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\ln{P}=\frac{1}{2}\ln\left(Q+1\right)-3\ln{R}+2$
 <div class = "answer">$\Rightarrow{} \ln{P=\ln{ \left(Q+1\right) }^{\frac{1}{2}}+\ln{e^2-\ln{R^3}}}$ <br>
@@ -197,6 +209,7 @@ Express the following in log form, with no fractions or powers inside the log.
 
 (a) $V=\frac{\pi{}h}{4}\left(D-h\right)\left(D+h\right)$
 <div class = "answer">$\Rightarrow\log{V=\boxed{\log{\pi{}+\log{h+\log{(D-h)}}}+\log{\left(D+h\right)-\log4}}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $P=\frac{1}{16}(2d-1)^2N\sqrt{S}$
 <div class = "answer">$\Rightarrow\log{P}=\boxed{2\log{\left(2d-1\right)}+\log{N}+\frac{1}{2}\log{S}-\log{16}}$</div>
@@ -211,11 +224,13 @@ Solve the following equations using logarithm theorems.
 <div class = "answer">${10}^2=5x-1\ \ \
 \Rightarrow{}\ \ \ \boxed{x=\frac{101}{5}=20.2}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\log_2{(x+1)}-\log_2{(x-4)}=3$
 <div class = "answer">$\log_2{\frac{x+1}{x-4}}=3\ \ \ \Rightarrow{}\ \ \ 2^3=\frac{x+1}{x-4}$
 $\Rightarrow{}\ \ \ x+1=8x-32\ \ \ \Rightarrow{}\ \ \ \boxed{x=\frac{33}{7}=4.71...}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\log_6{(x+4)}+\log_6{(x-2)}=\log_6{(4x)}$ where $x>0$
 <div class = "answer">$\log_6{\left((x+4).(x-2)\right)}=\log_6{4x}\ \ \Rightarrow{}\ \left(x+4\right)\left(x-2\right)=4x$ <br>
@@ -234,18 +249,21 @@ Determine the domain and range of the functions defined below.
 \text{Domain of } f\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$ <br>
 $\Rightarrow{} \boxed{ \text{Range of f }\left(x\right)\Rightarrow{}[0,1].}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x)={-x}^2+5x-6$
 <div class = "answer">$\Rightarrow{}\boxed{\text{Domain of f}\left(x\right)\ \Rightarrow{}\ \ (-\infty{},\infty{})}$ <br>
 $\Rightarrow{}\boxed{\text{Range of } f(x) \Rightarrow{} \text{, function has one maximum.}
 \Rightarrow{}\quad y\leq \frac{1}{4}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x)=-x^3+4x^2-4x\ $
 <div class = "answer">$\Rightarrow{}\boxed{\text{
 Domain of f}\left(x\right)\ \Rightarrow{}(-\infty{},\infty{})}$. <br>
 $\Rightarrow{}\boxed{\text{Range of f}\left(x\right)\Rightarrow{}\ \ (-\infty{},\infty{})}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $f\left(x\right)=$exp⁡$(1/x)$
 <div class = "answer">$y=e^{\frac{1}{x}}\ \Rightarrow{}$ at  $x=0$, the function is undefined.
@@ -253,6 +271,7 @@ $\Rightarrow{} \boxed{\text{Domain of } f(x)\ \Rightarrow{}(-\infty{},0)\cup{}(0
 $y=e^{\frac{1}{x}}\ \Rightarrow{}$ at $y=1$, the function is undefined. <br>
 $\Rightarrow{} 0 < y < 1 \text{ & } y>1$ <br>
 $ \Rightarrow{}\ \ \boxed{\text{Range of } f(x)\ \Rightarrow{}\ \ (0,1)\cup{}(1,\infty{})}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) $f\left(x\right)=\frac{1}{e^x+1}$
 <div class = "answer"> $\Rightarrow{} \boxed{\text{Domain of the function} \Rightarrow{}(-\infty{},\infty{})}$. <br>
@@ -269,11 +288,13 @@ Evaluate the following by applying change of base to base 10 (rounded to 1 decim
 <div class = "answer">$\log_{10}2\times{}\log_2{15}=\log_{10}{15}$
 $\Rightarrow{} \boxed{\log_2{15}=\frac{\log_{10}{15}}{\log_{10}2}\approx\frac{1.2}{0.3}=4.00.}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\log_{20}{17}$
 <div class = "answer">$\log_{10}20\times{}\log_{20}{17}=\log_{10}{17}$
 $\Rightarrow{} \boxed{\log_{20}{17}=\frac{\log_{10}{17}}{\log_{10}20}\approx\frac{1.2}{1.3}=0.923}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\log_3{16}$
 <div class = "answer">$\log_{10}3\times{}\log_3{16}=\log_{10}{16}$ 
@@ -288,6 +309,7 @@ A curve has equation $f(x) = \frac{ax^2 - 12}{4x^2 + bx - 6}$, where $a$ and $b$
 (a) Find the coordinates of the point where the curve crosses the $y$-axis
 
 <div class = "answer"> When $x=0, f(x)=\frac{-12}{-6} \\ \Rightarrow{} f(x) = 2,\ \\ \Rightarrow{} \boxed{(0,2)}$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) You are given that the curve has a vertical asymptote at $x=2$. Find the value of $b$ and the equation of the other vertical asymptote.
 
@@ -297,6 +319,7 @@ $\Rightarrow$ Factorise $4x^2 - 5x - 6$ <br>
 $\Rightarrow (4x+3)(x-2)$  <br>
 $\therefore$ The other asymptote occurs when $4x+3=0 \Rightarrow \boxed{x = -\frac{3}{4}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) You are given that the curve crosses the $x$-axis when $x= \pm{\sqrt{6}}$. Find the value of $a$ and the equation of the horizontal asymptote.
 
@@ -308,16 +331,19 @@ $f(x)$ will tend to the highest powers of x <br>
 $\Rightarrow f(x) = \frac{ax^2}{4x^2}$ <br>
 Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Find the set of values for which $y \geqslant 0$.
 
 <div class = "answer">Using the graph you sketched, you can see that $y$ is greater than or equal to zero in the regions where $\boxed{x\leqslant -\sqrt{6}, \space - \frac{3}{4} < x < 2, \space x \geqslant \sqrt{6}}$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) Find the domain (using the set notation)
 
 <div class = "answer">$\boxed{ x \ \epsilon \ \mathbb{R}, x \neq -\frac{3}{4}, x \neq 2}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (f) Sketch the function, indicating the location of the features listed above
 
@@ -333,16 +359,19 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 (a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
 
 <div class = "answer">$\boxed{x = 1 \\ x = -4 \\ y = 3}$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) State, with justification, how the curve approaches the horizontal asymptote for large positive and large negative values of x.
 
 <div class = "answer">$\text{Large positive}\ x, \boxed{y \ \rightarrow{3} \text{ from below}}$ <br>
 $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Sketch the curve
 
 <div class = "answer"><iframe src="https://www.desmos.com/calculator/jdzogmrkh8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0> 
 </iframe></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Solve the inequality $\frac{3x^2 - 9}{x^2 + 3x -4} \geqslant 0. $
 
