@@ -65,6 +65,7 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
 <div class = "answer">$V=|\vec{a}\cdot(\vec{b}\times\vec{c})|=|(2,1,0)\cdot(-4,4,-4)|=|-4|=\boxed{4 \text{ volume units}}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
@@ -94,6 +95,8 @@ $$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $
 and 
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 #### Scalar Product Visualisation
 To help with intuition when answering these questions, here is a visual proof that the dot product is the length of the projection of one vector (can be thought as the component of the vector in the direction of the other vector), multiplied by the length of the other vector
@@ -155,6 +158,8 @@ $$\vec{a}\times\vec{b}=
 \end{vmatrix}=5\hat{i}+\hat{j}-4\hat{k}$$
 Therefore $$|\vec{a}\times\vec{b}|	= \sqrt{25+1+16} = \sqrt{42}$$ 
 Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -251,10 +256,12 @@ $$|\vec{c}|=\sqrt{4^2+3^2+(-2)^2}=\sqrt{29}$$
 Thus, the required unit vector is 
 $$\hat{c}=\frac{1}{|\vec{c}|}\vec{c}=\frac{1}{\sqrt{29}} (4\vec{i}+3\vec{j}-2\vec{k})=\boxed{\frac{4}{\sqrt{29}}\vec{i}+\frac{3}{\sqrt{29}}\vec{j}-\frac{2}{\sqrt{29}}\vec{k}}$$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
-(a) Show that the points $A = (2\hat{i},-\hat{j},\hat{k})$, $B = (\hat{i},-3\hat{j},-5\hat{k})$ and, $C = (3\hat{i},-4\hat{j},-4\hat{k})$ are the vertices of a right angled triangle.
+Show that the points $A = (2\hat{i},-\hat{j},\hat{k})$, $B = (\hat{i},-3\hat{j},-5\hat{k})$ and, $C = (3\hat{i},-4\hat{j},-4\hat{k})$ are the vertices of a right angled triangle.
 <div class = "answer">We have 
 $\vec{AB}=(1-2)\hat{i}+(-3+1)\hat{j}+(-5-1)\hat{k}=-\hat{i}-2\hat{j}-6\hat{k}$
 $$\vec{BC}=(3-1)\hat{i}+(-4+3)\hat{j}+(-4+5)\hat{k}=2\hat{i}-\hat{j}+\hat{k}$$
@@ -263,10 +270,11 @@ Further, note that
 $$|\vec{AB}|^2=41=6+35=|\vec{BC}|^2+|\vec{CA}|^2$$
 Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$, are coplanar, that is, they lie in the same plane.
+Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$, are coplanar, that is, they lie in the same plane.
 <div class = "answer">We have the volume of parallelepiped (remember the definition of the dot product and cross product) <br>
 Volume = $|a||\cos\phi||b\times c|=\vec{a}\cdot(\vec{b}\times \vec{c})$
 Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
@@ -287,10 +295,11 @@ Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
 Volume=$(2,3,1)(-2,-2,10)=-4-6+10=0$
 Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed{\textrm{This means } \vec{a},\vec{b}, \textrm{ and } \vec{c} \textrm{ are coplanar.}}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 7.
-(a) Given the basis vectors $\vec{a} = 2\hat{i} - 3\hat{j}$ and $\vec{b} = \hat{i} + 2\hat{j}$, what is the vector $(4, -9)$ equivalent to?
+Given the basis vectors $\vec{a} = 2\hat{i} - 3\hat{j}$ and $\vec{b} = \hat{i} + 2\hat{j}$, what is the vector $(4, -9)$ equivalent to?
 <div class = "answer">
 $(4, -9)$ is equivalent to $4\vec{a} - 9\vec{b}$ <br>
 $4\vec{a} = 8\hat{i} - 12\hat{j}$ <br>
@@ -299,10 +308,11 @@ $(4, -9) = (8-9)\hat{i} + (-12 - 18)\hat{j}$ <br>
 $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 8.
-(a) The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
+The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
 1 \\\\
 0 \\\\
 0 \\\\
@@ -428,10 +438,11 @@ Finally, $d = \frac{8}{2\sqrt{2}} = \boxed{2\sqrt{2}}$
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 9.
-(a) The locations of a pair of long straight pipes are specified using Cartesian
+The locations of a pair of long straight pipes are specified using Cartesian
 co-ordinates as follows:
 * Pipe $A$: diameter 0.8; axis through points $P (2, 5, 3)$ and $Q (7, 10, 8)$.
 * Pipe $B$ diameter 1.0; axis through points $R (0, 6, 3)$ and $S (−12, 0, 9)$.
@@ -453,6 +464,7 @@ $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
 Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ## Exam Style Questions
@@ -497,6 +509,7 @@ $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}
 $\theta = 56.0$ or $124.0$ <br>
 $\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
@@ -552,6 +565,9 @@ When the fish is closest to the buoy, the velocity vector of the fish $\vec{v}$ 
 \\ = 21 - 86t = 0 \Rightarrow{t = \frac{21}{86}}$ <br>
 The minimum distance between the fish and the buoy is the length of the vector $(\vec{b} - \vec{s})$. <br>
 $ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+----------------------------------------------------------
 
 ## Challenging Questions
 ### Problem 12.
@@ -570,6 +586,8 @@ $$\vec{a}+(\vec{b}+\vec{c})=\vec{PQ}+\vec{QS}=\vec{PS}$$
 Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
 
@@ -616,6 +634,9 @@ The point P is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C
 Considering point $C$, the radius $r$ is given by: <br>
 $ r = |\overrightarrow{XC}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 ## Answers
 
