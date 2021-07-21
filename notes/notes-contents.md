@@ -69,6 +69,12 @@
 * __[7.1 - Maclaurin Series](7-power-series#maclaurin-series)__
 * __[7.2 - Taylor Series](7-power-series#taylor-series)__
 
+### Chapter 8 - [Complex Numbers](8-complex-numbers)
+* __[8.1 - Operations with complex numbers](8-complex-numbers#complex-operations)__
+* __[8.2 - Finding complex roots](8-complex-numbers#complex-roots)__
+* __[8.3 - De Moivre's Theorum](8-complex-numbers#de-moivre)__
+* __[8.4 - Imaginary numbers really exist](8-complex-numbers#imaginary-exist)__
+
 <br>
 
 ## About the Course
