@@ -21,15 +21,24 @@
 * Understand costs functions
 
 
-### Additional resources
-* 
+# Additional Resources
+
+## Tutorials
+* [Excel Tutorial](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) : How to use excel to create a residual plot.
+* [Accuracy of Residuals](https://youtu.be/EFxv2r9gwtc) : Interesting article on residuals' accuracy and how they are refined.
+
+## Software 
+
+* [WolframAlpha](https://www.wolframalpha.com/input/?i=(x%5E2%2B3x-7)%2F(x-9)) : Use this to plot any function - you will become very familiar with this over the module.
+
+In the answers, some WolframAlpha pages are linked in
+blue ([like this](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 
 <br><br>
 
 
-In the answers, some wolfram alpha pages are linked in
-blue ([like this](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
-<br>
+
+
 
 # Problem sheet
 ## Essential Questions
@@ -718,10 +727,20 @@ $$
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 <br><br>
+
 ### For Printing
 <button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Applied/Constrained Optimisation](https://www.madasmaths.com/archive/maths_booklets/advanced_topics/partial_differentiation_applications.pdf) : Overall an extension - try applied optimisation, constrained optimisation to push even further.
+
+<br><br>
+
 
 # Next week, the Normal Distribution!
