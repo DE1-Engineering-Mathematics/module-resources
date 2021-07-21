@@ -57,6 +57,7 @@ Coefficients only exist for odd values of n. In addition, the sign of the coeffi
 $$f(x)=f(0)+f^{'}(0)x+f^{''}(0)\frac{x^2}{2!}+f^{'''}(0)\frac{x^3}{3!}+f^{''''}(0)\frac{x^4}{4!}+...$$
 $$\boxed{f(x)=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+...}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x)=e^{-x^2}\quad\quad\quad(x=0,n=3)$
 <div class = "answer">
@@ -73,6 +74,7 @@ $$\begin{align*}
 Thus, the resulting power series is:
 $$\boxed{f(x)=1-x^2+...}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x)=\frac{1}{2+x}\quad\quad\quad (x=0,n=3)$
 <div class = "answer">
@@ -103,6 +105,7 @@ $$n^{th}=e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...
 Re-express function f(x) in power series form:
 $$f(x)=e+e(x-1)+\frac{e}{2}(x-1)^2+\frac{e}{3!}(x-1)^3+\frac{e}{4!}(x-1)^4+...+\frac{e(x-1)^n}{n!}=\boxed{\sum_{n=0}^{\infty}\frac{e(x-1)^n}{n!}}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f(x)=\frac{1}{1+x}=1-x+x^2-x^3+x^4+...$
 <div class = "answer">
@@ -111,6 +114,7 @@ $$n^{th}=\frac{1}{1+x}=1-x+x^2-x^3+x^4+...+(-1)^nx^n$$
 Re-express function f(x) in the form of power series:
 $$f(x)=\frac{1}{1+x}=1+(-x)+x^2-x^3+x^4+...+(-1)^nx^n= \boxed{\sum_{n=0}^{\infty}(-1)^nx^n}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x)=\cos{x}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+...$
 <div class = "answer">
@@ -199,6 +203,7 @@ $$\lim\limits_{x\rightarrow0}\frac{e^x-\mathrm{sin}x-\mathrm{cos}x}{e^{x^{2}}-e^
 Ignoring all negligible summands:
 $$\boxed{\lim\limits_{x\rightarrow0}\frac{x^2}{x^2}=1.}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\lim\limits_{x\rightarrow0}\big(\frac{(\sqrt[5]{1-5x^2+x^4}-1+x^2)}{x^4}\big)$
 <div class = "answer">
@@ -310,6 +315,7 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 
 <iframe src="https://www.desmos.com/calculator/4bdppcsgtv" width="100%" height="400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Sketch $f(x)$ and the first two truncated Taylor polynomials for the function expanded around the point $c=10$
 

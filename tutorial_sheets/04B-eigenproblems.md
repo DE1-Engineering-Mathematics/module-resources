@@ -46,31 +46,37 @@ Find the eigenvalues and the associated eigenvectors for the transformations rep
 
 ![1a](04B-eigenproblems-media/1a.png)
 <div class = "answer">$\boxed{eigenvector=v_1 = (1,0), eigenvalue=\lambda_1 = 2}$ and $\boxed{v_2 = (0,1), \lambda_2 = 1}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)
 
 ![1b](04B-eigenproblems-media/1b.png)
 <div class = "answer">$\boxed{v_1 = (1,0), \lambda_1 = 1}$ appears to be the only eigenvector; however when you do the maths you will see that $\boxed{v_2 = (-1,0), \lambda_2 = 1}$ also appears. These eigenvectors are linearly dependent, so they are considered as a single vector.</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) 
 
 ![1c](04B-eigenproblems-media/1c.png)
 <div class = "answer">$\boxed{All \space vectors \space are \space eigenvectors \space for \space \space a \space uniform \space scaling}$, all with $\boxed{\lambda=2}$ in this case.</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d)
 
 ![1d](04B-eigenproblems-media/1d.png)
 <div class = "answer">This is a shear transformation. $\boxed{v_1 = (1,0), \lambda_1 = 2}$ appears to be the only eigenvector; however when you do the maths you will see that $\boxed{v_2 = (-1,0), \lambda_2 = 2}$ also appears. These eigenvectors are linearly dependent, so they are considered as a single vector.</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e)
 
 ![1e](04B-eigenproblems-media/1e.png)
 <div class = "answer">$\boxed{v_1 = (0,1), \lambda_1 = 0.5}$ and $\boxed{v_2 = (0,-1), \lambda_2 = 0.5}$. These eigenvectors are linearly dependent, so they are considered as a single vector. </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (f)
 
 ![1f](04B-eigenproblems-media/1f.png)
 <div class = "answer">No real eigenvectors, all vectors change span.</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (g)
 
@@ -109,6 +115,7 @@ $\Rightarrow{}\quad \begin{pmatrix}2&3\\\ 2&3\end{pmatrix} \begin{pmatrix}x_1\\\
 To summarise: <br>
 For $\boxed{\lambda_1 = 4, \begin{pmatrix}1,1\end{pmatrix}},$ <br>
 For $\boxed{\lambda_2 = -1, \begin{pmatrix}-3,2\end{pmatrix}}.$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)  $\begin{pmatrix}1&3&1\\\ 0&5&0\\\ 1&3&0\end{pmatrix}$
 <div class = "answer">
@@ -179,6 +186,7 @@ $\boxed{\text{For } \lambda_1 = 5, \begin{pmatrix}18\\\ 19\\\ 15\end{pmatrix} \\
 \text{For } \lambda_2 = \frac{1+\sqrt{5}}{2}, \begin{pmatrix}\frac{1+\sqrt{5}}{2}\\\ 0\\\ 1\end{pmatrix} \\\ 
 \text{For } \lambda_3 = \frac{1-\sqrt{5}}{2}, \begin{pmatrix}\frac{1-\sqrt{5}}{2}\\\ 0\\1\end{pmatrix}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\begin{pmatrix}3&1&1\\\ 2&4&2\\\ 1&1&3\end{pmatrix}$
 <div class = "answer">
@@ -218,6 +226,7 @@ $\Rightarrow{}\quad$ if $t=1$, eigenvector of $\lambda_3: (1,2,1)$
 To summarise: <br>
 $\boxed{\text{For } \lambda_1 = 2 \text{ and } \lambda_2 = 2, \begin{pmatrix}-1\\\ 0\\\ 1\end{pmatrix}, \begin{pmatrix}-1\\\ 1\\\ 0\end{pmatrix}. \\\ 
 \text{For } \lambda_3 = 6, \begin{pmatrix}1\\\ 2\\\ 1\end{pmatrix}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $\begin{pmatrix}1&-1&-1\\\ 1&-1&0\\\ 1&0&-1\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1&-1&-1\\1&-1&0\\1&0&-1\end{pmatrix} - \lambda \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} \quad\Rightarrow{}\quad \begin{pmatrix} 1-\lambda & -1 & -1\\ 1 & -1-\lambda & 0\\ 1 & 0 & -1-\lambda\end{pmatrix}$
@@ -290,7 +299,7 @@ $\boxed{\text{For } \lambda_1 = -1, \begin{pmatrix}0\\\ 1\\\ -1\end{pmatrix}, \\
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
-(a) Let $A$ be a $2\times2$ matrix whose trace equals 2 and determinant equals -2. Find the eigenvalues of $A$. _(The trace of a square matrix is the sum of the terms along it's leading diagonal.)_
+Let $A$ be a $2\times2$ matrix whose trace equals 2 and determinant equals -2. Find the eigenvalues of $A$. _(The trace of a square matrix is the sum of the terms along it's leading diagonal.)_
 
 <div class = "answer">$\Rightarrow{}\quad$ considering $A = \begin{pmatrix}a&b\\c&d\end{pmatrix}
 \quad\Rightarrow{}\quad 
@@ -307,7 +316,7 @@ $\Rightarrow{}\quad$ eigenvalues: $\boxed{\lambda_1 = 1 + \sqrt(3), \quad \lambd
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-(a) $A=\begin{pmatrix}4&-6&2\\\ -1&9&-2\\\ -4&12&-2\end{pmatrix}$
+$A=\begin{pmatrix}4&-6&2\\\ -1&9&-2\\\ -4&12&-2\end{pmatrix}$
  <br>
  Given that 6 is one of the eigenvalues and its determinant is 36. Find the other eigenvalues of $A$.
 <div class = "answer">$\Rightarrow{}\quad$ considering $B=\begin{pmatrix}4-\lambda&-6&2\\-1&9-\lambda&-2\\-4&12&-2-\lambda\end{pmatrix}$
@@ -322,7 +331,7 @@ $\Rightarrow{}\quad$ eigenvalues $\boxed{\lambda_2 = 2, \quad \lambda_3 = 3}$</d
 -----------------------------------------------------------------------------------
 
 ### Problem 5.
-(a) Given that $\begin{pmatrix}-2\\\ 1\\\ k\end{pmatrix}$ is an eigenvector of the matrix $\begin{pmatrix}1&2&-1\\\ 1&0&1\\\ 4&-4&5\end{pmatrix}$
+Given that $\begin{pmatrix}-2\\\ 1\\\ k\end{pmatrix}$ is an eigenvector of the matrix $\begin{pmatrix}1&2&-1\\\ 1&0&1\\\ 4&-4&5\end{pmatrix}$
 find $k$ and the corresponding eigenvalue
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda&2&-1\\1&-\lambda&1\\4&-4&5-\lambda\end{pmatrix}
 \quad\Rightarrow{}\quad det(B) = p(\lambda) = \lambda^3 -6\lambda^2 +11\lambda -6 = 0$
@@ -344,7 +353,7 @@ $\Rightarrow{}\quad \boxed{k = 4}$</div>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(a) The eigenvalues of the matrix $A=\begin{pmatrix}1&1&1\\\ -1&3&1\\\ -1&1&3\end{pmatrix}$ are 2 and 3.
+The eigenvalues of the matrix $A=\begin{pmatrix}1&1&1\\\ -1&3&1\\\ -1&1&3\end{pmatrix}$ are 2 and 3.
 Find the corresponding eigenvectors and write down a matrix which diagonalizes $A$.
 <div class = "answer">For $\lambda_1 = 2$ and $\lambda_2 = 2$ <br>
 $\Rightarrow{}\quad \begin{pmatrix}-1&1&1\\-1&1&1\\-1&1&1\end{pmatrix}\begin{pmatrix}x_1\\x_2\\x_3\end{pmatrix} = \begin{pmatrix}0\\0\\0\end{pmatrix}$
@@ -390,6 +399,7 @@ This is the exam question from the Linear Transforms tutorial sheet with an extr
 (a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross)
 
 $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) On the same axes draw the spans of any eigenvectors of A and label these spans with their corresponding eigenvalues.
 
@@ -400,6 +410,7 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 <img src = "04B-eigenproblems-media/7aA.png" >
 $\boxed{\color{teal}{\lambda = 1.5, \lambda = 2}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 
@@ -443,6 +454,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
         \lambda_2 = -1, \quad v_2 = (-3,2)^T
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}1&-3\\1&2\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, so that $P^{-1}AP = \begin{pmatrix}4&0\\0&-1\end{pmatrix}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $A = \begin{pmatrix}1&-1\\\ 1&3\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
@@ -451,6 +463,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
         \lambda_2 = 2, \quad v_2 = (2,-2)^T
     \end{cases}
 \quad\Rightarrow{} P = \begin{pmatrix}-1&-2\\1&2\end{pmatrix}$ is not invertible</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $A=\begin{pmatrix}1&3&1\\\ 0&5&0\\\ 1&3&0\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
@@ -460,6 +473,7 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
         \lambda_3 = \frac{1-\sqrt(5)}{2}, \quad v_3 = (\frac{1-\sqrt{5}}{2},0,1)^T
     \end{cases}\\
 \Rightarrow{} P = \begin{pmatrix}18&\frac{1+\sqrt{5}}{2}&\frac{1-\sqrt{5}}{2}\\19&0&0\\15&1&1\end{pmatrix}$ is an invertible matrix that diagonalizes $A$, so that $P^{-1}AP = \begin{pmatrix}5&0&0\\0&\frac{1+\sqrt{5}}{2}&0\\0&0&\frac{1-\sqrt{5}}{2}\end{pmatrix}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $A = \begin{pmatrix}1&-1&-1\\\ 1&-1&0\\\ 1&0&-1\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}
@@ -502,6 +516,7 @@ $\quad\Rightarrow{}\quad
     $\quad\Rightarrow{}\quad
     \boxed{M=\begin{pmatrix}6&2\\\ 4&4\end{pmatrix}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 <br>
 
 (b)Find $\lambda_2$ and $v_2$.
@@ -517,6 +532,7 @@ $\Rightarrow{}$ let $v_2= \begin{pmatrix} x \\ y \end{pmatrix} \Rightarrow{} Mv_
 
 $\Rightarrow{}\quad \boxed{v_2 = \quad \begin{pmatrix} 2 \\ 1 \end{pmatrix}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 <br>
 (c)For line $l: x-y+1=0$, find $l'$ after transformed by matrix $M$.
 <br><br>
