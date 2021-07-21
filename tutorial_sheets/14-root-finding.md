@@ -13,18 +13,30 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
-# Root Finding Tutorial Sheet, #13
+# Root Finding Tutorial Sheet, #14
 
 ### Learning targets
 * To understand the process of the 3 root finding methods (Newton-Raphson, Bisection, Secant)
 * Iterate multiple times to find a root to a desired level of accuracy (could use code)
 * Understand some constraints and disadvantages associated with the methods/use of computers
 
-### Additional resources
-* [SJC - Newton-Raphson](https://youtu.be/evYOeTyeo1M)
-* [SJC - Bisection method](https://www.youtube.com/watch?v=VkyTBij4yoQ)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Newton-Raphson](https://www.youtube.com/watch?v=evYOeTyeo1M) : Extra video by Sam recapping the Newton Raphson method from the lecture.
+* [Bisection](https://www.youtube.com/watch?v=VkyTBij4yoQ) : Extra video by Sam recapping the bisection method from the lecture.
+* [Calculus Playlist](https://www.mvorganizing.org/what-is-the-difference-between-newton-raphson-and-secant-method/) : Some nice comparisons of the methods.
+
+## Software 
+
+* [Bisection Calculator](https://keisan.casio.com/exec/system/1222999061) : Pretty cool bisection calculator that includes the accuracy and each stage.
+* [Newton-Raphson Calculator](https://keisan.casio.com/exec/system/1244946907) : Newton-Raphson calculator that includes the accuracy and each stage.
+* [WolframAlpha](https://www.intmath.com/applications-differentiation/newtons-method-interactive.php) : N-R interactive visualisation tool.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -87,7 +99,7 @@ It is clear that the iterations are converging towards the root $\boxed{x=3}.$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------
+-------------------------------------------
 ### Problem 2.
 The equation $x^3-7x^2+14x-6=0$ has at least one root between $x=0$ and $ x=1$. Use the method of interval bisection to locate this root accurate to $10^{-2}$. 
 
@@ -176,7 +188,8 @@ We can also use the same method as in problem 1 and use a table to find the root
 Therefore, the root is $\boxed{x = 0.59}$ to 2dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
------------------------------------
+
+--------------------------------------------
 
 ### Problem 3.
 Find the only real root of $x^3-3x-4=0$ using NR method correct to 9 decimal places.
@@ -209,7 +222,8 @@ The root is $\boxed{x = 2.195823345}$ correct to 9dp.
 Tip: a sensible starting point would have been $ \ x=3 \ $ as well as some of the points mentioned earlier.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
------------------------------------
+
+---------------------------------------------
 
 ### Problem 4.
 Find the real root of $x^3-6x^2+9x+1=0$ using;
@@ -310,7 +324,8 @@ The root found by these start points will then be returned. (for this question $
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
------------------------------------
+
+--------------------------------------------
 
 ### Problem 5
 Find a positive real root of $\cos(x)-x^3=0$ using;
@@ -401,7 +416,7 @@ $\therefore$ the root of the equation is $\boxed{x=0.8654}$ to 4 dp.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
----------------------------------
+---------------------------------------------
 ## Exam Style Questions
 
 ### Problem 6.
@@ -454,7 +469,7 @@ Alternatively you could use Matlab or Python code to solve this.
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
----------------------------------
+----------------------------------------------
 ## Challenging Questions
 
 ### Problem 7.
@@ -493,7 +508,7 @@ The sequence is clearly converging to the root $\boxed{x\approx 0.74}$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
------------------------------------
+-----------------------------------------------
 
 ### Problem 8.*
 
@@ -572,7 +587,7 @@ See if you can write the code yourself for the other root finding methods!
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------
+----------------------------------------------
 
 ## Answers
 
@@ -587,5 +602,16 @@ See if you can write the code yourself for the other root finding methods!
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 344-352
+* [Advanced Engineering Mathematics 5th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/fulldisplay?docid=alma9956105299701591&context=L&vid=44IMP_INST:ICL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=all&query=any,contains,Engineering%20Mathmematics%20Stroud&offset=0) : Pages 10-17
+* [A-Level Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FC3%2FTopic-Qs%2FEdexcel-Set-1%2FC3%2520Numerical%2520Methods%2520-%2520Location%2520of%2520roots.pdf) : Baseline A-Level questions, helps with learning by 'rote'.
+
+<br><br>
+
 
 # Next week, Optimisation!

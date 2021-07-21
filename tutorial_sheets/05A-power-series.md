@@ -21,11 +21,15 @@
 * Sketch truncated Taylor polynomial of a Taylor series expansion
 * Work with limits when evaluating a given series
 
-### Additional Resources
-* [SJC - Sequence, Series](https://youtu.be/kUbzTJ1UDy4)
-* [SJC - Power Series](https://youtu.be/Y2Yfq-IR9iQ)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Power Series](https://www.youtube.com/watch?v=Y2Yfq-IR9iQ) : Extra video by Sam recapping power series from the lecture.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -415,5 +419,16 @@ It follows that $\boxed{\text{if } \alpha = 1 \text{ then } x = 0 \text{ is a lo
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 663-670, 663-670, 675-679, 685-687
+* [Standard Practice](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/series_expansions.pdf) : Quite standard with a couple pushing on more extension.
+* [3D Curve Sketching](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2Fdownload%2FMaths%2FA-level%2FFP2%2FTopic-Qs%2FEdexcel-Set-2%2FCh.6%2520Maclaurin%2520%26%2520Taylor%2520Series%2520-%2520FP2.pdf) : Mclauren and Taylor series questions - need to look to the past markschemes for answers
+
+<br><br>
+
 
 # Next week, ODEs!

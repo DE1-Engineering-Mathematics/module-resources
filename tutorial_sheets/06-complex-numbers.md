@@ -23,10 +23,16 @@
 * Plot complex numbers and an Argand diagram
 * Understand and use de Moivres theorem
 
-### Additional Resources
-* [Welch Labs - Imaginary Numbers are Real](https://youtu.be/T647CGsuOVU)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Imaginary Numbers are Real](https://youtu.be/T647CGsuOVU) : Interesting video to add more understanding.
+* [Interactive Graph](https://www.intmath.com/complex-numbers/multiplying-dividing-complex-numbers-interactive.php) : Tutorial and interactive site that takes you through and allows you to visualise multiplying and dividing complex numbers.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -470,5 +476,20 @@ $arctan(8) + arctan(2) + arctan(\frac{2}{3}) = \pi $  <br>
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 385-436
+* [In Context](https://www.intmath.com/complex-numbers/9-impedance-phase-angle.php) : For all you into electronics here's how you will use complex numbers irl!
+* [Understanding Questions](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/complex_numbers_part_1.pdf) : Lots of questions to get manipulation in your head
+* [More Involved](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/complex_numbers_part_1_exam_questions.pdf) : Lots more questions with a bit more thinking.
+* [Even More Involved](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/complex_numbers_part_2.pdf) : Lots of nice manipulation, you can ignore loci, transformations if you want a bit of fun. Some complex series as well - remember 5b...
+* [Visual Questions](https://www.madasmaths.com/archive/maths_booklets/further_topics/various/complex_numbers_part_1_exam_questions.pdf) : Further questions, with visual explanations and sketching (which we may know examiners to love...)
+
+
+<br><br>
+
 
 # Next week, ODEs!

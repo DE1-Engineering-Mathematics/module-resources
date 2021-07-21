@@ -21,13 +21,21 @@
 * Find the null space
 * Understand how the relationship between the determinant of a matrix as area scale factor for a linear transformation
 
-### Additional Resources
-* [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-* [AFP - Interactive linear transforms](https://fourier.space/assets/matrices/index.html)
-* [Let's remove Quaternions from every 3D Engine: Intro to Rotors from Geometric Algebra](https://youtu.be/syyK6hTWT7U)
-* [MathWorks - rotx - Rotation matrix for rotations around x-axis](https://uk.mathworks.com/help/phased/ref/rotx.html)
+<br><br>
 
-<br><br><br><br>
+# Additional Resources
+
+## Tutorials
+* [Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) : The same playlist as mentioned last week.
+* [Rotors and Geometric Algebra](https://www.youtube.com/watch?v=Idlv83CxP-8) : A little extension info video, linking vectors and matrices to how rotors work. 
+
+## Software 
+
+* [Freddie's Matrices Widget](https://fourier.space/assets/matrices/index.html) : Widget written by our one and only Freddie Page - have an explore and interact to get a good visualisation on how transformations work. Have a go with different types of matrices: Dilations, rotations, shears, reflections, projections and combinations!
+* [Matlab Documentation](https://uk.mathworks.com/help/phased/ref/rotx.html) : Information on rotational matrices on Matlab. Getting familiar with matlab will be a great advantage.
+
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -346,6 +354,14 @@ You now have a crude matrix visualizer, try some different 2D transformation mat
 ## For Printing
 <button id="showPrint" type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button style="display: none" id="hidePrint" type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
+
+<br><br>
+
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* Most matrices questions are all integrated, so the previous and following section will have questions involving transformations. The most important part is getting your head around how it all fits together - I would really recommend Freddie's widget! 
 
 <br><br>
 
