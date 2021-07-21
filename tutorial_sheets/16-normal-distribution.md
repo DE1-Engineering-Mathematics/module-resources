@@ -23,14 +23,22 @@ This particular tutorial sheet is short. Do not be alarmed! It reflects the low 
 * Use probabilities to determine standard deviation and mean
 
 
-### Additional resources
-* [SJC - The Gaussian](https://youtu.be/26QbWYBCw7Y)
-
 <br><br>
+
+# Additional Resources
+
+## Tutorials
+* [Gaussian](https://www.youtube.com/watch?v=26QbWYBCw7Y) : Extra video by Sam recapping the Gaussian from the lecture.
+* [Summary Sheet](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2F%2Fdownload%2FMaths%2FA-level%2FStatistics%2FStatistical-Distributions-2%2FCheat-Sheets%2FNormal%2520Distribution.pdf) : An summary sheet of all we learnt. However remember we can use technology!
+
+## Software 
+
+* [WolframAlpha](https://onlinestatbook.com/2/calculators/normal_dist.html) : A nifty probability calculator with visualisations on the graph itself.
 
 In the answers, some wolfram alpha pages are linked in
 [blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
-<br>
+<br><br>
+
 
 # Problem sheet
 ## Essential Questions
@@ -305,10 +313,22 @@ $ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
 <button type="button" onclick="displayAnswers('block')">Show all answers</button>
 <button type="button" onclick="displayAnswers('none')">Hide all answers</button>
 <br><br>
+
 ### For Printing
 <button type="button" onclick="prepareForPrint('block')">Add whitespace</button>
 <button type="button" onclick="prepareForPrint('none')">Remove whitespace</button>
 
 <br><br>
 
-# The end :) Enjoy your easter break!
+# Revision Questions 
+
+The questions included are optional, but here if you want some extra practice.
+
+* [Engineering Mathematics 7th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/search?query=any,contains,Engineering%20Mathmematics%20Stroud&tab=all&search_scope=MyInst_and_CI&sortby=date_d&vid=44IMP_INST:ICL_VU1&facet=frbrgroupid,include,9069308747175707749&lang=en&offset=0) : Pages 1106-1116
+* [Advanced Engineering Mathematics 5th edition, Stroud and Dexter](https://library-search.imperial.ac.uk/discovery/fulldisplay?docid=alma9956105299701591&context=L&vid=44IMP_INST:ICL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=all&query=any,contains,Engineering%20Mathmematics%20Stroud&offset=0) : Pages 755-758
+* [Easy Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2F%2Fdownload%2FMaths%2FA-level%2FStatistics%2FStatistical-Distributions-2%2FOCR-Set-A%2FThe%2520Normal%2520Distribution.pdf) : A set of quite easy A-Level questions.
+* [More Easy Questions](https://www.physicsandmathstutor.com/pdf-pages/?pdf=https%3A%2F%2Fpmt.physicsandmathstutor.com%2F%2Fdownload%2FMaths%2FA-level%2FStatistics%2FStatistical-Distributions-2%2FEdexcel-Set-A%2FNormal%2520distribution.pdf) : More A-Level questions, you can use these for 'learning by rote'.
+
+<br><br>
+
+# The end :) Enjoy your Easter break!
