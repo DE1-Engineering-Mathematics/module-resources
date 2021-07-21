@@ -55,21 +55,25 @@ $\Rightarrow{} = {e^{-y} \sin x - e^{-y} \sin x} = 0$<br>
 
 NB This is an example for this kind problem in case you get confused by these short answers :) <br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\sin\left(\frac{x+y}{2}\right)\sin\left(\frac{x-y}{2}\right)$
 <div class = "answer">
 No, but $\nabla^2 f(\mathbf{x}) + f = 0$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f(x + i y)$
 <div class = "answer">
 Yes, $\nabla^2 f(x + i y) = 0$, this becomes a useful result in complex analysis.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $4 \arctan(y/x) + \log(x^2 +y^2)$
 <div class = "answer">
 Yes, $\nabla^2 f(\mathbf{x}) = 0$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) $\frac{x+y}{z}$
 <div class = "answer">
@@ -130,6 +134,8 @@ $\frac{T{}''\left ( t \right )}{T\left ( t \right )}=-\omega ^{2},\frac{X{}''\le
 $\Rightarrow{}$Then,$\boxed{T{}''\left ( t \right )=-\omega ^{2}T\left ( t \right ),X{}''\left ( x \right )=-k^{2}X\left ( x \right )}$, with $\boxed{\omega ^{2}=\frac{\tau }{\rho }k^{2}}$
 <br><br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) Solve the ODEs in terms of sinusoidal solutions.
 <br><br>
 <div class = "answer">
@@ -140,6 +146,8 @@ $\boxed{𝑋(𝑥)=cos𝑘𝑥,sin𝑘𝑥}$
 Accept complex exponentials, accept equivalent correct forms, accept sum with coefficients, A cos + B sin etc.
 <br><br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (c)The string has a length 𝐿, and is fixed at both ends, such that $𝑢(𝑥 = 0, 𝑡) = 𝑢(𝑥 = 𝐿, 𝑡) = 0$. How does this constrain your solutions? Write a general solution of the PDE, $ 𝑢(𝑥, 𝑡)$, that is subject to these constraints.
 <br><br>
 <div class = "answer">
@@ -150,6 +158,8 @@ Fixed at $𝑥=𝐿$ constrains to $k=\frac{n\pi }{L}$.
 $\boxed{u\left ( x,t \right )=\left ( A\cos\omega t+B\sin\omega t \right )sin\frac{n\pi x}{L}}$
 <br><br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (d)Write an expression for the fundamental (lowest) frequency allowed by the string.
 <br><br>
 <div class = "answer">
@@ -160,6 +170,8 @@ Fundamental frequency, set $𝑛=1$.
 $\boxed{\omega =\sqrt{\frac{\tau }{\rho }}\frac{\pi }{L}}$
 <br><br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (e)If a guitar has a neck length of 0.65 m, and a string has linear density 5 g/m, what tension does the string need to be to sound an A note at a frequency $𝜔 = 2𝜋 × 110$ Hz?
 <br><br>
 <div class = "answer">Rearrange for 𝜏.
@@ -171,6 +183,7 @@ Insert given values, $\Rightarrow{}\tau =\frac{\left ( 0.65m \right )^{2}\left (
 $\boxed{\tau =102N}$
 <br><br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 ## Challenging Questions
