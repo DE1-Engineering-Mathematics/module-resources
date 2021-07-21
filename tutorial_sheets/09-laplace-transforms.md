@@ -44,6 +44,7 @@ $\Rightarrow{}\quad$
 $F(s)=\int_{0}^{\infty}{e^{-st}{e^{at}}}{dt}=\int_{0}^{\infty}{e^{-(s-a)t}{dt}}=\left[-\frac{1}{s-a}e^{-(s-a)t}\right]_0^\infty, \quad{s>a}$ <br>
 $\Rightarrow{}\quad\boxed{F(s)=\frac{1}{s-a}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $g(t)=9$
 <div class = "answer">
@@ -51,7 +52,7 @@ $\Rightarrow{}\quad$
 $G(s)=\int_{0}^{\infty} \ {9e^{-st}{dt}}={[-\frac{9}{s}{e^{-st}}]_0^\infty}\quad$<br>
 $\Rightarrow{}\quad\boxed{G(s)=\frac{9}{s}}$
 </div>
-
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $k(t)=4t$
 <div class = "answer">
@@ -70,6 +71,7 @@ $4\int_{0}^{\infty} t \ e^{-st}dt=4(-\frac{t}{s} e^{-st} - \int_{0}^{\infty} \fr
 $\Rightarrow{}\quad$
 $\boxed{K(s)=\frac{4}{s^2}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $m(t)=e^{2t}$
 <div class = "answer">
@@ -77,6 +79,7 @@ $\Rightarrow{}\quad$
 $G(s)=\int_{0}^{\infty} \ {e^{-st}}{e^{2t}}{dt}={\left[-\frac{1}{s-2}{e^{-(s-2)t}}\right]_0^\infty}\quad$ <br>
 $\Rightarrow{}\quad\ \boxed{G(s)=\frac{1}{s-2}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) $a(t)=\sin(5t)$
 
@@ -104,6 +107,7 @@ $F(s)=\mathcal{L}\{ {6e^{-5t}+e^{3t}-5t^{3}-9}\}$ <br>
 $\Rightarrow{}\quad$
 $\boxed{F(s)=\frac{6}{s+5}+\frac{1}{s-3}-\frac{30}{s^4}-\frac{9}{s}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $g(t)=4\cos(4t)-9\sin(4t)+2\cos(10t)$
 <div class = "answer">
@@ -113,6 +117,7 @@ $G(s)=\mathcal{L}\{ {4\cos(4t)}\}-\mathcal{L}\{ {9\sin(4t)}\}+\mathcal{L}\{ {2\c
 $\Rightarrow{}\quad$
 $\boxed{G(s)=\frac{4s}{ {s^2}+{16}}-\frac{36}{ {s^2}+{16}}+\frac{2s}{ {s^2}+{100}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $k(t)=3\sinh(2t)+4\cosh(3t)$
 <div class = "answer">
@@ -122,6 +127,7 @@ $K(s)=\mathcal{L}\{ {3\sinh(2t)}\}+\mathcal{L}\{ {4\cosh(3t)}\}$ <br>
 $\Rightarrow{}\quad$
 $\boxed{K(s)=\frac{6}{ {s^2}-{4}}+\frac{4s}{ {s^2}-{9}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $m(t)=e^{3t}+\cos(6t)-e^{3t}\cos(6t)$
 <div class = "answer">
@@ -131,6 +137,7 @@ $M(s)=\mathcal{L}\{ {e^{3t}}\}+\mathcal{L}\{ {\cos(6t)}\}-\mathcal{L}\{ {e^{3t}\
 $\Rightarrow{}\quad$
 $\boxed{M(s)=\frac{1}{ {s}-{3}}+\frac{s}{ {s^2}+{36}}-\frac{s-3}{ {(s-3)^2}+{36}}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) $o(t)=e^{-2t}{\cos^2}(3t)-3t^2e^{3t}$
 <div class = "answer">
@@ -155,6 +162,7 @@ $\mathcal{L}^{-1}\{F(s)\}= \ \mathcal{L}^{-1}\{ {\frac{5}{s}-\frac{4}{s-2}+\frac
 $\Rightarrow{}\quad$
 $\boxed{f(t)=5-{4e^{2t}}+e^{2t}{t^4}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $G(s)= \frac{7s-1}{(s+1)(s+2)(s-3)}$
 <div class = "answer">
@@ -170,6 +178,7 @@ $\Rightarrow\quad\frac{2}{s+1}+\frac{-3}{s+2}+\frac{1}{s-3}$ <br>
 
 $\Rightarrow{}\quad\ \boxed{g(t)=2e^{-t}-3e^{-2t}+e^{3t}}$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $K(s)= \frac{4s+5}{(s-2)^2(s+3)}$
 <div class = "answer">
@@ -238,7 +247,7 @@ $\boxed{y(t)=\frac{1}{8}-{\frac{1}{8}}{e^{-2t}{\cos2t}}-\frac{1}{8}{e^{-2t}{\sin
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------
+-----------------------------------------------------------
 
 ### Problem 5.
 Solve the following ODE function using Laplace Transform:
@@ -304,6 +313,7 @@ $\boxed{V(s)=\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}}$
 
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) What is the flow at $t = 4$?
 <div class = "answer">
