@@ -51,6 +51,7 @@ $$
 \frac{\partial{}f}{\partial{}y}=3xy^2+2x^2y
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $f\left(x,y\right)=xe^{2x+3y}$
 <div class = "answer">
@@ -59,6 +60,7 @@ $$
 \frac{\partial{}f}{\partial{}y}=3xe^{2x+3y}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $f\left(x,y\right)=\frac{x-y}{x+y}$
 <div class = "answer">
@@ -67,6 +69,7 @@ $$
 \frac{\partial{}f}{\partial{}y}=\frac{-1\left(x+y\right)-1(x-y)}{ {(x+y)}^2}=\frac{-2x}{ {(x+y)}^2}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $f\left(x,y\right)=2x\sin{\left(x^2y\right)}$
 <div class = "answer">
@@ -75,6 +78,7 @@ $$
 \frac{\partial{}f}{\partial{}y}=2x^3\cos{(x^2y)}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) $f\left(x,y,z\right)=x\cos{z+x^2y^3e^z}$
 <div class = "answer">
@@ -84,6 +88,7 @@ $$
 \frac{\partial{}f}{\partial{}z}=-x\sin{z}+x^2y^3e^z
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -121,8 +126,9 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------
+----------------------------------------------------
 
 ### Problem 3.
 Find the turning points,
@@ -145,8 +151,9 @@ $$ f_y = -2 x y = 0 \Rightarrow y = 0 $$
 
 $$ \boxed{ f(\pm \frac{1}{\sqrt{2}}, 0) = \pm \frac{1}{\sqrt{2}} e^{-1/2} }$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------
+--------------------------------------------------
 
 ### Problem 4.
 Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
@@ -182,6 +189,8 @@ $$
 $$ \boxed{ \nabla \cdot \mathbf{x} = 3, \ \ \ \nabla \times \mathbf{x} = \begin{bmatrix} 0 \newline 0 \newline 0 \end{bmatrix} } $$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\mathbf{u} = \begin{bmatrix}
     -y \newline x \newline 3 z^2
     \end{bmatrix}$
@@ -191,6 +200,8 @@ $$
 \boxed{ \nabla \cdot \mathbf{u} = 6 z, \ \ \ \nabla \times \mathbf{u} = \begin{bmatrix} 0 \newline 0 \newline 2 \end{bmatrix} }
 $$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\mathbf{a} = \begin{bmatrix}
     0 \newline 0 \newline x z
@@ -202,6 +213,8 @@ $$
 $$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (d) $\mathbf{p} = \begin{bmatrix}
     x y z \newline x^2 + y^2 \newline -z
     \end{bmatrix}$
@@ -212,6 +225,8 @@ $$
 $$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (e) $\mathbf{q} = \begin{bmatrix}
     \sin x \cos y \sin z \newline \cos x \sin y \sin z \newline \cos z
     \end{bmatrix}$
@@ -219,6 +234,8 @@ $$
 <div class = "answer">
 $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nabla \times \mathbf{q} = \begin{bmatrix} -\cos x \sin y \cos z \newline \sin x \cos y \cos z \newline 0 \end{bmatrix} }$$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------
@@ -251,6 +268,8 @@ $$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{
 $$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
 Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$ once.
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $\sin (xy) + 2z^2$
 <div class = "answer">
 $$ \nabla(sin (xy) + 2z^2) = \begin{bmatrix}
@@ -261,6 +280,9 @@ $$ \nabla(sin (xy) + 2z^2) = \begin{bmatrix}
 $$ \nabla^2(sin (xy) + 2z^2) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(sin (xy) + 2z^2) $$ <br>
 $$ \Rightarrow\quad -y^2\sin(xy)-x^2\sin(xy) + 4 \Rightarrow\quad\boxed{4 - (x^2+y^2)\sin (xy)} $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+--------------------------------------------------------
 
 ## Exam Style Questions
 ### Problem 6.
@@ -283,6 +305,7 @@ $$ \boxed{
 2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0 }
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -308,6 +331,7 @@ $$ \boxed{
 t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -330,6 +354,7 @@ $$\Rightarrow \frac{6x^2}{y^3} - \frac{7y}{x} + \frac{7y}{x} - \frac{2y^4}{x^3}$
 Simplify, <br>
 $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -347,6 +372,8 @@ $$ \Rightarrow\quad 0 = (\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma + (\
 Rearrange, <br>
 $$ (\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha =\boxed{ -\frac{(\frac{\partial{}\alpha}{\partial{}\beta}) _ \gamma}{(\frac{\partial{}\alpha}{\partial{}\gamma}) _ \beta}} $$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 -----------------------------------------------------------------------------------
@@ -393,6 +420,8 @@ $$
 $$
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 (b) $f(u, v) = u^2 + 2 u v + v^2,
 \quad
 u(x, y) = \sin(x + 5 y),
@@ -425,6 +454,7 @@ $$
 = 10 \cos^2(x + 5 y) - 10 \sin^2(x + 5 y) }
 $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) 
 $f(u, v) = \frac{\arctan(u)}{1 + v^2},
@@ -464,6 +494,7 @@ $\Rightarrow{}$ Chain rule:
 $$\Rightarrow{} \boxed{ \left(\frac{\partial f}{\partial y}\right)_x
 = \frac{1}{(1+xy)(1+x^2 \ln(3 y)^2)}\frac{x}{2\sqrt{xy}} -\frac{2 x \ln(3 y) \arctan(\sqrt{x y})}{(1+x^2 \ln(3 y)^2)^2} x / y } $$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $f(u, v) = \tanh(w u + v),
 \quad
@@ -508,6 +539,7 @@ $$
 
 </div>
 
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------
 
 ### Problem 11.
@@ -523,6 +555,8 @@ $$
 \boxed{ f'_x(a,0)=1 }
 $$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
 
@@ -564,6 +598,8 @@ To get the parametric equation of the line, take $x = t$:
 
 $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 </div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ## Answers
 
