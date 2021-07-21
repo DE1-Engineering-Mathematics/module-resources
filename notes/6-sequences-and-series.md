@@ -15,7 +15,7 @@
 
 ## [Return to Contents](notes-contents)
 
-<img src="figs/spiral.png" width="200"/>
+<img src="figs/Spiral.png" width="200"/>
 
 # Chapter 6 - Sequences and Series
 In mathematics, a **sequence** is a numbered list of terms that may contain repeats and **series** can be thought of as the sum of the terms of an infinite sequence.<br><br>
