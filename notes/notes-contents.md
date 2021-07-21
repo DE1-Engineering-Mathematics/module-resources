@@ -75,6 +75,13 @@
 * __[8.3 - De Moivre's Theorum](8-complex-numbers#de-moivre)__
 * __[8.4 - Imaginary numbers really exist](8-complex-numbers#imaginary-exist)__
 
+### Chapter 9 - [Ordinary Differential Equations](9-ODE)
+* __[9.1 Back to basics](9-ODE#back-to-basics)__
+* __[9.2 A function which is it's own derivative](9-ODE#own-derivative)__
+* __[9.3 Categories](9-ODE#categories)__
+* __[9.4 ODEs in physical systems](9-ODE#physical-systems)__
+* __[9.5 ODE's summary](9-ODE#ode-summary)__
+
 <br>
 
 ## About the Course
