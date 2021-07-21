@@ -62,6 +62,7 @@ $z = re^{i\theta }$ <br>
 $\Rightarrow \boxed{\text{Therefore } 5e^{53.13^\circ i}}$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $z=-3-\mathrm{i}$
 <div class = "answer"> 
@@ -90,6 +91,7 @@ $z = re^{i\theta }$ <br>
 $\Rightarrow \boxed{\text{Therefore } 3.16e^{198.43^\circ i}}$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 (c) $z=-\mathrm{i}$
@@ -114,6 +116,7 @@ $z = re^{i\theta }$ <br>
 
 $\Rightarrow \boxed{\text{Therefore } e^{270^\circ i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) $z=3-4\mathrm{i}$
 <div class = "answer">
@@ -153,9 +156,11 @@ Consider the complex numbers $z_1=2+4\mathrm{i}$ and $z_2=4-7\mathrm{i}$.
 <div class = "answer">
 Collect real and complex terms: <br>
 $ z_1+z_2=(2+4\mathrm{i})+(4-7\mathrm{i})=(2+4)+(4-7)\mathrm{i}=\boxed{6-3\mathrm{i}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find $z_1-z_2$
 <div class = "answer">$z_1-z_2=(2+4\mathrm{i})-(4-7\mathrm{i})=(2-4)+(4+7)\mathrm{i}=\boxed{-2+11\mathrm{i}}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find $z_1z_2$
 <div class = "answer">
@@ -165,6 +170,7 @@ $z_1z_2=(2+4\mathrm{i})(4-7\mathrm{i})=2\times4-2\times7\mathrm{i}+4\times4\math
 Collect real and complex terms: 
 $8-14\mathrm{i}+16\mathrm{i}+28= \boxed{36+2\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Find $\frac{z_1}{z_2}$
 <div class = "answer">
@@ -174,7 +180,6 @@ Note: <br>
 Simplify a complex fraction $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}$ by rationalizing the denominator - multiplying the fraction with the complex conjugate of the denominator over itself (effectively multiplying by $1$), i.e.,
 $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}\cdot\frac{c-d\mathrm{i}}{c-d\mathrm{i}}$
 </div>
-
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ---------------------------------------------------------------------------------
@@ -187,6 +192,7 @@ $z=\frac{\mathrm{i}-4}{2\mathrm{i}-3}=\frac{\mathrm{i}-4}{2\mathrm{i}-3}\cdot\fr
 
 Therefore, $\boxed{\mathrm{Re}(z)=\frac{14}{13}}$ and $\boxed{\mathrm{Im}(z)=\frac{5}{13}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find the absolute value and the conjugate of $z = (1+\mathrm{i})^6$
 <div class = "answer">
@@ -198,6 +204,7 @@ $\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6=8(\cos\frac{3\pi}{2}+
 
 Hence, $\boxed{|z|=8 \text{ and } \overline{z}=8\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find the absolute value and the conjugate of $w = \mathrm{i}^{17}$
 <div class = "answer">
@@ -207,6 +214,7 @@ $w = \mathrm{i}^{17}=\mathrm{i}\cdot\mathrm{i}^{16}=\mathrm{i}\cdot\mathrm{(i^{4
 
 Hence, $\boxed{\| w \|=1 \text{ and } \overline{w}=-\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Simplify the complex number $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathrm{i}}{1+\mathrm{i}}$
 <div class = "answer">
@@ -220,6 +228,7 @@ $\frac{3-\mathrm{i}}{1+\mathrm{i}}=\frac{3-\mathrm{i}}{1+\mathrm{i}}\cdot\frac{1
 Therefore: <br>
 $\frac{1+\mathrm{i}}{1-\mathrm{i}}-(1+2\mathrm{i})(2+2\mathrm{i})+\frac{3-\mathrm{i}}{1+\mathrm{i}}=\mathrm{i}+2-6\mathrm{i}+1-2\mathrm{i}=\boxed{3-7\mathrm{i}}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) Simplify the complex number $2\mathrm{i}(\mathrm{i}-1)+(\sqrt{3}-\mathrm{i})^3+(1+\mathrm{i})(1-\mathrm{i})$
 <div class = "answer">
@@ -238,16 +247,19 @@ Plot the flowing complex numbers on an Argand diagram:
 <div class = "answer">
 <img src = "06-complex-numbers-media\figure2.PNG" width = "50%">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $z=4-5\mathrm{i}$
 <div class = "answer">
 <img src = "06-complex-numbers-media\figure3.PNG" width = "50%">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $z=-2-\mathrm{i}$
 <div class = "answer">
 <img src = "06-complex-numbers-media\figure4.PNG" width = "50%">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d)  $\| z \|=3$
 <div class = "answer">
@@ -301,6 +313,7 @@ Application of de Moivre’s theorem.
 Using de Moivre’s theorem:
 $(\cos\theta+\mathrm{i}\sin\theta)^{-10}=(\cos(-10\theta)+\mathrm{i}\sin(-10\theta))=\boxed{(\cos(10\theta)-\mathrm{i}\sin(10\theta))}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Simplify the flowing expression: $\frac{\cos2\theta+\mathrm{i}\sin2\theta}{\cos3\theta+\mathrm{i}\sin3\theta}$
 <div class = "answer">Using de Moivre’s theorem:
@@ -312,6 +325,7 @@ $=\frac{(\cos\theta+\mathrm{i}\sin\theta)^2}{(\cos\theta+\mathrm{i}\sin\theta)^2
 $=\frac{1}{\cos\theta+\mathrm{i}\sin\theta}(\frac{\cos\theta-\mathrm{i}\sin\theta}{\cos\theta-\mathrm{i}\sin\theta})$ <br>
 $=\boxed{\cos\theta-\mathrm{i}\sin\theta}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Prove that $\cos3\theta = \cos^3\theta-3\cos\theta\sin^2\theta$
 <div class = "answer">
@@ -348,6 +362,7 @@ $\mathrm{arg}(4-4\mathrm{i})=arctan(\frac{-4}{4})$ <br>
 $\Rightarrow\boxed{-\frac{\pi}{4}}$ alternatively, $\boxed{\frac{7\pi}{4}}$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Solve the equation $z^5 = 4-4\mathrm{i}$, expressing your answers in the exponential form.
 
@@ -409,6 +424,7 @@ Therefore solutions in exponential are:
 $\boxed{z_1=\sqrt{2}e^{\frac{-17\pi}{20}i}}$, $\boxed{z_2=\sqrt{2}e^{\frac{-9\pi}{20}i}}$, $\boxed{z_3=\sqrt{2}e^{\frac{-\pi}{20}i}}$, $\boxed{z_4=\sqrt{2}e^{\frac{7\pi}{20}i}}$, and $\boxed{z_5=\sqrt{2}e^{\frac{3\pi}{4}i}}$
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) State the solution, to part (b), with the smallest positive argument and find the real part of it (in polar form).
 <div class = "answer">
