@@ -48,16 +48,19 @@ From the following linear transformations, $T:\mathbb{R} \rightarrow \mathbb{R}$
 ![1a](04A-linear-transforms-media/1a.png)
 
 <div class = "answer">$T(a)=3a$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)
 
 ![1b](04A-linear-transforms-media/1b.png)
 <div class = "answer">$T(a)=-a/2$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c)
 
 ![1c](04A-linear-transforms-media/1c.png)
 <div class = "answer">$T(a)=3a/2$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d)
 
@@ -74,16 +77,19 @@ The following graphs show pairs of vectors where the vector $\vec{a}$ is linearl
 
 ![2a](04A-linear-transforms-media/2a.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}1&0\\0&-3\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)
 
 ![2b](04A-linear-transforms-media/2b.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-1&0\\0&1\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c)
 
 ![2c](04A-linear-transforms-media/2c.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-2&0\\0&-3/2\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
 (d)
@@ -103,6 +109,7 @@ The following graphs show pairs of vectors where the vector $\vec{a}$ is linearl
 ![3a](04A-linear-transforms-media/3a.png)
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-1&0\\0&-1\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$ <br>
 $\Rightarrow{}\quad \cos^{-1}(-1)=180^{\circ}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)
 
@@ -122,6 +129,7 @@ $\Rightarrow{}\quad \begin{pmatrix}0.5&0.866\\-0.866&0.5\end{pmatrix} \begin{pma
 $\Rightarrow{}\quad$ <br>
 <img src = "04A-linear-transforms-media/4a.png"> 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\vec{a}=\begin{pmatrix}2 \newline 3\end{pmatrix}$ and $\theta=45^{\circ}$
 <div class = "answer">$R(45^{\circ})=\begin{pmatrix}0.7071&0.7071\\-0.7071&0.7071\end{pmatrix}$ <br>
@@ -140,41 +148,49 @@ From the linear transformations represented in the following figures, obtain the
 
 <img src = "04A-linear-transforms-media/5a.png">
 <div class = "answer">$A = \begin{pmatrix}2&0\\0&1\end{pmatrix}$ and $\det(A) = 2$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b)
 
 <img src = "04A-linear-transforms-media/5b.png">
 <div class = "answer">$A = \begin{pmatrix}1&2\\0&1\end{pmatrix}$ and $\det(A) = 1$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c)
 
 <img src = "04A-linear-transforms-media/5c.png">
 <div class = "answer">$A = \begin{pmatrix}2&0\\0&2\end{pmatrix}$ and $\det(A) = 4$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d)
 
 <img src = "04A-linear-transforms-media/5d.png">
 <div class = "answer">$A = \begin{pmatrix}2&-1\\0&2\end{pmatrix}$ and $\det(A) = 4$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e)
 
 <img src = "04A-linear-transforms-media/5e.png">
 <div class = "answer">$A = \begin{pmatrix}0.5&0\\-0.5&0.5\end{pmatrix}$ and $\det(A) = 0.25$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (f)
 
 <img src = "04A-linear-transforms-media/5f.png">
 <div class = "answer">$A = \begin{pmatrix}0&-2\\2&0\end{pmatrix}$ and $\det(A) = 4$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (g)
 
 <img src = "04A-linear-transforms-media/5g.png">
 <div class = "answer">$A = \begin{pmatrix}0&2\\-2&0\end{pmatrix}$ and $\det(A) = 4$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (h)
 
 <img src = "04A-linear-transforms-media/5h.png">
 <div class = "answer">$A = \begin{pmatrix}2&0\\0&-2\end{pmatrix}$ and $\det(A) = -4$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (i)
 
@@ -198,6 +214,7 @@ $\Rightarrow{}\quad \begin{pmatrix}x\\y\end{pmatrix} = A^{-1}b = \begin{pmatrix}
 
 <img src = "04A-linear-transforms-media/6aA.png">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) $\begin{pmatrix}2&4\\\ 1&3\end{pmatrix} \begin{pmatrix}x\\\ y\end{pmatrix} = \begin{pmatrix}6\\\ 12\end{pmatrix}$
 
@@ -231,6 +248,7 @@ X = rotx(38.4)
 </div>
 (note: if this is your first time using this tool you will be prompted to install an add-on, follow the instructions to do so)
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Vector $\textbf{M}$ is mapped to vector $\textbf{T}$ by a rotation of 96.2$^\circ$ about the x axis, followed by a rotation of 112.7$^\circ$
 about the y axis. Generate vector $\textbf{T}$ given that: <br>
@@ -266,6 +284,7 @@ The following figure shows a square in $\mathbb{R}^2$, marked with a circle and 
 $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 <div class = "answer"><img src = "04A-linear-transforms-media/8aA.png"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
 <div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
@@ -285,6 +304,7 @@ $\Rightarrow{} \frac{21}{3} = \boxed{\text{det}(\textbf{M}) = 7}$<br>
 $\Rightarrow{} 8-x=7$<br>
 $\Rightarrow{} \boxed{x=1}$
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) **(Optional)** Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
 <div markdown = "1">
