@@ -137,9 +137,9 @@ A pair of masses, $m_1$ and $m_2$, are coupled to each other via a spring, $k_{\
 Considering that $m_2=3m_1=3\text{ kg}$ and $k_{\textrm{c}}=2k_1=3k_2=6\text{ N/m}$, we can now write down the two governing equations<br><br>
 
 $$\begin{align}
-	m_1\ddot{x}_1+(k_1+k_{\textrm{c}})x_1-k_{\textrm{c}}x_2=&0\qquad\xRightarrow{\text{sub in values}}\qquad \ddot{x}_1+9x_1-6x_2=0
+	m_1\ddot{x}_1+(k_1+k_{\textrm{c}})x_1-k_{\textrm{c}}x_2=&0\qquad\Rightarrow{\text{sub in values}}\qquad \ddot{x}_1+9x_1-6x_2=0
 	\\
-	m_2\ddot{x}_2+(k_2+k_{\textrm{c}})x_2-k_{\textrm{c}}x_1=&0\qquad\xRightarrow{\text{sub in values}}\qquad  3\ddot{x}_2+8x_2-6x_1=0
+	m_2\ddot{x}_2+(k_2+k_{\textrm{c}})x_2-k_{\textrm{c}}x_1=&0\qquad\Rightarrow{\text{sub in values}}\qquad  3\ddot{x}_2+8x_2-6x_1=0
 \end{align}$$
 
 <br><br>
@@ -183,7 +183,7 @@ x_1\\x_2
 =0$$
 
 <br><br>
-which gives the eigenvector $\textbf{x}_1=\begin{bmatrix}-3.93\\1\end{bmatrix}$. Similarly, for the second eigenvalue, we get the eigenvector $\textbf{x}_2=\begin{bmatrix}0.76\\1\end{bmatrix}$, but what do this vectors mean?<br><br>
+which gives the eigenvector $\textbf{x}_1=\begin{bmatrix}-3.93 \newline 1\end{bmatrix}$. Similarly, for the second eigenvalue, we get the eigenvector $\textbf{x}_2=\begin{bmatrix}0.76 \newline 1\end{bmatrix}$, but what do this vectors mean?<br><br>
 
 Delightfully, it tells us amplitudes of oscillation of the two masses at that frequency! So, at $\omega=3.24 \text{s}^{-1}$,  the first mass will not only be moving more than the second mass, but also in the opposite direction (ie 180$^\circ$ out of phase); and then at $\omega=1.07$ s$^{-1}$, the first mass will have a smaller amplitude than the second, but this time they will be moving in the same direction (ie in phase with each other).<br><br>
 
