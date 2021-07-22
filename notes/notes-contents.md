@@ -82,6 +82,13 @@
 * __[9.4 ODEs in physical systems](9-ODE#physical-systems)__
 * __[9.5 ODE's summary](9-ODE#ode-summary)__
 
+### Chapter 10 - [Coupled Oscillators](10-coupled-oscillators)
+* __[10.1 Sum of forces](10-coupled-oscillators#sum-of-forces)__
+* __[10.2 Natural frequencies and Eigenmodes](10-coupled-oscillators#natural-and-eigen)__
+* __[10.3 Example system](10-coupled-oscillators#example-system)__
+* __[10.4 Generalising](10-coupled-oscillators#generalising)__
+* __[10.5 Mind blown](10-coupled-oscillators#mind-blown)__
+
 <br>
 
 ## About the Course
