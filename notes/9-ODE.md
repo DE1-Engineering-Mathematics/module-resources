@@ -209,7 +209,7 @@ x& =A\sin(\omega_0 t)+B\cos(\omega_0 t) , \qquad\\
 \end{align}$$
 
 <br><br>
-Therefore, $\omega_0^2=\frac{{\color{green}k}}{{\color{red}m}}$, and so $\omega_0=\sqrt{\frac{{\color{green}k}}{{\color{red}m}}}$. Notice that based on this definition $\omega_0$ has the units of 1/time, so we can think of it as a rate or frequency. Referring back to our equations, we can now see that the $\omega_0$ term is a kind of oscillation rate for our trolley system. But how do we find $A$ and $B$?<br><br>
+Therefore, $\omega_0^2=\frac{\color{green}k}{\color{red}m}$, and so $\omega_0=\sqrt{\frac{\color{green}k}{\color{red}m}}$. Notice that based on this definition $\omega_0$ has the units of 1/time, so we can think of it as a rate or frequency. Referring back to our equations, we can now see that the $\omega_0$ term is a kind of oscillation rate for our trolley system. But how do we find $A$ and $B$?<br><br>
 
 
 ### 9.4.2 Initial Conditions
