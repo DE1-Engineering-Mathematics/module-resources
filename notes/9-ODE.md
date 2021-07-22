@@ -221,7 +221,7 @@ In this idealised system, with no friction/air resistance/energy loss, if we mov
 
 By considering these two initial conditions, we can now write down our particular solution as $x=x_0\cos(\omega_0 t)$, where $\omega_0=\sqrt{\frac{\color{green}k}{\color{red}m}}$. <br><br>
  
- Physically, this means that our trolley is oscillating with an amplitude of $x_0$ and a frequency of $f=\frac{\omega_0}{2\pi}=\frac{\sqrt{{\color{green}k}/{\color{red}m}}}{2\pi}$, which we refer to as the *resonant* or *characteristic* or *natural* frequency (whereas $\omega_0$ is called the characteristic *angular frequency*). This means that every $T=\frac{2\pi}{\sqrt{{\color{green}k}/{\color{red}m}}}$ seconds, our trolley returns to the position from which we originally released it (we call $t$ the characteristic time period). As you can see from this expression (and hopefully from the imaginary trolley in your mind), increasing the mass of the trolley or reducing the stiffness of the spring both have the effect of increasing the time period of the oscillation. <br><br>
+ Physically, this means that our trolley is oscillating with an amplitude of $x_0$ and a frequency of $f=\frac{\omega_0}{2\pi}=\frac{\sqrt{\color{green}k/\color{red}m}}{2\pi}$, which we refer to as the *resonant* or *characteristic* or *natural* frequency (whereas $\omega_0$ is called the characteristic *angular frequency*). This means that every $T=\frac{2\pi}{\sqrt{\color{green}k/\color{red}m}}$ seconds, our trolley returns to the position from which we originally released it (we call $t$ the characteristic time period). As you can see from this expression (and hopefully from the imaginary trolley in your mind), increasing the mass of the trolley or reducing the stiffness of the spring both have the effect of increasing the time period of the oscillation. <br><br>
  
  We call these trolley/spring systems 'simple harmonic oscillators' and say that they perform **simple harmonic motion** (SHM). Without energy loss, this system must oscillate forever. <br><br>
  
@@ -235,9 +235,9 @@ but give it an initial speed, $\dot{x}|_{t=0}\neq0$ (the vertical bar notation '
 
 Now we are going to add another component to the system called a *damper*, which causes a force negatively proportional to the speed, a bit like wind resistance. You can see a simplified representation of a 'dashpot damper' in the adjacent figure. The design imagines a sealed tube containing a viscous fluid and a loosely fitting piston. As you move the trolley, the fluid has to squeeze around the piston, which would heat the fluid and dissipate energy (and we can think about {\color{cyan}$c$} as being a related to the fluid's 'viscosity'). <br><br>
 
-Unlike our SHM system from the previous section, we now have a means for the trolley to lose energy. This kind of system is therefore referred to as 'damped' and it has the following governing equation, where {\color{cyan}c} is the damping constant:<br><br>
+Unlike our SHM system from the previous section, we now have a means for the trolley to lose energy. This kind of system is therefore referred to as 'damped' and it has the following governing equation, where ${\color{cyan}c}$ is the damping constant:<br><br>
 
-$${\color{red}m}\ddot{x}+{\color{cyan}c}\dot{x}+{\color{green}k}x=0$$
+$$\color{red}m\ddot{x}+\color{cyan}c\dot{x}+\color{green}kx=0$$
 
 <br><br>
 This will be the first time that we attempt to tackle an ODE with three terms. Fortunately, there is a well defined method for this. We start be re-writing the equation replacing the acceleration/speed/position terms as follows:<br><br>
