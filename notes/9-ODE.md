@@ -219,7 +219,7 @@ In this idealised system, with no friction/air resistance/energy loss, if we mov
  
 <img align="right" src="figs/9.4-initial.svg" width="315"/> 
 
-By considering these two initial conditions, we can now write down our particular solution as $x=x_0\cos(\omega_0 t)$, where $\omega_0=\sqrt{\frac{{\color{green}k}}{{\color{red}m}}}$. <br><br>
+By considering these two initial conditions, we can now write down our particular solution as $x=x_0\cos(\omega_0 t)$, where $\omega_0=\sqrt{\frac{\color{green}k}{\color{red}m}}$. <br><br>
  
  Physically, this means that our trolley is oscillating with an amplitude of $x_0$ and a frequency of $f=\frac{\omega_0}{2\pi}=\frac{\sqrt{{\color{green}k}/{\color{red}m}}}{2\pi}$, which we refer to as the *resonant* or *characteristic* or *natural* frequency (whereas $\omega_0$ is called the characteristic *angular frequency*). This means that every $T=\frac{2\pi}{\sqrt{{\color{green}k}/{\color{red}m}}}$ seconds, our trolley returns to the position from which we originally released it (we call $t$ the characteristic time period). As you can see from this expression (and hopefully from the imaginary trolley in your mind), increasing the mass of the trolley or reducing the stiffness of the spring both have the effect of increasing the time period of the oscillation. <br><br>
  
