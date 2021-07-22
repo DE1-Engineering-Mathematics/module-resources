@@ -207,7 +207,7 @@ $$\boxed{4x-y+6z+43=0}$$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(c) Find the angle $\theta$ between two lines in the x, y-plane, if they are given by following equations: $$3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$$
+(c) Find the angle $\theta$ between two lines in the x, y-plane, given by the equations: $3x-4y+1=0$ and $2x+y-5=0$
 <div class = "answer">Normal vector to the lines are, respectively, $\vec{n_1} = 
 (3 , -4)$  and $\vec{n_2}=(2,1)$. 
 Therefore,
@@ -595,7 +595,7 @@ $ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km}
 
 ## Challenging Questions
 ### Problem 12.
-Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
+Prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
 <div class = "answer">
