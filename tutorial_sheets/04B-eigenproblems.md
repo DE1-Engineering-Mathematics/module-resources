@@ -40,7 +40,7 @@
 # Problem sheet
 ## Essential Questions
 ### Problem 1.
-Find the eigenvalues and the associated eigenvectors for the transformations represented in the following figures. _(NB. The red vector shown is the result of transforming the blue vector. Be careful with the difference between the two arrowheads )_
+Find the eigenvalues and the associated eigenvectors for the transformations represented in the following figures. _(Note: The red vector shown is the result of transforming the blue vector. Be careful with the difference between the two arrowheads )_
 
 (a)
 
@@ -87,10 +87,9 @@ Find the eigenvalues and the associated eigenvectors for the transformations rep
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
-* [A quick trick](https://www.youtube.com/watch?v=e50Bj7jn9IQ)  for finding the eigenvalues of a 2x2 matrix just by looking at it. This is a good way for double checking your answer.
-<br><br>
 Find the eigenvalues and the associated eigenvectors of the matrices:
-
+[A quick trick](https://www.youtube.com/watch?v=e50Bj7jn9IQ)  for finding the eigenvalues of a 2x2 matrix just by looking at it. This is a good way for double checking your answer. Remember what you learned last week with Matlab - it'll make your life a lot easier...
+<br><br>
 (a) $\begin{pmatrix}1&3\\\ 2&2\end{pmatrix}$
 <div class = "answer">$\Rightarrow{}\quad B=\begin{pmatrix}1&3\\2&2\end{pmatrix} - \lambda\begin{pmatrix}1&0\\0&1\end{pmatrix} \quad\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda & 3\\2 & 2 - \lambda\end{pmatrix}$
 
@@ -332,7 +331,7 @@ $\Rightarrow{}\quad$ eigenvalues $\boxed{\lambda_2 = 2, \quad \lambda_3 = 3}$</d
 
 ### Problem 5.
 Given that $\begin{pmatrix}-2\\\ 1\\\ k\end{pmatrix}$ is an eigenvector of the matrix $\begin{pmatrix}1&2&-1\\\ 1&0&1\\\ 4&-4&5\end{pmatrix}$
-find $k$ and the corresponding eigenvalue
+find $k$ and the corresponding eigenvalue.
 <div class = "answer">$\Rightarrow{}\quad B = \begin{pmatrix}1-\lambda&2&-1\\1&-\lambda&1\\4&-4&5-\lambda\end{pmatrix}
 \quad\Rightarrow{}\quad det(B) = p(\lambda) = \lambda^3 -6\lambda^2 +11\lambda -6 = 0$
 <br>
@@ -396,7 +395,7 @@ For $\boxed{\lambda_3 = 3, (1,1,1)^T.}$</div>
 ### Problem 7.
 This is the exam question from the Linear Transforms tutorial sheet with an extra part on eigenvectors and eigenvalues. The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
 
-(a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross)
+(a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross).
 
 $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -486,10 +485,12 @@ where $D$ is a diagonal $n \times n$ matrix with the eigenvalues of $A$ as its e
 so that $P^{-1}AP = \begin{pmatrix}-1&0&0\\0&i&0\\0&0&-i\end{pmatrix}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+----------------------------------------------
+
 ### Problem 10.
 Given that for a $(2\times2)$ matrix $M$, one of the eigenvalue  $\lambda_1=8$ and its corresponding eigenvector $v_1=(1,1)$, it is also known that matrix $M$ changes point $(-1,2)$ to $(-2,4)$.
 <br><br>
-(a)Find matrix $M$.
+(a) Find matrix $M$.
 <div class = "answer">
 Let matrix $M$ be $M = \begin{pmatrix}a&b\\\ c&d\end{pmatrix}$<br><br>
 $\Rightarrow{}\quad \begin{pmatrix}a&b\\\ c&d\end{pmatrix}\begin{pmatrix}1\\\ 1\end{pmatrix} = 8\begin{pmatrix}1\\\ 1\end{pmatrix}<br>
@@ -517,9 +518,8 @@ $\quad\Rightarrow{}\quad
     \boxed{M=\begin{pmatrix}6&2\\\ 4&4\end{pmatrix}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
-<br>
 
-(b)Find $\lambda_2$ and $v_2$.
+(b) Find $\lambda_2$ and $v_2$.
 <div class = "answer">
 $\Rightarrow{}\quad$ from (a) we know $f(\lambda) =\begin{pmatrix}\lambda-6&-2\\\ -4&\lambda-4\end{pmatrix}$
 <br><br>
@@ -534,7 +534,7 @@ $\Rightarrow{}\quad \boxed{v_2 = \quad \begin{pmatrix} 2 \\ 1 \end{pmatrix}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 <br>
-(c)For line $l: x-y+1=0$, find $l'$ after transformed by matrix $M$.
+(c) For line $l: x-y+1=0$, find $l'$ after transformed by matrix $M$.
 <br><br>
 <div class = "answer">
 Let $(x,y)$ be a point on line $l$, and $(x',y')$ is point $(x,y)$ after transformed by matrix $M$.<br><br>
