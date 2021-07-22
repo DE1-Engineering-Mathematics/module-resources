@@ -15,8 +15,6 @@
 
 # Normal Distribution Tutorial Sheet, #16
 
-This particular tutorial sheet is short. Do not be alarmed! It reflects the low difficulty of the topic. 
-
 ### Learning Outcomes
 * Use the general normal distribution equation to determine probabilities
 * Sketch bell-curves noting standard deviations
@@ -34,10 +32,6 @@ This particular tutorial sheet is short. Do not be alarmed! It reflects the low 
 ## Software 
 
 * [WolframAlpha](https://onlinestatbook.com/2/calculators/normal_dist.html) : A nifty probability calculator with visualisations on the graph itself.
-
-In the answers, some wolfram alpha pages are linked in
-[blue](https://www.youtube.com/watch?v=dQw4w9WgXcQ) like this
-<br><br>
 
 
 # Problem sheet
@@ -246,6 +240,8 @@ $ \Rightarrow{} \boxed{ \alpha=1.7m }$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
+----------------------------------------------------
+
 ## Exam Questions
 
 ### Problem 5.
@@ -312,6 +308,9 @@ $ \Rightarrow{} \boxed{1\ \text{ machine}}$ <br>
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+ <br><br>
+This particular tutorial sheet was short. Do not be alarmed! It reflects the low difficulty of the topic.
+<br>
 
 -----------------
 
