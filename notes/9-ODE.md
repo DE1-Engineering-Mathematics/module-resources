@@ -249,10 +249,10 @@ We now have what looks like quadratic equation in $\lambda$, referred to as the 
 
 $$\lambda=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 \qquad\xRightarrow{\text{substituting}}\qquad
-\lambda=\frac{{-\color{cyan}c}\pm\sqrt{{\color{cyan}c}^2-4\color{red}m\color{green}k}}{2\color{red}m}$$
+\lambda=\frac{-{\color{cyan}c}\pm\sqrt{ {\color{cyan}c} ^2-4\color{red}m\color{green}k}}{2\color{red}m}$$
 
 <br><br>
-This is where things get interesting. The value of our discriminant (${\color{cyan}c}^2-4{\color{red}m}{\color{green}k}$) tells us what kind of roots to expect and, assuming ${\color{red}m}$, ${\color{cyan}c}$ and ${\color{green}k}$ are all positive (as they would be in nature), there are three possible scenarios. <br><br>
+This is where things get interesting. The value of our discriminant ($\color{cyan}c^2-4\color{red}m\color{green}k$) tells us what kind of roots to expect and, assuming ${\color{red}m}$, $\color{cyan}c$ and $\color{green}k$ are all positive (as they would be in nature), there are three possible scenarios. <br><br>
 
 **1. Two complex roots** (${\color{cyan}c}^2-4{\color{red}m}{\color{green}k}<0$): 'Underdamped' <br><br>
 
