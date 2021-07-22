@@ -324,6 +324,7 @@ We see from the graph that our polynomial (in blue) is a good approximation for 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-----------------------------------------------------------------------------------
 
 ### Problem 8.
 The first five terms of the Maclaurin series of function$f(x)=\frac{sin(\pi x)}{x}$ are
@@ -342,7 +343,7 @@ $\quad \Rightarrow{} \boxed{(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-<br><br>
+<br>
 (c)Add sketches of the zeroth, second, and fourth order truncated series approximations to your graph.
 <div class = "answer">
 <iframe src="https://www.desmos.com/calculator/g5jrscawf9?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -368,6 +369,8 @@ $\Rightarrow \quad \frac{1}{4}\left [ 1-\frac{x-1}{2}+\frac{\left ( x-1 \right )
 $\Rightarrow \quad \boxed{\sum_{n=0}^{\infty }\left ( -1 \right )^{n}\left ( \frac{1}{2^{n+2}} - \frac{1}{2^{2n+3}}\right )\left ( x-1 \right )^{n}} \quad $ for$ \quad \boxed{ -1< x < 3}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------------------------------------------------------
 
 ### Problem 10.
 (a)  Write the Maclaurin series expansion of the function up to the $4^{th}$ power:
