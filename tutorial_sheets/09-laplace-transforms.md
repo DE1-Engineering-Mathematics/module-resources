@@ -198,7 +198,6 @@ $\Rightarrow{}\quad \ \boxed{k(t)=-\frac{7}{25}{e^{-3t}}+\frac{7}{25}{e^{2t}}+\f
 
 -----------------------------------------------------------------------------------
 
-## Exam Style Questions
 ### Problem 4.
 Solve the following ODE function using Laplace Transform:
 
@@ -249,6 +248,8 @@ $\boxed{y(t)=\frac{1}{8}-{\frac{1}{8}}{e^{-2t}{\cos2t}}-\frac{1}{8}{e^{-2t}{\sin
 
 -----------------------------------------------------------
 
+## Exam Style Questions
+
 ### Problem 5.
 Solve the following ODE function using Laplace Transform:
 
@@ -293,7 +294,7 @@ $\boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 
 ### Problem 6 
 
-The flow of water is represented by $av''+bv'+cv = P(t)$ where $P(t)$ is the pressure applied to the system.
+The flow of water is represented by $av"+bv'+cv = P(t)$ where $P(t)$ is the pressure applied to the system.
 
 (a) A pressure of $e^{-t}$ is applied, and at $t = 0$, the displaced volume is -1 and the flow is 0. Given $a = 0, b=1$ and $c = -1$, find an explicit formula for the laplace transform of the volume written in it's simplest form.
 
