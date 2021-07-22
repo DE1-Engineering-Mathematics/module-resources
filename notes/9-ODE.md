@@ -263,9 +263,9 @@ In this scenario, the trolley will still oscillate, but the damper has the effec
 $$x=e^{-\gamma t}(A\sin(\omega_d t))+B\cos(\omega_d t))$$
 
 <br><br>
-where $\gamma=\frac{{\color{cyan}c}}{2{\color{red}m}}$ is the damping coefficient, and $\omega_d=\sqrt{\omega_0^2-\gamma^2}$ is the damped natural frequency. The damped natural frequency will always be lower than the undamped natural frequency. As before, in order to find $A$ and $B$, we need to know the initial conditions of the system (\ie displacements and velocities). <br><br>
+where $\gamma=\frac{\color{cyan}c}{2\color{red}m}$ is the damping coefficient, and $\omega_d=\sqrt{\omega_0^2-\gamma^2}$ is the damped natural frequency. The damped natural frequency will always be lower than the undamped natural frequency. As before, in order to find $A$ and $B$, we need to know the initial conditions of the system (\ie displacements and velocities). <br><br>
 
-**2. Two real roots** (${\color{cyan}c}^2-4{\color{red}m}{\color{green}k}>0$): 'Overdamped'<br><br>
+**2. Two real roots** ($\color{cyan}c ^2-4\color{red}m\color{green}k>0$): 'Overdamped'<br><br>
 
 <img align="right" src="figs/9.4-over.svg" width="315"/>
 
@@ -276,7 +276,7 @@ $$x=Ae^{\lambda_1 t}+Be^{\lambda_2 t}$$
 <br><br>
 where $\lambda_1$ and $\lambda_2$ are the roots of the characteristic equation (which will always be negative...).<br><br>
 
-**3. One real root** (${\color{cyan}c}^2-4{\color{red}m}{\color{green}k}=0$): 'Critical damping'<br><br>
+**3. One real root** ($\color{cyan}c^2-4\color{red}}\color{green}k=0$): 'Critical damping'<br><br>
 
 <img align="right" src="figs/9.4-critical.svg" width="315"/>
 
@@ -317,7 +317,7 @@ $$I\ddot{V}+\beta\dot{V}+\alpha V=P(t)$$
 
 <img align="right" src="figs/Hydraulic.svg" width="150"/>
 
-where $I$ is the flow specific moment of inertia of the fly wheel; $\beta$ is a viscous constriction factor; $\alpha$ is a volume specific membrane stiffness; $v$ is the volume of fluid displaced; $P$ is the pressure drop across the system; and $t$ is time... but even if you didn't know what these terms meant, you could still solve this ODE and discover things about this system. It's important to remember that all of the physical systems discussed in this chapter are only \textit{approximately} described using our simple ODE and lots of assumptions need to be valid for this approximation to be useful... but useful they are! <br><br>
+where $I$ is the flow specific moment of inertia of the fly wheel; $\beta$ is a viscous constriction factor; $\alpha$ is a volume specific membrane stiffness; $v$ is the volume of fluid displaced; $P$ is the pressure drop across the system; and $t$ is time... but even if you didn't know what these terms meant, you could still solve this ODE and discover things about this system. It's important to remember that all of the physical systems discussed in this chapter are only *approximately* described using our simple ODE and lots of assumptions need to be valid for this approximation to be useful... but useful they are! <br><br>
 
 
 ## <a id="ode-summary"></a>9.5 ODE summary
