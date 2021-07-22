@@ -191,7 +191,7 @@ b * a
 $\Rightarrow{} \quad \boxed{\begin{pmatrix}-2&2\\4&-1\end{pmatrix}}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(i) $det A$
+(i) $det (A)$
 <div class = "answer">$\Rightarrow{}\quad \begin{vmatrix}1&1\\2&-1\end{vmatrix}$
 $\quad\Rightarrow{}\quad 1(-1)-2(1) \ \ \Rightarrow{}\ \boxed{ -3}$<br>
 Otherwise solving with the Matlab terminal:
@@ -338,20 +338,21 @@ $$\begin{align} 3x + 2y + z &= 10  \newline
 $\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
 \begin{pmatrix}3&2&1\\3&0&5\\2&4&-4\end{pmatrix}^{-1} \ 
 \begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
-$\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
-\begin{pmatrix}5&-3&-2.5\\-5.5&3.5&3\\-3&2&1.5\end{pmatrix} \ 
-\begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
-$\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$
-<br>
-(Finding the inverse with the Matlab terminal):
+
+We find the inverse using the Matlab terminal:
 <div markdown = "1">
 
 ```matlab:Code
 a = [3 2 1 ; 3 0 5 ; 2 4 -4]
 inv(a)
 ```
+</div> <br>
+$\Rightarrow\begin{pmatrix}x\\y\\z\end{pmatrix} = 
+\begin{pmatrix}5&-3&-2.5\\-5.5&3.5&3\\-3&2&1.5\end{pmatrix} \ 
+\begin{pmatrix}10\\6\\2\end{pmatrix}$ <br>
+$\Rightarrow{} \quad\boxed{ x = 27 \\ y = -28 \\ z = -15}$
+<br>
 
-</div>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -684,7 +685,7 @@ $\quad\Rightarrow{}\quad {-x}={-18} \quad\Rightarrow{}\quad \boxed{x = 18}$
 
 ## Exam Style Questions
 ### Problem 11.
-[10 marks] Given the following matrices: 
+Given the following matrices: 
 $A =  \begin{bmatrix} 
     1 \ 2 \ 0  \newline  3 \ 1 \ 0  \newline  5 \ 0 \ 1
     \end{bmatrix}$ 
