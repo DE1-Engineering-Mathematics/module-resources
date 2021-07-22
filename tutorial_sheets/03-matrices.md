@@ -697,7 +697,7 @@ $C = \begin{bmatrix} \
     \end{bmatrix}.$
 
 (a) Find the determinant of $A$
-<div class = "answer">$detA= 1(1)-2(3)+0 = \boxed{-5}$ [1 mark]<br>
+<div class = "answer">$detA= 1(1)-2(3)+0 = \boxed{-5}$ <br>
 Matlab:
 <div markdown = "1">
 
@@ -713,7 +713,7 @@ det(a)
 <div class = "answer">
 $A^{-1}|A| = \boxed{\begin{bmatrix}
 1 & -2 & 0 \\ -3 & 1 & 0 \\ -5 & 10 & -5
-\end{bmatrix}}$ [3 marks]<br>
+\end{bmatrix}}$ <br>
 Matlab:
 <div markdown = "1">
 
@@ -730,7 +730,7 @@ x * y
 <div class = "answer">
 $(A^{T})^{-1} = (A^{-1})^T = \boxed{\frac{1}{-5} \begin{bmatrix}
 1 & -3 & -5 \\ -2 & 1 & 10 \\ 0 & 0 & -5
-\end{bmatrix}}$ [2 marks]<br>
+\end{bmatrix}}$<br>
 Matlab:
 <div markdown = "1">
 
@@ -759,7 +759,7 @@ b * a
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (e) What are the dimensions of $D$ in the following operation? $D = ((BA)^T B - A)C^T$
-<div class = "answer">$[(2\times3)(3\times3)^T(2\times3)-(3\times3)](3\times1)=\boxed{(3\times1)}$ [2 marks]</div>
+<div class = "answer">$[(2\times3)(3\times3)^T(2\times3)-(3\times3)](3\times1)=\boxed{(3\times1)}$ </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------------------------------------------------------
