@@ -225,7 +225,7 @@ By considering these two initial conditions, we can now write down our particula
  
  We call these trolley/spring systems 'simple harmonic oscillators' and say that they perform **simple harmonic motion** (SHM). Without energy loss, this system must oscillate forever. <br><br>
  
-Now imagine a slightly different scenario, where we take the same SHM system, but change the initial conditions. This time, rather than giving the trolley an initial displacement, we instead start it in the middle $(x\vert_{t=0}=0)$ , but give it an initial speed, $\dot{x}\vert_{t=0}\neq0$ (the vertical bar notation '|' means 'such that' or 'when', ie $x$ when $t=0$). Working through the analysis in the same way as the above, but using the two new initial conditions that $x=0$ and $\dot{x}=v_0$ when $t=0$, we would now recover the particular solution $x=\frac{v_0}{\omega_0}\sin(\omega_0 t)$. Make sure you can work this through on your own before reading on.
+Now imagine a slightly different scenario, where we take the same SHM system, but change the initial conditions. This time, rather than giving the trolley an initial displacement, we instead start it in the middle $(x\vert_{t=0}=0)$ , but give it an initial speed, $\dot{x}\vert_{t=0}\neq0$ (the vertical bar notation '$\vert$' means 'such that' or 'when', ie $x$ when $t=0$). Working through the analysis in the same way as the above, but using the two new initial conditions that $x=0$ and $\dot{x}=v_0$ when $t=0$, we would now recover the particular solution $x=\frac{v_0}{\omega_0}\sin(\omega_0 t)$. Make sure you can work this through on your own before reading on.
 
 <br><br>
 
