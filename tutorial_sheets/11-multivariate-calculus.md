@@ -92,7 +92,26 @@ $$
 
 -----------------------------------
 
+
 ### Problem 2.
+If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
+
+<div class = "answer">
+Note that by regular differentiation:
+$$
+f'_x(x,y)=\frac{3x^2}{3(x^3+y^3)^{2/3}}
+$$
+
+$$
+\boxed{ f'_x(a,0)=1 }
+$$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
+
+### Problem 3.
 For the function
 $u\left(x,y\right)=\ln⁡(1+xy^2)$,
 show that the second order partial derivative
@@ -130,7 +149,7 @@ $$
 
 ----------------------------------------------------
 
-### Problem 3.
+### Problem 4.
 Find the turning points,
 $[x_0, y_0, f(x_0,y_0)]$,
 for the partial derivatives of the function
@@ -155,7 +174,7 @@ $$ \boxed{ f(\pm \frac{1}{\sqrt{2}}, 0) = \pm \frac{1}{\sqrt{2}} e^{-1/2} }$$
 
 --------------------------------------------------
 
-### Problem 4.
+### Problem 5.
 Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
 
 (a) $\mathbf{x} = \begin{bmatrix}
@@ -240,7 +259,7 @@ $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nab
 
 -----------------------------------
 
-### Problem 5.
+### Problem 6.
 Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following functions: <br>
 (a) $7xy^2+z^4$ 
 <div class = "answer">
@@ -283,9 +302,7 @@ $$ \Rightarrow\quad -y^2\sin(xy)-x^2\sin(xy) + 4 \Rightarrow\quad\boxed{4 - (x^2
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 --------------------------------------------------------
-
-## Exam Style Questions
-### Problem 6.
+### Problem 7.
 Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
 $$ 2\frac{ {\partial{}}^2u}{ {\partial{}x}^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=0 $$
 
@@ -308,32 +325,7 @@ $$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
-
-### Problem 7.
-If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:
-$$ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=0 $$
-
-<div class = "answer">
-Let $x=s^2-t^2$ and $y=t^2-s^2$. Then $g(s,t)=f(x,y)$, and by the chain rule:
-
-<br>
-$$
-\frac{\partial{}g}{\partial{}s}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}s}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}s}=(\frac{\partial{}f}{\partial{}x})(2s)+(\frac{\partial{}f}{\partial{}y})(-2s)
-$$
-
-<br>
-$$
-\frac{\partial{}g}{\partial{}t}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}t}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(-2t)+(\frac{\partial{}f}{\partial{}y})(2t)
-$$
-
-<br>
-$$ \boxed{
-t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
-
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
------------------------------------
+## Exam Style Questions
 
 ### Problem 8.
 Given the expressions, <br>
@@ -360,7 +352,7 @@ $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
 
 ### Problem 9.
 The total differential is defined as, $ df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy $. <br>
-(a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha $. <br>
+Using this expression, find an expression for the partial derivative, $(\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha $. <br>
 Use the identities, $(\frac{\partial{}a}{\partial{}b})_a = 0$ and $(\frac{\partial{}a}{\partial{}a})_b = 1$.
 <div class = "answer">
 Start with:
@@ -375,14 +367,55 @@ $$ (\frac{\partial{}\gamma}{\partial{}\beta}) _ \alpha =\boxed{ -\frac{(\frac{\p
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+----------------------------------------------
 
+### Problem 10.
+The ellipsoid $4x^2+2y^2+z^2=16$ intersects the plane $y=2$ in an ellipse. Find parametric equations for the tangent line to this ellipse at the point (1, 2, 2).
+
+<div class = "answer">
+The key is that since we are looking at the plane $y=2$, the slope is actually just $\frac{\partial{}z}{\partial{}x}$. So, we implicitly differentiate:
+
+First, we need to find a function for $z$:
+
+\begin{align*}
+z^2 &= -4x^2-2y^2+16 
+\newline
+z &= \sqrt{-4x^2-2y^2+16}
+\end{align*}
+
+So we get:
+
+$$ \frac{\partial{}z}{\partial{}x}=\frac{\partial{}}{\partial{}x} \sqrt{-4x^2-2y^2+16} $$
+
+$$ \frac{df(u)}{dx}=\frac{df}{du}.\frac{du}{dx} $$
+
+Let $u=-4x^2-2y^2+16$
+
+$$ \frac{df}{du}=\frac{1}{2\sqrt{u}}\ \ \ \frac{du}{dx}=-8x $$
+
+$$ \frac{\partial{}z}{\partial{}x}=\frac{1}{2\sqrt{u}} (-8x)=\frac{-8x}{2\sqrt{-4x^2-2y^2+16}} $$
+
+Adding the values of x, y; we have:
+
+$$ \frac{\partial{}z}{\partial{}x}=\frac{-8}{2\sqrt{4}}=-2 $$
+
+The tangent line through that point, in the y = 2 plane, is:
+
+$$ z = -2x + 4 $$
+
+To get the parametric equation of the line, take $x = t$:
+
+$$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
 ## Challenging Questions
-### Problem 10.
+### Problem 11.
 For functions $f(u, v)$, $u(x, y)$, and $v(x, y)$,
 calculate the partial derivative $\frac{\partial f}{\partial y}$,
-by direct substitution then the total derivative chain rule. Check that the approaches match.
+by direct substitution then the total derivative chain rule. Check that the approaches match. This question only tests your hand at manual working out, so if you are confident in your understanding, feel free to only do a couple.
 
 
 (a) $ f(u, v) = \sin(u)\exp(-v), 
@@ -540,66 +573,33 @@ $$
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
------------------------------------
 
-### Problem 11.
-If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
-
-<div class = "answer">
-Note that by regular differentiation:
-$$
-f'_x(x,y)=\frac{3x^2}{3(x^3+y^2)^{2/3}}
-$$
-
-$$
-\boxed{ f'_x(a,0)=1 }
-$$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
------------------------------------
-
+--------------------------------------------------
 ### Problem 12.
-The ellipsoid $4x^2+2y^2+z^2=16$ intersects the plane $y=2$ in an ellipse. Find parametric equations for the tangent line to this ellipse at the point (1, 2, 2).
+If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:
+$$ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=0 $$
 
 <div class = "answer">
-The key is that since we are looking at the plane $y=2$, the slope is actually just $\frac{\partial{}z}{\partial{}x}$. So, we implicitly differentiate:
+Let $x=s^2-t^2$ and $y=t^2-s^2$. Then $g(s,t)=f(x,y)$, and by the chain rule:
 
-First, we need to find a function for $z$:
+<br>
+$$
+\frac{\partial{}g}{\partial{}s}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}s}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}s}=(\frac{\partial{}f}{\partial{}x})(2s)+(\frac{\partial{}f}{\partial{}y})(-2s)
+$$
 
-\begin{align*}
-z^2 &= -4x^2-2y^2+16 
-\newline
-z &= \sqrt{-4x^2-2y^2+16}
-\end{align*}
+<br>
+$$
+\frac{\partial{}g}{\partial{}t}=\frac{\partial{}f}{\partial{}x}\frac{\partial{}x}{\partial{}t}+\frac{\partial{}f}{\partial{}y}\frac{\partial{}y}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(-2t)+(\frac{\partial{}f}{\partial{}y})(2t)
+$$
 
-So we get:
+<br>
+$$ \boxed{
+t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partial{}f}{\partial{}x})(2st)+(\frac{\partial{}f}{\partial{}y})(-2st)+(\frac{\partial{}f}{\partial{}x})(-2st)+(\frac{\partial{}f}{\partial{}y})(2st)=0 }$$
 
-$$ \frac{\partial{}z}{\partial{}x}=\frac{\partial{}}{\partial{}x} \sqrt{-4x^2-2y^2+16} $$
-
-$$ \frac{df(u)}{dx}=\frac{df}{du}.\frac{du}{dx} $$
-
-Let $u=-4x^2-2y^2+16$
-
-$$ \frac{df}{du}=\frac{1}{2\sqrt{u}}\ \ \ \frac{du}{dx}=-8x $$
-
-$$ \frac{\partial{}z}{\partial{}x}=\frac{1}{2\sqrt{u}} (-8x)=\frac{-8x}{2\sqrt{-4x^2-2y^2+16}} $$
-
-Adding the values of x, y; we have:
-
-$$ \frac{\partial{}z}{\partial{}x}=\frac{-8}{2\sqrt{4}}=-2 $$
-
-The tangent line through that point, in the y = 2 plane, is:
-
-$$ z = -2x + 4 $$
-
-To get the parametric equation of the line, take $x = t$:
-
-$$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 </div>
-
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
 
 ## Answers
 
