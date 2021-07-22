@@ -196,7 +196,7 @@ From the linear transformations represented in the following figures, obtain the
 
 <img src = "04A-linear-transforms-media/5i.png">
 
-NB. Difficult to see exactly in 3D, but each of the scalings are integers.
+Note: It's difficult to see exactly in 3D, but each of the scalings are integers.
 
 <div class = "answer">$A = \begin{pmatrix}2&0&0\\0&1&0\\0&0&3\end{pmatrix}$ and $\det(A) = 6$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -229,7 +229,26 @@ $\Rightarrow{}\quad\boxed{\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}-15\
 
 -----------------------------------
 
-### Problem 7 (Optional).
+## Exam Style Questions
+### Problem 7.
+The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
+<img src = "04A-linear-transforms-media/8a.png">
+
+(a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross) 
+$$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
+
+<div class = "answer"><img src = "04A-linear-transforms-media/8aA.png"></div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
+<div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+-----------------------------------
+
+## Challenging Questions
+
+### Problem 8.
 Read the documentation above, found under 'additional resources', regarding using Matlab to generate rotational transformation matrices.
 
 (a) Generate a 3D transformation matrix, $\textbf{X}$, for a rotation of 38.4$^{\circ}$ about the x axis, giving your answer to 2 d.p.
@@ -246,7 +265,7 @@ X = rotx(38.4)
 ```
 
 </div>
-(note: if this is your first time using this tool you will be prompted to install an add-on, follow the instructions to do so)
+Note: If this is your first time using this tool you will be prompted to install an add-on, follow the instructions to do so.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -275,30 +294,13 @@ T = roty(112.7) * X
 
 -----------------------------------
 
-## Challenging Questions
-### Problem 8.
-The following figure shows a square in $\mathbb{R}^2$, marked with a circle and cross on its perimeter.
-<img src = "04A-linear-transforms-media/8a.png">
-
-(a) On a single plot, sketch the result of applying the following transformation, A, to the square (including the new locations of the circle and cross) 
-$$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
-
-<div class = "answer"><img src = "04A-linear-transforms-media/8aA.png"></div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(b) Assuming the area of the initial square is 4, what is the area of this region after the transformation?
-<div class = "answer">$\det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
------------------------------------
-
 ### Problem 9.
 Matrix $\textbf{M}$ is a transformation matrix.<br>
 $\textbf{M} =  \begin{bmatrix} 
     2 \ 1 \newline x \ 4  
     \end{bmatrix}$
 
-(a) When $\textbf{M}$ is applied to a shape of area 3, the resulting area is 21 find $x$.
+(a) When $\textbf{M}$ is applied to a shape of area 3, the resulting area is 21. Find $x$.
 <div class = "answer">
 $\Rightarrow{} \frac{21}{3} = \boxed{\text{det}(\textbf{M}) = 7}$<br>
 $\Rightarrow{} 8-x=7$<br>
@@ -306,7 +308,7 @@ $\Rightarrow{} \boxed{x=1}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(b) **(Optional)** Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
+(b) Copy and complete the code below, in a new script in Matlab, by adding in the complete transformation matrix. Run the script to visualize the transformation.
 <div markdown = "1">
 
 ```matlab:Code
