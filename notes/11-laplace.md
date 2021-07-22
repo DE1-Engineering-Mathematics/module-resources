@@ -95,7 +95,7 @@ $$\int_{0}^{\infty}a(t)e^{t\ln(x)}\textrm{d}t=A(x)\ ,\quad \ln(x)<0
 <br><br>
 The final thing left for us to do is just to make the expression look more familiar. Currently, we have the function $a(t)$, but more typically, we call functions $f(t)$ (not that this makes any difference, but this is how you will see it written elsewhere). We now have the final expression. <br><br>
 
-$$\textbf{\text{Laplace Transform:}} \qquad\qquad \int_{0}^{\infty}f(t)e^{-st}\textrm{d}t=F(s)\ ,\quad s>0$$
+$$\textbf{Laplace Transform:} \qquad\qquad \int_{0}^{\infty}f(t)e^{-st}\textrm{d}t=F(s)\ ,\quad s>0$$
 
 <br><br>
 
