@@ -118,7 +118,7 @@ $$
 ### Problem 3.
 Vibrations on a guitar string can be modelled by the wave equation,
 $\frac{\partial ^{2}u}{\partial t^{2}}-\frac{\tau\partial ^{2}u}{\rho \partial x^{2}}=0$
-<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, 𝜏 is its tension, and 𝜌 is the linear density of the string.
+<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, 𝜏 is its tension, and 𝜌 is the linear density of the string. This is a clone of the 19-20 progress test.
 <br><br>
 (a) Use separation of variables to produce linear ODEs for the separated parts.
 State any relationship between constants you define.
@@ -148,7 +148,7 @@ Accept complex exponentials, accept equivalent correct forms, accept sum with co
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(c)The string has a length 𝐿, and is fixed at both ends, such that $𝑢(𝑥 = 0, 𝑡) = 𝑢(𝑥 = 𝐿, 𝑡) = 0$. How does this constrain your solutions? Write a general solution of the PDE, $ 𝑢(𝑥, 𝑡)$, that is subject to these constraints.
+(c) The string has a length 𝐿, and is fixed at both ends, such that $𝑢(𝑥 = 0, 𝑡) = 𝑢(𝑥 = 𝐿, 𝑡) = 0$. How does this constrain your solutions? Write a general solution of the PDE, $ 𝑢(𝑥, 𝑡)$, that is subject to these constraints.
 <br><br>
 <div class = "answer">
 Fixed at $𝑥=0$ constrains to $sin𝑘𝑥$ spatial solutions only.
@@ -160,7 +160,7 @@ $\boxed{u\left ( x,t \right )=\left ( A\cos\omega t+B\sin\omega t \right )sin\fr
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(d)Write an expression for the fundamental (lowest) frequency allowed by the string.
+(d) Write an expression for the fundamental (lowest) frequency allowed by the string.
 <br><br>
 <div class = "answer">
 Using $\omega ^{2}=\frac{\tau }{\rho }k^{2}$ and $k=\frac{n\pi }{L}$, then $\omega =\sqrt{\frac{\tau }{\rho }}\frac{n\pi }{L}$
@@ -172,7 +172,7 @@ $\boxed{\omega =\sqrt{\frac{\tau }{\rho }}\frac{\pi }{L}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(e)If a guitar has a neck length of 0.65 m, and a string has linear density 5 g/m, what tension does the string need to be to sound an A note at a frequency $𝜔 = 2𝜋 × 110$ Hz?
+(e) If a guitar has a neck length of 0.65 m, and a string has linear density 5 g/m, what tension does the string need to be to sound an A note at a frequency $𝜔 = 2𝜋 × 110$ Hz?
 <br><br>
 <div class = "answer">Rearrange for 𝜏.
 <br><br>
@@ -184,7 +184,7 @@ $\boxed{\tau =102N}$
 <br><br>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
+-------------------------------------------
 
 ## Challenging Questions
 ### Problem 4.

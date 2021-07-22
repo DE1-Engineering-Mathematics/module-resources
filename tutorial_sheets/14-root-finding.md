@@ -473,7 +473,7 @@ Alternatively you could use Matlab or Python code to solve this.
 ## Challenging Questions
 
 ### Problem 7.
-For those who'd like an extra method, look up the ``Fixed point method'' to find the roots for the following function: 
+For those who'd like an extra method, look up the "Fixed point method" to find the roots for the following function: 
 
 $x-\mathrm{cos}x = 0$ starting from the intervals $0 < x < \frac{\pi}{2}$
 
@@ -510,9 +510,9 @@ The sequence is clearly converging to the root $\boxed{x\approx 0.74}$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------
 
-### Problem 8.*
+### Problem 8 (optional).
 
-*This is an optional question (requires downloading Matlab and it's symbolic toolbox)
+This is an optional question (requires Matlab and it's symbolic toolbox).
 
 The image below shows Matlab script to find a root to the equation $\frac{1}{x} +4 -x^2$ using the Newton Raphson method. Copy the code into Matlab and fill in the code hidden by '*' so that the code works. Use it to find the root (and use the starting point of 1).
 
