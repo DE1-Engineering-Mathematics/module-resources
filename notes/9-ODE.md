@@ -194,7 +194,7 @@ $$-{\color{green}k}x={\color{red}m}a
 {\color{red}m}\ddot{x}+{\color{green}k}x=0
 \qquad\Rightarrow{\text{rearrange}}\qquad
 \ddot{x}=-\frac{\color{green}k}{\color{red}m}x
-\qquad\xRightarrow{\text{re-express}}\qquad
+\qquad\Rightarrow{\text{re-express}}\qquad
 x\propto-\ddot{x}$$
 
 <br><br>
@@ -225,8 +225,7 @@ By considering these two initial conditions, we can now write down our particula
  
  We call these trolley/spring systems 'simple harmonic oscillators' and say that they perform **simple harmonic motion** (SHM). Without energy loss, this system must oscillate forever. <br><br>
  
-Now imagine a slightly different scenario, where we take the same SHM system, but change the initial conditions. This time, rather than giving the trolley an initial displacement, we instead start it in the middle ($x|_{t=0}=0$), 
-but give it an initial speed, $\dot{x}|_{t=0}\neq0$ (the vertical bar notation '$|$' means 'such that' or 'when', ie $x$ when $t=0$). Working through the analysis in the same way as the above, but using the two new initial conditions that $x=0$ and $\dot{x}=v_0$ when $t=0$, we would now recover the particular solution $x=\frac{v_0}{\omega_0}\sin(\omega_0 t)$. Make sure you can work this through on your own before reading on.
+Now imagine a slightly different scenario, where we take the same SHM system, but change the initial conditions. This time, rather than giving the trolley an initial displacement, we instead start it in the middle $(x|_{t=0}=0)$ , but give it an initial speed, $\dot{x}|_{t=0}\neq0$ (the vertical bar notation '|' means 'such that' or 'when', ie $x$ when $t=0$). Working through the analysis in the same way as the above, but using the two new initial conditions that $x=0$ and $\dot{x}=v_0$ when $t=0$, we would now recover the particular solution $x=\frac{v_0}{\omega_0}\sin(\omega_0 t)$. Make sure you can work this through on your own before reading on.
 <br><br>
 
 ### 9.4.3 Damping
@@ -248,7 +247,7 @@ $${\color{red}m}\lambda^2+{\color{cyan}c}\lambda+{\color{green}k}=0$$
 We now have what looks like quadratic equation in $\lambda$, referred to as the characteristic equation. We can find the roots of this equation by using the quadratic formula as usual.<br><br>
 
 $$\lambda=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-\qquad\xRightarrow{\text{substituting}}\qquad
+\qquad\Rightarrow{\text{substituting}}\qquad
 \lambda=\frac{-{\color{cyan}c}\pm\sqrt{ {\color{cyan}c} ^2-4\color{red}m\color{green}k}}{2\color{red}m}$$
 
 <br><br>
@@ -276,7 +275,7 @@ $$x=Ae^{\lambda_1 t}+Be^{\lambda_2 t}$$
 <br><br>
 where $\lambda_1$ and $\lambda_2$ are the roots of the characteristic equation (which will always be negative...).<br><br>
 
-**3. One real root** ($\color{cyan}c^2-4\color{red}}\color{green}k=0$): 'Critical damping'<br><br>
+**3. One real root** ($ {\color{cyan}c} ^2-4\color{red}m\color{green}k=0$): 'Critical damping'<br><br>
 
 <img align="right" src="figs/9.4-critical.svg" width="315"/>
 
