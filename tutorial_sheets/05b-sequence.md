@@ -595,6 +595,7 @@ For a sequence to be increasing: $ S_{n+1} - S_n > 0
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+-----------------------------------------------------------------------------------
 
 ### Problem 12.
 

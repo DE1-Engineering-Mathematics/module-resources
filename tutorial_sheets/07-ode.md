@@ -251,7 +251,6 @@ One of its many outputs will be a ready-made graph:<br>
 
 -----------------------------------
 
-## Challenging Question
 ### Problem 5.
 
 A cargo barge of mass $1000$ tonnes ($=1\times10^6\text{kg}$) is anchored to the seabed by a chain that we can assume to behave elastically. The chain has length $L=10m$ and a cross-sectional area $A$ of $0.0002m^2$. The Young's Modulus $E$ of steel is $210\text{GPa}$, and spring constant $K=\frac{E\times{A}}{L}$.
@@ -263,7 +262,7 @@ $\boxed{=4.2\times10^6}$
 </div>
 <div class = "workingout"><br><br><br><br></div>
 
-The anchored barge is hit by a wave, causing it to oscillate on its chain. The water around the barge has a damping effect on the barge, with a damping coefficient $c=2\times10^6$. The below graph shows the barge's velocity vs time (green) and acceleration vs time (red). The y-intercept of the green line is $-2$ and the red line is $\frac{4}{3}$.
+The anchored barge is hit by a wave, causing it to oscillate on its chain. The water around the barge has a damping effect on the barge, with a damping coefficient $c=2\times10^6$. The below graph shows the barge's velocity vs time (green) and acceleration vs time (red). The y-intercept of the green line is $-2$ and the red line is $\frac{4}{3}$. <br>
 <img src="07-ode-media/question5.png">
 
 (b) State and explain whether this system is under-, over-, or critically damped.

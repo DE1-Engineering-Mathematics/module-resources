@@ -52,6 +52,7 @@ Alex took a test and scored 940. The mean score was 850 with the standard deviat
 <img src = "16-normal-distribution/1a.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) If there were a total of 200 students taking the test, how many would be expected to get a higher mark than Alex?
 <div class  = "answer">
@@ -63,6 +64,7 @@ $\Rightarrow{} 0.18406\times 200=36.81$ students <br>
 
 $\Rightarrow{}$ rounding down: $\boxed{\text{ only 36 students are expected to be higher }}$ <br>
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) If the failing mark for this test was 600, how many of the 200 students would be expected to failed the test? Show this on your diagram
 
@@ -93,6 +95,7 @@ According to a survey from 100 undergraduate students, only 5 students were grad
 <img src = "16-normal-distribution/2a.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Using the given data, find the standard deviation for the graduation grades.
 
@@ -112,7 +115,7 @@ $ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3
 $ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
 
 </div>
-
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 (c) If the failing grade is to be 40%, how many students would possibly fail the course? Show this on the diagram as well.
 
 <div class = "answer">
@@ -125,6 +128,7 @@ $\Rightarrow{} \boxed{ 5 \text{ Students}}$ <br>
 <img src = "16-normal-distribution/2c.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) How many students would be expected to pass the course below 60%? Add this to your diagram.
 <div class = "answer" >
@@ -153,6 +157,7 @@ A Packing plant fills bags with cement. The mean weight of these bags is 50kg wi
 <img src = "16-normal-distribution/3a.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find the probability of bags exceeding 53kg.
 
@@ -161,6 +166,7 @@ $ \Rightarrow{} P(X>53)= 1 - \left[\frac{1}{2} \left( 1 + \text{ erf}\ \left(\fr
 
 $ \Rightarrow{} \boxed{ P(X>53)= 0.23=23 \\ }$ 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find the weight that is exceeded by 82% of the bags.
 
@@ -179,6 +185,7 @@ $ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 
 <img src = "16-normal-distribution/3c.png">
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (d) Three bags were randomly selected. Find the probability that two bags weigh more than 53kg and one weighs less than 53kg.
 <div class = "answer">
@@ -200,6 +207,7 @@ A high-Jumper can clear a jump higher than 1.78m once in every five attempts. Th
 <img src = "16-normal-distribution/4a.png">
 
 </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (b) Find the mean and the standard deviation of the heights the athlete can reach.
 

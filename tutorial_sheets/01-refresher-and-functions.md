@@ -52,7 +52,6 @@ $\Rightarrow \quad A+B+C = 1,\\ \quad C-B = 0,\\ \quad A = 6$ <br>
 $\Rightarrow \quad C = B = \frac{-5}{2}$ <br>
 $\Rightarrow{}\ \ \boxed{ \frac{x^2-6}{x^3-x} = \frac{6}{x} - \frac{5}{2(x+1)} - \frac{5}{2(x-1)}}$
 </div>
-<div class = "answer">Hello!</div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -87,7 +86,8 @@ Obtain the derivative of the function, $f(x)=\frac{x+3}{2-x}$, using the definit
 (a) $f(x)= {x^2}$
 <div class = "answer">$\Rightarrow{}\quad$ using the expression $$f'(x) = \lim_{\Delta x\to0} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$ <br>
 $\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{(x+\Delta x)^2-(x^2)}{\Delta x}$ <br>
-$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{2 * \Delta x * x}{\Delta x} = \boxed{\frac{2x}}$
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{2 * \Delta x * x}{\Delta x}$ <br>
+$= \boxed{2x}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -301,6 +301,8 @@ $\Rightarrow{} \boxed{\log_{20}{17}=\frac{\log_{10}{17}}{\log_{10}20}\approx\fra
 $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.2}{0.5}=2.40}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+---------------------------------------------------------
 
 ## Exam Style Questions
 ### Problem 10.
