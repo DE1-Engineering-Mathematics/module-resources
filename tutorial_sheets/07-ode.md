@@ -37,7 +37,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Find the general solutions of the following differential equations. This is very easy to do with WolframAlpha (or similar), but it's worth understanding how it works.
 
