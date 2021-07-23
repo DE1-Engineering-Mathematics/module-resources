@@ -102,6 +102,13 @@
 * __[12.4 Fourier transform](12-fourier-series#fourier-transform)__
 * __[12.5 Mind blown](12-fourier-series#fourier-mind-blown)__
 
+### Chapter 13 - [Multivariate Calculus](13-multivariate-calculus)
+* __[13.1 Functions of multiple variables](13-multivariate-calculus#functions-of-multiple-variables)__
+* __[13.2 Partial derivatives](13-multivariate-calculus#partial-derivatives)__
+* __[13.3 Stationary points](13-multivariate-calculus#stationary)__
+* __[13.4 Total differentials and derivatives](13-multivariate-calculus#total-differential)__
+* __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
+
 <br>
 
 ## About the Course
