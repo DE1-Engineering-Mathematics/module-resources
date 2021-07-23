@@ -30,7 +30,7 @@
 <br><br><br><br>
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Problem text $f = (x) \Leftarrow \text{this is some math}$
 
@@ -47,7 +47,7 @@ Problem text $f = (x) \Leftarrow \text{this is some math}$
 
 -----------------------------------
 
-## Challenging Questions
+## Extension Questions
 ### Problem n.
 
 ## Answers

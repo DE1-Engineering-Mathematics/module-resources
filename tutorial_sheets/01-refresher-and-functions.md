@@ -40,7 +40,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Separate the following using the method of partial fractions.
 

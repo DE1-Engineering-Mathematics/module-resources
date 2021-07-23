@@ -38,7 +38,7 @@
 <br><br>
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Find the eigenvalues and the associated eigenvectors for the transformations represented in the following figures. _(Note: The red vector shown is the result of transforming the blue vector. Be careful with the difference between the two arrowheads )_
 
@@ -416,7 +416,7 @@ $\boxed{\color{teal}{\lambda = 1.5, \lambda = 2}}$</div>
 <div class = "answer">$det(A) = 3$, therefore area$ = 3 \cdot 4 = \boxed{12}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-## Challenging Questions
+## Extension Questions
 ### Problem 8.
 Let $A$ be a $3\times3$ matrix whose trace equals 5 and determinant equals -12. Given that 3 is an eigenvalue of $A$, find the other eigenvalues.
 
