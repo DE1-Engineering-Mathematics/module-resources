@@ -89,6 +89,12 @@
 * __[10.4 Generalising](10-coupled-oscillators#generalising)__
 * __[10.5 Mind blown](10-coupled-oscillators#mind-blown)__
 
+### Chapter 11 - [The Laplace Transform](11-laplace)
+* __[11.1 Origins of the Laplace transform](11-laplace#origins-of-laplace)__
+* __[11.2 But what does it mean?](11-laplace#what-does-it-mean)__
+* __[11.3 Finding Laplace Transforms](11-laplace#finding-laplace)__
+* __[11.4 Solving ODEs and ODE systems](11-laplace#solving-ODE)__
+
 <br>
 
 ## About the Course
