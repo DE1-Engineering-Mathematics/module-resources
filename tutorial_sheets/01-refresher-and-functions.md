@@ -427,7 +427,7 @@ After: <br>
 
 <br>
 The definition of oddity is $-f(x) = f(-x)$ <br>
-$f(-x) = (-x))^3-12(-x) = -x^3+12x = -f(x)$<br><br>
+$f(-x) = (-x)^3-12(-x) = -x^3+12x = -f(x)$<br><br>
 
 
 $\boxed{\text{Therefore it is odd around the point P.}}$

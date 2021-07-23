@@ -478,6 +478,30 @@ $arctan(8) + arctan(2) + arctan(\frac{2}{3}) = \pi $  <br>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+-------------------------------------------------------
+
+## Extension Questions
+
+### Problem 10.
+Find a solution of the equation $cos(z) = 2isin(z), z \in\mathbb{C} $
+
+<div class = "answer">
+
+$\Rightarrow\quad cos(z) = 2isin(z)$ <br>
+$\Rightarrow\quad cosh(iz) = 2sinh(iz)$ <br>
+$\Rightarrow\quad \frac{1}{2}(e^{iz}+e^{-iz}) = 2.\frac{1}{2}(e^{iz}-e^{-iz})$ <br>
+$\Rightarrow\quad e^{iz}+e^{-iz} = 2e^{iz}-2e^{-iz}$ <br>
+$\Rightarrow\quad e^{iz} = 3e^{-iz}$ <br>
+$\Rightarrow\quad e^{2iz} = 3$ <br>
+$\Rightarrow\quad 2iz = \ln{3} + iArg3$ <br>
+$\Rightarrow\quad 2iz = \ln{3} + i(0+2k\pi)$ <br>
+$\Rightarrow\quad 2iz = \ln{3} + 2ki\pi$ <br>
+$\Rightarrow\quad z = \frac{1}{2i}\ln{3} + k\pi$ <br><br>
+$\therefore\quad z = \frac{1}{2i}\ln{3}, k \in\mathbb{Z}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 ## Answers
 
