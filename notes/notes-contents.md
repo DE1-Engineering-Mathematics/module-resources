@@ -95,6 +95,13 @@
 * __[11.3 Finding Laplace Transforms](11-laplace#finding-laplace)__
 * __[11.4 Solving ODEs and ODE systems](11-laplace#solving-ODE)__
 
+### Chapter 12 - [Fourier Series](12-fourier-series)
+* __[12.1 Symmetry of functions](12-fourier-series#symmetry-of-functions)__
+* __[12.2 Periodic functions](12-fourier-series#periodic-functions)__
+* __[12.3 Complex exponential representation](12-fourier-series#complex-exponential)__
+* __[12.4 Fourier transform](12-fourier-series#fourier-transform)__
+* __[12.5 Mind blown](12-fourier-series#fourier-mind-blown)__
+
 <br>
 
 ## About the Course
