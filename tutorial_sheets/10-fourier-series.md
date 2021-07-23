@@ -17,6 +17,12 @@
 
 # Fourier series, Tutorial sheet #10
 
+### Learning targets
+* Identify parity, and periodicity of functions and their features
+* Understand how the Fourier series is built up with sine and cosine waves
+* Calculate the Fourier series of a given function
+* Understand the complex exponential representation of the series
+
 <br><br>
 
 # Additional Resources
@@ -297,8 +303,8 @@ $\Rightarrow \boxed{\text{Odd function}}$
 
 ### Problem 5.
 For the following functions
-(I) Find the Fourier coefficients and series in general terms,
-(II) Plot the function and the given partial sum over the given interval.
+(i) Find the Fourier coefficients and series in general terms,
+(ii) Plot the function and the given partial sum over the given interval.
 
 (a) $f\left(x\right)=x^3,\ \ \ \text{for}\ \left[ -1,1\right] \ $ with n = 5
 

@@ -16,6 +16,12 @@
 
 # Laplace Transforms Tutorial Sheet, Sheet #9
 
+### Learning targets
+* Derive the laplace transforms of given definitions
+* Use the formula sheet to carry out transforms and inverse transforms 
+* Identify, rearrange and manipulate expressions to be in a 'transformable' format
+* Use Laplace to solve non homogenous ODE's
+
 <br><br>
 
 # Additional Resources
