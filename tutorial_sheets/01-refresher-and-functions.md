@@ -15,8 +15,6 @@
 
 # Refresher and Functions Tutorial Sheet, Sheet #1
 
-# Test it builds
-
 ### Learning Targets
 
 * Use the method of partial fractions
