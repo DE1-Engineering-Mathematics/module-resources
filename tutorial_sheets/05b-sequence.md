@@ -32,7 +32,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Suggest a formula for the $n$th term of the following sequences:
 
@@ -580,7 +580,7 @@ $\\$
 
 -----------------------------------------------------------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 11.
 
 Let $ \ S_n \ $ be a sequence given by $ \ S_n = \frac{1}{n+1} +  \frac{1}{n+2} + ... + \frac{1}{2n}$.$\ \$ Show that the sequence is increasing. 

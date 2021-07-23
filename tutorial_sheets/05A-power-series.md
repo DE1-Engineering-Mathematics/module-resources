@@ -32,7 +32,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Compute the coefficients of the following power series:
 
@@ -352,7 +352,7 @@ $\quad \Rightarrow{} \boxed{(-1)^{\frac{n}{2}}\frac{\pi ^{n+1}x^{n}}{(n+1)!}}$
 
 -----------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 9.
 
 Find power series of $\frac{1}{x^{2}+4x+3}$ in term of $(x-1)$.

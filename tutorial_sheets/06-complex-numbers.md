@@ -35,7 +35,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Express the flowing complex numbers in their polar form, $r(\cos\theta+\mathrm{i}\sin\theta)$ and exponential form, $re^{i\theta }$.
 

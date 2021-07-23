@@ -32,7 +32,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Which of the following are solutions to Laplace's equation,
 $\nabla^2 f(\mathbf{x}) = 0$?
@@ -186,7 +186,7 @@ $\boxed{\tau =102N}$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -------------------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 4.
 
 Prove for the 1D diffusion equation,

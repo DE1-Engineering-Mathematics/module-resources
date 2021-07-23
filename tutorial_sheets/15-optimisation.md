@@ -41,7 +41,7 @@ blue ([like this](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Find the line of best fit, using minimised sum squared residuals, of the form $y=mx+c$, through the following three points: (2,1), (3,5) and (7,9). Plot the resulting curve, points and residuals.
 
@@ -597,7 +597,7 @@ $\Rightarrow \boxed{a \text{ and }b \text{ need to be increased.}}$
 
 -----------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 7.
 
 __Machine Learning!__

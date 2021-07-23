@@ -34,7 +34,7 @@
 <br><br>
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 State the time period and formula of the following periodic functions.
 
@@ -904,7 +904,7 @@ You would expect Gibbs ringing to occur at $2 n \pi$, where $n \in \mathbb{Z} $ 
 
 
 ----------------------
-## Extension Questions
+## Challenging Questions
 ### Problem 7.
 (a) Given the real Fourier series expansion for a periodic function, $f(x)$, with a $2\pi{}$ period,
 $$

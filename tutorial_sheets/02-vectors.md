@@ -43,7 +43,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}= (1,2,1)$. Calculate the following:
 
@@ -593,7 +593,7 @@ $ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km}
 
 ----------------------------------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 12.
 Prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$

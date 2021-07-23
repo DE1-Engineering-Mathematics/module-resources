@@ -37,7 +37,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Given the matrices: $A=\begin{pmatrix}1&1 \newline 2&-1\end{pmatrix}$ and $B=\begin{pmatrix}0&1 \newline -2&3\end{pmatrix}$ <br>
 Find the answers to the following operations:
@@ -568,7 +568,7 @@ a * b
 
 -----------------------------------------------------------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 8.
 Determine whether the following matrices are symmetric, skew-symmetric, triangular, diagonal or singular:
 

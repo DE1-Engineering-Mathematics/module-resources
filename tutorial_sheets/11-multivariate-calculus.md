@@ -40,7 +40,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 For each of the functions below, find all the first order partial derivatives:
 
@@ -411,7 +411,7 @@ $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
-## Extension Questions
+## Challenging Questions
 ### Problem 11.
 For functions $f(u, v)$, $u(x, y)$, and $v(x, y)$,
 calculate the partial derivative $\frac{\partial f}{\partial y}$,

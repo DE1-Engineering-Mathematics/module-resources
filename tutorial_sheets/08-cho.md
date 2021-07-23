@@ -36,7 +36,7 @@
 
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 
 <img src = "./08-cho-media/figure3.PNG" width="20%" style = "margin: 10px auto 20px; display: block;">
@@ -406,7 +406,7 @@ $\Rightarrow \boxed{\text{There will be a problem. The effect of the pylons will
 
 ------------------------------------------------------
 
-## Extension Question
+## Challenging Question
 ### Problem 4.
 
 The below is a stiffness matrix for a series of 3 masses connected to each other and a wall at each end by 4 springs.

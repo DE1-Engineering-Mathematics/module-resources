@@ -30,7 +30,7 @@
 <br><br>
 
 # Problem sheet
-## Skill Building Questions
+## Essential Questions
 ### Problem 1.
 Using the given definition, derive the following laplace transforms: 
 
