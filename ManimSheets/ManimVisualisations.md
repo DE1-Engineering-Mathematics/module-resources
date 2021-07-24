@@ -21,19 +21,21 @@ manim -pqh filename.py Scene
 
 * Replacing `qh` with `ql` will output a low resolution and low framerate video, useful for rapid prototyping.
 * Ensure the `filename` corresponds to the file with that was copied and saved earlier
-* The topic file groups multiple scenes denoted by each Python class e.g. DotProduct, CrossProduct. Changing this will render different visualisations withing the same topic
+* The topic file groups multiple scenes denoted by each Python class e.g. `DotProduct`, `CrossProduct`. Changing this will render different visualisations withing the same topic
 
 An example, for the vectors script would be:
 ```
-manim -pqh vectors.py DotProduct
+manim -pqh linear_transform.py R3
 ```
 
 And this will open:
-<video width="720" height="480" controls>
-  <source src="gettingStarted\media\DotProduct.mp4" type="video/mp4">
-</video>
+<div style=’text-align:center’>
+  <video width="720" height="480" controls>
+    <source src="gettingStarted\media\R3.mp4" type="video/mp4">
+  </video>
+</div>
 
-Going back into the script, the top contains comments on how to change the default inputs. The script must be rendered again.
+To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. The script must be rendered again to produce a video that overwrites the previous.
 
 For more information, the Manim Community Documentation is really useful. Have a go at writing your own scripts! 
 * [Tutorials](https://docs.manim.community/en/stable/tutorials.html) 
@@ -41,12 +43,11 @@ For more information, the Manim Community Documentation is really useful. Have a
 * [Reference Manual](https://docs.manim.community/en/stable/reference.html)
 
 ## Engineering Mathematics Topics - Term 1
-- [2. Vectors](./Topics_term1/Vectors.md)
+- [2. Vectors](./Topics_term1/2_Vectors.md)
 - [4A. Linear Transformations](./Topics_term1/4A_Linear_Trans.md)
 - [5A. Power Series](./Topics_term1/5A_Power_ser.md)
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
 
-##### If there are any mistakes or you have any questions please do not hesitate to email me at cav20@ic.ac.uk
-
 
 ###### Dyson School of Design Engineering 2021 - Cosmin Vonsovici
+###### For any mistakes or queries please do not hesitate to email me at cav20@ic.ac.uk
