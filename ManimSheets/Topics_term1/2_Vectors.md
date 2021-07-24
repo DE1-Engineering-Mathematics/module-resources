@@ -1,4 +1,4 @@
-# [Manim Visualisations](../ManimVisualisations.md)   |   Vectors
+# [Manim Visualisations](../ManimVisualisations.md) |  Vectors
 [Source Code](./02-vectors-files/vectors.py)
 
 <style> 
