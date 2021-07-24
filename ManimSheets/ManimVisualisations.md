@@ -14,7 +14,7 @@ As a prerequisite, Python should already be set up in Computing 1. The installat
 
 ### Usage
 #### Rendering Prebuilt Scripts
-If using one of the prebuilt visualisation scripts, copy the text into VS Code or your preferred text editor, and save the file as per the comment at the top e.g. `vectors.py`. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
+If using one of the prebuilt visualisation scripts, save the source code provided at the top of the page. Check the file name with the comment at the top of the script. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
 
 ```
 manim -pqh filename.py Scene
@@ -42,7 +42,7 @@ And this will open:
 <br />
 
 #### Editing Prebuilt Scripts
-To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. The script must be rendered again to produce a video that overwrites the previous.
+To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. Change these values with VSCode or your preferred text editor. The script must be rendered again to produce a video that overwrites the previous.
 
 For more information, the Manim Community Documentation is really useful. Have a go at writing your own scripts! 
 * [Tutorials](https://docs.manim.community/en/stable/tutorials.html) 
@@ -51,7 +51,7 @@ For more information, the Manim Community Documentation is really useful. Have a
 
 ## Engineering Mathematics Topics - Term 1
 - [2. Vectors](./Topics_term1/2_Vectors.md)
-- [4A. Linear Transformations](./Topics_term1/4A_Linear_Transforms.md)
+- [4A. Linear Transformations](./Topics_term1/4A_LinearTransforms.md)
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
 
 
