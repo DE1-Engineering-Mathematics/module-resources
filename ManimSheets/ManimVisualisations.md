@@ -29,7 +29,7 @@ manim -pqh linear_transform.py R3
 ```
 
 And this will open:
-<div style=’text-align:center’>
+<div style="margin: 0 auto">
   <video width="720" height="480" controls>
     <source src="gettingStarted\media\R3.mp4" type="video/mp4">
   </video>
