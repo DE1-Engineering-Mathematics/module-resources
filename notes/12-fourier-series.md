@@ -63,8 +63,11 @@ It turns out the functions can be decomposed into their respective even and odd 
 
 $$\begin{equation}
 	f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2}
-\end{equation}\quad\quad\quad\quad
-\begin{equation}
+\end{equation}$$
+
+<br><br>
+
+$$\begin{equation}
 	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
 \end{equation}$$
 
@@ -174,12 +177,15 @@ g(x)=\sum_{n=1}^{\infty}b_n\sin(nx) ,\quad \mathrm{where}\quad b_n=\frac{1}{\pi}
 To evaluate $b_n$ at each value of $n$, we must consider the two regions ([$-\pi$,0] and [0,$\pi$]) of this discontinuous function separately. To do this, we simply integrate first from $-\pi$ to 0 where $f(x)=-1$ and from 0 to $+\pi$ where $f(x)=+1$; our constant is the sum of these two integrals. <br><br>
 
 $$\begin{align}
-b_1&=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(x)dx\\
-&=\frac{1}{\pi} \left(\int_{-\pi}^{0}(-1)\sin(x)dx+\int_{0}^{\pi}(1)\sin(x)dx\right)\\
-&=\frac{1}{\pi} \left(\left[\cos(x)\right]_{-\pi}^{0}+\left[-\cos(x)\right]_{0}^{\pi}\right)\\
-&=\frac{1}{\pi}\left(2+2\right)=\frac{4}{\pi}
-\end{align}\quad
-\begin{align}
+  b_1&=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(x)dx\\
+  &=\frac{1}{\pi} \left(\int_{-\pi}^{0}(-1)\sin(x)dx+\int_{0}^{\pi}(1)\sin(x)dx\right)\\
+  &=\frac{1}{\pi} \left(\left[\cos(x)\right]_{-\pi}^{0}+\left[-\cos(x)\right]_{0}^{\pi}\right)\\
+  &=\frac{1}{\pi}\left(2+2\right)=\frac{4}{\pi}
+\end{align}$$
+
+<br><br>
+
+$$\begin{align}
 	b_2&=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(2x)dx\\
 	&=\frac{1}{\pi} \left(\int_{-\pi}^{0}(-1)\sin(2x)dx+\int_{0}^{\pi}(1)\sin(2x)dx\right)\\
 	&=\frac{1}{\pi} \left(\left[\frac{1}{2}\cos(2x)\right]_{-\pi}^{0}+\left[-\frac{1}{2}\cos(2x)\right]_{0}^{\pi}\right)\\
@@ -206,8 +212,11 @@ The integral below does just that, where the sine and cosine functions that we u
 
 $$\begin{equation}
 	\hat{f}(\omega)=\int_{-\infty}^{\infty}f(t)e^{-2\pi it\omega}dt
-\end{equation}\quad\quad\quad\quad
-\begin{equation}
+\end{equation}$$
+
+<br><br>
+
+$$\begin{equation}
 	f(t)=\int_{-\infty}^{\infty}\hat{f}(\omega)e^{2\pi it\omega}dw
 \end{equation}$$
 
