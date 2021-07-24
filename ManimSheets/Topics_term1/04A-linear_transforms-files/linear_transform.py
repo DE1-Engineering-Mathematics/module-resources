@@ -138,9 +138,9 @@ class R3(ThreeDScene):
         j0 = Line(start = [0, 0, 0], end=[0, 1, 0], color = RED)     
         k0 = Line(start = [0, 0, 0], end=[0, 0, 1], color = BLUE)     
 
-        i1 = Line(start = [0, 0, 0], end = M[:, 0], color = GREEN)
-        j1 = Line(start = [0, 0, 0], end = M[:, 1], color = RED)
-        k1 = Line(start = [0, 0, 0], end = M[:, 2], color = BLUE)
+        i1 = Line(start = [0, 0, 0], end = M3[:, 0], color = GREEN)
+        j1 = Line(start = [0, 0, 0], end = M3[:, 1], color = RED)
+        k1 = Line(start = [0, 0, 0], end = M3[:, 2], color = BLUE)
 
         anim = ApplyMatrix(M3, cube)
 

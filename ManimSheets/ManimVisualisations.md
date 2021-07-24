@@ -51,7 +51,7 @@ For more information, the Manim Community Documentation is really useful. Have a
 
 ## Engineering Mathematics Topics - Term 1
 - [2. Vectors](./Topics_term1/2_Vectors.md)
-- [4A. Linear Transformations](./Topics_term1/4A_Linear_Trans.md)
+- [4A. Linear Transformations](./Topics_term1/4A_Linear_Transforms.md)
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
 
 
