@@ -29,11 +29,15 @@ manim -pqh linear_transform.py R3
 ```
 
 And this will open:
-<div style="display: block;margin: 0 auto;">
-  <video width="720" height="480" controls>
-    <source src="gettingStarted\media\R3.mp4" type="video/mp4">
-  </video>
-</div>
+<style> 
+  video {
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+</style>  
+<video width="720" height="480" controls>
+  <source src="gettingStarted\media\R3.mp4" type="video/mp4">
+</video>
 
 To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. The script must be rendered again to produce a video that overwrites the previous.
 
@@ -46,7 +50,7 @@ For more information, the Manim Community Documentation is really useful. Have a
 - [2. Vectors](./Topics_term1/2_Vectors.md)
 - [4A. Linear Transformations](./Topics_term1/4A_Linear_Trans.md)
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
-Test
+
 
 ###### Dyson School of Design Engineering 2021 - Cosmin Vonsovici
 ###### For any mistakes or queries please do not hesitate to email me at cav20@ic.ac.uk
