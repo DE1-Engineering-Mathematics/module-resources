@@ -39,7 +39,7 @@ And this will open:
 <video controls>
   <source src="gettingStarted\media\R3.mp4" type="video/mp4">
 </video>
-&NewLine;
+<br />
 
 #### Editing Prebuilt Scripts
 To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. The script must be rendered again to produce a video that overwrites the previous.
