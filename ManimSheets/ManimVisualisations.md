@@ -30,12 +30,14 @@ manim -pqh linear_transform.py R3
 
 And this will open:
 <style> 
-  .container video {
-    display: flex;
-    justify-content: center;
+  video {
+    width: 720px;
+    height: 480px;
+    margin-left: 50vw;
+    transform: translate(-50%);
   }
 </style>  
-<video width="720" height="480" controls>
+<video controls>
   <source src="gettingStarted\media\R3.mp4" type="video/mp4">
 </video>
 
