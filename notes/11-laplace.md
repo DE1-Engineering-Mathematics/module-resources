@@ -69,7 +69,7 @@ $$\frac{1}{n!}\rightsquigarrow e^x$$
 <br><br>
 
 ### 11.1.1 Discrete to continuous
-This is now where the magic happens... Our function $a(n)$ took a natural number as its input, but what if instead we used a function $a(t)$ that would take any positive real number $0\leq t<\infty$ (\ie we are going from discrete to continuous). We can now no longer use the discrete sum operation, but instead we must use its continuous analogue, integration.<br><br>
+This is now where the magic happens... Our function $a(n)$ took a natural number as its input, but what if instead we used a function $a(t)$ that would take any positive real number $0\leq t<\infty$ (ie we are going from discrete to continuous). We can now no longer use the discrete sum operation, but instead we must use its continuous analogue, integration.<br><br>
 
 $$\sum_{0}^{\infty}a_nx^n=A(x)\ ,\quad |x|<1
 \qquad\quad\Rightarrow{\text{discrete to continuous}}\qquad\quad
@@ -268,7 +268,7 @@ Laplace transforms also allow us to solve systems that we would struggle with in
 <br>
 
 $$\begin{alignat}{2}
-	&\text{\textbf{Function}}  &&\text{\textbf{Transformed function}} \\ &f(t) && \tilde{f}(s) = \int_{0}^{\infty}e^{-st}f(t)dt \\
+	&\textbf{Function}  &&\textbf{Transformed function} \\ &f(t) && \tilde{f}(s) = \int_{0}^{\infty}e^{-st}f(t)dt \\
 	&0 &&0\\
 	&1 &&1/s\\
 	&t^{n},\text{ for } n = 0,1,2,\dots &&n!/s^{n+1} \\
@@ -284,14 +284,14 @@ $$\begin{alignat}{2}
 	&e^{at}\cos({\omega t}) &&(s-a)/((s-a)^{2} + \omega^{2}) \\
 	&\sinh({\omega t}) &&\omega/(s^{2} - \omega^{2}) \\
 	&\cosh({\omega t}) &&s/(s^{2} - \omega^{2}) \\
-	&\text{\textbf{Impulse: }}(\text{Dirac }\delta): \delta(t-a) \quad \left(\neq 0\text{ at } t = a\text{, else } = 0\right) \quad &&e^{-as} \\
-	&\text{\textbf{Step function: }}H_{a}(t) (=0\text{ for }t < a\text{ and } = 1, t\geq a ) &&e^{-as}/s \\
-	&\text{\textbf{Delay of g: }}H_{a}(t)g(t-a) &&e^{-as}\tilde{g}(s) \\
-	&\text{\textbf{Shift of g: }}e^{at}g(t) &&\tilde{g}(s-a) \\
-	&\text{\textbf{Convolution: }}f(t)*g(t) =\int_{0}^{t}f(t -\tau)g(\tau)d\tau && \tilde{g}(s)\tilde{f}(s) \\
-	&\text{\textbf{Integration: }}1*g(t) = \int_{0}^{t}g(\tau)d\tau &&\frac{1}{s}\tilde{g}(s) \\
-	&\text{\textbf{Derivative: }}y' &&s\tilde{y}(s) - y(0) \\
-	&\text{\textbf{Derivative: }}y'' &&s^{2}\tilde{y}(s) - sy(0) - y'(0)
+	&\textbf{Impulse: }(\text{Dirac }\delta): \delta(t-a) \quad \left(\neq 0\text{ at } t = a\text{, else } = 0\right) \quad &&e^{-as} \\
+	&\textbf{Step function: }H_{a}(t) (=0\text{ for }t < a\text{ and } = 1, t\geq a ) &&e^{-as}/s \\
+	&\textbf{Delay of g: }H_{a}(t)g(t-a) &&e^{-as}\tilde{g}(s) \\
+	&\textbf{Shift of g: }e^{at}g(t) &&\tilde{g}(s-a) \\
+	&\textbf{Convolution: }f(t)*g(t) =\int_{0}^{t}f(t -\tau)g(\tau)d\tau && \tilde{g}(s)\tilde{f}(s) \\
+	&\textbf{Integration: }1*g(t) = \int_{0}^{t}g(\tau)d\tau &&\frac{1}{s}\tilde{g}(s) \\
+	&\textbf{Derivative: }y' &&s\tilde{y}(s) - y(0) \\
+	&\textbf{Derivative: }y'' &&s^{2}\tilde{y}(s) - sy(0) - y'(0)
 \end{alignat}$$
 
 <br><br><br><br><br><br>
