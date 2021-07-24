@@ -135,7 +135,7 @@ We met both the determinant and inverse in the previous chapter, but we didn't r
 <br><br>
 The inverse matrix is simple the transformation required to 'undo' our initial transformation. So, if our transformation turns a square into a diamond, then the inverse will turn that diamond back into a square.
 <br><br>
-The determinant is also very straightforward as it simply describes the change in size (\ie area in 2D or volume in 3D) that is caused by our transformation. Consider the examples of a $90^\circ$ rotation and a factor of 3 vertical scaling below.<br><br>
+The determinant is also very straightforward as it simply describes the change in size (ie area in 2D or volume in 3D) that is caused by our transformation. Consider the examples of a $90^\circ$ rotation and a factor of 3 vertical scaling below.<br><br>
 
 $$\begin{align}
 	\det\begin{pmatrix}0 & 1 \\ -1 & 0\end{pmatrix}=1\qquad\&\qquad

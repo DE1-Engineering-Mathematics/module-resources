@@ -246,7 +246,7 @@ $$\sum_{n=1}^{n=N}{1}=N$$
 <br><br> 
 You could even think of this series an arithmetic series where the common difference is zero (so $S_N=\frac{N}{2}(2\times1+(N-1)0)=N$); however, the geometric series type analysis with a common ratio of 1 would not work. <br><br>
 
-Now imagine a series which simply added up the natural numbers (\ie $S=1+2+3+...$). Once again, this series clearly doesn't stop growing, but any truncation would result in a finite answer. Applying the arithmetic series analysis again here (with $d=1$) leads to the result<br><br>
+Now imagine a series which simply added up the natural numbers (ie $S=1+2+3+...$). Once again, this series clearly doesn't stop growing, but any truncation would result in a finite answer. Applying the arithmetic series analysis again here (with $d=1$) leads to the result<br><br>
 
 $$\sum_{n=1}^{n=N}{n}=\frac{N}{2}(2\times 1+(N-1)\times 1)=\frac{N(N+1)}{2}$$
 

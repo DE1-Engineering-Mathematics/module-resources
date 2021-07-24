@@ -87,7 +87,7 @@ $$\begin{pmatrix}
 If two matrices do not have the same dimensions they cannot be added, or we say the sum is 'not defined'.<br><br>
 
 ### 3.1.2 Multiplication or "Rows times cols"
-When multiplying matrices, keep the following in mind: if the number of columns of the first matrix equals the number of rows of the second, then you can proceed. The process for multiplying is as follows: to find entry ($n$, $m$) of the resulting matrix, take row $n$ of the first matrix and column $m$ of the second matrix and then find the sum of the product of each pair of entries (\ie the dot product). For example:
+When multiplying matrices, keep the following in mind: if the number of columns of the first matrix equals the number of rows of the second, then you can proceed. The process for multiplying is as follows: to find entry ($n$, $m$) of the resulting matrix, take row $n$ of the first matrix and column $m$ of the second matrix and then find the sum of the product of each pair of entries (ie the dot product). For example:
 <br><br>
 
 $$\begin{pmatrix}
@@ -159,10 +159,10 @@ The quick way to check whether a sequence of operations is allowed for matrices 
 $$A=(2\times\underline{3)(3}\times\underline{5)(5}\times\underline{1)(1}\times7) \qquad \& \qquad B=(2\times\underline{\underline{4)(3}}\times\underline{5)(5}\times\underline{1)(1}\times7)$$
 
 <br><br>
-The operation for $A$ would work and the dimensions of the resulting matrix are those at the outer most of the operation, \ie $(2\times7)$, whereas the operation for $B$ is undefined.<br><br>
+The operation for $A$ would work and the dimensions of the resulting matrix are those at the outer most of the operation, ie $(2\times7)$, whereas the operation for $B$ is undefined.<br><br>
 
 ### 3.1.3 Scalar Multiplication
-Another form of matrix multiplication is called \textit{scalar multiplication}. This involves simply multiplying each entry of the matrix:<br><br>
+Another form of matrix multiplication is called *scalar multiplication*. This involves simply multiplying each entry of the matrix:<br><br>
 
 $$3
 \begin{pmatrix}
@@ -338,7 +338,7 @@ Noting that $(A+B)C=AC+BC$.
 <br><br>
 
 ## <a id="transpose"></a>3.3 Transpose
-Another operation on matrices is the \textit{transpose}. This reverses the rows and columns, or equivalently, reflects the matrix along the leading diagonal. The transpose of $A$ is normally written $A^{t}$, thus:<br><br>
+Another operation on matrices is the *transpose*. This reverses the rows and columns, or equivalently, reflects the matrix along the leading diagonal. The transpose of $A$ is normally written $A^{t}$, thus:<br><br>
 
 $$A =
 \begin{pmatrix}
@@ -654,7 +654,7 @@ c_{31} &= m_{31} = 7 & c_{32} &= -m_{32} = -6 & c_{33} &= m_{33} = 8
 <br><br>
 
 #### Calculating the determinant of a (3$\times$3) matrix
-In order to calculate the determinant of a $(3\times 3)$-matrix, choose \textit{any} row or column. Then, multiply each entry by its corresponding cofactor, and add the three products. This gives the determinant.<br><br>
+In order to calculate the determinant of a $(3\times 3)$-matrix, choose *any* row or column. Then, multiply each entry by its corresponding cofactor, and add the three products. This gives the determinant.<br><br>
 
 **Example** - to show that *any* row or column may be used take matrix $A$:<br><br>
 
@@ -763,7 +763,7 @@ The entire process above is neatly summarised in the adjacent diagram for a $3\t
 The procedure for large matrices is exactly the same as for a $(3\times 3)$ matrix: choose a row or column, multiply the entry by the corresponding cofactor and add them up. But of course each minor is itself the determinant of a $(n-1\times n-1)$-matrix so for example, in a $(4\times 4)$ determinant, it is necessary to do four $(3\times 3)$ determinants - quite a lot of work... but lucky you will never have to do this, thanks to computers!<br><br>
 
 ## <a id="inverses"></a>3.5 Inverses
-Let $A$ be an $(n\times n)$-matrix, and let $I$ be the $(n\times n)$ identity matrix. Sometimes, there exists a matrix $A^{-1}$ (called the \textit{inverse} of $A$) with the property:<br><br>
+Let $A$ be an $(n\times n)$-matrix, and let $I$ be the $(n\times n)$ identity matrix. Sometimes, there exists a matrix $A^{-1}$ (called the *inverse* of $A$) with the property:<br><br>
 
 $$\begin{align}
 	AA^{-1}=I=A^{-1}A
@@ -1483,5 +1483,5 @@ $$\det\begin{pmatrix}
 <br><br>
 
 ## Conclusions
-This is the longest chapter in the DE1-MEM course, but in many ways I hope you can agree that it's the most straightforward as it's just about a set of tools and conventions used for manipulating matrices. Handy phrases like ``rows times cols'' will help you remember whether a multiplication operation is defined, but please rest assured that in the exam (and in your career!) you will never be asked to simply invert monstrous $5\times 5$ matrices by hand, as this would only test your calculator skills.
+This is the longest chapter in the DE1-MEM course, but in many ways I hope you can agree that it's the most straightforward as it's just about a set of tools and conventions used for manipulating matrices. Handy phrases like 'rows times cols' will help you remember whether a multiplication operation is defined, but please rest assured that in the exam (and in your career!) you will never be asked to simply invert monstrous $5\times 5$ matrices by hand, as this would only test your calculator skills.
 <br><br><br><br>

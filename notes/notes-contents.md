@@ -111,6 +111,9 @@
 
 <br>
 
+If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
+<br><br>
+
 ## About the Course
 This course is a rapid introduction (or reminder for some) to a range of topics that you will find useful during your engineering career. A huge amount of wonderful resources have become freely available online in the past few years, in the form of videos, blogs, forums, wikis etc.. My hope for this course is that you finish with the confidence necessary to look up questions that you don't understand and hopefully re-purpose methods from one area to another. 
 <br><br>

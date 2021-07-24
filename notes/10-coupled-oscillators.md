@@ -19,7 +19,7 @@
 
 # Chapter 10 - Coupled Oscillators
 
-This chapter will bring together  many of the topics we've covered so far in the course: graph sketching, vectors, matrices, eigenanalysis, complex numbers and ODEs... you're going to love it. Furthermore, it will allow you to start developing insight into how maths can help us model more complex physical systems, with many components coupled (\ie linked) together.<br><br>
+This chapter will bring together  many of the topics we've covered so far in the course: graph sketching, vectors, matrices, eigenanalysis, complex numbers and ODEs... you're going to love it. Furthermore, it will allow you to start developing insight into how maths can help us model more complex physical systems, with many components coupled (ie linked) together.<br><br>
 
 Take the spring-mass system from the previous chapter (forget the damper for now) and then connect this mass, via another spring, to a second mass, which is itself connected to a wall by a third spring (see figure below).<br><br>
 
@@ -51,7 +51,7 @@ $$\begin{align}
 \end{align}$$
 
 <br><br>
-However, based on our work in the previous chapter it's still not clear how to 'solve' this system, where, presumably a solution will take the form of a pair of equations, giving the explicit location of $m_1$ and $m_2$ (\ie $x_1$ and $x_2$) as a function of time, $t$. <br><br>
+However, based on our work in the previous chapter it's still not clear how to 'solve' this system, where, presumably a solution will take the form of a pair of equations, giving the explicit location of $m_1$ and $m_2$ (ie $x_1$ and $x_2$) as a function of time, $t$. <br><br>
 
 ## <a id="natural-and-eigen"></a>10.2 Natural frequencies and Eigenmodes
 

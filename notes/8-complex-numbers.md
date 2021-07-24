@@ -57,7 +57,7 @@ where $\varphi$ is in radians rather than the the degrees shown in the figure. H
 <br><br>
 
 <br><br>
-\* *In fact, it is the 'Fundamental Theorem of Algebra' which states that a polynomial of order $n$, must have exactly $n$ roots. Sometimes these are both real (\ie $x^2=1$), sometimes complex (\ie $x^2=-1$), sometimes both in the same place (\ie $x^2=0$), and sometimes there's a mix of real and complex. In particular, for polynomials with real coefficients, the roots are always either real or in conjugate pairs.*
+\* *In fact, it is the 'Fundamental Theorem of Algebra' which states that a polynomial of order $n$, must have exactly $n$ roots. Sometimes these are both real (ie $x^2=1$), sometimes complex ie $x^2=-1$), sometimes both in the same place (ie $x^2=0$), and sometimes there's a mix of real and complex. In particular, for polynomials with real coefficients, the roots are always either real or in conjugate pairs.*
 
 ## <a id="complex-operations"></a>8.1 Operations with complex numbers
 
@@ -170,7 +170,7 @@ This is the end of this very brief introduction to imaginary numbers for this co
 
 This means that you are now equipped to address a very wide range of maths problems, especially those we'll be seeing in the next 9 weeks!<br><br><br>
 
-It you would like to find out more about complex numbers, the phenomenal video series by Welch labs will change your life: http://www.welchlabs.com/
+It you would like to find out more about complex numbers, the phenomenal video series by Welch labs will change your life: [http://www.welchlabs.com/](http://www.welchlabs.com/)
 
 
 <br><br><br><br>

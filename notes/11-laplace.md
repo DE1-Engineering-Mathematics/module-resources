@@ -195,7 +195,7 @@ $$\mathcal{L}^{-1}\left\{\tilde{f(s)}\right\} = f(t)
 
 <br><br>
 A common situation is when $\tilde{f}(s)$ is a polynomial in $s$, or more generally, a ratio
-of polynomials; then we use partial fractions to simplify the expressions. Given an expression for a Laplace transform of the form $N/D$ where the numerator, $N$, and denominator, $D$, are both polynomials of $s$; use partial fractions:%possibly in the form of factors, and $N$ may be constant<br><br>
+of polynomials; then we use partial fractions to simplify the expressions. Given an expression for a Laplace transform of the form $N/D$ where the numerator, $N$, and denominator, $D$, are both polynomials of $s$; use partial fractions: possibly in the form of factors, and $N$ may be constant<br><br>
 
 1. if $N$ has degree equal to or higher than $D$, divide $N$ by $D$ until the remainder is of lower degree than $D$
 <br>

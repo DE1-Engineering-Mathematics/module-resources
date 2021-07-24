@@ -590,8 +590,8 @@ c) Vector field with a constant curl.*
 #### Examples
 Find the **divergence** of the vector function,
 $\begin{bmatrix}
-x y z \\
-3 y^2 x \\
+x y z \newline
+3 y^2 x \newline
 x^2 + y^2
 \end{bmatrix}$
 

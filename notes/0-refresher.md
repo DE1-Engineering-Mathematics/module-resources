@@ -42,7 +42,7 @@ If you are given the graph of a linear function (ie $f(x)=ax+b$ in the adjacent 
 For the general function $f(x)$, the ''gradient'' at a point is the slope of the curve at that point. In the figure below, we're looking for the gradient of the black line at point $x_0$ (the red point). To apply the RoR approach again, we must pick another point further along the $x$-axis, which we will call $(x_0+\Delta x)$. However, as you can see from the figure, the line passing through these two points is not a great approximation to the slope at $x_0$.
 <br><br>
 <img align="right" src="figs/0.3-curve.svg" width="315"/>
-What I hope you can also appreciate is that as our two points move closer together (\ie as $\Delta x$ gets smaller), then this approximation will improve. We can formalise and extend this rational to write the following expression, which says that 'in the limit' as $\Delta x$ 'goes to zero' (\ie becomes _infinitesimally_ small), then our approximation will become exact. So our gradient becomes (three different derivative notations styles also shown):<br><br>
+What I hope you can also appreciate is that as our two points move closer together (ie as $\Delta x$ gets smaller), then this approximation will improve. We can formalise and extend this rational to write the following expression, which says that 'in the limit' as $\Delta x$ 'goes to zero' (ie becomes _infinitesimally_ small), then our approximation will become exact. So our gradient becomes (three different derivative notations styles also shown):<br><br>
 
 $\frac{\textrm{d}(f(x))}{\textrm{d}x} \equiv \frac{\textrm{d}}{\textrm{d}x}f(x)\equiv f'(x)=\lim_{\Delta x \to 0}\left(\frac{f(x+\Delta x)-f(x)}{\Delta x}\right)$
 
@@ -61,7 +61,7 @@ g'(x)
 &=\lim_{\Delta x \to 0}\left(\frac{6x\Delta x +3\Delta x^2}{\Delta x}\right)=\lim_{\Delta x \to 0}\left(6x+3\Delta x\right) \quad = \quad 6x\\
 \end{aligned}$$
 
-You can see that once you've work through the algebra, it's that final step where the magic of the ``lim'' happens. We have $6x+3\Delta x$, but as $\Delta x$ becomes very small we can just ignore it.
+You can see that once you've work through the algebra, it's that final step where the magic of the 'lim' happens. We have $6x+3\Delta x$, but as $\Delta x$ becomes very small we can just ignore it.
 
 Now that we've understood the core concept, we can start to build a list of time saving rules so that we don't have to use 'lim(RoR)' equation each time. As we've already seen in our first example, polynomials can be dealt with using two rules. The **Power Rule** tells us that differentiation of a simple power can be efficiently calculated by multiplying the original power to the front and then reducing the power by 1 (ie $f(x)=ax^b \Rightarrow f'(x)=abx^{b-1}$). Also in the above example is the **Sum Rule**, which says that the derivative of the sums is the sum of the derivatives (ie $f(x)=g(x)+h(x) \Rightarrow f'(x)=g'(x)+h'(x)$).
 
@@ -209,7 +209,7 @@ Just by simple comparison of the units, you can tell that the $a$ term must have
 
 Another crucial engineering skill is 'order of magnitude analysis', which is essentially a method for simplifying equations by ignoring certain terms. 
 <br><br>
-Consider the expression $y=\frac{x+1}{x^2}$. If you were told to evaluate this expression only for values of $x>>1$ (i.e. $x$ \textit{much} larger than 1), it would be reasonable to forget about the 1 and say $y\approx1/x$. This kind of approximation is typically what we might call a 'back of the envelope' calculation. 
+Consider the expression $y=\frac{x+1}{x^2}$. If you were told to evaluate this expression only for values of $x>>1$ (i.e. $x$ *much* larger than 1), it would be reasonable to forget about the 1 and say $y\approx1/x$. This kind of approximation is typically what we might call a 'back of the envelope' calculation. 
 <br><br>
 In complicated equations, such as the [Navier Stokes equations ](https://en.wikipedia.org/wiki/Navier-Stokes_equations) which describe viscous fluid flow, often the first step in their analysis is to work through each of the terms and determine which are small enough to be ignored - this is just the kind of thing engineers love and you'll be doing plenty of it on this degree!
 <br><br>

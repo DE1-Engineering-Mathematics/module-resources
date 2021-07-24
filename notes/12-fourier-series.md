@@ -37,7 +37,7 @@ $$\begin{align}
 \end{align}$$
 
 <br><br>
-where $f(x)$ is the function you are trying to model in the interval $-L$ to $L$. If $f(x)$ is a periodic and ``integrable'' (\ie ``can be integrated'') function, with a period of $2L$, then the Fourier series can be used to perfectly recreate it. In some cases it is more convenient to perform the integrals from $0$ to $2L$ (rather than from $-L$ to $L$), which is an equally acceptable definition. <br><br>
+where $f(x)$ is the function you are trying to model in the interval $-L$ to $L$. If $f(x)$ is a periodic and 'integrable' (\ie 'can be integrated') function, with a period of $2L$, then the Fourier series can be used to perfectly recreate it. In some cases it is more convenient to perform the integrals from $0$ to $2L$ (rather than from $-L$ to $L$), which is an equally acceptable definition. <br><br>
 
 Although these equations might look a little intimidating, its essentially just a set of instructions for calculating the coefficients $a_n$ and $b_n$ that go before each of the harmonic terms and it's up to you to decided how many terms you need, which will depend on the problem you are solving. <br><br>
 
@@ -96,7 +96,7 @@ Periodic functions are composed of an infinite sequence of identical repeat unit
 The four graphs above show the odd 'saw-tooth' function (black), as well as the first, second, third and twelfth order Fourier approximations (blue). Also shown (red dots) are the profiles of the highest frequency sine waves used in each case. Notice how, unlike the Taylor series, the Fourier approximations improve the function (on average) at all points simultaneously. Also notice the high frequency wiggles close to the discontinuity, which are referred to as *Gibbs ringing*. <br><br>
 
 <img align="right" src="figs/12.2-e.svg" width="315"/> 
-The figure on the right shows the Fourier expansion (up to the \nth{8} order) of the function $f(x)=e^x$ in the interval $-\pi$ to $\pi$. 
+The figure on the right shows the Fourier expansion (up to the $8^{th}$ order) of the function $f(x)=e^x$ in the interval $-\pi$ to $\pi$. 
 Clearly, $f(x)=e^x$ is not a periodic function, so although the approximation appears to be reasonable in the interval considered, it is totally useless outside of this domain. However, as use of the domain [$-\pi,\pi$] was arbitrary, what's to stop us from making this interval much larger? As we shall see later on in this chapter, we can even investigate the case where the interval [$-\infty, \infty$] is used, which yields a very powerful result!
 <br><br>
 
@@ -167,7 +167,7 @@ $$f(x)=
 , \quad -\pi<x\leq\pi$$
 
 <br><br>
-Firstly, as we have noticed that $f(x)$ is an \textit{odd} function, we can be sure that all the $a_n$ terms are zero (including $a_0$). Also, as the period is $2\pi$, we can replace $L$ in our standard equation with $\pi$. This means that our Fourier series will be of the form<br><br>
+Firstly, as we have noticed that $f(x)$ is an *odd* function, we can be sure that all the $a_n$ terms are zero (including $a_0$). Also, as the period is $2\pi$, we can replace $L$ in our standard equation with $\pi$. This means that our Fourier series will be of the form<br><br>
 
 $$\begin{equation}
 g(x)=\sum_{n=1}^{\infty}b_n\sin(nx) ,\quad \mathrm{where}\quad b_n=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(nx)dx

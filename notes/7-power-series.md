@@ -29,9 +29,9 @@ Try this on your calculator at $x=1.2$ so that you are convinced that the functi
 <br><br>
 
 ## <a id="maclaurin-series"></a>7.1 Maclaurin Series
-For many smooth, continuously differentiable functions (or what are sometimes called ``well-behaved'' functions), if you know everything about the function at just one place (at $x=0$ for Maclaurin series), it is possible to use this information to reconstruct the entire curve. <br><br>
+For many smooth, continuously differentiable functions (or what are sometimes called 'well-behaved' functions), if you know everything about the function at just one place (at $x=0$ for Maclaurin series), it is possible to use this information to reconstruct the entire curve. <br><br>
 
-When we say ``know everything'' at a point, we mean the value of the function and all of its derivatives ($f(0), f'(0), f''(0),f^{(3)}(0),...$). <br><br>
+When we say 'know everything' at a point, we mean the value of the function and all of its derivatives ($f(0), f'(0), f''(0),f^{(3)}(0),...$). <br><br>
 
 We can use this information to construct a sequence of approximations to our function. <br><br>
 
@@ -141,7 +141,7 @@ g(x)
 Looking at the figure we can see that although our approximation is definitely improving locally (ie close to $x=0$), it is not able to model the function at all after $x=\frac{\pi}{2}$. This is because tan($x$) contains asymptotes and is therefore not considered a well-behaved function. 
 <br><br>
 
-In the next example, we look again at the error function (from the Normal Distribution Chapter). The adjacent figure shows the error function as well as Maclaurin approximations up to the \nth{7} order, but although the function is quickly represented well near $x=0$, the improvements seem stop beyond around $x=1$. However, the Taylor polynomials do continue to improve (slowly) and the error function can be exactly expressed as a Taylor series. 
+In the next example, we look again at the error function (from the Normal Distribution Chapter). The adjacent figure shows the error function as well as Maclaurin approximations up to the $7^{th}$ order, but although the function is quickly represented well near $x=0$, the improvements seem stop beyond around $x=1$. However, the Taylor polynomials do continue to improve (slowly) and the error function can be exactly expressed as a Taylor series. 
 
 <br><br>
 
@@ -169,7 +169,7 @@ $$\begin{equation}
 
 <img align="right" src="figs/7.2-point-c.svg" width="315"/>
 
-The Taylor series simply extends the Maclaurin series concept by saying that we can reconstruct well-behaved functions if we know everything about \textit{any} point (\ie not just at the point $x=0$ like Maclaurin). The expression can be derived in the same way as the Maclaurin series, but requires some minor rearrangement to find each successive approximation. <br><br>
+The Taylor series simply extends the Maclaurin series concept by saying that we can reconstruct well-behaved functions if we know everything about *any* point (ie not just at the point $x=0$ like Maclaurin). The expression can be derived in the same way as the Maclaurin series, but requires some minor rearrangement to find each successive approximation. <br><br>
 
 $$\begin{align}
 g_n(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(c)}{n!}(x-c)^n

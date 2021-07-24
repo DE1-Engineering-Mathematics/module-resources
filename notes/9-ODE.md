@@ -20,7 +20,7 @@
 # Chapter 9 - Ordinary Differential Equations
 You've already met the concept of differentiation in the context of functions and have almost certainly even applied it in the past to distance/speed/acceleration type questions. So, now let's see if we can apply this concept more generally to the class of problems called Ordinary Differential Equations (ODEs). These equations are referred to as 'ordinary' because the functions being differentiated are dependant on a single variable. For example, in mechanics so far, both speed and acceleration are a function of time only (ie $\frac{dx}{dt}\ \&\ \frac{d^2x}{dt^2}$), whereas you can imagine, for example, a problem involving the diffusion of heat, in which the local temperature is a function of both time and space (ie $T(t,x)$), meaning that you could in principal differentiate $T$ with respect to $t$ or $x$... or both! We will come back to these in a later chapter. <br><br>
 
-First off, let's start with some notation. As with so many areas of maths, there are many ways to represent the same concept, so it's important that you don't get stuck always using the same style in class or you might be intimidated when you see something new in practice. However, the general rule is, use whatever style you prefer to use, just *be consistent* throughout any given document, also, if a question is asked in a certain style,  be sure to return the final answer in the same style. For the function $y(x)$, here are some equivalent ways of writing the \nth{1}, \nth{2} and \nth{3} derivatives:<br><br>
+First off, let's start with some notation. As with so many areas of maths, there are many ways to represent the same concept, so it's important that you don't get stuck always using the same style in class or you might be intimidated when you see something new in practice. However, the general rule is, use whatever style you prefer to use, just *be consistent* throughout any given document, also, if a question is asked in a certain style,  be sure to return the final answer in the same style. For the function $y(x)$, here are some equivalent ways of writing the $1^{st}$, $2^{nd}$, $3^{rd}$ derivatives:<br><br>
 
 $$\begin{equation}
 	\frac{\textrm{d}y}{\textrm{d}x}\equiv y'\equiv \dot{y}\equiv y_x\qquad\&\qquad
@@ -263,7 +263,7 @@ In this scenario, the trolley will still oscillate, but the damper has the effec
 $$x=e^{-\gamma t}(A\sin(\omega_d t))+B\cos(\omega_d t))$$
 
 <br><br>
-where $\gamma=\frac{\color{cyan}c}{2\color{red}m}$ is the damping coefficient, and $\omega_d=\sqrt{\omega_0^2-\gamma^2}$ is the damped natural frequency. The damped natural frequency will always be lower than the undamped natural frequency. As before, in order to find $A$ and $B$, we need to know the initial conditions of the system (\ie displacements and velocities). <br><br>
+where $\gamma=\frac{\color{cyan}c}{2\color{red}m}$ is the damping coefficient, and $\omega_d=\sqrt{\omega_0^2-\gamma^2}$ is the damped natural frequency. The damped natural frequency will always be lower than the undamped natural frequency. As before, in order to find $A$ and $B$, we need to know the initial conditions of the system (ie displacements and velocities). <br><br>
 
 **2. Two real roots** ($\color{cyan}c ^2-4\color{red}m\color{green}k>0$): 'Overdamped'<br><br>
 
@@ -280,7 +280,7 @@ where $\lambda_1$ and $\lambda_2$ are the roots of the characteristic equation (
 
 <img align="right" src="figs/9.4-critical.svg" width="315"/>
 
-In this final case, the damping is tuned such that the trolley returns to the middle as fast as is possible *without* oscillation. This can be thought of as the scenario in which energy is lost from the system fastest. It is also when the damping constant equals the undamped natural frequency $\gamma=\omega_0$, \ie $\omega_d=0$. It has the general solution <br><br>
+In this final case, the damping is tuned such that the trolley returns to the middle as fast as is possible *without* oscillation. This can be thought of as the scenario in which energy is lost from the system fastest. It is also when the damping constant equals the undamped natural frequency $\gamma=\omega_0$, ie $\omega_d=0$. It has the general solution <br><br>
 
 $$x=e^{-\gamma t}(A+Bt)$$
 

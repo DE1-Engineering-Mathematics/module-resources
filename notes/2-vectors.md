@@ -57,7 +57,7 @@ Importantly, if two vectors have the same length and the same direction, they ar
 
 ### 2.1.1 Unit Vectors
 <img align="right" src="figs/2.1-unit-vectors.svg" width=""/>
-A vector whose length/magnitude/modulus is 1, (ie $|\underline{v}|=1$) is called a ``unit vector'' and is often written with a little hat, $\hat{v}$.
+A vector whose length/magnitude/modulus is 1, (ie $|\underline{v}|=1$) is called a 'unit vector' and is often written with a little hat, $\hat{v}$.
 <br><br>
 It is sometimes convenient to describe vectors in terms of these unit vectors and corresponding coefficients. The unit vectors oriented along the three orthogonal Cartesian axis are:
 
@@ -118,7 +118,7 @@ such that, after cancelling out the magnitude of the two vectors, you are just c
 
 There are two key applications of the cross product that you are likely to encounter as an engineer. Firstly, as a method for calculating rotational effects (such as moments) and secondly for calculating parallelogram areas. NB, unlike the dot product, the result of a cross product is a vector.
 
-When dealing with moments, imagine a lever, \textbf{a}, connected to the origin, being acted on at its tip by a force vector, **b**. When you look at the diagram, this can seem a bit confusing because both vectors are coming out of the origin, as this is how they will be typically represented; however, the diagram also shows you a dashed line of what this physical interpretation is implying. So, because **a** and **b** are clearly not orthogonal (ie $\theta\neq90^\circ$), only some of the force will be converted into a rotational moment. This moment is represented as a vector normal to the plane described by **a** and **b**, with the direction implying the direction of rotation according to the right hand rule. There are two things to notice here, firstly that the order now matters (ie $\textbf{a}\times\textbf{b}=-\textbf{b}\times\textbf{a}$) and secondly if $\theta=0$, then the cross product is zero, which makes sense as there will be no rotational moment. (NB. $\hat{\textbf{i}}\times\hat{\textbf{j}}=\hat{\textbf{k}}$).
+When dealing with moments, imagine a lever, **a**, connected to the origin, being acted on at its tip by a force vector, **b**. When you look at the diagram, this can seem a bit confusing because both vectors are coming out of the origin, as this is how they will be typically represented; however, the diagram also shows you a dashed line of what this physical interpretation is implying. So, because **a** and **b** are clearly not orthogonal (ie $\theta\neq90^\circ$), only some of the force will be converted into a rotational moment. This moment is represented as a vector normal to the plane described by **a** and **b**, with the direction implying the direction of rotation according to the right hand rule. There are two things to notice here, firstly that the order now matters (ie $\textbf{a}\times\textbf{b}=-\textbf{b}\times\textbf{a}$) and secondly if $\theta=0$, then the cross product is zero, which makes sense as there will be no rotational moment. (NB. $\hat{\textbf{i}}\times\hat{\textbf{j}}=\hat{\textbf{k}}$).
 <br><br>
 
 <img align="right" src="figs/2.2-cross-product-2.svg" width=""/>
@@ -135,7 +135,8 @@ $$\begin{align*}
 
 ### 2.2.3 Triple Scalar Product
 <img align="right" src="figs/2.2-triple-scalar.svg" width=""/>
-The last case is simply a combination of the dot and cross product, typically referred to as the triple scalar product. For the vectors \textbf{a}, \textbf{b} and \textbf{c}, the triple product will give you the volume of the parallelepiped mapped by the three sets of parallel edges made from the three vectors.  Clearly, if \textbf{a}, \textbf{b} and \textbf{c} are not all linearly independent, then the volume will be zero. Notice the order of the dot product doesn't matter, but the cross product does!<br><br>
+
+The last case is simply a combination of the dot and cross product, typically referred to as the triple scalar product. For the vectors **a**, **b** and **c**, the triple product will give you the volume of the parallelepiped mapped by the three sets of parallel edges made from the three vectors.  Clearly, if **a**, **b** and **c** are not all linearly independent, then the volume will be zero. Notice the order of the dot product doesn't matter, but the cross product does!<br><br>
 
 
 $$\begin{align*}
@@ -218,7 +219,7 @@ P=\overrightarrow{OA}+\lambda\overrightarrow{AB}+\mu\overrightarrow{AC}
 <br><br>
 You can think of this as starting at point A and travelling $\lambda$ steps along $\overrightarrow{AB}$ and $\mu$ steps along $\overrightarrow{AC}$.
 <br><br>
-Alternatively, you can think of the equation of a plane (more standard definition) by considering the fact that an arbitrary line on the plane, $\overrightarrow{AB}=(\textbf{b}-\textbf{a})$, must have a dot product of zero with the normal to the plane, **n** , (\ie they must be orthogonal).<br><br>
+Alternatively, you can think of the equation of a plane (more standard definition) by considering the fact that an arbitrary line on the plane, $\overrightarrow{AB}=(\textbf{b}-\textbf{a})$, must have a dot product of zero with the normal to the plane, **n** , (ie they must be orthogonal).<br><br>
 
 $$\begin{align*}
 (\textbf{b}-\textbf{a})\bullet\textbf{n}=0 
