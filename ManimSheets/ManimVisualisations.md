@@ -33,9 +33,8 @@ And this will open:
   video {
     width: 720px;
     height: 480px;
-    margin-left: 50vw;
-    transform: translate(-50%);
-  }
+    display: block;
+    margin: 0 auto;
 </style>  
 <video controls>
   <source src="gettingStarted\media\R3.mp4" type="video/mp4">
