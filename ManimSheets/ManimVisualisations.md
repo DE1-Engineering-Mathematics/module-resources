@@ -29,7 +29,7 @@ manim -pqh linear_transform.py R3
 ```
 
 And this will open:
-<div style="margin: 0 auto;">
+<div style="margin-left: auto;">
   <video width="720" height="480" controls>
     <source src="gettingStarted\media\R3.mp4" type="video/mp4">
   </video>
@@ -45,7 +45,6 @@ For more information, the Manim Community Documentation is really useful. Have a
 ## Engineering Mathematics Topics - Term 1
 - [2. Vectors](./Topics_term1/2_Vectors.md)
 - [4A. Linear Transformations](./Topics_term1/4A_Linear_Trans.md)
-- [5A. Power Series](./Topics_term1/5A_Power_ser.md)
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
 
 
