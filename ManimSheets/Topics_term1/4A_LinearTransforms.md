@@ -1,13 +1,15 @@
-# Linear Transforms   |   [Manim Visualisations](../ManimVisualisations.md)
+# Linear Transforms - [Manim Visualisations](../ManimVisualisations.md)
 [Source Code](./04A-linear_transforms-files/linear_transform.py)
-### R
+
 <style> 
   video {
     width: 720px;
     height: 480px;
     display: block;
     margin: 0 auto;
-</style>  
+</style> 
+
+### R
 <video controls>
   <source src="./04A-linear_transforms-files/R.mp4" type="video/mp4">
 </video>
