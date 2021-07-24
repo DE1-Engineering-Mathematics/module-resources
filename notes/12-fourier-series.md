@@ -63,10 +63,7 @@ It turns out the functions can be decomposed into their respective even and odd 
 
 $$\begin{equation}
 	f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2}
-\end{equation}
-
-\quad\quad\quad\quad
-
+\end{equation}\quad\quad\quad\quad
 \begin{equation}
 	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
 \end{equation}$$
@@ -181,10 +178,7 @@ b_1&=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(x)dx\\
 &=\frac{1}{\pi} \left(\int_{-\pi}^{0}(-1)\sin(x)dx+\int_{0}^{\pi}(1)\sin(x)dx\right)\\
 &=\frac{1}{\pi} \left(\left[\cos(x)\right]_{-\pi}^{0}+\left[-\cos(x)\right]_{0}^{\pi}\right)\\
 &=\frac{1}{\pi}\left(2+2\right)=\frac{4}{\pi}
-\end{align}
-
-\quad
-
+\end{align}\quad
 \begin{align}
 	b_2&=\frac{1}{\pi} \int_{-\pi}^{\pi}f(x)\sin(2x)dx\\
 	&=\frac{1}{\pi} \left(\int_{-\pi}^{0}(-1)\sin(2x)dx+\int_{0}^{\pi}(1)\sin(2x)dx\right)\\
@@ -212,10 +206,7 @@ The integral below does just that, where the sine and cosine functions that we u
 
 $$\begin{equation}
 	\hat{f}(\omega)=\int_{-\infty}^{\infty}f(t)e^{-2\pi it\omega}dt
-\end{equation}
-
-\quad\quad\quad\quad
-
+\end{equation}\quad\quad\quad\quad
 \begin{equation}
 	f(t)=\int_{-\infty}^{\infty}\hat{f}(\omega)e^{2\pi it\omega}dw
 \end{equation}$$
