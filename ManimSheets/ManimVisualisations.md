@@ -13,6 +13,7 @@ There are two versions of Manim: [3Blue1Brown's personal version](https://github
 As a prerequisite, Python should already be set up in Computing 1. The installation instructions are relatively straight forward, and can be found [here](https://docs.manim.community/en/stable/installation.html) for your relevant platform. The scripts were created in and are compatible with Manim Community v0.8.0.
 
 ### Usage
+#### Rendering Prebuilt Scripts
 If using one of the prebuilt visualisation scripts, copy the text into VS Code or your preferred text editor, and save the file as per the comment at the top e.g. `vectors.py`. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
 
 ```
@@ -27,7 +28,6 @@ An example, for the vectors script would be:
 ```
 manim -pqh linear_transform.py R3
 ```
-
 And this will open:
 <style> 
   video {
@@ -39,7 +39,9 @@ And this will open:
 <video controls>
   <source src="gettingStarted\media\R3.mp4" type="video/mp4">
 </video>
+&NewLine;
 
+#### Editing Prebuilt Scripts
 To see how different inputs behave, the top of the prebuilt script contains comments on how to edit these defaults. The script must be rendered again to produce a video that overwrites the previous.
 
 For more information, the Manim Community Documentation is really useful. Have a go at writing your own scripts! 
