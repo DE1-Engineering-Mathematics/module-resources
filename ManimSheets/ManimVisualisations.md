@@ -24,7 +24,7 @@ manim -pqh filename.py Scene
 * Ensure the `filename` corresponds to the file with that was copied and saved earlier
 * The topic file groups multiple scenes denoted by each Python class e.g. `DotProduct`, `CrossProduct`. Changing this will render different visualisations withing the same topic
 
-An example, for the vectors script would be:
+An example, for the linear transformations script this would be:
 ```
 manim -pqh linear_transform.py R3
 ```
@@ -55,5 +55,4 @@ For more information, the Manim Community Documentation is really useful. Have a
 - [6. Complex Numbers](./Topics_term1/6_Complex_num.md)
 
 
-###### Dyson School of Design Engineering 2021 - Cosmin Vonsovici
 ###### For any mistakes or queries please do not hesitate to email me at cav20@ic.ac.uk
