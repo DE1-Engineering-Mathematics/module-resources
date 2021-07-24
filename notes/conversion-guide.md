@@ -87,6 +87,9 @@ g(x,y)}{\partial x}
 <br><br>
 
 * There are a few known latex commands that do not render properly on Github pages. Up until now they have been replaced with the following: <br>
+
+<div markdown="1">
+
 ```html:Code
 <!-- These don't work -->
 \dd{x} , \me  , \xRightarrow
