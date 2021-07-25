@@ -1,4 +1,4 @@
-# Manim Visualisations
+# Manim Visualizations
 
 ![Logo](gettingStarted\media\logo.png)
 ## Getting Started
@@ -14,7 +14,7 @@ As a prerequisite, Python should already be set up in Computing 1. The installat
 
 ### Usage
 #### Rendering Prebuilt Scripts
-If using one of the prebuilt visualisation scripts, save the source code provided at the top of the page. Check the file name with the comment at the top of the script. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
+If using one of the prebuilt visualization scripts, save the source code provided at the top of the page. Check the file name with the comment at the top of the script. Open a Terminal at the location of this file, and the manim command can be used to render the script into a video:
 
 ```
 manim -pqh filename.py Scene
@@ -22,7 +22,7 @@ manim -pqh filename.py Scene
 
 * Replacing `qh` with `ql` will output a low resolution and low framerate video, useful for rapid prototyping.
 * Ensure the `filename` corresponds to the file with that was copied and saved earlier
-* The topic file groups multiple scenes denoted by each Python class e.g. `DotProduct`, `CrossProduct`. Changing this will render different visualisations withing the same topic
+* The topic file groups multiple scenes denoted by each Python class e.g. `DotProduct`, `CrossProduct`. Changing this will render different visualizations withing the same topic
 
 An example, for the linear transformations script this would be:
 ```

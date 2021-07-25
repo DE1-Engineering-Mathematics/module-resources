@@ -1,4 +1,4 @@
-# [Manim Visualisations](../ManimVisualisations.md) |  Linear Transforms
+# [Manim Visualizations](../ManimVisualizations.md) |  Linear Transforms
 [Source Code](./04A-linear_transforms-files/linear_transform.py)
 
 <style> 

@@ -13,6 +13,14 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+<style> 
+  video {
+    width: 720px;
+    height: 480px;
+    display: block;
+    margin: 0 auto;
+</style> 
+
 # Linear Transforms Tutorial Sheet, Sheet #4A
 
 ### Learning Targets
@@ -68,6 +76,11 @@ From the following linear transformations, $T:\mathbb{R} \rightarrow \mathbb{R}$
 <div class = "answer">$T(a)=-2a$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### R Transformation Visualization
+To help with intuition when answering these questions, here is a visualization built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/4A_LinearTransforms.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/04A-linear_transforms-files/R.mp4" type="video/mp4">
+</video>
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
@@ -98,6 +111,11 @@ The following graphs show pairs of vectors where the vector $\vec{a}$ is linearl
 <div class = "answer">$\Rightarrow{}\quad T\bigg(\begin{pmatrix}a_1\\a_2\end{pmatrix}\bigg)=\begin{pmatrix}-2&0\\0&-4\end{pmatrix} \begin{pmatrix}a_1\\a_2\end{pmatrix}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### R2 Vector Transformation Visualization
+To help with intuition when answering these questions, here is a visualization built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/4A_LinearTransforms.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/04A-linear_transforms-files/R2V.mp4" type="video/mp4">
+</video>
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
@@ -201,6 +219,14 @@ Note: It's difficult to see exactly in 3D, but each of the scalings are integers
 <div class = "answer">$A = \begin{pmatrix}2&0&0\\0&1&0\\0&0&3\end{pmatrix}$ and $\det(A) = 6$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### R2 and R3 Transformation Visualization
+To help with intuition when answering these questions, here is a visualization built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/4A_LinearTransforms.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/04A-linear_transforms-files/R2.mp4" type="video/mp4">
+</video>
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/04A-linear_transforms-files/R3.mp4" type="video/mp4">
+</video>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.

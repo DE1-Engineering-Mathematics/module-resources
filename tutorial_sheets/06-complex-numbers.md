@@ -13,6 +13,14 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+<style> 
+  video {
+    width: 720px;
+    height: 480px;
+    display: block;
+    margin: 0 auto;
+</style> 
+
 # Complex Numbers Tutorial Sheet, Sheet #6
 
 
@@ -147,6 +155,11 @@ $\Rightarrow \boxed{\text{Therefore } 5e^{306.87^\circ i}}$
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### Complex Number Plotter Visualization
+To help with intuition when answering these questions, here is a visualization built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/6_Complex.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/06-complex-numbers-files/ComplexPlot.mp4" type="video/mp4">
+</video>
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
@@ -182,6 +195,11 @@ $\frac{a+b\mathrm{i}}{c+d\mathrm{i}}\cdot\frac{c-d\mathrm{i}}{c-d\mathrm{i}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### Complex Number Multiplication Visualization
+To help with intuition when answering these questions, here is a visualization built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/6_Complex.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/06-complex-numbers-files/ComplexMultiply.mp4" type="video/mp4">
+</video>
 ---------------------------------------------------------------------------------
 
 ### Problem 3.

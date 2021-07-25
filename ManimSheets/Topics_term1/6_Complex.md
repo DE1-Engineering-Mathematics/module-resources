@@ -1,4 +1,4 @@
-# [Manim Visualisations](../ManimVisualisations.md) |  Complex Numbers
+# [Manim Visualizations](../ManimVisualizations.md) |  Complex Numbers
 [Source Code](./06-complex-numbers-files/complex_numbers.py)
 
 <style> 
