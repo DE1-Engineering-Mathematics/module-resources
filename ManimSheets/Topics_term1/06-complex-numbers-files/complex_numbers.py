@@ -2,13 +2,20 @@
 # Cosmin Vonsovici Dyson School of Design Engineering
 
 from manim import *
+import cmath
 
 """
 (1) FOR MOD ARG PLOTTER, ENTER THE NUMBER BELOW:
 """
-number = 1 + -3j
+number = 0.5 + 1j
 """
 Then, render with: manim -pqh complex_numbers.py ComplexPlot
+
+(2) FOR MULTIPLICATION VISUAL, ENTER THE NUMBER TO MULTIPLY THE NUMBER IN (1) BY BELOW:
+"""
+multiplier = 2 + 1j
+""" 
+Then, render with: manim -pqh complex_numbers.py ComplexMultiply
 """
 
 class ComplexPlot(Scene):
@@ -32,6 +39,32 @@ class ComplexPlot(Scene):
         self.play(Create(angle),
                   Write(arg),
                   Write(mod))
+
+class ComplexMultiply(Scene):
+    def construct(self):
+
+        plane = ComplexPlane()
+        plane.set_opacity(0.5)
+        
+        vect1 = Vector(plane.n2p(number), color = GREEN)
+        vect2 = Vector(plane.n2p(multiplier), color = YELLOW)
+        vect3 = Vector(plane.n2p(number * multiplier), color = PURPLE)
+
+        reference = DashedLine([0, 0, 0], [1, 0, 0])
+        angle1 = Angle(reference, vect1, radius = 0.3, color = GREEN)
+        angle2 = Angle(reference, vect2, radius = 0.5, color = YELLOW)
+        vg = VGroup(reference, vect2, angle2)
+
+        self.play(Create(plane))
+        self.play(GrowArrow(vect1))
+        self.play(Create(reference))
+        self.play(Create(angle1))
+        self.play(GrowArrow(vect2))
+        self.play(Create(angle2))
+        self.play(Rotate(vg, vect1.get_angle(), about_point = [0, 0, 0]))
+        self.wait(2)
+        self.play(Transform(vect2, vect3))
+        self.wait(2)
 
 class SineCurveUnitCircle(Scene):
     def construct(self):

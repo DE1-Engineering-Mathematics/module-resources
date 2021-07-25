@@ -17,7 +17,17 @@ v1_cross = np.array([-0.5, 0.7, 0.2])
 v2_cross = np.array([-0.4, -1, -1.2])
 """
 Then, render with: manim -pqh vectors.py CrossProduct
-"""
+
+# (IN PROGRESS) FOR TRIPLE SCALAR PRODUCT, ENTER THE VECTORS BELOW:
+# """
+# a = np.array([1, 0, 0])
+# b = np.array([0, 2, 0])
+# c = np.array([1, 2, 3])
+
+
+
+
+
 
 class DotProduct(VectorScene):        
     def projection(self, vector1, vector2):
@@ -115,3 +125,38 @@ class CrossProduct(ThreeDScene):
         self.play(Create(v3),
                   Create(parallelogram))
         self.wait(20)
+
+# class TripleScalarProduct(ThreeDScene):
+#     def construct(self):
+
+#         axes = ThreeDAxes()
+#         axes.add(axes.get_axis_labels())
+
+#         v1 = Line(start = [0, 0, 0], end = a, color = GREEN)
+#         v2 = Line(start = [0, 0, 0], end = b, color = RED)
+#         v3 = Line(start = [0, 0, 0], end = c, color = BLUE)
+#         cross = Line(start = [0, 0, 0], end = np.cross(a, b), color = PURPLE)
+
+#         cube = Cube(side_length=2 , fill_color=ORANGE, stroke_width=2, fill_opacity=0.5)
+#         cube.set_stroke(ORANGE)
+
+#         M = np.array([
+#                         [a[0], b[0], c[0]],
+#                         [a[1], b[1], c[1]],
+#                         [a[2], b[2], c[2]]
+#                     ])
+
+#         parallelepiped = ApplyMatrix(M, cube)
+
+#         self.set_camera_orientation(phi=75 * DEGREES, theta=-45 * DEGREES)
+#         self.begin_ambient_camera_rotation(rate=0.3)
+
+#         self.play(Create(axes),
+#                   parallelepiped,
+#                   Create(v1),
+#                   Create(v2),
+#                   Create(v3))
+#         self.wait(7)
+#         self.stop_ambient_camera_rotation()
+#         self.wait(1)
+#         self.play(Create(cross))
