@@ -117,7 +117,7 @@ Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 #### Scalar Product Visualisation
 To help with intuition when answering these questions, here is a visualisation built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/2_Vectors.md)!
 <video width="720" height="480" controls>
-  <source src="../ManimSheets/Topics_term1/02=vectors-files/DotProduct.mp4" type="video/mp4">
+  <source src="../ManimSheets/Topics_term1/02-vectors-files/DotProduct.mp4" type="video/mp4">
 </video>
 -----------------------------------------------------------------------------------
 
@@ -180,7 +180,7 @@ Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 #### Cross Product Visualisation
 To help with intuition when answering these questions, here is a visualisation built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/2_Vectors.md)!
 <video width="720" height="480" controls>
-  <source src="../ManimSheets/Topics_term1/02=vectors-files/CrossProduct.mp4" type="video/mp4">
+  <source src="../ManimSheets/Topics_term1/02-vectors-files/CrossProduct.mp4" type="video/mp4">
 </video>
 -----------------------------------------------------------------------------------
 
