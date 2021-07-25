@@ -28,9 +28,8 @@ Plots the cross product and pans the camera around it. You can see how the cross
 This render is particularly resource intensive, especially if the 3D Arrows are used. 
 
 ### Triple Scalar Product
-*Coming Soon*  
-Until then, for a geometric interpretation, see this video: 
-https://www.youtube.com/watch?v=rhwQ_5ZJ-8g
+*In Progress*  
+Until then, for a geometric interpretation, see [this video](https://www.youtube.com/watch?v=rhwQ_5ZJ-8g).
 
 ### Distance between two lines
 *Coming Soon*

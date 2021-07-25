@@ -13,6 +13,14 @@
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
+<style> 
+  video {
+    width: 720px;
+    height: 480px;
+    display: block;
+    margin: 0 auto;
+</style> 
+
 # Vectors, Sheet #2
 
 ### Learning Targets
@@ -107,13 +115,10 @@ Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 #### Scalar Product Visualisation
-To help with intuition when answering these questions, here is a visual proof that the dot product is the length of the projection of one vector (can be thought as the component of the vector in the direction of the other vector), multiplied by the length of the other vector
+To help with intuition when answering these questions, here is a visualisation built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/2_Vectors.md)!
 <video width="720" height="480" controls>
-  <source src="02-vectors-media\DotProduct.mp4" type="video/mp4">
+  <source src="../ManimSheets/Topics_term1/02=vectors-files/DotProduct.mp4" type="video/mp4">
 </video>
-
-This animation was created with Manim, and you can play around with it [here](../ManimSheets/ManimVisualisations.md)!
-
 -----------------------------------------------------------------------------------
 
 ### Problem 3.
@@ -172,6 +177,11 @@ Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+#### Cross Product Visualisation
+To help with intuition when answering these questions, here is a visualisation built in Manim. You can play around with it [here](../ManimSheets/Topics_term1/2_Vectors.md)!
+<video width="720" height="480" controls>
+  <source src="../ManimSheets/Topics_term1/02=vectors-files/CrossProduct.mp4" type="video/mp4">
+</video>
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
