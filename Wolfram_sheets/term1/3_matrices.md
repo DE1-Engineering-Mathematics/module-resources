@@ -9,7 +9,7 @@
  ### Writing a Matrix
  In WolframAlpha, matrices are written as:
 
- ```{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}```
+ > {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
 
  (for example. The above is the identity matrix.)
 
