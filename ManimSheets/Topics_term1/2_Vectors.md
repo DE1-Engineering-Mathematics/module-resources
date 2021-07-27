@@ -34,4 +34,7 @@ Until then, for a geometric interpretation, see [this video](https://www.youtube
 ### Distance between two lines
 *Coming Soon*
 
+### Closest approach
+*Coming Soon*
+
 ###### For any mistakes or queries please do not hesitate to email me at cav20@ic.ac.uk
