@@ -7,11 +7,7 @@
  Wolfram has it's [own documentation](https://www.wolframalpha.com/examples/mathematics/algebra/matrices/).
 
  ### Writing a Matrix
- In WolframAlpha, matrices are written as:
-
- > {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
-
- (for example. The above is the identity matrix.)
+ In WolframAlpha, matrices are written with curly brackets for each horizontal row, with rows separated by commas, and a pair of curly brackets surrounding the entire matrix.
 
  ### Addition & Multiplication
  [Addition](https://www.wolframalpha.com/input/?i=%7B%7B2%2C+2%7D%2C+%7B3%2C+8%7D%7D+%2B+%7B%7B-2%2C+3%7D%2C+%7B1%2C+5%7D%7D), [multiplication](https://www.wolframalpha.com/input/?i=%7B%7B2%2C+2%7D%2C+%7B3%2C+8%7D%7D+.+%7B%7B-2%2C+3%7D%2C+%7B1%2C+5%7D%7D) and [scalar multiplication](https://www.wolframalpha.com/input/?i=3.%7B%7B2%2C+2%7D%2C+%7B3%2C+8%7D%7D) work pretty much as you would expect them to. Addition uses a `+` between matrices, and multiplication needs a `.` or a `*`
