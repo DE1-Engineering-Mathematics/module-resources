@@ -1,6 +1,6 @@
 # Wolfram Alpha Cheatsheet
 
- The cheatsheets below are rewritten from Sam Cooper's [WolframAlpha Primer](https://docs.google.com/document/d/1emFWAVX7kUjOxG_gGpu97uOR9nCJAbYL0qLeBq_Xpbw/edit#).
+The cheatsheets below are rewritten from Sam Cooper's [WolframAlpha Primer](https://docs.google.com/document/d/1emFWAVX7kUjOxG_gGpu97uOR9nCJAbYL0qLeBq_Xpbw/edit#).
 
 ### Getting Started with Wolfram Alpha
 
@@ -12,7 +12,7 @@ Because [WolframAlpha](https://www.wolframalpha.com) is basically a search engin
 
 #### Creating your Account
 It's important to create an account with your Imperial email so that you get (free!) access to Pro Computing Time (which means Wolfram tries harder to answer your question before giving up).
- 
+
 To sign up, you first have to create a Wolfram account [here](https://account.wolfram.com/auth/create). Use your **long form** imperial email address, i.e. ```name.surname21@imperial.ac.uk```.
 
 Once you've done that, you can request access to Pro Unlimited [here](https://user.wolfram.com/portal/requestAK/e644bf3e2cf8d5afdf8bbbde53ce36b7b6b6a917).
