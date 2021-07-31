@@ -39,7 +39,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Find the positive root of $f(x)=x^3-6x^2+11x-6=0$ using the bisection method from the interval [2.5, 4].
 
@@ -470,7 +470,7 @@ Alternatively you could use Matlab or Python code to solve this.
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 ----------------------------------------------
-## Challenging Questions
+## Extension Questions
 
 ### Problem 7.
 For those who'd like an extra method, look up the "Fixed point method" to find the roots for the following function: 

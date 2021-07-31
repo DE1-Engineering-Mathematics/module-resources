@@ -46,7 +46,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 From the following linear transformations, $T:\mathbb{R} \rightarrow \mathbb{R}$ where $T(a) = b$, express $b$ as a function of $a$.
 
@@ -272,7 +272,7 @@ $$A = \begin{bmatrix} 2 \ 0 \\\ 1 \ 1.5\end{bmatrix}$$
 
 -----------------------------------
 
-## Challenging Questions
+## Extension Questions
 
 ### Problem 8.
 Read the documentation above, found under 'additional resources', regarding using Matlab to generate rotational transformation matrices.

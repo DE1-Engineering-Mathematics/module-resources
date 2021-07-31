@@ -32,7 +32,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Let $f(x)=x^2$. Find the first order forward finite difference approximation to $f'(3)$ using step size $h=0.1$
 
@@ -207,7 +207,7 @@ Matlab Animation:
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 -----------------------------------
-## Challenging Questions
+## Extension Questions
 ### Problem 4.
 Suppose we want a one-sided approximation to $u'(x)$ based on $u(x)$,$u(x-h)$ and $u(x-2h)$,of the form:
 $$

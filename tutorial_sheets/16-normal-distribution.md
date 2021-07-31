@@ -35,7 +35,7 @@
 
 
 # Problem sheet
-## Essential Questions
+## Skill Building Questions
 ### Problem 1.
 Alex took a test and scored 940. The mean score was 850 with the standard deviation of 100.
 
