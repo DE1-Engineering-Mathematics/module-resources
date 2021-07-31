@@ -11,9 +11,12 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
+<script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+<script type="text/javascript" src="tutorialSheetGraphs.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 # Refresher and Functions Tutorial Sheet, Sheet #1
+
 
 ### Learning Targets
 
@@ -356,7 +359,7 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
- A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
+A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
 
 (a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
 
@@ -381,7 +384,58 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-------------
+-------------------------------
+
+## Extension Questions
+
+### Problem 12.
+A curve has the equation $y=x^3-3x^2-9x+3$, and is odd (look up 'parity' if you don't know what this means) about the point $P$. Find the coordinates of $P$ and use transformation arguments to justify that the curve is odd about $P$.
+
+<div class = "answer">
+All cubics have rotational symmetry around their point of inflection. <br>
+
+$\frac{\partial y}{\partial x} = 3x^2-6x-9$ <br>
+$\frac{\partial ^{2}y}{\partial x^{2}} = 6x-6$ <br>
+$\Rightarrow\quad\ x = 1, \therefore y = -8$ and $P = (1, -8)$ <br>
+
+To justify that it is odd around P, translate the graph to the origin then test. <br>
+
+Before: <br>
+
+<div id="prob1a" style="width: 600px; height: 300px;"></div>
+<script>
+    latex = "x^3-3x^2-9x+3"
+    makeSimpleGraph("prob1a", latex);
+</script>
+
+<br>
+
+This can be achieved in two steps: <br>
+Up by 8: <br>
+$\Rightarrow y = (x^3-3x^2-9x+3) + 8$ <br>
+$\Rightarrow y = x^3-3x^2-9x+11$<br>
+Left by 1: <br>
+$\Rightarrow y = (x+1)^3-3(x+1)^2-9(x+1)+11$ <br>
+$\Rightarrow y = x^3-12x$ <br>
+
+After: <br>
+<div id="proba" style="width: 600px; height: 300px;"></div>
+<script>
+    latex = "x^3-12x"
+    makeSimpleGraph("proba", latex);
+</script>
+
+<br>
+The definition of oddity is $-f(x) = f(-x)$ <br>
+$f(-x) = (-x)^3-12(-x) = -x^3+12x = -f(x)$<br><br>
+
+
+$\boxed{\text{Therefore it is odd around the point P.}}$
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
 
 ## Answers
 

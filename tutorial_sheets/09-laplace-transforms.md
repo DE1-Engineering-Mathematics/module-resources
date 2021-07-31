@@ -332,6 +332,48 @@ At $t = 4, \boxed{v=-27.3082}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
+----------------------------------------------------------
+
+## Challenging Questions
+
+### Problem 7.
+
+This question demonstrates a way to solve PDEs (coming in 3 topics!) utilising laplace. 
+The one dimensional heat equation for the temperature $T(x, t)$ satisfies 
+$\frac{\partial ^{2}T}{\partial x^{2}} = \frac{1}{\sigma}\frac{\partial T}{\partial t}$
+where $t$ is time, $x$ is a spatial dimension and $\sigma$ is a positive constant.
+
+The temperature $T(x, t)$ is subject to the following conditions: <br>
+i. $\lim_{x \to \infty} [T(x,t)] = 0$ <br>
+ii. $T(0,t) = 1$ <br>
+iii. $T(x,0) = 0$ <br><br>
+
+Use Laplace transforms to show that <br>
+$$\mathcal{L} [{T(x,t)}] = \overline{T}(x,s) = \frac{1}{s} exp[-\sqrt{\frac{s}{\sigma}} x].$$ 
+
+<div class = "answer">
+
+Taking laplace transforms in t (x is unaffected) <br>
+$\Rightarrow\quad \mathcal{L} [\sigma\frac{\partial ^{2}T}{\partial x^{2}}] = \mathcal{L} [\sigma\frac{\partial T}{\partial t}] $ <br>
+$\Rightarrow\quad \sigma\frac{\partial ^{2}}{\partial x^{2}}\overline{T} = s\overline{T} - T(x,0)$<br>
+According to initial conditions, the last term is equal to 0 therefore: <br>
+$\Rightarrow\quad \frac{\partial ^{2}\overline{T}}{\partial x^{2}} = \frac{s'}{\sigma}\overline{T}$ <br>
+
+It is a second order ODE in $\overline{T}$ with exponential solutions (think of the ODE lesson!). <br>
+$\overline{T}(x,s) = A(s)e^{-\sqrt{\frac{s}{\sigma}}x} + B(s)e^{-\sqrt{\frac{s}{\sigma}}x} $ <br>
+
+Apply $T \rightarrow 0$ as $x \rightarrow\infty$ <br>
+$\Rightarrow \overline{T} \rightarrow 0$ as $x \rightarrow\infty$ <br>
+$\therefore B(s) = 0$ and $\overline{T}(x,s) = A(s)e^{-\sqrt{\frac{s}{\sigma}}x}$ <br><br>
+
+Apply $T(0,t) = 1 \Rightarrow \overline{T}(0,s) = \frac{1}{s}$ <br>
+$\therefore \frac{1}{s} = A(s)$ <br><br>
+
+$\boxed{\overline{T}(x,s) = \frac{1}{s}e^{-\sqrt{\frac{s}{\sigma}}x}}$
+
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ----------------------------------
 ### WolframAlpha
