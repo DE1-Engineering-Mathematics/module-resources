@@ -58,6 +58,20 @@ __[How these sheets are made.](how-to)__
 * Tristan Uvovo - 2019
 * Thomas Godden - 2019
 
+## 2021 Maths Material Development
+* Amelia Bryant
+* Amy Walter
+* Cosmin Vonsovici
+* Harris Mier
+* Ivan Revenga-Riesco
+* Jack Beaumont
+* James Howells
+* Michela Puglia
+* Saian Patel
+* Theo Bui
+* Yawei Zhang
+* Yiyang Wang
+
 ## Students who have found errors in the sheets
 * Ivan Revenga Riesco - 2020
 * Andrea Contri - 2020
