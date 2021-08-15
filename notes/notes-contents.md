@@ -20,6 +20,11 @@
 
 ## Contents
 
+### Front Matter ###
+* __[About the Course](#about)__
+* __[Course Support and Assessment](#support)__
+* __[Further Resources](#resources)__
+
 ### Chapter 0 - [Refresher](0-refresher)
 * __[0.1 - Algebra](0-refresher#algebra)__
 * __[0.2 - Calculus](0-refresher#calculus)__
@@ -114,33 +119,33 @@
 If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
 <br><br>
 
-## About the Course
+## <a id="about"></a>About the Course
 This course is a rapid introduction (or reminder for some) to a range of topics that you will find useful during your engineering career. A huge amount of wonderful resources have become freely available online in the past few years, in the form of videos, blogs, forums, wikis etc.. My hope for this course is that you finish with the confidence necessary to look up questions that you don't understand and hopefully re-purpose methods from one area to another. 
 <br><br>
 Some undergraduate courses expect students to memorise a lot of formulae and derivations; however, now that all of mankind's collected knowledge is just a few clicks away, there is no longer much value in this! Instead, we will focus on developing an intuitive understanding of the various topics, which I hope will not only be more useful, but also much more enjoyable and satisfying!
 <br><br>
 These notes are not intended to be comprehensive (that is what the internet is for), but instead hope to offer a fast paced and engaging description of the concepts, pitched at a level appropriate to DE1. Some the material is based on notes developed by Dr Rhazaoui, who taught the first iteration of this course. 
 
-### Course Support and Assessment
+### <a id="support"></a>Course Support and Assessment
 
 Learning maths is a very personal activity, with each student having their own approach; however, to really understand what's going on, there is no  way around putting in the work on your own, occasionally getting stuck and thinking your way out. That said, I really hope the notes, lectures, online videos, tutorial sheets and quizzes help to push you in the right direction and keep you motivated!
 <br><br>
 Every week, you will take a short non-credit quiz to help me (and you) understand how you're getting on. The course will be assessed through a combination 4 progress tests at half termly intervals, as well as 2 more substantial exams at the beginning of terms two and three. The course is two terms long and each week we will have 2 one hour lectures introducing the material. We will also have weekly tutorial sessions which will be 2 hours in the first term and 1 hour in the second. These sessions are primarily intended for you to ask the tutors questions about the material from the previous weeks and are not ideal for quite study. We will use Learning Catalytics to support the learning process, by running live quizzes.
 
-### Further Resources
+### <a id="resources"></a>Further Resources
 KL Stroud and DJ Booth, _Engineering Mathematics_, 7th Ed., Macmillan, 2013 (Imperial library 510.246STR), is probably _the_ core text for 1st year Maths, although ML Boas, _Mathematical Methods in the Physical Sciences_, 3rd Ed., Wiley, 2006 (Imperial library: 530.15BOA) is a bit less wordy and goes into some more advanced topics as wells. 
 <br><br>
 WolframAlpha is a brilliant mathematical resource and if you are ever stuck with a question, this should be one of your first ports of call. Finally, I would like to recommend several wonderful YouTube series, including WelchLabs, 3Blue1Brown, blackpenredpen and Numberphile as a source of mathematical inspiration and delight.
 <br><br>
 
-<img src="figs/Mapping_v4.svg" width="500"  />
+<img src="figs/Mapping_v4.svg" width="500" />
 
 <br><br><br><br>
 
 <!--
 ![creative-commons-bw](figs/creative-commons-bw.svg)
 -->
-<img src="figs/creative-commons-bw.svg" width="375"  />
+<img src="figs/creative-commons-bw.svg" width="375" />
 
 
 This work is licensed under the Creative Commons Attribution- Noncommercial- Share Alike 2.0 UK: England \& Wales License.   To view a copy of this license, visit  http://creativecommons.org/licenses/by-nc-sa/2.0/uk/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
