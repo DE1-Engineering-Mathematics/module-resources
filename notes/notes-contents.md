@@ -115,6 +115,8 @@
 * __[13.4 Total differentials and derivatives](13-multivariate-calculus#total-differential)__
 * __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
 
+### Chapter 14 - [Partial Differential Equations](14-partial-differential-equations)
+
 <br>
 
 If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
@@ -156,4 +158,3 @@ These notes were written by Dr Sam Cooper and Dr Freddie Page of the Dyson Schoo
 	
 Thanks to Dr Khalil Rhazaoui for bravely pulling together the first draft of the notes for this course, which were helpful as a basis for creating later versions. Thanks also to Prof. Dave Dye who mentored me as a lecturer and whose notes were helpful for some of the later chapters of this book.
 <br>
-
