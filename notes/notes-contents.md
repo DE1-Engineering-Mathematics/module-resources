@@ -24,6 +24,7 @@
 * __[About the Course](#about)__
 * __[Course Support and Assessment](#support)__
 * __[Further Resources](#resources)__
+* __[Licence](#licence)__
 
 ### Chapter 0 - [Refresher](0-refresher)
 * __[0.1 - Algebra](0-refresher#algebra)__
@@ -145,6 +146,7 @@ WolframAlpha is a brilliant mathematical resource and if you are ever stuck with
 <!--
 ![creative-commons-bw](figs/creative-commons-bw.svg)
 -->
+### <a id="licence"></a>Licence
 <img src="figs/creative-commons-bw.svg" width="375" />
 
 
