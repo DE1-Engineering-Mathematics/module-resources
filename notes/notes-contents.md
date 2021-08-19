@@ -115,9 +115,13 @@
 * __[13.4 Total differentials and derivatives](13-multivariate-calculus#total-differential)__
 * __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
 
-### Chapter 14 - [Multivariate Calculus](14-pdes)
+### Chapter 14 - [PDEs](14-pdes)
 * __[14.1 Recap](14-pdes#recap)__
 * __[14.2 PDE Strategies](14-pdes#strategies)__
+
+### Chapter 15 - [Finite Differences](14-pdes)
+* __[15.1 Introduction](15-finite-differences#intro)__
+* __[15.2 Application example - Numerical diffusion](15-finite-differences#example)__
 
 
 <br>
