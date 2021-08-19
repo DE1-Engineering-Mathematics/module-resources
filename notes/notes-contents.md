@@ -115,6 +115,11 @@
 * __[13.4 Total differentials and derivatives](13-multivariate-calculus#total-differential)__
 * __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
 
+### Chapter 14 - [Multivariate Calculus](14-pdes)
+* __[14.1 Recap](14-pdes#recap)__
+* __[14.2 PDE Strategies](14-pdes#strategies)__
+
+
 <br>
 
 If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
