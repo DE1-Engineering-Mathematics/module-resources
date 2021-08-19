@@ -15,7 +15,7 @@
 
 ## [Return to Contents](notes-contents)
 
-<img src="figs/14.0-header.png" width="200"/>
+<img src="figs/15.0-header.png" width="200"/>
 
 # Chapter 15 - Finite Differences
 
