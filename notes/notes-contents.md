@@ -119,6 +119,11 @@
 * __[14.1 Recap](14-pdes#recap)__
 * __[14.2 PDE Strategies](14-pdes#strategies)__
 
+### Chapter 16 - [Root Finding](16-root-finding)
+* __[16.1 The Bisection Method](16-root-finding#bisection)__
+* __[16.2 The Newton-Raphson Method](16-root-finding#nr)__
+* __[16.3 Secant Method](16-root-finding#secant)__
+
 
 <br>
 
