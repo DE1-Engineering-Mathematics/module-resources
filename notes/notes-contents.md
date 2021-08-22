@@ -129,6 +129,11 @@
 * __[17.2 Non-Linear Regression](16-optimisation#nonlin)__
 * __[17.3 Conclusion](16-optimisation#conc)__
 
+### Chapter 18 - [The Normal Distribution](18-normal-distribution)
+* __[18.1 Linear Regression](18-normal-distribution#regres)__
+* __[18.2 Non-Linear Regression](18-normal-distribution#nonlin)__
+* __[18.3 Conclusion](18-normal-distribution#conc)__
+
 
 <br>
 
