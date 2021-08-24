@@ -24,7 +24,7 @@
 
 You will have seen that in some simple scenarios it is possible to find analytical solutions to differential equations; however, even very minor increases in complexity usually make this approach impractical, if not impossible! <br><br>
 
-Finite difference methods are a numerical approach to solving differential equations by approximating derivatives with ``difference quotients''. First, the simulation domain (typically time and/or space) is discretised (chopped up into chunks), where the properties of the system are stored at discrete nodes. Then a Taylor series expansion is used to describe the relation of each node to the others in the system. This method is exclusively used with the help of computers, as it involves many simple steps being repeated zillions of times. However, if the equation for every node really did include all the others in the system, this would be too much even for computers, so a truncated series is used, which typically only involves each node's nearest neighbours.<br><br>
+Finite difference methods are a numerical approach to solving differential equations by approximating derivatives with "difference quotients". First, the simulation domain (typically time and/or space) is discretised (chopped up into chunks), where the properties of the system are stored at discrete nodes. Then a Taylor series expansion is used to describe the relation of each node to the others in the system. This method is exclusively used with the help of computers, as it involves many simple steps being repeated zillions of times. However, if the equation for every node really did include all the others in the system, this would be too much even for computers, so a truncated series is used, which typically only involves each node's nearest neighbours.<br><br>
 
 ### 15.1.1 Taylor Series Again
 
@@ -53,14 +53,14 @@ $$\begin{equation}
 <br><br>
 So we now have an equation for the first derivative at position $c$ in terms of the values of the function at $f(c)$ and $f(c+\Delta x)$, as well as a bunch of more complicated derivative terms (which have been put into square brackets...). What we can now say is that *if* $\Delta x$ is very small, then all the terms inside the big square brackets must  be *really small* compared to the first terms.<br><br>
 
-In fact, we will intentionally leave out the square bracket terms and use only the first part of the expression to form our approximation. We can now say that by truncating the Taylor series expansion before the second derivative term, we will expect to get an error on the order of $\Delta x$, which is fine if $\Delta x$ is small enough! We often write this error as $e=\mathcal{O}(\Delta x)$, where the symbol $\mathcal{O}$ means ``on the order of''. So the approximation of the function $f(x)$ at point $c$ becomes<br><br>
+In fact, we will intentionally leave out the square bracket terms and use only the first part of the expression to form our approximation. We can now say that by truncating the Taylor series expansion before the second derivative term, we will expect to get an error on the order of $\Delta x$, which is fine if $\Delta x$ is small enough! We often write this error as $e=\mathcal{O}(\Delta x)$, where the symbol $\mathcal{O}$ means "on the order of". So the approximation of the function $f(x)$ at point $c$ becomes<br><br>
 
 $$\begin{equation}
 f'(c) \approx \frac{f(c+\Delta x) - f(c)}{\Delta x}
 \end{equation}$$
 
 <br><br>
-This formulation is referred to as the *Forward Euler* approach and was first described in 1768 (way before computers!) by Leonhard Euler. If you think back to your study of linear functions for graph plotting, the equation above looks suspiciously like ``gradient=rise/run'', which I hope does not surprise you too much! In fact, this *linearisation* is exactly what a first order finite differencing scheme does (i.e. it takes any function and describes it as loads of tiny line segments - the smaller these lines are, the better the approximation will be!).<br><br>
+This formulation is referred to as the *Forward Euler* approach and was first described in 1768 (way before computers!) by Leonhard Euler. If you think back to your study of linear functions for graph plotting, the equation above looks suspiciously like "gradient=rise/run", which I hope does not surprise you too much! In fact, this *linearisation* is exactly what a first order finite differencing scheme does (i.e. it takes any function and describes it as loads of tiny line segments - the smaller these lines are, the better the approximation will be!).<br><br>
 
  The *Backward Euler* can be similarly constructed by stepping $\Delta x$ away from $c$ in the negative direction (eq.3) and has the same magnitude of error.<br><br>
 
@@ -80,7 +80,7 @@ $$\begin{equation}
 
 These three methods are shown graphically in the adjacent plot, where the difference between the outputs has been highlighted by extending their tangent approximations for the point $x_i$. <br><br>
 
-Similarly, we can also construct an approximation for the second derivative by taking the difference between the \textit{Forward Euler} and \textit{Backward Euler}. This should also not come as a surprise when we consider that the second derivative is just the gradient of the gradient!<br><br>
+Similarly, we can also construct an approximation for the second derivative by taking the difference between the *Forward Euler* and *Backward Euler*. This should also not come as a surprise when we consider that the second derivative is just the gradient of the gradient!<br><br>
 
 As with the central difference, this approximation to the second derivative also has an $\mathcal{O}(\Delta x^2)$ truncation error.<br><br>
 
@@ -151,12 +151,12 @@ T|_{x=L}=0 \qquad\  &\forall t>0.
 \end{cases}
 \end{equation}$$
 
-<br><br>
-The system above describes a one dimensional heat diffusion problem, with initial and boundary conditions. The first line is called the governing equation, which in this case is diffusion equation applied to the temperature, $T$. The parameter $\alpha$ is just a coefficient mediating the process, which in this case can be interpreted as the thermal diffusivity. The text to the right of this equation tells us where/when this equation applies, which in this case is all time from now, $0<t<\infty$, and a region of space $2L$ wide, $-L\leq x\leq L$ (notice I've used the same rule for bracket selection as described in Chapter 1).<br><br>
+<br><br> 
+The system above describes a one dimensional heat diffusion problem, with initial and boundary conditions. The first line is called the governing equation, which in this case is diffusion equation applied to the temperature, $T$. The parameter $\alpha$ is just a coefficient mediating the process, which in this case can be interpreted as the thermal diffusivity. The text to the right of this equation tells us where/when this equation applies, which in this case is all time from now, $0<t\textrm{<}\infty$, and a region of space $2L$ wide, $-L\leq x\leq L$ (notice I've used the same rule for bracket selection as described in Chapter 1). <br><br>
 
-The second line of the equation contains two new symbols: a vertical line symbol "$|$" which can be read as *such that*, or just *at*; and an upside-down capital A symbol "$\forall$'' which should be read as *for all*. So the line reads ``The temperature at time equals zero is equal to 25 for all $x$", i.e. initially the temperature is 25 everywhere.<br><br>
+The second line of the equation contains two new symbols: a vertical line symbol "$|$" which can be read as *such that*, or just *at*; and an upside-down capital A symbol "$\forall$" which should be read as *for all*. So the line reads ``The temperature at time equals zero is equal to 25 for all $x$", i.e. initially the temperature is 25 everywhere.<br><br>
 
-Following the same logic, the third line reads "The temperature at position $x=-L$ is equal to 100 for all time greater than zero'' i.e. the temperature on the left hand side of the system equals 100 from now on. Similarly, the final line of the system says ``The temperature at position $x=L$ is equal to zero for all time greater than zero'' i.e. the temperature on the right hand side of the system equals 0 from now on. So, although the system is initially room temperature everywhere, as soon as the clock begins, the temperatures at the two edges snap to new values, as if one end is touching boiling water and the other end is touching an ice cube. <br><br>
+Following the same logic, the third line reads "The temperature at position $x=-L$ is equal to 100 for all time greater than zero" i.e. the temperature on the left hand side of the system equals 100 from now on. Similarly the final line of the system says, "The temperature at position $x=L$ is equal to zero for all time greater than zero" i.e. the temperature on the right hand side of the system equals 0 from now on. So, although the system is initially room temperature everywhere, as soon as the clock begins, the temperatures at the two edges snap to new values, as if one end is touching boiling water and the other end is touching an ice cube. <br><br>
 
 <img src="figs/15-life.png" width="100%"/>
 
@@ -221,7 +221,7 @@ ylabel('Concentration, C');
 
 <img src="figs/15-simulation.png" width="50%" align = "right"/>
 
-Copy and paste the code above into a Matlab file (save as **Diffusion1D.m**). When you run this script, it should generate a plot after each time step similar to that shown below. When reading it, remember that all the green text after the **\%** symbols are called comments and are included just to help you understand the code (i.e. they are totally ignored by the computer). <br><br>
+Copy and paste the code above into a Matlab file (save as **Diffusion1D.m**). When you run this script, it should generate a plot after each time step similar to that shown below. When reading it, remember that all the green text after the **%** symbols are called comments and are included just to help you understand the code (i.e. they are totally ignored by the computer). <br><br>
 
 This simulation could equally represent heat transfer, mass transport or even the movement of bacteria. Notice the smoothing effect that diffusion has, turning an initially very sharp distribution in to two overlapping curves similar to Gaussians.<br><br>
 
