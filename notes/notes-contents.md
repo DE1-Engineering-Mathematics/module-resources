@@ -119,6 +119,13 @@
 * __[14.1 Recap](14-pdes#recap)__
 * __[14.2 PDE Strategies](14-pdes#strategies)__
 
+### Chapter 15 - [Finite Differences](15-finite-differences)
+* __[15.1 Introduction](15-finite-differences#intro)__
+* __[15.2 Application Example - Numerical Diffusion](15-finite-differences#app)__
+* __[15.3 Systems of equations and conditions](15-finite-differences#systems)__
+* __[15.4 Notation](15-finite-differences#notation)__
+* __[15.5 Code](15-finite-differences#code)__
+
 ### Chapter 16 - [Root Finding](16-root-finding)
 * __[16.1 The Bisection Method](16-root-finding#bisection)__
 * __[16.2 The Newton-Raphson Method](16-root-finding#nr)__
