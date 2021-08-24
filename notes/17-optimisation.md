@@ -112,15 +112,15 @@ $$m ({\textstyle{\sum}} x_i^2 -\overline{x}^2n) = {\textstyle{\sum}}x_iy_i - \ov
 
 <br><br>
 then finally we can write an equation explicit for $m$ and therefore also for $c$ <br><br>
-
-$$
+ 
+$$\begin{align*} 
 m = \frac{{\textstyle{\sum}}x_iy_i -\overline{x}\, \overline{y} n }{{\textstyle{\sum}}x_i^2 - \overline{x}^2n}
 \equiv
 \frac{\overline{x}\, \overline{y}-\overline{xy}}{\overline{x}^2-\overline{x^2}}
 \qquad \Rightarrow \qquad
 c=
 \overline{y} - \left(\frac{\overline{x}\, \overline{y}-\overline{xy}}{\overline{x}^2-\overline{x^2}}\right)\overline{x}
-$$
+\end{align*}$$
 
 <br><br>
 And that's that. We now have explicit equations for $m$ and $c$ that allow us to find the line of best fit through an arbitrary dataset. Remember, these equations are really just finding the minima of the two partial derivatives, so this does not necessarily mean that $S$ now equals zero (i.e. the line passes through all the points), but simply that $S$ is the smallest it could be. <br><br>
@@ -180,7 +180,7 @@ Since we're lucky enough to even have our two derivative expressions that we rea
 $$\text{J}_S=\left[\frac{\partial S}{\partial \mu},\frac{\partial S}{\partial \sigma}\right]$$ 
 
 <br><br>
-If we pick some arbitrary values of $\mu$ and $\sigma$, we can evaluate the Jacobian vector at this point. We can then think of J$_S$ as a vector in $(\mu,\sigma)$-space pointing in the direction in which $S$ increases the most... So if we'd like to *minimise* $S$ then our next guess for $\mu$ and $\sigma$ should be in the opposite direction, i.e. $-\text{J}_S$. <br><br>
+If we pick some arbitrary values of $\mu$ and $\sigma$, we can evaluate the Jacobian vector at this point. We can then think of J$_S$ as a vector in $(\mu,\sigma)$-space pointing in the direction in which $S$ increases the most... So if we'd like to *minimise* $S$ then our next guess for $\mu$ and $\sigma$ should be in the opposite direction i.e. $-\text{J}_S$. <br><br>
 
 The left hand figure below shows some data points, as well as four normal distribution curves. The right hand figure shows a contour plot of $S$, parametrised by $\mu$ and $\sigma$, where the four points correspond by colour to the four adjacent curves. In addition, attached to each point is an arrow pointing in the direction $-\text{J}_S$, where the length of the arrow shows the magnitude of the vector. <br><br> 
 
@@ -189,7 +189,7 @@ The left hand figure below shows some data points, as well as four normal distri
 <br><br>
 Essentially, we have just performed the first step of an iterative method: Starting from some arbitrary initial point, evaluate the Jacobian, move in the opposite direction to it to a new point and then evaluate the Jacobian again, and then repeat until some convergence criteria are met. It important to notice that the negative Jacobians shown in the contour plot do not point directly at the minimum (otherwise finding the solution would be easy!), but instead point in the steepest direction "downhill" locally. Also consider that although the black point doesn't appear to have a Jacobian arrow, this is simply because the local value of the partial derivative are tiny as it is close to the minimum. <br><br>
 
-The difficulty comes in deciding *how far* to move in each step and when to stop. If you take big steps, you will move quickly down hill, but you might jump over minima and never ``converge'' to an acceptable solution; equally, if you take small steps, the system will converge very slowly as you make so little progress each time and it still might be a local minimum. To work out when to stop, you will need to choose some criteria, for example, picking a threshold value of $S$ or the partial derivatives that you feel is acceptable, and then checking regularly while iterating. Also, picking a good starting point can be very important, as, in the case of the normal distribution<br><br>
+The difficulty comes in deciding *how far* to move in each step and when to stop. If you take big steps, you will move quickly down hill, but you might jump over minima and never ``converge'' to an acceptable solution; equally, if you take small steps, the system will converge very slowly as you make so little progress each time and it still might be a local minimum. To work out when to stop, you will need to choose some criteria, for example, picking a threshold value of $S$ or the partial derivatives that you feel is acceptable, and then checking regularly while iterating. Also, picking a good starting point can be very important, as, in the case of the normal distribution.<br><br>
 
 Imagine if our initial guess was $\mu=-100$ and $\sigma=0.1$. This would mean that the region overlapping with the data is essentially a flat line at $f(x)\approx 0$, so the local gradients would be small as increasing or decreasing $\mu$ would only result is small changes in $S$. There are essentially two ways of dealing with this: The first is that you have *some* idea what your data's like and pick sensible values (i.e. correct order of magnitude at least!); the second approach is to run the fitting algorithm many times, start from a wide range of initial guesses. <br><br>
 
@@ -201,7 +201,7 @@ Finally, it's worth reminding you that although I show you the nice contour plot
 
 We started this chapter off by saying that optimisation is a big topic, but even just from the two examples above you are already confronted with many of the key challenges. In both cases, I chose fitting functions with just two parameters so that I could show you nice 2D contour plots, but if there were three parameters it would already be difficult to plot and many real problems, for example training a neural networks, might require optimising thousands of parameters! So, once you've built your intuition on simple problems, and learnt strategies to deal with noisy data, local optima or complicated constraints you just have to trust the maths... <br><br>
 
-If you'd like to know more about this topic, head to our [Mathematics for Machine Learning](https://www.coursera.org/specializations/mathematics-machine-learning) online specialisation on Coursera, which is free to Imperial students! :-)
+If you'd like to know more about this topic, head to our [Mathematics for Machine Learning](https://www.coursera.org/specializations/mathematics-machine-learning) online specialisation on Coursera, which is free to Imperial students! :))
 
 <br><br><br><br>
 
