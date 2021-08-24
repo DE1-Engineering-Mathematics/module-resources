@@ -25,13 +25,12 @@ As discussed earlier in the course, it is sometimes possible to find the roots o
 A variety of methods have been developed over the years, which vary in simplicity and efficiency. This chapter will explore the bisection method and the Newton-Raphson method. <br><br>  
 
 ## <a id="bisection"></a> 14.1 The Bisection Method
-<br>
 
 If a function has a single root between the two $x$-coordinates, $x_\alpha$ and $x_\beta$, then $f(x_\alpha)$ and $f(x_\beta)$ should have different signs (i.e. one positive and one negative). <br><br>
 
 <img align = "right" src="figs/16-bisection.png" width="25%"/>
 
-The bisection method starts with the user specifying an interval (\ie two $x$-coordinates), which they believe to contain a single root. Next, this interval is bisected (i.e. cut in half) to create two smaller intervals either side of our bisection point, $x_1$. By evaluation $f(x_1)$, we can then determine which of the two new intervals must contain the root (i.e. the one with the sign change). <br><br>
+The bisection method starts with the user specifying an interval (i.e. two $x$-coordinates), which they believe to contain a single root. Next, this interval is bisected (i.e. cut in half) to create two smaller intervals either side of our bisection point, $x_1$. By evaluation $f(x_1)$, we can then determine which of the two new intervals must contain the root (i.e. the one with the sign change). <br><br>
 
 If we are lucky with the selection of our initial interval, our bisection point may eventually coincide with the root itself ($f(x_n)=0$), but this will not usually be the case. As such, we must continue to iterate the bisection method until the interval containing the root is acceptably small. This method is summarised as follows:<br><br>
 
@@ -90,17 +89,16 @@ There are several cases that you should be aware of as they may cause you diffic
 
 <img align = "left" src="figs/16.3-prob2.png" width="50%"/>
 
-Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br><br><br><br><br>
+Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br><br><br>
 
 
 <img align = "right" src="figs/16.4-prob3.png" width="50%"/>
 
 The final case that we will mention here is for functions that have multiple roots packed close together. Figure 16.4 shows the function $f(x)=x(x(16x-160)+529)-578$. If you did not spot that this was a cubic function, you may have presumed by looking at the graph that the interval $[x_\alpha,x_\beta]$ contained only one root. ¯\ \_(ツ)_/¯ <br><br>
 
-If you proceed with the bisection method from this starting interval, you will still end up finding a root, but you won't know which of the three you've found. It is now possible to find the remaining two roots, but it requires some careful thought. By taking the root you've just found as an approximation for, $x_\gamma$, and investigating the intervals either side of it (i.e. the intervals $[x_\alpha,x_\gamma]$ and $[x_\gamma,x_\beta]$). Be aware that if $x_\gamma$ was either the first or last of the three possible roots, then one of these two new intervals will lead you straight back to $x_\gamma$. Also, if you were lucky and managed to find the first root exactly (i.e. $f(x_\gamma)=0$), then clearly you cannot use this as one of your bounds as it is neither positive or negative, and will therefore have to use $x_\gamma+\delta$ instead, where $\delta$ represents a very small change in $x_\gamma$. 
+If you proceed with the bisection method from this starting interval, you will still end up finding a root, but you won't know which of the three you've found. It is now possible to find the remaining two roots, but it requires some careful thought. By taking the root you've just found as an approximation for, $x_\gamma$, and investigating the intervals either side of it (i.e. the intervals $[x_\alpha,x_\gamma]$ and $[x_\gamma,x_\beta]$). Be aware that if $x_\gamma$ was either the first or last of the three possible roots, then one of these two new intervals will lead you straight back to $x_\gamma$. Also, if you were lucky and managed to find the first root exactly (i.e. $f(x_\gamma)=0$), then clearly you cannot use this as one of your bounds as it is neither positive or negative, and will therefore have to use $x_\gamma+\delta$ instead, where $\delta$ represents a very small change in $x_\gamma$. <br><br>
 
 ## <a id="nr"></a> 14.2 The Newton-Raphson Method}
-<br>
 
 The Newton-Raphson (NR) method, sometimes just called Newton's method, named after Isaac Newton and Joseph Raphson, is an iterative method for approximating the roots of real-valued functions.<br><br>
 
@@ -112,40 +110,39 @@ $$\begin{equation*}
 f(x_0)=f'(x_0)x_0+c ,
 \end{equation*}$$
 
-<br><br>
+<br>
 which can be rearranged to find $c$<br><br>
 
 $$\begin{equation*}
 c=f(x_0)-f'(x_0)x_0 .
 \end{equation*}$$
 
-<br><br>
+<br>
 We can now write the following expression for the tangent line at $x_0$<br><br>
 
 $$\begin{equation*}
 y=f'(x_0)x+f(x_0)-f'(x_0)x_0 ,
 \end{equation*}$$
 
-<br><br>
+<br>
 Finally, by setting $y=0$ and rearranging to make $x$ the subject, we get<br><br>
 
 $$\begin{equation*}
 x=x_0-\frac{f(x_0)}{f'(x_0)} ,
 \end{equation*}$$
 
-<br><br>
+<br>
 Now that we have our explicit equation for the intercept of the tangent line, we can rewrite this in the iterative notation that is the NR method.<br><br>
 
 $$\begin{equation*}
 x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)} ,
 \end{equation*}$$
 
-<br><br>
+<br>
 A common use for the NR method is finding a numerical approximation for the $n^{th}$ root of a number, as shown in the following example.<br><br>
 
 ### 16.2.1 NR Example
 
-<br>
 Find an approximation for the square root of 2 by using the NR method to find the root of the equation $f(x)=x^2-2$.<br><br>
 
 Differentiating our $f(x)$ shows the gradient function to be $f'(x)=2x$. So we can now state the NR method in terms of our specific problem,<br><br>
@@ -154,7 +151,7 @@ $$\begin{equation*}
 x_{n+1}=x_n-\frac{x_n^2-2}{2x_n}\quad,
 \end{equation*}$$
 
-<br><br>
+<br>
 which rearranges to, <br><br>
 
 $$\begin{equation*}
@@ -187,7 +184,7 @@ x_3=0.5\left(\frac{193}{132}\right)+\frac{132}{193}=\frac{72097}{50952}=1.415...
 \end{equation*}$$
 
 <br><br>
-so even starting from a poor guess and with just three iterations we now have an estimate of the square root of 2 that is correct to within 0.1\%.<br><br>
+so even starting from a poor guess and with just three iterations we now have an estimate of the square root of 2 that is correct to within 0.1%.<br><br>
 
 However, if we had started from $x_0=-3$ (or any negative number), we would have found the other root ($-\sqrt{2}$) instead.<br><br>
 
@@ -195,8 +192,8 @@ Furthermore, if we have chosen our initial guess to be $x_0=0$, the NR method wo
 
 This illustrates that the selection of our initial guess is important. Typically, to find a specific root, we should aim to have no discontinuities or stationary points between the root and our initial guess. As we have just seen, in the case $f(x)=x^2-2$, to find the positive root, our initial guess had to be in the range $ 0<x_0<\infty $. For more complicated functions, selection of the initial guess requires careful consideration. 
 
+<br><br>
 ## <a id="secant"></a> 14.1 Secant Method
-<br>
 
 The final root finding method that we'll be covering in this course is called the "secant method". You may remember form high school geometry that a secant is a line that intersects with a curve in at least two (distinct) places. <br><br>
 
@@ -228,7 +225,6 @@ $$ x_{n+1}=\frac{x_{n-1}f(x_{n})-x_{n}f(x_{n-1})}{f(x_{n})-f(x_{n-1})}=x_n-f(x_n
 <br><br>
 
 ### 16.3.1 Example 
-<br>
 
 Consider the function $f(x)=8-e^x$, which has one real root. <br><br>
 
