@@ -42,7 +42,7 @@ Not a lot has changed, so the solution should look very much like the ODE case,
 
 $$ f(x,y) = \frac{1}{3} x^3 + c(y) \;.$$
 
-The only difference is in the *`constant'* term; the only requirement is that is constant when varying $x$, that's to say nothing of varying $y$. In fact this term is upgraded to a *function* of $y$. This subtle change has implications for how we specify a particular solution. Previously we could lock down our solution by specifying information at specific points on the function, e.g. at $x=0$, now we have to specify the function for all values of $y$. <br><br>
+The only difference is in the *`constant '* term; the only requirement is that is constant when varying $x$, that's to say nothing of varying $y$. In fact this term is upgraded to a *function* of $y$. This subtle change has implications for how we specify a particular solution. Previously we could lock down our solution by specifying information at specific points on the function, e.g. at $x=0$, now we have to specify the function for all values of $y$. <br><br>
 
 <img src="figs/14.1-odesols.png" width="100%"/> 
 
@@ -170,7 +170,7 @@ Then $f_\mp$ can be found by integrating these.
 
 ### 14.2.1 Separation of Variables
 
-The previous example relied on us knowing something specific about the wave equation. We won't always have this knowledge, so let's explore a more general technique called \emph{separation of variables}. This technique assumes that we can write a solution that is the product of functions of one variable. i.e.,<br><br>
+The previous example relied on us knowing something specific about the wave equation. We won't always have this knowledge, so let's explore a more general technique called *separation of variables*. This technique assumes that we can write a solution that is the product of functions of one variable. i.e.,<br><br>
 
 $$ f(x, t) = X(x)T(t) \;.$$ 
 
@@ -247,7 +247,7 @@ T'(t) &= -\gamma T(t)
 \;,
 \end{align*}$$
 
-<br><br>
+<br>
 with solutions,<br><br>
 
 $$\begin{equation*}
@@ -255,12 +255,13 @@ f(x, t) = a e^{-\alpha k^2 t} \cos(k x) + b e^{-\alpha k^2 t} \sin(k x)	\;.
 \end{equation*}$$
 
 <br><br>
-Remember, that this is true for any arbitrary $k$. We could set $k = \frac{n \pi}{L}$, i.e.,
+Remember, that this is true for any arbitrary $k$. We could set $k = \frac{n \pi}{L}$, i.e.,<br><br>
+
 $$\begin{equation*}
 f(x, t)
 = a e^{-\frac{\alpha n^2 \pi^2}{L^2}t} \cos(\frac{n \pi x}{L})
 + b e^{-\frac{\alpha n^2 \pi^2}{L^2}t} \sin(\frac{n \pi x}{L})\;.
-\end{equation*}$$
+\end{equation*}$$ 
 
 <br><br>
 Remember that sum of solutions to a linear PDE or ODE is also a solution, so,<br><br>
@@ -339,8 +340,7 @@ Let's attempt to gain insights about the diffusion equation by applying separati
 
 $$\begin{align*}
 \frac{\partial f(x,t)}{\partial t} = \alpha \frac{\partial^{2} f(x,t)}{\partial x^{2}}
-\end{align*}$$
-$$\begin{align*}
+\\
 X(x)T'(t) &= \alpha X''(x)T(t)
 \\
 \frac{T'(t)}{T(t)} &= \alpha \frac{X''(x)}{X(x)} = -\gamma
@@ -438,7 +438,8 @@ f(x,t) = \frac{1}{\sigma(t)\sqrt{2\pi}}\exp\left(-\frac{x^2}{2
 \end{equation*}$$
 
 <br><br>
-We'll need to plug this into the PDE, so let's first calculate the relevant partial derivatives:
+We'll need to plug this into the PDE, so let's first calculate the relevant partial derivatives: <br><br>
+
 $$\begin{align*}
 \frac{\partial f(x,t)}{\partial t} &=
 \frac{1}{\sqrt{2\pi}}\left[
