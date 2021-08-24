@@ -131,7 +131,7 @@ For a particular solution, it is not enough just to know the value of the functi
 
 $$ f(x, 0) = f_+(x) + f_-(x), $$
 
-<br><br>
+<br>
 If we had a second piece of information, such as the value of the function at another time, or the time derivative, then we could solve for $f_+$ and $f_-$. e.g.,<br><br>
 
 $$\begin{equation*}
@@ -139,14 +139,14 @@ $$\begin{equation*}
 ,
 \end{equation*}$$
 
-<br><br>
+<br>
 Therefore, since,<br><br>
 
 $$\begin{equation*}
 \frac{\partial f(x, 0)}{\partial x} = f'_+(x) + f'_-(x)
 \end{equation*}$$
 
-<br><br>
+<br>
 then,<br><br>
 
 $$\begin{align*}
@@ -160,7 +160,7 @@ f'_-(x) =
 \;,
 \end{align*}$$
 
-<br><br>
+<br>
 Then $f_\mp$ can be found by integrating these.
 
 <br><br>
@@ -261,7 +261,7 @@ $$\begin{equation*}
 f(x, t)
 = a e^{-\frac{\alpha n^2 \pi^2}{L^2}t} \cos(\frac{n \pi x}{L})
 + b e^{-\frac{\alpha n^2 \pi^2}{L^2}t} \sin(\frac{n \pi x}{L})\;.
-\end{equation*}$$ 
+\end{equation*}$$  
 
 <br><br>
 Remember that sum of solutions to a linear PDE or ODE is also a solution, so,<br><br>
@@ -496,7 +496,7 @@ $$\begin{align*}
 \end{align*} $$
 
 <br><br>
-or by fixing the constant term,<br><br>
+or by fixing the constant term,<br>
 
 $$\begin{align*}
 \sigma(t) = \sqrt{\sigma(0)^2 + 2 \alpha t}
