@@ -157,7 +157,9 @@ T|_{x=L}=0 \qquad\  &\forall t>0.
 \end{equation}$$
 
 <br><br> 
-The system above describes a one dimensional heat diffusion problem, with initial and boundary conditions. The first line is called the governing equation, which in this case is diffusion equation applied to the temperature, $T$. The parameter $\alpha$ is just a coefficient mediating the process, which in this case can be interpreted as the thermal diffusivity. The text to the right of this equation tells us where/when this equation applies, which in this case is all time from now, $0<t\textrm{<}\infty$, and a region of space $2L$ wide, $-L\leq x\leq L$ (notice I've used the same rule for bracket selection as described in Chapter 1). <br><br>
+The system above describes a one dimensional heat diffusion problem, with initial and boundary conditions. The first line is called the governing equation, which in this case is diffusion equation applied to the temperature, $T$. 
+
+The parameter $\alpha$ is just a coefficient mediating the process, which in this case can be interpreted as the thermal diffusivity. The text to the right of this equation tells us where/when this equation applies, which in this case is all time from now, $0<t\textrm{<}\infty$, and a region of space $2L$ wide, $-L\leq x\leq L$ (notice I've used the same rule for bracket selection as described in Chapter 1). <br><br>
 
 The second line of the equation contains two new symbols: a vertical line symbol "$|$" which can be read as *such that*, or just *at*; and an upside-down capital A symbol "$\forall$" which should be read as *for all*. So the line reads "The temperature at time equals zero is equal to 25 for all $x$", i.e. initially the temperature is 25 everywhere.<br><br>
 
