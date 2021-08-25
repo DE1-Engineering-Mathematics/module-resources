@@ -114,7 +114,7 @@ $$m ({\textstyle{\sum}} x_i^2 -\overline{x}^2n) = {\textstyle{\sum}}x_iy_i - \ov
 then finally we can write an equation explicit for $m$ and therefore also for $c$ <br><br>
  
 $$\begin{align*} 
-m = \frac{{\textstyle{\sum}}x_iy_i -\overline{x}\, \overline{y} n }{{\textstyle{\sum}}x_i^2 - \overline{x}^2n}
+m = \frac{{\sum}x_iy_i -\overline{x}\, \overline{y} n }{\sum}x_i^2 - \overline{x}^2n}
 \end{align*}$$
 
 $$\equiv$$

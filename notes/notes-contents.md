@@ -132,9 +132,9 @@
 * __[16.3 Secant Method](16-root-finding#secant)__
 
 ### Chapter 17 - [Optimisation](17-optimisation)
-* __[17.1 Linear Regression](16-optimisation#regres)__
-* __[17.2 Non-Linear Regression](16-optimisation#nonlin)__
-* __[17.3 Conclusion](16-optimisation#conc)__
+* __[17.1 Linear Regression](17-optimisation#regres)__
+* __[17.2 Non-Linear Regression](17-optimisation#nonlin)__
+* __[17.3 Conclusion](17-optimisation#conc)__
 
 ### Chapter 18 - [The Normal Distribution](18-normal-distribution)
 * __[18.1 The Gaussian Integral](18-normal-distribution#integral)__
