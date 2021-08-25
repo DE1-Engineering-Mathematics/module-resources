@@ -180,17 +180,15 @@ T|_{t=0}=25 &\forall x,\\
 \end{equation}$$
 
 <br><br>
-This time the left hand side of the system has a fixed gradient of zero (which we can think of as an insulating barrier, letting no heat in or out) and the right hand side has a constant gradient of 10 degrees per meter (we can think of this as a controlled heat source, like a laser). <br>
+This time the left hand side of the system has a fixed gradient of zero (which we can think of as an insulating barrier, letting no heat in or out) and the right hand side has a constant gradient of 10 degrees per meter (we can think of this as a controlled heat source, like a laser). 
+
+<br>
 
 The figure shows the distribution of temperature initially, at time $t=a$ which is when $T|_{x=-L}$ first increases about 25 degrees, and at time $t=b$ which is when $T|_{x=-L}=50$.
 
 <br>
 
-Notice that the gradient of the temperature at $x=-L$ and $x=L$ are the same at $t=b$ as they are at $t=a$. 
-
-<br>
-
-These gradients are defined in the system of equations. Since this system is gaining heat at one end and not losing any heat at the other, it will just keep getting hotter and hotter, although the shape of the temperature profile will stay the same for $t\geq a$. <br><br>
+Notice that the gradient of the temperature at $x=-L$ and $x=L$ are the same at $t=b$ as they are at $t=a$. These gradients are defined in the system of equations. Since this system is gaining heat at one end and not losing any heat at the other, it will just keep getting hotter and hotter, although the shape of the temperature profile will stay the same for $t\geq a$. <br><br>
 
 ## <a id="notation"></a> 15.4 Notation
 <br>
