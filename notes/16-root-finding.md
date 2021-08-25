@@ -89,12 +89,12 @@ There are several cases that you should be aware of as they may cause you diffic
 
 <img align = "left" src="figs/16.3-prob2.png" width="50%"/>
 
-Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br>
+Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br><br>
 
 
 <img align = "right" src="figs/16.4-prob3.png" width="50%"/>
 
-The final case that we will mention here is for functions that have multiple roots packed close together. Figure 16.4 shows the function $f(x)=x(x(16x-160)+529)-578$. If you did not spot that this was a cubic function, you may have presumed by looking at the graph that the interval $[x_\alpha,x_\beta]$ contained solely one root. ¯\ \_(ツ)_/¯ <br><br>
+The final case that we will mention here is for functions that have multiple roots packed close together. Figure 16.4 shows the function $f(x)=x(x(16x-160)+529)-578$. If you did not spot that this was a cubic function, you may have presumed by looking at the graph that the interval $[x_\alpha,x_\beta]$ contained only one singular root. ¯\ \_(ツ)_/¯ <br><br>
 
 If you proceed with the bisection method from this starting interval, you will still end up finding a root, but you won't know which of the three you've found. It is now possible to find the remaining two roots, but it requires some careful thought. By taking the root you've just found as an approximation for, $x_\gamma$, and investigating the intervals either side of it (i.e. the intervals $[x_\alpha,x_\gamma]$ and $[x_\gamma,x_\beta]$). Be aware that if $x_\gamma$ was either the first or last of the three possible roots, then one of these two new intervals will lead you straight back to $x_\gamma$. Also, if you were lucky and managed to find the first root exactly (i.e. $f(x_\gamma)=0$), then clearly you cannot use this as one of your bounds as it is neither positive or negative, and will therefore have to use $x_\gamma+\delta$ instead, where $\delta$ represents a very small change in $x_\gamma$. <br><br>
 
@@ -193,7 +193,7 @@ Furthermore, if we have chosen our initial guess to be $x_0=0$, the NR method wo
 This illustrates that the selection of our initial guess is important. Typically, to find a specific root, we should aim to have no discontinuities or stationary points between the root and our initial guess. As we have just seen, in the case $f(x)=x^2-2$, to find the positive root, our initial guess had to be in the range $ 0<x_0<\infty $. For more complicated functions, selection of the initial guess requires careful consideration. 
 
 <br><br>
-## <a id="secant"></a> 14.1 Secant Method
+## <a id="secant"></a> 14.3 Secant Method
 
 The final root finding method that we'll be covering in this course is called the "secant method". You may remember form high school geometry that a secant is a line that intersects with a curve in at least two (distinct) places. <br><br>
 
