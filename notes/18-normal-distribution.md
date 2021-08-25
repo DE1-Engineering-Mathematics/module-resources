@@ -26,7 +26,7 @@ f(x)=ae^{-b(x-c)^2}\quad,
 \end{equation*}$$
 
 <img src="figs/18-bell.png" width="25%" align = "right"/>
-<br><br>
+<br>
 
 These functions have a characteristic ``bell curve'' shape and are asymptotic to the $x$-axis in both directions; however, crucially they also have a finite area. Finding the area under this curve is trick (just try integrating it from $x=-\infty$ to $x=+\infty$ directly if you're curious...), but we can find the answer by making use of a few clever substitutions (tricks!). <br><br>
 
@@ -68,8 +68,6 @@ A^2
 <br><br>
 <img src="figs/18-polar.png" width="25%" align = "right"/>
 
-<br><br>
-
 The variables $x$ and $y$ are usually, as in this case, used to describe a Cartesian coordinate system. The next step is to transform the system from Cartesian into **polar** coordinates, as illustrated in the adjacent figure.<br><br>
 
 $$\begin{align*}
@@ -78,7 +76,7 @@ y&=r\sin(\theta)
 \end{align*}$$
 
 <br><br>
-To convert between coordinate systems, we calculate the determinant of something called the ``Jacobian'' matrix, which we'll be covering in more detail later in the course. This is because integration in $(x,y)$-space does not map directly on to $(r,\theta)$-space (i.e. d$x$d$y\neq$ d$r$d$\theta$).<br><br>
+To convert between coordinate systems, we calculate the determinant of something called the "Jacobian" matrix, which we'll be covering in more detail later in the course. This is because integration in $(x,y)$-space does not map directly on to $(r,\theta)$-space (i.e. d$x$d$y\neq$ d$r$d$\theta$).<br><br>
 
 The Jacobian matrix is constructed by finding each of the four possible partial derivative combinations, as in the following table.<br><br>
 
@@ -149,9 +147,9 @@ Having completed this integration, we simply take the square root of our answer 
 
 ## <a id="normal"></a> 18.2 The Normal Distribution
 
-The Gaussian is also the correct shape for modelling random variables, a reasonable example of which might be the height of students in your class. The curve itself is the probability density function (PDF), so the value of the curve at a point is the *probability density* NOT the probability! It is only by finding the area under the curve between two $x$ values that allows us to calculate a probability. For example, when we ask "how many people are 1.70\,m tall?" we do not mean how many are *exactly* 1.700000...\,m tall, but more likely, how many are between 1.695\,m and 1.705\,m tall. <br><br>
+The Gaussian is also the correct shape for modelling random variables, a reasonable example of which might be the height of students in your class. The curve itself is the probability density function (PDF), so the value of the curve at a point is the *probability density* NOT the probability! It is only by finding the area under the curve between two $x$ values that allows us to calculate a probability. For example, when we ask "how many people are 1.70m tall?" we do not mean how many are *exactly* 1.700000...m tall, but more likely, how many are between 1.695m and 1.705m tall. <br><br>
 
-We have just found the area under the curve $y=e^{-x^2}$ to be $\sqrt{\pi}$, which roughly equals 1.772, but the total area under any probability curve should be 1. To understand why, consider that finding the total area under a PDF of "student height" is like asking "What is the probability that a random student in your class is *any* height?"... you can be 100\% sure that they they have *a* height, so the area must be 1. In order to modify our function such that its total area is 1, we simply divide by its current area.<br><br>
+We have just found the area under the curve $y=e^{-x^2}$ to be $\sqrt{\pi}$, which roughly equals 1.772, but the total area under any probability curve should be 1. To understand why, consider that finding the total area under a PDF of "student height" is like asking "What is the probability that a random student in your class is *any* height?"... you can be 100% sure that they they have *a* height, so the area must be 1. In order to modify our function such that its total area is 1, we simply divide by its current area.<br><br>
 
 $$\begin{equation}
 f(x)=\frac{1}{\sqrt{\pi}}e^{-x^2}
@@ -172,7 +170,7 @@ $$\begin{equation*}
 <br><br>
 The normal distribution is not "normal" in the sense that it is "usual" or "average", which can lead to to some confusion. One way to keep this in mind is to remember that we have just "normalised" our function by modifying the exponent and dividing it by $\sqrt{2\pi}$ (although this is not the real reason Gauss chose the name).<br><br>
 
-<img src="figs/18-normal.png" width="50%" align = "right"/>
+<img src="figs/18-normal.png" width="50%"/>
 
 <br><br>
 There any many alternative distributions that we can use to model data, but you will encounter the normal distribution frequently and need to know how to manipulate it.<br><br>
@@ -252,8 +250,7 @@ P(X<x_a)+P(X>x_b)
 
 <br><br>
 <br><br>
-<br><br>
-**Example** - In a class of 100 students, if the average height is 1.70\,m and the standard deviation is 20fcm, how many students would you expect to be between 1.25m and 1.45m tall? <br><br>
+**Example** - In a class of 100 students, if the average height is 1.70m and the standard deviation is 20cm, how many students would you expect to be between 1.25m and 1.45m tall? <br><br>
 
 $$\begin{align*}
 P(1.25<X<1.45)
@@ -266,7 +263,7 @@ P(1.25<X<1.45)
 <br><br>
 <img src="figs/18.5-example.png" width="50%" align = "left"/>
 
-As the probability of any given student falling within the range is roughly 0.093, we would expect for there to be approximately 9 students between 1.25\,m and 1.45\,m in a class of 100.<br><br>
+As the probability of any given student falling within the range is roughly 0.093, we would expect for there to be approximately 9 students between 1.25m and 1.45m in a class of 100.<br><br>
 
 The values of the error function were found using www.wolframalpha.com, which is a free online knowledge engine, although any other platform, such as MATLAB&reg;, would also have a suitable function.
 
