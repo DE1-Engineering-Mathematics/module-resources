@@ -90,6 +90,7 @@ As with the central difference, this approximation to the second derivative also
 
 $$\begin{equation}
 f''(c) = \frac{f(c+\Delta x) - 2f(c) + f(c-\Delta x)}{\Delta x^2} - \left(\frac{\Delta x^2}{12}f^{(4)}(c) + ... \right) 
+\quad\quad (15.5)
 \end{equation}$$
 
 <br><br> 
@@ -111,7 +112,7 @@ $$\begin{equation*}
 \end{equation*}$$
 
 <br><br>
-Then, using the second derivative approximation in eq.5 we can approximate the second spatial derivative<br><br>
+Then, using the second derivative approximation in eq.15.5 we can approximate the second spatial derivative<br><br>
 
 $$\begin{equation*}
 	\frac{\partial^2 C(t,x)}{\partial x^2}\approx  \frac{C(t,x+\Delta x) - 2C(t,x) + C(t,x-\Delta x)}{\Delta x^2}
