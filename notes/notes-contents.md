@@ -137,9 +137,8 @@
 * __[17.3 Conclusion](16-optimisation#conc)__
 
 ### Chapter 18 - [The Normal Distribution](18-normal-distribution)
-* __[18.1 Linear Regression](18-normal-distribution#regres)__
-* __[18.2 Non-Linear Regression](18-normal-distribution#nonlin)__
-* __[18.3 Conclusion](18-normal-distribution#conc)__
+* __[18.1 The Gaussian Integral](18-normal-distribution#integral)__
+* __[18.2 The Normal Distribution](18-normal-distribution#normal)__
 
 
 <br>
