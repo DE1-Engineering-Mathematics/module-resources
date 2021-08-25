@@ -113,9 +113,7 @@ $$m ({\textstyle{\sum}} x_i^2 -\overline{x}^2n) = {\textstyle{\sum}}x_iy_i - \ov
 <br><br>
 then finally we can write an equation explicit for $m$ and therefore also for $c$ <br><br>
  
-$$\begin{align*} 
-m = \frac{\sum x_iy_i -\overline{x}\, \overline{y} n }\sum x_i^2 - \overline{x}^2n}
-\end{align*}$$
+$$ m = \frac{\sum x_i y_i - \overline{x} \, \overline{y} n}{\sum x_i^2 - \overline{x}^2n}$$
 
 $$\begin{align*}
 \equiv
@@ -124,8 +122,6 @@ $$\begin{align*}
 c=
 \overline{y} - \left(\frac{\overline{x}\, \overline{y}-\overline{xy}}{\overline{x}^2-\overline{x^2}}\right)\overline{x}
 \end{align*}$$
-
-$$ m = \frac{\sum x_i y_i - \overline{x} \overline{y} n}{\sum x_i^2 - x^2n}$$
 
 <br><br>
 And that's that. We now have explicit equations for $m$ and $c$ that allow us to find the line of best fit through an arbitrary dataset. Remember, these equations are really just finding the minima of the two partial derivatives, so this does not necessarily mean that $S$ now equals zero (i.e. the line passes through all the points), but simply that $S$ is the smallest it could be. <br><br>
