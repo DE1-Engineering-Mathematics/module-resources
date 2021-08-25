@@ -44,35 +44,39 @@ f(c+\Delta x)=f(c)+f'(c)(\Delta x)+\frac{f''(c)}{2!}(\Delta x)^2+\frac{f^{(3)}(c
 <br><br>
 our expression now says that if we know everything about $f(x)$ at point $c$, we can also find $f(x)$ at some point $\Delta x$ away from $c$.<br><br>
 
-Many mathematical descriptions of physical phenomena, such as diffusion, involve the relation of differentials. The expression in the previous equation can be rearranged to make the first differential the subject, as shown in eq.1 (be sure to have a go at this rearrangement yourself!).<br><br>
+Many mathematical descriptions of physical phenomena, such as diffusion, involve the relation of differentials. The expression in the previous equation can be rearranged to make the first differential the subject, as shown in eq.15.1 (be sure to have a go at this rearrangement yourself!).<br><br>
 
-$$\begin{equation}
-	f'(c) = \frac{f(c+\Delta x) - f(c)}{\Delta x}-\left[\frac{\Delta x}{2}f''(c) + \frac{\Delta x^2}{6}f'''(c) + \frac{\Delta x^3}{24}f^{(4)}(c) + ... \right] 
-\end{equation}$$
+$$\begin{equation*}
+	f'(c) = \frac{f(c+\Delta x) - f(c)}{\Delta x}-\left[\frac{\Delta x}{2}f''(c) + \frac{\Delta x^2}{6}f'''(c) + \frac{\Delta x^3}{24}f^{(4)}(c) + ... \right]
+	\quad\quad (15.1)
+\end{equation*}$$
 
 <br><br>
 So we now have an equation for the first derivative at position $c$ in terms of the values of the function at $f(c)$ and $f(c+\Delta x)$, as well as a bunch of more complicated derivative terms (which have been put into square brackets...). What we can now say is that *if* $\Delta x$ is very small, then all the terms inside the big square brackets must  be *really small* compared to the first terms.<br><br>
 
 In fact, we will intentionally leave out the square bracket terms and use only the first part of the expression to form our approximation. We can now say that by truncating the Taylor series expansion before the second derivative term, we will expect to get an error on the order of $\Delta x$, which is fine if $\Delta x$ is small enough! We often write this error as $e=\mathcal{O}(\Delta x)$, where the symbol $\mathcal{O}$ means "on the order of". So the approximation of the function $f(x)$ at point $c$ becomes<br><br>
 
-$$\begin{equation}
+$$\begin{equation*}
 f'(c) \approx \frac{f(c+\Delta x) - f(c)}{\Delta x}
-\end{equation}$$
+\quad\quad (15.2)
+\end{equation*}$$
 
 <br><br>
 This formulation is referred to as the *Forward Euler* approach and was first described in 1768 (way before computers!) by Leonhard Euler. If you think back to your study of linear functions for graph plotting, the equation above looks suspiciously like "gradient=rise/run", which I hope does not surprise you too much! In fact, this *linearisation* is exactly what a first order finite differencing scheme does (i.e. it takes any function and describes it as loads of tiny line segments - the smaller these lines are, the better the approximation will be!).<br><br>
 
- The *Backward Euler* can be similarly constructed by stepping $\Delta x$ away from $c$ in the negative direction (eq.3) and has the same magnitude of error.<br><br>
+ The *Backward Euler* can be similarly constructed by stepping $\Delta x$ away from $c$ in the negative direction (eq.15.3) and has the same magnitude of error.<br><br>
 
-$$\begin{equation}
+$$\begin{equation*}
 	f'(c) = \frac{f(c) - f(c-\Delta x)}{\Delta x}+\left[\frac{\Delta x}{2}f''(c) - \frac{\Delta x^2}{6}f'''(c) + \frac{\Delta x^3}{24}f^{(4)}(c) - ... \right]
-\end{equation}$$
+	\quad\quad (15.3)
+\end{equation*}$$
 
 <br><br>
 An improved approximation can be found by taking the average of the *Forward Euler* and *Backward Euler*. Equation 15.4 shows the resulting expression, referred to as the *central difference*, which now has an improved $\mathcal{O}(\Delta x^2)$ truncation error.<br><br>
 
 $$\begin{equation}
 	f'(c) = \frac{f(c+\Delta x) - f(c-\Delta x)}{2\Delta x} - \left[\frac{\Delta x^2}{6}f'''(c) + \frac{\Delta x^4}{120}f^{(5)}(c) + ... \right]
+	\quad\quad (15.4)
 \end{equation}$$
 
 <br><br>
