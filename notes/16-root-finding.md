@@ -89,16 +89,16 @@ There are several cases that you should be aware of as they may cause you diffic
 
 <img align = "left" src="figs/16.3-prob2.png" width="50%"/>
 
-Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br><br><br>
+Another case to be aware of is if a function has multiple equal roots (i.e. two roots at the same $x$-coordinate). The function $y=x^2-2x+1$ is shown in fig. 16.3, which can be thought of as having a pair of coincident roots at $x=1$ (factorise the expression if you don't see why!).<br><br><br><br>
 
 
 <img align = "right" src="figs/16.4-prob3.png" width="50%"/>
 
-The final case that we will mention here is for functions that have multiple roots packed close together. Figure 16.4 shows the function $f(x)=x(x(16x-160)+529)-578$. If you did not spot that this was a cubic function, you may have presumed by looking at the graph that the interval $[x_\alpha,x_\beta]$ contained only one root. ¯\ \_(ツ)_/¯ <br><br>
+The final case that we will mention here is for functions that have multiple roots packed close together. Figure 16.4 shows the function $f(x)=x(x(16x-160)+529)-578$. If you did not spot that this was a cubic function, you may have presumed by looking at the graph that the interval $[x_\alpha,x_\beta]$ contained solely one root. ¯\ \_(ツ)_/¯ <br><br>
 
 If you proceed with the bisection method from this starting interval, you will still end up finding a root, but you won't know which of the three you've found. It is now possible to find the remaining two roots, but it requires some careful thought. By taking the root you've just found as an approximation for, $x_\gamma$, and investigating the intervals either side of it (i.e. the intervals $[x_\alpha,x_\gamma]$ and $[x_\gamma,x_\beta]$). Be aware that if $x_\gamma$ was either the first or last of the three possible roots, then one of these two new intervals will lead you straight back to $x_\gamma$. Also, if you were lucky and managed to find the first root exactly (i.e. $f(x_\gamma)=0$), then clearly you cannot use this as one of your bounds as it is neither positive or negative, and will therefore have to use $x_\gamma+\delta$ instead, where $\delta$ represents a very small change in $x_\gamma$. <br><br>
 
-## <a id="nr"></a> 14.2 The Newton-Raphson Method}
+## <a id="nr"></a> 14.2 The Newton-Raphson Method
 
 The Newton-Raphson (NR) method, sometimes just called Newton's method, named after Isaac Newton and Joseph Raphson, is an iterative method for approximating the roots of real-valued functions.<br><br>
 
