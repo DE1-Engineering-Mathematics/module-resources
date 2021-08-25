@@ -115,7 +115,11 @@ then finally we can write an equation explicit for $m$ and therefore also for $c
  
 $$\begin{align*} 
 m = \frac{{\textstyle{\sum}}x_iy_i -\overline{x}\, \overline{y} n }{{\textstyle{\sum}}x_i^2 - \overline{x}^2n}
-\equiv
+\end{align*}$$
+
+$$\equiv$$
+
+$$\begin{align*} 
 \frac{\overline{x}\, \overline{y}-\overline{xy}}{\overline{x}^2-\overline{x^2}}
 \qquad \Rightarrow \qquad
 c=
@@ -130,7 +134,7 @@ And that's that. We now have explicit equations for $m$ and $c$ that allow us to
 <br><br>
 Each pair of $m$ and $c$ values corresponds to a value of the sum of squared residuals, $S$. We can plot a 2D map in ($m$, $c$)-space showing how $S$ varies, where each point on this map corresponds to a different straight line on the data graph (matching colours), as illustrated in the figures above.<br><br>
 
-The fact that linear regression has an explicit formulation means that it has much more in common with the simple graph sketching activities <br><br>
+The fact that linear regression has an explicit formulation means that it has much more in common with the simple graph sketching activities. <br><br>
 
 <img src="figs/17-sketching.png" width="100%"/>
 
@@ -164,7 +168,7 @@ $$\begin{equation*}
 \left(y_i-\left(\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x_i-\mu)^2}{2\sigma^2}}\right)\right)=0
 \end{equation*}$$
 
-<br><br>
+<br>
 $$\begin{equation*}
 \frac{\partial S}{\partial \sigma}=
 -\sum\left(\frac{(x_i-\mu)^2-\sigma^2}{\sigma^4}\right)
