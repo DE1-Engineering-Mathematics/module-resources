@@ -137,4 +137,32 @@ $$X=\log(x)\qquad\&\qquad Y=\log(y)$$
 And then check if this substituted function is itself linear. For example, considering the function $y=7x^2$ and then taking logs (any base is fine) of both sides, we get $\log(y)=\log(7x^2)=\log(7)+\log(x^2)=\log(7)+2\log(x)$. Now, making the above substitution, we get $Y=\log(7)+2X$. Remembering that $\log(7)$ is just a number, we see that our new expression matches the form $y=mx+c$ and so must be a straight line on a log-log scale.
 <br><br><br><br>
 
+## <a id="curve-problem-solving"></a>1.2 Problem Solving
+We have just seen how to produce sketches of functions using their key features. However, in an open-book exam it is far too easy to be given a function and asked to sketch it because various graphing tools can do this for you. Instead, it is a greater test of your skills to have a curve-sketching question in reverse; that is, "Here is a sketch, can you find the function?". In this type of question, online tools will only get you so far and you will need to rely on your understanding of the features of graphs! In most cases you will be given a framework equation such as $f(x)= ax\cos(b\pi x)+c$ and you will need to find the values of the constants by referring to a sketch.
+<br><br>
 
+
+### 1.2.1 Walkthrough
+Suppose we are told that the sketch below has the equation $f(x)=a+cos(b\pi x)e^{\frac{x}{c}}$ and we need to find the values of $a$, $b$ and $c$, given that they are all integers..
+<br><br>
+The first (and easiest) step is to work with the vertical intercept. From the sketch we can see that the curve crosses the $y$-axis at $y=-3$. We can substitute $x=0$ into our framework equation: 
+$$f(0)=a+cos(0)e^{0}=a+1$$  We know that $f(0)=-3$, therefore: $$a+1=-3 \Rightarrow \boxed{a=-4}$$
+Next we will work with the horizontal intercepts. We can substitute $y=0$ into our framework equation:
+$$0=a+cos(b\pi x)e^{\frac{x}{c}}\Rightarrow 4=cos(b\pi x)e^{\frac{x}{c}}\text{ (as } a=-4\text{)}$$
+This equation is not particularly useful yet, however it may become more useful once we find another constant.
+<br><br>
+
+Following this, we need to make an executive decision to avoid working with turning points. This is because there are far too many of them at unhelpful locations for them to be of use. Instead we can examine the periodicity of the curve.
+<br><br>
+
+The $b\pi$ term governs the frequency of the curve and we can see that the curve has an oscillation period of $1$. Using the relationship between time period, $T$ and frequency, $f$, ($f=\frac{1}{T}$), we can find the value of $b$.
+$$b\pi=\frac{2\pi}{1}\Rightarrow \boxed{b=2}$$
+
+Now all we need to find is the constant $c$. We can use the equation we found from the horizontal intercepts:
+$$4=cos(2\pi x)e^{\frac{x}{c}}$$
+To find $c$ we need to choose one of the many horizontal intercepts. The trick here is to choose a value of $x$ that simplifies our equation. We are choosing $x\approx6$ because when we substitute this into our equation, the $\cos(2\pi x)$ term simplifies to $1$. The same outcome is achieved by using an of the other intercepts. This allows us to easier isolate $c$.
+$$4=\cos(12\pi)e^{\frac{6}{c}}$$
+$$4=e^{\frac{6}{c}} \text{ (as }\cos(12\pi)=1\text{)}$$
+The integer solution to this equation will give us the value of $c$.
+$$\ln{4}=\frac{6}{c}\Rightarrow c=\frac{6}{\ln4}=4.32808...\Rightarrow\boxed{c=4}$$
+This means that the equation of the curve in the sketch is $f(x)=-4+cos(2\pi x)e^{\frac{x}{4}}$.

@@ -35,6 +35,7 @@
 
 ### Chapter 1 - [Functions](1-functions)
 * __[1.1 - Curve Sketching](1-functions#curve-sketching)__
+* __[1.2 - Problem Solving](1-functions#curve-problem-solving)__
 
 ### Chapter 2 - [Vectors](2-vectors)
 * __[2.1 - Co-ordinate Geometry](2-vectors#co-ordinate-geometry)__
