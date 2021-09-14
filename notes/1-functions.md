@@ -145,10 +145,12 @@ We have just seen how to produce sketches of functions using their key features.
 ### 1.2.1 Walkthrough
 Suppose we are told that the sketch below has the equation $f(x)=a+cos(b\pi x)e^{\frac{x}{c}}$ and we need to find the values of $a$, $b$ and $c$, given that they are all integers..
 <br><br>
+<img align="left" src="figs/1.2-problem-solving.svg" width="315"/>
+
 The first (and easiest) step is to work with the vertical intercept. From the sketch we can see that the curve crosses the $y$-axis at $y=-3$. We can substitute $x=0$ into our framework equation: 
 $$f(0)=a+cos(0)e^{0}=a+1$$  We know that $f(0)=-3$, therefore: $$a+1=-3 \Rightarrow \boxed{a=-4}$$
 Next we will work with the horizontal intercepts. We can substitute $y=0$ into our framework equation:
-$$0=a+cos(b\pi x)e^{\frac{x}{c}}\Rightarrow 4=cos(b\pi x)e^{\frac{x}{c}}\text{ (as } a=-4\text{)}$$
+$$0=a+\cos(b\pi x)e^{\frac{x}{c}}\Rightarrow 4=\cos(b\pi x)e^{\frac{x}{c}}\text{ (as } a=-4\text{)}$$
 This equation is not particularly useful yet, however it may become more useful once we find another constant.
 <br><br>
 
