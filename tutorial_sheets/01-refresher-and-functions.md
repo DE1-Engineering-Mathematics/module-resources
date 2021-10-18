@@ -96,7 +96,7 @@ $= \boxed{2x}$
 
 (b) $f(x)= \sin{x}$
 <div class = "answer">
-$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x}} + \frac{\cos{x}\sin{\Delta x}} - \frac{\sin{x}}{\Delta x} = \boxed{\cos{x}}$
+$\Rightarrow{}\ \ f'(x) = \lim_{\Delta x\to0} \frac{\sin{x}\cos{\Delta x} + \cos{x}\sin{\Delta x} - \sin{x}}{\Delta x} = \boxed{\cos{x}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
