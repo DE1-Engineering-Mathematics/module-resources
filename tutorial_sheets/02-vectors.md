@@ -336,21 +336,8 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
-$\vec{s} = 
-\begin{pmatrix}
--4\\3\\-2
-\end{pmatrix} + t 
-\begin{pmatrix}
-1\\7\\-6
-\end{pmatrix} = 
-\begin{pmatrix}
--4+t\\3+7t\\-2-6t
-\end{pmatrix} $
-
 ### Problem 8.
-The lines $l_1$ and $l_2$ have equations 
-
-$\begin{pmatrix}
+The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
 1 \\\\
 0 \\\\
 0 \\\\
@@ -521,7 +508,7 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 (b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place.
 <div class = "answer">
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
-$\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
+$\overrightarrow{DF} = 4\textbf{i} +3\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
 The scalar product should equal $0$ if the vector $\textbf{n}$ is perpendicular to the plane. <br>
 $\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5) = 0 $ <br>
 $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
