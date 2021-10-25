@@ -337,7 +337,7 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 -----------------------------------------------------------------------------------
 
 ### Problem 8.
-The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
+The lines $l_1$ and $l_2$ have equations \begin{equ\begin{pmatrix}
 1 \\\\
 0 \\\\
 0 \\\\
@@ -513,8 +513,7 @@ The scalar product should equal $0$ if the vector $\textbf{n}$ is perpendicular 
 $\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5) = 0 $ <br>
 $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
-$\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
-\textbf{r} = 4\textbf{i}}$
+$\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 4\textbf{i}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -644,7 +643,7 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 \end{pmatrix}$ <br>
 $\overrightarrow{AX}$, $\overrightarrow{BX}$ and $\overrightarrow{CX}$ are radii of the circle which passes through $A$, $B$ and $C$. <br>
 $|\overrightarrow{AX}|^2 = |\overrightarrow{CX}|^2$ <br>
-$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu)) = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
+$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu))^2 = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
 $ 26 + 6(2\lambda + 3\mu) + 8(2\lambda + 4\mu) + 2(-2\lambda + \mu) = 0 $ <br>
 $ 26 + 24\lambda + 52\mu = 0,\quad (1)$ <br>
 $ |\overrightarrow{BX}|^2 = |\overrightarrow{CX}|^2$ <br>
@@ -664,9 +663,9 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 -\frac{1}{2}\\-1\\\frac{1}{2}
 \end{pmatrix}$ <br>
 Therefore, the coordinates of the centre of the circle are $\boxed{(-\frac{1}{2}, -1, -\frac{1}{2})}$. <br>
-The point P is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
+The point X is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
 Considering point $C$, the radius $r$ is given by: <br>
-$ r = |\overrightarrow{XC}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
+$ r = |\overrightarrow{CX}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
