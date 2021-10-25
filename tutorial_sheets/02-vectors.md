@@ -336,6 +336,17 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 -----------------------------------------------------------------------------------
 
+$\vec{s} = 
+\begin{pmatrix}
+-4\\3\\-2
+\end{pmatrix} + t 
+\begin{pmatrix}
+1\\7\\-6
+\end{pmatrix} = 
+\begin{pmatrix}
+-4+t\\3+7t\\-2-6t
+\end{pmatrix} $
+
 ### Problem 8.
 The lines $l_1$ and $l_2$ have equations 
 
