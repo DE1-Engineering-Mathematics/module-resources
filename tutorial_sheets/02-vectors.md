@@ -337,7 +337,7 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 -----------------------------------------------------------------------------------
 
 ### Problem 8.
-The lines $l_1$ and $l_2$ have equations \begin{equ\begin{pmatrix}
+The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
 1 \\\\
 0 \\\\
 0 \\\\
