@@ -338,20 +338,20 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 
 ### Problem 8.
 The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
-1 \\\\
-0 \\\\
+1, \\\\
+0, \\\\
 0 \\\\
 \end{pmatrix} + \lambda\begin{pmatrix}
-0 \\\\
-1 \\\\
+0, \\\\
+1, \\\\
 1 \\\\
 \end{pmatrix} $ and $\begin{pmatrix}
--1 \\\\
-3 \\\\
+-1, \\\\
+3, \\\\
 -1 \\\\
 \end{pmatrix} + \mu\begin{pmatrix}
-2 \\\\
--1 \\\\
+2, \\\\
+-1, \\\\
 -1 \\\\
 \end{pmatrix} $ respectively, where $\lambda$ and $\mu$ are scalars. <br>
 Find the shortest distance, $d$, between these two lines.
@@ -505,7 +505,7 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
-(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place.
+(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this plane.
 <div class = "answer">
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
 $\overrightarrow{DF} = 4\textbf{i} +3\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
@@ -546,8 +546,8 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 
 A mahi-mahi fish, initially located at $(-4,3,-2)km$, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
-    1 \\
-    7 \\
+    1, \\
+    7, \\
     -6
 \end{pmatrix} \text{km/h}$.
 
@@ -557,8 +557,8 @@ $\begin{pmatrix}
 
 (b) A deep sea buoy floats on the surface of the water at location $(8,6,0)km$ and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
 The vector $\begin{pmatrix}
-1 \\
--1 \\
+1, \\
+-1, \\
 -4
 \end{pmatrix} $ describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places?
 
