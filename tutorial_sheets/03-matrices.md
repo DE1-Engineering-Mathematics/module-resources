@@ -855,7 +855,6 @@ z \newline
 (1.5-0.5)+(1.5-1)\mu \newline 
 (-9+5-3)+(-9+5-6)\mu \newline 
 \end{pmatrix} =
-\textbf{N}^{-1}
 \begin{pmatrix}
 11+15\mu \newline 
 1+0.5\mu \newline 
