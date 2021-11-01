@@ -42,7 +42,7 @@
 * __[2.3 - Vector equation of line](2-vectors#vector-equation)__
 
 ### Chapter 3 - [Matrices](3-matrices)
-* __[3.1 - Matrix Operations](2-vectors#matrix-operations)__
+* __[3.1 - Matrix Operations](3-vectors#matrix-operations)__
 * __[3.2 - Rules of Addition and Multiplication](3-matrices#rules)__
 * __[3.3 - Transpose](3-matrices#transpose)__
 * __[3.4 - Square Matrices](3-matrices#square-matrices)__
