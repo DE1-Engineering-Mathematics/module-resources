@@ -814,7 +814,7 @@ N =
 1 & -2 & 1 \newline 
 \end{bmatrix}
 $$
-The equation of $l_{2}$ is $(\textbf{r}-\textbf{a})\times\textbf{b}=0$, where $\textbf{a} = 6\textbf{i}+5\textbf{j}+2\textbf{k}$ and $\textbf{b} = 6\textbf{i}+5\textbf{j}+4\textbf{k}$
+The equation of $l_{2}$ is $\textbf{r}=\textbf{a}+\mu\textbf{b}$, where $\textbf{a} = 6\textbf{i}+5\textbf{j}+2\textbf{k}$ and $\textbf{b} = 6\textbf{i}+5\textbf{j}+4\textbf{k}$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find a vector equation for the line $l_{1}$.
@@ -823,7 +823,11 @@ Let $(x,y,z)$ be on $l_{1}$.
 
 Equation $l_{2}$ can be written as:
 
-$\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$
+$$r = \begin{pmatrix}
+ 6+6\mu \newline 
+ 5+5\mu \newline 
+ 2+4\mu \newline 
+ \end{pmatrix}$$
 
 
 Use $\textbf{N}^{-1}$ to map $l_{2}$ back to $l_{1}$ (matrix N is just matrix M with $k=1$):
