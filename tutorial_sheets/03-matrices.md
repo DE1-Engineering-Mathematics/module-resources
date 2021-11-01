@@ -823,15 +823,10 @@ Let $(x,y,z)$ be on $l_{1}$.
 
 Equation $l_{2}$ can be written as:
 
-$$r = \begin{pmatrix}
-6+6\mu \newline 
-5+5\mu \newline 
-2+4\mu \newline 
-\end{pmatrix}$$
+$\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$
 
 
 Use $\textbf{N}^{-1}$ to map $l_{2}$ back to $l_{1}$ (matrix N is just matrix M with $k=1$):
-
 
 
 $$\begin{pmatrix}
@@ -863,7 +858,7 @@ z \newline
 -7-10\mu \newline 
 \end{pmatrix}$$
 
-Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \textbf{b}}$ or $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-k}$ and $\boxed{\textbf{b}=15i+0.5j+2k}$
+Therefore the equation of $l_{1}$ is $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-7k}$ and $\boxed{\textbf{b}=15i+0.5j-10k}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
