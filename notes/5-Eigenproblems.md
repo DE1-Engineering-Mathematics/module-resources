@@ -233,7 +233,7 @@ $$\begin{align}
 	-3 & -5 - \lambda
 	\end{vmatrix}
 	&= 0 \\\\
-	(1 - \lambda)((4 - \lambda)(-5 - \lambda) + 18) &= 18 \\
+	(1 - \lambda)((4 - \lambda)(-5 - \lambda) + 18) &= 0 \\
 	(\lambda - 1)^{2}(\lambda + 2) &= 0
 \end{align}$$
 
@@ -288,26 +288,6 @@ $$\begin{align}
 		4 - -2 & 6 & 0 \\
 		-3 & -5 - -2 & 0 \\
 		-3 & -6 & 1 - -2
-	\end{bmatrix}
-	\begin{bmatrix}
-		x_{1} \\
-		x_{2} \\
-		x_{3}
-	\end{bmatrix}=
-	\begin{bmatrix}
-		6 & 6 & 0 \\
-		-3 & -3 & 0 \\
-		-3 & -6 & 3
-	\end{bmatrix}
-	\begin{bmatrix}
-		x_{1} \\
-		x_{2} \\
-		x_{3}
-	\end{bmatrix}=
-	\begin{bmatrix}
-		1 & 1 & 0 \\
-		0 & 1 & -1 \\
-		0 & 0 & 0
 	\end{bmatrix}
 	\begin{bmatrix}
 		x_{1} \\
