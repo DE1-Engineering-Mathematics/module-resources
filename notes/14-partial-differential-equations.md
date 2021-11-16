@@ -16,7 +16,7 @@ the PDF notes, you can skip this one :)
 </script>
 
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ></script>
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
@@ -280,6 +280,7 @@ are multiplied together, rather than mixed in a more intricate manner.
 
 This is a key insight, we can look for solutions where the variables,
 $x$ and $t$, are separated in multiplied terms.
+This technique is called *Separation of Variables*
 Let's imagine we have a solution to the wave equation, $f(x)$,
 which is the product of a part that only varies in $x$, let's call that part
 $X(x)$, and a part that only varies in $t$, lets call that $T(t)$,
@@ -333,7 +334,8 @@ X''(x) = b X(x)
 $$
 where $b$ is also a constant, with the relationship $a = c^2 b$ linking the two.
 
-Let's pause and reflect here, because what we have done is to convert a PDE, which in principle is difficult to solve,
+Let's pause and reflect here, because what we have done is to convert a PDE,
+which in principle is difficult to solve,
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
@@ -357,9 +359,9 @@ X''(x) = b X(x)
 $$
 Reading the ODE, it is asking, what function,
 when differentiated twice, returns itself times a constant?
-Either exponential functions or hyperbolic trig functions
-fit the bill here, and so do sines and cosines if $b$ is negative.
-We're free to choose, let's look at sines and cosines.
+Exponential functions fit the bill here,
+and so do sines and cosines if $b$ is negative.
+We're free to choose, let's look at sines and cosines as we saw them before.
 Let's use the trial function,
 $$
 X(x) = \sin k x
@@ -377,12 +379,16 @@ $$
 X(x) = \sin \left(\sqrt{-b} x \right)
 $$
 The same is true of $X(x) = \cos \left(\sqrt{-b} x \right)$.
+So we can write a combined solution,
+$$
+X(x) = A \sin \left(\sqrt{-b} x \right) + B \cos \left(\sqrt{-b} x \right)
+$$
 We could do the same with $t$ for,
 $$
-T(t) = \sin \left(\sqrt{a} t \right), \cos\left(\sqrt{a} t \right)
+T(t) = C \sin \left(\sqrt{a} t \right) + D \cos\left(\sqrt{a} t \right)
 $$
 Giving a combined solution that is the product of the separated 
-solutions in a linear sum:
+solutions:
 $$
 f(x, t) =
 \left[A \sin \left(\sqrt{-b} x \right) + B\cos \left(\sqrt{-b} x \right)\right]
@@ -391,8 +397,12 @@ $$
 Which you can check solves the full PDE.
 
 ### Better constants
-The square roots aren't very nice here, but since $a$ and $b$ are arbitrary constants, we can replace them with more meaningful symbols,
-we used $k^2 = -b$ earlier as the coefficient of $x$, if we replace all instances of $b$ with $-k^2$, and similarly $a$ with $-\omega^2$,
+The square roots aren't very nice here,
+but since $a$ and $b$ are arbitrary constants (positive, negative, complex),
+we can replace them with more meaningful symbols,
+we used $k^2 = -b$ earlier as the coefficient of $x$,
+if we replace all instances of $b$ with $-k^2$,
+and similarly $a$ with $-\omega^2$,
 We get as our solution,
 $$
 f(x, t) =
@@ -429,21 +439,21 @@ that we met earlier.
 
 Note how we have freedom to choose the names of our
 arbitrary constants.
-If we had set $T''(t) = \gamma^2 T(t)$,
+If we had set $T''(t) = \gamma^2 T(t)$ and $X''(x) = \kappa^2 X(x)$
 show that this would return exponentially growing and decaying
 solutions.
-How would this change the dispersion relation?
+How would this affect the dispersion relation?
 
 Let's pause again and reflect.
 We've managed to derive the sinusoidal solution that we guessed
 earlier, but this time from first principles.
 
 What was our process?
-* Assume a solution that is seperable: $f(x, t) = X(x)T(t)$.
-* Plug this into our PDE, and let the derivatives work on like terms.
-* Divide the whole thing by $X(x)T(t)$ and collect like terms.
-* Set these terms to be constant, to define ODEs and a dispersion relation.
-* Solve the ODEs and combine the solutions together.
+* **Assume a solution that is seperable, e.g., $f(x, t) = X(x)T(t)$.**
+* **Plug this into our PDE, and let the derivatives work on like terms.**
+* **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
+* **Set these terms to be constant, to define ODEs and a dispersion relation.**
+* **Solve the ODEs and combine the solutions together.**
 
 We'll see in the next section this working on a different set of PDEs.
 
@@ -452,6 +462,158 @@ We'll see in the next section this working on a different set of PDEs.
 i.e. how a concentration of a substance spreads out through a medium.
 This could be how Lithium ions in an energy fuel cell diffuse through a
 porous medium.
-It is also the equation that governs temperature, and how heat is transfered
+It is also the equation that governs temperature,
+and how heat is transfered
 through solids.
-For this reason, the diffusion equation is also called the *Heat Equation*.
+For this reason, the diffusion equation is also called the
+*Heat Equation*.
+
+The 1D diffusion has the form,
+$$
+\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
+$$
+Where $u$ is our diffusing quantity here, and $\alpha$ is the diffusivity,
+i.e. a measure of how quickly the substance diffuses.
+
+If we try to interpret the PDE, it's saying the concentration of a substance
+will change over time in proportion to the local curvature (2nd derivative).
+Or if there's more concentration on average adjacent to a point,
+then over time the concentration will flow to average out and come to
+equilibrium.
+
+Here is a plot of *a* solution to the diffusion equation,
+to give you a feel for the dynamics.
+
+<iframe src="https://www.desmos.com/calculator/decmboyi1l"
+  width="800"
+  height="600"
+  style="border: 1px solid #ccc"
+  frameborder=0
+></iframe>
+
+Let's use Separation of Variables to solve the diffusion equation.
+* **Assume a solution that is seperable.**
+$$u(x, t) = X(x)T(t)$$
+
+* **Plug this into our PDE, and let the derivatives work on like terms.**
+$$
+\frac{\partial}{\partial t} X(x)T(t) =
+\alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
+X(x)T'(t) = \alpha X''(x)T(t)
+$$
+
+* **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
+$$
+\frac{X(x)T'(t)}{X(x)T(t)} = \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
+\frac{T'(t)}{T(t)} = \alpha \frac{X''(x)}{X(x)}
+$$
+
+* **Set these terms to be constant, to define ODEs and a dispersion relation.**
+\
+For $x$, we've seen this before and can set $X''(x) / X(x) = -k^2$,
+choosing $-k^2$ to be our constant, which will imply sinusoidal solutions. 
+This returns the ODE $X''(x) = -k^2 X(x)$. \
+For $t$, let's use $T'(t) / T(t) = -\gamma$,
+the minus sign isn't strictly needed,
+but we'll see turns out to be the best choice.
+The second ODE is therefore, $T'(t) = -\gamma T(t)$
+and the dispersion relation is $\gamma = \alpha k^2$.
+(then if $k$ is real then $\gamma$ is positive).
+
+* **Solve the ODEs and combine the solutions together.** \
+The $X(x)$ part has the solutions we saw before, \
+$X(x) = A \sin \left(k x \right) + B\cos \left(k x \right)$ \
+The $T(t)$ part is a first order ODE, so only has one solution, \
+$T(t) = e^{-\gamma t}$ \
+giving a full solution,
+$$
+U(x, t) = A \sin \left(k x \right) e^{-\gamma t} +
+  B\cos \left(k x \right) e^{-\gamma t}
+$$
+When we insert the dispersion relation, we get,
+$$
+U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
+  B\cos \left(k x \right) e^{-\alpha k^2 t}
+$$
+Which should match to our intuition, the sinusoids that have the
+shortest periods decay away the quickest.
+
+<iframe src="https://www.desmos.com/calculator/ltmmgukeo6"
+  width="800"
+  height="600"
+  style="border: 1px solid #ccc"
+  frameborder=0
+></iframe>
+
+## Further Examples
+We've so far looked at the 1D Undamped Wave Equation and
+1D Diffusion Equation.
+It's worth briefly looking into some extentions of these cases to
+see how the Separation of Variables methods generalises.
+
+Let's go to higher dimensions first,
+often PDEs generalise by replacing their spatial
+$\frac{\partial^2}{\partial x^2}$ term with the *Laplacian*,
+$\nabla^2$.
+The 2D Diffusion equation for example looks like,
+$$
+\frac{\partial u(x, y, t)}{\partial t} = \alpha \nabla^2 u(x, y, t)
+$$
+We solve this in a very similar to the 1D case.
+Let's assume our trial solution is,
+$$
+u(x, y, t) = X(x)Y(y)T(t)
+$$
+Then inputting into the 2D diffusion equation, we get,
+$$
+\frac{T''(t)}{T(t)} =
+\alpha \frac{X''(x)}{X(x)} +
+\alpha \frac{Y''(y)}{Y(y)}
+$$
+Each of the separated terms gets its own constant and ODE,
+and we get a dispersion relation linking them,
+$$
+T''(t) = -\gamma T(t) \\
+X''(x) = -k_x^2 X(x) \\
+Y''(y) = -k_y^2 Y(y) \\
+\gamma = \alpha \left( k_x^2 + k_y^2 \right)
+$$
+The ODEs can be solved and combined here as before.
+
+Things to note are, we have two degrees of freedom in $k_x$ and $k_y$
+which in turn determine the value of $\gamma$.
+
+Another equation we can look at is the damped wave equation,
+here in 1D.
+This one is the wave equation we've seen already but
+with a damping term that seeks to extinguish vibrations over time.
+$$
+\frac{\partial^2 f(x, t)}{\partial t^2} =
+- g \frac{\partial f(x, t)}{\partial t}
++ c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+$$
+Where here $g$ is a newly introduced damping constant,
+that is the coefficient for a first derivative in $t$.
+We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
+and get,
+$$
+\frac{T''(t)}{T(t)} = -g \frac{T'(t)}{T(t)} + c^2 \frac{X''(x)}{X(x)}
+$$
+Now before we start assigning constants,
+we need to group together like terms.
+Our assumption previously was that our $t$ block is equal to things
+that don't depend on $t$, this is only true if both $t$ terms
+are grouped together. i.e.,
+$$
+\frac{T''(t) + g T'(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
+$$
+Allowing us to write,
+$$
+T''(t) + g T'(t) = -\omega^2 T(t) \\
+X''(x) = -k^2 X(x)
+$$
+Here, we still have $\omega^2 = c^2 k^2$,
+the $g$ term is wrapped up in the $T(t)$ ODE.
+This ODE is solved as you have already seen [previously](9-ODE).
+
+## Initial Conditions
