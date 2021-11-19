@@ -1,11 +1,3 @@
-<!--
-Hello Team –
-I'm re-writing this section of the notes,
-so if you were planning to transcribe this chapter from
-the PDF notes, you can skip this one :)
-– Freddie
--->
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -617,3 +609,159 @@ the $g$ term is wrapped up in the $T(t)$ ODE.
 This ODE is solved as you have already seen [previously](9-ODE).
 
 ## Initial Conditions
+So far we have found general solutions to PDEs,
+either by having a test solution and checking any constraints on it,
+or by using separation of variables to generate new solutions.
+In either case we were able to generate new solutions as a linear combination
+of other solutions.
+
+What we would really like to be able to say is,
+“If our systems starts in this initial condition,
+how does it evolve into future times”.
+I.e. if our concentration starts over here, what does it do next?
+
+Previously with ODEs, our initial condition was a set of values at $t=0$,
+i.e. the position, $x(t=0)$, and sometimes the velocity, $x'(t=0)$.
+For a second order ODE we needed two values, and for a first order one value,
+etc.
+For PDEs, our initial conditions are usually specified as the value of the
+function for every point in space at a single time, e.g. $f(x, y, t=0)$.
+If we can match our initial conditions to a solution when $t=0$ then we can
+know how the system will behave at future times.
+
+For example, let's consider the 1D diffusion equation,
+We saw above that it has solutions,
+$$
+U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
+  B\cos \left(k x \right) e^{-\alpha k^2 t}
+$$
+Let's assume here that we have a value for our diffusivity,
+$\alpha = 1 \, \mathrm{m}^2 / \mathrm{s}$
+If we are told that at $t=0$, concentration of our substance is
+distributed as,
+$$
+U_0(x) = 10\,\mathrm{g}/\mathrm{m}\;
+\cos \left(\frac{2 \pi}{0.5 \mathrm{m}} x \right)
+$$
+Then, we can pattern match our full solution to this,
+i.e. at $t=0$ our full solution is,
+$$
+U(x, t=0) = A \sin \left(k x \right) +
+  B\cos \left(k x \right)
+$$
+Pattern matching, we can determine for $U(x, t=0) = U_0(x)$,
+that $A = 0$, $B = 10\,\mathrm{g}/\mathrm{m}$,
+and $k=2 \pi / 0.5 \, \mathrm{m}^{-1}$.
+From here, we can insert the free parameters that we have now determined
+into the full solution, giving,
+$$
+U(x, t) = 10\,\mathrm{g}/\mathrm{m}
+\cos \left(\frac{2 \pi}{0.5 \mathrm{m}} x \right)
+\exp\left({-\frac{(2 \pi)^2}{0.25} \mathrm{s}^{-1} t}\right)
+$$
+or
+$$
+U(x, t) = 10\,\mathrm{g}/\mathrm{m} \;
+\cos \left(12.6 \, \mathrm{m}^{-1} \; x \right)
+\exp\left({- 128 \, \mathrm{s}^{-1} \; t}\right)
+$$
+Which tells us what our system looks like at all times.
+
+In general, things are a little more complicated than this.
+The wave equation, for example, is second order in time.
+This means we need to specify not just initial values, but also inital time derivatives too.
+E.g., We can look at the 1D wave equation, that has solution,
+$$
+f(x, t) =
+\left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
+\left[C \sin \left(k c t \right) + D\cos \left(k c t \right)\right]
+$$
+We might be told, at $t=0$ the value of the function is zero everywhere,
+$f_0(x) = 0$,
+but the time derivative has value $f^{(t)}_0(x) = 0.4 \sin 3 x$.
+
+Here we need match our solution and its time derivative to our
+intial conditions at $t=0$.
+i.e.
+$$
+\frac{\partial f}{\partial t}(x, t) =
+\left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
+\left[C k c \cos \left(k c t \right) - D k c\sin \left(k c t \right)\right]
+$$
+So at $t=0$,
+$$
+f(x, 0) =
+\left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] D
+\\
+\frac{\partial f}{\partial t}(x, 0) =
+\left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] C k c
+$$
+If we patern match, $f(x, 0) = 0$, we get $D=0$,
+then matching $\frac{\partial f}{\partial t}(x, 0) = f^{(t)}_0(x)$,
+we can determine $B = 0$, $k=3$, $A C = 0.4 / (k c) = 0.133 / c$.
+This gives full solution,
+$$
+f(x, t) =
+0.133 \sin \left(3 x \right)\sin \left(3 c t \right)
+$$
+
+Sometimes, the function we are matching to may not look exactly like our
+solution,
+e.g. for the diffusion equation, we may have an initial condition of,
+$$
+u_0(x) = 4 \cos (2 x) + 7 \cos (3 x)
+$$
+Here we can pattern match each part of the sum separately,
+e.g. if our initial condition was,
+$$
+u_0(x) = 4 \cos (2 x)
+$$
+then our full solution would be,
+$$
+u(x, t) = 4 \cos (2 x) e^{-4 \alpha t}
+$$
+and equivalently, for an initial condition,
+$$
+u_0(x) = 7 \cos (3 x)
+$$
+Our full solution is,
+$$
+u(x, t) = 7 \cos (3 x) e^{-9 \alpha t}
+$$
+Since linearity applies, we can add these solutions together.
+I.e.,
+$$
+u(x, t) = 4 \cos (2 x) e^{-4 \alpha t} + 7 \cos (3 x) e^{-9 \alpha t}
+$$
+Which we can double check does indeed equal
+$4 \cos (2 x) + 7 \cos (3 x)$
+when $t = 0$.
+
+This is important to reflect on,
+sometimes we need to patern match to a sum of solutions to the equation.
+In the cases we've seen the spatial wavevector, $k$, is a free parameter.
+It can take any value (in general it can even be complex).
+So we're free to add *any* form of this solution with a specific $k$ together
+to form a particular solution, as we saw in the previous example with
+$k = 2$ and $k = 3$.
+
+We can write this more explicitly as follows,
+For the diffusion equation, we had solution,
+$$
+U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
+  B\cos \left(k x \right) e^{-\alpha k^2 t}
+$$
+Now, since $k$ is arbitrary, we can sum over different values of $k$.
+Each of these will have a different $A$ and $B$ coefficient,
+so we can label these with a subscript.
+$$
+U(x, t) = \sum_k A_k \sin \left(k x \right) e^{-\alpha k^2 t} +
+  B_k \cos \left(k x \right) e^{-\alpha k^2 t}
+$$
+This might look familiar from
+[Fourier Series](12-fourier-series),
+and we can go into a little more detail at the end of the chapter.
+
+## Boundary Conditions
+So far, we have been looking at solutions to the our PDEs that fill all space.
+I.e. there has been no constraint on what $x$ values are allowed.
