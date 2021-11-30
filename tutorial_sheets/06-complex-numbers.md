@@ -215,10 +215,10 @@ Therefore, $\boxed{\mathrm{Re}(z)=\frac{14}{13}}$ and $\boxed{\mathrm{Im}(z)=\fr
 (b) Find the absolute value and the conjugate of $z = (1+\mathrm{i})^6$
 <div class = "answer">
 Express $z$ in polar form:
-$z=(1+\mathrm{i})^6=\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6$ <br>
+$z=(1+\mathrm{i})^6=(\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}))^6$ <br>
 
 Using De Moivre's Theorem: 
-$\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4})^6=8(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2})=-8i$ <br>
+$(\sqrt{2}(\cos\frac{\pi}{4}+\mathrm{i}\sin\frac{\pi}{4}))^6=8(\cos\frac{3\pi}{2}+\mathrm{i}\sin\frac{3\pi}{2})=-8i$ <br>
 
 Hence, $\boxed{|z|=8 \text{ and } \overline{z}=8\mathrm{i}}$
 </div>

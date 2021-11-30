@@ -42,7 +42,7 @@
 * __[2.3 - Vector equation of line](2-vectors#vector-equation)__
 
 ### Chapter 3 - [Matrices](3-matrices)
-* __[3.1 - Matrix Operations](2-vectors#matrix-operations)__
+* __[3.1 - Matrix Operations](3-matrices#matrix-operations)__
 * __[3.2 - Rules of Addition and Multiplication](3-matrices#rules)__
 * __[3.3 - Transpose](3-matrices#transpose)__
 * __[3.4 - Square Matrices](3-matrices#square-matrices)__
@@ -117,6 +117,27 @@
 
 ### Chapter 14 - [Partial Differential Equations](14-partial-differential-equations)
 
+### Chapter 15 - [Finite Differences](15-finite-differences)
+* __[15.1 Introduction](15-finite-differences#intro)__
+* __[15.2 Application Example - Numerical Diffusion](15-finite-differences#app)__
+* __[15.3 Systems of equations and conditions](15-finite-differences#systems)__
+* __[15.4 Notation](15-finite-differences#notation)__
+* __[15.5 Code](15-finite-differences#code)__
+
+### Chapter 16 - [Root Finding](16-root-finding)
+* __[16.1 The Bisection Method](16-root-finding#bisection)__
+* __[16.2 The Newton-Raphson Method](16-root-finding#nr)__
+* __[16.3 Secant Method](16-root-finding#secant)__
+
+### Chapter 17 - [Optimisation](17-optimisation)
+* __[17.1 Linear Regression](17-optimisation#regres)__
+* __[17.2 Non-Linear Regression](17-optimisation#nonlin)__
+* __[17.3 Conclusion](17-optimisation#conc)__
+
+### Chapter 18 - [The Normal Distribution](18-normal-distribution)
+* __[18.1 The Gaussian Integral](18-normal-distribution#integral)__
+* __[18.2 The Normal Distribution](18-normal-distribution#normal)__
+
 <br>
 
 If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
@@ -131,7 +152,7 @@ These notes are not intended to be comprehensive (that is what the internet is f
 
 ### <a id="support"></a>Course Support and Assessment
 
-Learning maths is a very personal activity, with each student having their own approach; however, to really understand what's going on, there is no  way around putting in the work on your own, occasionally getting stuck and thinking your way out. That said, I really hope the notes, lectures, online videos, tutorial sheets and quizzes help to push you in the right direction and keep you motivated!
+Learning maths is a very personal activity, with each student having their own approach; however, to really understand what's going on, there is no way around putting in the work on your own, occasionally getting stuck and thinking your way out. That said, I really hope the notes, lectures, online videos, tutorial sheets and quizzes help to push you in the right direction and keep you motivated!
 <br><br>
 Every week, you will take a short non-credit quiz to help me (and you) understand how you're getting on. The course will be assessed through a combination 4 progress tests at half termly intervals, as well as 2 more substantial exams at the beginning of terms two and three. The course is two terms long and each week we will have 2 one hour lectures introducing the material. We will also have weekly tutorial sessions which will be 2 hours in the first term and 1 hour in the second. These sessions are primarily intended for you to ask the tutors questions about the material from the previous weeks and are not ideal for quite study. We will use Learning Catalytics to support the learning process, by running live quizzes.
 

@@ -29,7 +29,7 @@ The word 'eigen' is perhaps most usefully translated from German as meaning 'cha
 <br><br>
 In the previous chapter we saw lots of examples of applying linear transformations to vectors spaces (primarily in $\mathbb{R}^2$). In the adjacent figure you can see our initial square in grey, as well as three vectors in blue. Beneath this you can see a new shape overlayed on top, which is the result of applying the transformation $T=\begin{pmatrix}1 & 1 \\ 0 & 2\end{pmatrix}$ (you should be able to look at a 2D transformation and write down the applied matrix).
 <br><br>
-Notice that of the three highlighted vectors, something different has happened to each one. The initially vertical $\hat{\textbf{j}}$ vector has not only been stretched longer, but has also had it's direction changed; the initially diagonal (1,1) vector has doubled in length, but still points in the same direction; and the initially horizontal $\hat{\textbf{i}}$ vector is still horizontal and its length is unchanged.
+Notice that of the three highlighted vectors, something different has happened to each one. The initially vertical $\hat{\textbf{j}}$ vector has not only been stretched longer, but has also had its direction changed; the initially diagonal (1,1) vector has doubled in length, but still points in the same direction; and the initially horizontal $\hat{\textbf{i}}$ vector is still horizontal and its length is unchanged.
 <br><br>
 Eigenvectors are simply the vectors which, after applying a transformation, still lie on the same span (ie have not change direction). Each eigenvector has a corresponding eigenvalue, which is just the amount that the vector has been stretched along its span by the transformation. 
 <br><br>
@@ -233,7 +233,7 @@ $$\begin{align}
 	-3 & -5 - \lambda
 	\end{vmatrix}
 	&= 0 \\\\
-	(1 - \lambda)((4 - \lambda)(-5 - \lambda) + 18) &= 18 \\
+	(1 - \lambda)((4 - \lambda)(-5 - \lambda) + 18) &= 0 \\
 	(\lambda - 1)^{2}(\lambda + 2) &= 0
 \end{align}$$
 
@@ -288,26 +288,6 @@ $$\begin{align}
 		4 - -2 & 6 & 0 \\
 		-3 & -5 - -2 & 0 \\
 		-3 & -6 & 1 - -2
-	\end{bmatrix}
-	\begin{bmatrix}
-		x_{1} \\
-		x_{2} \\
-		x_{3}
-	\end{bmatrix}=
-	\begin{bmatrix}
-		6 & 6 & 0 \\
-		-3 & -3 & 0 \\
-		-3 & -6 & 3
-	\end{bmatrix}
-	\begin{bmatrix}
-		x_{1} \\
-		x_{2} \\
-		x_{3}
-	\end{bmatrix}=
-	\begin{bmatrix}
-		1 & 1 & 0 \\
-		0 & 1 & -1 \\
-		0 & 0 & 0
 	\end{bmatrix}
 	\begin{bmatrix}
 		x_{1} \\

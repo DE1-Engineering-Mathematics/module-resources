@@ -814,7 +814,7 @@ N =
 1 & -2 & 1 \newline 
 \end{bmatrix}
 $$
-The equation of $l_{2}$ is $(\textbf{r}-\textbf{a})\times\textbf{b}=0$, where $\textbf{a} = 6\textbf{i}+5\textbf{j}+2\textbf{k}$ and $\textbf{b} = 6\textbf{i}+5\textbf{j}+4\textbf{k}$
+The equation of $l_{2}$ is $\textbf{r}=\textbf{a}+\mu\textbf{b}$, where $\textbf{a} = 6\textbf{i}+5\textbf{j}+2\textbf{k}$ and $\textbf{b} = 6\textbf{i}+5\textbf{j}+4\textbf{k}$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) Find a vector equation for the line $l_{1}$.
@@ -824,14 +824,13 @@ Let $(x,y,z)$ be on $l_{1}$.
 Equation $l_{2}$ can be written as:
 
 $$r = \begin{pmatrix}
-6+6\mu \newline 
-5+5\mu \newline 
-2+4\mu \newline 
-\end{pmatrix}$$
+ 6+6\mu \newline 
+ 5+5\mu \newline 
+ 2+4\mu \newline 
+ \end{pmatrix}$$
 
 
 Use $\textbf{N}^{-1}$ to map $l_{2}$ back to $l_{1}$ (matrix N is just matrix M with $k=1$):
-
 
 
 $$\begin{pmatrix}
@@ -856,14 +855,13 @@ z \newline
 (1.5-0.5)+(1.5-1)\mu \newline 
 (-9+5-3)+(-9+5-6)\mu \newline 
 \end{pmatrix} =
-\textbf{N}^{-1}
 \begin{pmatrix}
 11+15\mu \newline 
 1+0.5\mu \newline 
 -7-10\mu \newline 
 \end{pmatrix}$$
 
-Therefore the equation of $l_{1}$ is $\boxed{(\textbf{r}-\textbf{a})\times \textbf{b}}$ or $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-k}$ and $\boxed{\textbf{b}=15i+0.5j+2k}$
+Therefore the equation of $l_{1}$ is $\boxed{\textbf{r}=\textbf{a}+\mu\textbf{b}}$ where $\boxed{\textbf{a}=11i+j-7k}$ and $\boxed{\textbf{b}=15i+0.5j-10k}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 

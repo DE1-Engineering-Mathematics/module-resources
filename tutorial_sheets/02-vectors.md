@@ -338,20 +338,20 @@ $(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 
 ### Problem 8.
 The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
-1 \\\\
-0 \\\\
+1, \\\\
+0, \\\\
 0 \\\\
 \end{pmatrix} + \lambda\begin{pmatrix}
-0 \\\\
-1 \\\\
+0, \\\\
+1, \\\\
 1 \\\\
 \end{pmatrix} $ and $\begin{pmatrix}
--1 \\\\
-3 \\\\
+-1, \\\\
+3, \\\\
 -1 \\\\
 \end{pmatrix} + \mu\begin{pmatrix}
-2 \\\\
--1 \\\\
+2, \\\\
+-1, \\\\
 -1 \\\\
 \end{pmatrix} $ respectively, where $\lambda$ and $\mu$ are scalars. <br>
 Find the shortest distance, $d$, between these two lines.
@@ -505,16 +505,15 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 
-(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place.
+(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this plane.
 <div class = "answer">
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
-$\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
+$\overrightarrow{DF} = 4\textbf{i} +3\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
 The scalar product should equal $0$ if the vector $\textbf{n}$ is perpendicular to the plane. <br>
 $\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5) = 0 $ <br>
 $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
-$\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
-\textbf{r} = 4\textbf{i}}$
+$\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
@@ -547,8 +546,8 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 
 A mahi-mahi fish, initially located at $(-4,3,-2)km$, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
-    1 \\
-    7 \\
+    1, \\
+    7, \\
     -6
 \end{pmatrix} \text{km/h}$.
 
@@ -558,8 +557,8 @@ $\begin{pmatrix}
 
 (b) A deep sea buoy floats on the surface of the water at location $(8,6,0)km$ and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
 The vector $\begin{pmatrix}
-1 \\
--1 \\
+1, \\
+-1, \\
 -4
 \end{pmatrix} $ describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places?
 
@@ -644,7 +643,7 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 \end{pmatrix}$ <br>
 $\overrightarrow{AX}$, $\overrightarrow{BX}$ and $\overrightarrow{CX}$ are radii of the circle which passes through $A$, $B$ and $C$. <br>
 $|\overrightarrow{AX}|^2 = |\overrightarrow{CX}|^2$ <br>
-$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu)) = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
+$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu))^2 = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
 $ 26 + 6(2\lambda + 3\mu) + 8(2\lambda + 4\mu) + 2(-2\lambda + \mu) = 0 $ <br>
 $ 26 + 24\lambda + 52\mu = 0,\quad (1)$ <br>
 $ |\overrightarrow{BX}|^2 = |\overrightarrow{CX}|^2$ <br>
@@ -664,9 +663,9 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 -\frac{1}{2}\\-1\\\frac{1}{2}
 \end{pmatrix}$ <br>
 Therefore, the coordinates of the centre of the circle are $\boxed{(-\frac{1}{2}, -1, -\frac{1}{2})}$. <br>
-The point P is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
+The point X is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
 Considering point $C$, the radius $r$ is given by: <br>
-$ r = |\overrightarrow{XC}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
+$ r = |\overrightarrow{CX}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
 </div>
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
