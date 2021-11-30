@@ -247,8 +247,8 @@ $$
 \frac{\partial^2 }{\partial t^2} \cos k x \cos \omega t =
 c^2 \frac{\partial^2}{\partial x^2} \cos k x \cos \omega t
 \\
--\omega^2 \cos k x \cos \omega t =
-- c^2 k^2 \cos k x \cos \omega t
+{-} \omega^2 \cos k x \cos \omega t =
+{-} c^2 k^2 \cos k x \cos \omega t
 $$
 And therefore,
 $$
@@ -360,11 +360,11 @@ X(x) = \sin k x
 $$
 If we insert it into the ODE, we get,
 $$
--k^2 \sin k x = b \sin k x
+{-}k^2 \sin k x = b \sin k x
 $$
 or
 $$
--k^2 = b
+{-}k^2 = b
 $$
 i.e.¸
 $$
@@ -669,7 +669,8 @@ Which tells us what our system looks like at all times.
 
 In general, things are a little more complicated than this.
 The wave equation, for example, is second order in time.
-This means we need to specify not just initial values, but also inital time derivatives too.
+This means we need to specify not just initial values,
+but also inital time derivatives too.
 E.g., We can look at the 1D wave equation, that has solution,
 $$
 f(x, t) =
@@ -871,7 +872,7 @@ Which implies $A_k = 0$.
 Then substituting this, and setting $x = L$,
 $$
 f^{(x)}(L, t) = \sum_k
-- B_k k \sin \left(k L \right)
+{-} B_k k \sin \left(k L \right)
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
 Which again implies $k = \pi n / L$.
@@ -887,7 +888,8 @@ $$
 
 Setting the derivative of the field usually implies a fixed in-flow or 
 out-flow at the boundary.
-In general, boundary conditions might be a mixed set, a fixed value at one boundary, and a fixed derivative at the other.
+In general, boundary conditions might be a mixed set,
+a fixed value at one boundary, and a fixed derivative at the other.
 The conditions we've seen so far have all been set to zero,
 in principle they can also be set to finite values.
 In this case, you would still calculate the boundary condition solutions
