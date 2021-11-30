@@ -760,8 +760,188 @@ U(x, t) = \sum_k A_k \sin \left(k x \right) e^{-\alpha k^2 t} +
 $$
 This might look familiar from
 [Fourier Series](12-fourier-series),
-and we can go into a little more detail at the end of the chapter.
+and indeed in general,
+if you can match a function's Fourier coefficients
+to the PDE solution at $t=0$, then this will tell you the
+evolution of that function under the PDE at future times.
 
 ## Boundary Conditions
 So far, we have been looking at solutions to the our PDEs that fill all space.
 I.e. there has been no constraint on what $x$ values are allowed.
+For example, if we have a wave on a guitar string,
+the string has a length and our solution is only valid on the string.
+
+Let's say our guitar string has a length $L$, and waves on it are defined on
+$x \in [0, L]$.
+We can specify a boundary condition, which is how the system behaves
+on a boundary, e.g. at $x = 0$ and $x = L$ here.
+One such condition could be that the string is fixed in place at the boundary,
+i.e. $f(x=0, t) = 0$ and $f(x=L, t) = 0$, at all times.
+
+Let's incorporate these into the wave equation solution,
+$$
+f(x, t) = \sum_k
+\left[A_k \sin \left(k x \right) + B_k\cos \left(k x \right)\right]
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
+$$
+First, let's set $x = 0$,
+$$
+f(0, t) =
+B_k \left[C_k \sin \left(k c t \right) + D_k \cos \left(k c t \right)\right] = 0
+$$
+This implies that $B_k = 0$ for the function to be zero at all times.
+Next, let's set $x = L$, here we get,
+$$
+f(L, t) = \sum_k
+A_k \sin \left(k L \right)
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right] = 0
+$$
+At this stage, we can't set this to equal zero by setting any coefficients,
+(Setting $A_k = 0$ would mean the function is zero everywhere at all times)
+If the $\sin \left(k L \right)$ term was zero though, then the whole expression
+would be.
+What is the condition for a sine function to be zero though?
+If its argument is an integer multiple of $pi$, this would do it.
+I.e. if we set, $k L = n \pi$, with $n \in \mathbb{Z}$.
+This gives a condition on $k$, i.e. that $k = n \pi / L$.
+So instead of $k$ being *any* complex number, by imposing these boundary
+conditions, we've said that $k$ can *only* be discrete real values.
+I.e. our general solution after applying the boundary conditions becomes,
+$$
+f(x, t) = \sum_{n=0}^{\infty}
+A_k \sin \left(\frac{n \pi x}{L} \right)
+\left[
+  C_k \sin \left(\frac{n \pi c t}{L} \right) +
+  D_k\cos \left(\frac{n \pi c t}{L} \right)
+\right]
+$$
+We can actually tidy this up further, by redefining our coefficients,
+$$
+f(x, t) = \sum_{n=0}^{\infty}
+\sin \left(\frac{n \pi x}{L} \right)
+\left[
+  a_n \sin \left(\frac{n \pi c t}{L} \right) +
+  b_n\cos \left(\frac{n \pi c t}{L} \right)
+\right]
+$$
+Let's review what we've just done.
+We've restricted our spatial range from an infinite range to a finite section,
+and this has had the result of quantising the allowed wavevectors of modes
+in the system.
+You'll also notice that the frequency has been quantised too now, even
+though we've not restricted anything in time.
+This is because our dispersion relation holds, $\omega^2 = c^2 k^2$,
+hence $\omega = n \pi c / L$.
+
+This is interesting in itself, becaues we can ask what the lowest frequency
+of the system is.
+We can get this by setting $n = 1$ (If we set $n=0$ we get zero everywhere).
+Here we get the smallest frequency, or fundamental frequency, of the system
+is $\omega_1 = \pi c / L$. and all other frequencies are, in this case,
+integer multiples – or overtones – of the fundamental frequency,
+$\omega_n = n \omega_1$.
+This is what makes musical instruments sound the way they do.
+The geometry of the instument constrains the smallest frequency it can produce
+to its lowest note, the note is then supplemented by overtones which give
+each instrument its own sound.
+
+In principle, we can also set boundary conditons where the derivative
+of the field is zero at the boundary.
+Let's have a look at this one,
+Formally $f^{(x)}(x=0, t) = 0$ and $f^{(x)}(x=L, t) = 0$.
+Using the general solution again,
+$$
+f(x, t) = \sum_k
+\left[A_k \sin \left(k x \right) + B_k\cos \left(k x \right)\right]
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
+$$
+The spatial derivative of this is,
+$$
+f^{(x)}(x, t) = \sum_k
+\left[A_k k \cos \left(k x \right) - B_k k \sin \left(k x \right)\right]
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
+$$
+now, let's set $x=0$,
+$$
+f^{(x)}(0, t) = \sum_k
+\left[A_k k\right]
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
+$$
+Which implies $A_k = 0$.
+Then substituting this, and setting $x = L$,
+$$
+f^{(x)}(L, t) = \sum_k
+- B_k k \sin \left(k L \right)
+\left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
+$$
+Which again implies $k = \pi n / L$.
+So,
+$$
+f(x, t) = \sum_n
+\cos \left(\frac{\pi n}{L} x \right)
+\left[
+  a_n \sin \left(\frac{\pi n c t}{L} \right) +
+  b_n \cos \left(\frac{\pi n c t}{L} \right)
+\right]
+$$
+
+Setting the derivative of the field usually implies a fixed in-flow or 
+out-flow at the boundary.
+In general, boundary conditions might be a mixed set, a fixed value at one boundary, and a fixed derivative at the other.
+The conditions we've seen so far have all been set to zero,
+in principle they can also be set to finite values.
+In this case, you would still calculate the boundary condition solutions
+for a zeroed boundary condition, then add a static solution
+(that doesn't vary in time) which sets the boundary values to the specified
+amount.
+
+In higher dimensions, we don't just restrict our region to a 1D line,
+E.g. in 2D if we restrict our domain to a rectangular region,
+boundary conditions can be specified on each edge.
+In this case, they are functions along the edge rather than
+two endpoints of the line.
+This can quickly get complicated, depending on the shapes of our regions
+and boundaries.
+
+## Outlook
+In this chapter we have introduced Partial Differential Equations.
+What it means to have a solution, how to manipulate them,
+and a general purpose technique in separation of variables to approach them.
+We have constrained our general solutions with boundary conditions,
+and matched our solutions to set initial conditions to find the specific
+time evolution of a known starting state.
+
+PDEs is a much bigger topic than what we have discussed here,
+with active research ongoing at present.
+E.g. Stochastic PDEs introduce random pertubations and can be used to study
+financial markets.
+It's worth discussing some of the low-hanging fruits of what we have
+left out of this discussion, but that you may encounter in
+Engineering problems.
+
+We didn't look at any driving terms.
+We saw how a field might evolve under a PDE, but we never added energy
+to the system or considered the frequency response to a periodic excitation.
+
+The PDEs we saw were homogeneous, this means the parameters,
+like the wave speed, $c$, and diffusivity, $\alpha$ were constant
+at all points in space and at all times.
+A lot of interesting phenomena occurs at the interface between
+regions of different properties.
+
+We only ever considered one field at a time,
+Some systems have vector fields, e.g. electromagnetism,
+where there is an electric and magnetic field, which depend on each other
+and are each vectors not scalars.
+Or a multi-phase diffusion where there is more than one diffusing quantity.
+
+A lot of systems are non-linear.
+In these, we cannot use superposition of solutions to produce valid new
+solutions.
+The maths gets harder, but the behaviours that can be found
+get more interesting.
+E.g. Chaotic dynamics can be found only in non-linear systems.
+
+This isn't our final word on PDEs however,
+We can get a handle on some of the above by using computational methods
+and we'll introduce this in the Finite Methods chapter.
