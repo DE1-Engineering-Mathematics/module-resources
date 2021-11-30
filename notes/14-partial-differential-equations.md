@@ -582,7 +582,7 @@ with a damping term that seeks to extinguish vibrations over time.
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 {-} g \frac{\partial f(x, t)}{\partial t}
-+ c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+{+} c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
 Where here $g$ is a newly introduced damping constant,
 that is the coefficient for a first derivative in $t$.
