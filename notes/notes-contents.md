@@ -115,9 +115,7 @@
 * __[13.4 Total differentials and derivatives](13-multivariate-calculus#total-differential)__
 * __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
 
-### Chapter 14 - [Partial Differential Equations](14-pdes)
-* __[14.1 Recap](14-pdes#recap)__
-* __[14.2 PDE Strategies](14-pdes#strategies)__
+### Chapter 14 - [Partial Differential Equations](14-partial-differential-equations)
 
 ### Chapter 15 - [Finite Differences](15-finite-differences)
 * __[15.1 Introduction](15-finite-differences#intro)__
@@ -139,7 +137,6 @@
 ### Chapter 18 - [The Normal Distribution](18-normal-distribution)
 * __[18.1 The Gaussian Integral](18-normal-distribution#integral)__
 * __[18.2 The Normal Distribution](18-normal-distribution#normal)__
-
 
 <br>
 
@@ -182,4 +179,3 @@ These notes were written by Dr Sam Cooper and Dr Freddie Page of the Dyson Schoo
 	
 Thanks to Dr Khalil Rhazaoui for bravely pulling together the first draft of the notes for this course, which were helpful as a basis for creating later versions. Thanks also to Prof. Dave Dye who mentored me as a lecturer and whose notes were helpful for some of the later chapters of this book.
 <br>
-
