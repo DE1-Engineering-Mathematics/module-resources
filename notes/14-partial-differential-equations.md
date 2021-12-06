@@ -1,4 +1,4 @@
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -11,7 +11,21 @@
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ></script>
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
-<link rel="stylesheet" type="text/css" media="all" href="styles.css">
+<link rel="stylesheet" type="text/css" media="all" href="styles.css"> -->
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
 ## [Return to Contents](notes-contents)
 
