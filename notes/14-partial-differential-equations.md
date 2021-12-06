@@ -185,18 +185,16 @@ In this case, the second derivatives in space and time.
 [Wolfram Alpha](https://www.wolframalpha.com/input/?i=D[Sech[x-a+t]%2C+{x,2}])
 is pretty good for this too.)
 
-$$
-\begin{align*}
-\frac{\partial f(x, t)}{\partial x} =
+$$\begin{align*}
+\frac{\partial f(x, t)}{\partial x} &=
     -\tanh(x - a t)\operatorname{sech}(x - a t) \\
-\frac{\partial^2 f(x, t)}{\partial x^2} =
+\frac{\partial^2 f(x, t)}{\partial x^2} &=
     \operatorname{sech}(x - a t) - 2\operatorname{sech}^3(x - a t) \\
-\frac{\partial f(x, t)}{\partial t} =
+\frac{\partial f(x, t)}{\partial t} &=
     a \tanh(x - a t)\operatorname{sech}(x - a t) \\
-\frac{\partial^2 f(x, t)}{\partial t^2} =
+\frac{\partial^2 f(x, t)}{\partial t^2} &=
     a^2 \operatorname{sech}(x - a t) - 2 a^2 \operatorname{sech}^3(x - a t)
-\end{align*}
-$$
+\end{align*}$$
 
 Then if we insert these derivatives into the PDE,
 we can cancel things down a lot,
