@@ -1,4 +1,20 @@
-<script type="text/x-mathjax-config">
+<script>
+MathJax = { // V3
+  "tex": {
+    "inlineMath": [['$', '$']],
+    "macros": {
+      "p": "{\\prime}",
+      "pp": "{\\prime\\prime}"
+    }
+  },
+  "svg": {"fontCache": 'global'}
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -9,7 +25,8 @@
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+</script> -->
+
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
@@ -168,7 +185,7 @@ term and ensure all positive signs in the dispersion relation,
 which comes out as,
 
 $$
-\gamma = \alpha \left( k_x^2 + k_y^2 \right) \;\;.
+\gamma = \alpha \left( k_x^2 + k_y^2 \right) \;.
 $$
 
 Next we solve the ODEs,
@@ -187,12 +204,12 @@ $$\begin{align}
 X^\pp(x) &= -k_x^2 X(x)
 \\
 \Rightarrow
-X(x) &propto e^{i k_x x}
+X(x) &\propto e^{i k_x x}
 \\
 Y^\pp(y) &= -k_y^2 Y(y)
 \\
 \Rightarrow
-Y(y) &propto e^{i k_y y}
+Y(y) &\propto e^{i k_y y}
 \end{align}$$
 
 The complex exponential solutions are nicer when there's a lot of terms,
@@ -201,7 +218,7 @@ with a single exponential term, rather than both a $sin$ and a $cos$.
 
 The general solution then is the product of all the separated solutions,
 $$
-u(x, y, t) = A e^{i k_x x + i k_y y} e^{-\gamma t}
+u(x, y, t) = A e^{i k_x x + i k_y y -\gamma t}
 $$
 with,
 $$
