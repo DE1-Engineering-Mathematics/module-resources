@@ -128,7 +128,15 @@ $$
 Find the general solution, $u(x, y, t)$, to this PDE.
 
 <div class="answer">
-Assume a separated solution of
+First, let's write the Laplacian out in full,
+
+$$
+\frac{\partial u(x, y, t)}{\partial t} =
+\alpha \frac{\partial^2}{\partial x^2} u(x, y, t) +
+\alpha \frac{\partial^2}{\partial y^2} u(x, y, t)
+$$
+
+Next, assume a separated solution of
 
 $$
 u(x, y, t) = X(x)Y(y)T(t)
