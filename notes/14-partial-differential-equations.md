@@ -642,7 +642,7 @@ $$
 Then inputting into the 2D diffusion equation, we get,
 
 $$
-\frac{T^\pp(t)}{T(t)} =
+\frac{T^\p(t)}{T(t)} =
 \alpha \frac{X^\pp(x)}{X(x)} +
 \alpha \frac{Y^\pp(y)}{Y(y)}
 $$
@@ -651,7 +651,7 @@ Each of the separated terms gets its own constant and ODE,
 and we get a dispersion relation linking them,
 
 $$\begin{align*}
-T^\pp(t) &= -\gamma T(t) \\
+T^\p(t) &= -\gamma T(t) \\
 X^\pp(x) &= -k_x^2 X(x) \\
 Y^\pp(y) &= -k_y^2 Y(y) \\
 \gamma &= \alpha \left( k_x^2 + k_y^2 \right)
