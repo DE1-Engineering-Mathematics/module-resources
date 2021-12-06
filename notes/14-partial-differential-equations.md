@@ -198,7 +198,7 @@ $$
 
 This says we have a condition on
 $f(x, t) = \operatorname{sech}(x - a t)$ being a solution.
-It *is* a solution, if and only if $a^2 = c^2$, i.e., $a = \pm c$.
+It *is* a solution, *if and only if* $a^2 = c^2$, i.e., $a = \pm c$.
 Physically, this tells us the speed of the function,
 that the $\operatorname{sech}$ envelope travels at speed $c$,
 which was one of the constants of the PDE.
@@ -436,7 +436,7 @@ $$
 We could do the same with $t$ for,
 
 $$
-T(t) = C \sin \left(\sqrt{a} t \right) + D \cos\left(\sqrt{a} t \right)
+T(t) = C \sin \left(\sqrt{-a} t \right) + D \cos\left(\sqrt{-a} t \right)
 $$
 
 Giving a combined solution that is the product of the separated 
@@ -567,8 +567,8 @@ X(x)T'(t) = \alpha X''(x)T(t)
 $$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
-$$
 
+$$
 \frac{X(x)T'(t)}{X(x)T(t)} = \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
 \frac{T'(t)}{T(t)} = \alpha \frac{X''(x)}{X(x)}
 $$
@@ -620,6 +620,7 @@ We've so far looked at the 1D Undamped Wave Equation and
 It's worth briefly looking into some extentions of these cases to
 see how the Separation of Variables methods generalises.
 
+### 2D Diffusion Equation
 Let's go to higher dimensions first,
 often PDEs generalise by replacing their spatial
 $\frac{\partial^2}{\partial x^2}$ term with the *Laplacian*,
@@ -660,6 +661,7 @@ The ODEs can be solved and combined here as before.
 Things to note are, we have two degrees of freedom in $k_x$ and $k_y$
 which in turn determine the value of $\gamma$.
 
+### Damped Wave Equation
 Another equation we can look at is the damped wave equation,
 here in 1D.
 This one is the wave equation we've seen already but
@@ -667,7 +669,7 @@ with a damping term that seeks to extinguish vibrations over time.
 
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
-{-} g \frac{\partial f(x, t)}{\partial t}
+{-} 2g \frac{\partial f(x, t)}{\partial t}
 {+} c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
 
@@ -677,7 +679,7 @@ We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
 and get,
 
 $$
-\frac{T''(t)}{T(t)} = -g \frac{T'(t)}{T(t)} + c^2 \frac{X''(x)}{X(x)}
+\frac{T''(t)}{T(t)} = -2 g \frac{T'(t)}{T(t)} + c^2 \frac{X''(x)}{X(x)}
 $$
 
 Now before we start assigning constants,
@@ -687,13 +689,13 @@ that don't depend on $t$, this is only true if both $t$ terms
 are grouped together. i.e.,
 
 $$
-\frac{T''(t) + g T'(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
+\frac{T''(t) + 2 g T'(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
 $$
 
 Allowing us to write,
 
 $$
-T''(t) + g T'(t) = -\omega^2 T(t) \\
+T''(t) + 2 g T'(t) = -\omega^2 T(t) \\
 X''(x) = -k^2 X(x)
 $$
 
@@ -709,8 +711,8 @@ In either case we were able to generate new solutions as a linear combination
 of other solutions.
 
 What we would really like to be able to say is,
-“If our systems starts in this initial condition,
-how does it evolve into future times”.
+*"If our systems starts in this initial condition,*
+*how does it evolve into future times"*.
 I.e. if our concentration starts over here, what does it do next?
 
 Previously with ODEs, our initial condition was a set of values at $t=0$,
@@ -895,9 +897,11 @@ evolution of that function under the PDE at future times.
 ## Boundary Conditions
 So far, we have been looking at solutions to the our PDEs that fill all space.
 I.e. there has been no constraint on what $x$ values are allowed.
-For example, if we have a wave on a guitar string,
-the string has a length and our solution is only valid on the string.
+But, for example, if we have a wave on a guitar string,
+the string has a length and our solution is only valid
+on the length of the string.
 
+### Fixed value boundary conditions (Dirichlet)
 Let's say our guitar string has a length $L$, and waves on it are defined on
 $x \in [0, L]$.
 We can specify a boundary condition, which is how the system behaves
@@ -930,11 +934,14 @@ A_k \sin \left(k L \right)
 $$
 
 At this stage, we can't set this to equal zero by setting any coefficients,
-(Setting $A_k = 0$ would mean the function is zero everywhere at all times)
+(
+  Setting $A_k = 0$ would mean the function is zero everywhere at all times
+  – a solution, but uninteresting.
+)
 If the $\sin \left(k L \right)$ term was zero though, then the whole expression
 would be.
 What is the condition for a sine function to be zero though?
-If its argument is an integer multiple of $pi$, this would do it.
+If its argument is an integer multiple of $\pi$, this would do it.
 I.e. if we set, $k L = n \pi$, with $n \in \mathbb{Z}$.
 This gives a condition on $k$, i.e. that $k = n \pi / L$.
 So instead of $k$ being *any* complex number, by imposing these boundary
@@ -973,7 +980,7 @@ hence $\omega = n \pi c / L$.
 This is interesting in itself, becaues we can ask what the lowest frequency
 of the system is.
 We can get this by setting $n = 1$ (If we set $n=0$ we get zero everywhere).
-Here we get the smallest frequency, or fundamental frequency, of the system
+Here we get the smallest frequency, the *fundamental frequency*, of the system
 is $\omega_1 = \pi c / L$. and all other frequencies are, in this case,
 integer multiples – or overtones – of the fundamental frequency,
 $\omega_n = n \omega_1$.
@@ -982,8 +989,17 @@ The geometry of the instument constrains the smallest frequency it can produce
 to its lowest note, the note is then supplemented by overtones which give
 each instrument its own sound.
 
+Boundary conditions where we set the *value* of the function like this
+are called
+[*Dirichlet*](https://en.wikipedia.org/wiki/Dirichlet_boundary_condition)
+boundary conditions.
+
+### Fixed derivative boundary conditions (Neumann)
 In principle, we can also set boundary conditons where the derivative
 of the field is zero at the boundary.
+These are called
+[*Neumann*](https://en.wikipedia.org/wiki/Neumann_boundary_condition)
+boundary conditions.
 Let's have a look at this one,
 Formally $f^{(x)}(x=0, t) = 0$ and $f^{(x)}(x=L, t) = 0$.
 Using the general solution again,
@@ -1042,6 +1058,14 @@ for a zeroed boundary condition, then add a static solution
 (that doesn't vary in time) which sets the boundary values to the specified
 amount.
 
+### Other boundary conditions
+In principle a combination of Dirchlet and Neumann conditions could apply,
+On the same or opposite sides of the domain.
+There are also *periodic boundary conditions*,
+where the function and all derivatives match each other on the boundaries.
+This can be used for solutions on a ring or in polar coordinates,
+but is also a general purpose approximation for solutions in large systems.
+
 In higher dimensions, we don't just restrict our region to a 1D line,
 E.g. in 2D if we restrict our domain to a rectangular region,
 boundary conditions can be specified on each edge.
@@ -1068,7 +1092,8 @@ Engineering problems.
 
 We didn't look at any driving terms.
 We saw how a field might evolve under a PDE, but we never added energy
-to the system or considered the frequency response to a periodic excitation.
+to the system or considered the frequency response to a periodic excitation,
+or an impulse excitation.
 
 The PDEs we saw were homogeneous, this means the parameters,
 like the wave speed, $c$, and diffusivity, $\alpha$ were constant
