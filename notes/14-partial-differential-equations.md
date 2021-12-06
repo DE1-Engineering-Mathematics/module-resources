@@ -325,7 +325,7 @@ $$
 which we can shorthand to,
 
 $$
-X(x)T^\pp(t) = c^2 X^pp(x)T(t)
+X(x)T^\pp(t) = c^2 X^\pp(x)T(t)
 $$
 
 If we indulge a final step in mathematical manipulation,
