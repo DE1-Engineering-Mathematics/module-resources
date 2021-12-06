@@ -662,6 +662,10 @@ The ODEs can be solved and combined here as before.
 Things to note are, we have two degrees of freedom in $k_x$ and $k_y$
 which in turn determine the value of $\gamma$.
 
+In the
+[Tutorial questions](/module-resources/tutorial_sheets/12-PDE#separation-of-variables-1--2d-diffusion-equation)
+we find the solution in terms of complex exponentials.
+
 ### Damped Wave Equation
 Another equation we can look at is the damped wave equation,
 here in 1D.

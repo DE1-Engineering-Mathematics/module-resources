@@ -14,28 +14,15 @@ MathJax = { // V3
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<!-- <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script> -->
-
 <script type="text/javascript" src="tutorialSheetScripts.js"> </script>
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 # Partial Differential Equations Tutorial Sheet, #12
 
 ### Learning Targets
- * Evaluate and manipulate Partial Differentials
- * Understand how partial differentials work on vector fields
+ * Manipulate solutions to Partial Differential Equations
  * Use separation of variables solution to solve a PDE
+ * Derive particular solutions that solve initial and boundary conditions
 
 <br><br>
 
@@ -154,7 +141,8 @@ X(x) Y(y) T^\p(t) &=
 \alpha X^\pp(x) Y(y) T(t) +
 \alpha X(x) Y^\pp(y) T(t)
 \\
-\Rightarrow \frac{T^\p(t)}{T(t)} &=
+\Rightarrow \;
+\frac{T^\p(t)}{T(t)} &=
 \alpha \frac{X^\pp(x)}{X(x)} +
 \alpha \frac{Y^\pp(y)}{Y(y)}
 \end{align*}$$
@@ -193,7 +181,7 @@ Next we solve the ODEs,
 $$\begin{align}
 &T^\p(t) = -\gamma T(t)
 \\
-\Rightarrow
+\Rightarrow \;
 &T(t) \propto e^{-\gamma t}
 \end{align}$$
 
@@ -203,13 +191,13 @@ sinusoids or complex exponentials, I'll do complex exponentials here.
 $$\begin{align}
 &X^\pp(x) = -k_x^2 X(x)
 \\
-\Rightarrow
+\Rightarrow \;
 &X(x) \propto e^{i k_x x}
 \\
 &Y^\pp(y) = -k_y^2 Y(y)
 \\
-\Rightarrow
-&Y(y) &\propto e^{i k_y y}
+\Rightarrow \;
+&Y(y) \propto e^{i k_y y}
 \end{align}$$
 
 The complex exponential solutions are nicer when there's a lot of terms,
