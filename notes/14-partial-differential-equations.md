@@ -241,10 +241,10 @@ however we're not yet confident we've found *all* solutions –
 what if our function doesn't look like $\operatorname{sech}$?
 The following functions also solve the wave equation,
 
-$$
-f(x, t) = e^{-(x - c t)^2 / w^2} \\
-f(x, t) = \frac{1}{w^2 + x^2 + 2 x c t + c^2 t^2}
-$$
+$$\begin{align*}
+f(x, t) &= e^{-(x - c t)^2 / w^2} \\
+f(x, t) &= \frac{1}{w^2 + x^2 + 2 x c t + c^2 t^2}
+\end{align*}$$
 
 where $w$ is a free parameter that controls the width.
 Try yourself by inserting these into the differential equation.
@@ -280,13 +280,13 @@ the parameter $\omega$ is the angular frequency (or informally just frequency)
 and determines the time period, $\tau = 2\pi / \omega$.
 If we insert this into the wave equation, we get the result,
 
-$$
-\frac{\partial^2 }{\partial t^2} \cos k x \cos \omega t =
+$$\begin{align*}
+\frac{\partial^2 }{\partial t^2} \cos k x \cos \omega t &=
 c^2 \frac{\partial^2}{\partial x^2} \cos k x \cos \omega t
 \\
-{-} \omega^2 \cos k x \cos \omega t =
+{-} \omega^2 \cos k x \cos \omega t &=
 {-} c^2 k^2 \cos k x \cos \omega t
-$$
+\end{align*}$$
 
 And therefore,
 
@@ -320,13 +320,13 @@ then we express our solution as $f(x) = X(x)T(t)$.
 
 What happens if we plug this into the wave equation.
 
-$$
-\frac{\partial^2 f(x, t)}{\partial t^2} =
+$$\begin{align*}
+\frac{\partial^2 f(x, t)}{\partial t^2} &=
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 \\
-\frac{\partial^2}{\partial t^2} X(x)T(t) =
+\frac{\partial^2}{\partial t^2} X(x)T(t) &=
 c^2 \frac{\partial^2}{\partial x^2} X(x)T(t)
-$$
+\end{align*}$$
 
 Now the partial derivatives only *see* their respective terms, i.e.,
 
@@ -393,12 +393,12 @@ $$
 into two ODEs, a relationship between the constants,
 and a relationship between the solutions.
 
-$$
-T''(t) = a T(t) \\
-X''(x) = b X(x) \\
-a = c^2 b \\
-f(x) = X(x)T(t)
-$$
+$$\begin{align*}
+T''(t) &= a T(t) \\
+X''(x) &= b X(x) \\
+a &= c^2 b \\
+f(x) &= X(x)T(t)
+\end{align*}$$
 
 From here we can tackle the ODEs using the tools developed in
 a [previous chapter](9-ODE).
@@ -498,12 +498,12 @@ which means our for shorter wavelengths we have a higher frequency.
 
 More crucially, if we replace our ODEs with,
 
-$$
-T''(t) = -\omega^2 T(t) \\
-X''(x) = -k^2 X(x) \\
-\omega^2 = c^2 k^2 \\
-f(x) = X(x)T(t)
-$$
+$$\begin{align*}
+T''(t) &= -\omega^2 T(t) \\
+X''(x) &= -k^2 X(x) \\
+\omega^2 &= c^2 k^2 \\
+f(x) &= X(x)T(t)
+\end{align*}$$
 
 which, if we had anticipated the result,
 we could have called our arbitrary complex constants
@@ -574,18 +574,18 @@ $$u(x, t) = X(x)T(t)$$
 
 * **Plug this into our PDE, and let the derivatives work on like terms.**
 
-$$
-\frac{\partial}{\partial t} X(x)T(t) =
+$$\begin{align*}
+\frac{\partial}{\partial t} X(x)T(t) &=
 \alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
-X(x)T'(t) = \alpha X''(x)T(t)
-$$
+X(x)T'(t) &= \alpha X''(x)T(t)
+\end{align*}$$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 
-$$
-\frac{X(x)T'(t)}{X(x)T(t)} = \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
-\frac{T'(t)}{T(t)} = \alpha \frac{X''(x)}{X(x)}
-$$
+$$\begin{align*}
+\frac{X(x)T'(t)}{X(x)T(t)} &= \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
+\frac{T'(t)}{T(t)} &= \alpha \frac{X''(x)}{X(x)}
+\end{align*}$$
 
 * **Set these terms to be constant, to define ODEs and a dispersion relation.**
 \
@@ -663,12 +663,12 @@ $$
 Each of the separated terms gets its own constant and ODE,
 and we get a dispersion relation linking them,
 
-$$
-T''(t) = -\gamma T(t) \\
-X''(x) = -k_x^2 X(x) \\
-Y''(y) = -k_y^2 Y(y) \\
-\gamma = \alpha \left( k_x^2 + k_y^2 \right)
-$$
+$$\begin{align*}
+T''(t) &= -\gamma T(t) \\
+X''(x) &= -k_x^2 X(x) \\
+Y''(y) &= -k_y^2 Y(y) \\
+\gamma &= \alpha \left( k_x^2 + k_y^2 \right)
+\end{align*}$$
 
 The ODEs can be solved and combined here as before.
 
@@ -708,10 +708,10 @@ $$
 
 Allowing us to write,
 
-$$
-T''(t) + 2 g T'(t) = -\omega^2 T(t) \\
-X''(x) = -k^2 X(x)
-$$
+$$\begin{align*}
+T''(t) + 2 g T'(t) &= -\omega^2 T(t) \\
+X''(x) &= -k^2 X(x)
+\end{align*}$$
 
 Here, we still have $\omega^2 = c^2 k^2$,
 the $g$ term is wrapped up in the $T(t)$ ODE.
@@ -814,13 +814,13 @@ $$
 
 So at $t=0$,
 
-$$
-f(x, 0) =
+$$\begin{align*}
+f(x, 0) &=
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] D
 \\
-\frac{\partial f}{\partial t}(x, 0) =
+\frac{\partial f}{\partial t}(x, 0) &=
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] C k c
-$$
+\end{align*}$$
 
 If we patern match, $f(x, 0) = 0$, we get $D=0$,
 then matching $\frac{\partial f}{\partial t}(x, 0) = f^{(t)}_0(x)$,
