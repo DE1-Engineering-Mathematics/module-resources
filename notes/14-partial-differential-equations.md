@@ -1,7 +1,7 @@
 <script>
 MathJax = { // V3
   "tex": {
-    "inlineMath": [['$', '$']]
+    "inlineMath": [['$', '$']],
     "macros": {
       "p": "{\\prime}",
       "pp": "{\\prime\\prime}"
