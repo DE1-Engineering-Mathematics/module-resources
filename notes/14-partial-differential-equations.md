@@ -204,7 +204,7 @@ Physically, this tells us the speed of the function,
 that the $\operatorname{sech}$ envelope travels at speed $c$,
 which was one of the constants of the PDE.
 <iframe
-  src="https://www.desmos.com/calculator/jk0daqq6df"
+  src="https://www.desmos.com/calculator/f8ucapaqqr"
   width="800"
   height="600"
   style="border: 1px solid #ccc"
@@ -476,7 +476,7 @@ $$
 
 which means our for shorter wavelengths we have a higher frequency.
 
-<iframe src="https://www.desmos.com/calculator/1bwugzm94f"
+<iframe src="https://www.desmos.com/calculator/ofjoylxm0j"
   width="800"
   height="600"
   style="border: 1px solid #ccc"
@@ -547,7 +547,7 @@ equilibrium.
 Here is a plot of *a* solution to the diffusion equation,
 to give you a feel for the dynamics.
 
-<iframe src="https://www.desmos.com/calculator/decmboyi1l"
+<iframe src="https://www.desmos.com/calculator/kftkjyjumv"
   width="800"
   height="600"
   style="border: 1px solid #ccc"
@@ -608,7 +608,7 @@ $$
 Which should match to our intuition, the sinusoids that have the
 shortest periods decay away the quickest.
 
-<iframe src="https://www.desmos.com/calculator/ltmmgukeo6"
+<iframe src="https://www.desmos.com/calculator/ch0xh4dmze"
   width="800"
   height="600"
   style="border: 1px solid #ccc"
