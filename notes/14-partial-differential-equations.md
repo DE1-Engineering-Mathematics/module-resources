@@ -15,11 +15,11 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-
 
 <script>
 MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  "tex": {
+    "inlineMath": [['$', '$']]
   },
-  svg: {
-    fontCache: 'global'
+  "svg": {
+    "fontCache": 'global'
   }
 };
 </script>
@@ -186,6 +186,7 @@ In this case, the second derivatives in space and time.
 is pretty good for this too.)
 
 $$
+\begin{align*}
 \frac{\partial f(x, t)}{\partial x} =
     -\tanh(x - a t)\operatorname{sech}(x - a t) \\
 \frac{\partial^2 f(x, t)}{\partial x^2} =
@@ -194,6 +195,7 @@ $$
     a \tanh(x - a t)\operatorname{sech}(x - a t) \\
 \frac{\partial^2 f(x, t)}{\partial t^2} =
     a^2 \operatorname{sech}(x - a t) - 2 a^2 \operatorname{sech}^3(x - a t)
+\end{align*}
 $$
 
 Then if we insert these derivatives into the PDE,
