@@ -564,14 +564,14 @@ $$u(x, t) = X(x)T(t)$$
 $$\begin{align*}
 \frac{\partial}{\partial t} X(x)T(t) &=
 \alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
-X(x)T'(t) &= \alpha X^\pp(x)T(t)
+X(x)T^\p(t) &= \alpha X^\pp(x)T(t)
 \end{align*}$$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 
 $$\begin{align*}
-\frac{X(x)T'(t)}{X(x)T(t)} &= \alpha \frac{X^\pp(x)T(t)}{X(x)T(t)} \\
-\frac{T'(t)}{T(t)} &= \alpha \frac{X^\pp(x)}{X(x)}
+\frac{X(x)T^\p(t)}{X(x)T(t)} &= \alpha \frac{X^\pp(x)T(t)}{X(x)T(t)} \\
+\frac{T^\p(t)}{T(t)} &= \alpha \frac{X^\pp(x)}{X(x)}
 \end{align*}$$
 
 * **Set these terms to be constant, to define ODEs and a dispersion relation.**
@@ -579,10 +579,10 @@ $$\begin{align*}
 For $x$, we've seen this before and can set $X^\pp(x) / X(x) = -k^2$,
 choosing $-k^2$ to be our constant, which will imply sinusoidal solutions. 
 This returns the ODE $X^\pp(x) = -k^2 X(x)$. \
-For $t$, let's use $T'(t) / T(t) = -\gamma$,
+For $t$, let's use $T^\p(t) / T(t) = -\gamma$,
 the minus sign isn't strictly needed,
 but we'll see turns out to be the best choice.
-The second ODE is therefore, $T'(t) = -\gamma T(t)$
+The second ODE is therefore, $T^\p(t) = -\gamma T(t)$
 and the dispersion relation is $\gamma = \alpha k^2$.
 (then if $k$ is real then $\gamma$ is positive).
 
@@ -680,7 +680,7 @@ We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
 and get,
 
 $$
-\frac{T^\pp(t)}{T(t)} = -2 g \frac{T'(t)}{T(t)} + c^2 \frac{X^\pp(x)}{X(x)}
+\frac{T^\pp(t)}{T(t)} = -2 g \frac{T^\p(t)}{T(t)} + c^2 \frac{X^\pp(x)}{X(x)}
 $$
 
 Now before we start assigning constants,
@@ -690,13 +690,13 @@ that don't depend on $t$, this is only true if both $t$ terms
 are grouped together. i.e.,
 
 $$
-\frac{T^\pp(t) + 2 g T'(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
+\frac{T^\pp(t) + 2 g T^\p(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
 $$
 
 Allowing us to write,
 
 $$\begin{align*}
-T^\pp(t) + 2 g T'(t) &= -\omega^2 T(t) \\
+T^\pp(t) + 2 g T^\p(t) &= -\omega^2 T(t) \\
 X^\pp(x) &= -k^2 X(x)
 \end{align*}$$
 
