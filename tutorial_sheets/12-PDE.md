@@ -191,25 +191,25 @@ $$
 Next we solve the ODEs,
 
 $$\begin{align}
-T^\p(t) &= -\gamma T(t)
+&T^\p(t) = -\gamma T(t)
 \\
 \Rightarrow
-T(t) &\propto e^{-\gamma t}
+&T(t) \propto e^{-\gamma t}
 \end{align}$$
 
 And for the spatial parts, we have a choice to solve in terms of
 sinusoids or complex exponentials, I'll do complex exponentials here.
 
 $$\begin{align}
-X^\pp(x) &= -k_x^2 X(x)
+&X^\pp(x) = -k_x^2 X(x)
 \\
 \Rightarrow
-X(x) &\propto e^{i k_x x}
+&X(x) \propto e^{i k_x x}
 \\
-Y^\pp(y) &= -k_y^2 Y(y)
+&Y^\pp(y) = -k_y^2 Y(y)
 \\
 \Rightarrow
-Y(y) &\propto e^{i k_y y}
+&Y(y) &\propto e^{i k_y y}
 \end{align}$$
 
 The complex exponential solutions are nicer when there's a lot of terms,
@@ -238,13 +238,13 @@ As the final answer.
 ### Problem 3.
 Vibrations on a guitar string can be modelled by the wave equation,
 $\frac{\partial ^{2}u}{\partial t^{2}}-\frac{\tau\partial ^{2}u}{\rho \partial x^{2}}=0$
-<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, 𝜏 is its tension, and 𝜌 is the linear density of the string. This is a clone of the 19-20 progress test.
+<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, \tau is its tension, and 𝜌 is the linear density of the string. This is a clone of the 19-20 progress test.
 <br><br>
 (a) Use separation of variables to produce linear ODEs for the separated parts.
 State any relationship between constants you define.
 <br><br>
 <div class = "answer">
-$\Rightarrow{}$ Using $𝑢(𝑥,𝑡)=𝑋(𝑥)𝑇(𝑡)$, the PDE becomes<br><br>
+$\Rightarrow{}$ Using $𝑢(x,𝑡)=𝑋(x)𝑇(𝑡)$, the PDE becomes<br><br>
 $X\left ( x \right )T{}''\left ( t \right )-\frac{\tau }{\rho }X{}''\left ( x \right )T\left ( t \right )=0$
 <br><br>
 $\Rightarrow{}$ And therefore   $\frac{T{}''\left ( t \right )}{T\left ( t \right )}-\frac{\tau }{\rho }\frac{X{}''\left ( x \right )}{X\left ( x \right )}=0$
@@ -259,23 +259,23 @@ $\Rightarrow{}$Then,$\boxed{T{}''\left ( t \right )=-\omega ^{2}T\left ( t \righ
 (b) Solve the ODEs in terms of sinusoidal solutions.
 <br><br>
 <div class = "answer">
-$\boxed{𝑇(𝑡)=cos𝜔𝑡,sin𝜔𝑡}$ and
+$\boxed{T(t) = \cos \omega t,\sin \omega t}$ and
 <br><br>
-$\boxed{𝑋(𝑥)=cos𝑘𝑥,sin𝑘𝑥}$
+$\boxed{X(x) = \cos k x, \sin k x}$
 <br><br>
 Accept complex exponentials, accept equivalent correct forms, accept sum with coefficients, A cos + B sin etc.
 <br><br>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(c) The string has a length 𝐿, and is fixed at both ends, such that $𝑢(𝑥 = 0, 𝑡) = 𝑢(𝑥 = 𝐿, 𝑡) = 0$. How does this constrain your solutions? Write a general solution of the PDE, $ 𝑢(𝑥, 𝑡)$, that is subject to these constraints.
+(c) The string has a length L, and is fixed at both ends, such that $𝑢(x = 0, 𝑡) = 𝑢(x = L, 𝑡) = 0$. How does this constrain your solutions? Write a general solution of the PDE, $ 𝑢(x, 𝑡)$, that is subject to these constraints.
 <br><br>
 <div class = "answer">
-Fixed at $𝑥=0$ constrains to $sin𝑘𝑥$ spatial solutions only.
+Fixed at $x=0$ constrains to $\sin k x$ spatial solutions only.
 <br><br>
-Fixed at $𝑥=𝐿$ constrains to $k=\frac{n\pi }{L}$.
+Fixed at $x=L$ constrains to $k=\frac{n\pi }{L}$.
 <br><br>
-$\boxed{u\left ( x,t \right )=\left ( A\cos\omega t+B\sin\omega t \right )sin\frac{n\pi x}{L}}$
+$\boxed{u\left ( x,t \right )=\left ( A\cos\omega t+B\sin\omega t \right )\sin\frac{n\pi x}{L}}$
 <br><br>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
@@ -285,18 +285,18 @@ $\boxed{u\left ( x,t \right )=\left ( A\cos\omega t+B\sin\omega t \right )sin\fr
 <div class = "answer">
 Using $\omega ^{2}=\frac{\tau }{\rho }k^{2}$ and $k=\frac{n\pi }{L}$, then $\omega =\sqrt{\frac{\tau }{\rho }}\frac{n\pi }{L}$
 <br><br>
-Fundamental frequency, set $𝑛=1$.
+Fundamental frequency, set $n=1$.
 <br><br>
 $\boxed{\omega =\sqrt{\frac{\tau }{\rho }}\frac{\pi }{L}}$
 <br><br>
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(e) If a guitar has a neck length of 0.65 m, and a string has linear density 5 g/m, what tension does the string need to be to sound an A note at a frequency $𝜔 = 2𝜋 × 110$ Hz?
+(e) If a guitar has a neck length of 0.65 m, and a string has linear density 5 g/m, what tension does the string need to be to sound an A note at a frequency $\omega = 2\pi × 110$ Hz?
 <br><br>
-<div class = "answer">Rearrange for 𝜏.
+<div class = "answer">Rearrange for \tau.
 <br><br>
-$\Rightarrow{}\tau =\frac{L^{2}\omega ^{2}}{\pi ^{2}}\rho $
+$\Rightarrow \tau =\frac{L^{2}\omega ^{2}}{\pi ^{2}}\rho $
 <br><br>
 Insert given values, $\Rightarrow{}\tau =\frac{\left ( 0.65m \right )^{2}\left ( 2\pi \times 110Hz \right )^{2}}{\pi ^{2}}0.005\frac{kg}{m}$
 <br><br>
@@ -353,6 +353,7 @@ Solve the 3D wave equation by separation of variables to show,
 $u(\mathbf{x}, t) = \exp(i\mathbf{k}\cdot\mathbf{x} - i \omega t)$,
 is a solution. With $\mathbf{k} = (k_x, k_y, k_z)^T$
 What is the resulting relationship between $\mathbf{k}$ and $\omega$?
+
 $$
 \frac{n^2}{c^2}\frac{\partial^2 u(\mathbf{x}, t)}{\partial t^2} - \nabla^2 u(\mathbf{x}, t) = 0
 $$
