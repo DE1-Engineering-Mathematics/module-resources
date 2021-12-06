@@ -1,26 +1,13 @@
-<!-- <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-></script>
-<script type="text/javascript" src="tutorialSheetScripts.js"> </script>
-<link rel="stylesheet" type="text/css" media="all" href="styles.css"> -->
-
 <script>
-MathJax = {
+MathJax = { // V3
   "tex": {
     "inlineMath": [['$', '$']]
+    "macros": {
+      "p": "{\\prime}",
+      "pp": "{\\prime\\prime}"
+    }
   },
-  "svg": {
-    "fontCache": 'global'
-  }
+  "svg": {"fontCache": 'global'}
 };
 </script>
 <script type="text/javascript" id="MathJax-script" async
@@ -338,38 +325,38 @@ $$
 which we can shorthand to,
 
 $$
-X(x)T''(t) = c^2 X''(x)T(t)
+X(x)T^\pp(t) = c^2 X^pp(x)T(t)
 $$
 
 If we indulge a final step in mathematical manipulation,
 we can divide both sides by $X(x)T(t)$,
 
 $$
-\frac{X(x)T''(t)}{X(x)T(t)} = c^2 \frac{X''(x)T(t)}{X(x)T(t)}
+\frac{X(x)T^\pp(t)}{X(x)T(t)} = c^2 \frac{X^\pp(x)T(t)}{X(x)T(t)}
 $$
 
 which if we cancel terms returns,
 
 $$
-\frac{T''(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
+\frac{T^\pp(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
 $$
 
 Let's look at what we have, one of our terms,
-$T''(t) / T(t)$,
+$T^\pp(t) / T(t)$,
 is only dependant on $t$.
-The other term, $X''(x) / X(x)$, is only dependant on $x$.
+The other term, $X^\pp(x) / X(x)$, is only dependant on $x$.
 The big step conceptually from here is to recognise that since the $t$ term
 must be equal to a set of other terms that don't involve $t$,
 the $t$ term itself must be independant of $t$, i.e. is a constant:
 
 $$
-\frac{T''(t)}{T(t)} = a \,,
+\frac{T^\pp(t)}{T(t)} = a \,,
 $$
 
 where $a$ is a constant. And this can be re-arranged into,
 
 $$
-T''(t) = a T(t)
+T^\pp(t) = a T(t)
 $$
 
 i.e. a linear ODE.
@@ -377,7 +364,7 @@ i.e. a linear ODE.
 The same is true of the $x$ term, and we can get,
 
 $$
-X''(x) = b X(x)
+X^\pp(x) = b X(x)
 $$
 
 where $b$ is also a constant, with the relationship $a = c^2 b$ linking the two.
@@ -394,8 +381,8 @@ into two ODEs, a relationship between the constants,
 and a relationship between the solutions.
 
 $$\begin{align*}
-T''(t) &= a T(t) \\
-X''(x) &= b X(x) \\
+T^\pp(t) &= a T(t) \\
+X^\pp(x) &= b X(x) \\
 a &= c^2 b \\
 f(x) &= X(x)T(t)
 \end{align*}$$
@@ -408,7 +395,7 @@ Our ODEs here in $x$ and $t$ take the same form,
 lets look at the $x$ one.
 
 $$
-X''(x) = b X(x)
+X^\pp(x) = b X(x)
 $$
 
 Reading the ODE, it is asking, what function,
@@ -499,8 +486,8 @@ which means our for shorter wavelengths we have a higher frequency.
 More crucially, if we replace our ODEs with,
 
 $$\begin{align*}
-T''(t) &= -\omega^2 T(t) \\
-X''(x) &= -k^2 X(x) \\
+T^\pp(t) &= -\omega^2 T(t) \\
+X^\pp(x) &= -k^2 X(x) \\
 \omega^2 &= c^2 k^2 \\
 f(x) &= X(x)T(t)
 \end{align*}$$
@@ -513,7 +500,7 @@ that we met earlier.
 
 Note how we have freedom to choose the names of our
 arbitrary constants.
-If we had set $T''(t) = \gamma^2 T(t)$ and $X''(x) = \kappa^2 X(x)$
+If we had set $T^\pp(t) = \gamma^2 T(t)$ and $X^\pp(x) = \kappa^2 X(x)$
 show that this would return exponentially growing and decaying
 solutions.
 How would this affect the dispersion relation?
@@ -577,21 +564,21 @@ $$u(x, t) = X(x)T(t)$$
 $$\begin{align*}
 \frac{\partial}{\partial t} X(x)T(t) &=
 \alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
-X(x)T'(t) &= \alpha X''(x)T(t)
+X(x)T'(t) &= \alpha X^\pp(x)T(t)
 \end{align*}$$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 
 $$\begin{align*}
-\frac{X(x)T'(t)}{X(x)T(t)} &= \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
-\frac{T'(t)}{T(t)} &= \alpha \frac{X''(x)}{X(x)}
+\frac{X(x)T'(t)}{X(x)T(t)} &= \alpha \frac{X^\pp(x)T(t)}{X(x)T(t)} \\
+\frac{T'(t)}{T(t)} &= \alpha \frac{X^\pp(x)}{X(x)}
 \end{align*}$$
 
 * **Set these terms to be constant, to define ODEs and a dispersion relation.**
 \
-For $x$, we've seen this before and can set $X''(x) / X(x) = -k^2$,
+For $x$, we've seen this before and can set $X^\pp(x) / X(x) = -k^2$,
 choosing $-k^2$ to be our constant, which will imply sinusoidal solutions. 
-This returns the ODE $X''(x) = -k^2 X(x)$. \
+This returns the ODE $X^\pp(x) = -k^2 X(x)$. \
 For $t$, let's use $T'(t) / T(t) = -\gamma$,
 the minus sign isn't strictly needed,
 but we'll see turns out to be the best choice.
@@ -655,18 +642,18 @@ $$
 Then inputting into the 2D diffusion equation, we get,
 
 $$
-\frac{T''(t)}{T(t)} =
-\alpha \frac{X''(x)}{X(x)} +
-\alpha \frac{Y''(y)}{Y(y)}
+\frac{T^\pp(t)}{T(t)} =
+\alpha \frac{X^\pp(x)}{X(x)} +
+\alpha \frac{Y^\pp(y)}{Y(y)}
 $$
 
 Each of the separated terms gets its own constant and ODE,
 and we get a dispersion relation linking them,
 
 $$\begin{align*}
-T''(t) &= -\gamma T(t) \\
-X''(x) &= -k_x^2 X(x) \\
-Y''(y) &= -k_y^2 Y(y) \\
+T^\pp(t) &= -\gamma T(t) \\
+X^\pp(x) &= -k_x^2 X(x) \\
+Y^\pp(y) &= -k_y^2 Y(y) \\
 \gamma &= \alpha \left( k_x^2 + k_y^2 \right)
 \end{align*}$$
 
@@ -693,7 +680,7 @@ We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
 and get,
 
 $$
-\frac{T''(t)}{T(t)} = -2 g \frac{T'(t)}{T(t)} + c^2 \frac{X''(x)}{X(x)}
+\frac{T^\pp(t)}{T(t)} = -2 g \frac{T'(t)}{T(t)} + c^2 \frac{X^\pp(x)}{X(x)}
 $$
 
 Now before we start assigning constants,
@@ -703,14 +690,14 @@ that don't depend on $t$, this is only true if both $t$ terms
 are grouped together. i.e.,
 
 $$
-\frac{T''(t) + 2 g T'(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
+\frac{T^\pp(t) + 2 g T'(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
 $$
 
 Allowing us to write,
 
 $$\begin{align*}
-T''(t) + 2 g T'(t) &= -\omega^2 T(t) \\
-X''(x) &= -k^2 X(x)
+T^\pp(t) + 2 g T'(t) &= -\omega^2 T(t) \\
+X^\pp(x) &= -k^2 X(x)
 \end{align*}$$
 
 Here, we still have $\omega^2 = c^2 k^2$,
