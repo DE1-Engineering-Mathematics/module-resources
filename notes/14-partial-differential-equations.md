@@ -49,6 +49,7 @@ E.g. for a set of trolleys connected to each other with springs.
 In this setup we upgraded some of our quantities to vectors and matrices, e.g.
 $x(t) \rightarrow \mathbf{x}(t)$,
 and our ODE became,
+
 $$
 \ddot{\mathbf{x}}(t) =
   \begin{bmatrix}
@@ -57,6 +58,7 @@ $$
   \end{bmatrix}
 \mathbf{x}
 $$
+
 We solved this system by finding the *normal modes* that oscillate
 in harmonic motion at a single frequency,
 and added the combination of all solutions together for the
@@ -96,15 +98,19 @@ i.e. a differential equation that contains
 
 Some physically motivated PDEs that we'll look at in more detail are the
 diffusion equation:
+
 $$
 \frac{\partial f(x, t)}{\partial t} =
 \alpha \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
+
 and the wave equation:
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
+
 Notice that in each we have deriviatives in both space and time of our quantity
 of interest, $f(x, t)$,
 as well as some constants of the system, $\alpha$ and $c$.
@@ -143,10 +149,12 @@ sound waves in accoustic systems,
 and electromagnetic waves – i.e. light.
 
 We saw a wave equation earlier in this chapter that looked like this,
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
+
 Let's see what we can do with an equation like this.
 
 One question we may wish to answer when we have a PDE is,
@@ -162,6 +170,7 @@ In this case, the second derivatives in space and time.
 (This can be done by hand, but
 [Wolfram Alpha](https://www.wolframalpha.com/input/?i=D[Sech[x-a+t]%2C+{x,2}])
 is pretty good for this too.)
+
 $$
 \frac{\partial f(x, t)}{\partial x} =
     -\tanh(x - a t)\operatorname{sech}(x - a t) \\
@@ -172,16 +181,21 @@ $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
     a^2 \operatorname{sech}(x - a t) - 2 a^2 \operatorname{sech}^3(x - a t)
 $$
+
 Then if we insert these derivatives into the PDE,
 we can cancel things down a lot,
+
 $$
 a^2 \operatorname{sech}(x - a t) - 2 a^2 \operatorname{sech}^3(x - a t) =
 c^2 \left(\operatorname{sech}(x - a t) - 2\operatorname{sech}^3(x - a t)\right)
 $$
+
 which reduces to,
+
 $$
 a^2 = c^2
 $$
+
 This says we have a condition on
 $f(x, t) = \operatorname{sech}(x - a t)$ being a solution.
 It *is* a solution, if and only if $a^2 = c^2$, i.e., $a = \pm c$.
@@ -203,26 +217,32 @@ The wave equation is a *linear* differential equation,
 which means we can combine any two solutions to form a third new solution –
 recall how this was the case with ODEs as well.
 So a more general solution to the PDE is,
+
 $$
 f(x, t) = A\operatorname{sech}(x - c t) + B\operatorname{sech}(x + c t)
 $$
+
 This is good, and we've made progress,
 however we're not yet confident we've found *all* solutions –
 what if our function doesn't look like $\operatorname{sech}$?
 The following functions also solve the wave equation,
+
 $$
 f(x, t) = e^{-(x - c t)^2 / w^2} \\
 f(x, t) = \frac{1}{w^2 + x^2 + 2 x c t + c^2 t^2}
 $$
+
 where $w$ is a free parameter that controls the width.
 Try yourself by inserting these into the differential equation.
 
 Since these solve the PDE with any value of parameter, $w$,
 then any sum of solutions is also a solution, e.g.,
+
 $$
 f(x, t) = \sum_w A_w e^{-(x - c t)^2 / w^2} +
 B_w \frac{1}{w^2 + x^2 + 2 x c t + c^2 t^2}
 $$
+
 for a set of $w$ values.
 
 But again here, the solutions were given to us to begin with.
