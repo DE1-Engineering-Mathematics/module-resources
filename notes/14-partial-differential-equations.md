@@ -255,14 +255,17 @@ This is a special case though, we need something that will work in general.)
 
 ## Separation of variables
 Let's trial another solution to the wave equation,
+
 $$
 f(x, t) = \cos k x \cos \omega t
 $$
+
 Here the parameter $k$ is called the *wavevector* and it determines the
 wavelength of the cosine, $l = 2\pi / k$;
 the parameter $\omega$ is the angular frequency (or informally just frequency)
 and determines the time period, $\tau = 2\pi / \omega$.
 If we insert this into the wave equation, we get the result,
+
 $$
 \frac{\partial^2 }{\partial t^2} \cos k x \cos \omega t =
 c^2 \frac{\partial^2}{\partial x^2} \cos k x \cos \omega t
@@ -270,10 +273,13 @@ c^2 \frac{\partial^2}{\partial x^2} \cos k x \cos \omega t
 {-} \omega^2 \cos k x \cos \omega t =
 {-} c^2 k^2 \cos k x \cos \omega t
 $$
+
 And therefore,
+
 $$
 \omega^2 = c^2 k^2
 $$
+
 This resulting equation is called the *dispersion relation*,
 which sets the relationship between the frequency and the wavevector that is
 the condition for $f(x, t)$ to be a solution to the wave equation.
@@ -299,6 +305,7 @@ $X(x)$, and a part that only varies in $t$, lets call that $T(t)$,
 then we express our solution as $f(x) = X(x)T(t)$.
 
 What happens if we plug this into the wave equation.
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
@@ -306,24 +313,33 @@ c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 \frac{\partial^2}{\partial t^2} X(x)T(t) =
 c^2 \frac{\partial^2}{\partial x^2} X(x)T(t)
 $$
+
 Now the partial derivatives only *see* their respective terms, i.e.,
+
 $$
 X(x) \left(\frac{\partial^2}{\partial t^2} T(t)\right) =
 c^2 \left(\frac{\partial^2}{\partial x^2} X(x) \right)T(t)
 $$
+
 which we can shorthand to,
+
 $$
 X(x)T''(t) = c^2 X''(x)T(t)
 $$
+
 If we indulge a final step in mathematical manipulation,
 we can divide both sides by $X(x)T(t)$,
+
 $$
 \frac{X(x)T''(t)}{X(x)T(t)} = c^2 \frac{X''(x)T(t)}{X(x)T(t)}
 $$
+
 which if we cancel terms returns,
+
 $$
 \frac{T''(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
 $$
+
 Let's look at what we have, one of our terms,
 $T''(t) / T(t)$,
 is only dependant on $t$.
@@ -331,81 +347,107 @@ The other term, $X''(x) / X(x)$, is only dependant on $x$.
 The big step conceptually from here is to recognise that since the $t$ term
 must be equal to a set of other terms that don't involve $t$,
 the $t$ term itself must be independant of $t$, i.e. is a constant:
+
 $$
 \frac{T''(t)}{T(t)} = a \,,
 $$
+
 where $a$ is a constant. And this can be re-arranged into,
+
 $$
 T''(t) = a T(t)
 $$
+
 i.e. a linear ODE.
 
 The same is true of the $x$ term, and we can get,
+
 $$
 X''(x) = b X(x)
 $$
+
 where $b$ is also a constant, with the relationship $a = c^2 b$ linking the two.
 
 Let's pause and reflect here, because what we have done is to convert a PDE,
 which in principle is difficult to solve,
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
+
 into two ODEs, a relationship between the constants,
 and a relationship between the solutions.
+
 $$
 T''(t) = a T(t) \\
 X''(x) = b X(x) \\
 a = c^2 b \\
 f(x) = X(x)T(t)
 $$
+
 From here we can tackle the ODEs using the tools developed in
 a [previous chapter](9-ODE).
 
 Let's do just that.
 Our ODEs here in $x$ and $t$ take the same form,
 lets look at the $x$ one.
+
 $$
 X''(x) = b X(x)
 $$
+
 Reading the ODE, it is asking, what function,
 when differentiated twice, returns itself times a constant?
 Exponential functions fit the bill here,
 and so do sines and cosines if $b$ is negative.
 We're free to choose, let's look at sines and cosines as we saw them before.
 Let's use the trial function,
+
 $$
 X(x) = \sin k x
 $$
+
 If we insert it into the ODE, we get,
+
 $$
 {-}k^2 \sin k x = b \sin k x
 $$
+
 or
+
 $$
 {-}k^2 = b
 $$
+
 i.e.¸
+
 $$
 X(x) = \sin \left(\sqrt{-b} x \right)
 $$
+
 The same is true of $X(x) = \cos \left(\sqrt{-b} x \right)$.
 So we can write a combined solution,
+
 $$
 X(x) = A \sin \left(\sqrt{-b} x \right) + B \cos \left(\sqrt{-b} x \right)
 $$
+
 We could do the same with $t$ for,
+
 $$
 T(t) = C \sin \left(\sqrt{a} t \right) + D \cos\left(\sqrt{a} t \right)
 $$
+
 Giving a combined solution that is the product of the separated 
 solutions:
+
 $$
 f(x, t) =
 \left[A \sin \left(\sqrt{-b} x \right) + B\cos \left(\sqrt{-b} x \right)\right]
 \left[C \sin \left(\sqrt{-a} t \right) + D\cos \left(\sqrt{-a} t \right)\right]
 $$
+
 Which you can check solves the full PDE.
 
 ### Better constants
@@ -416,17 +458,21 @@ we used $k^2 = -b$ earlier as the coefficient of $x$,
 if we replace all instances of $b$ with $-k^2$,
 and similarly $a$ with $-\omega^2$,
 We get as our solution,
+
 $$
 f(x, t) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
 \left[C \sin \left(\omega t \right) + D\cos \left(\omega t \right)\right]
 $$
+
 Or if we use the dispersion relation, we get:
+
 $$
 f(x, t) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
 \left[C \sin \left(k c t \right) + D\cos \left(k c t \right)\right]
 $$
+
 which means our for shorter wavelengths we have a higher frequency.
 
 <iframe src="https://www.desmos.com/calculator/1bwugzm94f"
@@ -437,12 +483,14 @@ which means our for shorter wavelengths we have a higher frequency.
 ></iframe>
 
 More crucially, if we replace our ODEs with,
+
 $$
 T''(t) = -\omega^2 T(t) \\
 X''(x) = -k^2 X(x) \\
 \omega^2 = c^2 k^2 \\
 f(x) = X(x)T(t)
 $$
+
 which, if we had anticipated the result,
 we could have called our arbitrary complex constants
 $-k^2$ and $-\omega^2$ this way from the start.
@@ -481,9 +529,11 @@ For this reason, the diffusion equation is also called the
 *Heat Equation*.
 
 The 1D diffusion has the form,
+
 $$
 \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
 $$
+
 Where $u$ is our diffusing quantity here, and $\alpha$ is the diffusivity,
 i.e. a measure of how quickly the substance diffuses.
 
@@ -505,9 +555,11 @@ to give you a feel for the dynamics.
 
 Let's use Separation of Variables to solve the diffusion equation.
 * **Assume a solution that is seperable.**
+
 $$u(x, t) = X(x)T(t)$$
 
 * **Plug this into our PDE, and let the derivatives work on like terms.**
+
 $$
 \frac{\partial}{\partial t} X(x)T(t) =
 \alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
@@ -516,6 +568,7 @@ $$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 $$
+
 \frac{X(x)T'(t)}{X(x)T(t)} = \alpha \frac{X''(x)T(t)}{X(x)T(t)} \\
 \frac{T'(t)}{T(t)} = \alpha \frac{X''(x)}{X(x)}
 $$
@@ -538,15 +591,19 @@ $X(x) = A \sin \left(k x \right) + B\cos \left(k x \right)$ \
 The $T(t)$ part is a first order ODE, so only has one solution, \
 $T(t) = e^{-\gamma t}$ \
 giving a full solution,
+
 $$
 U(x, t) = A \sin \left(k x \right) e^{-\gamma t} +
   B\cos \left(k x \right) e^{-\gamma t}
 $$
+
 When we insert the dispersion relation, we get,
+
 $$
 U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
   B\cos \left(k x \right) e^{-\alpha k^2 t}
 $$
+
 Which should match to our intuition, the sinusoids that have the
 shortest periods decay away the quickest.
 
@@ -568,28 +625,36 @@ often PDEs generalise by replacing their spatial
 $\frac{\partial^2}{\partial x^2}$ term with the *Laplacian*,
 $\nabla^2$.
 The 2D Diffusion equation for example looks like,
+
 $$
 \frac{\partial u(x, y, t)}{\partial t} = \alpha \nabla^2 u(x, y, t)
 $$
+
 We solve this in a very similar to the 1D case.
 Let's assume our trial solution is,
+
 $$
 u(x, y, t) = X(x)Y(y)T(t)
 $$
+
 Then inputting into the 2D diffusion equation, we get,
+
 $$
 \frac{T''(t)}{T(t)} =
 \alpha \frac{X''(x)}{X(x)} +
 \alpha \frac{Y''(y)}{Y(y)}
 $$
+
 Each of the separated terms gets its own constant and ODE,
 and we get a dispersion relation linking them,
+
 $$
 T''(t) = -\gamma T(t) \\
 X''(x) = -k_x^2 X(x) \\
 Y''(y) = -k_y^2 Y(y) \\
 \gamma = \alpha \left( k_x^2 + k_y^2 \right)
 $$
+
 The ODEs can be solved and combined here as before.
 
 Things to note are, we have two degrees of freedom in $k_x$ and $k_y$
@@ -599,31 +664,39 @@ Another equation we can look at is the damped wave equation,
 here in 1D.
 This one is the wave equation we've seen already but
 with a damping term that seeks to extinguish vibrations over time.
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 {-} g \frac{\partial f(x, t)}{\partial t}
 {+} c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
+
 Where here $g$ is a newly introduced damping constant,
 that is the coefficient for a first derivative in $t$.
 We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
 and get,
+
 $$
 \frac{T''(t)}{T(t)} = -g \frac{T'(t)}{T(t)} + c^2 \frac{X''(x)}{X(x)}
 $$
+
 Now before we start assigning constants,
 we need to group together like terms.
 Our assumption previously was that our $t$ block is equal to things
 that don't depend on $t$, this is only true if both $t$ terms
 are grouped together. i.e.,
+
 $$
 \frac{T''(t) + g T'(t)}{T(t)} = c^2 \frac{X''(x)}{X(x)}
 $$
+
 Allowing us to write,
+
 $$
 T''(t) + g T'(t) = -\omega^2 T(t) \\
 X''(x) = -k^2 X(x)
 $$
+
 Here, we still have $\omega^2 = c^2 k^2$,
 the $g$ term is wrapped up in the $T(t)$ ODE.
 This ODE is solved as you have already seen [previously](9-ODE).
@@ -651,40 +724,50 @@ know how the system will behave at future times.
 
 For example, let's consider the 1D diffusion equation,
 We saw above that it has solutions,
+
 $$
 U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
   B\cos \left(k x \right) e^{-\alpha k^2 t}
 $$
+
 Let's assume here that we have a value for our diffusivity,
 $\alpha = 1 \, \mathrm{m}^2 / \mathrm{s}$
 If we are told that at $t=0$, concentration of our substance is
 distributed as,
+
 $$
 U_0(x) = 10\,\mathrm{g}/\mathrm{m}\;
 \cos \left(\frac{2 \pi}{0.5 \mathrm{m}} x \right)
 $$
+
 Then, we can pattern match our full solution to this,
 i.e. at $t=0$ our full solution is,
+
 $$
 U(x, t=0) = A \sin \left(k x \right) +
   B\cos \left(k x \right)
 $$
+
 Pattern matching, we can determine for $U(x, t=0) = U_0(x)$,
 that $A = 0$, $B = 10\,\mathrm{g}/\mathrm{m}$,
 and $k=2 \pi / 0.5 \, \mathrm{m}^{-1}$.
 From here, we can insert the free parameters that we have now determined
 into the full solution, giving,
+
 $$
 U(x, t) = 10\,\mathrm{g}/\mathrm{m}
 \cos \left(\frac{2 \pi}{0.5 \mathrm{m}} x \right)
 \exp\left({-\frac{(2 \pi)^2}{0.25} \mathrm{s}^{-1} t}\right)
 $$
+
 or
+
 $$
 U(x, t) = 10\,\mathrm{g}/\mathrm{m} \;
 \cos \left(12.6 \, \mathrm{m}^{-1} \; x \right)
 \exp\left({- 128 \, \mathrm{s}^{-1} \; t}\right)
 $$
+
 Which tells us what our system looks like at all times.
 
 In general, things are a little more complicated than this.
@@ -692,11 +775,13 @@ The wave equation, for example, is second order in time.
 This means we need to specify not just initial values,
 but also inital time derivatives too.
 E.g., We can look at the 1D wave equation, that has solution,
+
 $$
 f(x, t) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
 \left[C \sin \left(k c t \right) + D\cos \left(k c t \right)\right]
 $$
+
 We might be told, at $t=0$ the value of the function is zero everywhere,
 $f_0(x) = 0$,
 but the time derivative has value $f^{(t)}_0(x) = 0.4 \sin 3 x$.
@@ -704,12 +789,15 @@ but the time derivative has value $f^{(t)}_0(x) = 0.4 \sin 3 x$.
 Here we need match our solution and its time derivative to our
 intial conditions at $t=0$.
 i.e.
+
 $$
 \frac{\partial f}{\partial t}(x, t) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right]
 \left[C k c \cos \left(k c t \right) - D k c\sin \left(k c t \right)\right]
 $$
+
 So at $t=0$,
+
 $$
 f(x, 0) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] D
@@ -717,10 +805,12 @@ f(x, 0) =
 \frac{\partial f}{\partial t}(x, 0) =
 \left[A \sin \left(k x \right) + B\cos \left(k x \right)\right] C k c
 $$
+
 If we patern match, $f(x, 0) = 0$, we get $D=0$,
 then matching $\frac{\partial f}{\partial t}(x, 0) = f^{(t)}_0(x)$,
 we can determine $B = 0$, $k=3$, $A C = 0.4 / (k c) = 0.133 / c$.
 This gives full solution,
+
 $$
 f(x, t) =
 0.133 \sin \left(3 x \right)\sin \left(3 c t \right)
@@ -729,31 +819,43 @@ $$
 Sometimes, the function we are matching to may not look exactly like our
 solution,
 e.g. for the diffusion equation, we may have an initial condition of,
+
 $$
 u_0(x) = 4 \cos (2 x) + 7 \cos (3 x)
 $$
+
 Here we can pattern match each part of the sum separately,
 e.g. if our initial condition was,
+
 $$
 u_0(x) = 4 \cos (2 x)
 $$
+
 then our full solution would be,
+
 $$
 u(x, t) = 4 \cos (2 x) e^{-4 \alpha t}
 $$
+
 and equivalently, for an initial condition,
+
 $$
 u_0(x) = 7 \cos (3 x)
 $$
+
 Our full solution is,
+
 $$
 u(x, t) = 7 \cos (3 x) e^{-9 \alpha t}
 $$
+
 Since linearity applies, we can add these solutions together.
 I.e.,
+
 $$
 u(x, t) = 4 \cos (2 x) e^{-4 \alpha t} + 7 \cos (3 x) e^{-9 \alpha t}
 $$
+
 Which we can double check does indeed equal
 $4 \cos (2 x) + 7 \cos (3 x)$
 when $t = 0$.
@@ -768,17 +870,21 @@ $k = 2$ and $k = 3$.
 
 We can write this more explicitly as follows,
 For the diffusion equation, we had solution,
+
 $$
 U(x, t) = A \sin \left(k x \right) e^{-\alpha k^2 t} +
   B\cos \left(k x \right) e^{-\alpha k^2 t}
 $$
+
 Now, since $k$ is arbitrary, we can sum over different values of $k$.
 Each of these will have a different $A$ and $B$ coefficient,
 so we can label these with a subscript.
+
 $$
 U(x, t) = \sum_k A_k \sin \left(k x \right) e^{-\alpha k^2 t} +
   B_k \cos \left(k x \right) e^{-\alpha k^2 t}
 $$
+
 This might look familiar from
 [Fourier Series](12-fourier-series),
 and indeed in general,
@@ -800,23 +906,29 @@ One such condition could be that the string is fixed in place at the boundary,
 i.e. $f(x=0, t) = 0$ and $f(x=L, t) = 0$, at all times.
 
 Let's incorporate these into the wave equation solution,
+
 $$
 f(x, t) = \sum_k
 \left[A_k \sin \left(k x \right) + B_k\cos \left(k x \right)\right]
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
+
 First, let's set $x = 0$,
+
 $$
 f(0, t) =
 B_k \left[C_k \sin \left(k c t \right) + D_k \cos \left(k c t \right)\right] = 0
 $$
+
 This implies that $B_k = 0$ for the function to be zero at all times.
 Next, let's set $x = L$, here we get,
+
 $$
 f(L, t) = \sum_k
 A_k \sin \left(k L \right)
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right] = 0
 $$
+
 At this stage, we can't set this to equal zero by setting any coefficients,
 (Setting $A_k = 0$ would mean the function is zero everywhere at all times)
 If the $\sin \left(k L \right)$ term was zero though, then the whole expression
@@ -828,6 +940,7 @@ This gives a condition on $k$, i.e. that $k = n \pi / L$.
 So instead of $k$ being *any* complex number, by imposing these boundary
 conditions, we've said that $k$ can *only* be discrete real values.
 I.e. our general solution after applying the boundary conditions becomes,
+
 $$
 f(x, t) = \sum_{n=0}^{\infty}
 A_k \sin \left(\frac{n \pi x}{L} \right)
@@ -836,7 +949,9 @@ A_k \sin \left(\frac{n \pi x}{L} \right)
   D_k\cos \left(\frac{n \pi c t}{L} \right)
 \right]
 $$
+
 We can actually tidy this up further, by redefining our coefficients,
+
 $$
 f(x, t) = \sum_{n=0}^{\infty}
 \sin \left(\frac{n \pi x}{L} \right)
@@ -845,6 +960,7 @@ f(x, t) = \sum_{n=0}^{\infty}
   b_n\cos \left(\frac{n \pi c t}{L} \right)
 \right]
 $$
+
 Let's review what we've just done.
 We've restricted our spatial range from an infinite range to a finite section,
 and this has had the result of quantising the allowed wavevectors of modes
@@ -871,32 +987,41 @@ of the field is zero at the boundary.
 Let's have a look at this one,
 Formally $f^{(x)}(x=0, t) = 0$ and $f^{(x)}(x=L, t) = 0$.
 Using the general solution again,
+
 $$
 f(x, t) = \sum_k
 \left[A_k \sin \left(k x \right) + B_k\cos \left(k x \right)\right]
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
+
 The spatial derivative of this is,
+
 $$
 f^{(x)}(x, t) = \sum_k
 \left[A_k k \cos \left(k x \right) - B_k k \sin \left(k x \right)\right]
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
+
 now, let's set $x=0$,
+
 $$
 f^{(x)}(0, t) = \sum_k
 \left[A_k k\right]
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
+
 Which implies $A_k = 0$.
 Then substituting this, and setting $x = L$,
+
 $$
 f^{(x)}(L, t) = \sum_k
 {-} B_k k \sin \left(k L \right)
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
+
 Which again implies $k = \pi n / L$.
 So,
+
 $$
 f(x, t) = \sum_n
 \cos \left(\frac{\pi n}{L} x \right)
