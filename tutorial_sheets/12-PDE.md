@@ -33,6 +33,7 @@
 
 # Problem sheet
 ## Skill Building Questions
+
 ### Problem 1.
 Which of the following are solutions to Laplace's equation,
 $\nabla^2 f(\mathbf{x}) = 0$?
@@ -81,7 +82,7 @@ No, but $\nabla^2 f(\mathbf{x}) = 2 f / z^2$ would work.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 ### Problem 2.
 Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
@@ -110,7 +111,109 @@ $$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+### Separation of Variables 1 – 2D Diffusion Equation
+In the notes, we highlighted the
+[2D Diffusion Equation](/module-resources/notes/14-partial-differential-equations#2d-diffusion-equation)
+as an example of using separation of variables.
+
+$$
+\frac{\partial u(x, y, t)}{\partial t} = \alpha \nabla^2 u(x, y, t)
+$$
+
+Find the general solution, $u(x, y, t)$, to this PDE.
+
+<div class="answer">
+Assume a separated solution of
+
+$$
+u(x, y, t) = X(x)Y(y)T(t)
+$$
+
+Then input into the PDE,
+
+$$\begin{align*}
+X(x) Y(y) T^\p(t) &=
+\alpha X^\pp(x) Y(y) T(t) +
+\alpha X(x) Y^\pp(y) T(t)
+\\
+\Rightarrow \frac{T^\p(t)}{T(t)} &=
+\alpha \frac{X^\pp(x)}{X(x)} +
+\alpha \frac{Y^\pp(y)}{Y(y)}
+\end{align*}$$
+
+Each term here can be assigned a constant,
+For the $T(t)$ term, let's call this $-\gamma$, i.e.,
+
+$$
+T^\p(t) = -\gamma T(t)
+$$
+
+I've chosen a negative sign in front of the constant here,
+this is optional, but will eventually mean exponentially decaying solutions
+for positive $\gamma$ values, rather than unphysical growing ones.
+
+For the $X(x)$ and $Y(y)$ constants, let's use,
+
+$$\begin{align}
+X^\pp(x) &= -k_x^2 X(x) \\
+Y^\pp(y) &= -k_y^2 Y(y)
+\end{align}$$
+
+Here I always pick the power of the constant to be as big as the highest
+order of derivative.
+
+In this case, I pick a negative sign too, this will match with the $\gamma$
+term and ensure all positive signs in the dispersion relation,
+which comes out as,
+
+$$
+\gamma = \alpha \left( k_x^2 + k_y^2 \right) \;\;.
+$$
+
+Next we solve the ODEs,
+
+$$\begin{align}
+T^\p(t) &= -\gamma T(t)
+\\
+\Rightarrow
+T(t) &\propto e^{-\gamma t}
+\end{align}$$
+
+And for the spatial parts, we have a choice to solve in terms of
+sinusoids or complex exponentials, I'll do complex exponentials here.
+
+$$\begin{align}
+X^\pp(x) &= -k_x^2 X(x)
+\\
+\Rightarrow
+X(x) &propto e^{i k_x x}
+\\
+Y^\pp(y) &= -k_y^2 Y(y)
+\\
+\Rightarrow
+Y(y) &propto e^{i k_y y}
+\end{align}$$
+
+The complex exponential solutions are nicer when there's a lot of terms,
+e.g. in 2d, because the positive and negative solution can be captured
+with a single exponential term, rather than both a $sin$ and a $cos$.
+
+The general solution then is the product of all the separated solutions,
+$$
+u(x, y, t) = A e^{i k_x x + i k_y y} e^{-\gamma t}
+$$
+with,
+$$
+\gamma = \alpha \left( k_x^2 + k_y^2 \right)
+$$
+
+As the final answer.
+
+</div>
+
+<div class="workingout"><br><br><br><br><br><br><br><br></div>
+--------------------------------------------------------------------------------
 
 <br>
 
