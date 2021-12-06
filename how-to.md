@@ -109,6 +109,60 @@ $ \boxed{\text{a thing}}$ - puts a box around whatever is inside (used for answe
 * https://detexify.kirelabs.org/classify  - Useful webapp that shows you the closest LaTeX symbol to what you drew.
 * https://mathpix.com/ - Detexify on steroids, a snipping tool/camera phone app that lets you extract LaTeX formulae from images. (Free limit: 100 snips a month)
 
+## LaTeX Troubleshooting
+Here is a list of things to look out for that might catch you out first time around.
+One of the main reasons for some of these issues is the compiling of githib pages is a two step process.
+Github will render Markdown into HTML in the first pass on their servers.
+Then after that the MathJax engine will process maths content in the browser once the page is loaded.
+This means, that any GitHub Markdown feature will take priority.
+
+### Display equations centred in blocks
+Make sure to leave a clear line between your block mode maths and other text
+otherwise it may not render on its own line and centred.
+```markdown
+Let's assume our trial solution is,
+
+$$
+u(x, y, t) = X(x)Y(y)T(t)
+$$
+
+Then inputting into the 2D diffusion equation, we get,
+```
+
+### Equations over multiple source code lines.
+For readability in source code, I break my equations into multiple lines.
+E.g.
+```markdown
+$$
+\frac{\partial^2 f(x, t)}{\partial t^2} =
+- 2 g \frac{\partial f(x, t)}{\partial t}
++ c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+$$
+```
+However, the `+` and `-` characters at the start of a line are interpreted
+as the start of a bullet list, and break the math-mode block before it renders
+in MathJax.
+The workaround is to wrap leading plus/minus signs in braces `{}`.
+```markdown
+$$
+\frac{\partial^2 f(x, t)}{\partial t^2} =
+{-} 2 g \frac{\partial f(x, t)}{\partial t}
+{+} c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+$$
+```
+
+### Multi-line equations and aligned equations
+If you use MathJax v3 to render maths (Which is faster than v2),
+using the `\\` command to add new lines doesn't work unless you
+wrap the TeX in an environment that supports it, e.g. `align*`,
+which also aligns equations to a chosen symbol using `&`.
+```markdown
+$$\begin{align*}
+T''(t) &= -\gamma T(t) \\
+X''(x) &= -k_x^2 X(x)
+\end{align*}$$
+```
+
 <br><br>
 
 -----------------------------------------------------------------------------
