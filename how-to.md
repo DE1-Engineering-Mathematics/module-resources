@@ -163,6 +163,16 @@ X''(x) &= -k_x^2 X(x)
 \end{align*}$$
 ```
 
+### Prime symbols
+GitHub docs uses smart quotes, which means it converts the `'` quote symbol
+*inteligently* into either `‘` or `’` which can trip up MathJax,
+particularly for double prime quantities like `X''(x) = -k^2 X(x)`.
+
+You can instead use the `\prime` symbol as a superscript,
+e.g. `X^{\prime\prime}(x) = -k^2 X(x)`
+Or even better define a macro (version dependent), to be able to use,
+`X^\pp(x) = -k^2 X(x)`
+
 <br><br>
 
 -----------------------------------------------------------------------------
