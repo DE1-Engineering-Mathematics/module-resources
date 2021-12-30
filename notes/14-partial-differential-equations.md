@@ -450,7 +450,7 @@ $$
 
 Which you can check solves the full PDE.
 
-[Give this a go yourself in the tutorial sheet.](/module-resources/tutorial_sheets/Separation-of-Variables-0--1D-Wave-Equation)
+[Give this a go yourself in the tutorial sheet.](/module-resources/tutorial_sheets/12-PDE#separation-of-variables-0--1d-wave-equation)
 
 ### Better constants
 The square roots aren't very nice here,
@@ -505,7 +505,7 @@ If we had set $T^{\prime\prime}(t) = \gamma^2 T(t)$ and $X^{\prime\prime}(x) = \
 show that this would return exponentially growing and decaying
 solutions.
 How would this affect the dispersion relation?
-[Tutorial Sheet Question.](/module-resources/tutorial_sheets/Separation-of-Variables-1--Choice-of-constants)
+[Tutorial Sheet Question.](/module-resources/tutorial_sheets/12-PDE#separation-of-variables-1--choice-of-constants)
 
 As a rule, to choose constants, you want to set the power to be the
 same as the highest order derivative in your ODE.

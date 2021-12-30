@@ -119,7 +119,8 @@ $$
 ### Separation of Variables 0 – 1D Wave Equation
 Go through the process of solving the general soultion to the
 1D Wave equation, As we did in the
-[lecture notes](/module-resources/notes/14-partial-differential-equations#Procedure).
+[lecture notes](/module-resources/notes/14-partial-differential-equations#procedure).
+
 $$
 \frac{\partial^2 f(x, t)}{\partial t^2} =
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
@@ -133,7 +134,9 @@ $$
 
 <div class="answer">
 This is solved with more detail in the
-[lecture notes](/module-resources/notes/14-partial-differential-equations#Procedure).
+<a
+href="/module-resources/notes/14-partial-differential-equations#procedure"
+>lecture notes</a>.
 
 We'll do a different solution here and solve with complex exponentials.
 
@@ -155,16 +158,14 @@ $$
 \begin{align*}
 \frac{X(x)T^{\prime\prime}(t)}{X(x)T(t)} &=
   c^2 \frac{X^{\prime\prime}(x)T(t)}{X(x)T(t)}
-\end{align*}
 \\
-\begin{align*}
 \frac{T^{\prime\prime}(t)}{T(t)} &=
   c^2 \frac{X^{\prime\prime}(x)}{X(x)}
 \end{align*}
 $$
 
 Assign constants to each group, I've chosen negative second power constants.
-[See why.](/module-resources/notes/14-partial-differential-equations#Better-constants)
+[See why.](/module-resources/notes/14-partial-differential-equations#better-constants)
 
 $$
 \begin{align*}
@@ -294,7 +295,9 @@ T^{\prime\prime}(t) = \gamma^2 T(t)
 $$
 
 This is asking the question,
-*what function when differentiated twice, gives itself times a constant?*
+<em>
+  what function when differentiated twice, gives itself times a constant?
+</em>
 The hyperbolic trig functions answer this question – try this yourself.
 But so do growing and decaying exponentials.
 
