@@ -116,7 +116,250 @@ $$
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 --------------------------------------------------------------------------------
-### Separation of Variables 1 – 2D Diffusion Equation
+### Separation of Variables 0 – 1D Wave Equation
+Go through the process of solving the general soultion to the
+1D Wave equation, As we did in the
+[lecture notes](/module-resources/notes/14-partial-differential-equations#Procedure).
+$$
+\frac{\partial^2 f(x, t)}{\partial t^2} =
+c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+$$
+
+* **Assume a solution that is seperable, e.g., $f(x, t) = X(x)T(t)$.**
+* **Plug this into the PDE, and let the derivatives work on like terms.**
+* **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
+* **Set these terms to be constant, to define ODEs and a dispersion relation.**
+* **Solve the ODEs and combine the solutions together.**
+
+<div class="answer">
+This is solved with more detail in the
+[lecture notes](/module-resources/notes/14-partial-differential-equations#Procedure).
+
+We'll do a different solution here and solve with complex exponentials.
+
+First assume solution,
+
+$$
+f(x, t) = X(x) T(t)
+$$
+
+Next plug into the ODE,
+
+$$
+X(x)T^{\prime\prime}(t) = c^2 X^{\prime\prime}(x)T(t)
+$$
+
+Divide through by $X(x)T(t)$
+
+$$
+\begin{align*}
+\frac{X(x)T^{\prime\prime}(t)}{X(x)T(t)} &=
+  c^2 \frac{X^{\prime\prime}(x)T(t)}{X(x)T(t)}
+\end{align*}
+\\
+\begin{align*}
+\frac{T^{\prime\prime}(t)}{T(t)} &=
+  c^2 \frac{X^{\prime\prime}(x)}{X(x)}
+\end{align*}
+$$
+
+Assign constants to each group, I've chosen negative second power constants.
+[See why.](/module-resources/notes/14-partial-differential-equations#Better-constants)
+
+$$
+\begin{align*}
+\underbrace{\frac{T^{\prime\prime}(t)}{T(t)}}_{-\omega^2} &=
+  c^2 \underbrace{\frac{X^{\prime\prime}(x)}{X(x)}}_{-k^2}
+\end{align*}
+$$
+
+Giving,
+
+$$
+\begin{align*}
+T^{\prime\prime}(t) &= -\omega^2 T(t) \\
+X^{\prime\prime}(x) &= -k^2 X(x) \\
+\omega^2 &= c^2 k^2
+\end{align*}
+$$
+
+Let's solve the ODEs,
+
+$$
+\begin{align*}
+T(t) &= A e^{i \omega t} + B e^{-i \omega t} \\
+X(x) &= C e^{i k x} + D e^{-i k x}
+\end{align*}
+$$
+
+Which we can then combine to,
+
+$$
+f(x, t) = X(x)T(t) =
+  \left[ A e^{i \omega t} + B e^{-i \omega t} \right]
+  \left[ C e^{i k x} + D e^{-i k x} \right]
+$$
+
+At this point we are done, but we could also insert our dispersion relation,
+to remove one of the constants.
+
+$$
+f(x, t) =
+  \left[ A e^{i k c t} + B e^{-i k c t} \right]
+  \left[ C e^{i k x} + D e^{-i k x} \right]
+$$
+
+Which is the general solution.
+
+</div>
+
+Once you have done this, you can return the question later and try to solve
+it using different trial solutions
+(Sines and cosines, exponentials, hyperbolic functions)
+and different choice of constants (powers, sign).
+See how they each behave and how the choices interact with each other.
+
+--------------------------------------------------------------------------------
+### Separation of Variables 1 – Choice of constants
+In the
+[Better Constants](/module-resources/notes/14-partial-differential-equations#Better-constants)
+section of the notes,
+We looked at the 1D wave equation,
+
+$$
+\frac{\partial^2 f(x, t)}{\partial t^2} =
+c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
+$$
+
+and chose ODE constants,
+$-\omega^2$ and $-k^2$, to solve the PDE.
+
+You were asked to see what happened if instead we used
+positive squared coefficients, i.e.,
+
+$$
+\begin{align*}
+T^{\prime\prime}(t) &= +\gamma^2 T(t) \\
+X^{\prime\prime}(x) &= +\kappa^2 X(x)
+\end{align*}
+$$
+
+Show, by using a separable solution $f(x, t) = X(x)T(t)$ on the PDE,
+that we can return the ODEs above, and that their relationship is,
+
+$$
+\gamma^2 = c^2 \kappa^2
+$$
+
+Then show by solving the ODEs,
+that exponentially growing and decaying solutions can be produced.
+Write the general solution to the PDE in this form.
+
+<div class="answer">
+
+Let's start with the usual assumtion of a separable solution,
+
+$$
+f(x, t) = X(x) T(t)
+$$
+
+Inserting into our PDE, dividing through, we get,
+$$
+\frac{T^{\prime\prime}(t)}{T(t)} =
+  c^2 \frac{X^{\prime\prime}(x)}{X(x)}
+$$
+
+Now, let's use different positive squared constants, gamma and kappa.
+$$
+\underbrace{\frac{T^{\prime\prime}(t)}{T(t)}}_{\gamma^2} =
+  c^2 \underbrace{\frac{X^{\prime\prime}(x)}{X(x)}}_{\kappa^2}
+$$
+
+Which we can extract two ODEs and a dispersion relation.
+
+$$
+\begin{align*}
+T^{\prime\prime}(t) &= \gamma^2 T(t) \\
+X^{\prime\prime}(x) &= \kappa^2 X(x) \\
+\gamma^2 &= c^2 \kappa^2
+\end{align*}
+$$
+
+With the dispersion relation being what we were trying to prove.
+
+Let's look at the temporal ODE,
+
+$$
+T^{\prime\prime}(t) = \gamma^2 T(t)
+$$
+
+This is asking the question,
+*what function when differentiated twice, gives itself times a constant?*
+The hyperbolic trig functions answer this question – try this yourself.
+But so do growing and decaying exponentials.
+
+Let's use $T(t) = e^{\lambda t}$ as our trial solution.
+
+The second derivative is,
+
+$$
+\frac{\partial^2}{\partial t^2} e^{\lambda t} = \lambda^2 e^{\lambda t}
+$$
+
+And so,
+
+$$
+\lambda^2 e^{\lambda t} = \gamma^2 e^{\lambda t}
+$$
+
+hence,
+
+$$
+\begin{align*}
+\lambda^2 &= \gamma^2 \\
+\lambda &= \pm \gamma
+\end{align*}
+$$
+
+So our temporal ODE solution is,
+
+$$
+T(t) = A e^{\gamma t} + B e^{-\gamma t}
+$$
+
+The same reasoning applies to the spatial ODE,
+
+$$
+X(x) = C e^{\kappa x} + D e^{-\kappa x}
+$$
+
+For a full solution,
+
+$$
+f(x, t) = X(x)T(t) =
+  \left[ C e^{\kappa x} + D e^{-\kappa x} \right]
+  \left[ A e^{\gamma t} + B e^{-\gamma t} \right]
+$$
+
+Let's insert the dispersion relation,
+
+$$
+f(x, t) =
+  \left[ C e^{\kappa x} + D e^{-\kappa x} \right]
+  \left[ A e^{\kappa c t} + B e^{-\kappa c t} \right]
+$$
+
+These solutions tell us that an initial condition that looks like
+exponential functions will either grow or decay away at future times.
+(Depending on the initial time derivative)
+
+Do notice, that we indeed return the usual oscillatory solutions for
+complex or imaginary values of $\kappa$ or $\gamma$.
+
+</div>
+
+--------------------------------------------------------------------------------
+### Separation of Variables 2 – 2D Diffusion Equation
 In the notes, we highlighted the
 [2D Diffusion Equation](/module-resources/notes/14-partial-differential-equations#2d-diffusion-equation)
 as an example of using separation of variables.
@@ -127,11 +370,12 @@ $$
 
 Find the general solution, $u(x, y, t)$, to this PDE.
 
+
 <div class="answer">
 First, let's write the Laplacian out in full,
 
 $$
-\frac{\partial u(x, y, t)}{\partial t} =
+\frac{\partial}{\partial t} u(x, y, t) =
 \alpha \frac{\partial^2}{\partial x^2} u(x, y, t) +
 \alpha \frac{\partial^2}{\partial y^2} u(x, y, t)
 $$
@@ -145,21 +389,21 @@ $$
 Then input into the PDE,
 
 $$\begin{align*}
-X(x) Y(y) T^\p(t) &=
-\alpha X^\pp(x) Y(y) T(t) +
-\alpha X(x) Y^\pp(y) T(t)
+X(x) Y(y) T^{\prime}(t) &=
+\alpha X^{\prime\prime}(x) Y(y) T(t) +
+\alpha X(x) Y^{\prime\prime}(y) T(t)
 \\
 \Rightarrow \;
-\frac{T^\p(t)}{T(t)} &=
-\alpha \frac{X^\pp(x)}{X(x)} +
-\alpha \frac{Y^\pp(y)}{Y(y)}
+\frac{T^{\prime}(t)}{T(t)} &=
+\alpha \frac{X^{\prime\prime}(x)}{X(x)} +
+\alpha \frac{Y^{\prime\prime}(y)}{Y(y)}
 \end{align*}$$
 
 Each term here can be assigned a constant,
 For the $T(t)$ term, let's call this $-\gamma$, i.e.,
 
 $$
-T^\p(t) = -\gamma T(t)
+T^{\prime}(t) = -\gamma T(t)
 $$
 
 I've chosen a negative sign in front of the constant here,
@@ -168,10 +412,10 @@ for positive $\gamma$ values, rather than unphysical growing ones.
 
 For the $X(x)$ and $Y(y)$ constants, let's use,
 
-$$\begin{align}
-X^\pp(x) &= -k_x^2 X(x) \\
-Y^\pp(y) &= -k_y^2 Y(y)
-\end{align}$$
+$$\begin{align*}
+X^{\prime\prime}(x) &= -k_x^2 X(x) \\
+Y^{\prime\prime}(y) &= -k_y^2 Y(y)
+\end{align*}$$
 
 Here I always pick the power of the constant to be as big as the highest
 order of derivative.
@@ -186,31 +430,31 @@ $$
 
 Next we solve the ODEs,
 
-$$\begin{align}
-&T^\p(t) = -\gamma T(t)
+$$\begin{align*}
+&T^{\prime}(t) = -\gamma T(t)
 \\
 \Rightarrow \;
 &T(t) \propto e^{-\gamma t}
-\end{align}$$
+\end{align*}$$
 
 And for the spatial parts, we have a choice to solve in terms of
 sinusoids or complex exponentials, I'll do complex exponentials here.
 
-$$\begin{align}
-&X^\pp(x) = -k_x^2 X(x)
+$$\begin{align*}
+&X^{\prime\prime}(x) = -k_x^2 X(x)
 \\
 \Rightarrow \;
 &X(x) \propto e^{i k_x x}
 \\
-&Y^\pp(y) = -k_y^2 Y(y)
+&Y^{\prime\prime}(y) = -k_y^2 Y(y)
 \\
 \Rightarrow \;
 &Y(y) \propto e^{i k_y y}
-\end{align}$$
+\end{align*}$$
 
 The complex exponential solutions are nicer when there's a lot of terms,
 e.g. in 2d, because the positive and negative solution can be captured
-with a single exponential term, rather than both a $sin$ and a $cos$.
+with a single exponential term, rather than both a $\sin$ and a $\cos$.
 
 The general solution then is the product of all the separated solutions,
 $$
@@ -234,7 +478,7 @@ As the final answer.
 ### Problem 3.
 Vibrations on a guitar string can be modelled by the wave equation,
 $\frac{\partial ^{2}u}{\partial t^{2}}-\frac{\tau\partial ^{2}u}{\rho \partial x^{2}}=0$
-<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, \tau is its tension, and 𝜌 is the linear density of the string. This is a clone of the 19-20 progress test.
+<br>where $u(x,t)$  is the displacement of the string from its equilibrium position, $\tau$ is its tension, and $\rho$ is the linear density of the string. This is a clone of the 19-20 progress test.
 <br><br>
 (a) Use separation of variables to produce linear ODEs for the separated parts.
 State any relationship between constants you define.

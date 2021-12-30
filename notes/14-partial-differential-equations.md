@@ -325,38 +325,37 @@ $$
 which we can shorthand to,
 
 $$
-X(x)T^\pp(t) = c^2 X^\pp(x)T(t)
+X(x)T^{\prime\prime}(t) = c^2 X^{\prime\prime}(x)T(t)
 $$
 
-If we indulge a final step in mathematical manipulation,
-we can divide both sides by $X(x)T(t)$,
+To make this more manageable, we can divide both sides by $X(x)T(t)$,
 
 $$
-\frac{X(x)T^\pp(t)}{X(x)T(t)} = c^2 \frac{X^\pp(x)T(t)}{X(x)T(t)}
+\frac{X(x)T^{\prime\prime}(t)}{X(x)T(t)} = c^2 \frac{X^{\prime\prime}(x)T(t)}{X(x)T(t)}
 $$
 
 which if we cancel terms returns,
 
 $$
-\frac{T^\pp(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
+\frac{T^{\prime\prime}(t)}{T(t)} = c^2 \frac{X^{\prime\prime}(x)}{X(x)}
 $$
 
 Let's look at what we have, one of our terms,
-$T^\pp(t) / T(t)$,
+$T^{\prime\prime}(t) / T(t)$,
 is only dependant on $t$.
-The other term, $X^\pp(x) / X(x)$, is only dependant on $x$.
+The other term, $X^{\prime\prime}(x) / X(x)$, is only dependant on $x$.
 The big step conceptually from here is to recognise that since the $t$ term
 must be equal to a set of other terms that don't involve $t$,
 the $t$ term itself must be independant of $t$, i.e. is a constant:
 
 $$
-\frac{T^\pp(t)}{T(t)} = a \,,
+\frac{T^{\prime\prime}(t)}{T(t)} = a \,,
 $$
 
 where $a$ is a constant. And this can be re-arranged into,
 
 $$
-T^\pp(t) = a T(t)
+T^{\prime\prime}(t) = a T(t)
 $$
 
 i.e. a linear ODE.
@@ -364,7 +363,7 @@ i.e. a linear ODE.
 The same is true of the $x$ term, and we can get,
 
 $$
-X^\pp(x) = b X(x)
+X^{\prime\prime}(x) = b X(x)
 $$
 
 where $b$ is also a constant, with the relationship $a = c^2 b$ linking the two.
@@ -377,12 +376,12 @@ $$
 c^2 \frac{\partial^2 f(x, t)}{\partial x^2}
 $$
 
-into two ODEs, a relationship between the constants,
-and a relationship between the solutions.
+into: two ODEs, a relationship between their constants,
+and a recipe for the PDE solution built out of the ODE solutions.
 
 $$\begin{align*}
-T^\pp(t) &= a T(t) \\
-X^\pp(x) &= b X(x) \\
+T^{\prime\prime}(t) &= a T(t) \\
+X^{\prime\prime}(x) &= b X(x) \\
 a &= c^2 b \\
 f(x) &= X(x)T(t)
 \end{align*}$$
@@ -395,7 +394,7 @@ Our ODEs here in $x$ and $t$ take the same form,
 lets look at the $x$ one.
 
 $$
-X^\pp(x) = b X(x)
+X^{\prime\prime}(x) = b X(x)
 $$
 
 Reading the ODE, it is asking, what function,
@@ -451,6 +450,8 @@ $$
 
 Which you can check solves the full PDE.
 
+[Give this a go yourself in the tutorial sheet.](/module-resources/tutorial_sheets/Separation-of-Variables-0--1D-Wave-Equation)
+
 ### Better constants
 The square roots aren't very nice here,
 but since $a$ and $b$ are arbitrary constants (positive, negative, complex),
@@ -486,8 +487,8 @@ which means our for shorter wavelengths we have a higher frequency.
 More crucially, if we replace our ODEs with,
 
 $$\begin{align*}
-T^\pp(t) &= -\omega^2 T(t) \\
-X^\pp(x) &= -k^2 X(x) \\
+T^{\prime\prime}(t) &= -\omega^2 T(t) \\
+X^{\prime\prime}(x) &= -k^2 X(x) \\
 \omega^2 &= c^2 k^2 \\
 f(x) &= X(x)T(t)
 \end{align*}$$
@@ -500,10 +501,24 @@ that we met earlier.
 
 Note how we have freedom to choose the names of our
 arbitrary constants.
-If we had set $T^\pp(t) = \gamma^2 T(t)$ and $X^\pp(x) = \kappa^2 X(x)$
+If we had set $T^{\prime\prime}(t) = \gamma^2 T(t)$ and $X^{\prime\prime}(x) = \kappa^2 X(x)$
 show that this would return exponentially growing and decaying
 solutions.
 How would this affect the dispersion relation?
+[Tutorial Sheet Question.](/module-resources/tutorial_sheets/Separation-of-Variables-1--Choice-of-constants)
+
+As a rule, to choose constants, you want to set the power to be the
+same as the highest order derivative in your ODE.
+Then to choose if you want a positive or a negative sign,
+if you've got a 1st order ODE,
+a negative sign will return an exponentially decaying function,
+and a positive sign returns an exponentially growing function.
+if you've got a 2nd order ODE,
+a negative sign will return oscillatory solutions,
+wheras a positive sign will return decaying and growing solutions.
+Usually you want your time function to decay into the future,
+and then your spatial parts can be set to keep the values of your constants
+positive in the dispersion relation.
 
 Let's pause again and reflect.
 We've managed to derive the sinusoidal solution that we guessed
@@ -564,25 +579,25 @@ $$u(x, t) = X(x)T(t)$$
 $$\begin{align*}
 \frac{\partial}{\partial t} X(x)T(t) &=
 \alpha \frac{\partial^2}{\partial x^2} X(x)T(t) \\
-X(x)T^\p(t) &= \alpha X^\pp(x)T(t)
+X(x)T^{\prime}(t) &= \alpha X^{\prime\prime}(x)T(t)
 \end{align*}$$
 
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 
 $$\begin{align*}
-\frac{X(x)T^\p(t)}{X(x)T(t)} &= \alpha \frac{X^\pp(x)T(t)}{X(x)T(t)} \\
-\frac{T^\p(t)}{T(t)} &= \alpha \frac{X^\pp(x)}{X(x)}
+\frac{X(x)T^{\prime}(t)}{X(x)T(t)} &= \alpha \frac{X^{\prime\prime}(x)T(t)}{X(x)T(t)} \\
+\frac{T^{\prime}(t)}{T(t)} &= \alpha \frac{X^{\prime\prime}(x)}{X(x)}
 \end{align*}$$
 
 * **Set these terms to be constant, to define ODEs and a dispersion relation.**
 \
-For $x$, we've seen this before and can set $X^\pp(x) / X(x) = -k^2$,
+For $x$, we've seen this before and can set $X^{\prime\prime}(x) / X(x) = -k^2$,
 choosing $-k^2$ to be our constant, which will imply sinusoidal solutions. 
-This returns the ODE $X^\pp(x) = -k^2 X(x)$. \
-For $t$, let's use $T^\p(t) / T(t) = -\gamma$,
+This returns the ODE $X^{\prime\prime}(x) = -k^2 X(x)$. \
+For $t$, let's use $T^{\prime}(t) / T(t) = -\gamma$,
 the minus sign isn't strictly needed,
 but we'll see turns out to be the best choice.
-The second ODE is therefore, $T^\p(t) = -\gamma T(t)$
+The second ODE is therefore, $T^{\prime}(t) = -\gamma T(t)$
 and the dispersion relation is $\gamma = \alpha k^2$.
 (then if $k$ is real then $\gamma$ is positive).
 
@@ -642,18 +657,18 @@ $$
 Then inputting into the 2D diffusion equation, we get,
 
 $$
-\frac{T^\p(t)}{T(t)} =
-\alpha \frac{X^\pp(x)}{X(x)} +
-\alpha \frac{Y^\pp(y)}{Y(y)}
+\frac{T^{\prime}(t)}{T(t)} =
+\alpha \frac{X^{\prime\prime}(x)}{X(x)} +
+\alpha \frac{Y^{\prime\prime}(y)}{Y(y)}
 $$
 
 Each of the separated terms gets its own constant and ODE,
 and we get a dispersion relation linking them,
 
 $$\begin{align*}
-T^\p(t) &= -\gamma T(t) \\
-X^\pp(x) &= -k_x^2 X(x) \\
-Y^\pp(y) &= -k_y^2 Y(y) \\
+T^{\prime}(t) &= -\gamma T(t) \\
+X^{\prime\prime}(x) &= -k_x^2 X(x) \\
+Y^{\prime\prime}(y) &= -k_y^2 Y(y) \\
 \gamma &= \alpha \left( k_x^2 + k_y^2 \right)
 \end{align*}$$
 
@@ -663,7 +678,7 @@ Things to note are, we have two degrees of freedom in $k_x$ and $k_y$
 which in turn determine the value of $\gamma$.
 
 In the
-[Tutorial questions](/module-resources/tutorial_sheets/12-PDE#separation-of-variables-1--2d-diffusion-equation)
+[Tutorial questions](/module-resources/tutorial_sheets/12-PDE#separation-of-variables-2--2d-diffusion-equation)
 we find the solution in terms of complex exponentials.
 
 ### Damped Wave Equation
@@ -684,7 +699,7 @@ We approach this as usual, i.e. $f(x, t) = X(x)T(t)$,
 and get,
 
 $$
-\frac{T^\pp(t)}{T(t)} = -2 g \frac{T^\p(t)}{T(t)} + c^2 \frac{X^\pp(x)}{X(x)}
+\frac{T^{\prime\prime}(t)}{T(t)} = -2 g \frac{T^{\prime}(t)}{T(t)} + c^2 \frac{X^{\prime\prime}(x)}{X(x)}
 $$
 
 Now before we start assigning constants,
@@ -694,14 +709,14 @@ that don't depend on $t$, this is only true if both $t$ terms
 are grouped together. i.e.,
 
 $$
-\frac{T^\pp(t) + 2 g T^\p(t)}{T(t)} = c^2 \frac{X^\pp(x)}{X(x)}
+\frac{T^{\prime\prime}(t) + 2 g T^{\prime}(t)}{T(t)} = c^2 \frac{X^{\prime\prime}(x)}{X(x)}
 $$
 
 Allowing us to write,
 
 $$\begin{align*}
-T^\pp(t) + 2 g T^\p(t) &= -\omega^2 T(t) \\
-X^\pp(x) &= -k^2 X(x)
+T^{\prime\prime}(t) + 2 g T^{\prime}(t) &= -\omega^2 T(t) \\
+X^{\prime\prime}(x) &= -k^2 X(x)
 \end{align*}$$
 
 Here, we still have $\omega^2 = c^2 k^2$,
