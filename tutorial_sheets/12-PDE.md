@@ -223,7 +223,7 @@ See how they each behave and how the choices interact with each other.
 --------------------------------------------------------------------------------
 ### Separation of Variables 1 – Choice of constants
 In the
-[Better Constants](/module-resources/notes/14-partial-differential-equations#Better-constants)
+[Better Constants](/module-resources/notes/14-partial-differential-equations#better-constants)
 section of the notes,
 We looked at the 1D wave equation,
 
