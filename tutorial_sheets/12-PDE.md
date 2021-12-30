@@ -19,6 +19,8 @@ MathJax = { // V3
 
 # Partial Differential Equations Tutorial Sheet, #12
 
+[Coure Notes Chapter](/module-resources/notes/14-partial-differential-equations)
+
 ### Learning Targets
  * Manipulate solutions to Partial Differential Equations
  * Use separation of variables solution to solve a PDE
