@@ -19,7 +19,7 @@ MathJax = { // V3
 
 # Partial Differential Equations Tutorial Sheet, #12
 
-[Coure Notes Chapter](/module-resources/notes/14-partial-differential-equations)
+[Course Notes Chapter](/module-resources/notes/14-partial-differential-equations)
 
 ### Learning Targets
  * Manipulate solutions to Partial Differential Equations
