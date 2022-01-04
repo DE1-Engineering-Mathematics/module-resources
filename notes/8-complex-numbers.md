@@ -172,5 +172,39 @@ This means that you are now equipped to address a very wide range of maths probl
 
 It you would like to find out more about complex numbers, the phenomenal video series by Welch labs will change your life: [http://www.welchlabs.com/](http://www.welchlabs.com/)
 
+<br><br>
+
+## 8.5 (Bonus) Quaternions and extra imaginary numbers
+
+After seeing that complex numbers can be used to represent points and perform rotations in 2D, it is logical to see if this concept could extend to 3 dimensions. This is exactly what Sir William Rowan Hamilton was pondering when he discovered quaternions (he then proceeded to engrave the fundamental multiplication formula for his newfound numbers onto the [side of a bridge he was walking along](https://en.wikipedia.org/wiki/History_of_quaternions)).
+
+To move into the third dimension, we must introduce two new complex numbers $\textbf{j}$ and $\textbf{k}$ in addition to our now-familiar $\textbf{i}$. Gaining two numbers when going up only one dimension initially perplexed Hamilton, but makes more sense when you consider that two extra degrees of rotational freedom are gained when going from 2D to 3D.
+
+These complex numbers have similar properties to $\textbf{i}$, with some additional rules for multiplying between them:
+
+$$ \textbf{i}^2 = \textbf{j}^2 = \textbf{k}^2 = -1, $$
+$$ \textbf{ij} = \textbf{k}, \quad \textbf{ji} = -\textbf{k}, $$
+$$ \textbf{jk} = \textbf{i}, \quad \textbf{kj} = -\textbf{i}, $$
+$$ \textbf{ki} = \textbf{j}, \quad \textbf{ik} = -\textbf{j}, $$
+$$ \textbf{ijk} = -1.$$
+
+A quaternion is represented as:
+$$ a + b \textbf{i} + c \textbf{j} + d \textbf{k}$$
+where $a, b, c$ and $d$ are real numbers.
+
+Quaternions provide a convenient way to represent points and rotations in three dimensional space. They are probably easiest to understand as an axis-angle rotation, for instance a rotation of point $\vec{p}$ around unit axis $\vec{u}$ by angle $\theta$ can be performed as such:
+
+$$\text{Point: } \textbf{p} = p_x \textbf{i} + p_y \textbf{j} + p_z  \textbf{k},$$
+$$\text{Quaternion: } \textbf{q} = e^{\frac{\theta}{2} (u_x \textbf{i} + u_y \textbf{j} + u_z \textbf{k})}  = \cos \left( \frac{\theta}{2} \right) + (u_x \textbf{i} + u_y \textbf{j} + u_z \textbf{k}) \sin \left( \frac{\theta}{2} \right), $$
+$$\text{Rotated point: } \textbf{p}' = \textbf{qpq}^{-1}.$$
+
+
+Note how this is fundamentally just an extension of Euler's formula, which we have already seen.
+
+This is mathematically interesting, but other than having a cool name, why are quaternions useful? Since we live in a three dimensional world, many of our systems need to deal with rotations in 3D. Almost all [video games](https://docs.unity3d.com/ScriptReference/Quaternion.html) and [animation software](https://docs.blender.org/manual/en/latest/advanced/appendices/rotations.html#quaternion-mode) use the quaternion as their fundamental representation of object rotation. Quaternions are also popular in robotics applications, where many rotation operations need to be calculated along a kinematic chain to perform forward kinematics: the process of taking joint angles and converting them to end effector (e.g. robotic hand) position and orientation. Quaternions are favoured over the easier-to-understand Euler angles because they do not suffer [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock), a state where Euler angles are no longer linearly independent and certain incremental rotations are not possible.
+
+Here is a video by 3Blue1Brown that explores the mathematical properties of quaternions: [Visualizing quaternions (4d numbers) with stereographic projection](https://youtu.be/d4EgbgTm0Bg)
+
+Here is a video exploring the practical application of quaternions in video games: [10 mins GameDev tips - Quaternions](https://youtu.be/1yoFjjJRnLY)
 
 <br><br><br><br>
