@@ -176,7 +176,7 @@ It you would like to find out more about complex numbers, the phenomenal video s
 
 ## 8.5 (Bonus) Quaternions and extra imaginary numbers
 
-After seeing that complex numbers can be used to represent points and perform rotations in 2D, it is logical to see if this concept could extend to 3 dimensions. This is exactly what Sir William Rowan Hamilton was pondering when he discovered quaternions v(he then proceeded to engrave the fundamental multiplication formula for his newfound numbers onto the [side of a bridge he was walking along](https://en.wikipedia.org/wiki/History_of_quaternions)).
+After seeing that complex numbers can be used to represent points and perform rotations in 2D, it is logical to see if this concept could extend to 3 dimensions. This is exactly what Sir William Rowan Hamilton was pondering when he discovered quaternions (he then proceeded to engrave the fundamental multiplication formula for his newfound numbers onto the [side of a bridge he was walking along](https://en.wikipedia.org/wiki/History_of_quaternions)).
 
 To move into the third dimension, we must introduce two new complex numbers $\textbf{j}$ and $\textbf{k}$ in addition to our now-familiar $\textbf{i}$. Gaining two numbers when going up only one dimension initially perplexed Hamilton, but makes more sense when you consider that two extra degrees of rotational freedom are gained when going from 2D to 3D.
 
@@ -201,9 +201,9 @@ $$\text{Rotated point: } \textbf{p}' = \textbf{qpq}^{-1}.$$
 
 Note how this is fundamentally just an extension of Euler's formula, which we have already seen.
 
-This is mathematically interesting, but other than having a cool name, why are quaternions useful? Since we live in a three dimensional world, many of our systems need to deal with rotations in 3D. Almost all [video games](https://docs.unity3d.com/ScriptReference/Quaternion.html) and [animation software](https://docs.blender.org/manual/en/latest/advanced/appendices/rotations.html#quaternion-mode) use the quaternion as their fundamental representation of object rotation. Quaternions are also popular in robotics applications, where many rotation operations need to be calculated along a kinematic chain to perform forward kinematics: the process of taking joint angles and converting them to end effector (e.g. robotic hand) position. Quaternions are favoured over the easier to understand Euler angles because they do not suffer [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock), a state where Euler angles are no longer linearly independent and certain incremental rotations are not possible.
+This is mathematically interesting, but other than having a cool name, why are quaternions useful? Since we live in a three dimensional world, many of our systems need to deal with rotations in 3D. Almost all [video games](https://docs.unity3d.com/ScriptReference/Quaternion.html) and [animation software](https://docs.blender.org/manual/en/latest/advanced/appendices/rotations.html#quaternion-mode) use the quaternion as their fundamental representation of object rotation. Quaternions are also popular in robotics applications, where many rotation operations need to be calculated along a kinematic chain to perform forward kinematics: the process of taking joint angles and converting them to end effector (e.g. robotic hand) position and orientation. Quaternions are favoured over the easier-to-understand Euler angles because they do not suffer [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock), a state where Euler angles are no longer linearly independent and certain incremental rotations are not possible.
 
-Here is a of video by 3blue1brown that explores the mathematical properties of quaternions: [Visualizing quaternions (4d numbers) with stereographic projection](https://youtu.be/d4EgbgTm0Bg)
+Here is a video by 3Blue1Brown that explores the mathematical properties of quaternions: [Visualizing quaternions (4d numbers) with stereographic projection](https://youtu.be/d4EgbgTm0Bg)
 
 Here is a video exploring the practical application of quaternions in video games: [10 mins GameDev tips - Quaternions](https://youtu.be/1yoFjjJRnLY)
 
