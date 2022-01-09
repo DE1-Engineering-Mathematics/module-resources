@@ -116,6 +116,14 @@
 * __[13.5 Vector calculus](13-multivariate-calculus#vector-calculus)__
 
 ### Chapter 14 - [Partial Differential Equations](14-partial-differential-equations)
+* __[14.1 Recap](14-partial-differential-equations#recap)__
+* __[14.2 Introducing PDEs](14-partial-differential-equations#introducing)__
+* __[14.3 Separation of Variables](14-partial-differential-equations#sepofvarr)__
+* __[14.4 Diffusion Equation](14-partial-differential-equations#diffeq)__
+* __[14.5 Further Examples](14-partial-differential-equations#furtherexamps)__
+* __[14.6 Initial Conditions](14-partial-differential-equations#init)__
+* __[14.7 Boundary Conditions](14-partial-differential-equations#bound2)__
+* __[14.8 Outlook](14-partial-differential-equations#windowsoutlook)__
 
 ### Chapter 15 - [Finite Differences](15-finite-differences)
 * __[15.1 Introduction](15-finite-differences#intro)__
