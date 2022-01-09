@@ -521,19 +521,19 @@ a negative sign will return an exponentially decaying function,
 and a positive sign returns an exponentially growing function.
 if you've got a 2nd order ODE,
 a negative sign will return oscillatory solutions,
-wheras a positive sign will return decaying and growing solutions.
+whereas a positive sign will return decaying and growing solutions.
 Usually you want your time function to decay into the future,
 and then your spatial parts can be set to keep the values of your constants
 positive in the dispersion relation.
 
-### 144.3.4 Summary of Separation of Variables
+### 14.3.5 Summary of Separation of Variables
 
 Let's pause again and reflect.
 We've managed to derive the sinusoidal solution that we guessed
 earlier, but this time from first principles.
 
 What was our process?
-* **Assume a solution that is seperable, e.g., $f(x, t) = X(x)T(t)$.**
+* **Assume a solution that is separable, e.g., $f(x, t) = X(x)T(t)$.**
 * **Plug this into our PDE, and let the derivatives work on like terms.**
 * **Divide the whole thing by $X(x)T(t)$ and collect like terms.**
 * **Set these terms to be constant, to define ODEs and a dispersion relation.**
@@ -578,7 +578,7 @@ to give you a feel for the dynamics.
 ></iframe>
 
 Let's use Separation of Variables to solve the diffusion equation.
-* **Assume a solution that is seperable.**
+* **Assume a solution that is separable.**
 
 $$u(x, t) = X(x)T(t)$$
 
@@ -607,7 +607,7 @@ the minus sign isn't strictly needed,
 but we'll see turns out to be the best choice.
 The second ODE is therefore, $T^{\prime}(t) = -\gamma T(t)$
 and the dispersion relation is $\gamma = \alpha k^2$.
-(then if $k$ is real then $\gamma$ is positive).
+(showing if $k$ is real then $\gamma$ is positive).
 
 * **Solve the ODEs and combine the solutions together.** \
 The $X(x)$ part has the solutions we saw before, \
@@ -1059,7 +1059,7 @@ f^{(x)}(x, t) = \sum_k
 \left[C_k \sin \left(k c t \right) + D_k\cos \left(k c t \right)\right]
 $$
 
-now, let's set $x=0$,
+now, let's set $f(x=0)=0$,
 
 $$
 f^{(x)}(0, t) = \sum_k
@@ -1068,7 +1068,7 @@ f^{(x)}(0, t) = \sum_k
 $$
 
 Which implies $A_k = 0$.
-Then substituting this, and setting $x = L$,
+Then substituting this, and setting $f(x=L)=0$,
 
 $$
 f^{(x)}(L, t) = \sum_k
