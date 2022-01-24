@@ -354,7 +354,7 @@ $$\mathcal{L} [{T(x,t)}] = \overline{T}(x,s) = \frac{1}{s} exp[-\sqrt{\frac{s}{\
 <div class = "answer">
 
 Taking laplace transforms in t (x is unaffected) <br>
-$\Rightarrow\quad \mathcal{L} [\sigma\frac{\partial ^{2}T}{\partial x^{2}}] = \mathcal{L} [\sigma\frac{\partial T}{\partial t}] $ <br>
+$\Rightarrow\quad \mathcal{L} [\sigma\frac{\partial ^{2}T}{\partial x^{2}}] = \mathcal{L} [\frac{\partial T}{\partial t}] $ <br>
 $\Rightarrow\quad \sigma\frac{\partial ^{2}}{\partial x^{2}}\overline{T} = s\overline{T} - T(x,0)$<br>
 According to initial conditions, the last term is equal to 0 therefore: <br>
 $\Rightarrow\quad \frac{\partial ^{2}\overline{T}}{\partial x^{2}} = \frac{s'}{\sigma}\overline{T}$ <br>
