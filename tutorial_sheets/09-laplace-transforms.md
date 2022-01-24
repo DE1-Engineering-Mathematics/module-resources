@@ -300,7 +300,7 @@ $\boxed{y(t)=(3t^2+4t-2){e^{-2t}}}$
 
 ### Problem 6 
 
-The flow of water is represented by $av"+bv'+cv = P(t)$ where $P(t)$ is the pressure applied to the system.
+The displacement of water in a pipe is represented by $av"+bv'+cv = P(t)$ where $v(t)$ is the displaced volume, and $P(t)$ is the pressure applied to the system.
 
 (a) A pressure of $e^{-t}$ is applied, and at $t = 0$, the displaced volume is -1 and the flow is 0. Given $a = 0, b=1$ and $c = -1$, find an explicit formula for the laplace transform of the volume written in it's simplest form.
 
@@ -322,7 +322,7 @@ $\boxed{V(s)=\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(b) What is the flow at $t = 4$?
+(b) What is the displaced volume when $t = 4$?
 <div class = "answer">
 Transform back to the original dimension using the inverse laplace transform. <br>
 $\mathcal{L}^{-1}${$\frac{-1}{2(s+1)}-\frac{1}{2(s-1)}$} <br>
