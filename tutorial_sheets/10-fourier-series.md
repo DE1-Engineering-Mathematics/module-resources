@@ -844,9 +844,9 @@ Note: the function could also be sketched to determine whether its odd or even. 
 
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
-(b) Sketch the piecewise periodic function $f\left(x\right)=\left\\{\begin{array}{l}-5,\ \ \ \ \
+(b) Sketch the piecewise periodic function $f\left(x\right)=\left\\{\begin{array}{l}5,\ \ \ \ \
     \ \text{for} \ -2\pi\leq{}x\leq{}\ 0 \newline
-    5,\ \ \text{for}\ \ \
+    -5,\ \ \text{for}\ \ \
     0 < x\leq{}2\pi\end{array}\right.
     $
 
