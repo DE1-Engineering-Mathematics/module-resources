@@ -135,6 +135,47 @@ In the case of log-log axis, perhaps the easiest way to see whether a function w
 $$X=\log(x)\qquad\&\qquad Y=\log(y)$$
 <br><br>
 And then check if this substituted function is itself linear. For example, considering the function $y=7x^2$ and then taking logs (any base is fine) of both sides, we get $\log(y)=\log(7x^2)=\log(7)+\log(x^2)=\log(7)+2\log(x)$. Now, making the above substitution, we get $Y=\log(7)+2X$. Remembering that $\log(7)$ is just a number, we see that our new expression matches the form $y=mx+c$ and so must be a straight line on a log-log scale.
+<br><br>
+
+## <a id="symmetry-of-functions"></a>1.2 Symmetry of functions
+
+If a function is a symmetrical reflection of itself across the vertical axis, it is referred to as an `**even function**'. If rotating a function by 180$^\circ$ around the origin leaves it appearing unchanged, it is referred to as an '**odd function**'. If neither of the above criteria are met, then a function is **neither** even nor odd. <br><br>
+
+<img src="figs/12.1-symmetry.svg" width="100%"/> 
+
+<br><br>
+
+Notice that translating a curve up or down the vertical axis would not affect the *evenness* of an even function, but it would stop the *oddness* of an odd function, making it *neither*. Another way to thinking about this is that even functions are functions whose Taylor series would only use even powers of $x$ (zero is even!) and odd functions are functions whose Taylor series would only use odd powers of $x$. Therefore, if a function uses both even and odd powers of $x$ in its Taylor series expansion, it is neither even nor odd. <br><br>
+
+Crucially, if a function is even, then all $b_n=0$, and if a function is odd, then all $a_n=0$ (including $a_0$). Identifying this early on can save a lot of calculation time!<br><br>
+
+It turns out the functions can be decomposed into their respective even and odd constituents. Where<br><br>
+
+
+$$\begin{equation}
+	f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2}
+\end{equation}$$
+
+<br><br>
+
+$$\begin{equation}
+	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
+\end{equation}$$
+
+<br><br>
+
+such that $f(x)=f_{\textrm{even}}(x)+f_{\textrm{odd}}(x)$. <br><br>
+
+**Examples**: <br><br> 
+
+For the *even* function $g(x)=x^2+3$, then $g_{\textrm{even}}(x)=\frac{(x^2+3)+((-x)^2+3)}{2}=x^2+3=f(x)$ and $g_{\textrm{odd}}(x)=\frac{(x^2+3)-((-x)^2+3))}{2}=0$. <br><br>
+
+For the *odd* function $h(x)=x^{-1}$, then $h_{\textrm{even}}(x)=\frac{x^{-1}+(-x)^{-1}}{2}=0$ and $h_{\textrm{odd}}(x)=\frac{x^{-1}-(-x)^{-1}}{2}=x^{-1}=h(x)$. 
+<br><br>
+
+For the *neither* function $p(x)=\sin(x)+3$, then $p_{\textrm{even}}(x)=\frac{(\sin(x)+3)+(\sin(-x)+3)}{2}=3$ and $p_{\textrm{odd}}(x)=\frac{(\sin(x)+3)-(\sin(-x)+3)}{2}=\sin(x)$.<br><br>
+
+What about the function $f(x)=e^x$ (consider it's Taylor series... what's the pattern of even and odd terms)?
 <br><br><br><br>
 
 

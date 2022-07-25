@@ -45,49 +45,7 @@ Although these equations might look a little intimidating, its essentially just 
 
 Two questions might immediately spring to mind: Firstly, why is there an $a_0$, but not a $b_0$? And secondly, why is $a_0$ divided by 2? To answer the first question, simply set $n=0$ in the equation for $b_n$ above. Since $\sin(0)=0$, so $b_0$ will always equal zero for any value of $f(x)$ (therefore calculating it would be pointless). The answer to the second question is a little bit more involved, but starts by picturing the function $f(x)=\cos^2(nx)$ (black line in the adjacent figure). Notice that for $n=1$, the red shaded area under the  curve (ie the integral) is exactly half the blue area between 0 and 1 in the vertical axis. Furthermore *any* integer value of $n$ will have an integral of $\pi$ in this range *except* $n=0$, which has an integral of $2\pi$ (see the area under the dashed line in the figure). Hence, we need to renormalise the $a_n$ term to make it resemble the rest of the series. A simpler way to think of the first term is that it's just the mean of the function in the interval... <br><br>
 
-
-## <a id="symmetry-of-functions"></a>12.1 Symmetry of functions
-
-If a function is a symmetrical reflection of itself across the vertical axis, it is referred to as an `**even function**'. If rotating a function by 180$^\circ$ around the origin leaves it appearing unchanged, it is referred to as an '**odd function**'. If neither of the above criteria are met, then a function is **neither** even nor odd. <br><br>
-
-<img src="figs/12.1-symmetry.svg" width="100%"/> 
-
-<br><br>
-
-Notice that translating a curve up or down the vertical axis would not affect the *evenness* of an even function, but it would stop the *oddness* of an odd function, making it *neither*. Another way to thinking about this is that even functions are functions whose Taylor series would only use even powers of $x$ (zero is even!) and odd functions are functions whose Taylor series would only use odd powers of $x$. Therefore, if a function uses both even and odd powers of $x$ in its Taylor series expansion, it is neither even nor odd. <br><br>
-
-Crucially, if a function is even, then all $b_n=0$, and if a function is odd, then all $a_n=0$ (including $a_0$). Identifying this early on can save a lot of calculation time!<br><br>
-
-It turns out the functions can be decomposed into their respective even and odd constituents. Where<br><br>
-
-
-$$\begin{equation}
-	f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2}
-\end{equation}$$
-
-<br><br>
-
-$$\begin{equation}
-	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
-\end{equation}$$
-
-<br><br>
-
-such that $f(x)=f_{\textrm{even}}(x)+f_{\textrm{odd}}(x)$. <br><br>
-
-**Examples**: <br><br> 
-
-For the *even* function $g(x)=x^2+3$, then $g_{\textrm{even}}(x)=\frac{(x^2+3)+((-x)^2+3)}{2}=x^2+3=f(x)$ and $g_{\textrm{odd}}(x)=\frac{(x^2+3)-((-x)^2+3))}{2}=0$. <br><br>
-
-For the *odd* function $h(x)=x^{-1}$, then $h_{\textrm{even}}(x)=\frac{x^{-1}+(-x)^{-1}}{2}=0$ and $h_{\textrm{odd}}(x)=\frac{x^{-1}-(-x)^{-1}}{2}=x^{-1}=h(x)$. 
-<br><br>
-
-For the *neither* function $p(x)=\sin(x)+3$, then $p_{\textrm{even}}(x)=\frac{(\sin(x)+3)+(\sin(-x)+3)}{2}=3$ and $p_{\textrm{odd}}(x)=\frac{(\sin(x)+3)-(\sin(-x)+3)}{2}=\sin(x)$.<br><br>
-
-What about the function $f(x)=e^x$ (consider it's Taylor series... what's the pattern of even and odd terms)?<br><br>
-
-
-## <a id="periodic-functions"></a>12.2 Periodic functions
+## <a id="periodic-functions"></a>12.1 Periodic functions
 Periodic functions are composed of an infinite sequence of identical repeat units, examples include the harmonic functions (ie sine, cosine and tangent) and various discontinuous functions such as the 'saw-tooth' and 'square wave' functions. The Fourier series is well suited to approximating periodic functions, even if they contain discontinuities. <br><br>
 
 <img src="figs/12.2-saw-tooth.svg" width="100%"/> 
@@ -100,7 +58,7 @@ The figure on the right shows the Fourier expansion (up to the $8^{th}$ order) o
 Clearly, $f(x)=e^x$ is not a periodic function, so although the approximation appears to be reasonable in the interval considered, it is totally useless outside of this domain. However, as use of the domain [$-\pi,\pi$] was arbitrary, what's to stop us from making this interval much larger? As we shall see later on in this chapter, we can even investigate the case where the interval [$-\infty, \infty$] is used, which yields a very powerful result!
 <br><br>
 
-## <a id="complex-exponential"></a>12.3 Complex exponential representation
+## <a id="complex-exponential"></a>12.2 Complex exponential representation
 Previously in the course we saw that the trigonometric functions could be
 written as complex exponentials and vice versa, i.e., <br><br>
 
@@ -203,7 +161,7 @@ $$\begin{equation}
 
 <br><br>
 
-## <a id="fourier-transform"></a>12.4 Fourier transform
+## <a id="fourier-transform"></a>12.3 Fourier transform
 <img align="right" src="figs/12.4-curve.svg" width="315"/>
 
 Although we won't be studying the transform in much detail, take some time to look back at the graph of the function $f(x)=e^x$ and its Fourier series approximation. Although it seems clear that this approach has some limitations for non-periodic functions, consider what happens when we imagine the period to be infinite? This means that the problem we have with the 'fake' periodic discontinuities should disappear, which is exactly what the Fourier *transform* allows us to do. This means that if we take a signal in the time domain, $f(t)$, we should now be able to write a new expression for this in the *frequency domain*, $\hat{f}(\omega)$. <br><br>
@@ -224,7 +182,7 @@ $$\begin{equation}
 The relationship between time and frequency is not the only useful pairing and the same concept relates position and momentum. Fourier transforms are also very useful in calculus, where a differentiation in the time domain can be as simple as a multiplication in frequency space. <br><br>
 
 
-## <a id="fourier-mind-blown"></a>12.5 Mind blown
+## <a id="fourier-mind-blown"></a>12.4 Mind blown
 <img align="right" src="figs/Ear.jpg" width="315"/>
 
 Pretty much everything about Joseph Fourier's (1768-1830) work is mind blowing. Fourier analysis is at the heart of so much of modern technology, from the compression of images (this is how a $\texttt{jpeg}$ file is so small, but also why sharp edges get blurred) to the transmission of sound messages by your phone. What is perhaps even more astonishing, although it shouldn't be surprising, is that nature also makes use of this concept. <br><br>
