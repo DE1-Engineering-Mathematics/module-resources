@@ -178,4 +178,3 @@ For the *neither* function $p(x)=\sin(x)+3$, then $p_{\textrm{even}}(x)=\frac{(\
 What about the function $f(x)=e^x$ (consider it's Taylor series... what's the pattern of even and odd terms)?
 <br><br><br><br>
 
-
