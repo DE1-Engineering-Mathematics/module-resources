@@ -35,6 +35,7 @@
 
 ### Chapter 1 - [Functions](1-functions)
 * __[1.1 - Curve Sketching](1-functions#curve-sketching)__
+* __[1.2 - Symmetry of functions](1-functions#symmetry-of-functions)__
 
 ### Chapter 2 - [Vectors](2-vectors)
 * __[2.1 - Co-ordinate Geometry](2-vectors#co-ordinate-geometry)__
@@ -102,11 +103,10 @@
 * __[11.4 Solving ODEs and ODE systems](11-laplace#solving-ODE)__
 
 ### Chapter 12 - [Fourier Series](12-fourier-series)
-* __[12.1 Symmetry of functions](12-fourier-series#symmetry-of-functions)__
-* __[12.2 Periodic functions](12-fourier-series#periodic-functions)__
-* __[12.3 Complex exponential representation](12-fourier-series#complex-exponential)__
-* __[12.4 Fourier transform](12-fourier-series#fourier-transform)__
-* __[12.5 Mind blown](12-fourier-series#fourier-mind-blown)__
+* __[12.1 Periodic functions](12-fourier-series#periodic-functions)__
+* __[12.2 Complex exponential representation](12-fourier-series#complex-exponential)__
+* __[12.3 Fourier transform](12-fourier-series#fourier-transform)__
+* __[12.4 Mind blown](12-fourier-series#fourier-mind-blown)__
 
 ### Chapter 13 - [Multivariate Calculus](13-multivariate-calculus)
 * __[13.1 Functions of multiple variables](13-multivariate-calculus#functions-of-multiple-variables)__
