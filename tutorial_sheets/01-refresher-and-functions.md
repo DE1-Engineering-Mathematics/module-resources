@@ -359,7 +359,7 @@ $\Rightarrow \boxed{\text{Odd function}}$
 
 
 ## Exam Style Questions
-### Problem 10.
+### Problem 11.
 A curve has equation $f(x) = \frac{ax^2 - 12}{4x^2 + bx - 6}$, where $a$ and $b$ are constants.
 
 (a) Find the coordinates of the point where the curve crosses the $y$-axis
@@ -409,7 +409,7 @@ Therefore, the horizontal asymptote occurs at $\boxed{y=\frac{1}{2}.}$
 
 -----------------------------------------------------------------------------------
 
-### Problem 11.
+### Problem 12.
 A curve has equation $y=\frac{3x^2 - 9}{x^2 + 3x - 4}$
 
 (a) Find the equations of the two vertical asymptotes and the one horizontal asymptote of this curve.
@@ -439,7 +439,7 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 ## Extension Questions
 
-### Problem 12.
+### Problem 13.
 A curve has the equation $y=x^3-3x^2-9x+3$, and is odd (look up 'parity' if you don't know what this means) about the point $P$. Find the coordinates of $P$ and use transformation arguments to justify that the curve is odd about $P$.
 
 <div class = "answer">
