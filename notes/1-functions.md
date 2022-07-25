@@ -153,13 +153,13 @@ It turns out the functions can be decomposed into their respective even and odd 
 
 
 $$\begin{equation}
-	f_{\textrm{even}}(x)=\frac{f(x)+f(-x))}{2}
+	f_{\textrm{even}}(x)=\frac{f(x)+f(-x)}{2}
 \end{equation}$$
 
 <br><br>
 
 $$\begin{equation}
-	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x))}{2}
+	f_{\textrm{odd}}(x)=\frac{f(x)-f(-x)}{2}
 \end{equation}$$
 
 <br><br>
@@ -168,7 +168,7 @@ such that $f(x)=f_{\textrm{even}}(x)+f_{\textrm{odd}}(x)$. <br><br>
 
 **Examples**: <br><br> 
 
-For the *even* function $g(x)=x^2+3$, then $g_{\textrm{even}}(x)=\frac{(x^2+3)+((-x)^2+3)}{2}=x^2+3=f(x)$ and $g_{\textrm{odd}}(x)=\frac{(x^2+3)-((-x)^2+3))}{2}=0$. <br><br>
+For the *even* function $g(x)=x^2+3$, then $g_{\textrm{even}}(x)=\frac{(x^2+3)+((-x)^2+3)}{2}=x^2+3=f(x)$ and $g_{\textrm{odd}}(x)=\frac{(x^2+3)-((-x)^2+3)}{2}=0$. <br><br>
 
 For the *odd* function $h(x)=x^{-1}$, then $h_{\textrm{even}}(x)=\frac{x^{-1}+(-x)^{-1}}{2}=0$ and $h_{\textrm{odd}}(x)=\frac{x^{-1}-(-x)^{-1}}{2}=x^{-1}=h(x)$. 
 <br><br>
