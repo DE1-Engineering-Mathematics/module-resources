@@ -252,56 +252,6 @@ $\Rightarrow{} \boxed{ \text{Not periodic }}$
 ------------------------------------
 
 ### Problem 4.
-Determine if the function $f(x)$ is odd, even, or neither.
-
-(a) $f\left(x\right)=\ x^2\sin{(2x)}$
-<div class = "answer"> Break the function up: $x^3$ is an even function and $\text{sin}(2x)$ is an odd function. An even function multiplied by an odd function results in an odd function.
-$\\ \Rightarrow \boxed{\text{Odd function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(b) $f\left(x\right)=3\sin{\left(x\right)}\cos{\left(4x\right)}$
-<div class = "answer">Break the function up: $3$ is an even function, $\text{sin}(x)$ is an odd function and $\text{cos}(4x)$ is an even function. An even function multiplied by an odd function, multiplied by an even function results in an odd function.
-$\\ \Rightarrow \boxed{\text{Odd function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(c) $f\left(x\right)=x^3e^3$
-<div class = "answer">Break the function up: $x^3$ is an odd function and $e^3$ is an even function. An odd function multiplied by an even function results in an odd function.
-$\\ \Rightarrow \boxed{\text{Odd function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(d)
-![class-c](10-fourier-series/even-odd-d.PNG)
-<div class = "answer">
-$\Rightarrow \boxed{\text{Odd function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(e)
-![class-c](10-fourier-series/even-odd-e.PNG)
-<div class = "answer">
-$\Rightarrow \boxed{\text{Even function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-(f)
-![class-c](10-fourier-series/even-odd-f.PNG)
-<div class = "answer">
-$\Rightarrow \boxed{\text{Odd function}}$
-</div>
-
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
-------------------------------------
-
-### Problem 5.
 For the following functions
 (i) Find the Fourier coefficients and series in general terms,
 (ii) Plot the function and the given partial sum over the given interval.
@@ -809,7 +759,7 @@ f\left(x\right)\approx\frac{-1}{\pi{}}+\frac{1}{2}\sin{\left(\frac{\pi{}x}{2}\ri
 }$$
 
 <br>
-Note: as in problem 5 d), when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
+Note: as in problem 4 d), when calculating the coefficients, you end up with expressions which are undefined for certain values of $n$. In this case for both $a_n$ and $b_n$, $n$ was undefined at $n=1$. So we need to verify what happens at $a_1$ and $b_1$ like we did above.
 <br>
 
 <iframe src="https://www.desmos.com/calculator/cepdzyeggd" width="850px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
@@ -822,7 +772,7 @@ Note: as in problem 5 d), when calculating the coefficients, you end up with exp
 
 ---------------
 ## Exam Style Questions
-### Problem 6.
+### Problem 5.
 (a) Consider the function $\ \ y = 10 e^{2x^8} - 8 \ \$ in the interval $\ \ {-3} \ {<} \ x \ {<} \ 3$ . State whether the Fourier Series of this function would contain sine or cosine terms, justifying your answer.
 
 <div class = "answer">
@@ -911,7 +861,7 @@ You would expect Gibbs ringing to occur at $2 n \pi$, where $n \in \mathbb{Z} $ 
 
 ----------------------
 ## Extension Questions
-### Problem 7.
+### Problem 6.
 (a) Given the real Fourier series expansion for a periodic function, $f(x)$, with a $2\pi{}$ period,
 $$
 f\left(x\right) = \frac{1}{2}a_0+\sum_1^{\infty{}}(a_n\cos{\left(nx\right)}+b_n \sin{(nx)}) \space ,
@@ -1020,7 +970,7 @@ In second line, we must use the fact that $\left(3+4i\right)i=\ -4+3i$ and $\lef
 <div class = "workingout"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
 ------------------------------------
-### Problem 8.
+### Problem 7.
 Find the complex Fourier series representation of $f(x) = x^3$ over the interval [-$\pi{}$, $\pi{}$]
 
 <div class = "answer">

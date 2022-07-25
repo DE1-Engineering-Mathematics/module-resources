@@ -306,6 +306,57 @@ $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 ---------------------------------------------------------
+### Problem 10.
+Determine if the function $f(x)$ is odd, even, or neither.
+
+(a) $f\left(x\right)=\ x^2\sin{(2x)}$
+<div class = "answer"> Break the function up: $x^3$ is an even function and $\text{sin}(2x)$ is an odd function. An even function multiplied by an odd function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(b) $f\left(x\right)=3\sin{\left(x\right)}\cos{\left(4x\right)}$
+<div class = "answer">Break the function up: $3$ is an even function, $\text{sin}(x)$ is an odd function and $\text{cos}(4x)$ is an even function. An even function multiplied by an odd function, multiplied by an even function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(c) $f\left(x\right)=x^3e^3$
+<div class = "answer">Break the function up: $x^3$ is an odd function and $e^3$ is an even function. An odd function multiplied by an even function results in an odd function.
+$\\ \Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(d)
+![class-c](10-fourier-series/even-odd-d.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(e)
+![class-c](10-fourier-series/even-odd-e.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Even function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+(f)
+![class-c](10-fourier-series/even-odd-f.PNG)
+<div class = "answer">
+$\Rightarrow \boxed{\text{Odd function}}$
+</div>
+
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+------------------------------------
+
+
 
 ## Exam Style Questions
 ### Problem 10.
