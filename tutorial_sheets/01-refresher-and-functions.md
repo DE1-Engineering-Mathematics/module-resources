@@ -450,7 +450,7 @@ First, use the y intercept to find the value of $a$ <br>
 $a + 1 = 4 \Rightarrow a = 3$<br>
 
 The value of $b$ can be found by looking at the periodicity.
-Since the oscillation period of the function is 1, $cos(\b \pi x) $ must equal 
+Since the oscillation period of the function is 1, $cos(b \pi x) $ must equal 
 $cos(2\pi x) \Rightarrow b = 2$<br>
 
 Finally, $c$ is found by using any point on the graph. Since the curve passes approximately passes through the point $(0.5, -1.55)$:
