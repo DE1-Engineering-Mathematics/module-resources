@@ -437,9 +437,37 @@ $\text{Large negative} \ x, \boxed{ \ y \rightarrow{3}\text{ from above}}$</div>
 
 -------------------------------
 
+### Problem 13.
+The following plot shows the function $f(x)= a\cos(b \pi x)+e^\frac{3x}{c}$, where the parameters $a, b$ and $c$ are all integers
+
+Analyse the graph to work out the values of $a, b$ and $c$, explaining your reasoning in each case.
+
+<img src = ".\01-refersher-and-functions-media\graph- question 14.JPG" width="80%" style = "margin: 10px auto 20px; display: block;">
+
+<div class = "answer">
+First, use the y intercept to find the value of $a$ <br>
+
+$a + 1 = 4 \Rightarrow a = 3$<br>
+
+The value of $b$ can be found by looking at the periodicity.
+Since the oscillation period of the function is 1, $cos(\b \pi x) $ must equal 
+$cos(2\pi x) \Rightarrow b = 2$<br>
+
+Finally, $c$ is found by using any point on the graph. Since the curve passes approximately passes through the point $(0.5, -1.55)$:
+
+$3\cos(\pi)+e^\frac{3}{2c} = -1.55$
+$\frac{3}{2c} = \ln{1.45}$
+$2c = 8 \Rightarrow c = 4$<br>
+
+
+$\boxed{a = 3 \\ b = 2 \\ c = 4}$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+
+-------------------------------
 ## Extension Questions
 
-### Problem 13.
+### Problem 15.
 A curve has the equation $y=x^3-3x^2-9x+3$, and is odd (look up 'parity' if you don't know what this means) about the point $P$. Find the coordinates of $P$ and use transformation arguments to justify that the curve is odd about $P$.
 
 <div class = "answer">
