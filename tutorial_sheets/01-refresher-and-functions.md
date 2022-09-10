@@ -455,8 +455,8 @@ $\cos(2\pi x) \Rightarrow b = 2$<br>
 
 Finally, $c$ is found by using any point on the graph. Since the curve passes approximately passes through the point $(0.5, -1.55)$: <br>
 
-$3\cos(\pi)+e^\frac{3}{2c} = -1.55$<br>
-$\frac{3}{2c} = \ln{1.45}$<br>
+$3\cos(\pi)+e^\frac{3}{2c} \approx -1.55$<br>
+$\frac{3}{2c} \approx \ln{1.45}$<br>
 $2c = 8 \Rightarrow c = 4$<br>
 
 
@@ -465,6 +465,35 @@ $\boxed{a = 3 \\ b = 2 \\ c = 4}$ </div>
 
 
 -------------------------------
+
+### Problem 14.
+The function $f(x)= \frac{e^{ax}}{bx+2}+\frac{x}{c}$, is shown in the graph below, where the parameters $a, b$ and $c$ are all integers
+
+Analyse the graph to work out the values of $a, b$ and $c$, explaining your reasoning in each case. 
+<img src = ".\01-refersher-and-functions-media\graph- question 15.JPG" width="80%" style = "margin: 10px auto 20px; display: block;">
+
+<div class = "answer">
+As there is an asymptote at $x=-1$, set the denominator of $\frac{e^{ax}}{bx+2}$ to zero at this point<br>
+
+$b(-1)+2 = 0 \Rightarrow b = 2$<br>
+
+Next, as $x$ tends to $-\infty$, the function will approach $\frac{x}{c}$. By looking at the plot, the graph approaches $\frac{1}{4}x$<br>
+
+Therefore, $\frac{x}{c} = \frac{1}{4}x \Rightarrow c = 4$ <br>
+
+Finally, $a$ can be found by using one point on the graph. Since the curve passes approximately passes through the point $(0.5, 4)$: <br>
+
+$\frac{e^{0.5a}}{1+2}+\frac{0.5}{4} \approx 4$<br>
+$e^{0.5ax} \approx 19$<br>
+$a = 5$<br>
+
+
+$\boxed{a = 5 \\ b = 2 \\ c = 4}$ </div>
+<div class = "workingout"><br><br><br><br><br><br><br><br></div>
+
+
+-------------------------------
+
 ## Extension Questions
 
 ### Problem 15.
