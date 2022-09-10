@@ -453,10 +453,10 @@ The value of $b$ can be found by looking at the periodicity.
 Since the oscillation period of the function is 1, $\cos(b \pi x) $ must equal 
 $\cos(2\pi x) \Rightarrow b = 2$<br>
 
-Finally, $c$ is found by using any point on the graph. Since the curve passes approximately passes through the point $(0.5, -1.55)$:
+Finally, $c$ is found by using any point on the graph. Since the curve passes approximately passes through the point $(0.5, -1.55)$: <br>
 
-$3\cos(\pi)+e^\frac{3}{2c} = -1.55$
-$\frac{3}{2c} = \ln{1.45}$
+$3\cos(\pi)+e^\frac{3}{2c} = -1.55$<br>
+$\frac{3}{2c} = \ln{1.45}$<br>
 $2c = 8 \Rightarrow c = 4$<br>
 
 
