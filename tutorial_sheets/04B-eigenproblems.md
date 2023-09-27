@@ -530,7 +530,7 @@ For $\lambda_2 = 2, $
 $\Rightarrow{}$ let $v_2= \begin{pmatrix} x \\ y \end{pmatrix} \Rightarrow{} Mv_2 =\begin{pmatrix} 6x+2y \\4x+4y\end{pmatrix}=2 \begin{pmatrix}x\\y \end{pmatrix}$
 
 
-$\Rightarrow{}\quad \boxed{v_2 = \quad \begin{pmatrix} 2 \\ 1 \end{pmatrix}}$
+$\Rightarrow{}\quad \boxed{v_2 = \quad \begin{pmatrix} -1 \\ 2 \end{pmatrix}}$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 <br>
