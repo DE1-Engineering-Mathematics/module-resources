@@ -444,7 +444,7 @@ An easy way to calculate the Jacobian vector is using a table like the one below
 &0.25&    &-0.3&   & -2.03393 &     &2.61162&       \newline
 &1&    &0.5&   & -6.02992&    &16.391&      \newline
 &0.8&   &2&    &-0.501951&     &1.11711&       \newline
-& -\frac{1}{n}\sum^n_i &    & \text{(mean of negatives)} &   &3.248257&   &-6.70658&   
+& -\frac{1}{n}\sum^n_i &    & \text{(mean of negatives)} &   &2.855267&   &-6.70658&   
 \end{align*}
 
 <a href="https://www.wolframalpha.com/input?i=%28e%5Ex%28y%2Be%5Ex%28-w%2Bb*y%29%29%29%2F%281%2Bb*e%5Ex%29%5E2+with+x%3D0.25%2C+y%3D-0.3%2C+w%3D1%2C+b%3D0">-2.03393</a>
@@ -459,7 +459,7 @@ Note: the blue numbers are links which will show you how the number was calculat
 <br>
 
 $$
-\therefore \boxed{\vec{J_C} = \Big[3.248, \hspace{2mm} -6.707\Big]}
+\therefore \boxed{\vec{J_C} = \Big[2.854, \hspace{2mm} -6.707\Big]}
 $$
 
 </div>
