@@ -476,16 +476,16 @@ Do the pipes need re-aligning to avoid intersection? _(Assume the origin positio
 
 <div class = "answer">For pipe $A$, the vector form of equation is (the other two forms are Parametric form and Cartesian form): 
 $$\vec{r_A} =\vec{OP}+\lambda'\vec{PQ}= [2,5,3]+\lambda'[5,5,5]=[2,5,3]+\lambda\frac{[1,1,1]}{\sqrt{3}}$$
-$$\vec{r_B} =\vec{OR}+\mu'\vec{RS}= [0,6,3]+\mu'[12,-6,6]=[0,6,3]+\mu\frac{[2,-1,1]}{\sqrt{6}}$$
+$$\vec{r_B} =\vec{OR}+\mu'\vec{RS}= [0,6,3]+\mu'[12,-6,6]=[0,6,3]+\mu\frac{[-2,-1,1]}{\sqrt{6}}$$
 (Non-unit) perpendicular to both their axes is
 $$ p =\begin{vmatrix}
-\hat{i} & \hat{i} & \hat{k}\\
+\hat{i} & \hat{j} & \hat{k}\\
 1 & 1 & 1\\
-2 & -1 & 1\\ 
-\end{vmatrix}=[2,1,-3]$$
+-2 & -1 & 1\\ 
+\end{vmatrix}=[2,-3,1]$$
 The length of mutually perpendicular pipe $A$ and $B$ is $d$. 
 $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
-\frac{[2,1,-3]}{\sqrt{14}}\Big|= \boxed{1.87 \dots}$$
+\frac{[2,-3,1]}{\sqrt{14}}\Big|= \boxed{1.87 \dots}$$
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
 Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
