@@ -310,7 +310,7 @@ $\Rightarrow{} \boxed{\log_3{16}=\frac{\log_{10}{16}}{\log_{10}3}\approx\frac{1.
 Determine if the function $f(x)$ is odd, even, or neither.
 
 (a) $f\left(x\right)=\ x^2\sin{(2x)}$
-<div class = "answer"> Break the function up: $x^3$ is an even function and $\text{sin}(2x)$ is an odd function. An even function multiplied by an odd function results in an odd function.
+<div class = "answer"> Break the function up: $x^2$ is an even function and $\text{sin}(2x)$ is an odd function. An even function multiplied by an odd function results in an odd function.
 $\\ \Rightarrow \boxed{\text{Odd function}}$
 </div>
 
