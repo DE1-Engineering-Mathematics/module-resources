@@ -102,11 +102,11 @@ $ \Rightarrow{} P(X>70)={0.5{ \text{ erf }{(\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}
 
 $ \Rightarrow{} \text{erf }(x) =0.9 $ <br>
 
-$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve">$ 1.16 $</a> <br>
+$ \Rightarrow{} x =$ <a href="https://www.wolframalpha.com/input/?i=erf%28x%29%3D0.9+solve">$ 1.16308 $</a> <br>
 
 <a href="https://www.wolframalpha.com/input/?i=1.16+%3D+%2870-55%29%2F%28x*sqrt%282%29%29+solve">$ \Rightarrow{} 1.16={\frac{\ 70\ -\ 55}{\sigma\ \sqrt{2}}}$</a> <br>
 
-$ \Rightarrow{} \boxed{ SD = \sigma =8.64}$
+$ \Rightarrow{} \boxed{ SD = \sigma =9.12}$
 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
