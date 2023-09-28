@@ -484,7 +484,7 @@ Therefore, $\frac{x}{c} = \frac{1}{4}x \Rightarrow c = 4$ <br>
 Finally, $a$ can be found by using one point on the graph. Since the curve passes approximately passes through the point $(0.5, 4)$: <br>
 
 $\frac{e^{0.5a}}{1+2}+\frac{0.5}{4} \approx 4$<br>
-$e^{0.5ax} \approx 19$<br>
+$e^{0.5a} \approx 19$<br>
 $a = 5$<br>
 
 
