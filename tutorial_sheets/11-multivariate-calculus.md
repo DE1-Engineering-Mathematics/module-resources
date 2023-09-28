@@ -278,7 +278,7 @@ $$ \nabla\begin{bmatrix}
     \end{bmatrix}\begin{bmatrix}
     7y^2 \newline 14xy \newline 4z^3
     \end{bmatrix}
-  \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+  \Rightarrow 0 + 14x + 12z^2\Rightarrow\quad\boxed{14x + 12z^2}$$ <br>
 Method 1 is a two-step process, applying $\begin{bmatrix}
     \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
     \end{bmatrix}$ twice. <br>
