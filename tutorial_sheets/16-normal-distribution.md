@@ -185,7 +185,7 @@ $ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 <div class = "answer">
 $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
 
-There are three possible combinations when selecting the bags so you must account for all of them:
+There are three possible combinations when selecting the bags so you must account for all of them:f
 
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X<53)= 0.23\times\ 0.23\times\ 0.77 = 0.04$ <br>
 $\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X<53)\times\ P(X<53) = 0.23\times\ 0.23\times\ 0.77- = 0.04$ <br>
