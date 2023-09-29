@@ -284,7 +284,7 @@ Method 1 is a two-step process, applying $\begin{bmatrix}
     \end{bmatrix}$ twice. <br>
 Method 2: <br>
 $$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
-$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+$$\Rightarrow\quad 0 + 14x + 12z^2\Rightarrow\quad\boxed{14x + 12z^2}$$ <br>
 Method 2 is a one step process, applying $(\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})$ once.
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
