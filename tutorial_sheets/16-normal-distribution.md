@@ -184,8 +184,13 @@ $ \Rightarrow{} \boxed{ \text{ Weight } =46.32 }$ <br>
 (d) Three bags were randomly selected. Find the probability that two bags weigh more than 53kg and one weighs less than 53kg.
 <div class = "answer">
 $\Rightarrow{} P(X>53)=23\% $ and $P(X < 53)=77\%$ <br>
-$\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X < 53)= 0.23\times\ 0.23\times\ 0.77$ <br>
-$\Rightarrow{} \boxed{ \text{Probability} = 4 \% }$ 
+
+There are three possible combinations when selecting the bags so you must account for all of them:
+
+$\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X>53)\times\ P(X<53)= 0.23\times\ 0.23\times\ 0.77 = 0.04$ <br>
+$\Rightarrow{} \text{ Probability } =P ( X>53)\times\ P(X<53)\times\ P(X<53) = 0.23\times\ 0.23\times\ 0.77- = 0.04$ <br>
+$\Rightarrow{} \text{ Probability } =P ( X<53)\times\ P(X>53)\times\ P(X>53)= 0.23\times\ 0.23\times\ 0.77 = 0.04$ <br>
+$\Rightarrow{} \boxed{ \text{Added Probability} =0.04 + 0.04 + 0.04 = 0.12 = 12 \% }$ 
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
