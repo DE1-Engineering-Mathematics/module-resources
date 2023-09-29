@@ -255,7 +255,7 @@ a = \frac{9978 - 1124b}{1.2 \times 10^6} \ \ \ \therefore 1.2 \times 10^6a + 112
 $$
 
 $$
-b = \frac{1}{3} \times 15 - \frac{a}{3} \times 1124 \ \ \ \therefore 62a + 3b = 1
+b = \frac{1}{3} \times 15 - \frac{a}{3} \times 1124 \ \ \ \therefore 1124a + 3b = 1
 $$
 
 $$
@@ -537,7 +537,7 @@ Note: this can be solved easily on WolframAlpha.
 <a href="https://www.wolframalpha.com/input/?i=%28%28ax%29%2F%28e%5Ex%2Bb%29-y%29%5E2+differentiate+wrt+b">Link</a>
 
 $$
-\therefore \boxed{\frac{\partial C}{\partial b} = \frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}}
+\therefore \boxed{\frac{\partial C}{\partial b} = -\frac{1}{n}\sum^n_i \frac{ax_i(ax_i-y(x_i)(b+e^{x_i}))}{(b+e^{x_i})^3}}
 $$
 
 </div>
