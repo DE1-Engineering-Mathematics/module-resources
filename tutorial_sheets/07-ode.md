@@ -303,7 +303,7 @@ $\Rightarrow$ Tell Wolfram what you know, separating the initial conditions with
 <div markdown = "1">
 
 ```matlab:Code
-(1e6)x''+(2e6)x'+(4.2e6)x=0, x''(0)=(4/3), x'(0)=-2
+(1x10^6)x''+(2x10^6)x'+(4.2x10^6)x=0, x''(0)=(4/3), x'(0)=-2
 ```
 
 </div>
