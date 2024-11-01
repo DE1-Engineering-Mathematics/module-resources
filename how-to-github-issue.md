@@ -2,7 +2,7 @@
 Find an error in the tutorial sheets, think something could be explained better, or have an idea for a new problem? By pointing out errors / making suggestions, you will help improve the content for your fellow classmates and earn the eternal gratefulness of the module staff. Here is how you go about doing that:
 
 ## Email the teaching staff
-The easiest way to get an error fixed is to send a description and screenshot to one of the maths teaching staff. For this term (2020-2021), Thomas Godden will be updating the sheets so send him an email at: tg819@ic.ac.uk
+The easiest way to get an error fixed is to send a description and screenshot to one of the maths teaching staff.
 
 ## Submitting a GitHub issue
 However, the best way to suggest edits is through GitHub issues.
