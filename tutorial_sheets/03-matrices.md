@@ -378,7 +378,7 @@ det(a)
 
 (b) $\begin{vmatrix}1&2&6 \newline 1&3&9 \newline 1&4&12\end{vmatrix}$
 <div class = "answer">$\Rightarrow{}\ \ 1\begin{vmatrix}3&9\\4&12\end{vmatrix}-2\begin{vmatrix}1&9\\1&12\end{vmatrix}+6\begin{vmatrix}1&3\\1&4\end{vmatrix}$ <br>
-$\Rightarrow{}\ \ 1[3(13)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ \boxed{0} \Rightarrow{}\ \boxed{\text{singular}}$<br>
+$\Rightarrow{}\ \ 1[3(12)-9(4)]-2[1(12)-9(1)]+6[1(4)-3(1)] \ \ \Rightarrow{}\ \ \boxed{0} \Rightarrow{}\ \boxed{\text{singular}}$<br>
 Solving with the Matlab terminal:
 <div markdown = "1">
 
