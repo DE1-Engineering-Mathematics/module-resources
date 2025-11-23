@@ -244,7 +244,7 @@ $$BA =
 \end{pmatrix}
 =
 \begin{pmatrix}
-	(-1\times1) + (4\times3) & (-1\times0) + (0\times-2) \\
+	(-1\times1) + (4\times3) & (-1\times0) + (4\times2) \\
 	(1\times1) + (-2\times3) & (1\times0) + (-2\times2)
 \end{pmatrix}
 =
