@@ -143,7 +143,7 @@ $\Rightarrow{}\quad \begin{pmatrix}-4&3&1\\\ 0&0&0\\\ 1&3&-5\end{pmatrix} \begin
     \end{cases}\\\ 
 \Rightarrow{}\quad
     \begin{cases}
-        x_1  = \frac{6x_2}{5}\\\ 
+        x_1  = \frac{6x_3}{5}\\\ 
         x_2 = \frac{19x_3}{15}
     \end{cases}
 \quad\Rightarrow{}\quad \text{ in parametric form } x_1=\frac{6t}{5},\quad x_2=\frac{19t}{15},\quad x_3=t \text{ for any } t \in R\\\ 
