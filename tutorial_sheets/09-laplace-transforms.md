@@ -92,8 +92,8 @@ $\Rightarrow{}\quad\ \boxed{G(s)=\frac{1}{s-2}}$
 <div class = "answer">
 According to De Moivre's theorem, $\cos(at) + i\sin(at) = e^{iat}$ <br>
 Using part (d) methodology $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{1}{s-5i}$ <br>
-Rationalize the denominator $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{s}{s^2-5^2} + \frac{5i}{s^2-5^2}$ <br>
-$\sin{}$ is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2-5^2}}$ <br>
+Rationalize the denominator $\Rightarrow{}\quad \mathcal{L}${$e^{5it}$} = $\frac{s}{s^2+5^2} + \frac{5i}{s^2+5^2}$ <br>
+$\sin{}$ is the imaginary part. By using linearity $\Rightarrow{}\quad \boxed{A(s)=\frac{5}{s^2+5^2}}$ <br>
 
 Note: The same process can be used to find the laplace of $\cos{}$ - take the real part, $\frac{s}{s^2+5^2}$!
 </div>
