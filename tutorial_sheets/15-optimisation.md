@@ -685,36 +685,6 @@ $$
 </div>
 <div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
 
-(c) Determine the new weights using the second data point $[2.5,6]$
-
-<div class = "answer">
-
-$\vec{J_C} = \Big[$
-<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">-8.482</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+2.5%2C+y%3D6%2C+a%3D12.35%2C+b%3D-2.783%2C+r%3D0.25">    -3.392</a>
-$\Big]$
-
-$$
-\boxed{a = 20.832 \text{ and } b = 0.609}
-$$
-
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br><br></div>
-
-(d) Determine the new weights using the second data point $[0.3,4.3]$
-
-<div class = "answer">
-
-$\vec{J_C} = \Big[$
-<a href="https://www.wolframalpha.com/input/?i=2*r*x*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">2.080</a> , <a href="https://www.wolframalpha.com/input/?i=2*r*tan%28a*x%2Bb%29*sec%5E2%28a*x%2Bb%29%28tan%5E2%28a*x%2Bb%29-y%29%5E2+with+x+%3D+0.3%2C+y%3D4.3%2C+a%3D20.832%2C+b%3D0.609%2C+r%3D0.25">    6.934</a>
-$\Big]$
-
-$$
-\boxed{a = 18.752 \text{ and } b = -6.325}
-$$
-
-</div>
-<div class = "workingout"><br><br><br><br><br><br><br><br></div>
-
 ## Answers
 
 <button id="showAnswerButton" type="button" onclick="displayAnswerButtons('block')">Show answer buttons</button>
