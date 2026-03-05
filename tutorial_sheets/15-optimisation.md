@@ -639,16 +639,16 @@ $$
 $$
 
 $$
-\frac{\partial C}{\partial a} = \frac{\partial}{\partial a} \Big(\tan^2(ax+b)-y(x)\Big)^2
+\frac{\partial C}{\partial a} = \frac{\partial}{\partial a} \frac{1}{2}\Big(\tan^2(ax+b)-y(x)\Big)^2
 $$
 
-<a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+a">$$= 2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2$$</a>
+<a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+a">Wolfram</a>
 
 $$
-\frac{\partial C}{\partial b} = \frac{\partial}{\partial b} \Big(\tan^2(ax+b)-y(x)\Big)^2
+\frac{\partial C}{\partial b} = \frac{\partial}{\partial b} \frac{1}{2}\Big(\tan^2(ax+b)-y(x)\Big)^2
 $$
 
-<a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+b">$$= 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2$$</a>
+<a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+b">Wolfram</a>
 
 $$
 \boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2, \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
