@@ -651,7 +651,7 @@ $$
 <a href="https://www.wolframalpha.com/input/?i=differentiate+%281%2F2%29%28tan%5E2%28ax%2Bb%29-y%29%5E2+wrt+b">Wolfram</a>
 
 $$
-\boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2, \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)^2\Bigg]}
+\boxed{\vec{J_C} = \Bigg[2x\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big), \hspace{4mm} 2\tan(ax+b)sec^2(ax+b)\Big(\tan^2(ax+b)-y\Big)\Bigg]}
 $$
 
 <br>
@@ -676,10 +676,10 @@ Note: click on the blue link to see Wolfram Alpha Code and the variables!
 
 To minimize cost, you need to go in the direction of steepest descent ($-\vec{J_C}$)
 
-Thus $a = 1 - (-11.350)$ and $b = 1 - 3.783$
+Thus $a = 1 - (-14.656)$ and $b = 1 - 4.885$
 
 $$
-\boxed{a = 12.350 \text{ and } b = -2.783}
+\boxed{a = 15.656 \text{ and } b = -3.885}
 $$
 
 </div>
