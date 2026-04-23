@@ -341,7 +341,7 @@ $$\frac{\partial{}u}{\partial{}x} = \frac{1}{y}, \frac{\partial{}v}{\partial{}x}
 Substitute all of these derivatives into the multivariate chain rule equation, <br>
 $$\frac{\partial{}f}{\partial{}x} = (6u^2-7v)(\frac{1}{y})+(-7u+2v)(-\frac{y^2}{x^2})$$ <br>
 Substitute $u$ and $v$, <br>
-$$\frac{\partial{}f}{\partial{}x}=(\frac{6x^2}{y^2}-\frac{7y^2}{x})(\frac{1}{y})+(-\frac{7x}{y}+\frac{2y^2}{x})(-\frac{y^2}{x})$$ <br>
+$$\frac{\partial{}f}{\partial{}x}=(\frac{6x^2}{y^2}-\frac{7y^2}{x})(\frac{1}{y})+(-\frac{7x}{y}+\frac{2y^2}{x})(-\frac{y^2}{x^2})$$ <br>
 $$\Rightarrow \frac{6x^2}{y^3} - \frac{7y}{x} + \frac{7y}{x} - \frac{2y^4}{x^3}$$ <br>
 Simplify, <br>
 $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
