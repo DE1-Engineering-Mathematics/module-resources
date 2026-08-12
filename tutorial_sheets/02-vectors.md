@@ -643,7 +643,7 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 \end{pmatrix}$ <br>
 $\overrightarrow{AX}$, $\overrightarrow{BX}$ and $\overrightarrow{CX}$ are radii of the circle which passes through $A$, $B$ and $C$. <br>
 $|\overrightarrow{AX}|^2 = |\overrightarrow{CX}|^2$ <br>
-$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu))^2 = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
+$(3+(2\lambda+3\mu))^2 + (4+(2\lambda+4\mu))^2 + (1+(-2\lambda+\mu))^2 = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
 $ 26 + 6(2\lambda + 3\mu) + 8(2\lambda + 4\mu) + 2(-2\lambda + \mu) = 0 $ <br>
 $ 26 + 24\lambda + 52\mu = 0,\quad (1)$ <br>
 $ |\overrightarrow{BX}|^2 = |\overrightarrow{CX}|^2$ <br>
@@ -662,7 +662,7 @@ Therefore, $\textbf{r} = \begin{pmatrix}
 \end{pmatrix} = \begin{pmatrix}
 -\frac{1}{2}\\-1\\\frac{1}{2}
 \end{pmatrix}$ <br>
-Therefore, the coordinates of the centre of the circle are $\boxed{(-\frac{1}{2}, -1, -\frac{1}{2})}$. <br>
+Therefore, the coordinates of the centre of the circle are $\boxed{(-\frac{1}{2}, -1, \frac{1}{2})}$. <br>
 The point X is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
 Considering point $C$, the radius $r$ is given by: <br>
 $ r = |\overrightarrow{CX}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
