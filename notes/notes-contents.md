@@ -148,7 +148,7 @@
 
 <br>
 
-If you are a converting the remaining topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
+When converting topics from the pdf to this webpage, here are some [things to look out for](conversion-guide).
 <br><br>
 
 ## <a id="about"></a>About the Course
@@ -162,9 +162,9 @@ These notes are not intended to be comprehensive (that is what the internet is f
 
 Learning maths is a very personal activity, with each student having their own approach; however, to really understand what’s going on, there is no way around putting in the work on your own, occasionally getting stuck and thinking your way out. That said, I really hope the notes, lectures, online videos, tutorial sheets and quizzes help to push you in the right direction and keep you motivated!
 <br><br>
-Every week, you will take a short non-credit quiz to help me (and you) understand how you’re getting on. There will also be non-credit tests after each 4-week block of the course with slightly harder questions. Your grade will be entirely determined from two 2.5-hour exams; one in January and the other in April. These test will be closed-book, but a calculator and formula sheet will be provided.
+Every week, there will be a short (non-credit) quiz available to help me (and you) understand how you’re getting on. Your module grade will be entirely determined from two 2.5-hour exams; one in January and the other in April. These test will be closed-book, but a calculator and formula sheet will be provided.
 <br><br>
-The course is two terms long and each week we will have 2 one hour lectures introducing the material. We will also have weekly tutorial sessions which will be 1.5 hours long. These sessions are primarily intended for you to ask the tutors questions about the material from the previous weeks and are not ideal for quite study. We will use Lambda Feedback to support the learning process, by running live quizzes.
+The course is two terms long and each week we will have 2 one hour lectures introducing the material. We will also have weekly tutorial sessions in addition to the DE1 general tutorials. In these sessions we will general explore some worked examples and also give you time to ask questions about the material from previous weeks. We will use Lambda Feedback to support the learning process by running quizzes..
 
 ### <a id="resources"></a>Further Resources
 KL Stroud and DJ Booth, _Engineering Mathematics_, 7th Ed., Macmillan, 2013 (Imperial library 510.246STR), is probably _the_ core text for 1st year Maths, although ML Boas, _Mathematical Methods in the Physical Sciences_, 3rd Ed., Wiley, 2006 (Imperial library: 530.15BOA) is a bit less wordy and goes into some more advanced topics as wells. 
