@@ -203,7 +203,7 @@ The key is **superposition**: because our equations are linear, we can add the m
 \mathbf{x}(t)=\mathbf{u}_1q_1(t)+\mathbf{u}_2q_2(t),
 \qquad
 \mathbf{x}(t)=
-\begin{bmatrix}x_1(t)\\x_2(t)\end{bmatrix}.
+\begin{bmatrix}x_1(t)\\ x_2(t)\end{bmatrix}.
 \]
 
 Each mode behaves like an independent harmonic oscillator at its own natural frequency:
