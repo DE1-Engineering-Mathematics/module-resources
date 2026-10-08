@@ -193,57 +193,81 @@ The figure below illustrates the mode shapes at these two characteristic frequen
 
 <br><br>
 
-## From eigenmodes to the full motion
+## <a id="full-motion"></a>10.4 From eigenmodes to the full motion
 
-Finding the natural frequencies and eigenvectors tells us how the system *can* oscillate. But how will it move if we start the masses at particular positions, with particular velocities?
+Finding the natural frequencies and eigenvectors tells us how the system can oscillate. To determine its actual motion, we also need the initial positions and velocities.
 
-The key is **superposition**: because our equations are linear, we can add the motions of the individual modes. Calling the two eigenvectors \(\mathbf{u}_1\) and \(\mathbf{u}_2\), the full solution is
+Because the equations are linear, we can add the motions of the individual modes. Calling the two eigenvectors $\mathbf{u}_1$ and $\mathbf{u}_2$, the full solution is
 
-\[
+$$
 \mathbf{x}(t)=\mathbf{u}_1q_1(t)+\mathbf{u}_2q_2(t),
 \qquad
 \mathbf{x}(t)=
-\begin{bmatrix}x_1(t)\\ x_2(t)\end{bmatrix}.
-\]
+\begin{bmatrix}
+x_1(t)\\
+x_2(t)
+\end{bmatrix}.
+$$
 
 Each mode behaves like an independent harmonic oscillator at its own natural frequency:
 
-\[
-q_j(t)=a_j\cos(\omega_jt)+b_j\sin(\omega_jt),
+$$
+q_j(t)=a_j\cos(\omega_j t)+b_j\sin(\omega_j t),
 \qquad j=1,2.
-\]
+$$
 
-The eigenvector fixes the relative motion of the masses within that mode; the constants \(a_j\) and \(b_j\) determine its amplitude and phase.
+The eigenvector fixes the relative motion of the masses within that mode; the constants $a_j$ and $b_j$ determine its amplitude and phase.
 
-To find these constants, specify both the initial positions \(\mathbf{x}_0=\mathbf{x}(0)\) and initial velocities \(\mathbf{v}_0=\dot{\mathbf{x}}(0)\). Substituting \(t=0\) into the solution and its derivative gives
+Suppose the initial positions and velocities are $\mathbf{x}(0)=\mathbf{x}_0$ and $\dot{\mathbf{x}}(0)=\mathbf{v}_0$. Evaluating the solution and its derivative at $t=0$ gives
 
-\[
+$$
 \mathbf{x}_0=a_1\mathbf{u}_1+a_2\mathbf{u}_2,
-\qquad
+$$
+
+$$
 \mathbf{v}_0=\omega_1b_1\mathbf{u}_1+\omega_2b_2\mathbf{u}_2.
-\]
+$$
 
-These are two pairs of simultaneous equations. Defining the matrix of eigenvectors \(U=[\,\mathbf{u}_1\;\mathbf{u}_2\,]\), we can solve them using
+These are two pairs of simultaneous equations. Placing the eigenvectors in the columns of a matrix,
 
-\[
-\begin{bmatrix}a_1\\a_2\end{bmatrix}=U^{-1}\mathbf{x}_0,
-\qquad
-\begin{bmatrix}\omega_1b_1\\\omega_2b_2\end{bmatrix}
+$$
+U=
+\begin{bmatrix}
+\mathbf{u}_1 & \mathbf{u}_2
+\end{bmatrix},
+$$
+
+we obtain
+
+$$
+\begin{bmatrix}
+a_1\\
+a_2
+\end{bmatrix}
+=U^{-1}\mathbf{x}_0,
+$$
+
+$$
+\begin{bmatrix}
+\omega_1b_1\\
+\omega_2b_2
+\end{bmatrix}
 =U^{-1}\mathbf{v}_0.
-\]
+$$
 
-For the example above, using the rounded eigenvectors,
+For the example above, using the rounded eigenvectors, the positions are
 
-\[
+$$
 x_1(t)\approx-3.93q_1(t)+0.76q_2(t),
-\qquad
+$$
+
+$$
 x_2(t)=q_1(t)+q_2(t),
-\]
+$$
 
-with \(\omega_1\approx3.24\) and \(\omega_2\approx1.07\ \mathrm{rad\,s^{-1}}\).
+with natural frequencies $\omega_1\approx3.24$ and $\omega_2\approx1.07$ radians per second.
 
-So the recipe is: express the initial positions and velocities in terms of the eigenmodes, let each mode oscillate at its own frequency, then add their contributions to recover the position of each mass. If the masses are released from rest, both sine coefficients vanish. Usually both modes are excited, so the resulting motion contains both natural frequencies.
-
+So the procedure is to express the initial positions and velocities in terms of the eigenmodes, let each mode oscillate at its own frequency, and add their contributions. If the masses are released from rest, both sine coefficients vanish. In general, both modes contribute to the motion.
 ## <a id="generalising"></a>10.4 Generalising
 Even for this two mass system, working through the algebra can be quite arduous, but at least it represents something physical, so you should get some clues if you go too wrong (no complex eigenvalues for simple linear systems, for example!). What about systems with more degrees of freedom? <br><br>
 
