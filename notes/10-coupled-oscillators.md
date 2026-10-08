@@ -183,7 +183,7 @@ x_1\\x_2
 =0$$
 
 <br><br>
-which gives the eigenvector $\textbf{x}_1=\begin{bmatrix}-3.93 \newline 1\end{bmatrix}$. Similarly, for the second eigenvalue, we get the eigenvector $\textbf{x}_2=\begin{bmatrix}0.76 \newline 1\end{bmatrix}$, but what do this vectors mean?<br><br>
+which gives the eigenvector $\textbf{u}_1=\begin{bmatrix}-3.93 \newline 1\end{bmatrix}$. Similarly, for the second eigenvalue, we get the eigenvector $\textbf{u}_2=\begin{bmatrix}0.76 \newline 1\end{bmatrix}$, but what do this vectors mean?<br><br>
 
 Delightfully, it tells us amplitudes of oscillation of the two masses at that frequency! So, at $\omega=3.24 \text{s}^{-1}$,  the first mass will not only be moving more than the second mass, but also in the opposite direction (ie 180$^\circ$ out of phase); and then at $\omega=1.07$ s$^{-1}$, the first mass will have a smaller amplitude than the second, but this time they will be moving in the same direction (ie in phase with each other).<br><br>
 
