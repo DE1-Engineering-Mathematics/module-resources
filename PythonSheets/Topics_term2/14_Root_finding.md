@@ -54,7 +54,7 @@ secant(x0,x1,e,N)
 <details>
 <summary>Try it out</summary>
 
-<iframe src="https://trinket.io/embed/python3/35fa51573f?outputOnly=true&runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=matplotlib&theme=light&layout=stacked&code=ZGVmIGYoeCk6CiAgICByZXR1cm4geCoqMi0zKngrMQoKZGVmIHNlY2FudCh4MCx4MSxlLE4pOgogICAgc3RlcCA9IDEKICAgIGNvbmRpdGlvbiA9IFRydWUKICAgIHdoaWxlIGNvbmRpdGlvbjoKICAgICAgICBpZiBmKHgwKSA9PSBmKHgxKToKICAgICAgICAgICAgcHJpbnQoJ0RpdmlkZSBieSB6ZXJvIGVycm9yIScpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgCiAgICAgICAgeDIgPSB4MCAtICh4MS14MCkqZih4MCkvKCBmKHgxKSAtIGYoeDApICkgCiAgICAgICAgeDAgPSB4MQogICAgICAgIHgxID0geDIKICAgICAgICBzdGVwID0gc3RlcCArIDEKICAgICAgICAKICAgICAgICBpZiBzdGVwID4gTjoKICAgICAgICAgICAgcHJpbnQoJ05vdCBDb252ZXJnZW50IScpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgCiAgICAgICAgY29uZGl0aW9uID0gYWJzKGYoeDIpKSA-IGUKICAgIHByaW50KCdSb290IGlzOiAnLCB4MikKCngwID0gLTIgIyBHdWVzcyAxCngxID0gMyAjIEd1ZXNzIDIKZSA9IDAuMDAwMSAjIFByZWNpc2lvbgpOID0gMTAwMCAjIE1heCBudW1iZXIgb2YgdHJpYWxzCgpzZWNhbnQoeDAseDEsZSxOKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 </details>
 
@@ -75,7 +75,7 @@ root = optimize.newton(f, 1.5)
 <details>
 <summary>Try it out</summary>
 
-<iframe src="https://trinket.io/embed/python3/c75bba4d9d?outputOnly=true&runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=matplotlib&theme=light&layout=stacked&code=ZnJvbSBzY2lweSBpbXBvcnQgb3B0aW1pemUKCmRlZiBmKHgpOgogIHJldHVybiAoeCoqMyAtIDEpIAogIApyb290ID0gb3B0aW1pemUubmV3dG9uKGYsIDEuNSkKcHJpbnQocm9vdCkK&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 </details>
 
@@ -110,7 +110,7 @@ print(x, f(x))
 <details>
 <summary>Try it out</summary>
 
-<iframe src="https://trinket.io/embed/python3/2f05b6a541?outputOnly=true&runOption=run&start=result" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<figure style="margin:0;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden"><iframe src="https://coddy.tech/embed-editor?lang=matplotlib&theme=light&layout=stacked&code=ZGVmIHNhbWVzaWduKGEsIGIpOgogICAgcmV0dXJuIGEgKiBiID4gMAoKZGVmIGJpc2VjdChmdW5jLCBsb3csIGhpZ2gpOgogICAgYXNzZXJ0IG5vdCBzYW1lc2lnbihmdW5jKGxvdyksIGZ1bmMoaGlnaCkpCgogICAgZm9yIGkgaW4gcmFuZ2UoNTQpOgogICAgICAgIG1pZHBvaW50ID0gKGxvdyArIGhpZ2gpIC8gMi4wCiAgICAgICAgaWYgc2FtZXNpZ24oZnVuYyhsb3cpLCBmdW5jKG1pZHBvaW50KSk6CiAgICAgICAgICAgIGxvdyA9IG1pZHBvaW50CiAgICAgICAgZWxzZToKICAgICAgICAgICAgaGlnaCA9IG1pZHBvaW50CgogICAgcmV0dXJuIG1pZHBvaW50CgpkZWYgZih4KToKICAgIHJldHVybiB4KiozIC0gNip4KioyICsgMTEqeCAtIDYKCnggPSBiaXNlY3QoZiwgMi41LCA0KQpwcmludCh4LCBmKHgpKQo&credit=0" width="100%" height="420" style="display:block;border:0;width:100%" title="Python code editor by Coddy" loading="lazy"></iframe><figcaption style="box-sizing:border-box;padding:5px 12px;font:11px/1.4 system-ui,-apple-system,sans-serif;color:#64748b;background:#f1f5f9;border-top:1px solid #e2e8f0;text-align:right" dir="ltr">Powered by <a href="https://coddy.tech/embed" target="_blank" rel="noopener" style="color:#0077ff;font-weight:600;text-decoration:none;">Coddy</a></figcaption></figure>
 
 </details>
 
