@@ -524,7 +524,7 @@ x + 3y + z &= 0  \newline
 
 $\Rightarrow{}\quad detA = 0 \quad\Rightarrow{}\quad$ singular (not invertible) <br>
 
-$\Rightarrow{}\quad \boxed{x/y=4, \quad y/z=1/7}$</div>
+$\Rightarrow{}\quad \boxed{x/y=4, \quad y/z=-1/7}$</div>
 <div class = "workingout"><br><br><br><br><br><br><br><br></div>
 
 (c) $\begin{align}
